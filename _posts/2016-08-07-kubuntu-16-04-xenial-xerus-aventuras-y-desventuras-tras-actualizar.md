@@ -151,7 +151,7 @@ deleting=false<br />
 <hr />
 <blockquote><p>
   Si tienes cualquier duda, comentario, sugerencia, o incluso amenaza:<br />
-  Puedes cantactarme en: <a href="http://es.linkedin.com/in/marcosramirezparicio/">LinkedIn</a>, <a href="http://www.twitter.com/ImMarcosRamirez">@ImMarcosRamirez</a>, o <a href="mailto://marcosramirez@gmail.com">E-Mail</a>.<br />
+  Puedes cantactarme en: <a href="http://es.linkedin.com/in/marcosramirezparicio/">LinkedIn</a>, <a href="http://www.twitter.com/ImMarcosRamirez">@ImMarcosRamirez</a>.<br />
   (<strong>Por supuesto, también estudiaré ofertas laborales , consultorías, etc..</strong>)</p>
 <p>  <strong><em>Si te ha resultado interesante el post, compártelo :)</em></strong>.</p>
 <p>  A día de hoy, también agradeceré que me ayudes en <a href="http://viviremprendiendo.wordpress.com/2014/02/17/desvelando-unnamed/">mi aventura empresarial</a>, puedes hacerlo de manera sencilla:</p>
