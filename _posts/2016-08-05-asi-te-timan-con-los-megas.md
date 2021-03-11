@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Así te timan con los "megas"
+title: Así te timan con los megas
 date: 2016-08-05 14:26:23.000000000 +02:00
 status: publish
 categories: [Informática]
