@@ -1,0 +1,51 @@
+---
+layout: post
+title: Añadir AUTOMÁTICAMENTE nuevos videos de subscripciones de YouTube a la lista
+  Ver Más Tarde (Watch It Later)
+date: 2016-09-10 08:31:36.000000000 +02:00
+type: post
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories:
+- Informática
+- Hacks
+tags:
+- add
+- it
+- later
+- subscription
+- video
+- watch
+- youtube
+permalink: "/anadir-automaticamente-nuevos-videos-de-subscripciones-de-youtube-a-la-lista-ver-mas-tarde-watch-it-later/"
+---
+DEPRECADO
+
+En 2021 se deshabilitó la funcionalidad que permitía funcionar a este Script
+
+<p>Todo el que me conoce, sabe que soy un maniático de la automatización, y de ahorrar tiempo (odio perder tiempo en tareas repetitivas y absurdas).</p>
+<p>Y, una de las cosas que más me molestan de YouYube, es la PÉSIMA interfaz/UX para ver vídeos de las subscripciones.<br />
+Y, sobretodo que no hagan uso del WatchItLater para las mismas.</p>
+<p><!--more--></p>
+<p>Por eso, decidí buscar la forma de automatizar el proceso, que, aunque pretendo hacer un WebApp, ahora mismo, solo es <a href="https://script.google.com/d/1rTKIvzRZbovBxnteahBbKqPXTdDboYMXJIv6Y073YiNe1qlSe7jaWc9i/edit?usp=sharing" target="_blank">un GoogleScript</a>.</p>
+<p>Lamentablemente, los GScripts son algo complejos para los que no sois informáticos, pero espero que siguiendo estos pasos, podáis instalarlo sin problemas, mientras saco tiempo (y servidor) para hacer un WebApp (de click en aceptar y listo).</p>
+<p>Los pasos a seguir, son:</p>
+<ol>
+<li>ASEGURATE de que YouTube te envía mail cada vez que el canal sube un nuevo vídeo</li>
+<li>Copia el <a href="https://script.google.com/d/1rTKIvzRZbovBxnteahBbKqPXTdDboYMXJIv6Y073YiNe1qlSe7jaWc9i/edit?usp=sharing">Script</a> en tu Google Drive</li>
+<li>Abrelo (se abrirá en el editor de Scripts).<img class="alignnone size-full wp-image-420" src="{{ site.baseurl }}/assets/2016/09/videosubscription-to-watch-it-later-script-open.jpeg" alt="videosubscription-to-watch-it-later-script-open" width="1088" height="405" /></li>
+<li>Haz click en Recursos-&gt;Servicios Avanzados de Google, verás algo así:<img class="alignnone size-full wp-image-424" src="{{ site.baseurl }}/assets/2016/09/videosubscription-to-watch-it-later-servicios-avanzados-de-google.jpeg" alt="videosubscription-to-watch-it-later-servicios-avanzados-de-google" width="1081" height="740" /></li>
+<li>activa "Gmail API" y  "YouTube Data API".</li>
+<li>En la parte de abajo, haz click en "Consola deGoogle Developers",  se abrirá una ventana como esta:<img class="alignnone size-full wp-image-436" src="{{ site.baseurl }}/assets/2016/09/panel-de-control-videosubscription-to-watch-it-google-apis.jpeg" alt="panel-de-control-videosubscription-to-watch-it-google-apis" width="1279" height="221" /></li>
+<li>En el cuadro de búsqueda, busca las mismas APIs y actívalas (habilítalas) verás algo parecido a esto, aunque te dirá habilitar, en vez de inhabilitar :)<img class="alignnone size-full wp-image-435" src="{{ site.baseurl }}/assets/2016/09/administrador-de-apis-videosubscription-to-watch-it-habilitar-api.jpeg" alt="administrador-de-apis-videosubscription-to-watch-it-habilitar-api" width="1273" height="109" /></li>
+<li>Cierra la ventana de "Google Developers Console"</li>
+<li>Haz click en ACEPTAR (del editor de Scripts, donde está el ON/OFF</li>
+<li>En el editor de Scripts, selecciona "AddNewVideosToWatchItLater"<img class="alignnone size-full wp-image-443" src="{{ site.baseurl }}/assets/2016/09/videosubscription-to-watch-it-later-click-add-new-video.jpeg" alt="VideoSubscription To Watch It Later (click add new video).jpeg" width="706" height="225" /></li>
+<li>Haz click en Ejecutar y ejecuta "AddAddNewVideosToWatchLaterTrigger"</li>
+<li>Haz click en Guardar</li>
+</ol>
+<p>&nbsp;</p>
+<p>Y... ya está, ahora, tu lista "Ver Más Tarde", se llenará automáticamente con los vídeos de tus subscripciones, y si eres como yo, podrás sentarte cómodamente los findes de semana a verlos uno tras otro simplemente con un click :).</p>
+<p>Basado en/Fuente: <a href="https://www.reddit.com/r/youtube/comments/2x3ew4/automatically_add_new_subscription_videos_to_the/">DiRaven on Reddit</a></p>
