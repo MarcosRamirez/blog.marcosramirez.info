@@ -51,8 +51,6 @@ Y luego, recordé que existen generadores de páginas estáticas como [HUGO](htt
 ### Jekyll
 
 Jekyll está desarrollado por uno de los fundadores de GitHub, por lo que su integración, está más que garantizada y optimizada.
-Y, al ser ambos
-
 
 ### MarkDown
 
@@ -72,6 +70,60 @@ Pero dado que Jekyll está integrado con GitHub, esto significa que con una simp
 Está claro que WordPress es más potente gracias a sus plugins (en tiempo real), Jekyll tambien tiene plugins, pero en cuanto a simplicidad a la hora de publicar, crear etiquetas, secciones, y, en definitiva a la hora de escribir, o crear, contenido, Jekyll es mucho más rápido y eficaz, al menos, para mí.
 
 Si, bien es cierto que Jekyll quizá puede ser más complejo de poner en marcha para un usuario medio, para un desarrollador, sin duda, Jekyll es una opción a tener en cuenta.
+
+
+
+## Problemas encontrados al migrar
+
+A continuación os detallo todos los problemas que me he encontrado, y encontraré al migrar desde Wordpress.com.
+
+### Programar posts en el tiempo
+
+Es lo primero que eché en falta, y lo [solucioné fácilmente como programar posts futuros](https://blog.marcosramirez.info/Como-programar-posts-con-Jekyll-en-GitHub-pages/), tal explico en [este post](https://blog.marcosramirez.info/Como-programar-posts-con-Jekyll-en-GitHub-pages/)
+
+### El proceso de importación de posts es bastante "Meh"
+
+Para importar los posts, [seguí los pasos que indican en la web oficial](https://import.jekyllrb.com/docs/wordpressdotcom/), y me encontré con lo siguiente:
+
+1. El script descarga las imágenes automáticamente (aunque me puso muchas imágenes con nombres del tipo file.jpg?w=123)
+2. Los posts los importa en formato HTML
+3. Al importar en HTML me generó conflictos con comillas, y algunos caracteres especiales.
+
+### No hay comentarios
+
+Esto lo solventé con [Disqus](https://disqus.com/){target="_blank"}, aunque... no estoy demasiado contento.
+
+### No hay soporte para Twitter cards
+
+Es lo último que he solucionado, simplemente añadiendo lo sigiente al archivo head.html:
+
+```html
+<!-- Twitter cards -->
+<meta name="twitter:site"    content="@{{ site.twitter_username }}">
+<meta name="twitter:creator" content="@{{ page.author }}">
+<meta name="twitter:title"   content="{{ page.title }}">
+
+{% if page.summary %}
+<meta name="twitter:description" content="{{ page.summary }}">
+{% else %}
+<meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+
+{% if page.image %}
+<meta name="twitter:card"  content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
+{% else %}
+<meta name="twitter:card"  content="summary">
+<meta name="twitter:image" content="{{ site.title_image }}">
+{% endif %}
+<!-- end of Twitter cards -->
+```
+
+Y luego poniendo las variables correspondientes en el config y en cada post.
+
+
+Y... de monmento, esto es todo...
+
 
 ---
 [^1]: El tráfico en servidores de internet, se paga, no es como en tu conexión de fibra de casa, que tiene un coste fijo.
