@@ -96,7 +96,7 @@ Y le decís ¿qué opinas de esta functión?
 En esas 10 líneas de código, ya te da para saber si la persona sabe desde clean code, hasta sentido común, pasando por cosas como arquitecturas, y el montón de cosas que se pueden decir de ese código (**de mierda, que no hay una sola línea correcta, por si alguien se lo pregunta**).
 
 
-Y, creo que no me dejo nada en el tintero...
+Y, creo que no me dejo nada en el tintero... y de ser así, volveré a la carga con otro post.
 
 Recuerda, que espero tus comentarios, y opiniones, siempre desde el respeto, igual que espero que compartas el post si te ha resultado interesante.
 
