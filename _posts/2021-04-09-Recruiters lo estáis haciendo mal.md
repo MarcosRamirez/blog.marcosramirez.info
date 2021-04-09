@@ -1,5 +1,5 @@
 ---
-title: Recruiters: Lo estáis haciendo mal
+title: Recruiters&#58; Lo estáis haciendo mal
 author: Marcos Ramírez
 date: 2021-04-09 20:50:00 +0100
 categories: [Informática, Empleo]
