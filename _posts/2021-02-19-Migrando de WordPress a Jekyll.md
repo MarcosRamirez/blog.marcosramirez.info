@@ -100,6 +100,7 @@ Esto lo solventé con [Disqus](https://disqus.com/){target="_blank"}, aunque... 
 Es lo último que he solucionado, simplemente añadiendo lo sigiente al archivo head.html:
 
 ```html
+{% raw %}
 <!-- Twitter cards -->
 <meta name="twitter:site"    content="@{{ site.twitter_username }}">
 <meta name="twitter:creator" content="@{{ page.author }}">
@@ -119,6 +120,7 @@ Es lo último que he solucionado, simplemente añadiendo lo sigiente al archivo 
 <meta name="twitter:image" content="{{ site.title_image }}">
 {% endif %}
 <!-- end of Twitter cards -->
+{% endraw %}
 ```
 
 Y luego poniendo las variables correspondientes en el config y en cada post.
