@@ -6,6 +6,7 @@ categories: [Informática, programación, Formación]
 tags: [junior, programación, conocimientos, básicos, aprender, programar, cursos, camp, codecamp]
 pin: false
 toc: true
+excerpt: En este post, intentaré explicarte todo lo que, a mi parecer, debería saber un programador Junior, tanto técnicamente, como sobre otros temas como el ambiente laboral, responsabilidades, etc..
 ---
 
 # Disclaimer

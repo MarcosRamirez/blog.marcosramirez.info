@@ -7,7 +7,7 @@ tags: [Configurar, Jekyll, posts, programados, diferidos, deferred, posts]
 pin: false
 toc: true
 excerpt_separator: <!--more-->
-excerpt: Excerpt
+excerpt: Te explico como programar posts con Jekyll, para que se publiquen el día y hora que tu quieras.
 permalink: /:title/ # title is filename NOT title in YAML
 ---
 
