@@ -29,7 +29,7 @@ Esto lo voy a dividir en varios ocasiones
 
 ## Dar poca o nula información
 
-Estoy muy cansado de ver ofertas en las que no se dice absolutamente nada del proyecto, todo ofertas del rollo "importante empresa del sector XXXX" y luego la carta a los reyes magos de lo que quieren que sepa el programador en cuestión y ya[^2] .
+Estoy muy cansado de ver ofertas en las que no se dice absolutamente nada del proyecto, todo ofertas del rollo "importante empresa del sector XXXX" y luego la carta a los reyes magos de lo que quieren que sepa el programador en cuestión y ya [^1] .
 
 ## Hacer preguntas cuya respuesta está en el CV del candidato
 
@@ -50,11 +50,11 @@ En este punto, pongamos que ya has invertido **10** minutos en la oferta laboral
 # La "primera llamada" (0,5/1 hora más)
 
 Yo ya asumo que la primera persona que me llama, no tiene conocimiento técnico alguno, y que muy probablemente sea una pérdida de tiempo.
-Así que directamente suelo tomar el control de la conversación, y llevarla por el lado que me interesa, que es sacar información de la empresa, y la oferta en sí (no a nivel técnico, claro, que aquí mi interlocutor no tendrá ni idea [^3]), así que, si tiene preguntas, se las contesto lo más escueto posible, antes o después de acribillarle yo a preguntas sobre el proyecto, el ambiente, la cultura, y todo lo que crea oportuno.
+Así que directamente suelo tomar el control de la conversación, y llevarla por el lado que me interesa, que es sacar información de la empresa, y la oferta en sí (no a nivel técnico, claro, que aquí mi interlocutor no tendrá ni idea [^2]), así que, si tiene preguntas, se las contesto lo más escueto posible, antes o después de acribillarle yo a preguntas sobre el proyecto, el ambiente, la cultura, y todo lo que crea oportuno.
 
 # Te contamos el proyecto en profundidad (60/120 minutos más)
 
-Una vez superada la primera llamada, suele venir la llamada con el jefe de proyecto, que tampoco suele tener mucho conocimiento técnico[^4], o de un comercial.
+Una vez superada la primera llamada, suele venir la llamada con el jefe de proyecto, que tampoco suele tener mucho conocimiento técnico[^3], o de un comercial.
 Básicamente, es una entrevista de +-1 hora, en la que te cuentan, de nuevo, la historia de la empresa, y el proyecto, los problemas que tienen, y lo que quieren obtener a futuro.
 
 # Entrevista técnica (1/2 horas más)
@@ -67,7 +67,7 @@ Ya, por fín, te sientas con alguien que habla tu idioma, y que, a la hora de la
 
 Desde ya, digo que no estoy ni a favor, ni en contra de los tests de conocimientos, pruebas técnicas o como lo quieras llamar, siempre que tengamos claro lo siguiente:
 
-1. Hablo de pruebas en las que te piden que, por ejemplo, desarrolles un carrito de la compra[^1], o cualquier otra cosa que lleve una cantidad de tiempo importante.
+1. Hablo de pruebas en las que te piden que, por ejemplo, desarrolles un carrito de la compra[^4], o cualquier otra cosa que lleve una cantidad de tiempo importante.
 2. Se me pague por el tiempo que emplee en realizar dicha prueba
 3. Se elimine el periodo de prueba del contrato,dado que ya he pasado la prueba técnica
 
@@ -102,11 +102,11 @@ Recuerda, que espero tus comentarios, y opiniones, siempre desde el respeto, igu
 
 
 
-[^1]: Ejemplo real, me pidieron esto para una StartUp de comercio online... cosa nada sospechosa, ¿verdad?
+[^1]: Hay quien se queja también de que no indican salarios, a mi esto me da igual, entiendo que todo salario es negociable, y ya me encargo yo de preguntar lo primero cual es la franja para no perder tiempo.
+[^2]: Hoy mismo me dice "y control de versiones sabes" no le dejo terminal, y le suelto "desde subversion, diría que todos", y me responde "pero git sabes?"
+[^3]: ** Disclaimer**: En muchos casos, sobretodo últimamnente, en este punto, suele ser una entrevista conjunta con el director del proyecto y al menos un responsable técnico, lo cual es de agradecer., pero voy a centrarme en los que no es así.
+[^4]: Ejemplo real, me pidieron esto para una StartUp de comercio online... cosa nada sospechosa, ¿verdad?
      El uso de herramientas como [Codility](https://codility.com/) también se está poniendo de moda, para mí, aplica en el mismo caso
-[^2]: Hay quien se queja también de que no indican salarios, a mi esto me da igual, entiendo que todo salario es negociable, y ya me encargo yo de preguntar lo primero cual es la franja para no perder tiempo.
-[^3]: Hoy mismo me dice "y control de versiones sabes" no le dejo terminal, y le suelto "desde subversion, diría que todos", y me responde "pero git sabes?"
-[^4]: ** Disclaimer**: En muchos casos, sobretodo últimamnente, en este punto, suele ser una entrevista conjunta con el director del proyecto y al menos un responsable técnico, lo cual es de agradecer., pero voy a centrarme en los que no es así.
 
 
 
