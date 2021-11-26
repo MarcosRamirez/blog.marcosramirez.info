@@ -4,7 +4,7 @@ author: Marcos Ramírez
 date: 2021-02-19 10:34:00 +0100
 categories: [Informática, Jekyll]
 tags: [jekyll, wordpress, migración]
-pin: true
+pin: false
 toc: true
 image: /assets/img/headers/wp2jekyll.png
 summary: Te explico mis motivos, mis problemas (y soluciones) al migrar de wordpress.com a Jekyll, espero que te sea útil
