@@ -3,7 +3,7 @@ title: Bancos y Fintechs ¿tan dificil es hacer esto?
 author: Marcos Ramírez
 date: 2021-11-29 8:50:00 +0100
 categories: [Finanzas]
-tags: [finanzas, automatica, transferencia, bancaria, automatización, herramientas, gestión]
+tags: [finanzas, automatica, transferencia, bancaria, automatización, herramientas, gestión, porcentajes, inteligente, automático, automática]
 pin: false
 toc: true
 excerpt: Es de sobra conocido que la educación financiera en este pais, brilla por su ausencia, pero las herramientas para gestionar finanzas, por parte de la banca, también.
