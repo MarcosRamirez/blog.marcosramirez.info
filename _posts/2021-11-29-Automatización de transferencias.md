@@ -10,6 +10,8 @@ excerpt: Es de sobra conocido que la educación financiera en este pais, brilla 
 permalink: /:title/ # title is filename NOT title in YAML
 ---
 
+![Transferencias Automáticas](/assets/img/headers/transferenciasautomaticas.jpg)
+
 *Disclaimer*: Sé que [N26](https://n26.com/r/marcosr8764) ofrece algo parecido a esto en sus planes premium, pero:
 1. Solo lo ofrece entre sus espacios (no tienen IBAN propio)
 2. Solo lo ofrece en sus cuentas premium (mínimo 4,9€ al mes)  
