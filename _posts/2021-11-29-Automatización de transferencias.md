@@ -2,6 +2,7 @@
 title: Bancos y Fintechs &iquest;tan dificil es hacer esto?
 author: Marcos Ramírez
 date: 2021-11-29 8:50:00 +0100
+image: /assets/img/headers/transferenciasautomaticas.jpg
 categories: [Finanzas]
 tags: [finanzas, automatica, transferencia, bancaria, automatización, herramientas, gestión, porcentajes, inteligente, automático, automática]
 pin: false
