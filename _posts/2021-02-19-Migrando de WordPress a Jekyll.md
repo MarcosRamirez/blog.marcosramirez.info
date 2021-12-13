@@ -7,7 +7,7 @@ tags: [jekyll, wordpress, migración]
 pin: false
 toc: true
 image: /assets/img/headers/wp2jekyll.png
-summary: Te explico mis motivos, mis problemas (y soluciones) al migrar de wordpress.com a Jekyll, espero que te sea útil
+excerpt: Te explico mis motivos, mis problemas (y soluciones) al migrar de wordpress.com a Jekyll, espero que te sea útil
 excerpt_separator: <!--more-->
 permalink: /:title/
 ---
