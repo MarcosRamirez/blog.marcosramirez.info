@@ -16,7 +16,7 @@ permalink: /:title/ # title is filename NOT title in YAML
 *Disclaimer*: Sé que [N26](https://n26.com/r/marcosr8764) ofrece algo parecido a esto en sus planes premium, pero:
 1. Solo lo ofrece entre sus espacios (no tienen IBAN propio, ni puedes transferir a otro IBAN/Cuenta)
 2. Solo lo ofrece en sus cuentas premium (mínimo 4,9€ al mes)  
-
+---
 
 
 Creo que todos los que me conocéis, sabéis de mi pasión por la automatización, gestión del tiempo, etc..
