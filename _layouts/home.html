@@ -52,11 +52,13 @@ layout: page
     <div class="post-content">
       <p>
         <img src="{{ post.image }}" alt="{{ post.title }} image">
-        {{ post.excerpt}}
-        {% comment %}
+          {% comment %}
           {% include no-linenos.html content=post.content %}
           {{ content | markdownify | strip_html | truncate: 200 }}
         {% endcomment %}
+      </p>
+      <p>
+        {{ post.excerpt }}
       </p>
     </div>
 
