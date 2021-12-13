@@ -4,14 +4,14 @@ author: Marcos Ramírez
 date: 2021-12-13 18:50:00 +0100
 image: /assets/img/headers/default.jpg
 categories: [Informática]
-tags: [timan, megas, velocidad, internet, teléfonica, movistar, orange, yoigo]
+tags: [timan, megas, velocidad, internet, teléfonica, movistar, orange, yoigo, precio, caro, bajar, velocidad]
 pin: false
 toc: true
 excerpt: En este tercer post sobre los timos con los "megas", hablaremos de velocidades de conexión que necesitas, y precios, seguro que te llevarás una sorpresa.
 permalink: /:title/ # title is filename NOT title in YAML
 excerpt_separator: <!--more-->
 ---
-  
+
 ![Post Header](/assets/img/headers/default.jpg)
 
 Este es el tercer, y espero que último post sobre los timos con las conexiones a internet, en el repasaremos rápidamente que velicidad de conexión
