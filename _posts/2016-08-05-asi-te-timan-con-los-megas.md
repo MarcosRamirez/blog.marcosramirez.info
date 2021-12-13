@@ -7,6 +7,8 @@ categories: [Informática]
 tags: [fibra, mega, megas, operadoras, timo]
 permalink: "/Asi-te-timan-con-los-megas/"
 toc: true
+image: /assets/img/headers/default.jpg
+excerpt: Es sorprendente la cantidad de getne que no sabe como funciona la velocidad de internet.
 ---
 <p>&nbsp;</p>
 <p>&nbsp;</p>
