@@ -19,10 +19,10 @@ necesitas, que seguro que más de uno se sorprende, y sobretodo, de los precios,
 
 # Cuanta velocidad necesitas para...
 
-Video conferencia: 1Mbs (por participante)
-Streaming en HD: 5Mbs
-Streaming 4K: 25Mbs
-Gaming: 10Mbs
+- Video conferencia: 1Mbs (por participante)
+- Streaming en HD: 5Mbs
+- Streaming 4K: 25Mbs
+- Gaming: 10Mbs
 
 Entonces, pongamos por ejemplo, una familia de 8 personas, si, una familia de OCHO MIEMBROS, que claro, como son tantos, tienen 600Mbs, o
 incluso 1000Mbs... pero veamos que hace esta familia:
