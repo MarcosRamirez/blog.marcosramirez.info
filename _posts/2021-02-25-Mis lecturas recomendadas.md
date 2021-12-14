@@ -1,5 +1,6 @@
 ---
 title: Mis recomendaciones, libros, blogs, películas, canales...
+slug: {{ post.title | slugify }}
 author: Marcos Ramírez
 date: 2021-02-25 21:00:00 +0100
 categories: [Personal, Lectura]
@@ -7,8 +8,7 @@ tags: [libros, recomendados, recomendaciones, lectura, programación, informáti
 pin: true
 toc: true
 excerpt: Aquí encontrarás mis recomendaciones de lectura, libros, blogs, papers, etc... y, por supuesto, espero vuestras recomendaciones, tanto literatura técnica (informática), como novelas.
-slugHack: {{ post.title | slugify }}
-permalink: /:slugHack # title is filename NOT title in YAML
+permalink: /:slug/ # title is filename NOT title in YAML
 image: /assets/img/headers/recomendaciones.png
 ---
 ![Post Header](/assets/img/headers/recomendaciones.png)
