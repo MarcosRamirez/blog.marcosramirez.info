@@ -7,7 +7,8 @@ tags: [libros, recomendados, recomendaciones, lectura, programación, informáti
 pin: true
 toc: true
 excerpt: Aquí encontrarás mis recomendaciones de lectura, libros, blogs, papers, etc... y, por supuesto, espero vuestras recomendaciones, tanto literatura técnica (informática), como novelas.
-permalink: /:title/ # title is filename NOT title in YAML
+slugHack: {{ page.title | slugify }}
+permalink: /:slugHack/ # title is filename NOT title in YAML
 ---
 
 Una de las cosas que mis padres, bueno, sobre todo mi madre, me inculcaron de niño, fué la lectura.
