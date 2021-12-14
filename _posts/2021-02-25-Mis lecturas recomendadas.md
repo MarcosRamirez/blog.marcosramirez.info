@@ -1,6 +1,6 @@
 ---
 title: Mis recomendaciones, libros, blogs, películas, canales...
-slug: {{ post.title | slugify }}
+slug: {{ title | slugify }}
 author: Marcos Ramírez
 date: 2021-02-25 21:00:00 +0100
 categories: [Personal, Lectura]
