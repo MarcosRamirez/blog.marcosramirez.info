@@ -9,7 +9,9 @@ toc: true
 excerpt: Aquí encontrarás mis recomendaciones de lectura, libros, blogs, papers, etc... y, por supuesto, espero vuestras recomendaciones, tanto literatura técnica (informática), como novelas.
 slugHack: {{ page.title | slugify }}
 permalink: /:slugHack/ # title is filename NOT title in YAML
+image: /assets/img/headers/recomendaciones.png
 ---
+![Post Header](/assets/img/headers/recomendaciones.png)
 
 Una de las cosas que mis padres, bueno, sobre todo mi madre, me inculcaron de niño, fué la lectura.
 Uno de los recuerdos que tengo de mi infancia es el de la visita de "[el del círculo](https://www.circulo.es/){:target="_blank"}" (de lectores), hoy en día casi olvidado ya.
