@@ -227,7 +227,7 @@ Esto va a gustos, a unos les gusta una cultura como la de Google... a otros, com
 
 ## Lecturas recomendadas
 
-Te dejo un link a [mis lecturas recomendadas](/Mis-lecturas-recomendadas), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
+Te dejo un link a mis lecturas recomendadas (/Mis-lecturas-recomendadas), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
 
 Eso es todo, espero que te haya servido de ayuda, y, si tienes algún aporte que hacer, o alguna pregunta, no dudes en comentar,
 
