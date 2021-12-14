@@ -8,7 +8,7 @@ pin: true
 toc: true
 excerpt: Aquí encontrarás mis recomendaciones de lectura, libros, blogs, papers, etc... y, por supuesto, espero vuestras recomendaciones, tanto literatura técnica (informática), como novelas.
 slugHack: {{ post.title | slugify }}
-slug: {{ slugHack }}/ # title is filename NOT title in YAML
+permalink: /:slugHack # title is filename NOT title in YAML
 image: /assets/img/headers/recomendaciones.png
 ---
 ![Post Header](/assets/img/headers/recomendaciones.png)
