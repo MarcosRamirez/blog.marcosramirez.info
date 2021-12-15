@@ -8,8 +8,8 @@
   <meta name="twitter:creator" content="@{{ page.author }}">
   <meta name="twitter:title"   content="{{ page.title }}">
   
-  {% if page.excerpt2 %}
-  <meta name="twitter:description" content="{{ page.excerpt2 }}">
+  {% if page.excerpt %}
+  <meta name="twitter:description" content="{{ page.excerpt | smartify }}">
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
