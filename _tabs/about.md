@@ -3,6 +3,7 @@ title: Sobre Mí
 icon: fas fa-info
 order: 1
 permalink: /:title/
+excerpt: sobre mi
 ---
 
 Soy [Marcos Ramírez](https://marcosramirez.info){:target="_blank"}, llevo más de 25 años dedicándome desarrollo de aplicaciones, principalmente web, de todo tipo, y pasando por diferentes cargos, desde Programador, hasta CTO y CEO de mi propia compañía, pasando por
