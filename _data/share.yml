@@ -15,7 +15,7 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://telegram.me/share?text=TITLE&url=URL"
   -
-    type: Error
+    type: Telegram
     icon: "fa-solid fa-ban-bug"
     link: "https://github.com/MarcosRamirez/blog.marcosramirez.info/issues"
 
