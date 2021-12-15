@@ -8,7 +8,7 @@ categories: [Informática]
 tags: [timan, megas, velocidad, internet, teléfonica, movistar, orange, yoigo, precio, caro, bajar, velocidad]
 pin: false
 toc: true
-excerpt: En este tercer post sobre los timos con los "megas", hablaremos de velocidades de conexión que necesitas, y precios, seguro que te llevarás una sorpresa.
+excerpt2: En este tercer post sobre los timos con los "megas", hablaremos de velocidades de conexión que necesitas, y precios, seguro que te llevarás una sorpresa.
 permalink: /:slug/ # title is filename NOT title in YAML
 excerpt_separator: <!--more-->
 ---
