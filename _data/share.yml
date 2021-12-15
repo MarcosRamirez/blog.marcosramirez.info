@@ -15,8 +15,8 @@ platforms:
     icon: "fab fa-telegram"
     link: "https://telegram.me/share?text=TITLE&url=URL"
   -
-    type: Telegram
-    icon: "fa-solid fa-ban-bug"
+    type: Twitch
+    icon: "fa-brands fa-twitch"
     link: "https://github.com/MarcosRamirez/blog.marcosramirez.info/issues"
 
   # Uncomment below if you need to.
