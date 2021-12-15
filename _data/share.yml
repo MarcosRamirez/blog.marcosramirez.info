@@ -18,6 +18,12 @@ platforms:
     type: Bug
     icon: "fas fa-bug"
     link: "https://github.com/MarcosRamirez/blog.marcosramirez.info/issues"
+  -
+    type: Dollar
+    icon: "fas fa-sack-dollar"
+    link: "https://marcosramirez.info/donaciones/"
+
+
 
   # Uncomment below if you need to.
   # -
