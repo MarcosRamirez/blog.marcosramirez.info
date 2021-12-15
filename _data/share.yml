@@ -20,7 +20,7 @@ platforms:
     link: "https://github.com/MarcosRamirez/blog.marcosramirez.info/issues"
   -
     type: Dollar
-    icon: "fas fa-sack-dollar"
+    icon: "fas fa-dollar-sign"
     link: "https://marcosramirez.info/donaciones/"
 
 
