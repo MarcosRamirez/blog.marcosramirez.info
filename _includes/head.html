@@ -9,7 +9,7 @@
   <meta name="twitter:title"   content="{{ page.title }}">
   
   {% if page.excerpt %}
-  <meta name="twitter:description" content="{{ page.excerpt | smartify }}">
+  <meta name="twitter:description" content="{{ page.excerpt | escape }}">
   {% else %}
   <meta name="twitter:description" content="{{ site.description }}">
   {% endif %}
