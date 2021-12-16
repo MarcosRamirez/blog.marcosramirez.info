@@ -93,7 +93,7 @@ Para importar los posts, [seguí los pasos que indican en la web oficial](https:
 
 ### No hay comentarios
 
-Esto lo solventé con [Disqus](https://disqus.com/){target="_blank"}, aunque... no estoy demasiado contento.
+Esto lo solventé con [Disqus](https://disqus.com/){:target="_blank"}, aunque... no estoy demasiado contento.
 
 ### No hay soporte para Twitter cards
 
