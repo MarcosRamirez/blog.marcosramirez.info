@@ -47,15 +47,15 @@ layout: default
         {% if page.image.src %}
           <img src="{{ page.image.src }}" class="preview-img" alt="{{ page.image.alt | default: "Preview Image" }}">
         {% endif %}
-        {% include post-sharing.html %}
+        
         {{ content }}
-        {% include post-sharing.html %}
-        <a href="https://github.com/MarcosRamirez/blog.marcosramirez.info/blob/master/_posts/{{ page.name }}">Reportar error</a>
+        
+        
 
       </div>
 
       <div class="post-tail-wrapper text-muted">
-
+        {% include post-sharing.html %}
         <!-- categories -->
         {% if page.categories.size > 0 %}
         <div class="post-meta mb-3">
