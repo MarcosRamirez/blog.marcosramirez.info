@@ -12,7 +12,7 @@ excerpt: En este tercer post sobre los timos con los "megas", hablaremos de velo
 permalink: /:slug/ # title is filename NOT title in YAML
 
 ---
-<img src="/assets/img/headers/default.webp" width="1900" height="478" alt="Post Header image">
+<img src="/assets/img/headers/default.webp" width="790" height="200" alt="Post Header image">
 
 Este es el tercer, y espero que último post sobre los timos con las conexiones a internet, en el repasaremos rápidamente que velicidad de conexión
 necesitas, que seguro que más de uno se sorprende, y sobretodo, de los precios, y sus... sorpresas.
