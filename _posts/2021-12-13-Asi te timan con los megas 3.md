@@ -13,7 +13,7 @@ permalink: /:slug/ # title is filename NOT title in YAML
 
 ---
 
-![Post Header](/assets/img/headers/default.webp)
+![Post Header](/assets/img/headers/default.webp =1900x478)
 
 Este es el tercer, y espero que último post sobre los timos con las conexiones a internet, en el repasaremos rápidamente que velicidad de conexión
 necesitas, que seguro que más de uno se sorprende, y sobretodo, de los precios, y sus... sorpresas.
