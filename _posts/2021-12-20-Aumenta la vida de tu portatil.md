@@ -15,7 +15,7 @@ permalink: /:slug/
 
 Hoy ha venido un conocido a verme, y justo ha visto este hack, para mi del todo lógico y normal, que vengo usando hace tiempo, pero como le ha llamado la atención, os lo explico a vosotros también.
 
-Para quien no lo sepa, las batarías de los dispositivos, para una duración óptima, se aconseja que siempre estén entre el 60% y el 80% de su capacidad.
+Para quien no lo sepa, las baterías de los dispositivos, para una duración óptima, se aconseja que siempre estén entre el 60% y el 80% de su capacidad.
 
 Y, sobretodo, que no estén siempre al 100% de capacidad, por eso, lo que yo hago es enchufar mis dispositivos a un [programador](https://amzn.to/30rCQfc){:rel="nofollow", target="_blank"}, que los deja sin corriente durante media hora cada hora y media.
 
