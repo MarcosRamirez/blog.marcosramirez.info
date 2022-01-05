@@ -1,17 +1,4 @@
----
-title: Te regalo más de 100€ 💸💸💸
-slug: regalo-dinero-euros-gratis-online
-author: Marcos Ramírez
-date: 2022-01-06 7:50:00 +0100
-image: /assets/img/headers/transferenciasautomaticas.jpg
-categories: [Finanzas]
-tags: [dinero, gratis, euros, afiliados, ganar, online, regalo dinero, dinero gratis, ganar dinero online, ganar dinero en internet]
-pin: true
-toc: true
-excerpt: 💰 ¿Qué cual es el truco?, sencillo, quien te regala el dinero realmente son las empresas que he recopilado, todas ellan regalan una pequeña, o no tan pequeña, cantidad de dinero por registrarte, eso si, todas ellas son interesantes.
-permalink: /:slug/ 
----
-![Post Header](/assets/img/headers/transferenciasautomaticas.jpg)
+
 
 Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos duro el mes.
 
@@ -46,5 +33,4 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 </p>
 
 
-***
-No olvides compartir el post si te ha gustado
+
