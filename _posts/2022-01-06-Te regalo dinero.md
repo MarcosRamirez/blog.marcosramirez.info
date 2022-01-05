@@ -26,6 +26,10 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 [Curve](https://www.curve.com/join#N9JYMP8D) No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.
 </p>
 
+<p>
+[N26](https://n26.com/r/marcosr8764) Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. 
+</p>
+
 # 10€ (o menos)
 <p>
 [Cabify](https://cabify.com/i/marcosr2147) Te regala 3€ para tus siguentes tres carreras
