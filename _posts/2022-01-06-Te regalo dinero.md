@@ -42,7 +42,7 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 <p>
 
 <p>
-2. <a href="https//sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo.
+2. <a href="https://sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo.
 </p>
 
 
