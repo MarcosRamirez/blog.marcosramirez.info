@@ -19,30 +19,30 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 # 5€ (o menos)
 
 <p>
-1. [Verse](https://verse.me/invite/MTHTVT) Para quien no lo conozca, [Verse](https://verse.me/$marcosramirez) es una alternativa a Bizum, que regala 5€ por cada nuevo usuario, además de que hace concursos en los que reparte 400€ entre los usuarios bastante a menudo (resto de conficiones y ventajas en la web)
+1. <a href="https://verse.me/invite/MTHTVT" target="_blank">Verse</a> Para quien no lo conozca, [Verse](https://verse.me/$marcosramirez) es una alternativa a Bizum, que regala 5€ por cada nuevo usuario, además de que hace concursos en los que reparte 400€ entre los usuarios bastante a menudo (resto de conficiones y ventajas en la web)
 </p>
 
 <p>
-2. [Curve](https://www.curve.com/join#N9JYMP8D) No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.
+2. <a href="https://www.curve.com/join#N9JYMP8D" target="_blank">Curve</a> No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.
 </p>
 
 <p>
-3. [N26](https://n26.com/r/marcosr8764) Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. 
+3. <a href="https://n26.com/r/marcosr8764" target="_blank">N26</a> Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. 
 </p>
 
 # 10€ (o menos)
 <p>
-1. [Cabify](https://cabify.com/i/marcosr2147) Te regala 3€ para tus siguentes tres carreras
+1. <a href="https://cabify.com/i/marcosr2147" target="_blank">Cabify</a> Te regala 3€ para tus siguentes tres carreras
 </p>
 
 
 # 100€ (o más)
 <p>
-1. [Fiverr](http://www.fiverr.com/s2/f2c677aae2) es una las plataformas para Freelance que uso tanto para contratar a gente, como para buscar trabajos, desde este link conseguirás hasta 100€ en descuentos para contratar a cualquier profesional. (resto de conficiones y ventajas en la web)
+1. <a href="http://www.fiverr.com/s2/f2c677aae2" target="_blank">Fiverr</a> es una las plataformas para Freelance que uso tanto para contratar a gente, como para buscar trabajos, desde este link conseguirás hasta 100€ en descuentos para contratar a cualquier profesional. (resto de conficiones y ventajas en la web)
 <p>
 
 <p>
-2. [SweatCoin](https://sweatco.in/ws/immarcosramirez) NO ES UNA CRYPTO, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo.
+2. <a href="https//sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo.
 </p>
 
 
