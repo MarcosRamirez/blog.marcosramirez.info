@@ -23,16 +23,16 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 </p>
 
 <p>
-2. <a href="https://www.curve.com/join#N9JYMP8D" target="_blank">Curve</a> No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.
+2. <a href="https://www.curve.com/join#N9JYMP8D" target="_blank">Curve</a> No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.(resto de conficiones y ventajas en la web)
 </p>
 
 <p>
-3. <a href="https://n26.com/r/marcosr8764" target="_blank">N26</a> Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. 
+3. <a href="https://n26.com/r/marcosr8764" target="_blank">N26</a> Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. (resto de conficiones y ventajas en la web)
 </p>
 
 # 10€ (o menos)
 <p>
-1. <a href="https://cabify.com/i/marcosr2147" target="_blank">Cabify</a> Te regala 3€ para tus siguentes tres carreras
+1. <a href="https://cabify.com/i/marcosr2147" target="_blank">Cabify</a> Te regala 3€ para tus siguentes tres carreras (resto de conficiones y ventajas en la web)
 </p>
 
 
@@ -42,7 +42,7 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 <p>
 
 <p>
-2. <a href="https://sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo.
+2. <a href="https://sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo. (resto de conficiones y ventajas en la web)
 </p>
 
 
