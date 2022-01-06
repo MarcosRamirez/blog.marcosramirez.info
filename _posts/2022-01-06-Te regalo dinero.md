@@ -11,7 +11,7 @@ toc: true
 excerpt: ¿El truco?, muy sencillo... quien realmente te regala este dinero, no soy yo, son ofertas de las empresas que he recopilado
 permalink: /:slug/ 
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header](/assets/img/headers/transferenciasautomaticas.jpg)
 
 Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos duro el mes.
 
