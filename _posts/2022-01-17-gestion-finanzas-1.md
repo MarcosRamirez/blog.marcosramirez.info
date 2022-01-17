@@ -13,17 +13,17 @@ permalink: /:slug/
 ---
 ![Post Header](/assets/img/headers/finanzas.jpg)
 
-***Disclaimer***: No me dedico a las finanzas, ni soy asesor profesional, aquí simplemente expongo mi experiencia y mis métodos de gestión.
+**Disclaimer**: No me dedico a las finanzas, ni soy asesor profesional, aquí simplemente expongo mi experiencia y mis métodos de gestión.
 
-<p>
+
 Todo empieza el otro día, cuando hice esta encuesta en Twitter:
-</p>
+
 
 <blockquote class="twitter-tweet"><p lang="es" dir="ltr">En 2021 volverán los streamings.<br><br>Me gustaría saber qué os interesa más, aunque haré todo.</p>&mdash; Marcos (@VivirJugando) <a href="https://twitter.com/VivirJugando/status/1469430963860082693?ref_src=twsrc%5Etfw">December 10, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<p>
+
 Así pues, voy a iniciar una serie de posts, acerca de como gestiono mis finanzas, y voy a empezar por hacerte unas preguntas:
-</p>
+
 
 1. ¿tienes una única cuenta bancaria?
 2. ¿usas tarjetas de crédito?
@@ -31,44 +31,42 @@ Así pues, voy a iniciar una serie de posts, acerca de como gestiono mis finanza
 4. ¿haces menos de un presupuesto al mes? 
 5. ¿dices a menudo "no me va a sacar de pobre"?
 
-<p>
+
 Si has respondido SI a una o más preguntas, voy a explicarte punto por punto, por qué estás haciéndolo mal.
 Además, incluiré algún punto extra.
 Teniendo claro que ***este post*** es únicamente una ***introducción*** y que se tratará más en profundidad cada tema, en posts individuales.
-</p>
+
 
 # Tener solo una cuenta bancaria
-<p>
+
 ¿Verdad que alguna vez has dicho algo como "me han pasado el recibo de XXXX y me ha fastidiado el mes"?, pues, esto se soluciona simplemente, teniendo al menos dos cuentas bancarias (yo tengo alguna más).
-</p>
-<p>
+
+
 Pues, por si aún no has llegado a esta conclusión, como mínimo, deberías tener al menos dos cuentas bancarias, una únicamente para domiciliar recibos, y otra para ingresos.
 Con esto solucionarás **parte** del problema anteriormente citado, y alguno más, y digo parte, por que si un recibo de jode un mes... está claro que algo no va bien en tus finanzas...
-</p>
+
 
 En próximos posts, hablaremos más en detalle sobre esto.
 
 # Usar tarjetas de crédito
 
-<p>
+
 Usar tarjetas de crédito, es uno de los grandes errores [^1], en realidad, cualquier tipo de endeudamiento, es un error, pero las tarjetas de crédito, suelen ofrecer condiciones e intereses abusivos. Y en este pais aún no se tiene claro lo que es el TIN, el TAE, y sobretodo, que existe la usura.
 Una tarjeta de débito, es siempre mejor opción.
-</p>
+
 En próximos posts, hablaremos más en detalle sobre esto.
 
 # Tener más de un préstamo
 Como dije antes, endeudarse nunca es una buena opción, y por norma general, casi nunca es necesario (soy de la opinión de que la única deuda aceptable es para vivienda, o herramientas que generen ingresos), por tanto, si tienes más de un préstamo, seguramente estés sobreendeudado.
 
-<p>
-</p>
 En próximos posts, hablaremos más en detalle sobre esto, incluyendo temas como *** la USURA***, dado que a muchos os sorprenderá que seguramente tenéis un préstamo usuruario, dado que hay una cantidad enorme de ellos.
 
 # No hacer presupuestos
 
-<p>
+
 No planificar, siempre es un error, y un presupuesto, no es más que eso, planificar que hacer con tu dinero.
 Por tanto, deberías no solo empezar a hacer presupuestos, sino aprender a hacerlo bien.
-</p>
+
 En próximos posts, hablaremos más en detalle sobre esto, os explicaré como hacerlo sencillo, y os facilitaré herramientas (excel, Google Docs, o incluso aplicaciones), para que puedas hacerlo facilmente.
 
 | Y ahora, vamos con algunos "Extras"
@@ -76,7 +74,7 @@ En próximos posts, hablaremos más en detalle sobre esto, os explicaré como ha
 
 # No saber cuanto ganas por hora.
 
-<p>
+
 El día de noche vieja, no sé si producto del alcohol, estuve hablando con alguien que afirmaba que con su sueldo de 1400€ al mes, el ganaba 20€ por hora, lo cual, evidentemente, no es cierto.
 Y eso me dió pié a escribir este punto:
 
@@ -95,22 +93,20 @@ Y, un ejemplo más común:
 
 850/160 = 5,31€/hora
 
-</p>
+
 En próximos posts, hablaremos más en detalle sobre esto, dado que esto es una verdad a medias.
 
 
 
 # Tener miedo a las matemáticas
 
-<p>
 Del punto anterior, una de las cosas que extraigo, es lo sorprendente que es lo mucho que asustan las matemáticas, y lo poco que se emplean, por ello, deberías aprender matemática básica
-</p>
+
 En próximos posts, hablaremos más en detalle sobre esto.
 
 
 # No ahorrar
 
-<p>
 Estoy muy cansado de escuchar "si no llego a fin de mes, como voy a ahorrar", y esto me lo dicen, en la barra de un bar, con una cerveza o copa en la mano.
 Y si... posiblemente puede que no sea tu caso, o que me salgas con "es que si no puedo darme un capricho"...
 
@@ -122,12 +118,10 @@ Y, llegados a este punto, quiero que tengas presentes dos grandes verdades que a
 
 Por ejemplo, pongamos que ahorras solo 3€ al mes, eso son 36€ al año, que, si tan "jodido vas", que no llegas ni a fin de mes, el hecho de llegar a Diciembre con 36€ extra, para un regalo, o para "ese capricho", seguro que lo notas.
 
-</p>
 Pero no voy a ahondar más en este punto... En próximos posts, hablaremos más en detalle sobre esto, y sobre diferentes maneras de hacerlo.
 
 # No invertir
 
-<p>
 Si no puedes ahorrar, ¿cómo vas a poder invertir, verdad? o "Invertir es para ricos", etc.. etc...
 
 La cantidad de "excusas" que he escuchado, es enorme, y eso, solo en cuanto al dinero, pero os voy a poner unos cuantos ejemplos de cosas en las que yo invierto:
@@ -138,7 +132,7 @@ La cantidad de "excusas" que he escuchado, es enorme, y eso, solo en cuanto al d
 
 ¿Sorprendido con mis inversiones?
 
-</p>
+
 Te sorprenderás más en próximos posts, hablaremos más en detalle sobre esto.
 
 Y... eso es todo por ahora.
