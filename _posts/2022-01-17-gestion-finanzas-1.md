@@ -1,5 +1,5 @@
 ---
-title: Como gestiono mis finanzas (1ª parte) Conceptos básicos
+title: 💰Como gestiono mis finanzas (1ª parte) Conceptos básicos
 slug: gestion-finanzas-básica
 author: Marcos Ramírez
 date: 2022-01-17 10:00:00 +0100
