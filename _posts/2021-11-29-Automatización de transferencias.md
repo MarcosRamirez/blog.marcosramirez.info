@@ -44,7 +44,7 @@ private function eventHandler($eventData) {
   switch ($eventData->type) {
     case 'deposit':
     case 'wiretransfer':
-      $quantity = $eventData->incomeAmount * 0,21;
+      $quantity = $eventData->incomeAmount - ($eventData->incomeAmount / 1,21); 
       $taxesAccount = "ESXXXXXXXXXXXX";
       makeNewTransfer($taxesAccount, $quantity);
       break;
