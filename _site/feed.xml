@@ -1,0 +1,236 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://blog.marcosramirez.info/</id>
+  <title>Marcos Ramírez</title>
+  <subtitle>Blog personal de Marcos Ramírez, ingeniero de software, posts de programación, teconología, life style, y también verás micurriculum y portfolio</subtitle>
+  <updated>2024-01-02T15:42:28+01:00</updated>
+  <author>
+    <name>Marcos Ramirez</name>
+    <uri>https://blog.marcosramirez.info/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://blog.marcosramirez.info/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="https://blog.marcosramirez.info/"/>
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <rights> © 2024 Marcos Ramirez </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Mi (neo) Banco de cabecera (N26)</title>
+    <link href="https://blog.marcosramirez.info/n26-mi-neo-banco/" rel="alternate" type="text/html" title="Mi (neo) Banco de cabecera (N26)" />
+    <published>2022-02-01T08:50:00+01:00</published>
+  
+    <updated>2022-02-01T08:50:00+01:00</updated>
+  
+    <id>https://blog.marcosramirez.info/n26-mi-neo-banco/</id>
+    <content src="https://blog.marcosramirez.info/n26-mi-neo-banco/" />
+    <author>
+      <name>Marcos Ramirez</name>
+    </author>
+
+  
+    
+    <category term="LifeStyle" />
+    
+    <category term="Ahorro" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  A Julio de 2022 he cerrado mis cuentas con N26, dado que me cobraron una comisión, por descubierto, de 9€.
+Si bien, gracias a Preico Juridicos, conseguí que me devolviesen, dicha comisión. 
+Logicamente, he cortado toda relación con una entidad que miente (al anunciarse, aún a día de hoy, como una cuenta online sin comisiones)
+.
+
+
+
+Como informático, una de las cosas que más me molestan de la ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>💰Como gestiono mis finanzas (1ª parte) Conceptos básicos</title>
+    <link href="https://blog.marcosramirez.info/gestion-finanzas-b%C3%A1sica/" rel="alternate" type="text/html" title="💰Como gestiono mis finanzas (1ª parte) Conceptos básicos" />
+    <published>2022-01-17T10:00:00+01:00</published>
+  
+    <updated>2022-02-05T18:01:16+01:00</updated>
+  
+    <id>https://blog.marcosramirez.info/gestion-finanzas-b%C3%A1sica/</id>
+    <content src="https://blog.marcosramirez.info/gestion-finanzas-b%C3%A1sica/" />
+    <author>
+      <name>Marcos Ramirez</name>
+    </author>
+
+  
+    
+    <category term="Finanzas" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Disclaimer: No me dedico a las finanzas, ni soy asesor profesional, aquí simplemente expongo mi experiencia y mis métodos de gestión.
+
+Todo empieza el otro día, cuando hice esta encuesta en Twitter:
+
+En 2021 volverán los streamings.Me gustaría saber qué os interesa más, aunque haré todo.&amp;mdash; Marcos (@VivirJugando) December 10, 2021
+
+
+Así pues, voy a iniciar una serie de posts, acerca de co...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Te regalo más de 170€ 💸💸💸</title>
+    <link href="https://blog.marcosramirez.info/regalo-dinero-gratis/" rel="alternate" type="text/html" title="Te regalo más de 170€ 💸💸💸" />
+    <published>2022-01-06T07:50:00+01:00</published>
+  
+    <updated>2022-12-09T09:49:03+01:00</updated>
+  
+    <id>https://blog.marcosramirez.info/regalo-dinero-gratis/</id>
+    <content src="https://blog.marcosramirez.info/regalo-dinero-gratis/" />
+    <author>
+      <name>Marcos Ramirez</name>
+    </author>
+
+  
+    
+    <category term="Finanzas" />
+    
+    <category term="ahorro" />
+    
+    <category term="LifeHack" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+¿El truco?, muy sencillo… quien realmente te regala este dinero, no soy yo, son ofertas de las empresas que he recopilado
+
+Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos duro el mes.
+
+5€ (o menos)
+
+1.- verse
+
+Verse Para quien no lo conozca, verse es una alternativa a Bizum, que regala 5€ por cada nuevo usuario, además de que hace concursos en los que reparte 400...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>💰Como gestiono mis finanzas (II) Ahorro básico</title>
+    <link href="https://blog.marcosramirez.info/ahorrar-dinero-facilmente/" rel="alternate" type="text/html" title="💰Como gestiono mis finanzas (II) Ahorro básico" />
+    <published>2022-01-02T08:50:00+01:00</published>
+  
+    <updated>2022-01-02T08:50:00+01:00</updated>
+  
+    <id>https://blog.marcosramirez.info/ahorrar-dinero-facilmente/</id>
+    <content src="https://blog.marcosramirez.info/ahorrar-dinero-facilmente/" />
+    <author>
+      <name>Marcos Ramirez</name>
+    </author>
+
+  
+    
+    <category term="Finanzas" />
+    
+    <category term="Ahorro" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Disclaimer: en este post explico como y por qué ahorro yo, con la única intención de echar una mano a quienes, últimamente, me preguntan a menudo, además de, hacer esta información pública, para que la puedan consultar de manera simple, y sea accesible para cualquier otra persona a la que pueda serle de utilidad.
+
+Algo que hay que tener claro, es que en España, la educación financiera es nula, ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>📆 Mis objetivos para año nuevo (2022 edition) ¿cuantos cumpliré?</title>
+    <link href="https://blog.marcosramirez.info/objetivos-a%C3%B1o-nuevo-2022/" rel="alternate" type="text/html" title="📆 Mis objetivos para año nuevo (2022 edition) ¿cuantos cumpliré?" />
+    <published>2022-01-01T08:50:00+01:00</published>
+  
+    <updated>2022-01-17T17:15:06+01:00</updated>
+  
+    <id>https://blog.marcosramirez.info/objetivos-a%C3%B1o-nuevo-2022/</id>
+    <content src="https://blog.marcosramirez.info/objetivos-a%C3%B1o-nuevo-2022/" />
+    <author>
+      <name>Marcos Ramirez</name>
+    </author>
+
+  
+    
+    <category term="LifeStyle" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Pues ya estamos aquí… 1 de Enero de 2022, empezamos un nuevo año.
+
+No voy a extenderme, que esto básicamente solo sirve para que el 31 de Diciembre, escriba el post de resumen de este año, si es que no me he muerto 😋😂.
+Voy a dividirlo por intereses personales, como profesional, y “poker”, que ya sabéis que es algo que siempre está ahí.
+Y por cierto, si alguno quiere apostar, ya sabe, que me l...
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+
