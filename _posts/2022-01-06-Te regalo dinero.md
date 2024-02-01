@@ -30,9 +30,13 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 <a href="https://www.curve.com/join#N9JYMP8D" target="_blank">Curve</a> No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.(resto de conficiones y ventajas en la web)
 
 
-## 3.- N26TransparentCard
+## 3.- N26 
 
 <a href="https://n26.com/r/marcosr8764" target="_blank">N26</a> Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. (resto de conficiones y ventajas en la web)
+
+## 4.- Google Opinion Rewards
+
+<a href="https://googleopinionrewardsrefer.page.link/?apn=com.google.android.apps.paidtasks&ibi=com.google.paidtasks&isi=1227019728&link=https%3A%2F%2Fsurveys.google.com%2Fgoogle-opinion-rewards%2Freferrer_code%3DN2NKSNQ5&utm_source=gor_share_android_referral" target="_blank">Google Opinion Rewards</a>, es el programa de recompensas de Google, por tu opinion, paga unos céntimos por cada una, pero puede ser suficiente para, por ejemplo, que Google One te salga gratis algún mes al año.
 
 # 10€ (o menos)
 
