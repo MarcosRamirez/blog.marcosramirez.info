@@ -1,6 +1,6 @@
 ---
 title: Curve. Una tarjeta para controlarlas todas.
-slug: slug
+slug: curve-una-tarjeta-para-controlarlas-todas
 author: Marcos Ramírez
 date: 2024-02-05 8:50:00 +0100
 image: /assets/img/headers/default.webp

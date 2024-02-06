@@ -1,6 +1,6 @@
 ---
 title: 💸 Cosas que aprendí cuando me robaron la cartera 💸
-slug: slug
+slug: cosas-que-aprendi-cuando-me-robaron-la-cartera 
 author: Marcos Ramírez
 date: 2024-02-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
