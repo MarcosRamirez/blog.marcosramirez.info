@@ -4,8 +4,8 @@ slug: slug
 author: Marcos Ramírez
 date: 2024-06-18 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [example]
-tags: [example]
+categories: [Trabajo]
+tags: [productividad, conesjo, hack, concentración]
 pin: false
 toc: true
 excerpt: En este post encontrarás informacion necesaria, para aprender como interactuar con cualquier persona que desarrolle una actividad, laboral o no, que requiera de altas dosis de concentración. Y creedme, que, al menos, os ayudará a entender muchos de esos enfados que podéis provocar en las personas, y, por supuesto, aprenderéis a evitarlos.
