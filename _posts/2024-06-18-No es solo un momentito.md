@@ -1,4 +1,4 @@
-!---
+---
 title: No, No es solo un momentito
 slug: slug
 author: Marcos Ramírez
@@ -12,7 +12,7 @@ excerpt: En este post encontrarás informacion necesaria, para aprender como int
 permalink: /:slug/ 
 ---
 
-Escribo este post, para dejar por escrito algo que estoy muy cansado de explicar, y al mismo tiempo, aprovecho para recomedaros (este otro)[https://blog.marcosramirez.info/como-comunicarse-correctamente-y-no-morir-en-el-intento/], de 2016, pero que sigue vigente.
+Escribo este post, para dejar por escrito algo que estoy muy cansado de explicar, y al mismo tiempo, aprovecho para recomedaros [este otro](https://blog.marcosramirez.info/como-comunicarse-correctamente-y-no-morir-en-el-intento/), de 2016, pero que sigue vigente.
 
 En este post encontrarás informacion necesaria, para aprender como interactuar con cualquier persona que desarrolle una actividad, laboral o no, que requiera de altas dosis de concentración. 
 
@@ -44,7 +44,7 @@ De todos modos, os dejo unas cuantas señales para ayudaros a identificar.
 
 Cultura de respeto: Es importante que en la empresa, y las personas en general,  se fomente una cultura de respeto hacia el tiempo y la concentración de los trabajadores.
 
-Tambien vuelvo a recomendaros este enlace sobre como (comunicarse correctamente)[https://blog.marcosramirez.info/como-comunicarse-correctamente-y-no-morir-en-el-intento/] que seguramente, os será de utilidad.
+Tambien vuelvo a recomendaros este enlace sobre como [comunicarse correctamente](https://blog.marcosramirez.info/como-comunicarse-correctamente-y-no-morir-en-el-intento/) que seguramente, os será de utilidad.
 
 ### ¿Y si la cosa es urgente?
 
