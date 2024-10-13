@@ -68,7 +68,7 @@ Si te registras en <a href="https://rfrn.page.link/uuPRLT87QGHhBZzT6" target="_b
 
  <a href="https://sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo. (resto de conficiones y ventajas en la web)
 
- ## 3.- Revolut 
+## 3.- Revolut 
 
  <a href="https://revolut.com/referral/?referral-code=marcos6jla!OCT1-24-VR-ES" target="_blank">Revolut</a> 
  Es el Neobanco que estoy usando en 2024, sigue sin tener todo lo que quiero, pero es a día de hoy, la mejor opción que he encontrado.
