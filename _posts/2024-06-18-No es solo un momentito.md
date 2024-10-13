@@ -1,6 +1,6 @@
 ---
 title: No, No es solo un momentito
-slug: slug
+slug: no-no-es-solo-un-momentito
 author: Marcos Ramírez
 date: 2024-06-18 8:50:00 +0100
 image: /assets/img/headers/default.webp
