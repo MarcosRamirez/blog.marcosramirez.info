@@ -70,7 +70,7 @@ Si te registras en <a href="https://rfrn.page.link/uuPRLT87QGHhBZzT6" target="_b
 
 ## 3.- Revolut 
 
- <a href="https://revolut.com/referral/?referral-code=marcos6jla!OCT1-24-VR-ES" target="_blank">Revolut</a> 
+ <a href="https://www.revolut.com/referral/?referral-code=marcos6jla!NOV2-24-VR-ES" target="_blank">Revolut</a> 
  Es el Neobanco que estoy usando en 2024, sigue sin tener todo lo que quiero, pero es a día de hoy, la mejor opción que he encontrado.
  Te regalan hasta 200€ solo por darte de alta (a Noviembre de 2024), ingresar al menos 15€, pedir la tarjeta (gratuíta), y hacer 3 pagos de al menos 5€ cada uno.
 
