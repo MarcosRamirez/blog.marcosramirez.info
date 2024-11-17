@@ -57,7 +57,7 @@ Aquí tendrás todas las ofertas con 30€ o menos
 
 <del>## 1.- TasteIt
 
-Si te registras en <a href="https://tasteit.es/?referral=marcosramirez" target="_blank"> con el código "marcosramirez" (sin las comillas), obtendrás 30€ de descuento en tus tres primeras compras, divididos en 10€ por compra.
+Si te registras en <a href="https://tasteit.es/?referral=marcosramirez" target="_blank">TasteIt</a> con el código "marcosramirez" (sin las comillas), obtendrás 30€ de descuento en tus tres primeras compras, divididos en 10€ por compra.
 </del>
 ## 1.- Dia
 
@@ -89,7 +89,7 @@ Si te registras en <a href="https://rfrn.page.link/uuPRLT87QGHhBZzT6" target="_b
 
 <a href="https://googleopinionrewardsrefer.page.link/?apn=com.google.android.apps.paidtasks&ibi=com.google.paidtasks&isi=1227019728&link=https%3A%2F%2Fsurveys.google.com%2Fgoogle-opinion-rewards%2Freferrer_code%3DN2NKSNQ5&utm_source=gor_share_android_referral" target="_blank">Google Opinion Rewards</a>, es el programa de recompensas de Google, por tu opinion, paga unos céntimos por cada una, pero puede ser suficiente para, por ejemplo, que Google One te salga gratis algún mes al año.
 
-## 5.- Cabufy
+## 5.- Cabify
 <a href="https://cabify.com/i/marcosr2147" target="_blank">Cabify</a> Te regala 3€ para tus siguentes tres carreras (resto de conficiones y ventajas en la web)
 
 
