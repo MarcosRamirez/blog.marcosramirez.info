@@ -38,7 +38,7 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 
 Dan entre **10€ y 200€** por cada nueva alta*.
 
-<u>Pero debes tener en cuenta que **SOLO TIENES hasta el 3 de Diciembre de 2024** para completar los siguientes pasos</u>:
+<u>Pero debes tener en cuenta que <b>SOLO TIENES hasta el 3 de Diciembre de 2024</b> para completar los siguientes pasos</u>:
 
 1. Darte de alta en <a href="https://www.revolut.com/referral/?referral-code=marcos6jla!NOV2-24-VR-ES" target="_blank">Revolut</a> (desde <a href="https://www.revolut.com/referral/?referral-code=marcos6jla!NOV2-24-VR-ES" target="_blank">este enlace</a>)
 2. Ingresar al menos 25€
@@ -55,7 +55,7 @@ Una vez hayas cumplimentado todos los pasos, Revolut puede tardar unos dias en v
 
 Aquí tendrás todas las ofertas con 30€ o menos
 
-<del?## 1.- TasteIt
+<del>## 1.- TasteIt
 
 Si te registras en <a href="https://tasteit.es/?referral=marcosramirez" target="_blank"> con el código "marcosramirez" (sin las comillas), obtendrás 30€ de descuento en tus tres primeras compras, divididos en 10€ por compra.
 </del>
