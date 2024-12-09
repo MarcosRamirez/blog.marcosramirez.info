@@ -22,6 +22,7 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 
 # 100€ (o más)
 
+Listado de empresas que te regalan 100€ o más por registrarte o contratar sus servicios
 
 ## 1.- Fiverrs
 
@@ -31,16 +32,20 @@ Espero que disfrutéis de este dinero y/o descuentos, que pueden haceros menos d
 
  <a href="https://sweatco.in/ws/immarcosramirez" target="_blank">SweatCoin</a> ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo. (resto de conficiones y ventajas en la web)
 
-## 3.- Revolut 
+# 50€ (o menos)
 
- <a href="https://www.revolut.com/referral/?referral-code=marcos6jla!NOV2-24-VR-ES" target="_blank">Revolut</a> 
+Listado de empresas que te regalan 50€ o menos por registrarte o contratar sus servicios
+
+## 1.- Revolut 
+
+ <a href="https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1" target="_blank">Revolut</a> 
  Es el Neobanco que estoy usando en 2024, sigue sin tener todo lo que quiero, pero es a día de hoy, la mejor opción que he encontrado.
 
 Dan entre **10€ y 200€** por cada nueva alta*.
 
 <u>Pero debes tener en cuenta que <b>SOLO TIENES hasta el 3 de Diciembre de 2024</b> para completar los siguientes pasos</u>:
 
-1. Darte de alta en <a href="https://www.revolut.com/referral/?referral-code=marcos6jla!NOV2-24-VR-ES" target="_blank">Revolut</a> (desde <a href="https://www.revolut.com/referral/?referral-code=marcos6jla!NOV2-24-VR-ES" target="_blank">este enlace</a>)
+1. Darte de alta en <a href="https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1" target="_blank">Revolut</a> (desde <a href="https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1" target="_blank">este enlace</a>)
 2. Ingresar al menos 25€
   Puedes hacerlo con una transferencia bancaria, o una tarjeta de crédito o débito.
 3. Pedir la tarjeta
@@ -53,7 +58,7 @@ Una vez hayas cumplimentado todos los pasos, Revolut puede tardar unos dias en v
 
 # 30€ O menos 
 
-Aquí tendrás todas las ofertas con 30€ o menos
+Listado de empresas que te regalan 30€ o menos por registrarte o contratar sus servicios
 
 <del>## 1.- TasteIt
 
@@ -64,12 +69,14 @@ Si te registras en <a href="https://tasteit.es/?referral=marcosramirez" target="
 Si te registras en <a href="https://rfrn.page.link/uuPRLT87QGHhBZzT6" target="_blank">Supermercado Día</a> desde <a href="https://rfrn.page.link/uuPRLT87QGHhBZzT6" target="_blank">este enlace</a>, obtendrás 20€ de descuento en tu primera compra
 # 10€ (o menos)
 
-
+Listado de empresas que te regalan 10€ o menos por registrarte o contratar sus servicios
 
 
 
 
 # 5€ (o menos)
+
+Listado de empresas que te regalan 5€ o menos por registrarte o contratar sus servicios
 
 ## 1.- verse
 
