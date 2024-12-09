@@ -8,7 +8,7 @@ categories: [finanzas, bancos]
 tags: [banco, finanzas, revolut]
 pin: false
 toc: true
-excerpt: excerpt
+excerpt: Llevo ya un tiempo usando Revolut, dado que N26 me ha decepcionado un poco, y la verdad es que estoy encantado. En este post os cuento un poco mi experiencia con este neobanco.
 permalink: /:slug/ 
 ---
 
