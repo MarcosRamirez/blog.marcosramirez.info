@@ -41,9 +41,9 @@ Listado de empresas que te regalan 50€ o menos por registrarte o contratar sus
  <a href="https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1" target="_blank">Revolut</a> 
  Es el Neobanco que estoy usando en 2024, sigue sin tener todo lo que quiero, pero es a día de hoy, la mejor opción que he encontrado.
 
-Dan entre **10€ y 200€** por cada nueva alta*.
+Dan  **40€** por cada nueva alta*.
 
-<u>Pero debes tener en cuenta que <b>SOLO TIENES hasta el 3 de Diciembre de 2024</b> para completar los siguientes pasos</u>:
+<u>Pero debes tener en cuenta que <b>SOLO TIENES hasta el 31 de Diciembre de 2024</b> para completar los siguientes pasos</u>:
 
 1. Darte de alta en <a href="https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1" target="_blank">Revolut</a> (desde <a href="https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1" target="_blank">este enlace</a>)
 2. Ingresar al menos 25€
