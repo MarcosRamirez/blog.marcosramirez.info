@@ -158,7 +158,7 @@ Me han llegado consultas sobre como podrían implementar agentes para reservas (
 
 #### El agente no habla como debe
 
-Este, me hace bastante gracia, este último año, se han puesto de moda los agentes de voz, gracias a plataformas como <a href="https://vapi.ai" target="_blank">VAPI</a>, o <a href="https://retell.ai" target="_blank">Retell</a>, como comentaba, y muchos, esperan que hablen "de manera humana", en parte cegados por lo "espectacular" de <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a>, o servicios similares.
+Este, me hace bastante gracia, este último año, se han puesto de moda los agentes de voz, gracias a plataformas como <a href="https://vapi.ai" target="_blank">VAPI</a>, o <a href="https://retell.ai" target="_blank">Retell</a>, como comentaba, y muchos, esperan que hablen "de manera humana", en parte cegados por lo "espectacular" de <a href="https://try.elevenlabs.io/zdtuyy0zb01e" target="_blank">ElevenLabs</a>, o servicios similares.
 
 Pero como dije, las IAs, son imbéciles xD.
 
@@ -204,7 +204,7 @@ Como es algo que preguntan habitualmente, te dejo los puntos fundamentales para 
    1. Para un agente que solo contesta preguntas, con uno barato, sobra.
    2. Un LLM open source, reduce drásticamente los costes.
       1. Además, alojarlo tu mismo, también puede ser una buena opción
-2. La voz que elijas, también marca diferencia, <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> es, de lejos, el mejor, pero también el más caro.
+2. La voz que elijas, también marca diferencia, <a href="https://try.elevenlabs.io/zdtuyy0zb01e" target="_blank">ElevenLabs</a> es, de lejos, el mejor, pero también el más caro.
 3. Controla la duración de la interacción
    1. Evita que el agente hable de más
    2. Evita reiteraciones
