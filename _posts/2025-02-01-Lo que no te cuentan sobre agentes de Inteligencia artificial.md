@@ -40,7 +40,7 @@ Y no, para desarrollar un agente, hacen falta bastantes cosas más.
 
 ## Desarrollar agentes de inteligencia artificial
 
-Si bien es cierto que hay plataformas como <a href="https://retell.ai" target="_blank">Retell</a>, o <a href="https://vapi.ai" target="_blank">VAPI</a>, que simplifican mucho la labor, más aún con herramientas no code como <a href="https://www.make.com" target="_blank">Make</a>, o n8n (que de herramientas no code, seguramente haré un post aparte)
+Si bien es cierto que hay plataformas como <a href="https://retell.ai" target="_blank">Retell</a>, o <a href="https://vapi.ai" target="_blank">VAPI</a>, que simplifican mucho la labor, más aún con herramientas no code como <a href="https://www.make.com" target="_blank">Make</a>, o <a href="https://n8n.io" target="_blank">n8n</a> (que de herramientas no code, seguramente haré un post aparte)
 
 El desarrollo de Agentes de Inteligencia Artificiale, en realidad, no es más que otra rama del desarrollo de Software, por tanto, debes contar no solo con conocimientos específicos en Inteligencia Artificial, sino que debes contar con los conocimientos básicos de programación.
 
@@ -271,3 +271,4 @@ Y, creo que... con esto, he cubierto bastante de lo que suelo ver que la gente p
 
 ***
 No olvides compartir el post si te ha gustado
+````
