@@ -246,7 +246,9 @@ Esto quiere decir, y ahora entenderás por que tu agente no funciona como espera
 
 1. Se conectan con tu proveedor SIP y reciben o hacen la llamada por ti
 2. Tienen uno o varios LLMs (al que pasan tu prompt)
-   1. Esto te permite usar cosas como {{now}}
+   1. Esto te permite usar cosas como:
+      1. Permitirte usar variables predefinidas para la fecha
+      2. Incluir modificadores para el TTS
    2. Pero a la vez, te limita en otros campos
    3. Te permiten crear una base de conocimiento en SUS infraestructuras
    4. Te brindan un LLM preparado para el uso de herramientas
