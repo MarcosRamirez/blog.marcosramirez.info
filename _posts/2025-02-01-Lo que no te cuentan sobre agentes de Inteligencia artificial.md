@@ -89,7 +89,7 @@ Me sorprende ver la cantidad de gente que no sabe hacer un buen prompt, siendo e
 
 Lo primero que debes aprender, es MarkDown, ya que es el lenguaje que mejor entienden los LLMs, y no es para nada complicado.
 
-Pretendo escribir más posts al respecto (posiblemente, escriba una serie de posts, a modo de curso), pero <a href="/assets/downloads/prompt-example.md">aqui te dejo un ejemplo</a> de estructura básico, para que te lo descargues.
+Pretendo escribir más posts al respecto (posiblemente, escriba una serie de posts, a modo de curso), pero <a href="/assets/downloads/prompt-example.md" download>aqui te dejo un ejemplo</a> de estructura básico, para que te lo descargues.
 Es, bastante conceptual, y escrito sobre la marcha, pero creo que se entiende la idea:
 
 1. Defino el rol, personalidad, y tareas.
