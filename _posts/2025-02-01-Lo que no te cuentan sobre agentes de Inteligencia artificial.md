@@ -40,7 +40,7 @@ Y no, para desarrollar un agente, hacen falta bastantes cosas más.
 
 ## Desarrollar agentes de inteligencia artificial
 
-Si bien es cierto que hay plataformas como <a href="https://retell.ai" target="_blank">Retell</a>, o <a href="https://vapi.ai/?aff=marcos/?aff=marcos" target="_blank">VAPI</a>, que simplifican mucho la labor, más aún con herramientas no code como <a href="https://www.make.com" target="_blank">Make</a>, o <a href="https://n8n.io" target="_blank">n8n</a> (que de herramientas no code, seguramente haré un post aparte)
+Si bien es cierto que hay plataformas como <a href="https://retell.ai" target="_blank">Retell</a>, o <a href="https://vapi.ai" target="_blank">VAPI</a>, que simplifican mucho la labor, más aún con herramientas no code como <a href="https://www.make.com" target="_blank">Make</a>, o <a href="https://n8n.io" target="_blank">n8n</a> (que de herramientas no code, seguramente haré un post aparte)
 
 El desarrollo de Agentes de Inteligencia Artificiale, en realidad, no es más que otra rama del desarrollo de Software, por tanto, debes contar no solo con conocimientos específicos en Inteligencia Artificial, sino que debes contar con los conocimientos básicos de programación.
 
@@ -158,7 +158,7 @@ Me han llegado consultas sobre como podrían implementar agentes para reservas (
 
 #### El agente no habla como debe
 
-Este, me hace bastante gracia, este último año, se han puesto de moda los agentes de voz, gracias a plataformas como <a href="https://vapi.ai/?aff=marcos" target="_blank">VAPI</a>, o <a href="https://retell.ai" target="_blank">Retell</a>, como comentaba, y muchos, esperan que hablen "de manera humana", en parte cegados por lo "espectacular" de <a href="https://try.elevenlabs.io/zdtuyy0zb01e" target="_blank">ElevenLabs</a>, o servicios similares.
+Este, me hace bastante gracia, este último año, se han puesto de moda los agentes de voz, gracias a plataformas como <a href="https://vapi.ai" target="_blank">VAPI</a>, o <a href="https://retell.ai" target="_blank">Retell</a>, como comentaba, y muchos, esperan que hablen "de manera humana", en parte cegados por lo "espectacular" de <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a>, o servicios similares.
 
 Pero como dije, las IAs, son imbéciles xD.
 
@@ -170,7 +170,7 @@ Así que, te dejo algunos de los fallos más comunes que te vas a encontrar:
 4. No cambia de tono cuando se lo digo.
 5. Dice mal algunas palabras
 
-Todos estos fallos, son comunes, y aunque todos son solventables, algunos son más sencillos que solucionar que otros, dependiendo de la infraestructura que estés usando, en infraestructuras comerciales como <a href="https://retell.ai" target="_blank">Retell</a> o <a href="https://vapi.ai/?aff=marcos" target="_blank">VAPI</a>, los problemas de entonación, por ejemplo, son dificilmente solventables, por cuestiones técnicas que no voy a entrar.
+Todos estos fallos, son comunes, y aunque todos son solventables, algunos son más sencillos que solucionar que otros, dependiendo de la infraestructura que estés usando, en infraestructuras comerciales como <a href="https://retell.ai" target="_blank">Retell</a> o <a href="https://vapi.ai" target="_blank">VAPI</a>, los problemas de entonación, por ejemplo, son dificilmente solventables, por cuestiones técnicas que no voy a entrar.
 
 El resto, otra vez, dependiendo de la infraestructura, pueden ser solventables, por ejemplo, en VAPI, no podrás solventar la velocidad del habla, pero en Retell si, ¿por qué? en el apartado de infraestructuras, te lo explico.
 
@@ -204,7 +204,7 @@ Como es algo que preguntan habitualmente, te dejo los puntos fundamentales para 
    1. Para un agente que solo contesta preguntas, con uno barato, sobra.
    2. Un LLM open source, reduce drásticamente los costes.
       1. Además, alojarlo tu mismo, también puede ser una buena opción
-2. La voz que elijas, también marca diferencia, <a href="https://try.elevenlabs.io/zdtuyy0zb01e" target="_blank">ElevenLabs</a> es, de lejos, el mejor, pero también el más caro.
+2. La voz que elijas, también marca diferencia, <a href="https://elevenlabs.io" target="_blank">ElevenLabs</a> es, de lejos, el mejor, pero también el más caro.
 3. Controla la duración de la interacción
    1. Evita que el agente hable de más
    2. Evita reiteraciones
@@ -232,7 +232,7 @@ Los agentes, utilizan una serie de infraestructuras para funcionar, para no enre
    3. Un transcriptor de voz a texto (para pasarle al LLM lo que el humano diga)
    4. Un transcriptor de texto a voz (PAra decirle al humano, lo que el LLM responda)
 
-Todo esto, aunque el punto 2 te lo proporcionen casi por completo plataformas como <a href="https://vapi.ai/?aff=marcos" target="_blank">VAPI</a> o <a href="https://retell.ai" target="_blank">Retell</a>, en realidad, son infraestructuras independientes.
+Todo esto, aunque el punto 2 te lo proporcionen casi por completo plataformas como <a href="https://vapi.ai" target="_blank">VAPI</a> o <a href="https://retell.ai" target="_blank">Retell</a>, en realidad, son infraestructuras independientes.
 
 Y como tal, puedes usar las de terceros, o, desarrollar las tuyas propias.
 
