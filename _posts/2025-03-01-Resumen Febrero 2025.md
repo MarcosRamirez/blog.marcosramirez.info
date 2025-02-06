@@ -21,7 +21,7 @@ En resumen, en Febrero, básicamente he empezado a trabajar el día 4...
 
 
 # La nueva web
-Básicamente textos, textos, y más textos.
+Básicamente textos, textos, y más textos. Sobretodo los legales
 
 # Clientes.
 
