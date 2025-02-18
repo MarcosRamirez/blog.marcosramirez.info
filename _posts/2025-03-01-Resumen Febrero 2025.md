@@ -19,7 +19,7 @@ Febrero, lo he empezado "tarde", la verdad, mi cumpleaños es el día 3, Lunes e
 
 En resumen, en Febrero, básicamente he empezado a trabajar el día 4...
 
-Además este mes está siendo movidito respecto a la IA, y fallos... que si MoviStar bloqueando medio CloudFlare, que si Musk liándola con OpenAI, que si se cae OpenAI y 11Labs... 
+Además este mes está siendo movidito respecto a la IA, y fallos... que si <a href="https://elpais.com/tecnologia/2025-02-15/moscas-a-canonazos-la-lucha-contra-la-pirateria-en-el-futbol-tumba-miles-de-webs-legitimas.html" target="_blank">MoviStar bloqueando medio CloudFlare</a>, que si <a href="https://www.xataka.com/empresas-y-economia/elon-musk-lanza-una-oferta-inesperada-para-adquirir-openai-por-casi-100-000-millones-de-dolares" target="_blank">Musk liándola con OpenAI</a>, que si se cae OpenAI y 11Labs... 
 
 
 # Lucia 
@@ -48,6 +48,8 @@ Además de todo lo que ya hace (que creo que no lo he dicho)
 # La nueva web
 Básicamente textos, textos, y más textos. Sobretodo los legales
 Y he puesto una seccion FAQ, que creo cubre casi todas las preguntas generales.
+he mejorado el hero 
+He mejorado el contact.
 
 # Clientes.
 
@@ -75,6 +77,10 @@ Total, que hemos cerrado un presupuesto para hacerle la integración, y a medio 
 ## Posible alianza comercial.
 
 He estado hablando con una empresa partner de un ERP, y probablemente lleguemos a un acuerdo comercial.
+
+# Nuevas oportunidades
+
+Me han propuesto ser partner de un ERP, y ... lo estoy evaluando.
 
 
 
