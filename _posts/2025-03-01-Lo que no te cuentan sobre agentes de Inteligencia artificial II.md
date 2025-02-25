@@ -85,7 +85,9 @@ También se tiende a no considerar el prompt como parte de la seguridad.
 
 ## Asegurarnos de dar datos privados a la persona correcta.
 
-Si un cliente llama a tu agente, y le pide que le facilite sus DATOS y la IA le dice que no puede revelar información privada, ENHORABUENA, en toda Europa, y en muchísimos paises, acabas de ganarte una multa, y no precisamente pequeña.
+Si un cliente llama a tu agente, y le pide que le facilite SUS DATOS y la IA le dice que no puede revelar información privada, ENHORABUENA, en toda Europa, y en muchísimos paises, acabas de ganarte una multa, y no precisamente pequeña.
+
+Es por eso que es importante asegurarnos de que nuestros agentes cumplen con la ley, y controlar todas las casuísticas posibles.
 
 # Debug
 
