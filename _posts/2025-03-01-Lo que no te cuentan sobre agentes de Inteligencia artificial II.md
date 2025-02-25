@@ -99,6 +99,8 @@ Por ejemplo, si el agente te da una respuesta que no esperas, sigue estos pasos:
 
 Esto es, por que ambos son frutos secos, y hay una relación entre ellos.
 
+2. Pregúntale a tu agente por qué respondió eso, mucha gente se sorprende de esto, pero, evidentemente, puedes hablar con tu agente, y de sus respuestás obtener información para mejorar su entrenamiento.
+
 ***
 No olvides compartir el post si te ha gustado
 ````
