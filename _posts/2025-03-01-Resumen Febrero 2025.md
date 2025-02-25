@@ -74,6 +74,10 @@ Total, que hemos cerrado un presupuesto para hacerle la integración, y a medio 
 
 ¿Lo más divertido de todo?, la cara de quien le hizo la web actual, que resultó que ni era desarrollador, al decirle las cosas como son.
 
+## Migración de un WordPress
+
+Estos últimos días me ha surgido un cliente, conocido, que tenía un WordPress, y problemas con la agencia que se lo hizo, que no le daba datos de acceso,la web tenía un noindex... y ha sido interesante ir averiguando toda la historia y los porqués, y al momento de escribir esto, estoy pegándome con All In One WordPress Migration, para migrarlo a Hostinger, lo divertido... que está en PHP7, y en mis pruebas en local con Docker, la importación falla... habrá que ver que pasa, y como solventarlo.
+
 ## Posible alianza comercial.
 
 He estado hablando con una empresa partner de un ERP, y probablemente lleguemos a un acuerdo comercial.

@@ -8,7 +8,7 @@ categories: [Inteligencia Artificial]
 tags: [IA, agentes, te cuentan, verdad]
 pin: false
 toc: true
-excerpt: Este es uno de esos posts, que según lo escribo, ya sé que va a ofender a más de uno, pero que le voy a hacer... yo soy así, si veo que algo se está haciendo mal, lo digo. 
+excerpt: Esta es la segunda parte del post que escribí el mes pasado, sobre los problemas que te puedes encontrar al desarrollar un agente de inteligencia artificial 
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)
@@ -72,6 +72,10 @@ Esto afecta sobretodo a entonaciones, y velocidad del habla.
 
 # GuardRails
 
+Es importante definir bien el marco de actuación de tu agente, para evitar que "alucine" y de información no relevante, o que no quieres dar.
+Por ejemplo, si tienes un agente de soporte técnico para una empresa de desarrollo, y le preguntan sobre reparar un ordenador, es muy probable que el agente de instrucciones para ello, dado que está en el marco de la tecnologia.
+
+
 # Seguridad
 
 Es muy, muy importante asegurarnos de que la IA no revele información confidencial, pero ¿qué es información confidencial?.
@@ -89,7 +93,9 @@ Algo que sorprende a mucha gente, es que se puede hacer debug a un Agente de int
 
 Por ejemplo, si el agente te da una respuesta que no esperas, sigue estos pasos:
 
-1. ¿La respuestá está dentro del marco o ha alucinado realmente?, me explico, si le preguntas a un agente si vende castañas, y te responde Cristobal Colón, está alucinando, pero si te dic
+1. ¿La respuestá está dentro del marco o ha alucinado realmente?, me explico, si le preguntas a un agente si vende castañas, y te responde Cristobal Colón, está alucinando, pero si te dice que vende pipas, en realidad, no está alucinando.
+
+Esto es, por que ambos son frutos secos, y hay una relación entre ellos.
 
 ***
 No olvides compartir el post si te ha gustado
