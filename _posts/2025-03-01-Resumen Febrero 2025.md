@@ -86,6 +86,8 @@ He estado hablando con una empresa partner de un ERP, y probablemente lleguemos 
 
 Me han propuesto ser partner de un ERP, y ... lo estoy evaluando.
 
+Hoy Viernes 28, he enviando la primera mini campaña de email marketting, a ver que pasa.
+
 
 
 ***

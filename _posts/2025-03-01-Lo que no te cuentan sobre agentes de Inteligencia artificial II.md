@@ -5,7 +5,7 @@ author: Marcos Ramírez
 date: 2025-03-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Inteligencia Artificial]
-tags: [IA, agentes, te cuentan, verdad]
+tags: [IA, agentes, te cuentan, verdad, latencia, debug, seguridad, legislacion, leyes, legal]
 pin: false
 toc: true
 excerpt: Esta es la segunda parte del post que escribí el mes pasado, sobre los problemas que te puedes encontrar al desarrollar un agente de inteligencia artificial 
@@ -16,6 +16,10 @@ permalink: /:slug/
 # Segundas partes... ¿nunca fueron buenas?
 
 El mes pasado escribí la primera parte de este post, pero como he visto más preguntas, y problemas que no traté, voy a hacerlo en este.
+
+Aquí encontrarás la forma de solucionar errores comunes, como hacer debug a un agente de inteligencia artificial, o cómo evitar que tu agente revele información confidencial. O que la revele, cuando es necesario, para cumplir con la ley.
+
+También aprenderás a lidiar con la latencia, y a enseñar a tu agente a hablar correctamente
 
 
 

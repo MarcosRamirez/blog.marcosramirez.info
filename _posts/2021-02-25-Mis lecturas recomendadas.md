@@ -48,5 +48,13 @@ Por ello, voy a dividir este post en géneros y tendréis a la derecha un menú 
 
 ***[El tubo](https://amzn.to/3pZTH1y){:rel="nofollow", target="_blank"}***: Si te gustó Cube, te gustará.. no diré más, es una película sorprendente.
 
+
+# Series 
+
+- TeaCup 
+- From 
+- Lost 
+- 
+
 ---
 [^1]: Según vaya teniendo tiempo para completar la lista actualmente escueta, y, logicamente según vaya leyendo cosas nuevas, o vayáis recoemdando cosas.
