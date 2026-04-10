@@ -4,8 +4,8 @@ slug: aumenta-vida-bateria-portatil-tablet-lifehack
 author: Marcos Ramírez
 date: 2021-12-20 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [LifeHack, Informática]
-tags: [aumenta,alarga,bateria,vida,portatil,tablet,laptop]
+categories: [Productividad y Hacks, Life Hacks]
+tags: [hardware, batería, trucos, consejos]
 pin: false
 toc: true
 excerpt: ✔️ Si eres de los que tiene tu portatil o tablet enchufado demasiadas horas, te aconsejo que leas esto, la vida de tu batería subirá como un cohete 🚀🚀.

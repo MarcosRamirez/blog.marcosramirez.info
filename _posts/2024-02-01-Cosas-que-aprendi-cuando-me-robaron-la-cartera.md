@@ -4,8 +4,8 @@ slug: cosas-que-aprendi-cuando-me-robaron-la-cartera
 author: Marcos Ramírez
 date: 2024-02-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [personal]
-tags: [cartera,antirobo,alarma]
+categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
+tags: [personal, seguridad, airtag, consejos]
 pin: false
 toc: true
 excerpt: ¿Te han robado la cartera?, aquí te explico algunas cosas, incluyendo soluciones, que he aprendido a raíz de que me la robasen en Diciembre de 2023.

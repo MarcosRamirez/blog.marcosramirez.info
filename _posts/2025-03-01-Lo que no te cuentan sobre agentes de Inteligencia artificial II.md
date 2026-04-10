@@ -4,8 +4,8 @@ slug: Lo-que-no-te-cuentan-sobre-agentes-de-Inteligencia-artificial-ii
 author: Marcos Ramírez
 date: 2025-03-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Inteligencia Artificial]
-tags: [IA, agentes, te cuentan, verdad, latencia, debug, seguridad, legislacion, leyes, legal]
+categories: [Tecnología, IA]
+tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
 toc: true
 excerpt: Esta es la segunda parte del post que escribí el mes pasado, sobre los problemas que te puedes encontrar al desarrollar un agente de inteligencia artificial 

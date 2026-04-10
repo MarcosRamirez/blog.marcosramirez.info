@@ -4,8 +4,8 @@ slug: asi-te-timan-con-los-megas-no-necesitas-pagar-600mb
 author: Marcos Ramírez
 date: 2021-12-13 18:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Informática]
-tags: [timan, megas, velocidad, internet, teléfonica, movistar, orange, yoigo, precio, caro, bajar, velocidad]
+categories: [Tecnología, Redes e Infraestructura]
+tags: [redes, internet, fibra, opinión]
 pin: false
 toc: true
 excerpt: En este tercer post sobre los timos con los "megas", hablaremos de velocidades de conexión que necesitas, y precios, seguro que te llevarás una sorpresa.

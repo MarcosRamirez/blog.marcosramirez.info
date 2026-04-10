@@ -4,8 +4,8 @@ slug: ahorrar-dinero-facilmente
 author: Marcos Ramírez
 date: 2022-01-02 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Finanzas, Ahorro]
-tags: [ahorro, ahorrar, dinero, fácil, trucos, tips, ahorra facilmente, ahorrar donero, ahorrar fácil]
+categories: [Finanzas Personales, Ahorro e Inversión]
+tags: [ahorro, finanzas, presupuesto, consejos]
 pin: false
 toc: true
 excerpt: ¿Tu dinero vuela? 💸 ¿eres de los que dicen "no puedo ahorrar" o "esto no me va a sacar de pobre"? en este post te enseño como empezar a ahorrar de manera sencilla, si es que no te resulta dificil aceptar algunas realidades

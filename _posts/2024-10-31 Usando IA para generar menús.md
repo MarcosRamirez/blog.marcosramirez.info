@@ -1,11 +1,11 @@
-!---
+---
 title: 2024-10-31 Usando IA para generar menús
 slug: usando-ia-para-generar-menus
 author: Marcos Ramírez
 date: 2024-10-29 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Informática, IA]
-tags: [generador menús]
+categories: [Tecnología, IA]
+tags: [ia, chatgpt, automatización, utilidades]
 pin: false
 toc: true
 excerpt: Hablando con la endocrina de mi madre, me dí cuenta de lo problemático que es, sobretodo para personas mayores, llevar una dieta adecuada, por lo que empecé a hacer menús, manualmente, para ella... pero como era tedioso, decidí usar IA para ello, y por si a alguien más le resulta útil, he tratado de simplificar el proceso, para que cualquiera pueda hacerlo, y adaptarlo a sus necesidades.

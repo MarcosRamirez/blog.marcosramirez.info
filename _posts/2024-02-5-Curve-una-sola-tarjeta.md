@@ -4,8 +4,8 @@ slug: curve-una-tarjeta-para-controlarlas-todas
 author: Marcos Ramírez
 date: 2024-02-05 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [finanzas]
-tags: [finanzas, bancos, neobancos, fintech, automatizar, seguridad, comodidad, agrupar, tarjeta, tarjetas]
+categories: [Finanzas Personales, Bancos y Fintech]
+tags: [curve, tarjetas, finanzas, tecnología]
 pin: false
 toc: true
 excerpt: Curve, o como llevar todas tus tarjetas en una sola, sin duda la mejor opción para reducir espacio en tu cartera.

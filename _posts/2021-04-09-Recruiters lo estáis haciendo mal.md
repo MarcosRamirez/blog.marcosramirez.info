@@ -2,8 +2,8 @@
 title: Recruiters&#58; Lo estáis haciendo mal
 author: Marcos Ramírez
 date: 2021-04-09 20:50:00 +0100
-categories: [Informática, Empleo]
-tags: [trabajo, empleo, recruiters, head hunters, ofertas, tests, prueba, conocimientos, ofertas, laborales]
+categories: [Personal y Desarrollo Profesional, Carrera Profesional]
+tags: [empleo, recruiters, opinión, trabajo]
 pin: false
 toc: true
 excerpt_separator: <!--more-->

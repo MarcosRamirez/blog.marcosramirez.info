@@ -4,8 +4,8 @@ slug: n26-mi-neo-banco
 author: Marcos Ramírez
 date: 2022-02-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [LifeStyle, Ahorro]
-tags: [life,hack,ahorro,dinero,gestión]
+categories: [Finanzas Personales, Bancos y Fintech]
+tags: [neobancos, n26, finanzas, opinión]
 pin: false
 toc: true
 excerpt: La banca tradicional está completamente muerta, para mí, es absurdo pagar por cosas como que te envíen un email, o tener que esperar DIAS para que una transferencia se haga efectiva. Si tú también estás harto de esto, sigue leyendo, aquí encontrarás la solución para que los bancos dejen de robarte 

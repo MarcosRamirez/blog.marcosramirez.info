@@ -4,8 +4,8 @@ slug: revolut-mi-nuevo-neobanco-de-cabecera
 author: Marcos Ramírez
 date: 2024-11-25 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [finanzas, bancos]
-tags: [banco, finanzas, revolut]
+categories: [Finanzas Personales, Bancos y Fintech]
+tags: [revolut, neobancos, finanzas, opinión]
 pin: false
 toc: true
 excerpt: Llevo ya un tiempo usando Revolut, dado que N26 me ha decepcionado un poco, y la verdad es que estoy encantado. En este post os cuento un poco mi experiencia con este neobanco.

@@ -2,8 +2,8 @@
 title: Como programar posts con Jekyll en GitHub Pages.
 author: Marcos Ramírez
 date: 2021-02-26 21:00:00 +0100
-categories: [Informática, Jekyll]
-tags: [Configurar, Jekyll, posts, programados, diferidos, deferred, posts]
+categories: [Tecnología, Desarrollo Web]
+tags: [jekyll, github pages, automatización, tutorial]
 pin: false
 toc: true
 excerpt_separator: <!--more-->

@@ -4,8 +4,8 @@ slug: enviar-mails-desde-otras-direcciones-o-alias-en-gmail
 author: Marcos Ramírez
 date: 2024-12-09 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Informatica, gmail]
-tags: [gmail, alias, correo]  
+categories: [Tecnología, Software y Apps]
+tags: [gmail, tutorial, utilidades]
 pin: false
 toc: true
 excerpt: Ayer me pasé media tarde intentando configurar una cuenta de correo en gmail para enviar correos desde ella. La verdad es que no es nada complicado, pero la documentación  de google no está actualizada, así que aquí os dejo los pasos a seguir.

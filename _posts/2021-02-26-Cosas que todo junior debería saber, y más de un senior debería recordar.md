@@ -2,8 +2,8 @@
 title: Cosas que todo Junior debería saber, y más de un Senior debería recordar.
 author: Marcos Ramírez
 date: 2021-02-26 18:00:00 +0100
-categories: [Informática, programación, Formación]
-tags: [junior, programación, conocimientos, básicos, aprender, programar, cursos, camp, codecamp]
+categories: [Personal y Desarrollo Profesional, Carrera Profesional]
+tags: [programación, empleo, junior, senior, consejos]
 pin: false
 toc: true
 excerpt: En este post, intentaré explicarte todo lo que, a mi parecer, debería saber un programador Junior, tanto técnicamente, como sobre otros temas como el ambiente laboral, responsabilidades, etc..

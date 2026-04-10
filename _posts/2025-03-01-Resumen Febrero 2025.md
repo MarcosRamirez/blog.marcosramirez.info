@@ -4,8 +4,8 @@ slug: resumen-febrero-2025
 author: Marcos Ramírez
 date: 2025-03-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [example]
-tags: [example]
+categories: [Personal y Desarrollo Profesional, Metas y Resúmenes]
+tags: [resumen, personal, desarrollo, tecnología]
 pin: false
 toc: true
 excerpt: Febrero de 2025, finiquitado, aquí tenéis que tal me ha ido este mes.

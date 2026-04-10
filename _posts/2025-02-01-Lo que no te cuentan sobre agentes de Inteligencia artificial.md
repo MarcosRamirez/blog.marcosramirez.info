@@ -4,8 +4,8 @@ slug: Lo-que-no-te-cuentan-sobre-agentes-de-Inteligencia-artificial
 author: Marcos Ramírez
 date: 2025-01-31 8:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Inteligencia Artificial]
-tags: [IA, agentes, te cuentan, verdad]
+categories: [Tecnología, IA]
+tags: [ia, desarrollo, opinión, asistentes]
 pin: false
 toc: true
 excerpt: Este es uno de esos posts, que según lo escribo, ya sé que va a ofender a más de uno, pero que le voy a hacer... yo soy así, si veo que algo se está haciendo mal, lo digo. 

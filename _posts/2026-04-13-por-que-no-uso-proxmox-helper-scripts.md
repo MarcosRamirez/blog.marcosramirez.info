@@ -4,8 +4,8 @@ slug: por-que-no-uso-proxmox-helper-scripts
 author: Marcos Ramírez
 date: 2026-04-13 08:30:00 +0200
 image: /assets/img/headers/default.webp
-categories: [Homelab]
-tags: [proxmox, homelab, bases de datos, docker, lxc, helper scripts, administracion sistemas]
+categories: [Tecnología, Sistemas]
+tags: [proxmox, homelab, contenedores, infraestructura]
 pin: false
 toc: true
 excerpt: Te cuento por qué he dejado de utilizar los famosos helper scripts en Proxmox y cómo prefiero centralizar la gestión de las bases de datos.

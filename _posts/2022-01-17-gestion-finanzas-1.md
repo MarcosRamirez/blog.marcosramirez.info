@@ -4,8 +4,8 @@ slug: gestion-finanzas-básica
 author: Marcos Ramírez
 date: 2022-01-17 10:00:00 +0100
 image: /assets/img/headers/finanzas.jpg
-categories: [Finanzas]
-tags: [gestion, finanzas, dinero, ahorro, invertir, ganar más dinero, inversiones]
+categories: [Finanzas Personales, Ahorro e Inversión]
+tags: [finanzas, gestión, ahorro, consejos]
 pin: false
 toc: true
 excerpt: ¿Tienes una única cuenta bancaria 🏦? ¿usas tarjetas de crédito 💳? ¿tienes más de un préstamo? ¿haces menos de un presupuesto al mes? ¿¿dices a menudo "no me va a sacar de pobre"?, si has respondido SÍ a simplemente una de estas preguntas, seguramente deberías leer este artículo, y empezar a seguirme.
