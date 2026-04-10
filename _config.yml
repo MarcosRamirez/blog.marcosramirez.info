@@ -12,7 +12,7 @@ lang: es-ES
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Europe/Madrid
-future: false  # This enables future posts :facepalm:
+future: true  # This enables future posts :facepalm:
 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
