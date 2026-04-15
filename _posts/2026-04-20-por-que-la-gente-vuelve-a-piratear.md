@@ -39,6 +39,24 @@ Pagas por ver contenido y encima tienes cortes publicitarios, algo que la pirate
 
 Por si fuera poco, nos están arrebatando el concepto de propiedad. Antes comprabas una película en DVD o Blu-Ray y era tuya para siempre. Ahora, si compras contenido digital, realmente ya no eres el dueño: adquieres una mera licencia de uso sujeta a términos y condiciones. Ya han saltado casos donde servicios como la [PlayStation Store](https://store.playstation.com/){:target="_blank"} u otras plataformas borran contenido "comprado" de las bibliotecas de los usuarios por pura expiración de licencias. Estás pagando a precio de oro algo que pueden quitarte con solo pulsar un botón.
 
+# Hablemos de números: El coste del streaming vs Servidor Casero
+
+Para entender la magnitud de la sangría económica, echemos un vistazo a lo que cuesta mantener las plataformas principales en España actualmente comparando los planes Estándar (1080p sin anuncios) y los Premium (4K):
+
+| Plataforma | Precio Estándar (1080p) | Precio Premium (4K) |
+| :--- | :--- | :--- |
+| **[Netflix](https://www.netflix.com/){:target="_blank"}** | 12,99 €/mes | 17,99 €/mes |
+| **[Disney+](https://www.disneyplus.com/){:target="_blank"}** | 8,99 €/mes | 11,99 €/mes |
+| **[Max](https://www.max.com/){:target="_blank"}** | 9,99 €/mes | 13,99 €/mes |
+| **[Amazon Prime Video](https://www.primevideo.com/){:target="_blank"}** | 4,99 €/mes | 4,99 €/mes |
+| **[Apple TV+](https://tv.apple.com/){:target="_blank"}** | 9,99 €/mes | 9,99 €/mes |
+| **Total Mensual** | **~ 46,95 €/mes** | **~ 58,95 €/mes** |
+| **Total Anual** | **~ 563 €/año** | **~ 707 €/año** |
+
+Pagar más de 700€ anuales por un servicio alquilado y fragmentado duele. Especialmente cuando lo comparas con **el coste de montar tu propio servidor casero**. 
+
+Por unos 150-200€ puedes hacerte con un Mini PC con procesador Intel N100 (potente y de bajísimo consumo). Añádele un par de discos duros de alta capacidad por otros 150-200€. Por menos de **400€ en un pago único**, tienes el hardware preparado. El software necesario (Plex, Jellyfin y la *suite* completa de herramientas *arr como Sonarr y Radarr) es de código abierto y completamente gratuito. Recuperas la inversión en unos seis meses, tu contenido es tuyo de verdad y está todo consolidado en una sola interfaz increíble.
+
 # El resurgir de los "mares"
 
 La comodidad y el precio justo eran los dos principales escudos contra la piratería. Al eliminar ambos, las barreras de entrada para empezar a montar servidores caseros (con herramientas como [Plex](https://www.plex.tv/){:target="_blank"}, [Jellyfin](https://jellyfin.org/){:target="_blank"} o los famosos arr de la comunidad de código libre) han bajado drásticamente.
