@@ -20,7 +20,7 @@ future: true  # This enables future posts :facepalm:
 title: Marcos Ramírez                          # the main title
 tagline: Software Engineer   # it will display as the sub-title
 description: >-                        # used by seo meta and the atom feed
-  Blog personal de Marcos Ramírez, ingeniero de software, posts de programación,
+  Blog personal de Marcos Ramírez, ingeniero de software, posts de Inteligencia Artificial, home labs, programación,
   teconología, life style, y también verás micurriculum y portfolio
 excerpt_separator: <!--more-->
 
