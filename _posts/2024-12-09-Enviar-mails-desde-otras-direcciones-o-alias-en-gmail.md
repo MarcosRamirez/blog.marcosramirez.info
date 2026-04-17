@@ -8,7 +8,7 @@ categories: [Tecnología, Software y Apps]
 tags: [gmail, tutorial, utilidades]
 pin: false
 toc: true
-excerpt: Ayer me pasé media tarde intentando configurar una cuenta de correo en gmail para enviar correos desde ella. La verdad es que no es nada complicado, pero la documentación  de google no está actualizada, así que aquí os dejo los pasos a seguir.
+excerpt: Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail. En este tutorial breve pero esencial, detallo el uso de contraseñas de aplicación y la configuración precisa del servidor SMTP para superar las limitaciones de la documentación estándar, facilitando una gestión centralizada y profesional de múltiples cuentas de correo desde una única interfaz.
 permalink: /:slug/ 
 ---
 
