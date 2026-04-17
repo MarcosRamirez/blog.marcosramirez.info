@@ -7,7 +7,7 @@ categories: [Personal y Desarrollo Profesional, Recomendaciones]
 tags: [libros, programación, lectura, recomendaciones]
 pin: true
 toc: true
-excerpt: Aquí encontrarás mis recomendaciones de lectura, libros, blogs, papers, etc... y, por supuesto, espero vuestras recomendaciones, tanto literatura técnica (informática), como novelas.
+excerpt: Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores, como 'Clean Code' y 'Refactoring', hasta novelas de terror de Stephen King y producciones audiovisuales sorprendentes. Este post, que mantengo en constante actualización, busca ser un recurso útil de consulta y un espacio de intercambio donde lectores y apasionados de la tecnología puedan descubrir y sugerir nuevos títulos de interés.
 permalink: /:slug/ # title is filename NOT title in YAML
 image: /assets/img/headers/recomendaciones.webp
 ---
