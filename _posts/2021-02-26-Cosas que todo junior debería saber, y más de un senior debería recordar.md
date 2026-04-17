@@ -6,7 +6,7 @@ categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [programación, empleo, junior, senior, consejos]
 pin: false
 toc: true
-excerpt: En este post, intentaré explicarte todo lo que, a mi parecer, debería saber un programador Junior, tanto técnicamente, como sobre otros temas como el ambiente laboral, responsabilidades, etc..
+excerpt: Ofrezco una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental. Analizo los diferentes tipos de formación, priorizo el aprendizaje de conceptos universales de programación sobre lenguajes específicos, y desgrano las herramientas y metodologías —desde Git y SOLID hasta el teletrabajo y la gestión de egos— que definen una carrera profesional exitosa en el sector tecnológico.
 ---
 
 # Disclaimer
