@@ -8,7 +8,7 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, productividad, comunicación]
 pin: false
 toc: true
-excerpt: "Casi nadie tiene ni idea de cómo comunicarse correctamente. Aquí van mis reglas para emails, chats y llamadas."
+excerpt: En este post, comparto mi guía personal sobre cómo comunicarse conmigo (y con cualquier profesional) de manera eficiente. Desde las normas básicas para correos electrónicos y citas, hasta la gestión de chats y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente y cómo evitar hacernos perder el tiempo con chorradas innecesarias.
 twitter_description: "Mis reglas para comunicarte conmigo sin que me cabrees: email, chat, WhatsApp y teléfono."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
