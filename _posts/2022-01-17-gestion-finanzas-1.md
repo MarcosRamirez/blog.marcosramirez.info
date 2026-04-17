@@ -8,7 +8,7 @@ categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [finanzas, gestión, ahorro, consejos]
 pin: false
 toc: true
-excerpt: ¿Tienes una única cuenta bancaria 🏦? ¿usas tarjetas de crédito 💳? ¿tienes más de un préstamo? ¿haces menos de un presupuesto al mes? ¿¿dices a menudo "no me va a sacar de pobre"?, si has respondido SÍ a simplemente una de estas preguntas, seguramente deberías leer este artículo, y empezar a seguirme.
+excerpt: Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero. Explico por qué es vital diversificar cuentas bancarias, los riesgos del sobreendeudamiento y la importancia de calcular nuestro valor real por hora trabajada. Además, introduzco conceptos fundamentales sobre ahorro sistemático e inversión —entendida no solo como capital, sino como formación y optimización del tiempo— para sentar las bases de una economía personal saludable.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/finanzas.jpg)
