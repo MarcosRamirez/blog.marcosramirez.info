@@ -7,7 +7,7 @@ tags: [jekyll, github pages, automatización, tutorial]
 pin: false
 toc: true
 excerpt_separator: <!--more-->
-excerpt: Te explico como programar posts con Jekyll, para que se publiquen el día y hora que tu quieras.
+excerpt: Explico cómo solucionar una de las principales limitaciones de Jekyll al hospedar en GitHub Pages: la imposibilidad nativa de programar publicaciones para fechas futuras. Muestro cómo configurar un flujo de trabajo de GitHub Actions con un activador de cron para forzar reconstrucciones automáticas del sitio, permitiendo que los posts se publiquen exactamente en el momento deseado sin intervención manual.
 permalink: /:title/ # title is filename NOT title in YAML
 ---
 
