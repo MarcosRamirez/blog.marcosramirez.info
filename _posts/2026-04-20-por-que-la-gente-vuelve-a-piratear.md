@@ -14,6 +14,9 @@ permalink: /:slug/
 ---
 ![Post Header](/assets/img/headers/default.webp)
 
+> [!NOTE]
+> **Aviso:** Este post es un análisis técnico y de mercado sobre las tendencias de consumo digital. No pretendo, bajo ningún concepto, hacer apología de la piratería ni fomentar la descarga ilegal de contenido protegido por derechos de autor. Mi objetivo es simplemente reflexionar sobre cómo la fragmentación del servicio afecta al comportamiento del usuario.
+
 # El fin de la edad de oro del streaming
 
 Hace unos años parecía que habíamos encontrado la solución definitiva a la piratería. Llegó [Netflix](https://www.netflix.com/){:target="_blank"} junto a otras plataformas, y de repente, pagar una suscripción de unos 10 euros al mes para tener miles de películas y series a un clic de distancia en el sofá parecía la mejor inversión del mundo. Era tan accesible y fácil que descargar contenido por torrent o buscar enlaces de dudosa procedencia se convirtió en una pérdida de tiempo.
