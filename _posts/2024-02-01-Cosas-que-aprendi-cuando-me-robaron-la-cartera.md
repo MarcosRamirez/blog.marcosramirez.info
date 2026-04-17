@@ -8,7 +8,7 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [personal, seguridad, airtag, consejos]
 pin: false
 toc: true
-excerpt: ¿Te han robado la cartera?, aquí te explico algunas cosas, incluyendo soluciones, que he aprendido a raíz de que me la robasen en Diciembre de 2023.
+excerpt: Relato mi experiencia personal tras el robo de mi cartera en un supermercado, detallando el proceso de denuncia y las lecciones aprendidas sobre seguridad cotidiana. Analizo la importancia de no portar objetos con valor sentimental insustituible, la utilidad de los localizadores inteligentes como los AirTags para prevenir pérdidas definitivas y la decepcionante realidad del civismo en situaciones de oportunidad.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)
