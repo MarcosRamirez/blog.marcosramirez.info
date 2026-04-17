@@ -8,7 +8,7 @@ categories: [Tecnología, IA]
 tags: [ia, chatgpt, automatización, utilidades]
 pin: false
 toc: true
-excerpt: Hablando con la endocrina de mi madre, me dí cuenta de lo problemático que es, sobretodo para personas mayores, llevar una dieta adecuada, por lo que empecé a hacer menús, manualmente, para ella... pero como era tedioso, decidí usar IA para ello, y por si a alguien más le resulta útil, he tratado de simplificar el proceso, para que cualquiera pueda hacerlo, y adaptarlo a sus necesidades.
+excerpt: Detallo un método práctico para utilizar la Inteligencia Artificial en la planificación de menús semanales equilibrados, una solución que nace de la necesidad de gestionar dietas específicas como la de personas diabéticas. Proporciono las instrucciones exactas (prompts) y una base de datos de platos categorizados que permiten a ChatGPT generar menús personalizados y archivos PDF listos para imprimir, simplificando una tarea doméstica a menudo tediosa.
 permalink: /:slug/ 
 ---
 
