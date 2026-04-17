@@ -8,7 +8,7 @@ categories: [Opinión, Tecnología]
 tags: [piratería, streaming, netflix, disney, prime video, suscripciones]
 pin: false
 toc: true
-excerpt: Analizo las causas detrás del resurgir de la piratería en la era de la fragmentación del streaming. Explico cómo las constantes subidas de precio, la inserción de publicidad en planes de pago y la pérdida del concepto de propiedad digital han empujado a los usuarios de vuelta a los 'mares' del internet. Además, realizo una comparativa económica detallada entre el coste de múltiples suscripciones y la inversión en un servidor casero con herramientas como Plex o Jellyfin.
+excerpt: Analizo el fin de la paz del streaming y por qué la piratería vuelve a ganar terreno. Explico cómo la fragmentación masiva, las subidas de precio y la pérdida de propiedad real sobre lo que compramos están empujando a los usuarios de vuelta al P2P. Además, presento una comparativa económica real —el gasto anual en plataformas frente a la inversión en un servidor propio con Plex o Jellyfin— para recuperar el control total del contenido multimedia.
 twitter_description: "Análisis sobre la fragmentación del streaming y por qué la piratería vuelve a ser una opción para muchos."
 permalink: /:slug/ 
 ---
