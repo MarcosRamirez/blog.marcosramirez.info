@@ -7,7 +7,7 @@ tags: [empleo, recruiters, opinión, trabajo]
 pin: false
 toc: true
 excerpt_separator: <!--more-->
-excerpt: Este post pretende ser una crítica constructiva al proceso de selección, o de recruiting (para el sector Informático), que sufrimos en el momento de escribir este artículo, procesos donde se hace perder el tiempo de manera innecesaria, desde la propia publicación de la oferta laboral.
+excerpt: Expongo una crítica constructiva sobre los procesos de selección en el sector IT, analizando los errores que cometen recruiters y empresas al redactar ofertas poco claras o 'humo', y al gestionar de forma ineficiente las entrevistas y pruebas técnicas. Propongo alternativas más respetuosas con el tiempo del candidato y métodos de evaluación técnica basados en el razonamiento conceptual en lugar de tareas extensas y no remuneradas.
 image: /assets/img/recruiting.jpg
 permalink: /:title/ # title is filename NOT title in YAML
 ---
