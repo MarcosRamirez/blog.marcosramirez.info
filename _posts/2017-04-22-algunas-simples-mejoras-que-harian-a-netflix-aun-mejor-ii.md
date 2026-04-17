@@ -3,7 +3,7 @@ title: "Algunas simples mejoras que harían a NetFlix aún mejor (II)"
 slug: algunas-simples-mejoras-que-harian-a-netflix-aun-mejor-ii
 author: Marcos Ramírez
 date: 2017-04-22 11:34:34 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/netflix.png
 categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false

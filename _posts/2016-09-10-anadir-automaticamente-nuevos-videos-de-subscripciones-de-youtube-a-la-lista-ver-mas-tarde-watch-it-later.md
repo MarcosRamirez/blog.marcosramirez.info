@@ -3,7 +3,7 @@ title: "Añadir AUTOMÁTICAMENTE nuevos videos de subscripciones de YouTube a la
 slug: anadir-automaticamente-nuevos-videos-de-subscripciones-de-youtube-a-la-lista-ver-mas-tarde-watch-it-later
 author: Marcos Ramírez
 date: 2016-09-10 08:31:36 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/youtube.png
 categories: [Productividad y Hacks, Automatización]
 tags: [youtube, scripts, automatización, google]
 pin: false

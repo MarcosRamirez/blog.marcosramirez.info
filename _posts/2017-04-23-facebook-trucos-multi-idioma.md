@@ -3,7 +3,7 @@ title: "Facebook: Trucos multi idioma"
 slug: facebook-trucos-multi-idioma
 author: Marcos Ramírez
 date: 2017-04-23 15:04:47 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/facebook.png
 categories: [Tecnología, Software y Apps]
 tags: [facebook, trucos, tutorial, redes sociales]
 pin: false

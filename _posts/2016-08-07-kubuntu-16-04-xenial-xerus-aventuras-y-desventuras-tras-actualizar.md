@@ -3,7 +3,7 @@ title: "Kubuntu 16.04 (Xenial Xerus): Aventuras y desventuras tras actualizar"
 slug: kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar
 author: Marcos Ramírez
 date: 2016-08-07 20:34:47 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/kubuntu.png
 categories: [Tecnología, Sistemas]
 tags: [linux, kubuntu, tutorial, opinión]
 pin: false

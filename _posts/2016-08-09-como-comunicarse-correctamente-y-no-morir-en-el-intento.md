@@ -3,7 +3,7 @@ title: "Cómo comunicarse (conmigo) correctamente y no morir en el intento"
 slug: como-comunicarse-correctamente-y-no-morir-en-el-intento
 author: Marcos Ramírez
 date: 2016-08-09 16:40:28 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/comunicarse.png
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, productividad, comunicación]
 pin: false

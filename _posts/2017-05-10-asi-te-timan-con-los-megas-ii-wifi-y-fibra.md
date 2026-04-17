@@ -3,7 +3,7 @@ title: "Así te timan con los megas II: Wifi y Fibra"
 slug: asi-te-timan-con-los-megas-ii-wifi-y-fibra
 author: Marcos Ramírez
 date: 2017-05-10 19:26:42 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/megas.png
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, wifi, opinión]
 pin: false

@@ -3,7 +3,7 @@ title: "Facebook me sorprende con una nueva funcionalidad (Beta)"
 slug: facebook-me-sorprende-con-una-nueva-funcionalidad
 author: Marcos Ramírez
 date: 2017-04-27 18:58:16 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/facebook.png
 categories: [Tecnología, Software y Apps]
 tags: [facebook, beta, novedades]
 pin: false

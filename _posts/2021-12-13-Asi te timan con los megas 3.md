@@ -3,7 +3,7 @@ title: Así te timan con los megas, no necesitas pagar 600Mb
 slug: asi-te-timan-con-los-megas-no-necesitas-pagar-600mb
 author: Marcos Ramírez
 date: 2021-12-13 18:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/megas.png
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, opinión]
 pin: false
