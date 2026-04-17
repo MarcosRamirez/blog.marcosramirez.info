@@ -9,6 +9,7 @@ tags: [piratería, streaming, netflix, disney, prime video, suscripciones]
 pin: false
 toc: true
 excerpt: Hemos pasado de la época dorada del streaming, donde por poco dinero tenías todo el catálogo, a una guerra de fragmentación masiva. Hoy analizamos por qué los usuarios están volviendo a surcar los mares del internet.
+twitter_description: "Análisis sobre la fragmentación del streaming y por qué la piratería vuelve a ser una opción para muchos."
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)

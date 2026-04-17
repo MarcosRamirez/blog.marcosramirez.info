@@ -9,6 +9,7 @@ permalink: "/Asi-te-timan-con-los-megas/"
 toc: true
 image: /assets/img/headers/default.webp
 excerpt: Es sorprendente la cantidad de getne que no sabe como funciona la velocidad de internet.
+twitter_description: "Breve explicación sobre por qué no te están dando lo que pagas con tu conexión a internet."
 ---
 <p>&nbsp;</p>
 <p>&nbsp;</p>
