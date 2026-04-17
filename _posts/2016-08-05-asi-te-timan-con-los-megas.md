@@ -8,7 +8,7 @@ tags: [redes, internet, fibra, curiosidades]
 permalink: "/Asi-te-timan-con-los-megas/"
 toc: true
 image: /assets/img/headers/megas.png
-excerpt: Es sorprendente la cantidad de getne que no sabe como funciona la velocidad de internet.
+excerpt: En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades de conexión que a menudo malinterpretamos. Un repaso básico pero esencial a las unidades de medida informática para que no te den gato por liebre con tu conexión a internet.
 twitter_description: "Breve explicación sobre por qué no te están dando lo que pagas con tu conexión a internet."
 ---
 <p>&nbsp;</p>
