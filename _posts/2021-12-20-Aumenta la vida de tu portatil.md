@@ -8,7 +8,7 @@ categories: [Productividad y Hacks, Life Hacks]
 tags: [hardware, batería, trucos, consejos]
 pin: false
 toc: true
-excerpt: ✔️ Si eres de los que tiene tu portatil o tablet enchufado demasiadas horas, te aconsejo que leas esto, la vida de tu batería subirá como un cohete 🚀🚀.
+excerpt: Comparto un 'LifeHack' sencillo y eficaz para prolongar la vida útil de las baterías en portátiles y tablets. Explico por qué mantener los dispositivos constantemente al 100% es perjudicial y cómo utilizar programadores de corriente o enchufes inteligentes para mantener la carga en rangos óptimos, ofreciendo además recomendaciones de hardware para automatizar este hábito de cuidado tecnológico.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)
