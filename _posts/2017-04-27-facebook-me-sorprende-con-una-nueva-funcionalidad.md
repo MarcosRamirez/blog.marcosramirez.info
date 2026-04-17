@@ -8,7 +8,7 @@ categories: [Tecnología, Software y Apps]
 tags: [facebook, beta, novedades]
 pin: false
 toc: false
-excerpt: Como Beta Tester de Facebook, analizo una nueva funcionalidad experimental: un botón de reproducción dedicado a recomendaciones de vídeos personalizadas. Explico su funcionamiento actual, su ubicación inestable en la interfaz y las implicaciones de este tipo de novedades que Facebook prueba con sus usuarios beta.
+excerpt: Como Beta Tester de Facebook, analizo una nueva funcionalidad experimental - un botón de reproducción dedicado a recomendaciones de vídeos personalizadas. Explico su funcionamiento actual, su ubicación inestable en la interfaz y las implicaciones de este tipo de novedades que Facebook prueba con sus usuarios beta.
 twitter_description: "Facebook prueba en beta un botón de recomendación de vídeos. Primera impresión de un Beta Tester."
 permalink: /facebook-me-sorprende-con-una-nueva-funcionalidad/
 ---

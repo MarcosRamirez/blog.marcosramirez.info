@@ -8,7 +8,7 @@ categories: [Tecnología, Sistemas]
 tags: [proxmox, homelab, contenedores, infraestructura]
 pin: false
 toc: true
-excerpt: Analizo por qué he dejado de utilizar los populares 'helper scripts' de Proxmox en favor de una arquitectura de autohospedaje más robusta y eficiente. Detallo los inconvenientes de aislar bases de datos dentro de cada contenedor —como el desperdicio de RAM y la complejidad en el mantenimiento— y expongo las ventajas de centralizar motores como PostgreSQL y MariaDB para optimizar recursos, facilitar copias de seguridad y simplificar la alta disponibilidad en el homelab.
+excerpt: Analizo por qué he dejado de utilizar los populares helper scripts de Proxmox en favor de una arquitectura de autohospedaje más robusta y eficiente. Detallo los inconvenientes de aislar bases de datos dentro de cada contenedor —como el desperdicio de RAM y la complejidad en el mantenimiento— y expongo las ventajas de centralizar motores como PostgreSQL y MariaDB para optimizar recursos, facilitar copias de seguridad y simplificar la alta disponibilidad en el homelab.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)

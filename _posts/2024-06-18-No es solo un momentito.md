@@ -8,7 +8,7 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [productividad, desarrollo, opinión]
 pin: false
 toc: true
-excerpt: Explico por qué el 'mismo momentito' puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones en perfiles de desarrollo. Apoyándome en estudios sobre la recuperación de la concentración, propongo pautas de comunicación asincrónica y respeto al flujo de trabajo para mejorar la productividad colectiva y evitar el agotamiento mental.
+excerpt: Explico por qué el mismo momentito puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones en perfiles de desarrollo. Apoyándome en estudios sobre la recuperación de la concentración, propongo pautas de comunicación asincrónica y respeto al flujo de trabajo para mejorar la productividad colectiva y evitar el agotamiento mental.
 permalink: /:slug/ 
 ---
 

@@ -8,7 +8,7 @@ categories: [Tecnología, IA]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
 toc: true
-excerpt: Continuo el análisis técnico sobre agentes de IA en esta segunda parte, abordando los desafíos críticos de la latencia y la fluidez conversacional. Explico cómo optimizar la pronunciación de datos técnicos, la implementación de 'GuardRails' para evitar alucinaciones y, sobre todo, la importancia vital del cumplimiento legal (RGPD) al manejar datos privados, ofreciendo además técnicas prácticas para depurar y mejorar el entrenamiento de los agentes.
+excerpt: Continuo el análisis técnico sobre agentes de IA en esta segunda parte, abordando los desafíos críticos de la latencia y la fluidez conversacional. Explico cómo optimizar la pronunciación de datos técnicos, la implementación de GuardRails para evitar alucinaciones y, sobre todo, la importancia vital del cumplimiento legal (RGPD) al manejar datos privados, ofreciendo además técnicas prácticas para depurar y mejorar el entrenamiento de los agentes.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)

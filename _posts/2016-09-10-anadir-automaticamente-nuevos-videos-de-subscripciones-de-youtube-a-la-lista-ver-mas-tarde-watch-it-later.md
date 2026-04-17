@@ -8,7 +8,7 @@ categories: [Productividad y Hacks, Automatización]
 tags: [youtube, scripts, automatización, google]
 pin: false
 toc: true
-excerpt: Explico cómo automatizar la gestión de YouTube mediante un Google Script que añade automáticamente los nuevos vídeos de tus suscripciones a la lista 'Ver más tarde'. Aunque esta funcionalidad quedó deprecada en 2021, el post detalla el proceso de configuración de APIs de Google y la filosofía de automatización para ahorrar tiempo en tareas repetitivas.
+excerpt: Explico cómo automatizar la gestión de YouTube mediante un Google Script que añade automáticamente los nuevos vídeos de tus suscripciones a la lista Ver más tarde. Aunque esta funcionalidad quedó deprecada en 2021, el post detalla el proceso de configuración de APIs de Google y la filosofía de automatización para ahorrar tiempo en tareas repetitivas.
 twitter_description: "Cómo automatizar tu lista Ver Más Tarde de YouTube con un Google Script."
 permalink: /anadir-automaticamente-nuevos-videos-de-subscripciones-de-youtube-a-la-lista-ver-mas-tarde-watch-it-later/
 ---

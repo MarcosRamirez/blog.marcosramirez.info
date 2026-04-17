@@ -8,7 +8,7 @@ tags: [finanzas, automatización, bancos, opinión]
 pin: false
 toc: true
 excerpt: Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales. Propongo un modelo de flujo lógico y gestor de eventos —ilustrado con ejemplos de pseudocódigo— que permitiría a usuarios y autónomos automatizar tareas críticas como el ahorro sistemático o la separación inmediata del IVA tras recibir ingresos, optimizando radicalmente la administración del dinero.
-permalink: /:title/ # title is filename NOT title in YAML
+permalink: "/:title/" # title is filename NOT title in YAML
 ---
 
 ![Transferencias Automáticas](/assets/img/headers/transferenciasautomaticas.jpg)
