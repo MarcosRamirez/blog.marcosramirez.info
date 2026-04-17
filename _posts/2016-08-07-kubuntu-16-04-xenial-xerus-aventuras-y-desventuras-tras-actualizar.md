@@ -8,7 +8,7 @@ categories: [Tecnología, Sistemas]
 tags: [linux, kubuntu, tutorial, opinión]
 pin: false
 toc: true
-excerpt: "Actualicé a Kubuntu 16.04 (Xenial Xerus) y, como era de esperar, algo falló. Aquí cuento qué se rompió y cómo lo arreglé."
+excerpt: Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías en Spotify y MySQL Workbench. En este post, detallo cada uno de estos inconvenientes y proporciono las soluciones paso a paso para recuperar la estabilidad y funcionalidad del sistema KDE.
 twitter_description: "Qué se rompió al actualizar a Kubuntu 16.04 Xenial Xerus y cómo solucionarlo."
 permalink: /kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar/
 ---
