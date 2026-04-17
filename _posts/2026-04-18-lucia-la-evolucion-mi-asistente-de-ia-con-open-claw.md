@@ -17,7 +17,7 @@ permalink: /:slug/
 
 # Más allá del chat: Automatización real
 
-Desde que os hablé de Lucía en mi [Resumen de Febrero 2025]({% post_url 2025-03-01-Resumen-Febrero-2025 %}), su evolución no ha parado. Lo que empezó como un agente de voz para gestionar llamadas y citas, se ha convertido hoy en un sistema mucho más complejo y, sobre todo, **autónomo**.
+Desde que os hablé de Lucía en mi [Resumen de Febrero 2025]({% post_url 2025-03-01-Resumen Febrero 2025 %}), su evolución no ha parado. Lo que empezó como un agente de voz para gestionar llamadas y citas, se ha convertido hoy en un sistema mucho más complejo y, sobre todo, **autónomo**.
 
 La gran diferencia este año ha sido el cambio de motor: el paso a [OpenClaw](https://openclaw.ai/){:target="_blank"}.
 
