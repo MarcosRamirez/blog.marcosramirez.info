@@ -13,6 +13,13 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 - Siempre que menciones webs, apps o empresas, incluye su URL.
 - Formato: `[Nombre](URL){:target="_blank"}`.
 
+### Enlaces Internos (entre posts)
+- Si en el cuerpo del post se menciona un tema que ya fue tratado en otro post del blog, enlázalo.
+- Revisa los archivos de la carpeta de posts para encontrar el post relevante y obtener su slug (nombre del archivo sin fecha ni extensión, o el campo `permalink` si existe en su front matter).
+- Formato: `[Texto del enlace]({% post_url YYYY-MM-DD-slug %})` — esto es el tag nativo de Jekyll y funciona aunque cambie el dominio o la URL base.
+- No abras el enlace en nueva pestaña (omite `{:target="_blank"}`): los enlaces internos deben navegar en la misma pestaña.
+- Si no encuentras un post que encaje con claridad, no inventes el enlace.
+
 ### Instrucciones de Estilo (Mimetismo)
 - Analiza los posts anteriores para copiar tono, voz y estructura.
 - Usa el mismo formato YAML/Frontmatter para los metadatos.
@@ -21,3 +28,37 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 - **Idioma:** Castellano.
 - **Tono:** Mimetizado del historial.
 - **Título:** Para el commit y metadatos, usa el título real del post.
+
+### Reglas para el Front Matter (YAML)
+
+El front matter es YAML puro. Estos caracteres rompen el parseo si no se escapan correctamente:
+
+| Carácter | Problema |
+|---|---|
+| `:` | Se interpreta como separador clave/valor |
+| `#` | Se interpreta como comentario |
+| `'` | Rompe strings delimitados con comillas simples |
+| `"` | Rompe strings delimitados con comillas dobles |
+| `[` `]` `{` `}` | Sintaxis de arrays/maps |
+| `-` al inicio de valor | Se interpreta como ítem de lista |
+
+**Regla general:** envuelve siempre los valores de `excerpt`, `title` y similares en comillas dobles. Si el texto contiene comillas dobles, escápalas con `\"`.
+
+**Casos concretos:**
+
+```yaml
+# Texto con dos puntos → comillas dobles
+excerpt: "Aprende Flask: una guía rápida"
+
+# Texto con comillas dobles → escapar con \"
+excerpt: "Dijo \"hola\" y se fue"
+
+# Texto con comillas simples → duplicarlas (si usas comillas simples)
+excerpt: 'It''s a trap'
+
+# Texto largo o con múltiples caracteres especiales → bloque folded (>)
+excerpt: >
+  Aprende Flask: una guía "rápida" con ejemplos reales.
+```
+
+Con `>` (folded), los saltos de línea se convierten en espacios → ideal para excerpts de una sola frase larga. Con `|` (literal), se preservan los saltos → evitarlo en excerpts.
