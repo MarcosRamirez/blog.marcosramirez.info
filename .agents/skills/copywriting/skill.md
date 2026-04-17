@@ -9,7 +9,7 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 - Ejemplo de front matter resultante:
 ```yaml
   authors:
-    - Marcos Ranírez
+    - Marcos Ramírez
     - Lucía
 ```
 
