@@ -8,7 +8,7 @@ categories: [Opinión, Tecnología]
 tags: [piratería, streaming, netflix, disney, prime video, suscripciones]
 pin: false
 toc: true
-excerpt: Hemos pasado de la época dorada del streaming, donde por poco dinero tenías todo el catálogo, a una guerra de fragmentación masiva. Hoy analizamos por qué los usuarios están volviendo a surcar los mares del internet.
+excerpt: Analizo las causas detrás del resurgir de la piratería en la era de la fragmentación del streaming. Explico cómo las constantes subidas de precio, la inserción de publicidad en planes de pago y la pérdida del concepto de propiedad digital han empujado a los usuarios de vuelta a los 'mares' del internet. Además, realizo una comparativa económica detallada entre el coste de múltiples suscripciones y la inversión en un servidor casero con herramientas como Plex o Jellyfin.
 twitter_description: "Análisis sobre la fragmentación del streaming y por qué la piratería vuelve a ser una opción para muchos."
 permalink: /:slug/ 
 ---
