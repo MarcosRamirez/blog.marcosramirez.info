@@ -8,7 +8,7 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, tecnología, trucos]
 pin: false
 toc: false
-excerpt: "Inicio de una nueva categoría donde postearé problemas técnicos del día a día (y sus soluciones cuando las encuentre)."
+excerpt: Inauguro una nueva sección en el blog titulada 'Mis problemas del primer mundo', concebida como un repositorio de desafíos técnicos específicos y sus respectivas soluciones. El objetivo es documentar problemas cotidianos pero complejos de resolver, creando un recurso colaborativo donde compartir aprendizajes y ahorrar tiempo a otros desarrolladores que se enfrenten a obstáculos similares.
 twitter_description: "Nueva sección: Mis problemas del primer mundo. Problemas técnicos concretos y sus soluciones."
 permalink: /mis-problemas-del-primer-mundo/
 ---
