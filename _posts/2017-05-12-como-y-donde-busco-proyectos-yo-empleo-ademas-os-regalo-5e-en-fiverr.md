@@ -8,7 +8,7 @@ categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [empleo, freelance, consejos, fiverr]
 pin: false
 toc: true
-excerpt: "Las webs y estrategias que uso para buscar empleo y proyectos freelance como informático. Y de bonus, 5€ gratis en Fiverr."
+excerpt: Comparto mi estrategia personal y los portales que utilizo para buscar tanto empleos presenciales como proyectos freelance en el sector tecnológico. Detallo mis criterios de selección, desde lo atractivo del proyecto hasta el cálculo real del salario por hora incluyendo desplazamientos, y analizo plataformas como Infojobs, Tecnoempleo, Experteer y Fiverr, donde además incluyo un descuento para nuevos usuarios.
 twitter_description: "Mis webs favoritas para buscar empleo y proyectos freelance como programador, y 5€ de regalo en Fiverr."
 permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr/
 ---
