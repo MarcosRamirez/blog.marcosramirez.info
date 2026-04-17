@@ -8,7 +8,7 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, opinión]
 pin: false
 toc: true
-excerpt: En este tercer post sobre los timos con los "megas", hablaremos de velocidades de conexión que necesitas, y precios, seguro que te llevarás una sorpresa.
+excerpt: En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps. Mediante un análisis del consumo real de servicios como streaming 4K, videojuegos y videollamadas, demuestro que incluso un hogar con alta demanda difícilmente supera los 100Mbs, y reflexiono sobre las estrategias comerciales de las operadoras que impiden el ahorro del consumidor.
 permalink: /:slug/ # title is filename NOT title in YAML
 
 ---
