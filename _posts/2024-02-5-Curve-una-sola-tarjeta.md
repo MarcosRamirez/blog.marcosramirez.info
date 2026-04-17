@@ -8,7 +8,7 @@ categories: [Finanzas Personales, Bancos y Fintech]
 tags: [curve, tarjetas, finanzas, tecnología]
 pin: false
 toc: true
-excerpt: Curve, o como llevar todas tus tarjetas en una sola, sin duda la mejor opción para reducir espacio en tu cartera.
+excerpt: Analizo a fondo Curve, la tarjeta Mastercard que revoluciona la gestión financiera al permitir unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil. Explico cómo simplifica los pagos cotidianos, sus ventajas competitivas en el cambio de divisas para viajes y funciones avanzadas como el aplazamiento de pagos o el seguro de viaje gratuito, convirtiéndola en una herramienta esencial para optimizar el espacio en la cartera y mejorar el control de gastos.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)
