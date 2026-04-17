@@ -8,7 +8,7 @@ categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [ahorro, finanzas, presupuesto, consejos]
 pin: false
 toc: true
-excerpt: ¿Tu dinero vuela? 💸 ¿eres de los que dicen "no puedo ahorrar" o "esto no me va a sacar de pobre"? en este post te enseño como empezar a ahorrar de manera sencilla, si es que no te resulta dificil aceptar algunas realidades
+excerpt: Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero. Detallo estrategias clave desde la prioridad del ahorro sistemático y la creación de presupuestos ajustados, hasta el uso inteligente de múltiples cuentas bancarias y tarjetas de crédito para mejorar el scoring financiero. Además, incluyo consejos sobre alimentación saludable, ahorro en compras cotidianas y herramientas digitales de comparación de precios.
 permalink: /:slug/ 
 ---
 
