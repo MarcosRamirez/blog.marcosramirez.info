@@ -8,7 +8,7 @@ categories: [Tecnología, IA]
 tags: [ia, desarrollo, opinión, asistentes]
 pin: false
 toc: true
-excerpt: Este es uno de esos posts, que según lo escribo, ya sé que va a ofender a más de uno, pero que le voy a hacer... yo soy así, si veo que algo se está haciendo mal, lo digo. 
+excerpt: Analizo con ojo crítico el auge de las agencias de IA, desmitificando la idea de que los agentes son 'inteligentes' por sí solos. Basándome en tres décadas de experiencia en desarrollo, explico por qué es vital dominar fundamentos de programación, estructuras de datos y visión de negocio antes de intentar vender soluciones profesionales. Además, detallo los errores técnicos y legales más comunes en la implementación de asistentes de voz y ofrezco pautas realistas para optimizar costes y elegir la infraestructura adecuada.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)
