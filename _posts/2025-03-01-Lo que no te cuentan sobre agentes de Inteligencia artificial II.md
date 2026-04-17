@@ -8,7 +8,7 @@ categories: [Tecnología, IA]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
 toc: true
-excerpt: Esta es la segunda parte del post que escribí el mes pasado, sobre los problemas que te puedes encontrar al desarrollar un agente de inteligencia artificial 
+excerpt: Continuo el análisis técnico sobre agentes de IA en esta segunda parte, abordando los desafíos críticos de la latencia y la fluidez conversacional. Explico cómo optimizar la pronunciación de datos técnicos, la implementación de 'GuardRails' para evitar alucinaciones y, sobre todo, la importancia vital del cumplimiento legal (RGPD) al manejar datos privados, ofreciendo además técnicas prácticas para depurar y mejorar el entrenamiento de los agentes.
 permalink: /:slug/ 
 ---
 ![Post Header](/assets/img/headers/default.webp)
