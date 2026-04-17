@@ -8,7 +8,7 @@ categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false
 toc: true
-excerpt: "El Plan Familiar de Google Play ha llegado a España. Te enseño paso a paso cómo darte de alta como administrador y qué debes tener en cuenta antes de crearlo."
+excerpt: Doy la bienvenida al Plan Familiar de Google Play en España con la primera entrega de una guía detallada. Explico paso a paso cómo registrarse como administrador, las condiciones de pago mediante tarjeta de crédito y las ventajas de compartir aplicaciones, música y películas con hasta cinco personas de forma legal y segura, permitiendo un ahorro compartido y un mejor control parental.
 twitter_description: "Tutorial: cómo crear y gestionar el Plan Familiar de Google Play en España."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i/
 ---
