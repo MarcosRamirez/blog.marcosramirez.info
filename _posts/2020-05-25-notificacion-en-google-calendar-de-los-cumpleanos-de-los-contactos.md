@@ -8,7 +8,7 @@ categories: [Tecnología, Software y Apps]
 tags: [google, trucos, opinión]
 pin: false
 toc: false
-excerpt: "El calendario 'contacts' de Google no permite configurar notificaciones para los cumpleaños. Aquí el problema, la respuesta de Google, y lo que podemos hacer."
+excerpt: Analizo uno de mis 'problemas del primer mundo' más persistentes: la imposibilidad de configurar notificaciones automáticas para los cumpleaños sincronizados desde Google Contacts en Google Calendar. Comparto las respuestas que he recibido del soporte técnico de Google y animo a la comunidad a solicitar formalmente esta funcionalidad para presionar por una solución oficial, ante la falta de una alternativa nativa satisfactoria.
 twitter_description: "Por qué no puedes configurar notificaciones para los cumpleaños en Google Calendar, y qué hacer al respecto."
 permalink: /notificacion-en-google-calendar-de-los-cumpleanos-de-los-contactos/
 ---
