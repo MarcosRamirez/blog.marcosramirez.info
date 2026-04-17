@@ -8,7 +8,7 @@ categories: [Tecnología, Software y Apps]
 tags: [google, gsuite, oferta]
 pin: false
 toc: false
-excerpt: "Si necesitas Google Suite para tu empresa, tengo un código de descuento del 20% durante un año. Te explico qué es y cómo conseguirlo."
+excerpt: Ofrezco un código de descuento del 20% durante el primer año para GSuite (ahora Google Workspace), la solución empresarial de Google que permite usar Gmail con dominio propio y ofrece almacenamiento ampliado. Explico brevemente las ventajas de la plataforma y detallo los pasos necesarios para aplicar la oferta tras el periodo de prueba gratuito.
 twitter_description: "Código de descuento del 20% durante un año en Google Suite. Te explico cómo usarlo."
 permalink: /regalo-un-20-de-descuento-en-google-suite-durante-un-ano/
 ---
