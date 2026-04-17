@@ -8,7 +8,7 @@ categories: [Tecnología, Sistemas]
 tags: [android, tutorial, ciberseguridad, trucos]
 pin: false
 toc: true
-excerpt: "Android tiene una funcionalidad llamada Screen Pinning (fijar pantalla) que permite bloquear el dispositivo para que solo pueda usarse una app concreta. Ideal para dejar el móvil a un niño."
+excerpt: Presento un tutorial sobre la función 'Screen Pinning' o 'Fijar pantalla' de Android, una herramienta de seguridad esencial para cuando prestamos nuestro dispositivo a terceros o a niños. Explico paso a paso cómo activar este bloqueo para restringir el uso a una única aplicación, garantizando la privacidad de nuestros datos y evitando modificaciones accidentales en el sistema.
 twitter_description: "Cómo usar el Screen Pinning de Android para fijar una sola app en tu dispositivo."
 permalink: /como-permitir-usar-solo-una-aplicacion-en-android-pinning-video-tutorial/
 ---
