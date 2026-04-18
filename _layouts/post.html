@@ -17,7 +17,15 @@ layout: default
           {% include timeago.html date=page.date tooltip=true %}
           by
           <span class="author">
-            <a href="https://marcosramirez.info" target="_blank">{{ page.author | default: site.author }}</a>
+            {% if page.authors.size > 0 %}
+              {% for author in page.authors %}
+                <a href="https://marcosramirez.info" target="_blank">{{ author }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            {% elsif page.author %}
+              <a href="https://marcosramirez.info" target="_blank">{{ page.author }}</a>
+            {% else %}
+              <a href="https://marcosramirez.info" target="_blank">{{ site.author }}</a>
+            {% endif %}
           </span>
         </div>
 
