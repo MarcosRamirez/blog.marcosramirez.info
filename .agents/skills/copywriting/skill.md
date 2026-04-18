@@ -14,7 +14,7 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 ```
 
 ### Lógica de Programación (CALENDARIO)
-1. **Día y Hora:** Todos los posts deben programarse para un **lunes a las 08:30 (Hora de Madrid)**.
+1. **Día y Hora:** Todos los posts deben programarse para un **lunes a las 08:30 (Hora de Madrid)**. A no ser que te especifique día y hora, en ese caso, usa la que te indique.
 2. **Cálculo de Fecha:** - Revisa las fechas en los archivos de la carpeta de posts.
    - Si el próximo lunes (a partir de hoy) ya tiene un post asignado, salta al siguiente lunes, y así sucesivamente hasta encontrar el primer lunes libre.
    - Formato de fecha en el Frontmatter: `YYYY-MM-DD 08:30:00 +0200` (o el que detectes en el proyecto).
