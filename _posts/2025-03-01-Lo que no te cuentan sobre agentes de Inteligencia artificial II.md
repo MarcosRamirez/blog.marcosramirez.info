@@ -1,17 +1,20 @@
 ---
-title: Lo que no te cuentan sobre agentes de Inteligencia artificial II
+title: "Lo que no te cuentan sobre agentes de Inteligencia artificial II"
 slug: Lo-que-no-te-cuentan-sobre-agentes-de-Inteligencia-artificial-ii
-author: Marcos Ramírez
-date: 2025-03-01 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2025-03-01 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Tecnología, IA]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
 toc: true
-excerpt: Continuo el análisis técnico sobre agentes de IA en esta segunda parte, abordando los desafíos críticos de la latencia y la fluidez conversacional. Explico cómo optimizar la pronunciación de datos técnicos, la implementación de GuardRails para evitar alucinaciones y, sobre todo, la importancia vital del cumplimiento legal (RGPD) al manejar datos privados, ofreciendo además técnicas prácticas para depurar y mejorar el entrenamiento de los agentes.
-permalink: /:slug/ 
+excerpt: "Continúo el análisis técnico sobre agentes de IA, abordando los desafíos de latencia, GuardRails y el cumplimiento legal (RGPD)."
+twitter_description: "Segunda parte del análisis sobre agentes de IA."
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
 
 # Segundas partes... ¿nunca fueron buenas?
 
