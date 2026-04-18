@@ -10,8 +10,8 @@ categories: [Opinión, Tecnología]
 tags: [piratería, streaming, netflix, disney, prime video, suscripciones]
 pin: false
 toc: true
-excerpt: "Analizo el fin de la paz del streaming y por qué la piratería vuelve a ganar terreno."
-twitter_description: "Análisis sobre la fragmentación del streaming y por qué la piratería vuelve a ser una opción para muchos."
+excerpt: "Analizo el fin de la paz del streaming y por qué la piratería vuelve a ganar terreno. La fragmentación de plataformas, las subidas de precios y la pérdida de propiedad digital empujan a los usuarios de vuelta al P2P."
+twitter_description: "El fin del streaming barato: fragmentación, precios y piratería."
 permalink: /:slug/ 
 ---
 ![Post Header]({{ page.image }})
