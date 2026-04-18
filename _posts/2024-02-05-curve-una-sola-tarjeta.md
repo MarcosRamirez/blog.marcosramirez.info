@@ -11,6 +11,7 @@ tags: [curve, tarjetas, finanzas, tecnología]
 pin: false
 toc: true
 excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil."
+twitter_description: "Curve: una tarjeta para controlarlas todas."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
