@@ -1,17 +1,21 @@
 ---
 title: "Algunas simples mejoras que harían a NetFlix aún mejor"
 slug: algunas-simples-mejoras-que-harian-a-netflix-aun-mejor
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-04-14 16:37:03 +0200
 image: /assets/img/headers/netflix.png
 categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos (como su excelente rendimiento en conexiones lentas) como sus fallos de UX. Propongo mejoras para la gestión de las listas de visualización, la integración con Chromecast y la eliminación del molesto aviso de ¿Sigues ahí?.
+excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos como sus fallos de UX. Propongo mejoras para la gestión de las listas de visualización, la integración con Chromecast y la eliminación del molesto aviso de ¿Sigues ahí?."
 twitter_description: "Crítica constructiva de UX a Netflix: Seguir Viendo, Mi Lista, ChromeCast y más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
+
+![Post Header]({{ page.image }})
 
 Antes de nada, dejar claro que soy "heavy user", y cuando digo heavy user de NetFlix, es que, dado que trabajo en casa, siempre lo tengo "de fondo" (motivo por el cual "devoro" tanta serie/película).
 
