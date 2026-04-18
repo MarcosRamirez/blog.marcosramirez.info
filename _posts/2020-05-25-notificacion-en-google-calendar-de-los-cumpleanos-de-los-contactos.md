@@ -1,17 +1,21 @@
 ---
 title: "Notificación en Google Calendar de los cumpleaños de los contactos"
 slug: notificacion-en-google-calendar-de-los-cumpleanos-de-los-contactos
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2020-05-25 09:01:57 +0200
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, trucos, opinión]
 pin: false
 toc: false
-excerpt: Analizo uno de mis problemas del primer mundo más persistentes - la imposibilidad de configurar notificaciones automáticas para los cumpleaños sincronizados desde Google Contacts en Google Calendar. Comparto las respuestas que he recibido del soporte técnico de Google y animo a la comunidad a solicitar formalmente esta funcionalidad para presionar por una solución oficial, ante la falta de una alternativa nativa satisfactoria.
+excerpt: "Analizo la imposibilidad de configurar notificaciones automáticas para los cumpleaños sincronizados desde Google Contacts en Google Calendar."
 twitter_description: "Por qué no puedes configurar notificaciones para los cumpleaños en Google Calendar, y qué hacer al respecto."
 permalink: /notificacion-en-google-calendar-de-los-cumpleanos-de-los-contactos/
 ---
+
+![Post Header]({{ page.image }})
 
 ![ezgif-2-be5f38cead3a](/assets/2020/05/ezgif-2-be5f38cead3a.png)
 
