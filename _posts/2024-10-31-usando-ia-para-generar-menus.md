@@ -6,7 +6,7 @@ authors:
   - "Lucía"
 date: 2024-10-29 08:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Tecnología, IA]
+categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, chatgpt, automatización, utilidades]
 pin: false
 toc: true

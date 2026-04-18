@@ -6,7 +6,7 @@ authors:
   - "Lucía"
 date: 2025-01-31 08:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Tecnología, IA]
+categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, desarrollo, opinión, asistentes]
 pin: false
 toc: true

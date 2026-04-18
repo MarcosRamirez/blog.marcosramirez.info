@@ -114,3 +114,30 @@ excerpt: >
 ```
 
 Con `>` (folded), los saltos de línea se convierten en espacios → ideal para excerpts de una sola frase larga. Con `|` (literal), se preservan los saltos → evitarlo en excerpts.
+
+### Normalización de Categorías
+
+**Categorías principales (solo estas 4):**
+- `Tecnología`
+- `Finanzas Personales`
+- `Personal y Desarrollo Profesional`
+- `Productividad y Hacks`
+
+**Subcategorías (solo estas 13):**
+- `Inteligencia Artificial` (nunca usar "IA")
+- `Software y Apps`
+- `Sistemas`
+- `Redes e Infraestructura`
+- `Desarrollo Web`
+- `Bancos y Fintech`
+- `Ahorro e Inversión`
+- `Automatización`
+- `Life Hacks`
+- `Metas y Resúmenes`
+- `Reflexiones y Opinión`
+- `Carrera Profesional`
+- `Recomendaciones`
+
+**Correcciones a aplicar:**
+- Si ves `IA` → cambiar a `Inteligencia Artificial`
+- Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`

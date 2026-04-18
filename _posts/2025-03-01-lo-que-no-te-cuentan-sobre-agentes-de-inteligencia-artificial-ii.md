@@ -6,7 +6,7 @@ authors:
   - "Lucía"
 date: 2025-03-01 08:50:00 +0100
 image: /assets/img/headers/default.webp
-categories: [Tecnología, IA]
+categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
 toc: true
