@@ -1,17 +1,19 @@
 ---
-title: Lo que no te cuentan sobre agentes de Inteligencia artificial
+title: "Lo que no te cuentan sobre agentes de Inteligencia artificial"
 slug: Lo-que-no-te-cuentan-sobre-agentes-de-Inteligencia-artificial
-author: Marcos Ramírez
-date: 2025-01-31 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2025-01-31 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Tecnología, IA]
 tags: [ia, desarrollo, opinión, asistentes]
 pin: false
 toc: true
-excerpt: Analizo con ojo crítico el auge de las agencias de IA, desmitificando la idea de que los agentes son 'inteligentes' por sí solos. Basándome en tres décadas de experiencia en desarrollo, explico por qué es vital dominar fundamentos de programación, estructuras de datos y visión de negocio antes de intentar vender soluciones profesionales. Además, detallo los errores técnicos y legales más comunes en la implementación de asistentes de voz y ofrezco pautas realistas para optimizar costes y elegir la infraestructura adecuada.
-permalink: /:slug/ 
+excerpt: "Analizo con ojo crítico el auge de las agencias de IA, desmitificando la idea de que los agentes son 'inteligentes' por sí solos."
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
 
 # Un poco de contexto
 Llevo aproximadamente cinco años el mundo de la inteligencia artificial, y aproximadamente dos años desarrollando agentes de inteligencia artificial de manera profesional, y TREINTA, desarrollando aplicaciones.
