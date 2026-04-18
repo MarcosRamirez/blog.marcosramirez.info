@@ -10,8 +10,8 @@ categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [ahorro, finanzas, presupuesto, consejos]
 pin: false
 toc: true
-excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero."
-twitter_description: "Cómo gestionar mis finanzas: ahorro básico."
+excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero. Explico la importancia de priorizar el ahorro antes que cualquier gasto (mínimo 10% de ingresos), crear presupuestos con partidas definidas (alimentación 150€ por persona, vivienda máximo 25%), mantener varias cuentas bancarias (ingresos, ahorros, recibos), evitar tarjetas de crédito con intereses abusivos, y optimizar compras comparando precios en Google Shopping, Carritus, y usando cashback con LetyShops o Karma."
+twitter_description: "Cómo gestionar mis finanzas: sistema completo de ahorro y presupuesto personal."
 permalink: /:slug/ 
 ---
 

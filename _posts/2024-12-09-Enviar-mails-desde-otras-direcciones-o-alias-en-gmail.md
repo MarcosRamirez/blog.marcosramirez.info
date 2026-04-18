@@ -10,7 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [gmail, tutorial, utilidades]
 pin: false
 toc: true
-excerpt: "Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail."
+excerpt: "Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail. La documentación de Google no está actualizada: ya no aparece la opción 'Enviar verificación'. En su lugar, debes configurar el servidor SMTP de la cuenta que quieres añadir, activar 'Acceso de aplicaciones menos seguras', usar el SMTP de Google (smtp.gmail.com puerto 465), y crear una contraseña de aplicación específica en lugar de tu contraseña normal."
+twitter_description: "Cómo configurar alias de email en Gmail: la documentación de Google está desactualizada."
 permalink: /:slug/
 ---
 

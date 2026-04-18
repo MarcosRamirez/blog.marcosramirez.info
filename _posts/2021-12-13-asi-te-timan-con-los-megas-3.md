@@ -10,8 +10,8 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, opinión]
 pin: false
 toc: true
-excerpt: "En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps."
-twitter_description: "Mitos de las conexiones a internet: ¿necesitas 600Mb?"
+excerpt: "En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps. Una familia de 8 personas haciendo videollamada (15Mbps), dos viendo 4K (50Mbps), tres viendo streaming HD (15Mbps) y uno jugando online (10Mbps) necesita apenas 90Mbps en total. El precio medio de 600Mbps es de 45€/mes, pero no hay justificación técnica para contratar más de 100Mbps para la gran mayoría de usuarios."
+twitter_description: "Mitos de las conexiones a internet: ¿necesitas realmente 600Mb?"
 permalink: /asi-te-timan-con-los-megas-no-necesitas-pagar-600mb/
 ---
 ![Post Header]({{ page.image }})

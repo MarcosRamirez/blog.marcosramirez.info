@@ -10,8 +10,8 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [personal, seguridad, airtag, consejos]
 pin: false
 toc: true
-excerpt: "Relato mi experiencia personal tras el robo de mi cartera en un supermercado, detallando el proceso de denuncia y las lecciones aprendidas sobre seguridad cotidiana."
-twitter_description: "Qué aprendí cuando me robaron la cartera."
+excerpt: "Relato mi experiencia personal tras el robo de mi cartera en un supermercado, detallando el proceso de denuncia y las lecciones aprendidas sobre seguridad cotidiana. El ladrón aparentemente normal se quedó con más de 100€ en efectivo, mi DNI, tarjetas de crédito y objetos con valor sentimental. Las tres lecciones principales: no llevar objetos personales importantes en la cartera, usar un localizador Bluetooth como AirTag, y estar atento a las personas que te rodean en espacios públicos."
+twitter_description: "Qué aprendí cuando me robaron la cartera en el supermercado: AirTag, denuncia y lecciones."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})

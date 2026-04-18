@@ -10,8 +10,8 @@ categories: [Tecnología, IA]
 tags: [ia, chatgpt, automatización, utilidades]
 pin: false
 toc: true
-excerpt: "Detallo un método práctico para utilizar la Inteligencia Artificial en la planificación de menús semanales equilibrados."
-twitter_description: "Cómo usar IA para planificar menús semanales."
+excerpt: "Detallo un método práctico para utilizar la Inteligencia Artificial en la planificación de menús semanales equilibrados. Usando ChatGPT (versión de pago o gratuita con ajustes), puedes generar menús para dos personas considerando restricciones como diabetes, preferencias por temporada, hidratos de carbono nightly, y limitaciones específicas. El proceso incluye dar instrucciones detalladas en formato Markdown con plantilla HTML para generar el menú, y proporcionar un listado organizado de platos por categorías (guisos, legumbres, carnes, pescados, pastas, ensaladas, etc.)."
+twitter_description: "Cómo usar IA para planificar menús semanales equilibrados: método con ChatGPT."
 permalink: /:slug/
 ---
 

@@ -9,8 +9,8 @@ categories: [Personal y Desarrollo Profesional, Recomendaciones]
 tags: [libros, programación, lectura, recomendaciones]
 pin: true
 toc: true
-excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores hasta novelas de terror y producciones audiovisuales."
-twitter_description: "Mis recomendaciones de libros, blogs, películas y canales."
+excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores hasta novelas de terror y producciones audiovisuales. Encontrarás títulos esenciales como Clean Code de Robert C. Martin, The Clean Coder, Refactoring de Fowler, y Principios y algoritmos de concurrencia. También incluyo recomendaciones de películas de terror como El Tubo y novelas como Apocalipsis de Stephen King."
+twitter_description: "Mis recomendaciones de libros de programación, novelas de terror y películas."
 image: /assets/img/headers/recomendaciones.webp
 permalink: /recomendaciones-libros-blogs-peliculas-canales/
 ---

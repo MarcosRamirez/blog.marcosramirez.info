@@ -10,8 +10,8 @@ categories: [Tecnología, Desarrollo Web]
 tags: [jekyll, github pages, automatización, tutorial]
 pin: false
 toc: true
-excerpt: "Explico cómo solucionar una de las principales limitaciones de Jekyll al hospedar en GitHub Pages: la imposibilidad nativa de programar publicaciones para fechas futuras. Incluyo la configuración del archivo _config.yml para controlar los posts futuros."
-twitter_description: "Cómo programar posts con Jekyll en GitHub Pages: workflow y config."
+excerpt: "Explico cómo solucionar una de las principales limitaciones de Jekyll al hospedar en GitHub Pages: la imposibilidad nativa de programar publicaciones para fechas futuras.Incluyo la configuración del archivo _config.yml para controlar los posts futuros, la configuración del workflow con schedule para ejecutar builds automáticos cada 30 minutos, y una alternativa menos elegante que consiste en forzar el rebuild con un push vacío."
+twitter_description: "Cómo programar posts con Jekyll en GitHub Pages: configuración y workflow completo."
 permalink: /:slug/
 ---
 

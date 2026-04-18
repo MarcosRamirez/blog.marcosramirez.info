@@ -10,8 +10,8 @@ categories: [Finanzas Personales, Bancos y Fintech]
 tags: [finanzas, automatización, bancos, opinión]
 pin: false
 toc: true
-excerpt: "Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales."
-twitter_description: "Automatización en bancos y fintechs."
+excerpt: "Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales. Los bancos podrían implementar fácilmente un gestor de eventos que permitiera automatizar transferencias según condiciones: enviar el IVA a otra cuenta automáticamente al recibir ingresos, o transferir el excedente a ahorro cuando el saldo supere cierto umbral. La pregunta es: ¿es tan difícil implementar algo así? N26 ofrece algo parecido en sus planes premium, pero solo entre sus espacios y con coste mínimo de 4,9€/mes."
+twitter_description: "Automatización de transferencias en bancos: por qué no podemos configurar reglas simples?"
 permalink: /:slug/
 ---
 

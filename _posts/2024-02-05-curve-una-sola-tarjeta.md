@@ -10,8 +10,8 @@ categories: [Finanzas Personales, Bancos y Fintech]
 tags: [curve, tarjetas, finanzas, tecnología]
 pin: false
 toc: true
-excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil."
-twitter_description: "Curve: una tarjeta para controlarlas todas."
+excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil. Sus principales ventajas incluyen agrupar todas tus tarjetas en una sola, conversión de divisas a tipos de cambio competitivos (puedes rechazar el cambio si no te gusta), posibilidad de aplazar pagos hasta 12 meses, protección contra fraude de hasta 100.000€, seguro de viaje gratuito y enviar dinero a otros usuarios sin comisiones."
+twitter_description: "Curve: agrupa todas tus tarjetas en una, conversión de divisas y aplaza pagos hasta 12 meses."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})

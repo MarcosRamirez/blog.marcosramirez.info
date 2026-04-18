@@ -10,8 +10,8 @@ categories: [Finanzas Personales, Bancos y Fintech]
 tags: [revolut, neobancos, finanzas, opinión]
 pin: false
 toc: true
-excerpt: "Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones de otras entidades."
-twitter_description: "Revolut como neobanco de cabecera."
+excerpt: "Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones de otras entidades. Revolut ofrece cuentas multidivisa con más de 30 monedas, conversiones sin comisiones al tipo de cambio interbancario, tarjetas de débito globales, Pockets para organizar gastos por categorías, cuentas de ahorro con interés competitivo y redondeo automático de compras, transferencias internacionales económicas, inversiones en acciones y criptomonedas, y planes flexibles desde gratuito hasta premium."
+twitter_description: "Revolut como neobanco: cuenta multidivisa, Pockets, ahorro automático e inversiones."
 permalink: /:slug/
 ---
 

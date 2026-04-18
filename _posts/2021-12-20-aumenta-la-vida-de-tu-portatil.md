@@ -10,8 +10,8 @@ categories: [Productividad y Hacks, Life Hacks]
 tags: [hardware, batería, trucos, consejos]
 pin: false
 toc: true
-excerpt: "Comparto un LifeHack sencilla y eficaz para prolongar la vida útil de las baterías en portátiles y tablets."
-twitter_description: "LifeHack para prolongar la vida de la batería de tu portátil."
+excerpt: "Comparto un LifeHack sencilla y eficaz para prolongar la vida útil de las baterías en portátiles y tablets. Para una duración óptima, las baterías deben mantenerse siempre entre el 60% y el 80% de su capacidad, evitando tenerlas constantemente al 100%. La solución: usar un programador temporizador que corte la corriente durante media hora cada hora y media, manteniendo las baterías en niveles adecuados que alargan su vida útil significativamente."
+twitter_description: "LifeHack para prolongar la vida de la batería de tu portátil: el truco del temporizador."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})

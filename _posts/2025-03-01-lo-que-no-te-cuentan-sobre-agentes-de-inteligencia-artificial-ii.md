@@ -10,8 +10,8 @@ categories: [Tecnología, IA]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
 toc: true
-excerpt: "Continúo el análisis técnico sobre agentes de IA, abordando los desafíos de latencia, GuardRails y el cumplimiento legal (RGPD)."
-twitter_description: "Segunda parte del análisis sobre agentes de IA."
+excerpt: "Continúo el análisis técnico sobre agentes de IA, abordando los desafíos de latencia (el LLM añade 600-1200ms, el TTS como ElevenLabs unos 600ms, las herramientas y knowledge bases también suman), cómo enseñarles a hablar correctamente (la plataforma que uses influye en la entonación), la importancia de los GuardRails para evitar alucinaciones, la seguridad para no revelar información confidencial (incluyendo el prompt), cómo cumplir con el RGPD para dar datos privados a la persona correcta (multas importantes en Europa), y técnicas de debug cuando el agente da respuestas inesperadas."
+twitter_description: "Segunda parte del análisis sobre agentes de IA: latencia, GuardRails, seguridad RGPD y debug."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})

@@ -10,8 +10,8 @@ categories: [Tecnología, IA]
 tags: [ia, desarrollo, opinión, asistentes]
 pin: false
 toc: true
-excerpt: "Analizo con ojo crítico el auge de las agencias de IA, desmitificando la idea de que los agentes son 'inteligentes' por sí solos."
-twitter_description: "Lo que no te cuentan sobre agentes de IA."
+excerpt: "Analizo con ojo crítico el auge de las agencias de IA, desmitificando la idea de que los agentes son 'inteligentes' por sí solos. Las IAs son imbéciles: inventan cosas que parecen tener sentido. Desarrollar un agente no es 'leerle que haga algo y ya', requiere fundamentos de programación, estructuras de datos, visión de negocio, capacidad de análisis y prompt engineering. Explico los errores comunes: reservas a las 3AM, no considerar que el negocio usa agenda en papel, problemas legales con datos de clientes (multas hasta 600.000€ en Europa), y los costes reales de infraestructura (LLMs, voces como ElevenLabs, plataformas como VAPI o Retell)."
+twitter_description: "La verdad sobre agentes de IA: no son inteligentes, cuestan más de lo que parece y requieren conocimientos técnicos."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
