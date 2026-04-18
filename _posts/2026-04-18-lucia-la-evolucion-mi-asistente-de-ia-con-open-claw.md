@@ -29,9 +29,25 @@ Si sigues el ecosistema de la Inteligencia Artificial, sabrás que la mayoría d
 
 **OpenClaw** es un proyecto de código abierto que actúa como una pasarela (gateway) de agentes de IA completamente autohospedada. Me permite ejecutar a Lucía en mi propio hardware, dándome tres ventajas críticas:
 
-1.  **Soberanía Digital**: Yo decido qué modelo usa Lucía en cada momento (Claude 3.5, GPT-4o o incluso modelos locales de DeepSeek a través de mi propio servidor).
+1.  **Soberanía Digital**: Yo decido qué modelo usa Lucía en cada momento. Desde que migré a modelos open source, corro modelos locales como GLM-5, Qwen 3, DeepSeek V3.2, Kimi K2.5 y Llama 4 a través de LM Studio y Ollama en mi propio servidor. Además, cuando necesito más potencia, puede usar APIs de estos mismos modelos a través de OpenRouter.
 2.  **Multitarea Autónoma**: A diferencia de un chatbot tradicional, Lucía ahora puede ejecutar tareas en segundo plano: monitorizar mi correo, gestionar archivos en mi servidor o interactuar con APIs locales sin que yo tenga que iniciar la conversación.
 3.  **Integración Omnicanal**: Gracias a la arquitectura de OpenClaw, Lucía ahora vive donde yo estoy: en WhatsApp, Discord y Telegram, manteniendo el contexto unificado en todos los canales.
+
+## ¿Qué hace Lucía hoy?
+
+Más allá de gestionar llamadas y citas, Lucía ahora me ayuda en tareas que antes me robaban horas:
+
+- **Redactar posts**: Me ayuda a escribir artículos para el blog. Le doy los conceptos generales, ella investiga, busca información actualizada y genera borradores que luego pulo. Hoy incluso se ha ocupado de que todos mis posts cumplan con la estructura definida en el skill de copywriting, recuperando información de cuando migré de WordPress a Jekyll que ni me había dado cuenta de que estaba pérdida.
+
+- **Gestión de correo**: Me resume los mails importantes y me prepara respuestas modelo, adaptándolas a mi estilo.
+
+- **Youtube**: Me resume los vídeos de mis suscripciones para que pueda decidir cuáles ver sin perder tiempo.
+
+- **Código**: Me ayuda a escribir y debuguear código, desde scripts de automatización hasta configuración de contenedores.
+
+- **Administración del Home Lab**: Monitoriza mi conexión a internet, gestiona Home Assistant y me alerta de problemas antes de que me dé cuenta.
+
+- **Tareas rutinarias**: Cualquier tarea repetitiva que se pueda automatizar, Lucía la asume.
 
 ## El cerebro en casa (Home Lab)
 
