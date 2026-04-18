@@ -8,7 +8,8 @@ categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [programación, empleo, junior, senior, consejos]
 pin: false
 toc: true
-excerpt: "Ofrezco una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental. Analizo los diferentes tipos de formación, priorizo el aprendizaje de conceptos universales de programación sobre lenguajes específicos, y desgrano las herramientas y metodologías —desde Git y SOLID hasta el teletrabajo y la gestión de egos— que definen una carrera profesional exitosa en el sector tecnológico."
+excerpt: "Ofrezco una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental."
+twitter_description: "Guía para programadores Junior y Seniors."
 permalink: /cosas-que-todo-junior-deberia-saber-mas-de-un-senior/
 image: /assets/img/headers/default.webp
 ---
