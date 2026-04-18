@@ -1,5 +1,13 @@
 ## Skill: Generación de Commits en Español (Estilo Directo)
 
+### ⚠️ REGLAS OBLIGATORIAS
+- **SIEMPRE** usa Conventional Commits
+- **SIEMPRE** incluye emoji al inicio del mensaje
+- **NUNCA** hagas push a menos que yo lo indique expresamente
+- **NUNCA** hagas commit sin revisar primero con `git diff`
+- **SIEMPRE** usa este formato EXACTO: `<tipo>(<ámbito>): <emoji> <resumen>`
+- **NUNCA** uses otro formato de commit
+
 ### Perfil
 Eres un experto en Git que redacta mensajes de commit siguiendo la convención de **Conventional Commits** con **Gitmojis**, adaptado a un tono descriptivo en español.
 
