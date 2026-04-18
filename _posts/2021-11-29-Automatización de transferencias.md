@@ -1,17 +1,21 @@
 ---
-title: Bancos y Fintechs ¿tan dificil es hacer esto?
-author: Marcos Ramírez
-date: 2021-11-29 8:50:00 +0100
+title: "Bancos y Fintechs ¿tan dificil es hacer esto?"
+slug: bancos-y-fintechs-tan-dificil-es-hacer-esto
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2021-11-29 08:50:00 +0100
 image: /assets/img/headers/transferenciasautomaticas.jpg
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [finanzas, automatización, bancos, opinión]
 pin: false
 toc: true
-excerpt: Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales. Propongo un modelo de flujo lógico y gestor de eventos —ilustrado con ejemplos de pseudocódigo— que permitiría a usuarios y autónomos automatizar tareas críticas como el ahorro sistemático o la separación inmediata del IVA tras recibir ingresos, optimizando radicalmente la administración del dinero.
-permalink: "/:title/" # title is filename NOT title in YAML
+excerpt: "Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales."
+twitter_description: "Automatización en bancos y fintechs."
+permalink: /:slug/
 ---
 
-![Transferencias Automáticas](/assets/img/headers/transferenciasautomaticas.jpg)
+![Post Header]({{ page.image }})
 
 *Disclaimer*: Sé que [N26](https://n26.com/r/marcosr8764) ofrece algo parecido a esto en sus planes premium, pero:
 1. Solo lo ofrece entre sus espacios (no tienen IBAN propio, ni puedes transferir a otro IBAN/Cuenta)
