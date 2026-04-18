@@ -11,6 +11,7 @@ tags: [finanzas, gestión, ahorro, consejos]
 pin: false
 toc: true
 excerpt: "Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero."
+twitter_description: "Gestión financiera básica: conceptos."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
