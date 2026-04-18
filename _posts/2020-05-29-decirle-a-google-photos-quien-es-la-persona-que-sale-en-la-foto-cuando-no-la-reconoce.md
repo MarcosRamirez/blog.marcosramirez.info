@@ -1,17 +1,21 @@
 ---
 title: "Decirle a Google Photos quién es la persona que sale en la foto cuando NO la reconoce"
 slug: decirle-a-google-photos-quien-es-la-persona-que-sale-en-la-foto-cuando-no-la-reconoce
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2020-05-29 17:21:57 +0200
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, android, trucos, opinión]
 pin: false
 toc: false
-excerpt: Continúo con mi sección de problemas del primer mundo analizando una frustrante limitación de Google Photos - la incapacidad del sistema para permitir el etiquetado manual cuando identifica un rostro pero falla al reconocer de quién se trata. Comparto mi experiencia con este vacío de funcionalidad en la gestión inteligente de archivos fotográficos y abro el debate a posibles soluciones alternativas o trucos de la comunidad.
+excerpt: "Analizo una frustrante limitación de Google Photos: la incapacidad del sistema para permitir el etiquetado manual cuando identifica un rostro pero no reconoce de quién se trata."
 twitter_description: "Problema sin solución: cómo decirle a Google Photos quién es una persona que no reconoce."
 permalink: /decirle-a-google-photos-quien-es-la-persona-que-sale-en-la-foto-cuando-no-la-reconoce/
 ---
+
+![Post Header]({{ page.image }})
 
 Aquí vengo con otro de mis problemas del primer mundo...
 
