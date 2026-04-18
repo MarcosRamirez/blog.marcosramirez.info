@@ -4,7 +4,7 @@ slug: n26-mi-neo-banco
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2022-02-01 8:50:00 +0100
+date: 2022-02-01 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [neobancos, n26, finanzas, opinión]
