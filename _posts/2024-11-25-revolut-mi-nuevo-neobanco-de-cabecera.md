@@ -11,6 +11,7 @@ tags: [revolut, neobancos, finanzas, opinión]
 pin: false
 toc: true
 excerpt: "Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones de otras entidades."
+twitter_description: "Revolut como neobanco de cabecera."
 permalink: /:slug/
 ---
 
