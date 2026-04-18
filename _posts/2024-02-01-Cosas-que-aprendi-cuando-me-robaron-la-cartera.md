@@ -1,6 +1,6 @@
 ---
 title: "💸 Cosas que aprendí cuando me robaron la cartera 💸"
-slug: cosas-que-aprendi-cuando-me-robaron-la-cartera 
+slug: cosas-que-aprendi-cuando-me-robaron-la-cartera
 authors:
   - "Marcos Ramírez"
   - "Lucía"
