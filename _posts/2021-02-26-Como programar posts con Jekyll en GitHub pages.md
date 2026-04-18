@@ -1,15 +1,21 @@
 ---
-title: Como programar posts con Jekyll en GitHub Pages.
-author: Marcos Ramírez
+title: "Como programar posts con Jekyll en GitHub Pages"
+slug: como-programar-posts-con-jekyll-en-github-pages
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2021-02-26 21:00:00 +0100
+image: /assets/img/headers/default.webp
 categories: [Tecnología, Desarrollo Web]
 tags: [jekyll, github pages, automatización, tutorial]
 pin: false
 toc: true
-excerpt_separator: <!--more-->
-excerpt: Explico cómo solucionar una de las principales limitaciones de Jekyll al hospedar en GitHub Pages - la imposibilidad nativa de programar publicaciones para fechas futuras. Muestro cómo configurar un flujo de trabajo de GitHub Actions con un activador de cron para forzar reconstrucciones automáticas del sitio, permitiendo que los posts se publiquen exactamente en el momento deseado sin intervención manual.
-permalink: /:title/ # title is filename NOT title in YAML
+excerpt: "Explico cómo solucionar una de las principales limitaciones de Jekyll al hospedar en GitHub Pages: la imposibilidad nativa de programar publicaciones para fechas futuras."
+twitter_description: "Cómo programar posts con Jekyll en GitHub Pages."
+permalink: /:slug/
 ---
+
+![Post Header]({{ page.image }})
 
 El primer problema "serio", que me he encontrado con Jekyll, es que no podía programar los posts, crear un post con la fecha en futuro, no es suficiente para que se publique, también hay que hacer que se ejecute el build, ¿como?, simplemente modificando el archivo:
 
