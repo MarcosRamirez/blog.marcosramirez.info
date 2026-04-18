@@ -9,8 +9,8 @@ tags: [jekyll, wordpress, github pages, desarrollo]
 pin: false
 toc: true
 image: /assets/img/headers/wp2jekyll.png
-excerpt: "Detallo mi experiencia migrando múltiples blogs de WordPress a Jekyll, una decisión motivada por la búsqueda de simplicidad, seguridad y un flujo de trabajo optimizado para desarrolladores. Analizo las ventajas de utilizar generadores de sitios estáticos, Markdown y GitHub Pages, además de compartir las soluciones técnicas que implementé para solventar limitaciones como la programación de posts, la gestión de comentarios y la integración de Twitter Cards."
-excerpt_separator: <!--more-->
+excerpt: "Detallo mi experiencia migrando múltiples blogs de WordPress a Jekyll, una decisión motivada por la búsqueda de simplicidad, seguridad y un flujo de trabajo optimizado para desarrolladores."
+twitter_description: "Cómo migrar de WordPress a Jekyll."
 permalink: /migrando-de-wordpress-a-jekyll/
 ---
 ![Post Header]({{ page.image }})
