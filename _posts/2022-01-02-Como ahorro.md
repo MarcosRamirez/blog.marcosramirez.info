@@ -10,7 +10,8 @@ categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [ahorro, finanzas, presupuesto, consejos]
 pin: false
 toc: true
-excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico" diseñado para quienes buscan tomar el control de su dinero. Detallo estrategias clave desde la prioridad del ahorro sistemático y la creación de presupuestos ajustados, hasta el uso inteligente de múltiples cuentas bancarias y tarjetas de crédito para mejorar el scoring financiero. Además, incluyo consejos sobre alimentación saludable, ahorro en compras cotidianas y herramientas digitales de comparación de precios.
+excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero."
+twitter_description: "Cómo gestionar mis finanzas: ahorro básico."
 permalink: /:slug/ 
 ---
 

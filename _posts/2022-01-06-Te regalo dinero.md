@@ -10,7 +10,8 @@ categories: [Finanzas Personales, Bancos y Fintech]
 tags: [ahorro, referidos, gratis, descuentos]
 pin: true
 toc: true
-excerpt: "Recopilo una serie de promociones" y sistemas de referidos que permiten obtener más de 370€ en bonificaciones y descuentos. Desde neobancos como Revolut y N26 hasta aplicaciones de ahorro como LetyShops y servicios de freelance como Fiverr, detallo los pasos necesarios para aprovechar estas ofertas corporativas y maximizar el beneficio económico personal mediante la recomendación de servicios contrastados.
+excerpt: "Recopilo una serie de promociones y sistemas de referidos que permiten obtener más de 370€ en bonificaciones y descuentos."
+twitter_description: "Promociones y referidos para ahorrar."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
