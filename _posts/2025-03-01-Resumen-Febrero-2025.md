@@ -7,7 +7,7 @@ authors:
 date: 2025-03-01 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Metas y Resúmenes]
-tags: [resumen, personal, desarrollo, tecnología]
+tags: [resumen, personal, desarrollo, tecnología, lucia]
 pin: false
 toc: true
 excerpt: "Resumo un intenso Febrero 2025 marcado por la evolución de Lucía, mi agente de voz inteligente, con capacidades de agendamiento y gestión de LEADS."
