@@ -11,6 +11,7 @@ tags: [ia, chatgpt, automatización, utilidades]
 pin: false
 toc: true
 excerpt: "Detallo un método práctico para utilizar la Inteligencia Artificial en la planificación de menús semanales equilibrados."
+twitter_description: "Cómo usar IA para planificar menús semanales."
 permalink: /:slug/
 ---
 
