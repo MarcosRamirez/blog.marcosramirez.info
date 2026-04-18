@@ -1,6 +1,6 @@
 ---
 title: "💰Como gestiono mis finanzas (1ª parte) Conceptos básicos"
-slug: gestion-finanzas-básica
+slug: gestion-finanzas-basica
 authors:
   - "Marcos Ramírez"
   - "Lucía"
