@@ -1,17 +1,20 @@
 ---
 title: "¿Quieres que te ayude? ¿Quieres contratarme?"
 slug: quieres-que-te-ayude-quieres-contratarme
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-05-07 19:25:28 +0200
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [freelance, empleo, profesional]
 pin: false
 toc: true
-excerpt: Clarifico mi disponibilidad profesional y los tipos de proyectos en los que estoy interesado, desde roles de CTO y proyectos innovadores hasta mi disposición para tutorías y consultoría freelance. Establezco límites claros sobre mis intereses, definiendo qué colaboraciones me motivan y cuáles rechazo tajantemente, con el fin de gestionar mejor las solicitudes de ayuda y ofertas de empleo que recibo.
+excerpt: "Clarifico mi disponibilidad profesional y los tipos de proyectos en los que estoy interesado, desde roles de CTO y proyectos innovadores hasta mi disposición para tutorías y consultoría freelance. Establezco límites claros sobre mis intereses, definiendo qué colaboraciones me motivan y cuáles rechazo tajantemente, con el fin de gestionar mejor las solicitudes de ayuda y ofertas de empleo que recibo."
 twitter_description: "¿Quieres contratarme o que te ayude? Aquí mis condiciones y lo que me interesa (y lo que no)."
 permalink: /quieres-que-te-ayude-quieres-contratarme/
 ---
+![Post Header]({{ page.image }})
 
 De manera más o menos regular, me llegan peticiones de ayuda, ofertas de empleo, etc... En este post, pretendo explicar mi disponibilidad y disposición para este tipo de peticiones.
 

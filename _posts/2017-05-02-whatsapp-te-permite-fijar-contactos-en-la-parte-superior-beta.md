@@ -1,17 +1,20 @@
 ---
 title: "WhatsApp te permite fijar contactos en la parte superior (Beta)"
 slug: whatsapp-te-permite-fijar-contactos-en-la-parte-superior-beta
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-05-02 08:14:41 +0200
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Software y Apps]
 tags: [whatsapp, beta, tutorial]
 pin: false
 toc: false
-excerpt: Explico cómo utilizar la nueva funcionalidad de WhatsApp Beta que permite fijar hasta tres chats preferidos en la parte superior de la lista. Esta pequeña pero útil mejora de usabilidad ayuda a organizar mejor nuestras conversaciones más frecuentes y evitar errores al responder, manteniendo siempre visibles a nuestros contactos clave mediante el icono de la chincheta.
+excerpt: "Explico cómo utilizar la nueva funcionalidad de WhatsApp Beta que permite-fixed hasta tres chats preferidos en la parte superior de la lista. Esta pequeña pero útil mejora de usabilidad ayuda a organizar mejor nuestras conversaciones más frecuentes y evitar errores al responder, manteniendo siempre visibles a nuestros contactos clave mediante el icono de la chincheta."
 twitter_description: "WhatsApp Beta permite fijar hasta 3 contactos favoritos en la parte superior. Así se hace."
 permalink: /whatsapp-te-permite-fijar-contactos-en-la-parte-superior-beta/
 ---
+![Post Header]({{ page.image }})
 
 ¿Cuántas veces has pensado que sería genial que tus contactos preferidos apareciesen los primeros en WhatsApp? Pues ahora, ya puedes fijar hasta **TRES** contactos en la parte superior.
 

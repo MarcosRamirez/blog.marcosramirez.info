@@ -1,19 +1,18 @@
 ---
-layout: post
-title: Así te timan con los megas
+title: "Así te timan con los megas"
 date: 2016-08-05 14:26:23.000000000 +02:00
-status: publish
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, curiosidades]
-permalink: "/Asi-te-timan-con-los-megas/"
+permalink: /asi-te-timan-con-los-megas/
 toc: true
 image: /assets/img/headers/megas.png
-excerpt: En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades de conexión que a menudo malinterpretamos. Un repaso básico pero esencial a las unidades de medida informática para que no te den gato por liebre con tu conexión a internet.
+excerpt: "En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades de conexión que a menudo malinterpretamos. Un repaso básico pero esencial a las unidades de medida informática para que no te den gato por liebre con tu conexión a internet."
 twitter_description: "Breve explicación sobre por qué no te están dando lo que pagas con tu conexión a internet."
 ---
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-<p>Este es el primer post de mi "nuevo" blog.</p>
+![Post Header]({{ page.image }})
 <p>Y he decidido empezar con algo que, cualquier informático, o persona que realmente sepa de informática sabe, pero que a la gran masa (CUÑADOS INCLUIDOS x)) ignoran, y les timan.</p>
 <p>Como informático, entono el "mea culpa" dado que en nuestro afán de hacer la informática fácil para todos, solo hemos conseguido crear un montón de ignorantes que se creen genios por saber usar una aplicación.</p>
 <p>Y, sobretodo, he empezado con este post, por que llevaba sin Internet desde el día 27 por una avería, y hoy, cuando ha venido el "técnico" tampoco sabía nada del asunto, al menos, se ha ido "aprendido", espero que tú también ;).</p>

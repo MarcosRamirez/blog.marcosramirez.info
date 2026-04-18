@@ -1,18 +1,19 @@
 ---
-title: Migrando de WordPress a Jekyll
-author: Marcos Ramírez
+title: "Migrando de WordPress a Jekyll"
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2021-02-19 10:34:00 +0100
 categories: [Tecnología, Desarrollo Web]
 tags: [jekyll, wordpress, github pages, desarrollo]
 pin: false
 toc: true
 image: /assets/img/headers/wp2jekyll.png
-excerpt: Detallo mi experiencia migrando múltiples blogs de WordPress a Jekyll, una decisión motivada por la búsqueda de simplicidad, seguridad y un flujo de trabajo optimizado para desarrolladores. Analizo las ventajas de utilizar generadores de sitios estáticos, Markdown y GitHub Pages, además de compartir las soluciones técnicas que implementé para solventar limitaciones como la programación de posts, la gestión de comentarios y la integración de Twitter Cards.
+excerpt: "Detallo mi experiencia migrando múltiples blogs de WordPress a Jekyll, una decisión motivada por la búsqueda de simplicidad, seguridad y un flujo de trabajo optimizado para desarrolladores. Analizo las ventajas de utilizar generadores de sitios estáticos, Markdown y GitHub Pages, además de compartir las soluciones técnicas que implementé para solventar limitaciones como la programación de posts, la gestión de comentarios y la integración de Twitter Cards."
 excerpt_separator: <!--more-->
-permalink: /:title/
+permalink: /migrando-de-wordpress-a-jekyll/
 ---
-
-![Wordpress To Jekyll](/assets/img/headers/wp2jekyll.png)
+![Post Header]({{ page.image }})
 
 Estoy migrando todos mis blogs a Jekyll, y de paso, estoy aprovechando para decidir cual(es) de ellos unificar aquí.
 El proceso llevará algo de, o bastante, tiempo.

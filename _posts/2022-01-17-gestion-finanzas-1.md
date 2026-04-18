@@ -1,17 +1,19 @@
 ---
-title: 💰Como gestiono mis finanzas (1ª parte) Conceptos básicos
+title: "💰Como gestiono mis finanzas (1ª parte) Conceptos básicos"
 slug: gestion-finanzas-básica
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2022-01-17 10:00:00 +0100
 image: /assets/img/headers/finanzas.jpg
 categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [finanzas, gestión, ahorro, consejos]
 pin: false
 toc: true
-excerpt: Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero. Explico por qué es vital diversificar cuentas bancarias, los riesgos del sobreendeudamiento y la importancia de calcular nuestro valor real por hora trabajada. Además, introduzco conceptos fundamentales sobre ahorro sistemático e inversión —entendida no solo como capital, sino como formación y optimización del tiempo— para sentar las bases de una economía personal saludable.
-permalink: /:slug/ 
+excerpt: "Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero."
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/finanzas.jpg)
+![Post Header]({{ page.image }})
 
 **Disclaimer**: No me dedico a las finanzas, ni soy asesor profesional, aquí simplemente expongo mi experiencia y mis métodos de gestión.
 

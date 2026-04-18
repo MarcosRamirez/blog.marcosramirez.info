@@ -1,17 +1,20 @@
 ---
 title: "Algunas simples mejoras que harían a NetFlix aún mejor (II)"
 slug: algunas-simples-mejoras-que-harian-a-netflix-aun-mejor-ii
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-04-22 11:34:34 +0200
 image: /assets/img/headers/netflix.png
 categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: Segunda parte de mi análisis sobre la experiencia de usuario en Netflix. En esta ocasión me centro en los problemas de navegación horizontal en la web, la falta de indicadores de idioma claros en el catálogo, las diferencias entre el reproductor móvil y el de PC, y la gran oportunidad perdida que supone haber cerrado su API pública.
+excerpt: "Segunda parte de mi análisis sobre la experiencia de usuario en Netflix. En esta ocasión me centro en los problemas de navegación horizontal en la web, la falta de indicadores de idioma claros en el catálogo, las diferencias entre el reproductor móvil y el de PC, y la gran oportunidad perdida que supone haber cerrado su API pública."
 twitter_description: "Más mejoras que Netflix debería implementar: navegación, reproductor, idiomas y una API pública."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor-ii/
 ---
+![Post Header]({{ page.image }})
 
 No tenía muy claro si escribiría, o cuando escribiría este segundo post... pero cuando el otro día escribí el [primer post](/algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/) sobre posibles mejoras de NetFlix, tenía claro que iba a haber más.
 

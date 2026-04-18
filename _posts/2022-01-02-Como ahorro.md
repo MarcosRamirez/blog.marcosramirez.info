@@ -1,14 +1,16 @@
 ---
-title: 💰Como gestiono mis finanzas (II) Ahorro básico
+title: "Como gestiono mis finanzas (II) Ahorro básico"
 slug: ahorrar-dinero-facilmente
-author: Marcos Ramírez
-date: 2022-01-02 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2022-01-02 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [ahorro, finanzas, presupuesto, consejos]
 pin: false
 toc: true
-excerpt: Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero. Detallo estrategias clave desde la prioridad del ahorro sistemático y la creación de presupuestos ajustados, hasta el uso inteligente de múltiples cuentas bancarias y tarjetas de crédito para mejorar el scoring financiero. Además, incluyo consejos sobre alimentación saludable, ahorro en compras cotidianas y herramientas digitales de comparación de precios.
+excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico" diseñado para quienes buscan tomar el control de su dinero. Detallo estrategias clave desde la prioridad del ahorro sistemático y la creación de presupuestos ajustados, hasta el uso inteligente de múltiples cuentas bancarias y tarjetas de crédito para mejorar el scoring financiero. Además, incluyo consejos sobre alimentación saludable, ahorro en compras cotidianas y herramientas digitales de comparación de precios.
 permalink: /:slug/ 
 ---
 

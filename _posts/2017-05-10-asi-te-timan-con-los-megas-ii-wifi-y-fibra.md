@@ -1,17 +1,20 @@
 ---
 title: "Así te timan con los megas II: Wifi y Fibra"
 slug: asi-te-timan-con-los-megas-ii-wifi-y-fibra
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-05-10 19:26:42 +0200
 image: /assets/img/headers/megas.png
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, wifi, opinión]
 pin: false
 toc: false
-excerpt: Segunda parte de mi análisis sobre la velocidad de internet, centrada esta vez en el cuello de botella que supone el WiFi para las conexiones de fibra. Explico la diferencia técnica entre las bandas de 2,4 GHz y 5 GHz, y por qué muchos usuarios no alcanzan la velocidad contratada simplemente por tener un router antiguo que limita la transmisión inalámbrica.
+excerpt: "Segunda parte de mi análisis sobre la velocidad de internet, centrada esta vez en el cuello de botella que suppose el WiFi para las conexiones de fibra. Explico la diferencia técnica entre las bandas de 2,4 GHz y 5 GHz, y por qué muchos usuarios no alcanzan la velocidad contratada simplemente por tener un router antiguo que limita la transmisión inalámbrica."
 twitter_description: "Por qué tu WiFi de fibra no va tan rápido como debería: la diferencia entre 2,4 GHz y 5 GHz."
 permalink: /asi-te-timan-con-los-megas-ii-wifi-y-fibra/
 ---
+![Post Header]({{ page.image }})
 
 Revisando posts... y borradores, he visto esto.
 

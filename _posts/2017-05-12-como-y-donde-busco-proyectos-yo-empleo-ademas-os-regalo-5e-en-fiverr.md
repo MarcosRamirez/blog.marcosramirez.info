@@ -1,17 +1,20 @@
 ---
 title: "¿Cómo y dónde busco proyectos y/o empleo? (además os regalo 5€ en Fiverr)"
 slug: como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-05-12 19:40:04 +0200
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [empleo, freelance, consejos, fiverr]
 pin: false
 toc: true
-excerpt: Comparto mi estrategia personal y los portales que utilizo para buscar tanto empleos presenciales como proyectos freelance en el sector tecnológico. Detallo mis criterios de selección, desde lo atractivo del proyecto hasta el cálculo real del salario por hora incluyendo desplazamientos, y analizo plataformas como Infojobs, Tecnoempleo, Experteer y Fiverr, donde además incluyo un descuento para nuevos usuarios.
+excerpt: "Comparto mi estrategia personal y los portales que utilizo para buscar tanto empleos presenciales como proyectos freelance en el sector tecnológico. Detallo mis criterios de selección, desde lo atractivo del proyecto hasta el cálculo real del salario por hora incluyendo desplazamientos, y analizo plataformas como Infojobs, Tecnoempleo, Experteer y Fiverr, donde además incluyo un descuento para nuevos usuarios."
 twitter_description: "Mis webs favoritas para buscar empleo y proyectos freelance como programador, y 5€ de regalo en Fiverr."
 permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr/
 ---
+![Post Header]({{ page.image }})
 
 El otro día hablaba sobre [tips para contratarme, o solicitarme ayuda](/quieres-que-te-ayude-quieres-contratarme/). Hoy, os voy a hablar sobre las diferentes webs que utilizo cuando busco empleo, o proyectos.
 

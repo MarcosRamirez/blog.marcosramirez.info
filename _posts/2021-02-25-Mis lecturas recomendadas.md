@@ -1,17 +1,19 @@
 ---
-title: Mis recomendaciones, libros, blogs, películas, canales...
+title: "Mis recomendaciones, libros, blogs, películas, canales..."
 slug: "recomendaciones-libros-blogs-peliculas-canales"
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2021-02-25 21:00:00 +0100
 categories: [Personal y Desarrollo Profesional, Recomendaciones]
 tags: [libros, programación, lectura, recomendaciones]
 pin: true
 toc: true
-excerpt: Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores, como 'Clean Code' y 'Refactoring', hasta novelas de terror de Stephen King y producciones audiovisuales sorprendentes. Este post, que mantengo en constante actualización, busca ser un recurso útil de consulta y un espacio de intercambio donde lectores y apasionados de la tecnología puedan descubrir y sugerir nuevos títulos de interés.
-permalink: /:slug/ # title is filename NOT title in YAML
+excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores, como 'Clean Code' y 'Refactoring', hasta novelas de terror de Stephen King y producciones audiovisuales sorprendentes. Este post, que mantengo en constante actualización, busca ser un recurso útil de consulta y un espacio de intercambio donde lectores y apasionados de la tecnología puedan descubrir y sugerir nuevos títulos de interés."
+permalink: /recomendaciones-libros-blogs-peliculas-canales/
 image: /assets/img/headers/recomendaciones.webp
 ---
-![Post Header](/assets/img/headers/recomendaciones.webp)
+![Post Header]({{ page.image }})
 {{ slugHack }}
 Una de las cosas que mis padres, bueno, sobre todo mi madre, me inculcaron de niño, fué la lectura.
 Uno de los recuerdos que tengo de mi infancia es el de la visita de "[el del círculo](https://www.circulo.es/){:target="_blank"}" (de lectores), hoy en día casi olvidado ya.

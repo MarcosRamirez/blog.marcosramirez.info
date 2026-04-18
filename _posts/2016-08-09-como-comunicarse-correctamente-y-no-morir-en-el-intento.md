@@ -1,17 +1,20 @@
 ---
 title: "Cómo comunicarse (conmigo) correctamente y no morir en el intento"
 slug: como-comunicarse-correctamente-y-no-morir-en-el-intento
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2016-08-09 16:40:28 +0200
 image: /assets/img/headers/comunicarse.png
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, productividad, comunicación]
 pin: false
 toc: true
-excerpt: En este post, comparto mi guía personal sobre cómo comunicarse conmigo (y con cualquier profesional) de manera eficiente. Desde las normas básicas para correos electrónicos y citas, hasta la gestión de chats y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente y cómo evitar hacernos perder el tiempo con chorradas innecesarias.
+excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo (y con cualquier profesional) de manera eficiente. Desde las normas básicas para correos electrónicos y citas, hasta la gestión de chats y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente y cómo evitar hacernos perder el tiempo con chorradas innecesarias."
 twitter_description: "Mis reglas para comunicarte conmigo sin que me cabrees: email, chat, WhatsApp y teléfono."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
+![Post Header]({{ page.image }})
 
 Cualquiera que me conozca un poco en profundidad, sabe de sobra que mi carácter es fuerte, por decirlo suavemente.
 

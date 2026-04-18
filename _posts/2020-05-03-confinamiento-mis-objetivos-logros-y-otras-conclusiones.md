@@ -1,19 +1,20 @@
 ---
 title: "Confinamiento, mis objetivos, logros y otras conclusiones..."
 slug: confinamiento-mis-objetivos-logros-y-otras-conclusiones
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2020-05-03 12:51:00 +0200
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, personal, objetivos, teletrabajo]
 pin: false
 toc: true
-excerpt: Tras 52 días de confinamiento por la pandemia, reflexiono sobre mis objetivos personales y logros alcanzados, desde dejar de fumar hasta el crecimiento en redes sociales y Twitch. Además, comparto mis conclusiones sobre la gestión de la crisis, la importancia definitiva del teletrabajo en el sector tecnológico y mi decisión personal de seguir extremando las precauciones hasta que exista una solución médica definitiva.
+excerpt: "Tras 52 días de confinamiento por la pandemia, reflexiono sobre mis objetivos personales y logros alcanzados, desde dejar de fumar hasta el crecimiento en redes sociales y Twitch. Además, comparto mis conclusiones sobre la gestión de la crisis, la importancia definitiva del teletrabajo en el sector tecnológico y mi decisión personal de seguir extremando las precauciones hasta que exista una solución médica definitiva."
 twitter_description: "Mis objetivos, logros reales y conclusiones tras 52 días de confinamiento por el COVID-19."
 permalink: /confinamiento-mis-objetivos-logros-y-otras-conclusiones/
 ---
-
-![coronavirus](/assets/2020/05/coronavirus.jpg)
+![Post Header]({{ page.image }})
 
 Hoy es 3 de Mayo de 2020, hoy llevo 52 días sin salir de casa... aunque desde ayer, se puede salir a pasear, o hacer ejercicio...
 

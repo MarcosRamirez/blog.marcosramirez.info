@@ -1,17 +1,19 @@
 ---
-title: Te regalo más de 370€ 💸💸💸
+title: "Te regalo más de 370€ 💸💸💸"
 slug: regalo-dinero-gratis
-author: Marcos Ramírez
-date: 2024-10-10 7:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2022-01-06 07:50:00 +0100
 image: /assets/img/headers/transferenciasautomaticas.jpg
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [ahorro, referidos, gratis, descuentos]
 pin: true
 toc: true
-excerpt: Recopilo una serie de promociones y sistemas de referidos que permiten obtener más de 370€ en bonificaciones y descuentos. Desde neobancos como Revolut y N26 hasta aplicaciones de ahorro como LetyShops y servicios de freelance como Fiverr, detallo los pasos necesarios para aprovechar estas ofertas corporativas y maximizar el beneficio económico personal mediante la recomendación de servicios contrastados.
-permalink: /:slug/ 
+excerpt: "Recopilo una serie de promociones" y sistemas de referidos que permiten obtener más de 370€ en bonificaciones y descuentos. Desde neobancos como Revolut y N26 hasta aplicaciones de ahorro como LetyShops y servicios de freelance como Fiverr, detallo los pasos necesarios para aprovechar estas ofertas corporativas y maximizar el beneficio económico personal mediante la recomendación de servicios contrastados.
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/transferenciasautomaticas.jpg)
+![Post Header]({{ page.image }})
 
 **Actualizado**: 09 de Diciembre de 2024. (Por favor, si algún enlace o promoción ya no es válida, házmelo saber para actualizarlo)
 

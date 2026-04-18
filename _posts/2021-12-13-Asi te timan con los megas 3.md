@@ -1,18 +1,19 @@
 ---
-title: Así te timan con los megas, no necesitas pagar 600Mb
+title: "Así te timan con los megas, no necesitas pagar 600Mb"
 slug: asi-te-timan-con-los-megas-no-necesitas-pagar-600mb
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2021-12-13 18:50:00 +0100
 image: /assets/img/headers/megas.png
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, opinión]
 pin: false
 toc: true
-excerpt: En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps. Mediante un análisis del consumo real de servicios como streaming 4K, videojuegos y videollamadas, demuestro que incluso un hogar con alta demanda difícilmente supera los 100Mbs, y reflexiono sobre las estrategias comerciales de las operadoras que impiden el ahorro del consumidor.
-permalink: /:slug/ # title is filename NOT title in YAML
-
+excerpt: "En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps. Mediante un análisis del consumo real de servicios como streaming 4K, videojuegos y videollamadas, demuestro que incluso un hogar con alta demanda difícilmente supera los 100Mbs, y reflexiono sobre las estrategias comerciales de las operadoras que impiden el ahorro del consumidor."
+permalink: /asi-te-timan-con-los-megas-no-necesitas-pagar-600mb/
 ---
-![Post header image](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
 
 Este es el tercer, y espero que último post sobre los timos con las conexiones a internet, en el repasaremos rápidamente que velicidad de conexión
 necesitas, que seguro que más de uno se sorprende, y sobretodo, de los precios, y sus... sorpresas.

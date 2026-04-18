@@ -16,12 +16,18 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 ### Estructura de los posts
 
 - Todos los posts deben incluir un ![Post Header]({{ page.image }}) al inicio del texto.
-- El front matter debe incluir las claves `title`, `date`, `excerpt`, `authors`, `categories`, `tags` y `image`, `pin`, `toc` `twitter_description` y `permalink`.
+- El front matter debe incluir las claves `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `pin`, `toc` `twitter_description` y `permalink`.
 - El campo image, puedes usarlo en el Post headder.
 - El valor por defecto del campo image es `/assets/img/headers/default.webp`.
 - El valor por defecto del campo pin es false.
 - El valor por defecto del campo toc es true.
 - El valor por defecto del campo permalink es el slug del post.
+
+
+### Nombres de archivos
+- Los nombres de los archivos deben estar en formato slug, es decir, en minúsculas y con guiones en lugar de espacios. Comenzando por la fecha de publicación como por ejemplo: `2025-01-19-Mi plan para 2025.md`
+- Es *** MUY IMPORTANTE *** que el nombre del archivo sea el slug del post, no el título del post.
+- *** NO DEBEN CONTENER ESPACIOS EN BLANCO *** Si encuentras espacios en blanco en el nombre del archivo, reemplázalos por guiones. y asegúrate de que el nombre del archivo sea el slug del post.
 
 
 ### Generar imágenes de los posts
@@ -64,6 +70,8 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 - **Título:** Para el commit y metadatos, usa el título real del post.
 
 ### Reglas para el Front Matter (YAML)
+
+*** ES MUY IMPORTANT QUE REVISES ESTO, SI NO LO HACES EL BLOG SE ROMPE ***
 
 El front matter es YAML puro. Estos caracteres rompen el parseo si no se escapan correctamente:
 

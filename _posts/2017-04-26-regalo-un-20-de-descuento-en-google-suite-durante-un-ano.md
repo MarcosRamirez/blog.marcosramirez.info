@@ -1,17 +1,20 @@
 ---
 title: "Regalo un 20% de descuento en Google Suite DURANTE UN AÑO"
 slug: regalo-un-20-de-descuento-en-google-suite-durante-un-ano
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-04-26 09:41:16 +0200
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, gsuite, oferta]
 pin: false
 toc: false
-excerpt: Ofrezco un código de descuento del 20% durante el primer año para GSuite (ahora Google Workspace), la solución empresarial de Google que permite usar Gmail con dominio propio y ofrece almacenamiento ampliado. Explico brevemente las ventajas de la plataforma y detallo los pasos necesarios para aplicar la oferta tras el periodo de prueba gratuito.
+excerpt: "Ofrezco un código de descuento del 20% durante el primer año para GSuite (ahora Google Workspace), la solución empresarial de Google que permite usar Gmail con dominio propio y ofrece almacenamiento ampliado. Explico brevemente las ventajas de la plataforma y detallo los pasos necesarios para aplicar la oferta tras el periodo de prueba gratuito."
 twitter_description: "Código de descuento del 20% durante un año en Google Suite. Te explico cómo usarlo."
 permalink: /regalo-un-20-de-descuento-en-google-suite-durante-un-ano/
 ---
+![Post Header]({{ page.image }})
 
 Antes que nada, para el que no lo conozca, [GSuite](https://goo.gl/MazWd7){:target="_blank"} es, por decirlo fácilmente, "Google para empresas": son casi todas las aplicaciones de Google adaptadas a la empresa, que te permite hacer cosas como:
 

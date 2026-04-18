@@ -1,17 +1,20 @@
 ---
 title: "Comparte LEGALMENTE las aplicaciones, música y películas que has comprado en Google Play (I)"
 slug: comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-05-05 19:25:30 +0200
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false
 toc: true
-excerpt: Doy la bienvenida al Plan Familiar de Google Play en España con la primera entrega de una guía detallada. Explico paso a paso cómo registrarse como administrador, las condiciones de pago mediante tarjeta de crédito y las ventajas de compartir aplicaciones, música y películas con hasta cinco personas de forma legal y segura, permitiendo un ahorro compartido y un mejor control parental.
+excerpt: "Doy la bienvenida al Plan Familiar de Google Play en España con la primera entrega de una guía detallada. Explico paso a paso cómo registrarse como administrador, las condiciones de pago mediante tarjeta de crédito y las ventajas de compartir aplicaciones, música y películas con hasta cinco personas de forma legal y segura, permitiendo un ahorro compartido y un mejor control parental."
 twitter_description: "Tutorial: cómo crear y gestionar el Plan Familiar de Google Play en España."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i/
 ---
+![Post Header]({{ page.image }})
 
 El [Plan Familiar de Google](https://play.google.com/store/account){:target="_blank"} acaba de llegar a España, pero, a diferencia de otros planes familiares (como por ejemplo el [plan familiar de Spotify](https://www.spotify.com/es/family/){:target="_blank"}), Google no nos exige que los miembros sean realmente familiares. Si quieres aprender cómo, aquí te dejo un tutorial.
 

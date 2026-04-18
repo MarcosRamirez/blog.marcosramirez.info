@@ -1,17 +1,20 @@
 ---
 title: "Os presento a Amy Ingram, mi nueva asistente"
 slug: os-presento-a-amy-ingram-mi-nueva-asistente
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-07-08 12:12:27 +0200
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, productividad, automatización, asistentes]
 pin: false
 toc: true
-excerpt: Presento a Amy Ingram, una innovadora Inteligencia Artificial diseñada por X.AI para gestionar agendas y organizar reuniones de forma autónoma. Explico cómo su integración con el correo electrónico permite delegar la tediosa tarea de buscar huecos disponibles, configurar preferencias de ubicación y horarios, y analizo tanto las ventajas de productividad como sus limitaciones actuales y modelos de suscripción.
+excerpt: "Presento a Amy Ingram, una innovadora Inteligencia Artificial diseñada por X.AI para gestionar agendas y organizar reuniones de forma autónoma. Explico cómo su integración con el correo electrónico permite delegar la tediosa tarea de buscar huecos disponibles, configurar preferencias de ubicación y horarios, y analizo tanto las ventajas de productividad como sus limitaciones actuales y modelos de suscripción."
 twitter_description: "X.AI y Amy Ingram: el asistente de IA que gestiona tu agenda y organiza reuniones por email."
 permalink: /os-presento-a-amy-ingram-mi-nueva-asistente/
 ---
+![Post Header]({{ page.image }})
 
 Si habéis tenido la suerte de agendar una reunión conmigo últimamente (lo de suerte, porque mi tiempo últimamente es más que escaso), seguramente ya habréis cruzado algunos mails con ella, dado que es quien lleva mi agenda.
 

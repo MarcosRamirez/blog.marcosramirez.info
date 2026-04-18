@@ -1,16 +1,20 @@
 ---
-title: Mi (neo) Banco de cabecera (N26)
+title: "Mi (neo) Banco de cabecera (N26)"
 slug: n26-mi-neo-banco
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2022-02-01 8:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [neobancos, n26, finanzas, opinión]
 pin: false
 toc: true
-excerpt: Analizo mi experiencia con N26 y el auge de los neobancos frente a la banca tradicional. Explico las ventajas tecnológicas de estas entidades —como la inmediatez de las transferencias SEPA instantáneas y la flexibilidad de las tarjetas virtuales—, pero también incluyo una advertencia honesta sobre mi posterior cierre de cuenta tras el cobro de comisiones inesperadas, aportando una visión crítica y transparente sobre la realidad de estos servicios financieros.
-permalink: /:slug/ 
+excerpt: "Analizo mi experiencia con N26" y el auge de los neobancos frente a la banca tradicional. Explico las ventajas tecnológicas de estas entidades —como la inmediatez de las transferencias SEPA instantáneas y la flexibilidad de las tarjetas virtuales—, pero también incluyo una advertencia honesta sobre mi posterior cierre de cuenta tras el cobro de comisiones inesperadas, aportando una visión crítica y transparente sobre la realidad de estos servicios financieros.
+permalink: /:slug/
 ---
+
+![Post Header]({{ page.image }})
 
 > A Julio de 2022 he cerrado mis cuentas con N26, dado que me cobraron una comisión, por descubierto, de 9€.
 > Si bien, gracias a <a href="">Preico Juridicos</a>, conseguí que me devolviesen, dicha comisión. 
