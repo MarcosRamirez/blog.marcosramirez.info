@@ -1,6 +1,6 @@
 ---
 title: "Lo que no te cuentan sobre agentes de Inteligencia artificial"
-slug: Lo-que-no-te-cuentan-sobre-agentes-de-Inteligencia-artificial
+slug: lo-que-no-te-cuentan-sobre-agentes-de-inteligencia-artificial
 authors:
   - "Marcos Ramírez"
   - "Lucía"
@@ -11,6 +11,7 @@ tags: [ia, desarrollo, opinión, asistentes]
 pin: false
 toc: true
 excerpt: "Analizo con ojo crítico el auge de las agencias de IA, desmitificando la idea de que los agentes son 'inteligentes' por sí solos."
+twitter_description: "Lo que no te cuentan sobre agentes de IA."
 permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
