@@ -1,16 +1,18 @@
 ---
 title: "Así te timan con los megas"
-date: 2016-08-05 14:26:23.000000000 +02:00
+slug: asi-te-timan-con-los-megas
+date: 2016-08-05 14:26:23 +02:00
 authors:
   - "Marcos Ramírez"
   - "Lucía"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, curiosidades]
-permalink: /asi-te-timan-con-los-megas/
+pin: false
 toc: true
 image: /assets/img/headers/megas.png
-excerpt: "En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades de conexión que a menudo malinterpretamos. Un repaso básico pero esencial a las unidades de medida informática para que no te den gato por liebre con tu conexión a internet."
+excerpt: "En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia."
 twitter_description: "Breve explicación sobre por qué no te están dando lo que pagas con tu conexión a internet."
+permalink: /asi-te-timan-con-los-megas/
 ---
 ![Post Header]({{ page.image }})
 <p>Y he decidido empezar con algo que, cualquier informático, o persona que realmente sepa de informática sabe, pero que a la gran masa (CUÑADOS INCLUIDOS x)) ignoran, y les timan.</p>
