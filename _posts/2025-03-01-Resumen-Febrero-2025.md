@@ -1,17 +1,20 @@
 ---
-title: Resumen Febrero 2025
+title: "Resumen Febrero 2025"
 slug: resumen-febrero-2025
-author: Marcos Ramírez
-date: 2025-03-01 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2025-03-01 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Metas y Resúmenes]
 tags: [resumen, personal, desarrollo, tecnología]
 pin: false
 toc: true
-excerpt: Resumo un intenso Febrero 2025 marcado por la evolución de Lucía, mi agente de voz inteligente, que ahora cuenta con capacidades avanzadas de agendamiento, gestión de LEADS y filtros de horario laboral. Comparto además mi experiencia con nuevos proyectos de digitalización integral para negocios tradicionales y consultorías técnicas, reflexionando sobre la inestabilidad del ecosistema IA tras las recientes caídas de servicios globales y bloqueos de red.
-permalink: /:slug/ 
+excerpt: "Resumo un intenso Febrero 2025 marcado por la evolución de Lucía, mi agente de voz inteligente, con capacidades de agendamiento y gestión de LEADS."
+twitter_description: "Resumen de Febrero 2025."
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
 
 # Febrero 2025 (un año más viejo)
 
