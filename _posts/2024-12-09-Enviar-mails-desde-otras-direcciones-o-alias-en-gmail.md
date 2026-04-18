@@ -1,16 +1,20 @@
 ---
-title: Enviar mails desde otras direcciones o alias en gmail
+title: "Enviar mails desde otras direcciones o alias en gmail"
 slug: enviar-mails-desde-otras-direcciones-o-alias-en-gmail
-author: Marcos Ramírez
-date: 2024-12-09 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2024-12-09 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Tecnología, Software y Apps]
 tags: [gmail, tutorial, utilidades]
 pin: false
 toc: true
-excerpt: Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail. En este tutorial breve pero esencial, detallo el uso de contraseñas de aplicación y la configuración precisa del servidor SMTP para superar las limitaciones de la documentación estándar, facilitando una gestión centralizada y profesional de múltiples cuentas de correo desde una única interfaz.
-permalink: /:slug/ 
+excerpt: "Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail."
+permalink: /:slug/
 ---
+
+![Post Header]({{ page.image }})
 
 Esté será un post corto, pero lo dejo por escrito dado que la documentación de google no está actualizada y me ha llevado más tiempo del que me hubiera gustado, así que, dejo la solución aquí por si a alguien le sirve. (al menos a mi me servirá para la próxima vez que lo necesite).
 
