@@ -9,9 +9,10 @@ categories: [Personal y Desarrollo Profesional, Recomendaciones]
 tags: [libros, programación, lectura, recomendaciones]
 pin: true
 toc: true
-excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores, como 'Clean Code' y 'Refactoring', hasta novelas de terror de Stephen King y producciones audiovisuales sorprendentes. Este post, que mantengo en constante actualización, busca ser un recurso útil de consulta y un espacio de intercambio donde lectores y apasionados de la tecnología puedan descubrir y sugerir nuevos títulos de interés."
-permalink: /recomendaciones-libros-blogs-peliculas-canales/
+excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores hasta novelas de terror y producciones audiovisuales."
+twitter_description: "Mis recomendaciones de libros, blogs, películas y canales."
 image: /assets/img/headers/recomendaciones.webp
+permalink: /recomendaciones-libros-blogs-peliculas-canales/
 ---
 ![Post Header]({{ page.image }})
 {{ slugHack }}
