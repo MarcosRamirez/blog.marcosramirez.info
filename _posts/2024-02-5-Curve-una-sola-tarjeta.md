@@ -1,17 +1,19 @@
 ---
-title: Curve. Una tarjeta para controlarlas todas.
+title: "Curve. Una tarjeta para controlarlas todas."
 slug: curve-una-tarjeta-para-controlarlas-todas
-author: Marcos Ramírez
-date: 2024-02-05 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2024-02-05 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [curve, tarjetas, finanzas, tecnología]
 pin: false
 toc: true
-excerpt: Analizo a fondo Curve, la tarjeta Mastercard que revoluciona la gestión financiera al permitir unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil. Explico cómo simplifica los pagos cotidianos, sus ventajas competitivas en el cambio de divisas para viajes y funciones avanzadas como el aplazamiento de pagos o el seguro de viaje gratuito, convirtiéndola en una herramienta esencial para optimizar el espacio en la cartera y mejorar el control de gastos.
-permalink: /:slug/ 
+excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil."
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
 
 # Ventajas de [Curve](https://www.curve.com/join#N9JYMP8D): la tarjeta que lo hace todo
 
