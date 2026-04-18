@@ -10,7 +10,8 @@ categories: [Finanzas Personales, Bancos y Fintech]
 tags: [neobancos, n26, finanzas, opinión]
 pin: false
 toc: true
-excerpt: "Analizo mi experiencia con N26" y el auge de los neobancos frente a la banca tradicional. Explico las ventajas tecnológicas de estas entidades —como la inmediatez de las transferencias SEPA instantáneas y la flexibilidad de las tarjetas virtuales—, pero también incluyo una advertencia honesta sobre mi posterior cierre de cuenta tras el cobro de comisiones inesperadas, aportando una visión crítica y transparente sobre la realidad de estos servicios financieros.
+excerpt: "Analizo mi experiencia con N26 y el auge de los neobancos frente a la banca tradicional."
+twitter_description: "N26 como neobanco de cabecera."
 permalink: /:slug/
 ---
 
