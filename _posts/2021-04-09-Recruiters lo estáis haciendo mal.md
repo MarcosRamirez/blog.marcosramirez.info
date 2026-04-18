@@ -1,17 +1,20 @@
 ---
-title: Recruiters&#58; Lo estáis haciendo mal
-author: Marcos Ramírez
+title: "Recruiters: Lo estáis haciendo mal"
+slug: recruiters-lo-estais-haciendo-mal
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2021-04-09 20:50:00 +0100
+image: /assets/img/recruiting.jpg
 categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [empleo, recruiters, opinión, trabajo]
 pin: false
 toc: true
-excerpt_separator: <!--more-->
-excerpt: Expongo una crítica constructiva sobre los procesos de selección en el sector IT, analizando los errores que cometen recruiters y empresas al redactar ofertas poco claras o humo, y al gestionar de forma ineficiente las entrevistas y pruebas técnicas. Propongo alternativas más respetuosas con el tiempo del candidato y métodos de evaluación técnica basados en el razonamiento conceptual en lugar de tareas extensas y no remuneradas.
-image: /assets/img/recruiting.jpg
-permalink: /:title/ # title is filename NOT title in YAML
+excerpt: "Expongo una crítica constructiva sobre los procesos de selección en el sector IT, analizando los errores que cometen recruiters y empresas al redactar ofertas poco claras o humo."
+twitter_description: "Crítica constructiva sobre los procesos de selección en el sector IT."
+permalink: /:slug/
 ---
-![Portada](/assets/img/recruiting.jpg)
+![Post Header]({{ page.image }})
 
 Si hay algo que odio es perder el tiempo (mucho más si me lo hacen perder),y los procesos de selección del sector IT (al menos para programadores o CTO), en muchas ocasiones, son una completa pérdida de tiempo, simplemente, por que hacen las cosas mal.
 
