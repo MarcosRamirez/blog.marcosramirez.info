@@ -15,6 +15,8 @@ twitter_description: "Lucía evoluciona: de simple agente de voz a asistente aut
 permalink: /:slug/ 
 ---
 
+![Post Header]({{ page.image }})
+
 # Más allá del chat: Automatización real
 
 Desde que os hablé de Lucía en mi [Resumen de Febrero 2025]({% post_url 2025-03-01-Resumen-Febrero-2025 %}), su evolución no ha parado. Lo que empezó como un agente de voz para gestionar llamadas y citas, se ha convertido hoy en un sistema mucho más complejo y, sobre todo, **autónomo**.
