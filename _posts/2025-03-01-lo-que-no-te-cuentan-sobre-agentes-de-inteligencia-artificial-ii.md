@@ -1,6 +1,6 @@
 ---
 title: "Lo que no te cuentan sobre agentes de Inteligencia artificial II"
-slug: Lo-que-no-te-cuentan-sobre-agentes-de-Inteligencia-artificial-ii
+slug: lo-que-no-te-cuentan-sobre-agentes-de-inteligencia-artificial-ii
 authors:
   - "Marcos Ramírez"
   - "Lucía"
