@@ -10,8 +10,8 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, productividad, comunicación]
 pin: false
 toc: true
-excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo (y con cualquier profesional) de manera eficiente. Desde las normas básicas para correos electrónicos y citas, hasta la gestión de chats y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente y cómo evitar hacernos perder el tiempo con chorradas innecesarias."
-twitter_description: "Mis reglas para comunicarte conmigo sin que me cabrees: email, chat, WhatsApp y teléfono."
+excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional. Desde las normas básicas para correos electrónicos y citas, pasando por la gestión de chats, WhatsApp y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente y cómo evitar hacerse perder el tiempo con chorradas innecesarias. Establezco reglas claras sobre qué comunicaciones acepto y cuáles no, cómo estructurar un email para que yo lo lea, y por qué el 'te llamo luego' es la peor manera de comunicar."
+twitter_description: "Mi guía para comunicarte conmigo sin perder tiempo: email, WhatsApp, teléfono y reuniones."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
 ![Post Header]({{ page.image }})

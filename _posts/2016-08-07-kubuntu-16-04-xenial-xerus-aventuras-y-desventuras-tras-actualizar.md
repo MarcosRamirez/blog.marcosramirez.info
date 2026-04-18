@@ -10,8 +10,8 @@ categories: [Tecnología, Sistemas]
 tags: [linux, kubuntu, tutorial, opinión]
 pin: false
 toc: true
-excerpt: "Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías en Spotify y MySQL Workbench. En este post, detallo cada uno de estos inconvenientes y proporciono las soluciones paso a paso para recuperar la estabilidad y funcionalidad del sistema KDE."
-twitter_description: "Qué se rompió al actualizar a Kubuntu 16.04 Xenial Xerus y cómo solucionarlo."
+excerpt: "Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías en Spotify y MySQL Workbench. En este post, detallo cada uno de estos inconvenientes y proporciono las soluciones paso a paso para recuperar la estabilidad y funcionalidad del sistema KDE. Incluye soluciones para el problemas de los plasmoides que desaparecen, errores de KDE, problemas con las librerías de Spotify y MySQL Workbench, y cómo volver a un estado funcional del sistema."
+twitter_description: "Problemas y soluciones tras actualizar a Kubuntu 16.04 Xenial Xerus."
 permalink: /kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar/
 ---
 ![Post Header]({{ page.image }})
