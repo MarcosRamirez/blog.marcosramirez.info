@@ -10,8 +10,8 @@ categories: [Tecnología, Inteligencia Artificial]
 tags: [opencode, ia, código-abierto, cli, herramientas, productividad, software-de-cabecera]
 pin: false
 toc: true
-excerpt: "Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama OpenCode."
-twitter_description: "OpenCode, mi nuevo asistente de código abierto que me ahorra horas cada semana."
+excerpt: "Desde hace unos meses tengo un nuevo compañero de trabajo que escribe código, investiga y me ahorra horas cada semana. Se llama OpenCode, una herramienta de código abierto que funciona en mi terminal y me ayuda con tareas de desarrollo, redacción de posts y resolución de problemas técnicos."
+twitter_description: "OpenCode es mi asistente de código abierto que me ahorra horas cada semana."
 permalink: /:slug/
 ---
 
