@@ -1,17 +1,21 @@
 ---
 title: "Mis problemas del primer mundo"
 slug: mis-problemas-del-primer-mundo
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2020-05-25 09:00:15 +0200
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, tecnología, trucos]
 pin: false
 toc: false
-excerpt: Inauguro una nueva sección en el blog titulada Mis problemas del primer mundo, concebida como un repositorio de desafíos técnicos específicos y sus respectivas soluciones. El objetivo es documentar problemas cotidianos pero complejos de resolver, creando un recurso colaborativo donde compartir aprendizajes y ahorrar tiempo a otros desarrolladores que se enfrenten a obstáculos similares.
+excerpt: "Inauguro una nueva sección en el blog titulada Mis problemas del primer mundo", concebida como un repositorio de desafíos técnicos específicos y sus respectivas soluciones."
 twitter_description: "Nueva sección: Mis problemas del primer mundo. Problemas técnicos concretos y sus soluciones."
 permalink: /mis-problemas-del-primer-mundo/
 ---
+
+![Post Header]({{ page.image }})
 
 Hola,
 
