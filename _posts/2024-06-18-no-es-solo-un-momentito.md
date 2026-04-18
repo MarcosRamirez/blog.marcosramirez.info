@@ -57,14 +57,14 @@ Ahí sí, está claro que hay que hablar. Pero por favor, que sea algo realmente
 
 # Documentación:
 
-1. Estudio de la Universidad de California sobre el tiempo que toma volver a concentrarse tras una interrupción: https://ics.uci.edu/~gmark/chi08-mark.pdf
+1. Estudio de la Universidad de California sobre el tiempo que toma volver a concentrarse tras una interrupción: [Study on the Cost of Interruption](https://ics.uci.edu/~gmark/chi08-mark.pdf){:target="_blank"}
 
 
 ## Recursos adicionales:
 
 1. Atención:
 
-"The Attention Span of a Goldfish": Artículo de Fast Company https://www.thedrum.com/opinion/2023/07/04/the-attention-span-delusion-goldfish-chill-hop-and-consumer-first-thinking
+"The Attention Span of a Goldfish": Artículo de Fast Company [The Attention Span Delusion](https://www.thedrum.com/opinion/2023/07/04/the-attention-span-delusion-goldfish-chill-hop-and-consumer-first-thinking){:target="_blank"}
 "Workplace Distractions: The Cost to Businesses": Informe de Kronos
 2. Impacto de las interrupciones:
 
@@ -72,9 +72,9 @@ Ahí sí, está claro que hay que hablar. Pero por favor, que sea algo realmente
 "Restoring Attention After an Interruption: An Empirical Study of the Costs of Interruption": Estudio publicado en la revista PLoS One
 3. Mejorar la concentración:
 
-"10 Simple Ways to Improve Your Focus and Concentration": Artículo de Psychology Today https://www.psychologytoday.com/us/blog/the-empowerment-diary/202108/7-ways-get-more-focused
-"Get Things Done: The Art of Stress-Free Productivity": Libro de David Allen https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity-ebook/dp/B00KWG9M2E
-"Deep Work: Rules for Focused Success in a Distracted World": Libro de Cal Newport https://www.amazon.com/NEW-Deep-Work-Focused-Success-Distracted/dp/B09VQ2WZ4Y
+"10 Simple Ways to Improve Your Focus and Concentration": Artículo de Psychology Today [7 Ways to Get More Focused](https://www.psychologytoday.com/us/blog/the-empowerment-diary/202108/7-ways-get-more-focused){:target="_blank"}
+"Get Things Done: The Art of Stress-Free Productivity": Libro de David Allen [Getting Things Done](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity-ebook/dp/B00KWG9M2E){:target="_blank", rel="nofollow"}
+"Deep Work: Rules for Focused Success in a Distracted World": Libro de Cal Newport [Deep Work](https://www.amazon.com/NEW-Deep-Work-Focused-Success-Distracted/dp/B09VQ2WZ4Y){:target="_blank", rel="nofollow"}
 
 ***
 No olvides compartir el post si te ha gustado
