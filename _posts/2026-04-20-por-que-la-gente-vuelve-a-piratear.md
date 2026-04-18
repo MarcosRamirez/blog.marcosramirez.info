@@ -1,7 +1,9 @@
 ---
-title: Por qué la gente vuelve a piratear
+title: "Por qué la gente vuelve a piratear"
 slug: por-que-la-gente-vuelve-a-piratear
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/default.webp
 categories: [Opinión, Tecnología]
@@ -12,7 +14,7 @@ excerpt: Analizo el fin de la paz del streaming y por qué la piratería vuelve 
 twitter_description: "Análisis sobre la fragmentación del streaming y por qué la piratería vuelve a ser una opción para muchos."
 permalink: /:slug/ 
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
 
 > [!NOTE]
 > **Aviso:** Este post es un análisis técnico y de mercado sobre las tendencias de consumo digital. No pretendo, bajo ningún concepto, hacer apología de la piratería ni fomentar la descarga ilegal de contenido protegido por derechos de autor. Mi objetivo es simplemente reflexionar sobre cómo la fragmentación del servicio afecta al comportamiento del usuario.
