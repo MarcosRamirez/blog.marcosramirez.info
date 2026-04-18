@@ -1,17 +1,20 @@
 ---
-title: Revolut mi nuevo neobanco de cabecera
+title: "Revolut mi nuevo neobanco de cabecera"
 slug: revolut-mi-nuevo-neobanco-de-cabecera
-author: Marcos Ramírez
-date: 2024-11-25 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2024-11-25 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [revolut, neobancos, finanzas, opinión]
 pin: false
 toc: true
-excerpt: Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones que encontré en otras entidades. Analizo en profundidad sus funciones más potentes - desde la cuenta multidivisa sin comisiones ocultas hasta los Pockets para una organización de gastos quirúrgica y el ahorro automatizado mediante redondeo, demostrando cómo esta plataforma se adapta perfectamente a las necesidades de nómadas digitales y perfiles técnicos.
-permalink: /:slug/ 
+excerpt: "Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones de otras entidades."
+permalink: /:slug/
 ---
 
+![Post Header]({{ page.image }})
 
 En un mundo cada vez más globalizado, gestionar tus finanzas de manera eficiente y accesible se ha convertido en una prioridad. Ya sea que trabajes con múltiples monedas, busques ahorrar de forma flexible o necesites una plataforma versátil para gestionar tus gastos, Revolut se posiciona como una de las mejores opciones del mercado. Este banco digital ha revolucionado la manera en que interactuamos con el dinero, ofreciendo herramientas innovadoras y características que se adaptan a las necesidades de individuos y empresas.
 
