@@ -10,8 +10,8 @@ categories: [Tecnología, Sistemas]
 tags: [proxmox, homelab, contenedores, infraestructura]
 pin: false
 toc: true
-excerpt: "Analizo por qué he dejado de utilizar los populares helper scripts de Proxmox en favor de una arquitectura de autohospedaje más robusta y eficiente."
-twitter_description: "Por qué no uso los helper scripts de Proxmox."
+excerpt: "Analizo por qué he dejado de utilizar los populares helper scripts de Proxmox en favor de una arquitectura de autohospedaje más robusta y eficiente. Los helper scripts instalan las bases de datos dentro de cada contenedor, lo que genera desperdicio de RAM, mantenimiento complejo y backups difíciles."
+twitter_description: "Por qué dejé los helper scripts de Proxmox: bases de datos centralizadas."
 permalink: /:slug/ 
 ---
 ![Post Header]({{ page.image }})
