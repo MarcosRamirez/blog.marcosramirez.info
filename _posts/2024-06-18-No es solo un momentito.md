@@ -1,16 +1,21 @@
 ---
-title: No, No es solo un momentito
+title: "No, No es solo un momentito"
 slug: no-no-es-solo-un-momentito
-author: Marcos Ramírez
-date: 2024-06-18 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2024-06-18 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [productividad, desarrollo, opinión]
 pin: false
 toc: true
-excerpt: Explico por qué el mismo momentito puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones en perfiles de desarrollo. Apoyándome en estudios sobre la recuperación de la concentración, propongo pautas de comunicación asincrónica y respeto al flujo de trabajo para mejorar la productividad colectiva y evitar el agotamiento mental.
-permalink: /:slug/ 
+excerpt: "Explico por qué el mismo momentito puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones."
+twitter_description: "Por qué el 'momentito' puede arruinar horas de trabajo técnico."
+permalink: /:slug/
 ---
+
+![Post Header]({{ page.image }})
 
 Escribo este post, para dejar por escrito algo que estoy muy cansado de explicar, y al mismo tiempo, aprovecho para recomedaros [este otro](https://blog.marcosramirez.info/como-comunicarse-correctamente-y-no-morir-en-el-intento/), de 2016, pero que sigue vigente.
 
