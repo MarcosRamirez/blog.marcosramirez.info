@@ -10,8 +10,8 @@ categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [freelance, empleo, profesional]
 pin: false
 toc: true
-excerpt: "Clarifico mi disponibilidad profesional y los tipos de proyectos en los que estoy interesado, desde roles de CTO y proyectos innovadores hasta mi disposición para tutorías y consultoría freelance. Establezco límites claros sobre mis intereses, definiendo qué colaboraciones me motivan y cuáles rechazo tajantemente, con el fin de gestionar mejor las solicitudes de ayuda y ofertas de empleo que recibo."
-twitter_description: "¿Quieres contratarme o que te ayude? Aquí mis condiciones y lo que me interesa (y lo que no)."
+excerpt: "Explico mi disponibilidad profesional para proyectos y empleo. Estoy interesado en proyectos innovadores, puestos de CTO y colaboraciones freelance interesante. No me interesan ejercicios para estudiantes, arreglar ordenadores gratis, software pirata ni actividades ilegales."
+twitter_description: "Mi disponibilidad para proyectos, empleo y colaboraciones. Lo que me interesa y lo que no."
 permalink: /quieres-que-te-ayude-quieres-contratarme/
 ---
 ![Post Header]({{ page.image }})

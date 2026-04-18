@@ -10,8 +10,8 @@ categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, productividad, automatización, asistentes]
 pin: false
 toc: true
-excerpt: "Presento a Amy Ingram, una innovadora Inteligencia Artificial diseñada por X.AI para gestionar agendas y organizar reuniones de forma autónoma. Explico cómo su integración con el correo electrónico permite delegar la tediosa tarea de buscar huecos disponibles, configurar preferencias de ubicación y horarios, y analizo tanto las ventajas de productividad como sus limitaciones actuales y modelos de suscripción."
-twitter_description: "X.AI y Amy Ingram: el asistente de IA que gestiona tu agenda y organiza reuniones por email."
+excerpt: "Amy Ingram es una Inteligencia Artificial de X.AI que gestiona tu agenda y organiza reuniones por email. Solo tienes que ponerla en copia al solicitar una reunión y ella se encarga de buscar huecos, acordar horarios y lugares. Versión gratuita permite 5 reuniones al mes, $39/mes para ilimitadas."
+twitter_description: "Amy Ingram: tu asistente de IA organiza reuniones por email. 5 gratis al mes o $39/mes ilimitado."
 permalink: /os-presento-a-amy-ingram-mi-nueva-asistente/
 ---
 ![Post Header]({{ page.image }})

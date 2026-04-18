@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos como sus fallos de UX."
-twitter_description: "Crítica constructiva de UX a Netflix: Seguir Viendo, Mi Lista, ChromeCast y más."
+excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos como sus fallos de UX que carried años sin solucionarse. En este post propongo mejoras concretas para la gestión de las listas de visualización, el molesto aviso de ¿Sigues ahí? que aparece cada 15 minutos, y la integración con Chromecast que sigue sin funcionar correctamente. Analizo por qué Netflix ha perdido la esencia del videoclub y cómo competidores como HBO o Amazon Prime están superando su experiencia de usuario."
+twitter_description: "Crítica de UX a Netflix: listado, Chromecast, avisos y más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
 

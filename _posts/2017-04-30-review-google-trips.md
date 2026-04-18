@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, review, viajes]
 pin: false
 toc: false
-excerpt: "Analizo Google Trips, la herramienta de Google diseñada para simplificar la planificación de viajes. En este vídeo tutorial, muestro cómo la aplicación organiza automáticamente tus reservas, sugiere itinerarios personalizados y ofrece guías locales, todo ello con la posibilidad de acceder a la información sin conexión durante tus desplazamientos."
-twitter_description: "Review en vídeo de Google Trips, la app de Google para planificar viajes."
+excerpt: "Google Trips es la aplicación de Google para planificar viajes. Organiza automáticamente tus reservas, crea itinerarios personalizados y ofrece guías locales, todo accesible sin conexión durante tus desplazamientos. En este vídeo tutorial te muestro todas sus funcionalidades."
+twitter_description: "Google Trips: organiza reservas, itinerarios y guías offline para tus viajes. Vídeo review completo."
 permalink: /review-google-trips/
 ---
 ![Post Header]({{ page.image }})

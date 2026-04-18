@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [google, gboard, android, tutorial, review]
 pin: false
 toc: false
-excerpt: "Presento un tutorial en vídeo sobre Gboard, el teclado de Google, donde explico cómo aprovechar al máximo sus nuevas herramientas de selección y edición de texto. Un repaso práctico a las funcionalidades que simplifican el flujo de escritura en dispositivos Android, ideal para quienes buscan mayor productividad en su teclado móvil."
-twitter_description: "Tutorial en vídeo de Gboard: nuevas funcionalidades de selección y edición de texto."
+excerpt: "Tutorial en vídeo sobre Gboard, el teclado oficial de Google para Android. En este video explico las nuevas funcionalidades de selección y edición de texto que facilitan escribir más rápido y con menos errores en tu dispositivo móvil."
+twitter_description: "Tutorial de Gboard: selecciona y edita texto fácilmente con el teclado de Google. Vídeo incluido."
 permalink: /video-tutorial-de-gboard-y-review-de-nuevas-funcionalidades/
 ---
 ![Post Header]({{ page.image }})

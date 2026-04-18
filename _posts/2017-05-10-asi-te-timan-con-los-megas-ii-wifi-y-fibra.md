@@ -10,8 +10,8 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, wifi, opinión]
 pin: false
 toc: false
-excerpt: "Segunda parte de mi análisis sobre la velocidad de internet, centrada esta vez en el cuello de botella que supone el WiFi para las conexiones de fibra."
-twitter_description: "Por qué tu WiFi de fibra no va tan rápido como debería."
+excerpt: "Segunda parte del análisis sobre la velocidad de internet. Aunque tengas fibra de 300 Mbps, el WiFi puede ser el cuello de botella. El 99% de los routers operan a 2.4 GHz, no alcanzando velocidades de fibra. Las nuevas redes de 5 GHz y tecnologías como WiFi+ son la solución."
+twitter_description: "Tu WiFi de fibra no alcanza 300 Mbps por usar 2.4 GHz. La solución: 5 GHz o WiFi+."
 permalink: /asi-te-timan-con-los-megas-ii-wifi-y-fibra/
 ---
 ![Post Header]({{ page.image }})

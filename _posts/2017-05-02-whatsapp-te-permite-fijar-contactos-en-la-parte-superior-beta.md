@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [whatsapp, beta, tutorial]
 pin: false
 toc: false
-excerpt: "Explico cómo utilizar la nueva funcionalidad de WhatsApp Beta que permite fijar hasta tres chats preferidos en la parte superior de la lista.""
-twitter_description: "WhatsApp Beta permite fijar hasta 3 contactos favoritos en la parte superior. Así se hace."
+excerpt: "WhatsApp Beta ha incorporado una funcionalidad que permite fijar hasta tres contactos favoritos en la parte superior de la lista de chats. En este tutorial te explico cómo hacerlo paso a paso manteniendo pulsado el contacto y seleccionando la 'chincheta'."
+twitter_description: "WhatsApp Beta permite fijar hasta 3 contactos arriba. Tutorial paso a paso."
 permalink: /whatsapp-te-permite-fijar-contactos-en-la-parte-superior-beta/
 ---
 ![Post Header]({{ page.image }})

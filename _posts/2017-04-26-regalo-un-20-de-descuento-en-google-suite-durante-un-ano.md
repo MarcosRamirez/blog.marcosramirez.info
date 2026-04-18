@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [google, gsuite, oferta]
 pin: false
 toc: false
-excerpt: "Ofrezco un código de descuento del 20% durante el primer año para GSuite (ahora Google Workspace), la solución empresarial de Google que permite usar Gmail con dominio propio y ofrece almacenamiento ampliado. Explico brevemente las ventajas de la plataforma y detallo los pasos necesarios para aplicar la oferta tras el periodo de prueba gratuito."
-twitter_description: "Código de descuento del 20% durante un año en Google Suite. Te explico cómo usarlo."
+excerpt: "GSuite es la solución empresarial de Google que te permite usar Gmail con tu propio dominio de correo, ofreciendo 30 GB de almacenamiento y asistencia técnica 24/7. El precio es de tan solo $4 por usuario al mes, y con el descuento del 20% durante un año que os regalo, serán $3.2. Incluye 14 días de prueba gratuita."
+twitter_description: "20% dto. en GSuite el primer año. Código PDHDKXU3AKMCDL9. 14 días de prueba gratis."
 permalink: /regalo-un-20-de-descuento-en-google-suite-durante-un-ano/
 ---
 ![Post Header]({{ page.image }})

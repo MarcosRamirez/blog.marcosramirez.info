@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false
 toc: true
-excerpt: "En la segunda parte de mi guía sobre el Plan Familiar de Google Play, explico cómo gestionar manualmente las aplicaciones y contenidos que compartes. Muestro cómo desactivar la adición automática de compras y cómo utilizar el selector individual en la ficha de cada aplicación para decidir exactamente qué títulos estarán disponibles para el resto de los miembros del grupo familiar."
-twitter_description: "Cómo elegir manualmente qué apps, música y películas compartes en el Plan Familiar de Google Play."
+excerpt: "Segunda parte del tutorial sobre el Plan Familiar de Google Play. Aprende a gestionar el contenido que compartes: desactiva la adición automática de compras y selecciona manualmente qué aplicaciones, música y películas estarán disponibles para cada miembro del grupo familiar."
+twitter_description: "Gestiona qué contenido compartes en el Plan Familiar. Selecciona apps una por una."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-ii/
 ---
 ![Post Header]({{ page.image }})

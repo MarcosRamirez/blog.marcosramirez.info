@@ -10,8 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [google, android, review, accesibilidad]
 pin: false
 toc: false
-excerpt: "Presento una reseña en vídeo de Google Voice Access, una herramienta de accesibilidad para Android que permite controlar el dispositivo íntegramente mediante comandos de voz. Analizo su estado en fase beta, destacando tanto su gran potencial como las inestabilidades propias de una versión aún en desarrollo para un grupo selecto de testers."
-twitter_description: "Review en vídeo de Google Voice Access: manejo del móvil por voz en beta."
+excerpt: "Voice Access es una aplicación en fase beta que permite controlar tu dispositivo Android mediante comandos de voz. En este vídeo tutorial analizo su funcionamiento, sus posibilidades para mejorar la accesibilidad y las inestabilidades propias de una versión aún en desarrollo."
+twitter_description: "Vídeo review de Voice Access: controla tu Android solo con la voz. App beta de accesibilidad."
 permalink: /google-voice-access-unpublished-beta-video-review/
 ---
 ![Post Header]({{ page.image }})
