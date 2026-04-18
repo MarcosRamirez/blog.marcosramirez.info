@@ -1,17 +1,21 @@
 ---
 title: "Facebook: Trucos multi idioma"
 slug: facebook-trucos-multi-idioma
-author: Marcos Ramírez
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
 date: 2017-04-23 15:04:47 +0200
 image: /assets/img/headers/facebook.png
 categories: [Tecnología, Software y Apps]
 tags: [facebook, trucos, tutorial, redes sociales]
 pin: false
 toc: false
-excerpt: Descubro y explico tres funcionalidades clave de Facebook para gestionar idiomas - cómo eliminar el aviso de ver traducción indicando qué idiomas entiendes, cómo configurar traducciones automáticas para lenguas que no hablas y, lo más interesante, cómo redactar publicaciones oficiales en varios idiomas que cada usuario visualizará de forma personalizada.
+excerpt: "Descubro tres funcionalidades clave de Facebook para gestionar idiomas: eliminar el aviso de traducción, configurar traducciones automáticas y publicar en varios idiomas."
 twitter_description: "Trucos multi idioma de Facebook: configura idiomas, traducciones automáticas y posts multilenguaje."
 permalink: /facebook-trucos-multi-idioma/
 ---
+
+![Post Header]({{ page.image }})
 
 Hoy, de casualidad, me dió por mirar como quitar el "ver traducción" que me salía al compartir contenido en [Buffer](http://www.buffer.com){:target="_blank"}.
 
