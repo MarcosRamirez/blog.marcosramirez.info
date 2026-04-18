@@ -1,17 +1,19 @@
 ---
-title: 💸 Cosas que aprendí cuando me robaron la cartera 💸
+title: "💸 Cosas que aprendí cuando me robaron la cartera 💸"
 slug: cosas-que-aprendi-cuando-me-robaron-la-cartera 
-author: Marcos Ramírez
-date: 2024-02-01 8:50:00 +0100
+authors:
+  - "Marcos Ramírez"
+  - "Lucía"
+date: 2024-02-01 08:50:00 +0100
 image: /assets/img/headers/default.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [personal, seguridad, airtag, consejos]
 pin: false
 toc: true
-excerpt: Relato mi experiencia personal tras el robo de mi cartera en un supermercado, detallando el proceso de denuncia y las lecciones aprendidas sobre seguridad cotidiana. Analizo la importancia de no portar objetos con valor sentimental insustituible, la utilidad de los localizadores inteligentes como los AirTags para prevenir pérdidas definitivas y la decepcionante realidad del civismo en situaciones de oportunidad.
-permalink: /:slug/ 
+excerpt: "Relato mi experiencia personal tras el robo de mi cartera en un supermercado, detallando el proceso de denuncia y las lecciones aprendidas sobre seguridad cotidiana." Analizo la importancia de no portar objetos con valor sentimental insustituible, la utilidad de los localizadores inteligentes como los AirTags para prevenir pérdidas definitivas y la decepcionante realidad del civismo en situaciones de oportunidad.
+permalink: /:slug/
 ---
-![Post Header](/assets/img/headers/default.webp)
+![Post Header]({{ page.image }})
  
 
 # Lo que aprendí cuando me robaron la cartera
