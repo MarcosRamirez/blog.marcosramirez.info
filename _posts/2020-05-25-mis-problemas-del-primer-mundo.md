@@ -10,7 +10,7 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, tecnología, trucos]
 pin: false
 toc: false
-excerpt: "Inauguro una nueva sección en el blog titulada Mis problemas del primer mundo", concebida como un repositorio de desafíos técnicos específicos y sus respectivas soluciones."
+excerpt: "Inauguro una nueva sección en el blog llamada Mis problemas del primer mundo, concebida como un repositorio de desafíos técnicos específicos y sus respectivas soluciones."
 twitter_description: "Nueva sección: Mis problemas del primer mundo. Problemas técnicos concretos y sus soluciones."
 permalink: /mis-problemas-del-primer-mundo/
 ---
