@@ -10,7 +10,7 @@ categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, personal, objetivos, teletrabajo]
 pin: false
 toc: true
-excerpt: "Tras 52 días de confinamiento por la pandemia, reflexiono sobre mis objetivos personales y logros alcanzados, desde dejar de fumar hasta el crecimiento en redes sociales y Twitch. Además, comparto mis conclusiones sobre la gestión de la crisis, la importancia definitiva del teletrabajo en el sector tecnológico y mi decisión personal de seguir extremando las precauciones hasta que exista una solución médica definitiva."
+excerpt: "Tras 52 días de confinamiento por la pandemia, reflexiono sobre mis objetivos personales y logros alcanzados, desde dejar de fumar hasta el crecimiento en redes sociales y Twitch."
 twitter_description: "Mis objetivos, logros reales y conclusiones tras 52 días de confinamiento por el COVID-19."
 permalink: /confinamiento-mis-objetivos-logros-y-otras-conclusiones/
 ---
