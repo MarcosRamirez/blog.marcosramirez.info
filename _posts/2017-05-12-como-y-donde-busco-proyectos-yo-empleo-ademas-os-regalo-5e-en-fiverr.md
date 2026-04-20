@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-05-12 19:40:04 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/como-y-donde-busco-proyectos.webp
 categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [empleo, freelance, consejos, fiverr]
 pin: false
