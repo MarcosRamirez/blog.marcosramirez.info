@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-02-01 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/cosas-que-aprendi-cuando-me-robaron-la-cartera.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [personal, seguridad, airtag, consejos]
 pin: false
