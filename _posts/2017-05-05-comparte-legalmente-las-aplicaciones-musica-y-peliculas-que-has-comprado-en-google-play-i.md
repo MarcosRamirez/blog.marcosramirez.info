@@ -90,3 +90,9 @@ Al darle al último paso, verás esta pantalla con una selección de aplicacione
 ![Ya puedes usar la colección familiar Google Play](/assets/2017/05/ya-puedes-usar-la-coleccic3b3n-familiar-google-play.png)
 
 ¡Y esto es todo! En el próximo post te explicaré cómo elegir qué contenido compartir.
+
+Compártelo si te ha gusta.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
