@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2024-02-05 08:50:00 +0100
 image: /assets/img/headers/curve-una-tarjeta-para-controlarlas-todas.webp
-categories: [Finanzas Personales, Bancos y Fintech]
-tags: [curve, tarjetas, finanzas, tecnología]
+categories: [Finanzas Personales]
+tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false
 toc: true
 excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil. Sus principales ventajas incluyen agrupar todas tus tarjetas en una sola, conversión de divisas a tipos de cambio competitivos (puedes rechazar el cambio si no te gusta), posibilidad de aplazar pagos hasta 12 meses, protección contra fraude de hasta 100.000€, seguro de viaje gratuito y enviar dinero a otros usuarios sin comisiones."
