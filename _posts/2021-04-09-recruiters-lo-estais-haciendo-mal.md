@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2021-04-09 20:50:00 +0100
 image: /assets/img/recruiting.jpg
-categories: [Personal y Desarrollo Profesional, Carrera Profesional]
-tags: [empleo, recruiters, opinión, trabajo]
+categories: [Personal y Desarrollo Profesional]
+tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false
 toc: true
 excerpt: "Expongo una crítica constructiva sobre los procesos de selección en el sector IT, analizando los errores que cometen recruiters y empresas al redactar ofertas poco claras o 'humo'. Cubro las ofertas que 'van de guay' (buscan ninjas developers), las que dan poca información sobre el proyecto, las preguntas cuyas respuestas están en el CV del candidato, las 'primeras llamadas' improductivas, las entrevistas técnicas excesivamente largas, y las pruebas técnicas que piden desarrollar un carrito de la compra sin pagar por el tiempo invertido."
@@ -99,19 +99,6 @@ Y le decís ¿qué opinas de esta functión?
 En esas 10 líneas de código, ya te da para saber si la persona sabe desde clean code, hasta sentido común, pasando por cosas como arquitecturas, y el montón de cosas que se pueden decir de ese código (**de mierda, que no hay una sola línea correcta, por si alguien se lo pregunta**).
 
 
-Y, creo que no me dejo nada en el tintero... y de ser así, volveré a la carga con otro post.
+Compártelo si te ha gusta. ¿Qué opinas de los procesos de selección? Cuéntame.
 
-Recuerda, que espero tus comentarios, y opiniones, siempre desde el respeto, igual que espero que compartas el post si te ha resultado interesante.
-
-
-
-[^1]: Hay quien se queja también de que no indican salarios, a mi esto me da igual, entiendo que todo salario es negociable, y ya me encargo yo de preguntar lo primero cual es la franja para no perder tiempo.
-[^2]: Hoy mismo me dice "y control de versiones sabes" no le dejo terminal, y le suelto "desde subversion, diría que todos", y me responde "pero git sabes?"
-[^3]: ** Disclaimer**: En muchos casos, sobretodo últimamnente, en este punto, suele ser una entrevista conjunta con el director del proyecto y al menos un responsable técnico, lo cual es de agradecer., pero voy a centrarme en los que no es así.
-[^4]: Ejemplo real, me pidieron esto para una StartUp de comercio online... cosa nada sospechosa, ¿verdad?
-     El uso de herramientas como [Codility](https://codility.com/) también se está poniendo de moda, para mí, aplica en el mismo caso
-
-
-
-***
-Si te ha gustado el post, o te ha sido de ayuda, por favor, compártelo.
+Y... hasta aquí por hoy!
