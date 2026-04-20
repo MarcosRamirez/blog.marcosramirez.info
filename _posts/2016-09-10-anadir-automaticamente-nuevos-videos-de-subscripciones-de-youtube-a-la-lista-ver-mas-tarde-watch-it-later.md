@@ -10,7 +10,8 @@ categories: [Productividad y Hacks, Automatización]
 tags: [youtube, scripts, automatización, google]
 pin: false
 toc: true
-excerpt: "Explico cómo automatizar la gestión de YouTube mediante un Google Script que añade automáticamente los nuevos vídeos de tus suscripciones a la lista Ver más tarde. Aunque esta funcionalidad quedó deprecada en 2021 cuando Google deshabilitó la API de suscripciones, el post detalla el proceso completo de configuración de las APIs de Google, la filosofía de automatización para ahorrar tiempo en tareas repetitivas, y cómo crear un script desde Google Apps Script que interacts con la API de YouTube. Incluye el código completo del script y los pasos para configurarlo."
+excerpt: >-
+  Explico cómo automatizar la gestión de YouTube mediante un Google Script que añade automáticamente los nuevos vídeos de tus suscripciones a la lista Ver más tarde. Aunque esta funcionalidad quedó deprecada en 2021 cuando Google deshabilitó la API de suscripciones, el post detalla el proceso completo de configuración de las APIs de Google.
 twitter_description: "Automatizar lista Ver Más Tarde de YouTube con Google Scripts (deprecado)."
 permalink: /anadir-automaticamente-nuevos-videos-de-subscripciones-de-youtube-a-la-lista-ver-mas-tarde-watch-it-later/
 ---
@@ -46,3 +47,9 @@ Los pasos a seguir, son:
 Y... ya está, ahora, tu lista "Ver Más Tarde", se llenará automáticamente con los vídeos de tus subscripciones, y si eres como yo, podrás sentarte cómodamente los fines de semana a verlos uno tras otro simplemente con un click :).
 
 Basado en/Fuente: [DiRaven on Reddit](https://www.reddit.com/r/youtube/comments/2x3ew4/automatically_add_new_subscription_videos_to_the/){:target="_blank"}
+
+Compártelo si te ha gustado.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
