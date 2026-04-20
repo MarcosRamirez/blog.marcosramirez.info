@@ -69,4 +69,6 @@ La comodidad y el precio justo eran los dos principales escudos contra la pirate
 Mientras el modelo de negocio siga exprimiendo la cartera del suscriptor base a base de subidas injustificadas y pérdida de catálogo centralizado, el parche en el ojo volverá a estar de moda. 
 
 ***
-Si te ha gustado, no dudes en compartirlo. Y cuéntame, ¿cuántas plataformas de streaming has dado de baja últimamente?
+Si te ha gustado, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+
+Y... hasta aquí por hoy!
