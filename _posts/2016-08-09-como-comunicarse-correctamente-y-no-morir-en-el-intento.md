@@ -6,11 +6,12 @@ authors:
   - "Lucía"
 date: 2016-08-09 16:40:28 +0200
 image: /assets/img/headers/comunicarse.png
-categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
-tags: [opinión, productividad, comunicación]
+categories: ["Personal y Desarrollo Profesional", "Reflexiones y Opinión"]
+tags: [productividad, comunicación]
 pin: false
 toc: true
-excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional. Desde las normas básicas para correos electrónicos y citas, pasando por la gestión de chats, WhatsApp y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente y cómo evitar hacerse perder el tiempo con chorradas innecesarias. Establezco reglas claras sobre qué comunicaciones acepto y cuáles no, cómo estructurar un email para que yo lo lea, y por qué el 'te llamo luego' es la peor manera de comunicar."
+excerpt: >-
+  En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional. Desde las normas básicas para correos electrónicos y citas, pasando por la gestión de chats, WhatsApp y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente.
 twitter_description: "Mi guía para comunicarte conmigo sin perder tiempo: email, WhatsApp, teléfono y reuniones."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
@@ -155,4 +156,8 @@ Para otros casos, probablemente notarás que no presto atención a la conversaci
 Y, eso es todo... actuando tal como he descrito, que no es más que con un mínimo de sentido común, podrás comunicarte conmigo sin miedo a que me cabree.
 
 ***
-Si te ha resultado interesante el post, compártelo :)
+Compártelo si te ha gustado.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
