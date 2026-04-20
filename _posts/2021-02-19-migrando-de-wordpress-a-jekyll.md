@@ -4,8 +4,8 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-02-19 10:34:00 +0100
-categories: [Tecnología, Desarrollo Web]
-tags: [jekyll, wordpress, github pages, desarrollo]
+categories: [Tecnología]
+tags: [Desarrollo Web, Sistemas]
 pin: false
 toc: true
 image: /assets/img/headers/wp2jekyll.png
@@ -82,7 +82,7 @@ A continuación os detallo todos los problemas que me he encontrado, y encontrar
 
 ### Programar posts en el tiempo
 
-Es lo primero que eché en falta, y lo [solucioné fácilmente como programar posts futuros](https://blog.marcosramirez.info/Como-programar-posts-con-Jekyll-en-GitHub-pages/), tal explico en [este post](https://blog.marcosramirez.info/Como-programar-posts-con-Jekyll-en-GitHub-pages/)
+Es lo primero que eché en falta, y lo solucioné fácilmente como explico en {% post_url 2021-02-26-como-programar-posts-con-jekyll-en-github-pages %}
 
 ### El proceso de importación de posts es bastante "Meh"
 
@@ -127,12 +127,6 @@ Es lo último que he solucionado, simplemente añadiendo lo sigiente al archivo 
 Y luego poniendo las variables correspondientes en el config y en cada post.
 
 
-Y... de monmento, esto es todo...
+Compártelo si te ha gusta. ¿Tienes dudas con la migración? [Escríbeme](https://marcosramirez.info/contacto/).
 
-
----
-[^1]: El tráfico en servidores de internet, se paga, no es como en tu conexión de fibra de casa, que tiene un coste fijo.
-[^2]: Por una simple cuestión de integración
-
-***
-Recuerda que puedes seguirme en mis redes sociales
+Y... hasta aquí por hoy!
