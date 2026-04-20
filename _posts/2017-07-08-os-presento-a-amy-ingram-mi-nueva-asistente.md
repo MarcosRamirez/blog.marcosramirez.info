@@ -112,4 +112,10 @@ Y arreglado, ya me quito de andar con historias... Amy se encarga de todo. Y lo 
 
 Y... eso es todo...
 
-Si alguien tiene curiosidad, simplemente puede pedirme que le ponga al habla con Amy ;)
+Si alguien tiene curiosidad, simplemente puede pedirme que le ponemos al habla con Amy ;)
+
+Compártelo si te ha gusta.
+
+¿Tienes alguna pregunta sobre asistentes de IA? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
