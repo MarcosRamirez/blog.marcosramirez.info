@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-13 08:30:00 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/por-que-no-uso-proxmox-helper-scripts.webp
 categories: [Tecnología, Sistemas]
 tags: [proxmox, homelab, contenedores, infraestructura]
 pin: false
