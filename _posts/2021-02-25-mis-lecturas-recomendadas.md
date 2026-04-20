@@ -5,8 +5,8 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-02-25 21:00:00 +0100
-categories: [Personal y Desarrollo Profesional, Recomendaciones]
-tags: [libros, programación, lectura, recomendaciones]
+categories: [Personal y Desarrollo Profesional]
+tags: [Recomendaciones, Carrera Profesional]
 pin: true
 toc: true
 excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores hasta novelas de terror y producciones audiovisuales. Encontrarás títulos esenciales como Clean Code de Robert C. Martin, The Clean Coder, Refactoring de Fowler, y Principios y algoritmos de concurrencia. También incluyo recomendaciones de películas de terror como El Tubo y novelas como Apocalipsis de Stephen King."
@@ -52,12 +52,12 @@ Por ello, voy a dividir este post en géneros y tendréis a la derecha un menú 
 ***[El tubo](https://amzn.to/3pZTH1y){:rel="nofollow", target="_blank"}***: Si te gustó Cube, te gustará.. no diré más, es una película sorprendente.
 
 
-# Series 
+# Series
 
-- TeaCup 
-- From 
-- Lost 
-- 
+- TeaCup
+- From
+- Lost
 
----
-[^1]: Según vaya teniendo tiempo para completar la lista actualmente escueta, y, logicamente según vaya leyendo cosas nuevas, o vayáis recoemdando cosas.
+Compártelo si te ha gusta. ¿Qué libros o películas me recomiendas? Cuéntame.
+
+Y... hasta aquí por hoy!: Según vaya teniendo tiempo para completar la lista actualmente escueta, y, logicamente según vaya leyendo cosas nuevas, o vayáis recoemdando cosas.
