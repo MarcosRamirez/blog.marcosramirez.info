@@ -7,7 +7,7 @@ authors:
 date: 2021-02-26 21:00:00 +0100
 image: /assets/img/headers/como-programar-posts-con-jekyll-en-github-pages.webp
 categories: [Tecnología, Desarrollo Web]
-tags: [jekyll, github pages, automatización, tutorial]
+tags: [Desarrollo Web, Automatización, Software y Apps]
 pin: false
 toc: true
 excerpt: "Explico cómo solucionar una de las principales limitaciones de Jekyll al hospedar en GitHub Pages: la imposibilidad nativa de programar publicaciones para fechas futuras.Incluyo la configuración del archivo _config.yml para controlar los posts futuros, la configuración del workflow con schedule para ejecutar builds automáticos cada 30 minutos, y una alternativa menos elegante que consiste en forzar el rebuild con un push vacío."
@@ -17,7 +17,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-El primer problema "serio", que me he encontrado con Jekyll, es que no podía programar los posts, crear un post con la fecha en futuro, no es suficiente para que se publique, también hay que hacer que se ejecute el build, ¿como?, simplemente modificando el archivo:
+El primer problema "serio", que me he encontrado con [Jekyll](https://jekyllrb.com/){:target="_blank"}, es que no podía programar los posts, crear un post con la fecha en futuro, no es suficiente para que se publique, también hay que hacer que se ejecute el build, ¿como?, simplemente modificando el archivo:
 
 | .github/workflows/pages-deploy.yml
 
@@ -57,4 +57,6 @@ git push origin <branch-name>
 
 
 
-Espero que os haya sido útil
+Compártelo si te ha gustado. ¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/).
+
+Y... hasta aquí por hoy!
