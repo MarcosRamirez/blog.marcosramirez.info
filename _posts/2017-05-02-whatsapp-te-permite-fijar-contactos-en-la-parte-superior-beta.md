@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-05-02 08:14:41 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/whatsapp-fijar-contactos.webp
 categories: [Tecnología, Software y Apps]
 tags: [whatsapp, beta, tutorial]
 pin: false
