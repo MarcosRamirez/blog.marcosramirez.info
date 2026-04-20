@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2025-01-31 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/lo-que-no-te-cuentan-sobre-agentes-de-inteligencia-artificial.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, desarrollo, opinión, asistentes]
 pin: false
