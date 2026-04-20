@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2022-02-01 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/n26-mi-neo-banco-de-cabecera.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [neobancos, n26, finanzas, opinión]
 pin: false
