@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2022-01-17 10:00:00 +0100
 image: /assets/img/headers/finanzas.jpg
-categories: [Finanzas Personales, Ahorro e Inversión]
-tags: [finanzas, gestión, ahorro, consejos]
+categories: [Finanzas Personales]
+tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false
 toc: true
 excerpt: "Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero. A través de una encuesta en Twitter, identifico las preguntas fundamentales que todos deberíamos hacernos: ¿tienes una única cuenta bancaria? ¿usas tarjetas de crédito? ¿tienes más de un préstamo? ¿haces presupuestos? Cada pregunta viene acompañada de su análisis detallado y los errores que cometemos, desde no saber cuánto ganamos por hora hasta no ahorrar ni invertir. El objetivo es proporcionar herramientas prácticas para mejorar nuestra relación con el dinero."
@@ -138,12 +138,6 @@ La cantidad de "excusas" que he escuchado, es enorme, y eso, solo en cuanto al d
 
 Te sorprenderás más en próximos posts, hablaremos más en detalle sobre esto.
 
-Y... eso es todo por ahora.
+Compártelo si te ha gusta. ¿Tienes alguna pregunta sobre finanzas? [Escríbeme](https://marcosramirez.info/contacto/).
 
-Espero que te haya sido útil.
-
----
-[^1]: En líneas generales, se de sobra que hay casos en los que es rentable usarlas, y hablaremos de eso, pero es muy poco probables que sea tu caso.
-
-***
-No olvides compartir el post y suscribirte si te ha gustado
+Y... hasta aquí por hoy!
