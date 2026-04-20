@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-05-04 12:27:05 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/android-pinning.webp
 categories: [Tecnología, Sistemas]
 tags: [android, tutorial, ciberseguridad, trucos]
 pin: false
