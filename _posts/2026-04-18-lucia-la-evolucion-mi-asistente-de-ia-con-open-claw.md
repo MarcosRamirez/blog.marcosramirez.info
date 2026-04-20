@@ -51,7 +51,7 @@ Más allá de gestionar llamadas y citas, Lucía ahora me ayuda en tareas que an
 
 ## El cerebro en casa (Home Lab)
 
-Para los que me seguís por mis posts sobre [Proxmox]({% post_url por-que-no-uso-proxmox-helper-scripts %}), os interesará saber que Lucía corre ahora en un contenedor dedicado dentro de mi infraestructura. No es solo un "juguete" técnico; es una herramienta que gestiona mis LEADS, filtra mis notificaciones y, sobre todo, protege mi tiempo.
+Para los que me seguís por mis posts sobre Home Lab, os interesará saber que Lucía corre ahora en un contenedor dedicado dentro de mi infraestructura. No es solo un "juguete" técnico; es una herramienta que gestiona mis LEADS, filtra mis notificaciones y, sobre todo, protege mi tiempo.
 
 La transición a OpenClaw me ha permitido "desacoplar" la lógica de negocio (quién es Lucía y qué debe hacer) de la plataforma de mensajería o el modelo de lenguaje subyacente. 
 
