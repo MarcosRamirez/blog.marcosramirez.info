@@ -29,11 +29,12 @@ El formato debe ser: `<tipo>(<ámbito>): <emoji> <resumen>`
 
 ### Reglas de Oro
 1. **Idioma:** Siempre en **español**.
-2. **Tono:** Usa el pasado participio para acciones de código (ej. "Añadido", "Corregido", "Actualizado").
+2. **Tono:** Usa el **pasado participio** (NO infinitivo): "Corregido" (NO "Corregir"), "Añadido" (NO "Añadir"), "Actualizado" (NO "Actualizar").
 3. **Posts de Blog:** Para el tipo `content`, no inventes una descripción, usa el título principal del artículo que se está editando o creando.
 4. **Longitud:** Mantén el título por debajo de los 50 caracteres.
 
 ### Ejemplos de Salida
+`fix(blog): 🐛 Corregido post_url en post de Lucía`
 `feat(api): ✨ Añadido endpoint de usuarios`
 `content(blog): ✍️ Mi experiencia migrando a Antigravity`
 `fix(ui): 🐛 Corregido margen en el footer`
