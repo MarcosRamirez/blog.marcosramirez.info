@@ -41,11 +41,11 @@ Este proceso de migración desde servicios SaaS hacia alternativas auto-alojadas
 
 | Antes (SaaS) | Ahora (Self-hosted) |
 |---|---|
-| Google Drive | Nextcloud / Syncthing |
-| Dropbox | Syncthing |
-| Netflix / Spotify | Jellyfin / Navidrome |
+| Google Drive | [Nextcloud](https://nextcloud.com/){:target="_blank"} / [Syncthing](https://syncthing.net/){:target="_blank"} |
+| Dropbox | [Syncthing](https://syncthing.net/){:target="_blank"} |
+| Netflix / Spotify | [Jellyfin](https://jellyfin.org/){:target="_blank"} / [Navidrome](https://www.navidrome.org/){:target="_blank"} |
 | Gmail | Autocorreo con Postfix |
-| Google Photos | Photoprism |
+| Google Photos | [Photoprism](https://www.photoprism.app/){:target="_blank"} |
 
 Cada servicio que migro es un servicio que dejo de pagar con mi privacidad.
 
@@ -134,4 +134,6 @@ El futuro de la infraestructura personal no está en alquilar todo a terceros. E
 
 Este ha sido el primero de la serie. En el siguiente post te contaré cómo empezar desde cero, qué opciones hay según tu nivel y presupuesto, y cómo evitar los errores típicos de quien empieza. Spoiler: el mayor error es complicarse al principio.
 
-¿Tienes preguntas sobre Home Labs? ¿Quieres saber si es para ti? Deja un comentario y lo hablamos.
+¿Tienes preguntas sobre Home Labs? ¿Quieres saber si es para ti? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo hablamos.
+
+Y... hasta aquí por hoy!
