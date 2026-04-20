@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2024-12-09 08:50:00 +0100
 image: /assets/img/headers/enviar-mails-desde-otras-direcciones-o-alias-en-gmail.webp
-categories: [Tecnología, Software y Apps]
-tags: [gmail, tutorial, utilidades]
+categories: [Tecnología]
+tags: [Software y Apps, automatizacion]
 pin: false
 toc: true
 excerpt: "Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail. La documentación de Google no está actualizada: ya no aparece la opción 'Enviar verificación'. En su lugar, debes configurar el servidor SMTP de la cuenta que quieres añadir, activar 'Acceso de aplicaciones menos seguras', usar el SMTP de Google (smtp.gmail.com puerto 465), y crear una contraseña de aplicación específica en lugar de tu contraseña normal."
