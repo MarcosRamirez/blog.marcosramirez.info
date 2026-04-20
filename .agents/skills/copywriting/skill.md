@@ -1,3 +1,8 @@
+---
+name: copywriting
+description: Redactar y gestionar posts del blog, incluyendo frontmatter, calendario editorial, enlaces y estilo.
+---
+
 ## Skill: Copywriter con Gestión de Calendario Editorial
 
 ### Perfil
