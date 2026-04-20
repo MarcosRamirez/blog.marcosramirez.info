@@ -44,7 +44,9 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 
 *** SI NO PUEDES GENERAR IMÁGENES, IGNORA ESTE APARTADO ***
 
-- Las imágenes deben tener una dimensión ***exacta** de 1200x630px.
+- Solo debes generar imágenes para los posts que estén usando la imagen por defecto, es decir, que tengan la clave `image` con el valor `/assets/img/headers/default.webp`.
+- Si el post ya tiene una imagen, no debes generar una nueva.
+- Las imágenes deben tener una dimensión ***exacta** de 1900x478px.
 - El nombre del archivo debe ser el slug del post.
 - La imagen debe estar en formato .webp.
 - una vez generada la imagen, modifica el front matter del post para incluir la clave `image` con el valor del nombre del archivo de la imagen.
