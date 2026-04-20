@@ -43,3 +43,9 @@ Como os decía antes, esta funcionalidad es ideal para, por ejemplo, dejarle el 
 Para los que prefiráis video tutoriales, he hecho un pequeño video tutorial, que espero os sea útil:
 
 {% include embed/youtube.html id='6a1e3Q-DzP8' %}
+
+Compártelo si te ha gustado.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
