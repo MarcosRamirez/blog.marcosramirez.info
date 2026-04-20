@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2024-11-25 08:50:00 +0100
 image: /assets/img/headers/revolut-mi-nuevo-neobanco-de-cabecera.webp
-categories: [Finanzas Personales, Bancos y Fintech]
-tags: [revolut, neobancos, finanzas, opinión]
+categories: [Finanzas Personales]
+tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false
 toc: true
 excerpt: "Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones de otras entidades. Revolut ofrece cuentas multidivisa con más de 30 monedas, conversiones sin comisiones al tipo de cambio interbancario, tarjetas de débito globales, Pockets para organizar gastos por categorías, cuentas de ahorro con interés competitivo y redondeo automático de compras, transferencias internacionales económicas, inversiones en acciones y criptomonedas, y planes flexibles desde gratuito hasta premium."
