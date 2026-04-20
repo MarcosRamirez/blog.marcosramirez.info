@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2020-05-03 12:51:00 +0200
 image: /assets/img/headers/confinamiento-mis-objetivos.webp
-categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
-tags: [opinión, personal, objetivos, teletrabajo]
+categories: [Personal y Desarrollo Profesional]
+tags: [Reflexiones y Opinión, Metas y Resúmenes, Carrera Profesional]
 pin: false
 toc: true
 excerpt: "Tras 52 días de confinamiento por la pandemia de COVID-19, reflexiono sobre mis objetivos personales y los logros alcanzados durante este período. Desde dejar de fumar y mantener una rutina estricta, hasta hacer ejercicio y reducir el consumo de alcohol, cada día ha sido una oportunidad para mejorar. También analizo el crecimiento en mis perfiles sociales de poker y Twitch, comparto mis conclusiones sobre la gestión governmental y explico por qué continuaré trabajando de forma remota."
@@ -41,7 +41,7 @@ Vayamos por partes... Primero, "las listas" que imagino que a muchos os interesa
 3. Llevo 52 días sin beber alcohol (sí, ni cerveza), aunque los que me conocéis, supongo que no os sorprenderá
 4. Ejercicio: no he hecho demasiado, la verdad (más allá de subir/bajar escaleras en casa a diario, y alguna sesión de pesas/abdominales/sentadillas). Y, adelgazar: simplemente quitando el alcohol y con una dieta coherente, que siempre he llevado, sí he adelgazado. Sobretodo el no "comer" en bares/restaurantes a diario, creo que hace mucho.
 5. También he conseguido utilizar el "tiempo extra":
-   1. Mis perfiles sociales sobre juego han crecido bastante (de 0 a 550 seguidores en Instagram desde el día 5 del confinamiento, y +300 en Twitch, con un par de subs, aunque esta última es claramente la más complicada de subir, sobretodo tras el Real Decreto que nos prohibió emitir poker hace unas semanas)
+   1. Mis perfiles sociales sobre juego han crecido bastante (de 0 a 550 seguidores en [Instagram](https://instagram.com/){:target="_blank"} desde el día 5 del confinamiento, y +300 en [Twitch](https://twitch.tv/){:target="_blank"}, con un par de subs, aunque esta última es claramente la más complicado de subir, así como el Real Decreto que nos prohibió emitir poker hace unas semanas)
    2. También he dedicado al menos 2 horas diarias a estudiar poker, con los consiguientes resultados, aparte de por la subida de tráfico por el confinamiento...
 
 ## Conclusiones
@@ -58,4 +58,6 @@ Una vez aclarado esto, os dejo mis conclusiones:
 4. Desde ahora, y esto deberíamos hacerlo todos los profesionales de la informática, no aceptaré ningún puesto que no sea 100% de teletrabajo. Esto ha demostrado que es 100% viable, que no pasa nada... salvo que todos ganamos tiempo, y calidad de vida.
 5. Seguiré apostando por las redes; se ha convertido en mi nuevo hobby, el ir investigando cómo crecer, analizar, etc... Y, ¿quién sabe? igual hasta consigo un sueldazo al mes por jugar un par de horas al día en Twitch; aunque con ganar un extra, ya me vale...
 
-Y... eso es todo. Mucho ánimo a todos, y que vaya bien ante todo lo que se nos viene encima...
+Compártelo si te ha gustado. ¿Qué objetivos has consegudo durante el confinamiento? Cuéntame.
+
+Y... hasta aquí por hoy!
