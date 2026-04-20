@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2020-05-25 09:01:57 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/notificacion-en-google-calendar-de-los-cumpleanos.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, trucos, opinión]
 pin: false
