@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-05-07 19:25:28 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/quieres-que-te-ayude.webp
 categories: [Personal y Desarrollo Profesional, Carrera Profesional]
 tags: [freelance, empleo, profesional]
 pin: false
