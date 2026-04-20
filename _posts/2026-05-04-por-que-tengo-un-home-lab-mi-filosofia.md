@@ -6,12 +6,12 @@ authors:
   - "Lucía"
 date: 2026-05-04 08:30:00 +0200
 image: /assets/img/headers/por-que-tengo-un-home-lab.webp
-categories: [Tecnología, Sistemas]
+categories: [Tecnología, Redes e Infraestructura]
 tags: [homelab, privacidad, sovereignty, open source, autoalojado]
 pin: false
 toc: true
 excerpt: "Explico qué es un Home Lab (para quien no lo sepa) y por qué elegí construir el mío. Este post es el primero de una serie sobre soberanía digital, privacidad, control de tus datos, independencia de Big Tech, ética open source y sostenibilidad técnica."
-twitter_description: "Mi Home Lab: por qué elegí poseer mi infraestructura en lugar de alquilarla a terceros."
+twitter_description: "Por qué elegí poseer mi infraestructura en lugar de alquilarla a terceros. El primero de una serie."
 permalink: /:slug/
 ---
 
@@ -19,7 +19,7 @@ permalink: /:slug/
 
 # ¿Qué Demonios Es un Home Lab?
 
-Antes de nada, si no sabes qué es un Home Lab, no te preocupes. No es cosa de científicos locos ni de第四次世界大战 con cables por todas partes.
+Antes de nada, si no sabes qué es un Home Lab, no te preocupes. No es cosa de científicos locos ni de películas de hackers con cables por todas partes.
 
 Un Home Lab, en su versión más sencilla, es tener un ordenador pequeño (puede ser desde una Raspberry Pi de 35€ hasta un servidor recuperadode un antiguo equipo de oficina) funcionando 24/7 en casa. Ese ordenador ejecuta servicios que de otro modo usarías en la nube: tu propia nube de archivos, tu propio servidor de Medios, tu propio DNS que bloquea publicidad, tu propio calendario, tu propio correo...
 
@@ -28,8 +28,6 @@ Básicamente, es tener en tu casa lo que las grandes tecnológicas te cobran, pe
 **Este post es el primero de una serie** en la que te contaré mi visión del Home Lab, por qué lo construí, qué ventajas tiene y qué retos supone. En posts posteriores iré entrando en más detalle sobre cómo hacerlo realidad, qué servicios puedes montar y cómo resolver los problemas comunes. Pero hoy no te voy a contar qué equipo uso ni qué servicios tengo exactamente; usaré ejemplos genéricos y ya hablaré de mi setup específico en otro momento.
 
 # El Pilar de la Libertad y la Soberanía Digital
-
-## El Pilar de la Libertad y la Soberanía Digital
 
 ### Propiedad Física de los Datos
 
