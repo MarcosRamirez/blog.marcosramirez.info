@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2020-05-25 09:00:15 +0200
 image: /assets/img/headers/mis-problemas-del-primer-mundo-intro.webp
-categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
-tags: [opinión, tecnología, trucos]
+categories: [Personal y Desarrollo Profesional]
+tags: [Reflexiones y Opinión, tecnología, Life Hacks]
 pin: false
 toc: false
 excerpt: "Inauguro una nueva sección en el blog llamada Mis problemas del primer mundo, donde documentaré problemas técnicos específicos que me encuentro en mi día a día y sus respectivas soluciones. Esta categoría nace con el propósito de crear un repositorio accesible donde otros desarrolladores puedan encontrar ayuda para los mismos obstáculos que yo he enfrentado."
@@ -27,4 +27,6 @@ Espero que con esto, podáis ayudarme, tanto como yo pueda ayudar a otros cuando
 
 Dado que, por supuesto, cada vez que encuentre solución a uno de mis problemas del primer mundo, ¡postearé la solución!
 
-Saludos.
+Compártelo si te ha gustado. ¿Tienes problemas técnicos similares? Cuéntame.
+
+Y... hasta aquí por hoy!
