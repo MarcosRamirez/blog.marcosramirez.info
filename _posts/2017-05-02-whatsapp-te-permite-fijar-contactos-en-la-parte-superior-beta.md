@@ -34,6 +34,8 @@ Para fijar un contacto, simplemente deberemos mantener pulsado el contacto, y no
 
 Supongo que esta funcionalidad no tardará en estar disponible para todo el mundo, no creo que sea de esas que cae en el olvido.
 
-Espero que os haya resultado interesante, y como siempre, si tenéis cualquier duda, comentario o sugerencia, podéis dejarme un comentario.
+Compártelo si te ha gustado.
 
-Saludos.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
