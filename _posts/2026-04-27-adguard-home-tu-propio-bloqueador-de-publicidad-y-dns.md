@@ -4,7 +4,7 @@ slug: adguard-home-tu-propio-bloqueador-de-publicidad
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-04-27 08:30:00 +0200
+date: 2026-05-25 08:30:00 +0200
 image: /assets/img/headers/adguard-home-tu-propio-bloqueador-de-publicidad.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [adguard, dns, publicidad, privacidad, red, infraestructura]
