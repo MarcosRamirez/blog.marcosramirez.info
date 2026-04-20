@@ -19,13 +19,11 @@ permalink: /:slug/
 
 # Serie Home Lab
 
-Continuamos con la serie de Home Lab. En el [post sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue **AdGuard Home**, y es probablemente el más útil de todos.
-
-## Por qué un DNS interceptivo
+Continuamos con la serie de Home Lab. En el [post sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue [**AdGuard Home**](https://adguard.com/es/adguard-home/overview.html){:target="_blank"}, y es probablemente el más útil de todos.
 
 ## ¿Qué es AdGuard Home?
 
-[AdGuard Home](https://adguard.com/es/adguard-home/overview.html){:target="_blank"} es un software de código abierto que funciona como **DNS interceptivo**. En lugar de instalar extensiones en cada navegador o app, bloquea la publicidad y los rastreadores directamente en la red.
+[**AdGuard Home**](https://adguard.com/es/adguard-home/overview.html){:target="_blank"} es un software de código abierto que funciona como **DNS interceptivo**. En lugar de instalar extensiones en cada navegador o app, bloquea la publicidad y los rastreadores directamente en la red.
 
 ### ¿Cómo funciona?
 
@@ -58,7 +56,7 @@ Viene con listas preconfiguradas ([EasyList](https://easylist.to/){:target="_bla
 
 ## Mi configuración
 
-En mi caso, AdGuard Home corre en un contenedor LXC dentro de Proxmox con:
+En mi caso, AdGuard Home corre en un contenedor LXC dentro de [Proxmox](https://www.proxmox.com/){:target="_blank"} con:
 - 1 vCPU
 - 512MB de RAM (es muy ligero)
 - 2GB de almacenamiento para logs
