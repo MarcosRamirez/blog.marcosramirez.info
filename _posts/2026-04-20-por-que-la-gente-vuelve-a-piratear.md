@@ -60,7 +60,7 @@ Para entender la magnitud de la sangría económica, echemos un vistazo a lo que
 
 Pagar más de 700€ anuales por un servicio alquilado y fragmentado duele. Especialmente cuando lo comparas con **el coste de montar tu propio servidor casero**. 
 
-Por unos 150-200€ puedes hacerte con un Mini PC con procesador Intel N100 (potente y de bajísimo consumo). Añádele un par de discos duros de alta capacidad por otros 150-200€. Por menos de **400€ en un pago único**, tienes el hardware preparado. El software necesario (Plex, Jellyfin y la *suite* completa de herramientas *arr como Sonarr y Radarr) es de código abierto y completamente gratuito. Recuperas la inversión en unos seis meses, tu contenido es tuyo de verdad y está todo consolidado en una sola interfaz increíble.
+Por unos 150-200€ puedes hacerte con un Mini PC con procesador Intel N100 (potente y de bajísimo consumo). Añádele un par de discos duros de alta capacidad por otros 150-200€. Por menos de **400€ en un pago único**, tienes el hardware preparado. El software necesario (Plex, Jellyfin y la [*suite* de herramientas *arr`](https://wiki.servarr.com/arr-stack){:target="_blank"} como [Sonarr](https://sonarr.tv/){:target="_blank"} y [Radarr](https://radarr.video/){:target="_blank"}) es de código abierto y completamente gratuito. Recuperas la inversión en unos seis meses, tu contenido es tuyo de verdad y está todo consolidado en una sola interfaz increíble.
 
 # El resurgir de los "mares"
 
