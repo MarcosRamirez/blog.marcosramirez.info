@@ -151,6 +151,13 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 - `Carrera Profesional`
 - `Recomendaciones`
 
+### CTAs (Call to Action)
+
+- Al final de cada post, incluye siempre un CTA (Call to Action).
+- Si el CTA es para que el lector contacte, usa: `[Contacto](https://marcosramirez.info/contacto/){:target="_blank"}`
+- El CTA debe ser natural y relacionado con el contenido del post.
+- Evita CTAs genéricos; personalízalos según el tema.
+
 **Correcciones a aplicar:**
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
 - Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`
