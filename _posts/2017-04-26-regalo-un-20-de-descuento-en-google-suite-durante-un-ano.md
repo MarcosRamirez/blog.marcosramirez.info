@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-26 09:41:16 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/google-suite.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, gsuite, oferta]
 pin: false
