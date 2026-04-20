@@ -25,9 +25,17 @@ Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes inclui
 ### Enlaces (OBLIGATORIO)
 
 - **CADA software, servicio, herramienta o marca que menciones DEBE tener un enlace** a su web oficial.
-- **La primera vez que menciones algo, debe llevar enlace**. Las menciones posteriores pueden no llevarlo.
+- **La primera vez que menciones algo, debe llevar enlace**. Las menciones posteriores pueden no tenerlo.
 - Ejemplo: "Uso [AdGuard Home](https://adguard.com/) para bloquear publicidad" (la primera mención tiene enlace).
 - Usa `{:target="_blank"}` en todos los enlaces externos para que se abran en nueva pestaña.
+
+### Proxmox Helper Scripts
+
+- **Para posts sobre Proxmox que explique cómo instalar servicios, usa este comando**:
+  ```bash
+  bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/<servicio>.sh)"
+  ```
+- Enlace oficial: https://community-scripts.org/
 
 ### Estructura de los posts
 
