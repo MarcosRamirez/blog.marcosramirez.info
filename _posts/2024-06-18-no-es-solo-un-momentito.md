@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2024-06-18 08:50:00 +0100
 image: /assets/img/headers/no-es-solo-un-momentito.webp
-categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
-tags: [productividad, desarrollo, opinión]
+categories: [Personal y Desarrollo Profesional]
+tags: [Reflexiones y Opinión, Productividad y Hacks]
 pin: false
 toc: true
 excerpt: "Explico por qué el mismo 'momentito' puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones. Como programador, mi trabajo requiere concentración plena y un estado mental casi zen. Cuando alguien me interrumpe con una tontería o me pide un minutito que se convierte en media hora, tardo 23 minutos en volver a pillar el hilo según estudios de la Universidad de California. Incluyo señales no verbales para identificar cuando alguien está concentrado y consejos de comunicación asíncrona."
