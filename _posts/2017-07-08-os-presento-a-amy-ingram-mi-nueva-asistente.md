@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-07-08 12:12:27 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/os-presento-a-amy-ingram.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, productividad, automatización, asistentes]
 pin: false
