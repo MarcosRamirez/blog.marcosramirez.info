@@ -62,4 +62,6 @@ El futuro de la IA personal no está en aplicaciones cerradas que guardan tus da
 Lucía ya no es solo una voz al otro lado del teléfono; es un miembro más de mi flujo de trabajo digital, y lo mejor de todo es que el "cerebro" está en mi propia casa.
 
 ***
-¿Y tú? ¿Estás listo para dejar de usar la IA de otros y empezar a construir la tuya? Cuéntame en los comentarios qué tareas delegarías hoy mismo a un asistente autónomo.
+¿Y tú? ¿Estás listo para dejar de usar la IA de otros y empezar a construir la tuya? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} qué tareas delegarías hoy mismo a un asistente autónomo.
+
+Y... hasta aquí por hoy!
