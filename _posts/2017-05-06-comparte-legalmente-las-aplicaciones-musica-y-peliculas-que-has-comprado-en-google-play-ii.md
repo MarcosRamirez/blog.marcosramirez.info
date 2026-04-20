@@ -20,7 +20,7 @@ Ayer, en la [primera parte](/comparte-legalmente-las-aplicaciones-musica-y-pelic
 
 ## Paso 1
 
-Lo primero es [entrar](http://play.google.com/store/account){:target="_blank"}, desde el PC, en la cuenta del plan familiar, y verás esta pantalla; haz click en el enlace indicado:
+Lo primero es [entrar](https://play.google.com/store/account){:target="_blank"}, desde el PC, en la cuenta del plan familiar, y verás esta pantalla; haz click en el enlace indicado:
 
 ![1 Google Play](/assets/2017/05/1-google-play.png)
 
@@ -51,3 +51,9 @@ Repites este paso con todas las apps que quieras compartir, y listo.
 ![6](/assets/2017/05/6.png)
 
 ¡Y esto es todo!
+
+Compártelo si te ha gusta.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
