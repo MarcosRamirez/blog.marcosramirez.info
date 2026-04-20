@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-12-09 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/enviar-mails-desde-otras-direcciones-o-alias-en-gmail.webp
 categories: [Tecnología, Software y Apps]
 tags: [gmail, tutorial, utilidades]
 pin: false
