@@ -4,8 +4,8 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-02-26 18:00:00 +0100
-categories: [Personal y Desarrollo Profesional, Carrera Profesional]
-tags: [programación, empleo, junior, senior, consejos]
+categories: [Personal y Desarrollo Profesional]
+tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false
 toc: true
 excerpt: "Una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental. Cubro los diferentes tipos de formación disponibles (universidad, FP, bootcamps, autodidacta), los conceptos básicos que todo programador debe dominar (variables, POO, algoritmos, estructures de datos), las herramientas esenciales como IDEs y Git, y otros conocimientos avanzados como patrones de diseño, metodologías ágiles, testing y refactorización."
@@ -31,7 +31,7 @@ Este post iba a ser un vídeo[^1] en respuesta a este Tweet:
 Pero, escribir es mucho más rápido que grabar y editar vídeo, y como de todos modos tenía que escribir el "guión", he decidido responder
 por escrito, de momento... en algún momento grabaré este video, y otros tantos pendientes, y adeudados.
 
-Soy [Marcos Ramírez](https://marcosramirez.info){:target="_blank"}, y llevo más de 25 años dedicandome al desarrollo de apliaciones, fundamentalmente web, desde Junior, como todos, hasta CTO y CEO. y os dejo el link por si alguien quiere saber más [sobre mí](https://blog.marcosramirez.info/about/){:target="_blank"}.
+Soy [Marcos Ramírez](https://marcosramirez.info){:target="_blank"}, y llevo más de 25 años dedicandome al desarrollo de apliaciones, fundamentalmente web, desde Junior, como todos, hasta CTO y CEO. y os dejo el link por si alguien quiere saber más [sobre mí]({% post_url 2021-02-25-mis-lecturas-recomendadas %}).
 
 Últimamente vengo observando un "boom" similar al de la década de los 90 (en los 90 muchísima gente empezó Ingeniería Informática), solo que ahora, debido a diversos factores, hay muchísima más personas que eligen otras vías de formación, como los CodeCamps, formación online, o autodidacta, algo perfectamente válido,
 
@@ -190,9 +190,9 @@ Las más usadas son SCRUM y Kanban, y aquí tengo un conflicto... por que, en re
 
 ### Gestores de tareas y/o proyectos
 
-En España (y posiblemente en medio mundo) Jira y el ecosistema de Atlasian es el más usado, verte unos tutoriales y aprender a exprimirlo, te simplificará bastante la vida.
+En España (y posiblemente en medio mundo) [Jira](https://www.atlassian.com/es/software/jira){:target="_blank"} y el ecosistema de Atlasian es el más usado, verte unos tutoriales y aprender a exprimirlo, te simplificará bastante la vida.
 
-Trello y Todoist también es relativamente frecuente encontrarlos en algunas empresas.
+[Trello](https://trello.com/){:target="_blank"} y [Todoist](https://todoist.com/){:target="_blank"} también es relativamente frecuente encontrarlos en algunas empresas.
 
 ### Linters
 
@@ -233,9 +233,11 @@ Esto va a gustos, a unos les gusta una cultura como la de Google... a otros, com
 
 ## Lecturas recomendadas
 
-Te dejo un link a mis lecturas recomendadas (/Mis-lecturas-recomendadas), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
+Te dejo un link a mis lecturas recomendadas ({% post_url 2021-02-25-mis-lecturas-recomendadas %}), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
 
-Eso es todo, espero que te haya servido de ayuda, y, si tienes algún aporte que hacer, o alguna pregunta, no dudes en comentar,
+Compártelo si te ha gustado. ¿Qué consejos añadirías para Juniors? [Escríbeme](https://marcosramirez.info/contacto/).
+
+Y... hasta aquí por hoy!
 
 ---
 
