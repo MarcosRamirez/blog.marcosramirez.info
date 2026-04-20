@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2022-01-02 08:50:00 +0100
 image: /assets/img/headers/como-ahorro.webp
-categories: [Finanzas Personales, Ahorro e Inversión]
-tags: [ahorro, finanzas, presupuesto, consejos]
+categories: [Finanzas Personales]
+tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false
 toc: true
 excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero. Explico la importancia de priorizar el ahorro antes que cualquier gasto (mínimo 10% de ingresos), crear presupuestos con partidas definidas (alimentación 150€ por persona, vivienda máximo 25%), mantener varias cuentas bancarias (ingresos, ahorros, recibos), evitar tarjetas de crédito con intereses abusivos, y optimizar compras comparando precios en Google Shopping, Carritus, y usando cashback con LetyShops o Karma."
@@ -78,7 +78,7 @@ Para esto es un presupuesto, para manejar y saber de antemano cuanto puedes gast
 
 ¿Siguen sin salirte las cuentas?, no pasa nada **sigue leyendo**. En los siguientes puntos, encontrarás las respuestas, y si no es así **déjame un comentario**.
 
-En <a href="https://docs.google.com/spreadsheets/d/1ihJTOEmGWtsu_mtTE6r3qT3M14NwVWm40gLEeNEhoX0/edit?usp=sharing" target="_blank">este enlace</a> te dejo una <a href="https://docs.google.com/spreadsheets/d/1ihJTOEmGWtsu_mtTE6r3qT3M14NwVWm40gLEeNEhoX0/edit?usp=sharing" target="_blank">plantilla de Google Sheet</a>, que puedes usar como base para organizar tu presupuesto, y tener incluso una visión global a año vista.
+En [este enlace](https://docs.google.com/spreadsheets/d/1ihJTOEmGWtsu_mtTE6r3qT3M14NwVWm40gLEeNEhoX0/edit?usp=sharing){:target="_blank"} te dejo una plantilla de Google Sheets, que puedes usar como base para organizar tu presupuesto, y tener incluso una visión global a año vista.
 Espero que te sea de utilidad.
 
 Puedes copiarla a tu Google Drive, y rellenarla con tus datos de manera privada, por supuesto.
@@ -86,11 +86,11 @@ Puedes copiarla a tu Google Drive, y rellenarla con tus datos de manera privada,
 
 # Bancos
 
-Los bancos, a diferencia de lo que la gente cree, o piensa, son negocios, que están para ganar dinero contigo, incluso de **manera ilegal**, si, has leído bien, hace ya algunos años que le recomiendo a mucha gente contratar los servicios juridicos de empresas como (la pionera) <a href="https://www.preicojuridicos.com" rel="nofollow" target="_blank">Preico Juridicos</a>, dedicadas a recuperar el dinero cobrado de más por bancos y entidades financieras, tanto en préstamos usuruarios (o usureros), como por comisiones ilegales.
+Los bancos, a diferencia de lo que la gente cree, o piensa, son negocios, que están para ganar dinero contigo, incluso de **manera ilegal**, si, has leído bien, hace ya algunos años que le recomiendo a mucha gente contratar los servicios juridicos de empresas como (la pionera) [Preico Juridicos](https://www.preicojuridicos.com){:target="_blank"}, dedicadas a recuperar el dinero cobrado de más por bancos y entidades financieras, tanto en préstamos usuruarios (o usureros), como por comisiones ilegales.
 
 Te recomiendo dedicar unas horas a estudiar al respecto, y contactar.
 
-Así como tambien te recomiendo adquirir conocomiento financiero, en <a href="https://blog.marcosramirez.info/recomendaciones-libros-blogs-peliculas-canales/" target="_blank">mis recomendaciones</a>, encontrarás información al respecto.
+Así como tambien te recomiendo adquirir conocomiento financiero, en [mis recomendaciones]({% post_url 2021-02-25-mis-lecturas-recomendadas %}), encontrarás información al respecto.
 
 Y, por supuesto, en este post encontrarás algunas cosas que he aprendido a lo largo de los años
 
@@ -124,7 +124,7 @@ Y si a fín de mes, te sobra dinero, pues ya decides si ese excedente también l
 
 ## Comisiones
 
-Como dije antes, se cobran una cantidad abusiva e ilegal de comisiones (que puedes recuperar, tal como dije), también hay bancos que pretenden cobrar por el simple hecho de tener una cuenta bancaria, cosa que no estoy dispuesto a hacer, y ojo, no tengo problema en pagar, por ejemplo los 4,90€ al mes que me cobra <a href="https://n26.com/r/marcosr8764" target="_blank">N26</a>, pero por que me ofrece unos servicios de automatización, que no me ofrece ningún otro banco, y que me ahorran una cantidad de tiempo importante.
+Como dije antes, se cobran una cantidad abusiva e ilegal de comisiones (que puedes recuperar, tal como dije), también hay bancos que pretenden cobrar por el simple hecho de tener una cuenta bancaria, cosa que no estoy dispuesto a hacer, y ojo, no tengo problema en pagar, por ejemplo los 4,90€ al mes que me cobra [N26](https://n26.com/r/marcosr8764){:target="_blank"}, pero por que me ofrece unos servicios de automatización, que no me ofrece ningún otro banco, y que me ahorran una cantidad de tiempo importante.
 
 Una cosa es pagar por un servicio, sobretodo si es exclusivo, y otra pagar comisiones que no tienen justificación alguna.
 
@@ -254,7 +254,7 @@ Todo ello, anque no lo creas, además de la mejora de salud que conlleva, supone
 
 Normalmente la gente hace toda la compra en un mismo supermercado, a día de hoy, yo hago la compra básicamente en 3 o 5 sitios diferentes, siendo tres de ellos online.
 
-Como muchos españoles, compro en mercadona (básicamente la compra mensual de droguería), luego la compra semanal, la hago en TasteIt (de quienes escribiré un post en detalle), y por último hay algunas cosas (alimentación mensual, no perecedera, básicamente) que compro en <a href="https://rfrn.page.link/uuPRLT87QGHhBZzT6" target="_blank">Día</a> (que es el super que me pilla más cerca de casa, y además tienen un programa de fidelización de clientes bastante interesante).
+Como muchos españoles, compro en mercadona (básicamente la compra mensual de droguería), luego la compra semanal, la hago en TasteIt (de quienes escribiré un post en detalle), y por último hay algunas cosas (alimentación mensual, no perecedera, básicamente) que compro en [Día](https://rfrn.page.link/uuPRLT87QGHhBZzT6){:target="_blank"} (que es el super que me pilla más cerca de casa, y además tienen un programa de fidelización de clientes bastante interesante).
 Luego, también recurro a comercio local.
 
 Tampoco utilizan herramientas para buscar mejores precios, o conseguir descuentos, aquí te dejo algunas:
@@ -262,7 +262,7 @@ Tampoco utilizan herramientas para buscar mejores precios, o conseguir descuento
 
 ## Google Shopping
 
-Sin duda, el gran desconocido, nunca deja de sorprenderme que la gente no conozca <a href="https://shopping.google.es/" target="_blank">Google Shopping</a>, esta función del buscador de google, está diseñada especificamente para buscar PRECIOS, de un mismo artículo en las diferentes tiendas que tiene indexadas.
+Sin duda, el gran desconocido, nunca deja de sorprenderme que la gente no conozca [Google Shopping](https://shopping.google.es/){:target="_blank"}, esta función del buscador de google, está diseñada especificamente para buscar PRECIOS, de un mismo artículo en las diferentes tiendas que tiene indexadas.
 
 Por tanto, encontrar buenos precios, es algo rapidísimo, y gratuito.
 
@@ -271,26 +271,19 @@ Aunque claro, para ello, deben permitir que Google Indexe, y no siempre es así.
 ## Carritus
 
 Una web bastante desconocida, a pesar de que ya tiene unos añitos... 
-<a href="https://www.carritus.com" target="_blank">Carritus</a> es un comparador de precios de supermercados, aunque algunos como Mercadona, no están (imaginad el motivo), pero sin duda, es una buenísima herramienta, para saber donde comprar cada cosa.
+[Carritus](https://www.carritus.com){:target="_blank"} es un comparador de precios de supermercados, aunque algunos como Mercadona, no están (imaginad el motivo), pero sin duda, es una buenísima herramienta, para saber donde comprar cada cosa.
 
 ## LetyShops
 
-Si aún no lo conoces <a href="https://letyshops.com/es/winwin?ww=11198302"  target="_blank">LetyShops</a> es un servicio de CashBack, que lo que hace es devolverte un porcentaje de cada compra que haces online.
+Si aún no lo conoces [LetyShops](https://letyshops.com/es/winwin?ww=11198302){:target="_blank"} es un servicio de CashBack, que lo que hace es devolverte un porcentaje de cada compra que haces online.
 
 Aumentando así tu ahorro
 
 ## Karma
-Una alternativa, de las muchas que están surgiendo a LetyShops, es <a href="https://www.karmanow.com/" target="_blank">Karma</a>
+Una alternativa, de las muchas que están surgiendo a LetyShops, es [Karma](https://www.karmanow.com/){:target="_blank"}
 
 
 
-Y... esto es todo, si te ha resultado interesante, por favor, comparte el post, y considera suscribirte a la newsletter, para estar al día de todo lo que publico.
+Compártelo si te ha gusta. ¿Tienes algún consejo adicional de finanzas? Compártelo.
 
-
----
-[^1] Por ejemplo... En España, las compañías de telefonía, tienen la mala costumbre de liarla mucho (por no decir joderte), con los recibos, por lo que yo abro cuentas exclusivas para domiciliar el móvil, y lo mismo ocurre con otras compañías.
-
-[^2] En realidad, para los recibos anuales, tengo una cuenta que me da una renta anual... por que el dinero no esté completamente parado.
-
-***
-No olvides compartir el post si te ha gustado
+Y... hasta aquí por hoy!
