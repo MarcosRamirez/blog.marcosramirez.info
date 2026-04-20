@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2020-05-25 09:00:15 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/mis-problemas-del-primer-mundo-intro.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, tecnología, trucos]
 pin: false
