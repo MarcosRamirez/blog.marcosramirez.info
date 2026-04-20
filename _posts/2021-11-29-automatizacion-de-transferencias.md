@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2021-11-29 08:50:00 +0100
 image: /assets/img/headers/transferenciasautomaticas.jpg
-categories: [Finanzas Personales, Bancos y Fintech]
-tags: [finanzas, automatización, bancos, opinión]
+categories: [Finanzas Personales]
+tags: [Bancos y Fintech, Automatización]
 pin: false
 toc: true
 excerpt: "Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales. Los bancos podrían implementar fácilmente un gestor de eventos que permitiera automatizar transferencias según condiciones: enviar el IVA a otra cuenta automáticamente al recibir ingresos, o transferir el excedente a ahorro cuando el saldo supere cierto umbral. La pregunta es: ¿es tan difícil implementar algo así? N26 ofrece algo parecido en sus planes premium, pero solo entre sus espacios y con coste mínimo de 4,9€/mes."
@@ -17,7 +17,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-*Disclaimer*: Sé que [N26](https://n26.com/r/marcosr8764) ofrece algo parecido a esto en sus planes premium, pero:
+*Disclaimer*: Sé que [N26](https://n26.com/r/marcosr8764){:target="_blank"} ofrece algo parecido a esto en sus planes premium, pero:
 1. Solo lo ofrece entre sus espacios (no tienen IBAN propio, ni puedes transferir a otro IBAN/Cuenta)
 2. Solo lo ofrece en sus cuentas premium (mínimo 4,9€ al mes)  
 ---
@@ -83,5 +83,6 @@ Se que es codigo espaguetti, y que hasta el orden lógico es erróneo, pero creo
 
 La pregunta es... ¿es tan dificil implementar algo así?
 
-***
-No olvides compartir el post si te ha gustado
+Compártelo si te ha gusta. ¿Conoces algún banco que permita esto? Cuéntame.
+
+Y... hasta aquí por hoy!
