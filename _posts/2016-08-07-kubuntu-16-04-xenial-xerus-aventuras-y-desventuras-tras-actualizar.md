@@ -10,7 +10,8 @@ categories: [Tecnología, Sistemas]
 tags: [linux, kubuntu, tutorial, opinión]
 pin: false
 toc: true
-excerpt: "Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías en Spotify y MySQL Workbench. En este post, detallo cada uno de estos inconvenientes y proporciono las soluciones paso a paso para recuperar la estabilidad y funcionalidad del sistema KDE. Incluye soluciones para el problemas de los plasmoides que desaparecen, errores de KDE, problemas con las librerías de Spotify y MySQL Workbench, y cómo volver a un estado funcional del sistema."
+excerpt: >-
+  Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías en Spotify y MySQL Workbench. En este post, detallo cada uno de estos inconvenientes y proporciono las soluciones paso a paso para recuperar la estabilidad y funcionalidad del sistema KDE.
 twitter_description: "Problemas y soluciones tras actualizar a Kubuntu 16.04 Xenial Xerus."
 permalink: /kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar/
 ---
@@ -40,7 +41,7 @@ Lo primero que noté que "se había roto" fué:
 10. Desaparición de Turpial
 11. Magnets links no abren deluge (desde Google Chrome)
 
-Si en los próximos días noto que falla/falta algo más, lo iré añadiendo, estar atentos a posibles updates. O, si os falla algo dejadme un comentario, a ver si a mi también me falla, y veo como arreglarlo :).
+Si en los próximos días noto que falla/falta algo más, lo iré añadiendo, estar atentos a posibles updates. O, si os falla algo, <a href="https://marcosramirez.info/contacto/" target="_blank">escríbeme</a> y vemos cómo arreglarlo.
 
 Así pues... ¡allá vamos!
 
@@ -96,7 +97,7 @@ wget https://launchpad.net/ubuntu/+archive/primary/+files/libgcrypt11_1.5.3-2ubu
 
 Aunque supongo que la mayoría no usaréis estas cosas, y quienes lo uséis, supongo que sabréis como arreglarlo, diré como arreglarlo igualmente :)
 
-La solución inicial parecía tan simple como [bajarse la última versión](https://www.mysql.com/products/workbench/){:target="_blank"} desde la web, e instalarla, pero decidió dar un poco la lata:
+La solución inicial parecía tan simple como [bajarse la última versión](https://www.mysql.com/products/workbench/){:target="_blank"} desde su web oficial, e instalarla, pero decidió dar un poco la lata:
 
 ```bash
 marcos@CoDeR:~/Descargas$ sudo dpkg -i mysql-workbench-community-6.3.7-1ubu1604-amd64.deb
@@ -177,4 +178,8 @@ deleting=false
 CIERRAS SESIÓN (no hace falta reiniciar), y listo... funcionando ;)
 
 ***
-Si te ha resultado interesante el post, compártelo :)
+Compártelo si te ha gustado.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
