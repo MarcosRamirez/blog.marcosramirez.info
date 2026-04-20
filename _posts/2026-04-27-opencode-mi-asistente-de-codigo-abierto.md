@@ -54,3 +54,8 @@ Hay archivos que no entiendo o que heredé de otros proyectos. Le pido a OpenCod
 El código cerrado te atan a una plataforma. Si mañana OpenAI cambia sus precios o Anthropic modifica sus términos, te quedas sin herramienta. Con OpenCode traes tus propias API keys (de OpenAI, Claude, Gemini, lo que prefieras), y si quieres, hasta puedes usar modelos locales.
 
 Además, al ser open source, puedes auditar el código, reportar bugs y contribuir. No eres rehén de nadie.
+
+***
+¿Usas alguna herramienta de código abierto para tu día a día? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+
+Y... hasta aquí por hoy!
