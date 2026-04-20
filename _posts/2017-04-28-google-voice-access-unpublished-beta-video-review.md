@@ -19,3 +19,9 @@ permalink: /google-voice-access-unpublished-beta-video-review/
 Hola, hoy os traigo el review de Voice Access, una app (beta, y aún solo accesible a beta testers) para el manejo del móvil por voz. Como veréis en el vídeo, aún es bastante inestable... espero que os guste.
 
 {% include embed/youtube.html id='0-vlDWUIFaI' %}
+
+Compártelo si te ha gustan.
+
+¿Has проба algo similar? Cuéntame tu opinión.
+
+Y... hasta aquí por hoy!
