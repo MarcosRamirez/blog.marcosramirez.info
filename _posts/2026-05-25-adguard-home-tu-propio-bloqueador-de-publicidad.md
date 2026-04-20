@@ -67,34 +67,13 @@ Uso estos DNS como upstream:
 - Cloudflare: `1.1.1.1` y `1.1.1.1`
 - Google: `8.8.8.8` y `8.8.4.4`
 
-### DHCP del router
+### Configuración de red
 
-En mi router (pfSense), tengo configurado que todos los clientes reciban AdGuard Home como servidor DNS. Así no tengo que cambiar nada en los dispositivos.
+En mi router, configuro que todos los clientes reciban la IP del contenedor de AdGuard Home como servidor DNS.
 
 ## Cómo instalarlo
 
-La forma más fácil es mediante Docker Compose:
-
-```yaml
-services:
-  adguardhome:
-    image: adguard/adguardhome
-    container_name: adguardhome
-    ports:
-      - "53:53/tcp"
-      - "53:53/udp"
-      - "3000:3000/tcp"
-    volumes:
-      - ./work:/opt/adguardhome/work
-      - ./conf:/opt/adguardhome/conf
-    restart: unless-stopped
-```
-
-O si prefieres LXC, hay templates en los Proxmox Helper Scripts (solo para esto los uso, para el resto prefiero hacerlo a mano).
-
-## ¿Merece la pena?
-
-Sin duda. Verás cómo desaparecen los anuncios en YouTube, en apps de móvil, en webs... Y lo mejor es que no consume recursos prácticamente. Es el primer servicio que recomiendo a cualquiera que monte un Home Lab.
+La forma más fácil es usando los Proxmox Helper Scripts. Busca el template de AdGuard Home y sigue los pasos.
 
 ***
 
