@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2022-01-02 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/como-ahorro.webp
 categories: [Finanzas Personales, Ahorro e Inversión]
 tags: [ahorro, finanzas, presupuesto, consejos]
 pin: false
