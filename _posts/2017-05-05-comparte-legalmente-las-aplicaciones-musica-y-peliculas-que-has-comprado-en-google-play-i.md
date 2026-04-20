@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-05-05 19:25:30 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/google-play-family-i.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false
