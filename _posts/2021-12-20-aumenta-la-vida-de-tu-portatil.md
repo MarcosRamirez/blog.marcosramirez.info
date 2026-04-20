@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-12-20 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/aumenta-la-vida-de-tu-portatil.webp
 categories: [Productividad y Hacks, Life Hacks]
 tags: [hardware, batería, trucos, consejos]
 pin: false
