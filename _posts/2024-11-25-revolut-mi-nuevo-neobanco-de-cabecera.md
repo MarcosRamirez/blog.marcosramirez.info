@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-11-25 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/revolut-mi-nuevo-neobanco-de-cabecera.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [revolut, neobancos, finanzas, opinión]
 pin: false
