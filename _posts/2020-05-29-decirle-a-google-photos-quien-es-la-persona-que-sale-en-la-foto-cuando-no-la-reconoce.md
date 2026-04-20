@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2020-05-29 17:21:57 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/decirle-a-google-photos.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, android, trucos, opinión]
 pin: false
