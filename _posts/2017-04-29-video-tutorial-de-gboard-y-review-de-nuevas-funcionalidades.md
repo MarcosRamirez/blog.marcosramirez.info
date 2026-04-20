@@ -20,4 +20,10 @@ Hola, hoy os traigo un pequeño video tutorial de Gboard, así como un review de
 
 {% include embed/youtube.html id='8Q_TLQUUxvE' %}
 
-Espero que te sea útil, cualquier cosa, ¡comentario aquí, o por Twitter! :)
+Espero que te sea útil.
+
+Compártelo si te ha gustan.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
