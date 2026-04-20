@@ -55,6 +55,16 @@ Para alguien como yo que escribe mucho, [Wispr Flow](https://wisprflow.ai/r?MARC
 
 Tiene un plan gratuito con 2.000 palabras por semana en desktop y 1.000 en móvil. Actualizar a Pro para ilimitado sale $12 al mes, y merece cada céntimo si escribes más de unas pocas horas al día.
 
+### Retos para ganar días extra
+
+Una cosa que me ha encantado es que Wispr Flow tiene un sistema de retos diarios que te permiten ganar días extra de uso gratuito. Por ejemplo, si dictas 1.000 palabras en un día, te-regalan un día extra de Premium. Hay varios retos disponibles:
+
+- Dictar X palabras al día
+- Usar la app en diferentes aplicaciones
+- Mantener una racha de uso consecutivos
+
+Es una buena forma de probar la versión completa sin pagar mientras te familiarizas con la herramienta.
+
 El enlace de referido que te paso [https://wisprflow.ai/r?MARCOS1798](https://wisprflow.ai/r?MARCOS1798){:target="_blank"} te da 14 días gratis de prueba sin tarjeta.
 
 Compártelo si te ha gustado.
