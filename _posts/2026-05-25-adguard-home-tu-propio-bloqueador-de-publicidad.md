@@ -1,5 +1,5 @@
 ---
-title: "AdGuard Home: Tu propio bloqueador de publicidad y DNS"
+title: "AdGuard Home: Tu propio bloqueador de publicidad y DNS (Serie Home Lab)"
 slug: adguard-home-tu-propio-bloqueador-de-publicidad
 authors:
   - "Marcos Ramírez"
@@ -7,7 +7,7 @@ authors:
 date: 2026-05-25 08:30:00 +0200
 image: /assets/img/headers/adguard-home-tu-propio-bloqueador-de-publicidad.webp
 categories: [Tecnología, Redes e Infraestructura]
-tags: [adguard, dns, publicidad, privacidad, red, infraestructura]
+tags: [adguard, dns, publicidad, privacidad, red, infraestructura, home-lab]
 pin: false
 toc: true
 excerpt: "Os presento AdGuard Home, el primer servicio de mi serie de Home Lab. Un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo, protegiendo todos los dispositivos de tu red."
@@ -17,9 +17,11 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-# Por qué un DNS interceptivo
+# Serie Home Lab
 
-En el [post sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue **AdGuard Home**, y es probablemente el más útil de todos.
+Continuamos con la serie de Home Lab. En el [post sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue **AdGuard Home**, y es probablemente el más útil de todos.
+
+## Por qué un DNS interceptivo
 
 ## ¿Qué es AdGuard Home?
 
