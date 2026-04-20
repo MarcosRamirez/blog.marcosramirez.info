@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/opencode-mi-asistente-de-codigo-abierto.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [opencode, ia, código-abierto, cli, herramientas, productividad, software-de-cabecera]
 pin: false
