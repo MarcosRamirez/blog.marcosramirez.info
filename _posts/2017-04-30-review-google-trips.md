@@ -19,3 +19,9 @@ permalink: /review-google-trips/
 Hoy os traigo un tutorial, o review de Google Trips, la aplicación de planificación de viajes de Google.
 
 {% include embed/youtube.html id='Qpsh5pGs6tc' %}
+
+Compártelo si te ha gusta.
+
+¿Has проба algo similar? Cuéntame tu opinión.
+
+Y... hasta aquí por hoy!
