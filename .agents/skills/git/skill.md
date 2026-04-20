@@ -1,3 +1,8 @@
+---
+name: git
+description: Redactar mensajes de commit en español siguiendo Conventional Commits con Gitmojis. Úsalo siempre que vayas a hacer un commit.
+---
+
 ## Skill: Generación de Commits en Español (Estilo Directo)
 
 ### ⚠️ REGLAS OBLIGATORIAS
