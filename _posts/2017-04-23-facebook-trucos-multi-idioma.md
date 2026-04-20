@@ -10,7 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [facebook, trucos, tutorial, redes sociales]
 pin: false
 toc: false
-excerpt: "En este post explico cómo configurar Facebook para gestionar múltiples idiomas. Descubrirás cómo eliminar el aviso de traducción para los idiomas que hablas, configurar traducciones automáticas para otros idiomas que desees entender, y la posibilidad de crear publicaciones en varios idiomas simultáneamente que cada usuario verá en su propio idioma."
+excerpt: >-
+  En este post explico cómo configurar Facebook para gestionar múltiples idiomas. Descubrirás cómo eliminar el aviso de traducción para los idiomas que hablas, configurar traducciones automáticas para otros idiomas, y la posibilidad de crear publicaciones en varios idiomas simultáneamente.
 twitter_description: "Facebook permite gestionar idiomas: eliminar avisos de traducción, activar automáticas y publicar en varios idiomas."
 permalink: /facebook-trucos-multi-idioma/
 ---
@@ -51,4 +52,8 @@ Y lo bueno, es que nadie verá todos, cada uno lo verá en su propio idioma.
 
 Ahora, solo me falta... en mi obsesión por automatizar, ¿cómo hacer para que, cuando menos, siempre se pongan X idiomas en vez de tenerlo que hacer manualmente? Pero eso... será otro post.
 
-¡Y si alguien sabe como hacerlo, que me lo diga!
+Compártelo si te ha gustado.
+
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
