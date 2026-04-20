@@ -37,13 +37,13 @@ Si sigues el ecosistema de la Inteligencia Artificial, sabrás que la mayoría d
 
 Más allá de gestionar llamadas y citas, Lucía ahora me ayuda en tareas que antes me robaban horas:
 
-- **Redactar posts**: Me ayuda a escribir artículos para el blog. Le doy los conceptos generales, ella investiga, busca información actualizada y genera borradores que luego pulo. Hoy incluso se ha ocupado de que todos mis posts cumplan con la estructura definida en el skill de copywriting, recuperando información de cuando migré de WordPress a Jekyll que ni me había dado cuenta de que estaba pérdida.
+- **Redactar posts**: Me ayuda a escribir artículos para el blog. Le doy los conceptos generales, ella investiga, busca información actualizada y genera borradores que luego pulir. Hoy incluso se ha ocupado de que todos mis posts cumplan con la estructura definida en el skill de copywriting, recuperando información de cuando migré de WordPress a Jekyll que ni me había dado cuenta de que estaba pérdida.
 
 - **Gestión de correo**: Me resume los mails importantes y me prepara respuestas modelo, adaptándolas a mi estilo.
 
 - **Youtube**: Me resume los vídeos de mis suscripciones para que pueda decidir cuáles ver sin perder tiempo.
 
-- **Código**: Me ayuda a escribir y debuguear código, desde scripts de automatización hasta configuración de contenedores.
+- **Código**: Me ayuda a escribir y depurar código, desde scripts de automatización hasta configuración de contenedores.
 
 - **Administración del Home Lab**: Monitoriza mi conexión a internet, gestiona Home Assistant y me alerta de problemas antes de que me dé cuenta.
 

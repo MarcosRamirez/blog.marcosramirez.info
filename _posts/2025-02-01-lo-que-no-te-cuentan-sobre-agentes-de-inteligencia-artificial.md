@@ -21,7 +21,7 @@ Llevo aproximadamente cinco años el mundo de la inteligencia artificial, y apro
 
 ## ¿Por qué escribo este post?
 
-Desde que entré en el desarrollo profesional, y especialmente en el último año, frecuento foros, canales de Discord, etc... y veo muchísimo chaval haciendo vídeos en YouTube (con ejemplos que no llegan ni a prototipos, vendiendolos como profesionales), creando "agencias de IA" (al igual que sucedió con el marketting digital, el desarrolo y otras tantas cosas), lo cual, **no me parece mal** en si mismo, de hecho tal como están las cosas, me gusta ver gente joven emprendiendo.
+Desde que entré en el desarrollo profesional, y especialmente en el último año, frecuento foros, canales de Discord, etc... y veo muchísimo chaval haciendo vídeos en YouTube (con ejemplos que no llegan ni a prototipos, viéndolos como profesionales), creando "agencias de IA" (al igual que sucedió con el marketing digital, el desarrollo y otras tantas cosas), lo cual, **no me parece mal** en sí mismo, de hecho tal como están las cosas, me gusta ver gente joven emprendiendo.
 
 El problema, viene cuando tratan de vender algo, que claramente no solo no es profesional, ni cumple con las espectivas reales del cliente, sino que  en muchos casos, además, es ilegal, y ojo, estoy seguro de que no saben que están vendiendo algo ilegal, o incluso que su producto no es válido en el mundo real (el tema ético, si acaso, lo hablaremos luego).
 
