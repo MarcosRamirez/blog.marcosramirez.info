@@ -36,7 +36,7 @@ Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes inclui
   # Ejemplo para bash/shell
   comando --opcion argumento
   ```
-- **Para instalar con Proxmox Helper Scripts**:
+Ejemplo:
   ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/<servicio>.sh)"
   ```
@@ -173,11 +173,24 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 ### CTAs (Call to Action)
 
-- Al final de cada post, incluye siempre un CTA (Call to Action).
-- Si el CTA es para que el lector contacte, usa: `[Contacto](https://marcosramirez.info/contacto/){:target="_blank"}`
-- El CTA debe ser natural y relacionado con el contenido del post.
-- Evita CTAs genéricos; personalízalos según el tema.
+- **El blog NO tiene sistema de comentarios.** No ofrezcas "déjame un comentario" o "en los comentarios".
+- Usa siempre "escríbeme", "contacta conmigo" o similar, enlazando a [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
+- **CTAs inline**: No pongas CTAs solo al final. Inclúyelos a lo largo del post cuando tenga sentido:
+  - Después de explicar algo complejo → "Si necesitas ayuda, escríbeme."
+  - Después de listas de ventajas → "¿Te interesa este servicio?"
+  - Después de pasos de configuración → "¿Dudas con el setup?"
+- Al final del post → CTA principal de contacto.
 
-**Correcciones a aplicar:**
+### Despedida
+
+- **Tipo de post → Despedida:**
+  - **Técnico/Tutorial**: "¿Tienes dudas con la configuración? Escríbeme."
+  - **Opinión/Reflexión**: "¿Qué opinas? Cuéntame."
+  - **Serie (Home Lab)**: "¿Quieres ver el siguiente servicio de la serie? Stay tuned."
+  - **Reseña**: "¿Has probado algo similar? Cuéntame tu opinión."
+  - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
+- **Firma**: "Y... hasta aquí por hoy!"
+
+### Correcciones
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
 - Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`
