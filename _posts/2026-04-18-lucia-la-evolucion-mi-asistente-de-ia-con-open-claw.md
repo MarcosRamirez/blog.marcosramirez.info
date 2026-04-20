@@ -19,7 +19,7 @@ permalink: /:slug/
 
 # Más allá del chat: Automatización real
 
-Desde que os hablé de Lucía en mi [Resumen de Febrero 2025]({% post_url 2025-03-01-Resumen-Febrero-2025 %}), su evolución no ha parado. Lo que empezó como un agente de voz para gestionar llamadas y citas, se ha convertido hoy en un sistema mucho más complejo y, sobre todo, **autónomo**.
+Desde que os hablé de Lucía en mi [Resumen de Febrero 2025]({% post_url resumen-febrero-2025 %}), su evolución no ha parado. Lo que empezó como un agente de voz para gestionar llamadas y citas, se ha convertido hoy en un sistema mucho más complejo y, sobre todo, **autónomo**.
 
 La gran diferencia este año ha sido el cambio de motor: el paso a [OpenClaw](https://openclaw.ai/){:target="_blank"}.
 
@@ -51,7 +51,7 @@ Más allá de gestionar llamadas y citas, Lucía ahora me ayuda en tareas que an
 
 ## El cerebro en casa (Home Lab)
 
-Para los que me seguís por mis posts sobre [Proxmox]({% post_url 2026-04-13-por-que-no-uso-proxmox-helper-scripts %}), os interesará saber que Lucía corre ahora en un contenedor dedicado dentro de mi infraestructura. No es solo un "juguete" técnico; es una herramienta que gestiona mis LEADS, filtra mis notificaciones y, sobre todo, protege mi tiempo.
+Para los que me seguís por mis posts sobre [Proxmox]({% post_url por-que-no-uso-proxmox-helper-scripts %}), os interesará saber que Lucía corre ahora en un contenedor dedicado dentro de mi infraestructura. No es solo un "juguete" técnico; es una herramienta que gestiona mis LEADS, filtra mis notificaciones y, sobre todo, protege mi tiempo.
 
 La transición a OpenClaw me ha permitido "desacoplar" la lógica de negocio (quién es Lucía y qué debe hacer) de la plataforma de mensajería o el modelo de lenguaje subyacente. 
 
