@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2020-05-25 09:01:57 +0200
 image: /assets/img/headers/notificacion-en-google-calendar-de-los-cumpleanos.webp
-categories: [Tecnología, Software y Apps]
-tags: [google, trucos, opinión]
+categories: [Tecnología]
+tags: [Software y Apps, Life Hacks]
 pin: false
 toc: false
 excerpt: "Uno de los problemas del primer mundo que más tiempo me ha molestado: los cumpleaños de los contactos en Google Calendar. Tienes todos tus contactos en Google Contacts con sus fechas de nacimiento marcadas, y aparecen en el calendario de contactos, pero el calendario creado por Google no permite configurar absolutamente NADA, ni siquiera notificaciones. Te cuento cómo contactar a Google para solicitar esta funcionalidad y qué soluciones alternativas existen."
@@ -21,7 +21,7 @@ permalink: /notificacion-en-google-calendar-de-los-cumpleanos-de-los-contactos/
 
 Bueno, pues aquí está el primero de mis problemas del primer mundo, y este es uno de los que lleva más tiempo molestándome... y que no tiene una solución 100% definitiva, pero que puede llegar a tenerla, si damos un poco la vara tal como el propio equipo de Google dice en las conversaciones que mantuve con ellos, y podréis ver en este post.
 
-El problema, imagino que muchos lo conocéis: tenéis vuestros contactos en Google Contacts, y muchos de ellos habéis marcado cuando es su cumpleaños, y os aparece en Google Calendar en el calendario "contacts".
+El problema, imagino que muchos lo conocéis: tenéis vuestros contactos en [Google Contacts](https://contacts.google.com/){:target="_blank"}, y muchos de ellos habéis marcado cuando es su cumpleaños, y os aparece en [Google Calendar](https://calendar.google.com/){:target="_blank"} en el calendario "contacts".
 
 Hasta aquí todo genial, salvo porque el calendario "contacts", creado por Google, **no permite configurar NADA**.
 
@@ -40,3 +40,7 @@ Y, de momento, la solución que da Google es que [LA SOLICITEMOS](https://suppor
 Ya que, de momento, parece que es lo único que podemos hacer.
 
 Espero que pronto tenga mejor solución y que este post sirva de algo.
+
+Compártelo si te ha gustado. ¿Has solicitado esta funcionalidad a Google? Cuéntame.
+
+Y... hasta aquí por hoy!
