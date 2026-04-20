@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2021-12-13 18:50:00 +0100
 image: /assets/img/headers/megas.png
-categories: [Tecnología, Redes e Infraestructura]
-tags: [redes, internet, fibra, opinión]
+categories: [Tecnología]
+tags: [Redes e Infraestructura, Reflexiones y Opinión]
 pin: false
 toc: true
 excerpt: "En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps. Una familia de 8 personas haciendo videollamada (15Mbps), dos viendo 4K (50Mbps), tres viendo streaming HD (15Mbps) y uno jugando online (10Mbps) necesita apenas 90Mbps en total. El precio medio de 600Mbps es de 45€/mes, pero no hay justificación técnica para contratar más de 100Mbps para la gran mayoría de usuarios."
@@ -55,6 +55,6 @@ ninguna operadora, que yo sepa, que ofrezca estos precios, o servicios, y es una
 Ya que no hay ningún tipo de limitación técnica para ofrecerte menos caudal, de hecho, 600Mbs, es un caudal menor al máximo que podrían ofrecerte, ergo,
 ya están aplicando la base tecnológica.
 
+Compártelo si te ha gusta. ¿Cuántos megas tienes contratados? Cuéntame.
 
-***
-No olvides compartir el post si te ha gustado
+Y... hasta aquí por hoy!
