@@ -186,7 +186,7 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 - **Tipo de post → Despedida:**
   - **Técnico/Tutorial**: "¿Tienes dudas con la configuración? Escríbeme."
   - **Opinión/Reflexión**: "¿Qué opinas? Cuéntame."
-  - **Serie (Home Lab)**: "¿Quieres ver el siguiente servicio de la serie? Stay tuned."
+  - **Serie**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
   - **Reseña**: "¿Has probado algo similar? Cuéntame tu opinión."
   - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
 - **Firma**: "Y... hasta aquí por hoy!"

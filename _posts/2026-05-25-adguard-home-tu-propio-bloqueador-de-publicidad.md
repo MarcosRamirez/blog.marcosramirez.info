@@ -79,6 +79,10 @@ La forma más fácil es usando los [Proxmox Helper Scripts](https://community-sc
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/adguard.sh)"
 ```
 
+¿Dudas con el setup? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo.
+
 ***
 
-¿Te interesa montar tu propio AdGuard Home? ¿Tienes dudas sobre la configuración? Déjame un comentario y lo discutimos. Y si quieres que te ayude con tu Home Lab, escríbeme en [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Quieres ver el siguiente servicio de la serie? Stay tuned.
+
+Y... hasta aquí por hoy!
