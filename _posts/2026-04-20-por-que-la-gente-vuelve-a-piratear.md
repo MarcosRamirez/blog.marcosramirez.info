@@ -16,8 +16,7 @@ permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
 
-> [!NOTE]
-> **Aviso:** Este post es un análisis técnico y de mercado sobre las tendencias de consumo digital. No pretendo, bajo ningún concepto, hacer apología de la piratería ni fomentar la descarga ilegal de contenido protegido por derechos de autor. Mi objetivo es simplemente reflexionar sobre cómo la fragmentación del servicio afecta al comportamiento del usuario.
+> ⚠️ **Aviso:** Este post es un análisis técnico y de mercado sobre las tendencias de consumo digital. No pretendo, bajo ningún concepto, hacer apología de la piratería ni fomentar la descarga ilegal de contenido protegido por derechos de autor. Mi objetivo es simplemente reflexionar sobre cómo la fragmentación del servicio afecta al comportamiento del usuario.
 
 # El fin de la edad de oro del streaming
 
