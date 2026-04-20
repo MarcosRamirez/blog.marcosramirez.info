@@ -31,16 +31,16 @@ Este mes le he dedicado algo más de tiempo, y tiene capacidades nuevas:
 
 - Discrimina el horario laboral (y, evidentemente lo tiene en cuenta para todas las funciones)
 - Transfiere llamadas según personas/departamento
-- Tiene un "BackUp" para cuando falla el inbound webhook (Muchas plataformas, antes de pasarle la llamada, hacen una llamada a un webhook para facilitarle información, que aprovecho para yo pasarle variables antes, en vez de durante la llamada, ahora, si la plataforma no ahce la llamda, Lucia la hace "en tiempo real", se pierden algunos datos proporcionados por la plataforma,pero.. no todo)
+- Tiene un "BackUp" para cuando falla el inbound webhook (Muchas plataformas, antes de pasarle la llamada, hacen una llamada a un webhook para facilitarle información, que aprovecho para yo pasarle variables antes, en vez de durante la llamada, ahora, si la plataforma no hace la llamada, Lucía la hace "en tiempo real", se pierden algunos datos proporcionados por la plataforma,pero.. no todo)
 - He mejorado el habla, tenía problemas con algunas palabras concretas, por ejemplo, era incapaz de decir "Ainhoa" 🤷🏻‍♂️.
 
 Además de todo lo que ya hace (que creo que no lo he dicho)
 
 - Agenda citas
 - Gestiona llamadas del tipo "me confundí, tengo una llamada perdida vuestra, etc.."
-- Da información sobre los servicios (base de datos vectorial, con ingesta automatizada desde diferentes fuentes)m y ojo a esto, búsqueda en tiempo real solo para temas relacionados con mis servicios.
+- Da información sobre los servicios (base de datos vectorial, con ingesta automatizada desde diferentes fuentes) y ojo a esto, búsqueda en tiempo real solo para temas relacionados con mis servicios.
 - Asesora a los clientes
-- Propone ahcer consultorías con expertos cuando ella ya no llega a informar (o cuando no la dejo, para rematar yo la venta ;)
+- Propone hacer consultorías con expertos cuando ella ya no llega a informar (o cuando no la dejo, para rematar yo la venta ;)
 - Hace toma de requisitos
 - Inserta LEADS en el CRM
 - Intenta hacer venta cruzada (básica)
