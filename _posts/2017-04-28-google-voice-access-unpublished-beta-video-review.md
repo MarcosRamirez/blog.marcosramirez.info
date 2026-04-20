@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-28 09:16:35 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/google-voice-access.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, android, review, accesibilidad]
 pin: false
