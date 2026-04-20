@@ -31,7 +31,7 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
 
 ### Nombres de archivos
 - Los nombres de los archivos deben estar en formato slug, es decir, en minúsculas y con guiones en lugar de espacios. Comenzando por la fecha de publicación como por ejemplo: `2025-01-19-Mi plan para 2025.md`
-- Es *** MUY IMPORTANTE *** que el nombre del archivo sea el slug del post, no el título del post.
+- Es *** MUY IMPORTANTE *** que el nombre del archivo sea: `fecha-slug.md` (ej: `2025-01-19-mi-post.md`). La fecha debe ser la de publicación, no la de creación.
 - *** NO DEBEN CONTENER ESPACIOS EN BLANCO *** Si encuentras espacios en blanco en el nombre del archivo, reemplázalos por guiones. y asegúrate de que el nombre del archivo sea el slug del post.
 
 ### Redactar el excerpt
