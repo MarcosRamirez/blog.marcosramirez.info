@@ -31,7 +31,7 @@ Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes inclui
 - El valor por defecto del campo pin es false.
 - El valor por defecto del campo toc es true.
 - **El valor por defecto del campo permalink es el slug del post (sin fecha).**
-- **Para enlazar a otros posts, USA el SLUG directamente** (ej: `{% post_url mi-slug-del-post %}`), NO uses `% post_url %` ya que ese genera la URL con fecha y no es correcto. El slug es lo que va en la URL final.
+- **Para enlazar a otros posts, usa el tag `{% post_url %}` con el NOMBRE COMPLETO del archivo** (incluyendo fecha): `{% post_url 2025-03-01-resumen-febrero-2025 %}` - el nombre del archivo debe tener el formato `YYYY-MM-DD-slug.md`.
 
 
 ### Nombres de archivos
