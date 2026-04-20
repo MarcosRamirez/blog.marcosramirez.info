@@ -21,7 +21,7 @@ permalink: /:slug/
 
 Antes de nada, si no sabes qué es un Home Lab, no te preocupes. No es cosa de científicos locos ni de películas de hackers con cables por todas partes.
 
-Un Home Lab, en su versión más sencilla, es tener un ordenador pequeño (puede ser desde una Raspberry Pi de 35€ hasta un servidor recuperadode un antiguo equipo de oficina) funcionando 24/7 en casa. Ese ordenador ejecuta servicios que de otro modo usarías en la nube: tu propia nube de archivos, tu propio servidor de Medios, tu propio DNS que bloquea publicidad, tu propio calendario, tu propio correo...
+Un Home Lab, en su versión más sencilla, es tener un ordenador pequeño (puede ser desde una Raspberry Pi de 35€ hasta un servidor recuperado de un antiguo equipo de oficina) funcionando 24/7 en casa. Ese ordenador ejecuta servicios que de otro modo usarías en la nube: tu propia nube de archivos, tu propio servidor de Medios, tu propio DNS que bloquea publicidad, tu propio calendario, tu propio correo...
 
 Básicamente, es tener en tu casa lo que las grandes tecnológicas te cobran, pero en miniatura y con tu nombre.
 
@@ -37,7 +37,7 @@ Al tener un Home Lab, mis datos viven en hardware que yo poseo. Mis discos duros
 
 ### La Estrategia del "De-clouding"
 
-Este proceso de migración desde servicios SaaS hacia alternativas auto-alojadas es lo que llamo "de-clouding". No se trata de abandonar la nube por lengkap, sino de elegir qué stays en ella y qué no.
+Este proceso de migración desde servicios SaaS hacia alternativas auto-alojadas es lo que llamo "de-clouding". No se trata de abandonar la nube por completo, sino de elegir qué stays en ella y qué no.
 
 | Antes (SaaS) | Ahora (Self-hosted) |
 |---|---|
@@ -51,7 +51,7 @@ Cada servicio que migro es un servicio que dejo de pagar con mi privacidad.
 
 ### Independencia de Terceros
 
-Las empresas cambian sus términos de servicio de la noche a la mañana. Suben precios. Cierran plataformas. Recuerdas Google+? ¿O Reader? ¿O Inbox? Yo sí. Cuandodependes de terceros, estás a merced de sus decisiones de negocio. Un cierre de plataforma puede significar perder acceso a años de datos organizados.
+Las empresas cambian sus términos de servicio de la noche a la mañana. Suben precios. Cierran plataformas. Recuerdas Google+? ¿O Reader? ¿O Inbox? Yo sí. Cuando dependes de terceros, estás a merced de sus decisiones de negocio. Un cierre de plataforma puede significar perder acceso a años de datos organizados.
 
 Con mi propia infraestructura, el único que puede decidir cuándo algo muere soy yo.
 
@@ -65,7 +65,7 @@ No hay "empleado de soporte" que pueda acceder a mi correo para "ayudarme con un
 
 ### Cifrado y Auditoría
 
-Implemento mis propios certificados SSL/TLS. Puedo auditar cada log del sistema. Sé exactamente qué entra y qué sale de mi red. Cuandoconfiguro un servicio, soy consciente de cada puerto abierto, cada conexión establecida.
+Implemento mis propios certificados SSL/TLS. Puedo auditar cada log del sistema. Sé exactamente qué entra y qué sale de mi red. Cuando configuro un servicio, soy consciente de cada puerto abierto, cada conexión establecida.
 
 Esta visibilidad es imposible en la mayoría de servicios SaaS, donde la "magia" del proveedor oculta la complejidad (y los riesgos).
 
