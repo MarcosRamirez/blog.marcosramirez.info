@@ -52,3 +52,9 @@ De manera más o menos regular, me llegan peticiones de ayuda, ofertas de empleo
 - Solucionarte cualquier "papeleta" por la cara.
 - Instalar software pirata
 - Cualquier otro tipo de actividad ilegal, o inmoral
+
+Compártelo si te ha gusta.
+
+¿Tienes algún proyecto interesante? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
