@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2022-02-01 08:50:00 +0100
 image: /assets/img/headers/n26-mi-neo-banco-de-cabecera.webp
-categories: [Finanzas Personales, Bancos y Fintech]
-tags: [neobancos, n26, finanzas, opinión]
+categories: [Finanzas Personales]
+tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false
 toc: true
 excerpt: "Analizo mi experiencia con N26 y el auge de los neobancos frente a la banca tradicional. Como informáticos, nos molesta que una transferencia tarde días cuando es un proceso que dura segundos. Desde noviembre de 2017 el BCE permite transferencias inmediatas (menos de 20 segundos), pero los bancos tradicionales siguen sin usarlas y cobran hasta 6€ por transferencias instantáneas. Los neobancos ofrecen cuentas sin comisiones, tarjetas de débito virtuales instantáneas, tarjetas físicas personalizables, monederos de ahorro automatizados y transfersias inmediatas gratis."
@@ -79,14 +79,16 @@ Pues bien, a día de hoy, TODOS los neo bancos, ofrecen esto mismo, mejorado.
 
 ## Comisiones
 
-A ver, Marcos.. que no dejas de decir "todos los neo bancos", entonces... ¿por qué <a href="https://n26.com/r/marcosr8764" target="_blank">N26</a>s?
+A ver, Marcos.. que no dejas de decir "todos los neo bancos", entonces... ¿por qué [N26](https://n26.com/r/marcosr8764){:target="_blank"}?
 
 Pues... por que es el único que, por contrato, me dice que no me va a cobrar comisiones de ningún tipo.
 
 Así de simple, ¿verdad? :)
 
 
-Y... esto es todo, si te ha resultado interesante, por favor, comparte el post, y considera suscribirte a la newsletter, para estar al día de todo lo que publico.
+Compártelo si te ha gusta. ¿Qué neobanco usas? Cuéntame.
+
+Y... hasta aquí por hoy!
 
 ***
 No olvides compartir el post si te ha gustado
