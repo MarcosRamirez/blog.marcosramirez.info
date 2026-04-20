@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-30 12:53:56 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/google-trips.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, review, viajes]
 pin: false
