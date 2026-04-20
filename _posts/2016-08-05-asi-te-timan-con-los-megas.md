@@ -10,7 +10,8 @@ tags: [redes, internet, fibra, curiosidades]
 pin: false
 toc: true
 image: /assets/img/headers/megas.png
-excerpt: "En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades que no obtenemos realmente. Desentraño la diferencia entre bits y bytes, explico por qué tu conexión de 100Mbps no baixa a 100MB/s, y por qué el técnico que vino a casa no sabía nada del assunto. Este post contiene información técnica y matemática básica que puede ampliar tu cultura informática."
+excerpt: >-
+  En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades que no obtenemos realmente. Desentraño la diferencia entre bits y bytes, explico por qué tu conexión de 100Mbps no baixa a 100MB/s, y por qué el técnico que vino a casa no sabía nada del asunto. Este post contiene información técnica y matemática básica que puede ampliar tu cultura informática.
 twitter_description: "Megabits vs Megabytes: la confusión técnica que usan las operadoras para timarte."
 permalink: /asi-te-timan-con-los-megas/
 ---
@@ -65,3 +66,9 @@ permalink: /asi-te-timan-con-los-megas/
 <p>Vigila las mayúsculas, y las minúsculas... y...</p>
 <p>Si queréis saber más, aquí tenéis la <a href="https://es.wikipedia.org/wiki/Prefijo_binario" target="_blank">tabla de prefijos binarios</a> (de base 10 y base 2, o decimales y binarios), donde descubriréis los "mebibytes" por ejemplo, ideal para que los cuñados la lien más aún.</p>
 <p>&nbsp;</p>
+
+<p>Compártelo si te ha gustado.</p>
+
+<p>¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.</p>
+
+<p>Y... hasta aquí por hoy!</p>
