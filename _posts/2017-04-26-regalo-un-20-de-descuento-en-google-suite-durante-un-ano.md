@@ -34,8 +34,10 @@ Pero, [¿quién mejor que ellos para explicártelo?](https://vivirtecleando.file
 
 Para obtener dicho descuento, debes seguir estos pasos:
 
-1. Regístrate en [GSuite](https://goo.gl/MazWd7){:target="_blank"} (**el código únicamente funcionará si te registras desde [este link](https://goo.gl/MazWd7){:target="_blank"}**)
-2. Indica el siguiente código: **PDHDKXU3AKMCDL9** (si falla, es que alguien se te anticipó; déjame un comentario y te daré otro, por desgracia no puedo automatizar esto). Del mismo modo, agradeceré que me avises cuando lo uses, para poner otro.
+1. Regístrate en [GSuite](https://workspace.google.com/){:target="_blank"} (**el código únicamente funcionará si te registras desde [este link](https://workspace.google.com/){:target="_blank"}**)
+2. Indica el siguiente código: **PDHDKXU3AKMCDL9** (si falla, es que alguien se te anticipó; escríbeme y te daré otro, por desgracia no puedo automatizar esto). Del mismo modo, agradeceré que me avises cuando lo uses, para poner otro.
 3. La oferta es efectiva durante doce meses tras el registro, por lo que si no empiezas a pagar desde el minuto cero, no aprovecharás la oferta al 100%.
 
-Y, eso es todo, espero poder ahorraros algo, o mucho dinero :)
+Compártelo si te ha gustado. ¿Te ha parecido útil este descuento? [Escríbeme](https://marcosramirez.info/contacto/) si tienes alguna duda.
+
+Y... hasta aquí por hoy!
