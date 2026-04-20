@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-29 09:02:59 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/gboard-tutorial.webp
 categories: [Tecnología, Software y Apps]
 tags: [google, gboard, android, tutorial, review]
 pin: false
