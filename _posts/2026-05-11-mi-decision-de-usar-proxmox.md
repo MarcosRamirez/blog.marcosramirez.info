@@ -92,7 +92,7 @@ Con Proxmox puedo ir escalando:
 
 Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocultas. Sin magia.
 
-En el [post dedicado a los helper scripts]({% post_url 2026-05-18-por-que-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
+En el [post dedicado a los helper scripts]({% post_url por-que-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
 
 ***
 

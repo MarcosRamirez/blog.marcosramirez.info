@@ -30,7 +30,8 @@ Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes inclui
 - El valor por defecto del campo image es `/assets/img/headers/default.webp`.
 - El valor por defecto del campo pin es false.
 - El valor por defecto del campo toc es true.
-- El valor por defecto del campo permalink es el slug del post.
+- **El valor por defecto del campo permalink es el slug del post (sin fecha).**
+- **Para enlazar a otros posts, USA el SLUG directamente** (ej: `{% post_url mi-slug-del-post %}`), NO uses `% post_url %` ya que ese genera la URL con fecha y no es correcto. El slug es lo que va en la URL final.
 
 
 ### Nombres de archivos

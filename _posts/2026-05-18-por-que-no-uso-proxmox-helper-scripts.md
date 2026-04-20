@@ -16,7 +16,7 @@ permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
 
-En el [post anterior sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté por qué elegí Proxmox como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
+En el [post anterior sobre Proxmox]({% post_url mi-decision-de-usar-proxmox %}) os conté por qué elegí Proxmox como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
 
 # El encanto de lo fácil
 
@@ -59,4 +59,5 @@ En paralelo, tengo un LXC o VM dedicado **exclusivamente a ser el servidor de ba
 Es cierto que se pierde el factor "magia" y la inmediatez de los scripts, pero se gana en robustez, te obliga a entender cómo funcionan por detrás las aplicaciones que hospedas y, a la larga, tu homelab consumirá muchos menos recursos.
 
 ***
-No olvides compartir el post si te ha gustado.
+
+¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? Déjame un comentario y lo discutimos. Y si quieres que te ayude con tu Home Lab, escríbeme en [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
