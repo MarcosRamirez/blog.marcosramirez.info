@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2020-05-03 12:51:00 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/confinamiento-mis-objetivos.webp
 categories: [Personal y Desarrollo Profesional, Reflexiones y Opinión]
 tags: [opinión, personal, objetivos, teletrabajo]
 pin: false
