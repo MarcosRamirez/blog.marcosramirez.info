@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-18 08:30:00 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/lucia-la-evolucion-mi-asistente-de-ia-con-open-claw.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, lucia, openclaw, agentes, automatizacion, self-hosted]
 pin: false
