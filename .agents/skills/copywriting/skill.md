@@ -29,13 +29,17 @@ Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes inclui
 - Ejemplo: "Uso [AdGuard Home](https://adguard.com/) para bloquear publicidad" (la primera mención tiene enlace).
 - Usa `{:target="_blank"}` en todos los enlaces externos para que se abran en nueva pestaña.
 
-### Proxmox Helper Scripts
+### Comandos
 
-- **Para posts sobre Proxmox que explique cómo instalar servicios, usa este comando**:
+- **Para cualquier comando que menciones en un post, usa bloques de código markdown** con el lenguaje apropiado:
+  ```bash
+  # Ejemplo para bash/shell
+  comando --opcion argumento
+  ```
+- **Para instalar con Proxmox Helper Scripts**:
   ```bash
   bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/<servicio>.sh)"
   ```
-- Enlace oficial: https://community-scripts.org/
 
 ### Estructura de los posts
 
