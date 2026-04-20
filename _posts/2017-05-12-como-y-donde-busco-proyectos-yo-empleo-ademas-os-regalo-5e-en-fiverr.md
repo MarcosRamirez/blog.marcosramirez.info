@@ -16,7 +16,7 @@ permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr
 ---
 ![Post Header]({{ page.image }})
 
-El otro día hablaba sobre [tips para contratarme, o solicitarme ayuda](/quieres-que-te-ayude-quieres-contratarme/). Hoy, os voy a hablar sobre las diferentes webs que utilizo cuando busco empleo, o proyectos.
+El otro día hablaba sobre [tips para contratarme, o solicitarme ayuda]({% post_url 2017-05-07-quieres-que-te-ayude-quieres-contratarme %}). Hoy, os voy a hablar sobre las diferentes webs que utilizo cuando busco empleo, o proyectos.
 
 Imagino que muchos conoceréis Infojobs, o Tecnoempleo, por eso, voy a poner algunas más, que muchos podéis desconocer.
 
@@ -47,18 +47,24 @@ No utilizo demasiados portales, como verás, pero sí utilizo estas "tácticas":
 
 Y, bueno... alguna más, pero ya es personal, y no... os lo cuento.
 
-[**Infojobs**](http://www.infojobs.es){:target="_blank"}: Para buscar empleos como programador senior, suele haber algunas ofertas de líder de equipo, y de vez en cuando, alguna como CTO.
+[**Infojobs**](https://www.infojobs.net){:target="_blank"}: Para buscar empleos como programador senior, suele haber algunas ofertas de líder de equipo, y de vez en cuando, alguna como CTO.
 
-[**TecnoEmpleo**](http://www.tecnoempleo.es){:target="_blank"}: Básicamente, aparece lo mismo que en Infojobs, y, sinceramente, a mí me resulta molesto que muchas veces me redirige a "página del cliente", pero bueno...
+[**TecnoEmpleo**](https://www.tecnoempleo.com){:target="_blank"}: Básicamente, aparece lo mismo que en Infojobs, y, sinceramente, a mí me resulta molesto que muchas veces me redirige a "página del cliente", pero bueno...
 
-[**Experteer**](http://www.experteer.es){:target="_blank"}: Está más centrada a puestos directivos, y llevada por "Head Hunters". Ahora desconozco cómo será, pero a mí me invitó un Head Hunter hace años, dado que había que pasar un proceso previo de selección antes de entrar.
+[**Experteer**](https://www.experteer.es){:target="_blank"}: Está más centrada a puestos directivos, y llevada por "Head Hunters". Ahora desconozco cómo será, pero a mí me invitó un Head Hunter hace años, dado que había que pasar un proceso previo de selección antes de entrar.
 
 ## Búsqueda de proyectos
 
 Los proyectos como freelance, básicamente hago lo mismo que para empleo, pero haciendo más hincapié en que si soy freelance, lo soy para todo: horarios, oficinas, etc... (me jode mucho lo del "falso autónomo" para ahorrarse pasta).
 
-[**Infojobs Freelancers**](http://freelance.infojobs.net){:target="_blank"}: Esta es mi página principal para buscar proyectos nacionales (España).
+[**Infojobs Freelancers**](https://freelance.infojobs.net){:target="_blank"}: Esta es mi página principal para buscar proyectos nacionales (España).
 
 [**Fiverr**](https://www.fiverr.com/s2/cea1b703c5){:target="_blank"}: Fiverr te permite contratar "Gigs" que en realidad no son más que tareas, por $5, o a partir de $5... tienes freelancers de todo tipo: músicos, programadores, diseñadores, locutores, etc... Lo conozco hace tiempo, pero solo hace unos días que puse "Gigs" y la verdad, parece que funciona bastante bien: en solo un día me han contactado tres personas, nada mal. **Si os dáis de alta desde [este link](https://www.fiverr.com/s2/cea1b703c5){:target="_blank"}, tendréis 5€ para pagar a cualquiera de los freelancers de la página**.
 
 Y, eso es todo, espero que os sirva de ayuda.
+
+Compártelo si te ha gusta.
+
+¿Tienes alguna pregunta sobre buscar proyectos? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+
+Y... hasta aquí por hoy!
