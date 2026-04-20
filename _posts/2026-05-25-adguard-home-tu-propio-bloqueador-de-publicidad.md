@@ -54,7 +54,7 @@ Desde la UI de AdGuard Home puedes ver exactamente qué se está bloqueando, des
 
 ### 4. Listas personalizadas
 
-Viene con listas preconfiguradas (EasyList, AdGuard DNS filter), pero puedes añadir las tuyas propias. Yo tengo listas adicionales para bloquear trackers de redes sociales y stuff de TikTok.
+Viene con listas preconfiguradas ([EasyList](https://easylist.to/){:target="_blank"}, [AdGuard DNS filter](https://github.com/AdAway/adaway.github.io){:target="_blank"}), pero puedes añadir las tuyas propias. Yo tengo listas adicionales para bloquear trackers de redes sociales y stuff de [TikTok](https://www.tiktok.com/){:target="_blank"}.
 
 ## Mi configuración
 
@@ -75,7 +75,7 @@ En mi router, configuro que todos los clientes reciban la IP del contenedor de A
 
 ## Cómo instalarlo
 
-La forma más fácil es usando los Proxmox Helper Scripts. Busca el template de AdGuard Home y sigue los pasos.
+La forma más fácil es usando los [Proxmox Helper Scripts](https://tteck.github.io/Proxmox/){:target="_blank"}. Busca el template de AdGuard Home y sigue los pasos.
 
 ***
 
