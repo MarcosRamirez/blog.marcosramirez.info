@@ -10,7 +10,8 @@ categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos como sus fallos de UX que carried años sin solucionarse. En este post propongo mejoras concretas para la gestión de las listas de visualización, el molesto aviso de ¿Sigues ahí? que aparece cada 15 minutos, y la integración con Chromecast que sigue sin funcionar correctamente. Analizo por qué Netflix ha perdido la esencia del videoclub y cómo competidores como HBO o Amazon Prime están superando su experiencia de usuario."
+excerpt: >-
+  Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos como sus fallos de UX que carry años sin solucionarse. En este post propongo mejoras concretas para la gestión de las listas de visualización, el molesto aviso de "¿Sigues ahí?" y la integración con Chromecast.
 twitter_description: "Crítica de UX a Netflix: listado, Chromecast, avisos y más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
@@ -51,4 +52,8 @@ Lo que hace, que tengas que estar reconectando constantemente, para poder pausar
 
 No voy a entrar a valorar si es una buena, o mala funcionalidad, simplemente, creo que debería existir la posibilidad de eliminar dicha funcionalidad... ¿por qué? Por que prefiero "volver atrás" si me quedo dormido, o lo que sea, a que me esté "molestando" cada x tiempo.
 
-Y, eso es todo, si alguien puede aportar información al respecto, ya sabe... ¡comentario!
+Compártelo si te ha gustado.
+
+¿Has probado algo similar? Cuéntame tu opinión.
+
+Y... hasta aquí por hoy!
