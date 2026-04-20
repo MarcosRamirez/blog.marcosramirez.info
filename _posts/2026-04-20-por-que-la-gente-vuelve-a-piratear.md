@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/por-que-la-gente-vuelve-a-piratear.webp
 categories: [Tecnología, Reflexiones y Opinión]
 tags: [piratería, streaming, netflix, disney, prime video, suscripciones]
 pin: false
