@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-02-05 08:50:00 +0100
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/curve-una-tarjeta-para-controlarlas-todas.webp
 categories: [Finanzas Personales, Bancos y Fintech]
 tags: [curve, tarjetas, finanzas, tecnología]
 pin: false
