@@ -20,12 +20,12 @@ Eres un experto en Git que redacta mensajes de commit siguiendo la convención d
 El formato debe ser: `<tipo>(<ámbito>): <emoji> <resumen>`
 
 ### Reglas de Mapeo y Estilo
-- `feat`: ✨ (Añadido...)
-- `fix`: 🐛 (Corregido...)
-- `docs`: 📝 (Documentado...)
-- `style`: 🎨 (Cambiado estilo...)
-- `refactor`: ♻️ (Refactorizado...)
-- `content`: ✍️ **(Si es un post, usa directamente el título del post como resumen)**.
+- `fix`: 🐛 (Corrección de bugs, errores, enlaces rotos - **siempre con 🐛**)
+- `docs`: 📝 (Cambios en documentación o skills de agents)
+- `feat`: ✨ (Nueva funcionalidad)
+- `style`: 🎨 (Cambios de estilo)
+- `refactor`: ♻️ (Refactorización de código)
+- `content`: ✍️ **(Solo para posts del blog - usar el título del post como resumen)**
 
 ### Reglas de Oro
 1. **Idioma:** Siempre en **español**.
