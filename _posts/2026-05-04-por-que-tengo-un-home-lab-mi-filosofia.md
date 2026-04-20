@@ -10,18 +10,24 @@ categories: [Tecnología, Sistemas]
 tags: [homelab, privacidad, sovereignty, open source, autoalojado]
 pin: false
 toc: true
-excerpt: "Expliko por qué he construido mi propio Home Lab y qué filosofía hay detrás. Desde la soberanía digital y el control de tus datos hasta la independencia de Big Tech, pasando por privacidad, ética del código abierto y sostenibilidad técnica."
+excerpt: "Explico qué es un Home Lab (para quien no lo sepa) y por qué elegí construir el mío. Este post es el primero de una serie sobre soberanía digital, privacidad, control de tus datos, independencia de Big Tech, ética open source y sostenibilidad técnica."
 twitter_description: "Mi Home Lab: por qué elegí poseer mi infraestructura en lugar de alquilarla a terceros."
 permalink: /:slug/
 ---
 
 ![Post Header]({{ page.image }})
 
-# Más Allá de la Nube: Por Qué Elegí Ser Dueño de Mi Propia Infraestructura
+# ¿Qué Demonios Es un Home Lab?
 
-Durante años, como muchos, dependí de servicios en la nube para todo. Google Drive para mis archivos, Dropbox para mis sincronizaciones, iCloud para mis fotos, Netflix para mi entretenimiento. Era cómodo, sí. Pero con el tiempo, comencé a hacerme una pregunta incómoda: **¿qué estoy cediendo a cambio de esa comodidad?**
+Antes de nada, si no sabes qué es un Home Lab, no te preocupes. No es cosa de científicos locos ni de第四次世界大战 con cables por todas partes.
 
-La resposta fue clareadora: estaba cediendo el control de mis datos, mi privacidad y, en cierto modo, mi independencia digital. Así que tomé una decisión que cambió mi relación con la tecnología: construir mi propio Home Lab.
+Un Home Lab, en su versión más sencilla, es tener un ordenador pequeño (puede ser desde una Raspberry Pi de 35€ hasta un servidor recuperadode un antiguo equipo de oficina) funcionando 24/7 en casa. Ese ordenador ejecuta servicios que de otro modo usarías en la nube: tu propia nube de archivos, tu propio servidor de Medios, tu propio DNS que bloquea publicidad, tu propio calendario, tu propio correo...
+
+Básicamente, es tener en tu casa lo que las grandes tecnológicas te cobran, pero en miniatura y con tu nombre.
+
+**Este post es el primero de una serie** en la que te contaré mi visión del Home Lab, por qué lo construí, qué ventajas tiene y qué retos supone. En posts posteriores iré entrando en más detalle sobre cómo hacerlo realidad, qué servicios puedes montar y cómo resolver los problemas comunes. Pero hoy no te voy a contar qué equipo uso ni qué servicios tengo exactamente; usaré ejemplos genéricos y ya hablaré de mi setup específico en otro momento.
+
+# El Pilar de la Libertad y la Soberanía Digital
 
 ## El Pilar de la Libertad y la Soberanía Digital
 
@@ -128,4 +134,6 @@ El futuro de la infraestructura personal no está en alquilar todo a terceros. E
 
 ***
 
-¿Tienes preguntas sobre cómo empezar? ¿Quieres saber qué servicios corro? Déjame un comentario y te cuento más.
+Este ha sido el primero de la serie. En el siguiente post te contaré cómo empezar desde cero, qué opciones hay según tu nivel y presupuesto, y cómo evitar los errores típicos de quien empieza. Spoiler: el mayor error es complicarse al principio.
+
+¿Tienes preguntas sobre Home Labs? ¿Quieres saber si es para ti? Deja un comentario y lo hablamos.
