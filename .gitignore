@@ -5,3 +5,4 @@ _drafts/*
 _drafts/9999-12-31-Template.md
 .jekyll-cache/**
 .proximafecha
+_site/
