@@ -86,7 +86,7 @@ Si le das acceso al socket de Docker, Homarr descubre automáticamente los conte
 
 ### Homepage
 
-[Homepage](https://gethomepage.dev/){:target="_blank" :rel="nofollow noopener"} es excellent si te gusta configurar en YAML. Tiene más integraciones pero necesitas editar archivos. No tiene autenticación integrada.
+[Homepage](https://gethomepage.dev/){:target="_blank" :rel="nofollow noopener"} es excelente si te gusta configurar en YAML. Tiene más integraciones pero necesitas editar archivos. No tiene autenticación integrada.
 
 ### Dashy
 
