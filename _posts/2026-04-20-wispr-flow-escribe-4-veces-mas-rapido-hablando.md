@@ -21,7 +21,7 @@ He probado montones de herramientas de productividad a lo largo de los años, pe
 
 ## Qué es Wispr Flow
 
-[Wispr Flow](https://wisprflow.ai/r?MARCOS1798){:target="_blank" :rel="nofollow noopener"} es un teclado de voz potenciado por IA que funciona dentro de cualquier aplicación en tu Mac, Windows, iPhone o Android. Presionas un atajo, hablas naturalmente, y obtiene texto limpio, formateado y listo para enviar donde tengas el cursor.
+[Wispr Flow](https://wisprflow.ai/r?MARCOS1798){:target="_blank" :rel="nofollow noopener"} es un teclado de voz potenciado por IA que funciona dentro de cualquier aplicación en tu [Mac](https://www.apple.com/es/mac/){:target="_blank" :rel="nofollow noopener"}, [Windows](https://www.microsoft.com/es-es/windows){:target="_blank" :rel="nofollow noopener"}, [iPhone](https://www.apple.com/es/iphone/){:target="_blank" :rel="nofollow noopener"} o [Android](https://www.android.com/){:target="_blank" :rel="nofollow noopener"}. Presionas un atajo, hablas naturalmente, y obtiene texto limpio, formateado y listo para enviar donde tengas el cursor.
 
 No es solo transcripción. La mayoría de herramientas de voz-a-texto ya existen, pero Wispr Flow va más allá: limpia palabras de relleno, corrige puntuación, formatea listas, y entiende correcciones al vuelo. Por ejemplo, si dices "en comma dos... no, en comma tres", lo entiende y corrige automáticamente.
 
@@ -33,7 +33,7 @@ La promesa es simple: habla y deja que el sistema haga el resto. Funciona en má
 
 Las características que más me gustan:
 
-- **Funciona en todas partes**: Slack, iMessage, Email, ChatGPT, Docs, Notion, donde sea que necesites escribir
+- **Funciona en todas partes**: [Slack](https://slack.com/){:target="_blank" :rel="nofollow noopener"}, [iMessage](https://www.apple.com/es/messages/){:target="_blank" :rel="nofollow noopener"}, Email, [ChatGPT](https://chat.openai.com/){:target="_blank" :rel="nofollow noopener"}, [Google Docs](https://docs.google.com/){:target="_blank" :rel="nofollow noopener"}, [Notion](https://www.notion.so/){:target="_blank" :rel="nofollow noopener"}, donde sea que necesites escribir
 - **Edición automática de IA**: Olvida los "emmm", "ehhh", y las pausas incómodas
 - **Dictionary personal**: Aprende tus palabras únicas, nombres, y jerga técnica
 - **Modo susurro**: Dicta sin molestar a nadie cerca
@@ -94,7 +94,7 @@ Y seguí dictando. Con otras 100 palabras más, ya llegué a los 16 días:
 
  ¿Pero qué tal funciona comparado con lo que ya tienes y otras alternativas del mercado? Vamos a verlo:
 
-| Característica | Wispr Flow | Android (Gboard) | iPhone (Apple) | SuperWhisper | CleverType | TurboWhisper | Otter.ai |
+| Característica | Wispr Flow | [Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin){:target="_blank" :rel="nofollow noopener"} ([Android](https://www.android.com/){:target="_blank" :rel="nofollow noopener"}) | [Apple](https://www.apple.com/es/ios/){:target="_blank" :rel="nofollow noopener"} | [SuperWhisper](https://superwhisper.com/){:target="_blank" :rel="nofollow noopener"} | [CleverType](https://clevertype.co/){:target="_blank" :rel="nofollow noopener"} | [TurboWhisper](https://turbowhisper.com/){:target="_blank" :rel="nofollow noopener"} | [Otter.ai](https://otter.ai/){:target="_blank" :rel="nofollow noopener"} |
 |---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 | Precisión | 97%+ | 85-90% | 90-95% | Alta | Alta | Alta | Alta |
 | Limpieza de relleno | **Sí** | No | No | No | No | No | No |
@@ -107,7 +107,7 @@ Y seguí dictando. Con otras 100 palabras más, ya llegué a los 16 días:
 | **Precio** | $12-15/mes | Gratis | Gratis | $249 vitalicio | Gratis/Paid | $49-199 | $8.33-30/mes |
 | **Offline** | No | Sí | Sí | **Sí** | **Sí** | Opcional | No |
 
-La diferencia es noche y día. El input nativo te transcribe lo que dices, punto. Wispr Flow limpita muletillas, corrige puntuación, formatea listas y entiende correcciones al vuelo ("en comma tres... no, en comma cuatro").
+La diferencia es noche y día. El input nativo ([Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin){:target="_blank" :rel="nofollow noopener"} en Android, [Apple](https://www.apple.com/es/ios/){:target="_blank" :rel="nofollow noopener"} en iPhone) te transcribe lo que dices, punto. Wispr Flow limpita muletillas, corrige puntuación, formatea listas y entiende correcciones al vuelo ("en comma tres... no, en comma cuatro").
 
 El enlace de referido que te paso [https://wisprflow.ai/r?MARCOS1798](https://wisprflow.ai/r?MARCOS1798){:target="_blank" :rel="nofollow noopener"} te da 14 días gratis de prueba sin tarjeta.
 
