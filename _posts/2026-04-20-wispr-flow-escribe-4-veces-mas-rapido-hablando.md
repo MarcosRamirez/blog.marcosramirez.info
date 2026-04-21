@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
-image: /assets/img/headers/wispr-flow.png
+image: /assets/img/headers/wispr-flow-escribe-4-veces-mas-rapido-hablando.webp
 categories: [Tecnología, Productividad y Hacks]
 tags: [software, productividad, inteligencia-artificial, voice-to-text]
 pin: false
