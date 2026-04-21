@@ -17,7 +17,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-*[Este post forma parte de la serie [Mi software de cabecera](/tag/software-de-cabecera/)*
+*[Este post forma parte de la serie [Mi software de cabecera](/tag/software-de-cabecera/)]*
 
 Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama [OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} y es una herramienta de código abierto que funciona en mi terminal.
 
@@ -26,6 +26,17 @@ Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, p
 [OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} es un agente de IA que corre en la línea de comandos. A diferencia de [ChatGPT](https://chat.openai.com/){:target="_blank" :rel="nofollow noopener"} o [Claude](https://claude.ai/){:target="_blank" :rel="nofollow noopener"} en el navegador, aquí el modelo tiene acceso directo a tus archivos, puede ejecutar comandos y hacer ediciones reales en tu proyecto.
 
 Tiene más de 140.000 estrellas en [GitHub](https://github.com/){:target="_blank" :rel="nofollow noopener"} y lo usan más de 6 millones de desarrolladores al mes. Y lo mejor: es código abierto. No hay vendor lock-in, no te obliga a usar un modelo concreto y no guarda tu código.
+
+### Modelos disponibles
+
+OpenCode permite usar diferentes modelos de IA. Puedes elegir el que prefieras:
+
+- **OpenAI GPT**: Rápido y eficiente
+- **Anthropic Claude**: Excelente razonamiento
+- **Google Gemini**: Buena relación calidad-precio
+- **OpenCode Zen**: Modelos optimizados específicamente para agentes de código
+
+[Zen](https://opencode.ai/zen){:target="_blank" :rel="nofollow noopener"} es una curated de modelos optimizados para coding agents. Pagas por uso, sin suscripciones. Aproximadamente $20 al mes depende del uso.
 
 ## Tiempo ahorrado: ejemplos reales
 
@@ -47,13 +58,64 @@ Hay archivos que no entiendo o que heredé de otros proyectos. Le pido a OpenCod
 
 "Busca cómo configurar X en este framework" y me devuelve la solución con ejemplos prácticos adaptados a mi proyecto.
 
+## Comparativa con alternativas
+
+| Característica | OpenCode | Claude Code | Cursor | GitHub Copilot | Zencoder | Codex |
+|----------------|:--------:|:----------:|:-------:|:-------------:|:--------:|:------:|
+| **Código abierto** | Sí | No | No | No | No | No |
+| **Precio** | $0-$20/mes | $20/mes | $20/mes | $10/mes | $19-$250/mes | $20/mes |
+| **Privacidad** | Sí (tú controlas) | Parcial | Parcial | No | Parcial | Parcial |
+| **Auto-alojable** | Sí | No | No | No | No | No |
+| **Terminal** | Sí | Sí | No | VS Code | No | No |
+
+### OpenCode
+
+- **Código abierto**: Sí
+- **Precio**: Gratis (necesitas tu propia API key) o Zen ($0-$20/mes)
+- **Privacidad**: Completa, traes tus propias claves
+- **Dónde corre**: En tu máquina
+
+### Claude Code
+
+[Claude Code](https://claude.ai/claude-code){:target="_blank" :rel="nofollow noopener"} es la versión CLI de Anthropic. Buena herramienta, pero propietaria. $20/mes.
+
+### Cursor
+
+[Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} es excellent pero es código cerrado. $20/mes. Buena integración con VS Code, pero no tienes control sobre tus datos.
+
+### GitHub Copilot
+
+[GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"} es $10/mes. Integrado en VS Code, pero Microsoft guarda tu código.
+
+### Zencoder
+
+[Zencoder](https://zencoder.ai/){:target="_blank" :rel="nofollow noopener"} es otro agente de código. $19-$250/mes según el plan. Código cerrado.
+
+### Codex
+
+[OpenAI Codex](https://openai.com/codex/){:target="_blank" :rel="nofollow noopener"} viene con ChatGPT Plus. $20/mes. Código cerrado.
+
 ## Por qué código abierto importa
 
 El código cerrado te atan a una plataforma. Si mañana OpenAI cambia sus precios o Anthropic modifica sus términos, te quedas sin herramienta. Con OpenCode traes tus propias API keys (de OpenAI, Claude, Gemini, lo que prefieras), y si quieres, hasta puedes usar modelos locales.
 
 Además, al ser open source, puedes auditar el código, reportar bugs y contribuir. No eres rehén de nadie.
 
+### Privacidad
+
+Con OpenCode:
+- Tus claves API son tuyas
+- El código se ejecuta en tu máquina
+- No envías código a servidores externos (a menos que uses modelos externos)
+- Puedes auditar lo que hace el agente
+
+Con herramientas propietarias:
+- Envías tu código a servidores de terceros
+- Las empresas pueden usarlo para entrenar modelos
+- Dependes de sus políticas de privacidad
+
 ***
+
 ¿Usas alguna herramienta de código abierto para tu día a día? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
 
 Y... hasta aquí por hoy!
