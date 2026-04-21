@@ -65,6 +65,8 @@ layout: default
 
         {{ content }}
 
+      {% include post-sharing.html %}
+
       {% if site.disqus.comments and page.comments %}
       {% include disqus.html %}
       {% endif %}
@@ -74,7 +76,6 @@ layout: default
       </div>
 
       {% include mailchimp.html %}
-      {% include post-sharing.html %}
       <div class="post-tail-wrapper text-muted">
 
         <!-- categories -->
@@ -109,9 +110,6 @@ layout: default
             by the author.
           </div>
           {% endif %}
-
-
-          {% include post-sharing.html %}
 
         </div><!-- .post-tail-bottom -->
 
