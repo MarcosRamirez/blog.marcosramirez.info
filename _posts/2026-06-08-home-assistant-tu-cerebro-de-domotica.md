@@ -15,9 +15,9 @@ twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni susc
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab](/posts/home-lab-filosofia/). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
-Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home](/posts/adguard-home-bloqueador-publicidad/) bloqueando publicidad y rastreadores a nivel de red, [Proxmox](/posts/mi-decision-de-usar-proxmox/) virtualizando mis servicios, y las bases de datos [centralizadas](/posts/no-uso-proxmox-helper-scripts/). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
+Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026-05-25-adguard-home-tu-propio-bloqueador-de-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026-06-01-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 
@@ -98,7 +98,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 
 ## Mi setup
 
-En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox](/posts/mi-decision-de-usar-proxmox/), con:
+En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}), con:
 
 - **2 vCPU**
 - **4GB de RAM**
@@ -130,7 +130,7 @@ Coste aproximado: 50-70€.
 
 ### Opción 2: Máquina virtual en Proxmox
 
-Si ya tienes [Proxmox](/posts/mi-decision-de-usar-proxmox/) funcionando, puedes crear una VM con Home Assistant OS:
+Si ya tienes [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) funcionando, puedes crear una VM con Home Assistant OS:
 
 1. Descarga la imagen de [Home Assistant OS para Proxmox](https://www.home-assistant.io/installation/)
 2. Crea una VM con 2 vCPU, 4GB de RAM
