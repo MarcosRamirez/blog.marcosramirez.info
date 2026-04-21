@@ -6,28 +6,26 @@ authors:
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/opencode-mi-asistente-de-codigo-abierto.webp
-categories: [Tecnología, Inteligencia Artificial]
-tags: [opencode, ia, código-abierto, cli, herramientas, productividad, software-de-cabecera]
+categories: [Tecnología, Productividad y Hacks]
+tags: [opencode, inteligencia-artificial, código-abierto, cli, herramientas, productividad, software-de-cabecera]
 pin: false
 toc: true
-excerpt: "Desde hace unos meses tengo un nuevo compañero de trabajo que escribe código, investiga y me ahorra horas cada semana. Se llama OpenCode, una herramienta de código abierto que funciona en mi terminal y me ayuda con tareas de desarrollo, redacción de posts y resolución de problemas técnicos."
+excerpt: "Desde hace unos meses tengo un nuevo compañero de trabajo que escribe código, investiga y me ahorra horas cada semana. Se llama OpenCode, una herramienta de código abierto que funciona en mi terminal y me ayuda con tareas de desarrollo, redacción de posts y resolución de problemas técnicos. Con más de 140.000 estrellas en GitHub y usado por más de 6 millones de desarrolladores, es la alternativa open source a ChatGPT y Claude."
 twitter_description: "OpenCode es mi asistente de código abierto que me ahorra horas cada semana."
 permalink: /:slug/
 ---
 
 ![Post Header]({{ page.image }})
 
-# OpenCode: Mi asistente de código abierto
-
 *[Este post forma parte de la serie [Mi software de cabecera](/tag/software-de-cabecera/)*
 
-Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama [OpenCode](https://opencode.ai/){:target="_blank"} y es una herramienta de código abierto que funciona en mi terminal.
+Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama [OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} y es una herramienta de código abierto que funciona en mi terminal.
 
 ## Qué es OpenCode
 
-OpenCode es un agente de IA que corre en la línea de comandos. A diferencia de ChatGPT o Claude en el navegador, aquí el modelo tiene acceso directo a tus archivos, puede ejecutar comandos y hacer ediciones reales en tu proyecto.
+[OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} es un agente de IA que corre en la línea de comandos. A diferencia de [ChatGPT](https://chat.openai.com/){:target="_blank" :rel="nofollow noopener"} o [Claude](https://claude.ai/){:target="_blank" :rel="nofollow noopener"} en el navegador, aquí el modelo tiene acceso directo a tus archivos, puede ejecutar comandos y hacer ediciones reales en tu proyecto.
 
-Tiene más de 140.000 estrellas en GitHub y lo usan más de 6 millones de desarrolladores al mes. Y lo mejor: es código abierto. No hay vendor lock-in, no te obliga a usar un modelo concreto y no guarda tu código.
+Tiene más de 140.000 estrellas en [GitHub](https://github.com/){:target="_blank" :rel="nofollow noopener"} y lo usan más de 6 millones de desarrolladores al mes. Y lo mejor: es código abierto. No hay vendor lock-in, no te obliga a usar un modelo concreto y no guarda tu código.
 
 ## Tiempo ahorrado: ejemplos reales
 
@@ -35,7 +33,7 @@ Tiene más de 140.000 estrellas en GitHub y lo usan más de 6 millones de desarr
 
 Hace unas semanas necesitaba escribir un post sobre agentes de IA. Solo le di los conceptos generales: "quiero comparar Aider vs OpenCode, destacar ventajas de código abierto, duración aproximada de 6 minutos". OpenCode investigó por su cuenta, buscó información actualizada, y generó un borrador casi listo para publicar. Yo solo tuve que editar y pulir.
 
-Esto es exactamente lo que estoy haciendo ahora: vos me pediste el tema, yo investigué y redacté.
+Esto es exactamente lo que estoy haciendo ahora: tú me pediste el tema, yo investigué y redacté.
 
 ### Escribir y refactorizar código
 

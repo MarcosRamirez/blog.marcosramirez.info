@@ -80,7 +80,7 @@ Aquí está lo interesante: si eres activo y aprovechas los retos, ** Wispr Flow
 
 Para usuarios productivos, Wispr Flow termina siendo una inversión que se paga sola.
 
-Yo ya lo he probando. Con mis primeras 100 palabras del día gané mi primer día extra, pasando de 14 a 15 días:
+Yo ya lo he probado. Con mis primeras 100 palabras del día gané mi primer día extra, pasando de 14 a 15 días:
 
 ![100 palabras = 1 día extra de Premium](/assets/img/wispr-flow-escribe-4-veces-mas-rapido-hablando/wispr-flow-100-words-challenge.jpeg){:alt="Desafío de 100 palabras en Wispr Flow que otorga 1 día extra de Premium"}
 
@@ -107,7 +107,7 @@ Y seguí dictando. Con otras 100 palabras más, ya llegué a los 16 días:
 | **Precio** | $12-15/mes | Gratis | Gratis | $249 vitalicio | Gratis/Paid | $49-199 | $8.33-30/mes |
 | **Offline** | No | Sí | Sí | **Sí** | **Sí** | Opcional | No |
 
-La diferencia es noche y día. El input nativo ([Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin){:target="_blank" :rel="nofollow noopener"} en Android, [Apple](https://www.apple.com/es/ios/){:target="_blank" :rel="nofollow noopener"} en iPhone) te transcribe lo que dices, punto. Wispr Flow limpita muletillas, corrige puntuación, formatea listas y entiende correcciones al vuelo ("en comma tres... no, en comma cuatro").
+La diferencia es noche y día. El input nativo ([Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin){:target="_blank" :rel="nofollow noopener"} en Android, [Apple](https://www.apple.com/es/ios/){:target="_blank" :rel="nofollow noopener"} en iPhone) te transcribe lo que dices, punto. Wispr Flow limpia muletillas, corrige puntuación, formatea listas y entiende correcciones al vuelo ("en comma tres... no, en comma cuatro").
 
 El enlace de referido que te paso [https://wisprflow.ai/r?MARCOS1798](https://wisprflow.ai/r?MARCOS1798){:target="_blank" :rel="nofollow noopener"} te da 14 días gratis de prueba sin tarjeta.
 

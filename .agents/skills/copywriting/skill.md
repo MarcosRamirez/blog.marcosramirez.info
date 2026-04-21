@@ -197,6 +197,14 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
 - Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`
 
+### Ortografía
+- Revisa siempre la ortografía antes de guardar/subir el post.
+- Usa correctamente: "tú" (pronombre), "tu" (posesivo), "él" (pronombre), "el" (artículo), "mí" (pronombre), "mi" (posesivo).
+- Corrige comunes: "haber" (no "aver"), "por qué" (separado en preguntas), "porque" (junto como causa), "实" (no usar "sino" como conjunción adversativa incorrecta).
+- Verifica acentos: "técnico", "público", "órd", "último", "ést", "és", etc.
+- Usa "wifi" (no "wi-fi" ni "Wifi").
+- Nombres propios de empresas/apps en su forma original: "ChatGPT", "Notion", "Slack" (sin traducir).
+
 ### Flujo de Trabajo
 
 1. **Primero**: Escribe el post normalmente siguiendo todas las normas de esta skill.

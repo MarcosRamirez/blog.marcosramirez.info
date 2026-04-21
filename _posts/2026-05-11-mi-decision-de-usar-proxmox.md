@@ -39,12 +39,13 @@ Las **VMs** las uso para servicios que necesitan más aislamiento o un sistema o
 ## Por qué no otras opciones?
 
 ### ESXi
-[VMware ESXi](https://www.vmware.com/products/esxi-and-vsphere.html){:target="_blank"} es excelente, pero tiene problemas para un Home Lab:
+[VMware ESXi](https://www.vmware.com/products/esxi-and-vsphere.html){:target="_blank" :rel="nofollow noopener"} es excelente, pero tiene problemas para un Home Lab:
 1. **Precio**: La versión gratuita tiene limitaciones severas
 2. **Recursos**: Consumo relativamente alto para lo que ofrece
+3. **Web**: Requiere una cuenta de VMware para acceder a la UI
 
 ### Hyper-V
-[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/){:target="_blank"} está ligado a Windows Server o Windows Pro. Si quieres algo más nativo para Linux, no es lo ideal.
+[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/){:target="_blank" :rel="nofollow noopener"} está ligado a Windows Server o Windows Pro. Si quieres algo más nativo para Linux, no es lo ideal.
 
 ### Docker standalone (sin Proxmox)
 Docker en un solo host está bien para empezar, pero:
@@ -91,6 +92,22 @@ Con Proxmox puedo ir escalando:
 - Snapshotear antes de hacer cambios peligrosos
 
 Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocultas. Sin magia.
+
+### Comparativa: Proxmox vs alternativas
+
+| Característica | Proxmox VE | ESXi | Hyper-V | Docker Standalone |
+|---|:---:|:---:|:---:|:---:|
+| **Tipo** | Híbrido (VM + LXC) | Solo VM | Solo VM | Contenedores |
+| **Precio** | **Gratis** | Freemium | Negocio | Gratis |
+| **Código abierto** | **Sí** | No | No | Sí |
+| **UI web** | **Sí** | Sí | Sí | No |
+| **Snapshots** | **Sí** | Sí | Sí | Limitado |
+| **Live migration** | **Sí** | Sí | Sí | No |
+| **Clustering** | **Sí** | **Sí** | Sí | No |
+| **LXC containers** | **Sí** | No | No | N/A |
+| **Consumo recursos** | Bajo | Alto | Medio | Bajo |
+
+**Proxmox** gana en relación calidad-precio: código abierto, sin licencias, UI web completa, soporta tanto VMs como contenedores ligeros (LXC). Docker standalone es más simple pero carece de gestión centralizada, snapshots y alta disponibilidad.
 
 En el [post dedicado a los helper scripts]({% post_url 2026-05-18-por-que-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
 
