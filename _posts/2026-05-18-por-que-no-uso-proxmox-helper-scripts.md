@@ -60,6 +60,6 @@ Es cierto que se pierde el factor "magia" y la inmediatez de los scripts, pero s
 
 ***
 
-¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
 
 Y... hasta aquí por hoy!

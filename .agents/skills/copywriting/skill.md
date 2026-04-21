@@ -174,7 +174,7 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 ### CTAs (Call to Action)
 
-- Usa siempre "escríbeme", "contacta conmigo" o similar, enlazando a [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
+- Usa "déja un comentario o escríbeme", enlazando a [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
 - **CTAs inline**: No pongas CTAs solo al final. Inclúyelos a lo largo del post cuando tenga sentido:
   - Después de explicar algo complejo → "Si necesitas ayuda, escríbeme."
   - Después de listas de ventajas → "¿Te interesa este servicio?"

@@ -113,6 +113,6 @@ En el [post dedicado a los helper scripts]({% post_url 2026-05-18-por-que-no-uso
 
 ***
 
-¿Te usas Proxmox? ¿Tienes alguna duda sobre virtualización? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Te usas Proxmox? ¿Tienes alguna duda sobre virtualización? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
 
 Y... hasta aquí por hoy!

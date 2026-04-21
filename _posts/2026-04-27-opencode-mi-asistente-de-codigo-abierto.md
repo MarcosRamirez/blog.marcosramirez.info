@@ -54,6 +54,6 @@ El código cerrado te atan a una plataforma. Si mañana OpenAI cambia sus precio
 Además, al ser open source, puedes auditar el código, reportar bugs y contribuir. No eres rehén de nadie.
 
 ***
-¿Usas alguna herramienta de código abierto para tu día a día? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+¿Usas alguna herramienta de código abierto para tu día a día? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
 
 Y... hasta aquí por hoy!
