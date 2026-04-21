@@ -41,7 +41,7 @@ N8N tiene un editor drag-and-drop muy intuitivo. Conectas nodos, configuras la l
 
 ### Más de 400 integraciones
 
-N8N se conecta con cientos de servicios: [Slack](https://slack.com/){:target="_blank" :rel="nofollow noopener"}, [Discord](https://discord.com/){:target="_blank" :rel="nofollow noopener"}, [Telegram](https://telegram.org/){:target="_blank" :rel="nofollow noopener"}, [Google Sheets](https://www.google.com/sheets){:target="_blank" :rel="nofollow noopener"}, [Gmail](https://mail.google.com/){:target="_blank" :rel="nofollow noopener"}, [Notion](https://www.notion.so/){:target="_blank" :rel="nofollow noopener"}, [Airtable](https://airtable.com/){:target="_blank" :rel="nofollow noopener"}, [MySQL](https://www.mysql.com/){:root="_blank" :rel="nofollow noopener"}, [PostgreSQL](https://www.postgresql.org/){:target="_blank" :rel="nofollow noopener"}, y muchos más.
+N8N se conecta con cientos de servicios: [Slack](https://slack.com/){:target="_blank" :rel="nofollow noopener"}, [Discord](https://discord.com/){:target="_blank" :rel="nofollow noopener"}, [Telegram](https://telegram.org/){:target="_blank" :rel="nofollow noopener"}, [Google Sheets](https://www.google.com/sheets){:target="_blank" :rel="nofollow noopener"}, [Gmail](https://mail.google.com/){:target="_blank" :rel="nofollow noopener"}, [Notion](https://www.notion.so/){:target="_blank" :rel="nofollow noopener"}, [Airtable](https://airtable.com/){:target="_blank" :rel="nofollow noopener"}, [MySQL](https://www.mysql.com/){:target="_blank" :rel="nofollow noopener"}, [PostgreSQL](https://www.postgresql.org/){:target="_blank" :rel="nofollow noopener"}, y muchos más.
 
 ### Código personalizado
 
