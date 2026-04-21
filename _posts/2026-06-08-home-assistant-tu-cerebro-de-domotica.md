@@ -131,7 +131,7 @@ Coste aproximado: 50-70€.
 
 ### Opción 2: VM con Proxmox Helper Scripts
 
-Aunque en otro post os explico [por qué no uso los Proxmox Helper Scripts para instalar mis servicios]({% post_url 2026-06-01-no-uso-proxmox-helper-scripts %}), sí los uso para instalar máquinas virtuales de sistema operativo como Home Assistant OS, donde el helper script descarga la imagen, crea la VM y configura todo automáticamente. Es el caso perfecto: el script crea la VM, descarga la imagen y configura todo automáticamente.
+Aunque en otro post os explico [por qué no uso los Proxmox Helper Scripts para instalar mis servicios]({% post_url 2026-06-01-no-uso-proxmox-helper-scripts %}), en este caso sí lo uso: para instalar Home Assistant OS como VM. El helper script descarga la imagen oficial, crea la VM automáticamente y configura todo sin intervención.
 
 Ejecuta este comando en la shell de Proxmox:
 
