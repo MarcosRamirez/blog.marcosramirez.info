@@ -229,6 +229,7 @@
   .share-icons {
     font-size: 1.2rem;
     a {
+      text-decoration: none;
       &:not(:last-child) {
         margin-right: 0.25rem;
       }
@@ -262,7 +263,9 @@
 
   } // .share-icons
 
-  .fas.fa-link {
+  .fas.fa-link,
+  .fas.fa-bug,
+  .fas.fa-dollar-sign {
     @include btn-sharing-color(rgb(171, 171, 171));
   }
 
