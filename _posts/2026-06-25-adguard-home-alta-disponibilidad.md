@@ -66,7 +66,7 @@ Si quieres que ambos tengan las mismas listas, usa [AdGuardHome-Sync](https://gi
 
 ## Por qué dos nodos importa
 
-Un solo nodo significa que cuando se cae, todo tu tráfico DNS falla. Nadie puederesolver nombres. Los anuncios pasan.
+Un solo nodo significa que cuando se cae, todo tu tráfico DNS falla. Nadie puedederesolver nombres. Los anuncios pasan.
 
 Con dos nodos:
 
@@ -91,7 +91,7 @@ Si te da igual perder el bloqueo cuando se cae, con uno tienes bastante.
 
 ### Dos nodos
 
-Si quieres redundancy de verdad y no quieres dependiente de un solo equipo.
+Si quieres redundancia de verdad y no quieres depender de un solo equipo.
 
 ### NextDNS
 
