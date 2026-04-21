@@ -200,8 +200,8 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 ### Ortografía
 - Revisa siempre la ortografía antes de guardar/subir el post.
 - Usa correctamente: "tú" (pronombre), "tu" (posesivo), "él" (pronombre), "el" (artículo), "mí" (pronombre), "mi" (posesivo).
-- Corrige comunes: "haber" (no "aver"), "por qué" (separado en preguntas), "porque" (junto como causa), "实" (no usar "sino" como conjunción adversativa incorrecta).
-- Verifica acentos: "técnico", "público", "órd", "último", "ést", "és", etc.
+- Corrige comunes: "haber" (no "aver"), "por qué" (separado en preguntas), "porque" (junto como causa), "sino" (no usar "sino" como conjunción adversativa incorrecta).
+- Verifica acentos: "técnico", "público", "ord", "último", "ést", "és", etc.
 - Usa "wifi" (no "wi-fi" ni "Wifi").
 - Nombres propios de empresas/apps en su forma original: "ChatGPT", "Notion", "Slack" (sin traducir).
 
