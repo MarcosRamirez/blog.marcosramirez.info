@@ -174,7 +174,6 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 ### CTAs (Call to Action)
 
-- **El blog NO tiene sistema de comentarios.** No ofrezcas "déjame un comentario" o "en los comentarios".
 - Usa siempre "escríbeme", "contacta conmigo" o similar, enlazando a [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
 - **CTAs inline**: No pongas CTAs solo al final. Inclúyelos a lo largo del post cuando tenga sentido:
   - Después de explicar algo complejo → "Si necesitas ayuda, escríbeme."
