@@ -4,7 +4,7 @@ slug: backup-3-2-1
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-06-25 08:30:00 +0200
+date: 2026-06-18 08:30:00 +0200
 image: /assets/img/headers/backup-3-2-1.webp
 categories: [Tecnología, Automatización]
 tags: [backup, 3-2-1, datos, privacidad, proxmox]

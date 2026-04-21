@@ -4,7 +4,7 @@ slug: home-assistant-guia-domotica
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-06-08 08:30:00 +0200
+date: 2026-06-01 08:30:00 +0200
 image: /assets/img/headers/home-assistant-guia-domotica.webp
 categories: [Tecnología, Automatización]
 tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
