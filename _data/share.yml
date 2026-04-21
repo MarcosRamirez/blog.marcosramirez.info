@@ -17,7 +17,7 @@ platforms:
   -
     type: Bug
     icon: "fas fa-bug"
-    link: "https://github.com/MarcosRamirez/blog.marcosramirez.info/issues/new?title=TITLE"
+    link: "https://github.com/MarcosRamirez/blog.marcosramirez.info/issues/new?title=TITLE&body=%0A%0A**Descripci%C3%B3n%20del%20problema:**%0A%5BDescribe%20el%20problema%20aqu%C3%AD%5D%0A%0A**Pasos%20para%20reproducir:**%0A1.%20%0A2.%20%0A%0A**Comportamiento%20esperado:**%0A%0A**Captura%20de%20pantalla:**%0A"
   -
     type: Dollar
     icon: "fas fa-dollar-sign"
