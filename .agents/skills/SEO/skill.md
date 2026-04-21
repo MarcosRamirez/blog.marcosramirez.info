@@ -17,11 +17,10 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 
 ## 3. Gestión de Etiquetas (Tags)
 - **Cantidad:** Entre 3 y 6 etiquetas por post.
-- **Lógica:** 1-2 Core Tech, 2-3 Contexto Profesional, 1 Intent (Propósito).
+- **Regla Anti-Canibalización:** PROHIBIDO usar como etiqueta el nombre del producto, app o tema principal que da título al post (ej: si el post es sobre "Docker", no usar `docker` como tag; usar `contenedores`, `devops`, `infraestructura`).
+- **Lógica:** 1-2 Core Tech (tecnología base), 2-3 Contexto Profesional (rol/sector), 1 Intent (propósito del post).
 - **Formato:** Minúsculas, sin espacios (usar guiones), evitar repetir el título del post.
 - **YAML:** `tags: [tag1, tag2, tag3]`.
-- **REGLA ANTI-CANIBALIZACIÓN (Crítico):** - PROHIBIDO usar como etiqueta el nombre del producto, app o tema principal que da título al post. 
-    - Ejemplo: Si el post se titula "Guía completa de Wispr Flow", la etiqueta `wispr-flow` está prohibida. En su lugar, usar el contexto: `productividad`, `macos-apps`, `speech-to-text`.
 
 ## 4. Optimización de Imágenes (SEO Visual)
 - **Atributos ALT:** Técnicos y descriptivos (ej: `alt="Terminal con salida de error en Node.js"`).
@@ -41,7 +40,7 @@ Cualquier dominio NO incluido en la lista anterior debe tratarse como externo.
 ## 6. Formato Jekyll (Chirpy Theme)
 - **Enlaces Externos:** Usar `[Texto](url){:target="_blank" :rel="nofollow noopener"}`.
 - **Enlaces Propios (Whitelist):** Usar `[Texto](url){:target="_blank"}` (sin rel) para mantener la autoridad.
-- **H1:** No repetir dentro del cuerpo del Markdown.
+- **H1:** No repetir dentro del cuerpo del Markdown (Chirpy lo genera automáticamente).
 
 ## 7. Excerpt e Interlinking
 - **Excerpt:** Gancho técnico de ~150 caracteres para el feed principal.
