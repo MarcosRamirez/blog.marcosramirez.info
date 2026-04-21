@@ -67,7 +67,7 @@ Tus fotos no salen de tu red local. Puedes acceder desde fuera con tu propia VPN
 | **App móvil** | Sí | Sí |
 | **Backup automático** | Sí | Sí |
 | **Búsqueda por contenido** | Sí | Sí |
-| **Reconocimiento facial** |Sí |Sí |
+| **Reconocimiento facial** | Sí | Sí |
 | **Álbumes compartidos** | Sí | Sí |
 | **Tú decides el futuro** | Google decide | Tú decides |
 
