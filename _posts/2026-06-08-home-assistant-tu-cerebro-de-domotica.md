@@ -105,15 +105,16 @@ En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant 
 - **32GB de almacenamiento** (la imagen del sistema más la base de datos)
 - **Zigbee dongle** ([Sonoff Zigbee 3.0 USB Dongle Plus](https://itead.cc/product/sonoff-zigbee-3-0-usb-dongle-plus/){:target="_blank" :rel="nofollow noopener"}) para dispositivos Zigbee
 
-### Dispositivos conectados
+### Dispositivos compatibles
 
-- 8 bombillas [Philips Hue](https://www.philips-hue.com/){:target="_blank" :rel="nofollow noopener"}
-- 4 sensores de movimiento
-- 2 sensores de temperatura/humedad
-- 1 sensor de puerta (apertura)
-- 1 enchufe inteligente (control de consumo)
+Home Assistant es compatible con muchíssimo dispositivos. Algunos de los más populares:
 
-Todo esto sin cables adicionales: Zigbee crea una mesh donde los dispositivos se comunican entre ellos, extendiendo el alcance.
+- **Iluminación**: [Philips Hue](https://www.philips-hue.com/){:target="_blank" :rel="nofollow noopener"}, [LIFX](https://www.lifx.com/){:target="_blank" :rel="nofollow noopener"}, [Xiaomi](https://www.xiaomi.com/){:target="_blank" :rel="nofollow noopener"}
+- **Sensores**: Zigbee, Z-Wave, [Shelly](https://shelly.cloud/){:target="_blank" :rel="nofollow noopener"}
+- **Cámaras**: [Ring](https://www.ring.com/){:target="_blank" :rel="nofollow noopener"}, [Reolink](https://reolink.com/){:target="_blank" :rel="nofollow noopener"}
+- **Termostatos**: [Nest](https://store.google.com/us/product/nest_learning_thermostat_3rd_gen){:target="_blank" :rel="nofollow noopener"}, [Ecobee](https://www.ecobee.com/){:target="_blank" :rel="nofollow noopener"}
+
+Zigbee y Z-Wave crean una mesh donde los dispositivos se comunican entre ellos, extendiendo el alcance sin cables adicionales.
 
 ## Empezar desde cero
 
@@ -128,16 +129,21 @@ Es la forma más económica de probar:
 
 Coste aproximado: 50-70€.
 
-### Opción 2: Máquina virtual en Proxmox
+### Opción 2: VM con Proxmox Helper Scripts
 
-Si ya tienes [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) funcionando, puedes crear una VM con Home Assistant OS:
+Aunque [en otro post](/posts/no-uso-proxmox-helper-scripts/) os explico por qué no uso helper scripts para mis servicios, sí los uso para instalar máquinas virtuales de sistema operativo como Home Assistant OS. Es el caso perfecto: el script crea la VM, descarga la imagen y configura todo automáticamente.
 
-1. Descarga la imagen de [Home Assistant OS para Proxmox](https://www.home-assistant.io/installation/)
-2. Crea una VM con 2 vCPU, 4GB de RAM
-3. Pasa el Zigbee dongle a la VM (dispositivo USB)
-4. Accede desde la IP de la VM:8123
+Ejecuta este comando en la shell de Proxmox:
 
-Así lo corro yo. Home Assistant OS es un sistema operativo dedicado que se actualiza solo y aprovecha toda la potencia de la VM.
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/haos-vm.sh)"
+```
+
+El script te preguntará:
+- ¿Instalar Home Assistant OS VM? → Sí
+- ¿Usar configuración por defecto? → Sí (4GB RAM, 32GB almacenamiento, 2 vCPU)
+
+En unos minutos tendrás Home Assistant OS funcionando. Solo tendrás que acceder a `http://IP_DE_TU_VM:8123` para configurar.
 
 ### Opción 3: NAS o mini PC
 

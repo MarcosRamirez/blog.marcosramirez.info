@@ -240,6 +240,21 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
   - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
 - **Firma**: "Y... hasta aquí por hoy!"
 
+### Reglas de Contenido (NUNCA inventar)
+
+**⚠️ NUNCA inventes información sobre el setup, dispositivos o configuración del usuario.**
+
+- **NO digas** qué dispositivos tiene el usuario
+- **NO digas** cómo tiene configurado su Home Lab
+- **NO digas** qué servicios usa o cómo los tiene montados
+- **NO asumas** detalles técnicos no proporcionados
+
+**Si necesitas mencionar un ejemplo de configuración, usa:**
+- Ejemplos genéricos (ej: "como tener un NAS", "una Raspberry Pi")
+- O pregunta explícitamente al usuario
+
+Esta norma evita publicar información incorrecta sobre el setup de otra persona.
+
 ### Correcciones
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
 - Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`
