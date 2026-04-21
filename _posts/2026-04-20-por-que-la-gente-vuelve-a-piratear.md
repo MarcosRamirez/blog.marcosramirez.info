@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
-image: /assets/img/headers/por-que-la-gente-vuelve-a-piratear.webp
+image: /assets/img/headers/gente-vuelve-piratear.webp
 categories: [Tecnología, Personal y Desarrollo Profesional]
 tags: [streaming, suscripciones, pirateria, entretenimiento, costes, contenidos]
 pin: false

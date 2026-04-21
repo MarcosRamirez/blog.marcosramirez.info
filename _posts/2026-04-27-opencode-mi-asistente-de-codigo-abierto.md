@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
-image: /assets/img/headers/opencode-mi-asistente-de-codigo-abierto.webp
+image: /assets/img/headers/opencode-asistente-codigo.webp
 categories: [Tecnología, Productividad y Hacks]
 tags: [código-abierto, cli, herramientas, productividad, desarrollo, terminal]
 pin: false

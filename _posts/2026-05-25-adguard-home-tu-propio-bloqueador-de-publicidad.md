@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-25 08:30:00 +0200
-image: /assets/img/headers/adguard-home-tu-propio-bloqueador-de-publicidad.webp
+image: /assets/img/headers/adguard-home-bloqueador-publicidad.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [dns, privacidad, seguridad, redes,bloqueador, publicidades]
 pin: false
