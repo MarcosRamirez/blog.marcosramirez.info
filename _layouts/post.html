@@ -65,6 +65,10 @@ layout: default
 
         {{ content }}
 
+      {% if site.disqus.comments and page.comments %}
+      {% include disqus.html %}
+      {% endif %}
+
 
 
       </div>
@@ -131,10 +135,6 @@ layout: default
           {% include related-posts.html %}
 
           {% include post-nav.html %}
-
-          {% if site.disqus.comments and page.comments %}
-          {% include disqus.html %}
-          {% endif %}
 
         </div> <!-- #post-extend-wrapper -->
 
