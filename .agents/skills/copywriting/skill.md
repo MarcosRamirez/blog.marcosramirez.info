@@ -53,10 +53,31 @@ Ejemplo:
 - **Para enlazar a otros posts, usa el tag `{% post_url %}` con el NOMBRE COMPLETO del archivo** (incluyendo fecha): `{% post_url 2025-03-01-resumen-febrero-2025 %}` - el nombre del archivo debe tener el formato `YYYY-MM-DD-slug.md`.
 
 
-### Nombres de archivos
-- Los nombres de los archivos deben estar en formato slug, es decir, en minúsculas y con guiones en lugar de espacios. Comenzando por la fecha de publicación como por ejemplo: `2025-01-19-Mi plan para 2025.md`
-- Es *** MUY IMPORTANTE *** que el nombre del archivo sea: `fecha-slug.md` (ej: `2025-01-19-mi-post.md`). La fecha debe ser la de publicación, no la de création.
-- *** NO DEBEN CONTENER ESPACIOS EN BLANCO *** Si encuentras espacios en blanco en el nombre del archivo, reemplázalos por guiones. y asegúrate de que el nombre del archivo sea el slug del post.
+### Nombres de archivos vs Slug vs Título (TRES conceptos diferentes)
+
+| Concepto | Propósito | Formato | Ejemplo |
+|----------|--------|--------|--------|
+| **Título** | Lectura humana, SEO (H1) | Texto completo con mayúsculas y puntuación | "Home Assistant: Tu cerebro de domótica en un solo lugar" |
+| **Slug** | URL pública del post | 3-5 palabras clave, minúsculas, guiones | `home-assistant-guia-domotica` |
+| **Nombre archivo** | Identificador interno del .md | `fecha-slug-largo.md` (puede ser descriptivo) | `2026-06-08-home-assistant-tu-cerebro-de-domotica.md` |
+
+**Normas:**
+
+1. **Título**: Texto completo, puede tener puntuación, dos puntos, etc. Se usa para el H1 y metadatos.
+2. **Slug (URL)**: Entre 3-5 palabras clave. Nunca más de 5. Se usa en `permalink: /:slug/` y para la URL pública.
+3. **Nombre archivo**: Puede ser largo y descriptivo. Incluye la fecha de publicación. Se guarda en `_posts/`.
+
+**Ejemplos de relación:**
+
+| Título | Slug | Nombre archivo |
+|--------|------|---------------|
+| "AdGuard Home: Tu propio bloqueador de publicidad y DNS" | `adguard-home-bloqueador-publicidad` | `2026-05-25-adguard-home-tu-propio-bloqueador-de-publicidad.md` |
+| "Mi decisión de usar Proxmox: virtualización seria para Home Lab" | `proxmox-decision` | `2026-05-11-mi-decision-de-usar-proxmox.md` |
+
+**⚠️ IMPORTANTE:**
+- El nombre del archivo NO tiene que coincidir con el slug
+- El slug debe estar en el frontmatter (`slug:`)
+- El permalink usa el slug: `permalink: /:slug/`
 
 ### Generación del Slug (URL del Post)
 
