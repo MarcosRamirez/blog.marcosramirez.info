@@ -31,7 +31,7 @@ Lo que hace especial a N8N es que es de código abierto. Puedes instalarlo en tu
 
 Las herramientas de automatización como [Zapier](https://zapier.com/){:target="_blank" :rel="nofollow noopener"} o [Make](https://www.make.com/){:target="_blank" :rel="nofollow noopener"} son excellent pero tienen un problema: son servicios en la nube que cuestan dinero y guardan tus datos en sus servidores.
 
-N8N te da la potencia de esas herramientas pero en tu硬件. Sin límite de ejecuciones, sin pagar mensualidades, sin enviar tus datos a terceros.
+N8N te da la potencia de esas herramientas pero en tu servidor. Sin límite de ejecuciones, sin pagar mensualidades, sin enviar tus datos a terceros.
 
 ### Sin sorpresas en la factura
 
