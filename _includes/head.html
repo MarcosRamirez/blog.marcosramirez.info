@@ -3,6 +3,10 @@
 -->
 
 <head>
+  <style>
+    .share-icons a, .share-icons a:hover, .share-icons a:focus, .share-icons a:active { text-decoration: none !important; box-shadow: none !important; outline: none !important; }
+    .share-icons a i { text-decoration: none !important; }
+  </style>
   <!-- Twitter cards -->
   <meta name="twitter:site"    content="@{{ site.twitter.username }}">
   <meta name="twitter:creator" content="@{% if page.author %}{{ page.author }}{% else %}{{ site.twitter.username }}{% endif %}">
