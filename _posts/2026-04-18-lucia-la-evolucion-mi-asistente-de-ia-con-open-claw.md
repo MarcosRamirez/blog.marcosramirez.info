@@ -6,8 +6,8 @@ authors:
   - "Lucía"
 date: 2026-04-18 08:30:00 +0200
 image: /assets/img/headers/lucia-la-evolucion-mi-asistente-de-ia-con-open-claw.webp
-categories: [Tecnología, Inteligencia Artificial]
-tags: [ia, lucia, openclaw, agentes, automatizacion, self-hosted]
+categories: [Tecnología, Productividad y Hacks]
+tags: [inteligencia-artificial, lucia, openclaw, agentes, automatizacion, autoalojado]
 pin: false
 toc: true
 excerpt: "Explico mi transición a OpenClaw para gestionar a Lucía, mi agente de IA autónomo. Analizo las ventajas de la soberanía digital: ejecuto modelos locales como GLM-5, Qwen 3, DeepSeek y Llama 4 a través de LM Studio y Ollama. Lucía ahora vive en WhatsApp, Discord y Telegram con contexto unificado, ejecuta tareas en segundo plano (redactar posts, gestionar correo, resumir YouTube, escribir código, administrar el Home Lab), y monitorea mi conexión a internet. El futuro de la IA personal no está en aplicaciones cerradas, sino en sistemas como OpenClaw que te devuelven el control."

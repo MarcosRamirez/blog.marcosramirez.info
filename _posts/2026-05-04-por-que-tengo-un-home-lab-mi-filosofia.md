@@ -41,11 +41,11 @@ Este proceso de migración desde servicios SaaS hacia alternativas auto-alojadas
 
 | Antes (SaaS) | Ahora (Self-hosted) |
 |---|---|
-| Google Drive | [Nextcloud](https://nextcloud.com/){:target="_blank"} / [Syncthing](https://syncthing.net/){:target="_blank"} |
-| Dropbox | [Syncthing](https://syncthing.net/){:target="_blank"} |
-| Netflix / Spotify | [Jellyfin](https://jellyfin.org/){:target="_blank"} / [Navidrome](https://www.navidrome.org/){:target="_blank"} |
+| Google Drive | [Nextcloud](https://nextcloud.com/){:target="_blank" :rel="nofollow noopener"} / [Syncthing](https://syncthing.net/){:target="_blank" :rel="nofollow noopener"} |
+| Dropbox | [Syncthing](https://syncthing.net/){:target="_blank" :rel="nofollow noopener"} |
+| Netflix / Spotify | [Jellyfin](https://jellyfin.org/){:target="_blank" :rel="nofollow noopener"} / [Navidrome](https://www.navidrome.org/){:target="_blank" :rel="nofollow noopener"} |
 | Gmail | Autocorreo con Postfix |
-| Google Photos | [Photoprism](https://www.photoprism.app/){:target="_blank"} |
+| Google Photos | [Photoprism](https://www.photoprism.app/){:target="_blank" :rel="nofollow noopener"} |
 
 Cada servicio que migro es un servicio que dejo de pagar con mi privacidad.
 
@@ -71,7 +71,7 @@ Esta visibilidad es imposible en la mayoría de servicios SaaS, donde la "magia"
 
 ### Eliminación de Rastreadores
 
-Cada dispositivo que conectado a mi red pasa por un DNS que bloquea telemetría, publicidad y rastreadores conocidos. A nivel de red, sin instalar nada en cada dispositivo. Esto incluye TVs "inteligentes" que mandan datos a servidores desconocidos, frigoríficos conectados que reportan uso a fabricantes, y cientos de "llamadas a casa" que fazemos sin saber.
+Cada dispositivo que conectado a mi red pasa por un DNS que bloquea telemetría, publicidad y rastreadores conocidos. A nivel de red, sin instalar nada en cada dispositivo. Esto incluye TVs "inteligentes" que mandan datos a servidores desconocidos, frigoríficos conectados que reportan uso a fabricantes, y cientos de "llamadas a casa" que hacemos sin saber.
 
 Mi red es mia. No permito que terceros me espíen desde mi propio router.
 

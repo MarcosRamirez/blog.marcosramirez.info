@@ -15,16 +15,23 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 - **Tablas Comparativas:** (Crucial para el ranking). Siempre que se hable de una herramienta, la IA DEBE sugerir o crear una tabla que compare: Precio, Funciones clave y Facilidad de uso frente a la competencia o versiones nativas.
 - **Sección FAQ:** (Preguntas Frecuentes). Crear 3-4 preguntas al final del post para capturar tráfico de "búsqueda por voz" y fragmentos destacados.
 
-## 3. Optimización de Imágenes (SEO Visual)
+## 3. Gestión de Etiquetas (Tags)
+- **Cantidad:** Generar entre 3 y 6 etiquetas por post.
+- **Jerarquía Técnica:** Priorizar términos que definan el stack tecnológico (ej: `react`, `macos`, `automation`) o el propósito (ej: `productivity`, `dev-experience`).
+- **Formato:** Deben ser en minúsculas, sin espacios (usar guiones si es necesario, ej: `open-source`) y sin incluir la palabra clave principal del título (para evitar canibalización).
+- **Consistencia:** Reutilizar etiquetas comunes en `marcosramirez.info` para mejorar el rastreo de las páginas de archivo del tema Chirpy.
+
+## 4. Optimización de Imágenes (SEO Visual)
 - **Atributos ALT:** (Texto alternativo). Cada imagen debe llevar un texto que describa la escena incluyendo palabras clave (ej: `alt="Configuración de Wispr Flow en macOS para programadores"`).
 
-## 4. Enlaces y Seguridad
+## 5. Enlaces y Seguridad
 - **Atributos de Enlace:** (Seguridad técnica). Todo enlace externo o de afiliado debe llevar `rel="nofollow noopener"` y abrirse en pestaña nueva `target="_blank"`.
 - **Interlinking:** (Enlaces internos). Sugerir enlaces a otros posts de `marcosramirez.info` para mantener al usuario navegando.
 
-## 5. Formato Jekyll (Chirpy Theme)
+## 6. Formato Jekyll (Chirpy Theme)
 - Usar sintaxis de Kramdown para atributos de enlace: `[Texto](url){:target="_blank" :rel="nofollow noopener"}`.
 - No repetir el H1 dentro del cuerpo del Markdown (Chirpy ya lo añade desde el título).
+- **Front Matter:** Las etiquetas deben presentarse en formato de lista YAML: `tags: [tag1, tag2, tag3]`.
 
-## 6. Excerpt
+## 7. Excerpt
 - **Debe inducir a leer el resto del post**: usa ganchos, promesas de valor o preguntas que el artículo responderá.

@@ -16,13 +16,13 @@ permalink: /:slug/
 ---
 ![Post Header]({{ page.image }})
 
-En el [post anterior sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
+En el [post anterior sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
 
 # El encanto de lo fácil
 
-Cualquiera que se haya adentrado mínimamente en el mundo de los homelabs y [Proxmox](https://www.proxmox.com/){:target="_blank"} se ha cruzado alguna vez con los famosos "[Proxmox Helper Scripts](https://community-scripts.org/)" (como los conocidos scripts de `tteck`).
+Cualquiera que se haya adentrado mínimamente en el mundo de los homelabs y [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"} se ha cruzado alguna vez con los famosos "[Proxmox Helper Scripts](https://community-scripts.org/)" (como los conocidos scripts de `tteck`).
 
-Son una auténtica maravilla: copias una línea en la consola de tu nodo de Proxmox, le das al Enter, respondes un par de preguntas y en cuestión de minutos tienes un contenedor LXC perfectamente configurado corriendo [Nextcloud](https://nextcloud.com/){:target="_blank"}, [N8N](https://n8n.io/){:target="_blank"}, [Paperless-ngx](https://docs.paperless-ngx.com/){:target="_blank"}, [Firefly III](https://www.firefly-iii.org/){:target="_blank"}, o cualquier otro servicio que te puedas imaginar.
+Son una auténtica maravilla: copias una línea en la consola de tu nodo de Proxmox, le das al Enter, respondes un par de preguntas y en cuestión de minutos tienes un contenedor LXC perfectamente configurado corriendo [Nextcloud](https://nextcloud.com/){:target="_blank" :rel="nofollow noopener"}, [N8N](https://n8n.io/){:target="_blank" :rel="nofollow noopener"}, [Paperless-ngx](https://docs.paperless-ngx.com/){:target="_blank" :rel="nofollow noopener"}, [Firefly III](https://www.firefly-iii.org/){:target="_blank" :rel="nofollow noopener"}, o cualquier otro servicio que te puedas imaginar.
 
 Durante un tiempo, yo estuve implementándolos para probar cosas rápido, e incluso pensé en basar toda la arquitectura de mis servicios en ellos. Pero conforme mi red crecía, detecté un problema arquitectónico bastante molesto. 
 
@@ -60,6 +60,6 @@ Es cierto que se pierde el factor "magia" y la inmediatez de los scripts, pero s
 
 ***
 
-¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank" :rel="nofollow noopener"} y lo discutimos.
 
 Y... hasta aquí por hoy!
