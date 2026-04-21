@@ -120,16 +120,19 @@ Ejemplo:
 
 ### Generar imágenes de los posts
 
-*** SI NO PUEDES GENERAR IMÁGENES, IGNORA ESTE APARTADO ***
+**Norma:** Si no puedes generar la imagen, usar `default.webp` en el frontmatter. NO copiar ni crear archivos manualmente.
 
-- LEE EL POST y genera una imagen que tenga relación con el contenido del post.
-- Si se citan marcas, software, etc, evalua si deben aparecer en la imagen.
-- Solo debes generar imágenes para los posts que estén usando la imagen por defecto, es decir, que tengan la clave `image` con el valor `/assets/img/headers/default.webp`.
-- Si el post ya tiene una imagen, no debes generar una nueva.
-- Las imágenes deben tener una dimensión ***exacta** de 1900x478px.
-- El nombre del archivo debe ser el slug del post.
-- La imagen debe estar en formato .webp.
-- una vez generada la imagen, modifica el front matter del post para incluir la clave `image` con el valor del nombre del archivo de la imagen.
+**Proceso:**
+
+1. Intenta generar la imagen con el script de generación
+2. Si el script falla → reintenta (puede haber límites temporales)
+3. Si después de reintentar no hay imagen → usa `image: /assets/img/headers/default.webp` en el frontmatter
+4. NO crees ni copies archivos de imagen manualmente
+
+**Especificaciones de la imagen:**
+- Dimensiones: 1900x478px
+- Formato: .webp
+- Nombre: el slug del post
 
 
 ### Lógica de Programación (CALENDARIO)

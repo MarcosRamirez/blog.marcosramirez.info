@@ -5,12 +5,12 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-15 08:30:00 +0200
-image: /assets/img/headers/immich-privacidad-tus-fotos.webp
+image: /assets/img/headers/default.webp
 categories: [Tecnología, Automatización]
 tags: [immich, google-photos, fotos, privacidad, self-hosted, backup]
 pin: false
 toc: true
-excerpt: "Te presento Immich, la alternativa de código abierto a Google Photos. Tus fotos en tu servidor, no en la nube de Google. Sin suscripción mensual, sin analizar tus datos."
+excerpt: "Immich es la alternativa de código abierto a Google Photos. Tus fotos en tu servidor, no en los de Google. Sin suscripción, sin IA externa, sin analizar tus recuerdos más privados."
 twitter_description: "Immich: tus fotos en tu servidor, tú controlas los datos."
 permalink: /:slug/
 ---
