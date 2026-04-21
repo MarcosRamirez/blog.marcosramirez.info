@@ -7,7 +7,7 @@ authors:
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/opencode-mi-asistente-de-codigo-abierto.webp
 categories: [Tecnología, Productividad y Hacks]
-tags: [código-abierto, cli, herramientas, productividad]
+tags: [código-abierto, cli, herramientas, productividad, desarrollo, terminal]
 pin: false
 toc: true
 excerpt: "Desde hace unos meses tengo un nuevo compañero de trabajo que escribe código, investiga y me ahorra horas cada semana. Se llama OpenCode, una herramienta de código abierto que funciona en mi terminal y me ayuda con tareas de desarrollo, redacción de posts y resolución de problemas técnicos. Con más de 140.000 estrellas en GitHub y usado por más de 6 millones de desarrolladores, es la alternativa open source a ChatGPT y Claude."

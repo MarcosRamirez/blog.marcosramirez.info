@@ -15,9 +15,13 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 - **Tablas Comparativas:** Obligatorias al mencionar herramientas para comparar Precio, Funciones y Dev-Experience.
 - **Sección FAQ:** 3-4 preguntas para capturar fragmentos destacados (featured snippets).
 
-## 3. Gestión de Etiquetas (Tags)
-- **Cantidad:** Entre 3 y 6 etiquetas por post.
-- **Regla Anti-Canibalización:** PROHIBIDO usar como etiqueta el nombre del producto, app o tema principal que da título al post (ej: si el post es sobre "Docker", no usar `docker` como tag; usar `contenedores`, `devops`, `infraestructura`).
+## 3. Gestión de Etiquetas (Tags) y Pensamiento Relacional
+- **Cantidad:** Entre 3 y 8 etiquetas por post.
+- **Regla Anti-Canibalización:** PROHIBIDO usar como etiqueta el nombre del producto, app o tema principal que da título al post.
+- **Expansión Semántica:** La IA debe razonar etiquetas relacionadas mediante el ecosistema técnico:
+    - **Tecnologías Adyacentes:** Si el post es sobre un framework, sugerir el lenguaje base o su entorno (ej: para `Next.js`, usar `react` o `vercel`).
+    - **Abstracción Técnica:** Identificar la categoría superior (ej: para `PostgreSQL`, usar `databases` o `sql`).
+    - **Casos de Uso:** Relacionar con el beneficio (ej: `performance`, `automation`, `security`).
 - **Lógica:** 1-2 Core Tech (tecnología base), 2-3 Contexto Profesional (rol/sector), 1 Intent (propósito del post).
 - **Formato:** Minúsculas, sin espacios (usar guiones), evitar repetir el título del post.
 - **YAML:** `tags: [tag1, tag2, tag3]`.

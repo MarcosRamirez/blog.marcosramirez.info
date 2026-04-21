@@ -7,7 +7,7 @@ authors:
 date: 2026-05-25 08:30:00 +0200
 image: /assets/img/headers/adguard-home-tu-propio-bloqueador-de-publicidad.webp
 categories: [Tecnología, Redes e Infraestructura]
-tags: [dns, privacidad, seguridad, home-lab]
+tags: [dns, privacidad, seguridad, redes,bloqueador, publicidades]
 pin: false
 toc: true
 excerpt: "Os presento AdGuard Home, el primer servicio de mi serie de Home Lab. Un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo, protegiendo todos los dispositivos de tu red."
