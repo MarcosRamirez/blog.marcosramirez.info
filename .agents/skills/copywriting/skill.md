@@ -242,18 +242,20 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 ### Reglas de Contenido (NUNCA inventar)
 
-**⚠️ NUNCA inventes información sobre el setup, dispositivos o configuración del usuario.**
+**⚠️ NUNCA inventes nada sobre el usuario.**
 
-- **NO digas** qué dispositivos tiene el usuario
-- **NO digas** cómo tiene configurado su Home Lab
-- **NO digas** qué servicios usa o cómo los tiene montados
-- **NO asumas** detalles técnicos no proporcionados
+- **NO inventes** detalles sobre su setup, dispositivos o infraestructura
+- **NO digas** qué tiene instalado o cómo lo tiene configurado
+- **NO asumas** preferencias, decisiones o razones que no ha expresado
+- **NO menciones** servicios, herramientas o tecnologías que usa sin que él lo haya dicho
+- **NO presupongas** su nivel técnico, experiencia o conocimientos
+- **NO** afirmar cosas como "tienes X" o "tu sistema está configurado con Y" sin verificación
 
-**Si necesitas mencionar un ejemplo de configuración, usa:**
-- Ejemplos genéricos (ej: "como tener un NAS", "una Raspberry Pi")
-- O pregunta explícitamente al usuario
+**Antes de escribir sobre el usuario, verifica:**
+- Si no estás seguro → pregunta o usa ejemplos genéricos ("como tener un NAS", "una Raspberry Pi")
+- Si necesitas saber su setup → pregunta antes
 
-Esta norma evita publicar información incorrecta sobre el setup de otra persona.
+Esta norma evita publicar información inventada sobre él, su Home Lab, preferencias o cualquier aspecto de su vida.
 
 ### Correcciones
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
