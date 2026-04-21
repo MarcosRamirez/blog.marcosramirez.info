@@ -23,7 +23,7 @@ Un gestor de contraseñas no es opcional. Es fundamental. Y Vaultwarden te da el
 
 ## Qué es Vaultwarden
 
-[Vaultwarden](https://vaultwarden.net/){:target="_blank" :rel="nofollow noopener"} es una implementación de servidor del API de Bitwarden, escrita en Rust. Es ligera, rápida y totalmente compatible con todos los clientes oficiales de Bitwarden: extensiones de navegador, aplicaciones de escritorio, apps móviles.
+[Vaultwarden](https://vaultwarden.net/){:target="_blank" :rel="nofollow noopener"} es una implementación de servidor del API de [Bitwarden](https://bitwarden.com/){:target="_blank" :rel="nofollow noopener"}, escrita en [Rust](https://www.rust-lang.org/){:target="_blank" :rel="nofollow noopener"}. Es ligera, rápida y totalmente compatible con todos los clientes oficiales de Bitwarden: extensiones de navegador, aplicaciones de escritorio, apps móviles.
 
 Básicamente, es Bitwarden pero en tu servidor, sin pagar nada por las funcionalidades premium.
 
@@ -43,7 +43,7 @@ Usa las mismas aplicaciones que Bitwarden. La misma interfaz, las mismas extensi
 
 ### Cifrado del lado del cliente
 
-Tu contraseña maestra nunca sale de tu dispositivo. Todo el cifrado y descifrado happen locally. El servidor solo almacena datos cifrados que no puede leer.
+Tu contraseña maestra nunca sale de tu dispositivo. Todo el cifrado y descifrado ocurre localmente. El servidor solo almacena datos cifrados que no puede leer.
 
 ### Funcionalidades premium gratuitas
 
@@ -60,9 +60,9 @@ Estas son las funcionalidades que en Bitwarden requieren suscripción, y en Vaul
 Soporta múltiples métodos de 2FA:
 
 - Correo electrónico
-- Duo
-- YubiKey
-- FIDO2 WebAuthn (incluyendo Nitrokeys y Solokeys)
+- [Duo](https://duo.com/){:target="_blank" :rel="nofollow noopener"}
+- [YubiKey](https://www.yubico.com/){:target="_blank" :rel="nofollow noopener"}
+- [FIDO2](https://fidoalliance.org/fido2/){:target="_blank" :rel="nofollow noopener"} WebAuthn (incluyendo [Nitrokey](https://nitrokey.com/){:target="_blank" :rel="nofollow noopener"} y [Solokeys](https://solokeys.com/){:target="_blank" :rel="nofollow noopener"})
 
 ### Sincronización en tiempo real
 
@@ -74,13 +74,13 @@ Vaultwarden usa apenas 50 MB de RAM. Puedes correrlo en una Raspberry Pi sin pro
 
 ### Bases de datos
 
-Usa SQLite por defecto, pero puede conectarse a MySQL o PostgreSQL para mejor rendimiento y escalabilidad.
+Usa [SQLite](https://www.sqlite.org/){:target="_blank" :rel="nofollow noopener"} por defecto, pero puede conectarse a [MySQL](https://www.mysql.com/){:target="_blank" :rel="nofollow noopener"} o [PostgreSQL](https://www.postgresql.org/){:target="_blank" :rel="nofollow noopener"} para mejor rendimiento y escalabilidad.
 
 ## Comparativa con alternativas
 
 | Característica | Vaultwarden | Bitwarden Cloud | Bitwarden Self-Hosted | 1Password | LastPass |
 |----------------|:------------:|:---------------:|:---------------------:|:---------:|:--------:|
-| **Precio** | Gratis | Gratis / 10 €/año | $3,33/mes | 2,99 €/mes | 2,90 €/mes |
+| **Precio** | Gratis | Gratis / 10 €/año | 3,33 €/mes | 2,99 €/mes | 2,90 €/mes |
 | **Código abierto** | Sí | Parcial | Parcial | No | No |
 | **Datos locales** | Sí | No | Sí (tú decides) | No | No |
 | **TOTP gratis** | Sí | No (premium) | No (premium) | Sí | Sí |
@@ -123,24 +123,19 @@ Bitwarden podría cerrar, cambiar sus políticas de privacidad o subir precios. 
 
 ## Instalación mediante LXC
 
-La instalación recomendada en un Home Lab es mediante LXC:
+La instalación recomendada en un Home Lab es mediante LXC. Usa el script de instalación automático:
 
 ```bash
-docker run -d \
-  --name vaultwarden \
-  -e WEBSOCKET_ENABLED=true \
-  -e ADMIN_TOKEN=tu_token_seguro \
-  -v /ruta/a/datos:/data \
-  -p 8080:80 \
-  -p 3012:3012 \
-  vaultwarden/server:latest
+curl -s -S -L https://raw.githubusercontent.com/ghost-of-company/vaultwarden/main/install.sh | bash
 ```
+
+Este script instala Vaultwarden con [Docker](https://www.docker.com/){:target="_blank" :rel="nofollow noopener"}, que es la forma recomendada de ejecutarlo.
 
 ### Requisitos
 
-- Un contenedor LXC con Docker
+- Un contenedor LXC con Docker instalado
 - Al menos 512 MB de RAM
-- HTTPS obligatorio (usa un reverse proxy como Caddy o Nginx)
+- HTTPS obligatorio (usa un reverse proxy como [Caddy](https://caddyserver.com/){:target="_blank" :rel="nofollow noopener"} o [Nginx](https://nginx.org/){:target="_blank" :rel="nofollow noopener"})
 
 ### Configuración básica
 
