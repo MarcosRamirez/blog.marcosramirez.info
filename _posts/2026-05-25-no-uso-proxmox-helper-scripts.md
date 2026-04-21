@@ -4,7 +4,7 @@ slug: no-uso-proxmox-helper-scripts
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-06-01 08:30:00 +0200
+date: 2026-05-25 08:30:00 +0200
 image: /assets/img/headers/no-uso-proxmox-helper-scripts.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [contenedores, automatización, infraestructura, servidores, homelab, scripts]
