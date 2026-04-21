@@ -25,7 +25,7 @@ Ahí entra Homarr.
 
 [Homarr](https://homarr.dev/){:target="_blank" :rel="nofollow noopener"} es un dashboard moderno y fácil de usar para tu Home Lab. Es una página web donde ves todos tus servicios organizados, con iconos, estado y acceso con un clic.
 
-Lo mejor: todo se configura desde la interfaz web. No hay que editar archivos YAML ni配置文件. Arrastras, sueltas, configuras y listo.
+Lo mejor: todo se configura desde la interfaz web. No hay que editar archivos YAML ni archivos de configuración. Arrastras, sueltas, configuras y listo.
 
 ### Por qué un dashboard
 
@@ -40,7 +40,7 @@ Cuando tienes 5 o 10 servicios, es fácil recordar las URLs. Pero cuando tienes 
 
 ### Editor visual drag-and-drop
 
-Homarr tiene un editor visual. Añades widgets, los arrastras, los recolocas, cambias el tamaño. Todo desde el navegador.直觉.
+Homarr tiene un editor visual. Añades widgets, los arrastras, los recolocas, cambias el tamaño. Todo desde el navegador. Es muy intuitivo.
 
 ### Más de 50 integraciones
 
@@ -120,23 +120,15 @@ A diferencia de servicios en la nube que te limitan, aquí puedes poner todos lo
 
 ## Instalación mediante LXC
 
-La instalación recomendada en un Home Lab es mediante LXC:
+La instalación recomendada en un Home Lab es mediante LXC. Usa el script de instalación automático:
 
 ```bash
-docker run -d \
-  --name homarr \
-  -e PUID=1000 \
-  -e PGID=1000 \
-  -e TZ=Europe/Madrid \
-  -p 7575:7575 \
-  -v /ruta/a/datos:/data \
-  -v /var/run/docker.sock:/var/run/docker.sock \
-  ghcr.io/homarr-labs/homarr:latest
+curl -s -S -L https://raw.githubusercontent.com/homarr-labs/homarr/master/install.sh | bash
 ```
 
 ### Requisitos
 
-- Un contenedor LXC con Docker
+- Un contenedor LXC
 - Al menos 256 MB de RAM
 - 1 GB de espacio en disco
 
@@ -148,7 +140,7 @@ docker run -d \
 
 ### Acceso al socket de Docker
 
-Si quieres que Homarr detecte automáticamente tus contenedores, monta el socket de Docker (`-v /var/run/docker.sock:/var/run/docker.sock`). Nota: esto даёт acceso de lectura a la lista de contenedores.
+Si quieres que Homarr detecte automáticamente tus contenedores, activa la integración de Docker en la configuración. Nota: esto da acceso de lectura a la lista de contenedores.
 
 ## Cuándo elegir qué
 
