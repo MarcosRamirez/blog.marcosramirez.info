@@ -10,12 +10,12 @@ categories: [Tecnología, Automatización]
 tags: [backup, 3-2-1, datos, privacidad, proxmox]
 pin: false
 toc: true
-excerpt: "La regla 3-2-1 de backups es el estándar gold para proteger tus datos. 3 copias, 2 tipos de almacenamiento, 1 fuera de casa. Te explico cómo aplicarla y qué herramientas usar en tu Home Lab."
-twitter_description: "La regla 3-2-1 de backups explicada: protege tus datos con3 copias en 2 tipos diferentes y 1 fuera de casa."
+excerpt: "La regla 3-2-1 de backups es el estándar para proteger tus datos. 3 copias, 2 tipos de almacenamiento, 1 fuera de casa. Te explico cómo aplicarla y qué herramientas usar."
+twitter_description: "La regla 3-2-1 de backups: protege tus datos con 3 copias en 2 tipos diferentes y 1 fuera de casa."
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosophia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})]*
 
 Un disco duro puede fallar. Un ransomware puede cifrar todos tus archivos. Un incendio puede destruir tu servidor. Si solo tienes una copia de tus datos, los has perdido.
 
@@ -23,7 +23,7 @@ La buena noticia: proteger tus datos es fácil si sigues una regla simple.
 
 ## La regla 3-2-1
 
-Fue creada por un photographe llamado Peter Krogh, pero es adoptada por gobiernos y empresas de todo el mundo. Dice esto:
+Fue creada por un fotógrafo llamado Peter Krogh, pero es adoptada por gobiernos y empresas de todo el mundo. Dice esto:
 
 - **3 copias** de tus datos (el original + 2 backups)
 - **2 tipos diferentes** de almacenamiento (NAS + nube, o disco + SSD)
@@ -33,35 +33,35 @@ En otras palabras: si pierdes el original y un backup, todavía tienes otro.
 
 ### Por qué funciona
 
-Cada punto de fallo es independiente. Un ransomware que entra por tu red puede cifrar tu NAS y tu ordenador, pero no puede cifrar el disco que tienes en casa de tu madre ni el backup en la nube.
+Cada punto de fallo es independiente. Un ransomware que entra por tu red puede cifrar tu NAS y tu ordenador, pero no puede cifrar el disco que tienes en casa de un familiar ni el backup en la nube.
 
-## Cómo aplicarlo en tu Home Lab
+## Cómo aplicarla
 
-### Copia 1: Tu datos originales
+### Copia 1: Tus datos originales
 
-Son tus fotos, documentos, configuraciones, base de datos. Todo lo que no quieres perder.
+Son tus fotos, documentos, configuraciones, bases de datos. Todo lo que no quieres perder.
 
-En mi caso:
+Ejemplos de datos a respaldar:
 
-- Fotos desde el móvil (Immich)
-- Documentos importantes (Nextcloud)
-- Configuraciones de mis servicios (en un repositorio Git)
-- Bases de datos (MariaDB centralizado)
+- Fotos desde el móvil
+- Documentos importantes
+- Configuraciones de servicios
+- Bases de datos
 
 ### Copia 2: Backup local
 
-En mi Home Lab, tengo un NAS o disco adicional donde hago备份 local diarias. Si el servidor principal falla, levanto todo desde aquí.
+Un NAS o disco adicional donde hacer backup periódico. Si el servidor principal falla, puedes levantar todo desde aquí.
 
-Si usas [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}), [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) (PBS) es la solución nativa y gratuita.
+Para quien usa [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}), [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) (PBS) es la solución nativa y gratuita.
 
 ### Copia 3: Backup fuera de casa
 
-Aquí entran las opciones cloud.Tienes dos caminos:
+Aquí entran las opciones cloud. Tienes dos caminos:
 
 1. **Servicio cloud especializado**: Backblaze B2, Wasabi, IDrive
 2. **o un PBS gestionado**: Un servidor PBS en otro lugar físico
 
-## Comparativa: Backup cloud vs PBS local
+## Comparativa: Backup cloud vs PBS
 
 | Aspecto | Backblaze B2 | Wasabi | PBS Local | PBS Gestionado |
 |---------|:---:|:---:|:---:|:---:|
@@ -88,10 +88,8 @@ Aquí entran las opciones cloud.Tienes dos caminos:
 
 - Completamente gratuito (código abierto)
 - Deduplicación a nivel de chunk
-- Encriptación cliente-lado
+- Encriptación del lado del cliente
 - Integración nativa con Proxmox
-
-En mi caso tengo PBS local + un SDS gestorado fuera de casa.
 
 ## Cuál elegir
 
@@ -103,13 +101,13 @@ Backblaze B2. Solo configuras un cliente y ya está. $6/TB/mes por menos de lo q
 
 PBS local + Sync a un PBS gestionado. Tienes control total, sin límite mensual.
 
-### Para paranoicos (en el buen sentido)
+### Para quienes quieren máxima seguridad
 
 3-2-1 completo:
 
 1. NAS local (copia diaria)
-2. PBS local (copia cada hora)
-3. Backblaze B2 o SDS fuera de casa
+2. PBS local (copia periódica)
+3. Backblaze B2 o PBS fuera de casa
 
 ## Cuánto almacenamiento necesitas
 
@@ -120,11 +118,11 @@ PBS local + Sync a un PBS gestionado. Tienes control total, sin límite mensual.
 | VMs de Proxmox | 50-200 GB |
 | Documentos | 1-10 GB |
 
-Un disco de 4TB te dura años. Un NAS básico como Synology DS224+ cuesta ~€250 y tiene bays para expandir.
+Un disco de 4TB te dura años. Un NAS básico como Synology DS224+ cuesta ~€250 y tiene bahías para expandir.
 
 ## No es opcional
 
-El 60% de las empresas que pierden datos críticos se-ren en 6 meses. No dejes que te pase.
+El 60% de las empresas que pierden datos críticos cierran en 6 meses. No dejes que te pase.
 
 Una vez configurado, el backup se hace solo. Solo tienes que acordarte de probar que funciona una vez al mes.
 
