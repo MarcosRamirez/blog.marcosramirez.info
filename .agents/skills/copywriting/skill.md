@@ -136,10 +136,17 @@ Ejemplo:
 
 
 ### Lógica de Programación (CALENDARIO)
-1. **Día y Hora:** Todos los posts deben programarse para un **lunes a las 08:30 (Hora de Madrid)**. A no ser que te especifique día y hora, en ese caso, usa la que te indique.
-2. **Cálculo de Fecha:** - Revisa las fechas en los archivos de la carpeta de posts.
-   - Si el próximo lunes (a partir de hoy) ya tiene un post asignado, salta al siguiente lunes, y así sucesivamente hasta encontrar el primer lunes libre.
-   - Formato de fecha en el Frontmatter: `YYYY-MM-DD 08:30:00 +0200` (o el que detectes en el proyecto).
+
+**Fichero de seguimiento:** Se usa el archivo `.proximafecha` en la raíz del proyecto para gestionar las fechas de publicación.
+
+1. **Leer fecha:** Antes de crear un post, lee el archivo `.proximafecha` y obtén el valor de `proxima_fecha`.
+2. **Si el archivo no existe:** Búscalo en `_posts/` (el post con fecha más alta), calcula el siguiente lunes y crea el archivo `.proximafecha`.
+3. **Crear post:** Usa el valor de `proxima_fecha` en el frontmatter del nuevo post.
+4. **Actualizar archivo:** Después de crear el post, calcula el siguiente lunes a partir de la fecha usada y actualiza `.proximafecha`:
+   - `ultima_fecha` = fecha del post que acabas de crear
+   - `proxima_fecha` = siguiente lunes libre
+5. **Día y Hora:** Todos los posts deben programarse para un **lunes a las 08:30 (Hora de Madrid)**.
+6. **Formato de fecha:** `YYYY-MM-DD 08:30:00 +0200`
 
 ### Reglas para Enlaces y URLs
 - Siempre que menciones webs, apps o empresas, etc... incluye su URL.
