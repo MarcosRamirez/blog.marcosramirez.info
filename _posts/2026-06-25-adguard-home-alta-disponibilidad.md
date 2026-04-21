@@ -37,7 +37,7 @@ El router apunta a ambas IPs como servidores DNS. Así hay balanceo de carga rea
 - Dos dispositivos con AdGuard Home (pueden ser dos Raspberry Pi, dos LXC, o cualquier cosa que pueda correr Docker)
 - AdGuardHome-Sync (para sincronizar configuración)
 
-### Tip para记住 las IPs
+### Tip para recordar las IPs
 
 Un truco útil: usa `.53` para el nodo principal y `.54` para el secundario. Así siempre recuerdas que son los servidores DNS. Ejemplo:
 
