@@ -62,7 +62,7 @@ Una cosa que me ha encantado es que Wispr Flow tiene un sistema de **retos diari
 - **Por cada 100 palabras** que dictes en un día, **ganas 1 día extra** de Premium
 - No hay límite máximo de días que puedes ganar
 
-O sea, si eres productivo y dictas 500 palabras al día, ¡puedes añadir 5 días más de Premium cada jornada! Hay otros retos disponibles:
+O sea, si eres productivo y dictas 100 palabras al día, ¡puedes añadir 1 día más de Premium cada jornada! Hay otros retos disponibles:
 
 - Usar la app en diferentes aplicaciones
 - Mantener una racha de uso consecutivos

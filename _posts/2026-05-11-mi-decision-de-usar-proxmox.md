@@ -98,7 +98,7 @@ Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocult
 | Característica | Proxmox VE | ESXi | Hyper-V | Docker Standalone |
 |---|:---:|:---:|:---:|:---:|
 | **Tipo** | Híbrido (VM + LXC) | Solo VM | Solo VM | Contenedores |
-| **Precio** | **Gratis** | Freemium | Negocio | Gratis |
+| **Precio** | **Gratis** | Freemium (vSphere: $200-500/año) | Negocio (Server: $1,069+) | Gratis |
 | **Código abierto** | **Sí** | No | No | Sí |
 | **UI web** | **Sí** | Sí | Sí | No |
 | **Snapshots** | **Sí** | Sí | Sí | Limitado |
