@@ -35,8 +35,14 @@ El router apunta a ambas IPs como servidores DNS. Así hay balanceo de carga rea
 ## Qué necesitas
 
 - Dos dispositivos con AdGuard Home (pueden ser dos Raspberry Pi, dos LXC, o cualquier cosa que pueda correr Docker)
-- Keepalived instalado en ambos (para el failover)
 - AdGuardHome-Sync (para sincronizar configuración)
+
+### Tip para记住 las IPs
+
+Un truco útil: usa `.53` para el nodo principal y `.54` para el secundario. Así siempre recuerdas que son los servidores DNS. Ejemplo:
+
+- Nodo principal: `192.168.1.53`
+- Nodo secundario: `192.168.1.54`
 
 ## Instalación del segundo nodo
 
