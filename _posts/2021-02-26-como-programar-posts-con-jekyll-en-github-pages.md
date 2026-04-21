@@ -37,10 +37,15 @@ Con esto, forzaremos un build cada media hora, que hará que ahora ya sí se pub
 En el archivo `_config.yml` existe una opción llamada `future` que controla si Jekyll debe publicar posts con fecha en el futuro:
 
 ```yaml
-future: false  # No publicar posts con fecha futura
+future: false  # ublicar posts con fecha futura
 ```
 
+El naming, es un poco ... de aquella manera
+
 Por defecto está en `false`, lo que significa que Jekyll ignorará los posts con fecha futura. Si lo cambias a `true`, Jekyll publicará esos posts automáticamente, pero ten en cuenta que esto puede causar problemas si tienes el workflow configurado para ejecutarse automáticamente.
+
+Osea, si está en true, publicará todo, al momento, independientemente de la fecha que tenga el post.
+Si lo pones en false, solo publicará los posts que tengan fecha en el pasado. Por tanto, podrás programar posts.
 
 **La configuración recomendada** es mantener `future: false` y usar el workflow con schedule para publicar los posts automáticamente cuando llegue su fecha.
 
