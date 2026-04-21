@@ -1,6 +1,6 @@
 ---
 title: "Por qué no uso los helper scripts de Proxmox"
-slug: por-que-no-uso-proxmox-helper-scripts
+slug: no-uso-proxmox-helper-scripts
 authors:
   - "Marcos Ramírez"
   - "Lucía"

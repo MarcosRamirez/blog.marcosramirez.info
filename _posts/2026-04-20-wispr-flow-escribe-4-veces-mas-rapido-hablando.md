@@ -1,6 +1,6 @@
 ---
 title: "Wispr Flow: Escribe 4 veces más rápido solo hablando"
-slug: wispr-flow-escribe-4-veces-mas-rapido-hablando
+slug: wispr-flow-escritura-vocidad
 authors:
   - "Marcos Ramírez"
   - "Lucía"

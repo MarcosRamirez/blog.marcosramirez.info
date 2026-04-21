@@ -1,6 +1,6 @@
 ---
 title: "AdGuard Home: Tu propio bloqueador de publicidad y DNS (Serie Home Lab)"
-slug: adguard-home-tu-propio-bloqueador-de-publicidad
+slug: adguard-home-bloqueador-publicidad
 authors:
   - "Marcos Ramírez"
   - "Lucía"

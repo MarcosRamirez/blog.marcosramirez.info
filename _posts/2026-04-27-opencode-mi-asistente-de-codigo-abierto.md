@@ -1,6 +1,6 @@
 ---
 title: "OpenCode: Mi asistente de código abierto"
-slug: opencode-mi-asistente-de-codigo-abierto
+slug: opencode-asistente-codigo
 authors:
   - "Marcos Ramírez"
   - "Lucía"

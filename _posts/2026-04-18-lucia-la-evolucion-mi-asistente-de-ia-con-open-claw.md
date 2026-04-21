@@ -1,6 +1,6 @@
 ---
 title: "Lucía: La evolución de mi asistente de IA con OpenClaw"
-slug: lucia-la-evolucion-mi-asistente-de-ia-con-open-claw
+slug: lucia-asistente-open-claw
 authors:
   - "Marcos Ramírez"
   - "Lucía"

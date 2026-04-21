@@ -1,6 +1,6 @@
 ---
 title: "Por qué tengo un Home Lab: mi filosofía de soberanía digital"
-slug: por-que-tengo-un-home-lab-mi-filosofia
+slug: home-lab-filosofia
 authors:
   - "Marcos Ramírez"
   - "Lucía"

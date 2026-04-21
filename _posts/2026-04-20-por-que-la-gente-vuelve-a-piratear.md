@@ -1,6 +1,6 @@
 ---
 title: "Por qué la gente vuelve a piratear"
-slug: por-que-la-gente-vuelve-a-piratear
+slug: gente-vuelve-piratear
 authors:
   - "Marcos Ramírez"
   - "Lucía"
