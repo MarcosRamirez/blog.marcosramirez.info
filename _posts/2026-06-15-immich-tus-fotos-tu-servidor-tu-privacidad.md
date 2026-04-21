@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-15 08:30:00 +0200
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/immich-privacidad-tus-fotos.webp
 categories: [Tecnología, Automatización]
 tags: [immich, google-photos, fotos, privacidad, self-hosted, backup]
 pin: false
