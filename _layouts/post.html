@@ -20,14 +20,14 @@ layout: default
             {% if page.authors %}
             {% for author in page.authors %}
             {% if author == "Lucía" %}
-            <a href="{{ site.baseurl }}/tags/lucia/">{{ author }}</a>{% unless forloop.last %}, {% endunless %}
+            <a href="https://marcosramirez.info/lucia/" target="_blank">{{ author }}</a>{% unless forloop.last %}, {% endunless %}
             {% else %}
             <a href="https://marcosramirez.info" target="_blank">{{ author }}</a>{% unless forloop.last %}, {% endunless
             %}
             {% endif %}
             {% endfor %}
             {% elsif page.author == "Lucia" %}
-            <a href="{{ site.baseurl }}/tags/lucia/">{{ page.author }}</a>
+            <a href="https://marcosramirez.info/lucia/" target="_blank">{{ page.author }}</a>
             {% elsif page.author %}
             <a href="https://marcosramirez.info" target="_blank">{{ page.author }}</a>
             {% else %}
