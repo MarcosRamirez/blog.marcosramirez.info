@@ -229,13 +229,14 @@
 .share-icons {
     font-size: 1.2rem;
     a {
-      text-decoration: none;
+      text-decoration: none !important;
       transition: color 0.2s ease;
       &:not(:last-child) {
         margin-right: 0.25rem;
       }
       &:hover {
         color: var(--btn-share-hover-color) !important;
+        text-decoration: none !important;
       }
     }
     > i {
