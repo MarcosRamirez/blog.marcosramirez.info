@@ -7,31 +7,42 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 
 ## 1. Perfil y Autoridad
 - **Autor:** Marcos Ramírez, Software Engineer.
-- **E-E-A-T:** (Experiencia, Conocimiento, Autoridad y Confianza). La IA debe inyectar párrafos que demuestren que el autor ha probado el software y entiende su arquitectura técnica.
+- **E-E-A-T:** Inyectar párrafos que demuestren experiencia directa, pruebas de software y comprensión de arquitectura técnica.
 
 ## 2. Estructura de Contenido (On-Page)
-- **H1:** Título único (Para no confundir a los buscadores).
-- **H2/H3 con Long-tail:** (Frases de búsqueda larga). Usar subtítulos tipo "¿Cómo funciona X?" o "Comparativa de X vs Y".
-- **Tablas Comparativas:** (Crucial para el ranking). Siempre que se hable de una herramienta, la IA DEBE sugerir o crear una tabla que compare: Precio, Funciones clave y Facilidad de uso frente a la competencia o versiones nativas.
-- **Sección FAQ:** (Preguntas Frecuentes). Crear 3-4 preguntas al final del post para capturar tráfico de "búsqueda por voz" y fragmentos destacados.
+- **H1:** Título único definido en el Front Matter.
+- **H2/H3 con Long-tail:** Subtítulos que respondan a búsquedas reales (ej: "¿Cómo configurar X en Y?").
+- **Tablas Comparativas:** Obligatorias al mencionar herramientas para comparar Precio, Funciones y Dev-Experience.
+- **Sección FAQ:** 3-4 preguntas para capturar fragmentos destacados (featured snippets).
 
 ## 3. Gestión de Etiquetas (Tags)
-- **Cantidad:** Generar entre 3 y 6 etiquetas por post.
-- **Jerarquía Técnica:** Priorizar términos que definan el stack tecnológico (ej: `react`, `macos`, `automation`) o el propósito (ej: `productivity`, `dev-experience`).
-- **Formato:** Deben ser en minúsculas, sin espacios (usar guiones si es necesario, ej: `open-source`) y sin incluir la palabra clave principal del título (para evitar canibalización).
-- **Consistencia:** Reutilizar etiquetas comunes en `marcosramirez.info` para mejorar el rastreo de las páginas de archivo del tema Chirpy.
+- **Cantidad:** Entre 3 y 6 etiquetas por post.
+- **Lógica:** 1-2 Core Tech, 2-3 Contexto Profesional, 1 Intent (Propósito).
+- **Formato:** Minúsculas, sin espacios (usar guiones), evitar repetir el título del post.
+- **YAML:** `tags: [tag1, tag2, tag3]`.
+- **REGLA ANTI-CANIBALIZACIÓN (Crítico):** - PROHIBIDO usar como etiqueta el nombre del producto, app o tema principal que da título al post. 
+    - Ejemplo: Si el post se titula "Guía completa de Wispr Flow", la etiqueta `wispr-flow` está prohibida. En su lugar, usar el contexto: `productividad`, `macos-apps`, `speech-to-text`.
 
 ## 4. Optimización de Imágenes (SEO Visual)
-- **Atributos ALT:** (Texto alternativo). Cada imagen debe llevar un texto que describa la escena incluyendo palabras clave (ej: `alt="Configuración de Wispr Flow en macOS para programadores"`).
+- **Atributos ALT:** Técnicos y descriptivos (ej: `alt="Terminal con salida de error en Node.js"`).
 
-## 5. Enlaces y Seguridad
-- **Atributos de Enlace:** (Seguridad técnica). Todo enlace externo o de afiliado debe llevar `rel="nofollow noopener"` y abrirse en pestaña nueva `target="_blank"`.
-- **Interlinking:** (Enlaces internos). Sugerir enlaces a otros posts de `marcosramirez.info` para mantener al usuario navegando.
+## 5. Política de Enlaces y Dominios
+Para maximizar el "Link Juice" y la seguridad, la IA debe identificar el destino del enlace:
+
+### A. Dominios Propios (Whitelist - Dofollow)
+NO aplicar `nofollow` ni `noopener` a los siguientes dominios:
+- `marcosramirez.info`
+- `marcosramirez.dev`
+- `saasquatch.es`
+
+### B. Enlaces Externos (Seguridad)
+Cualquier dominio NO incluido en la lista anterior debe tratarse como externo.
 
 ## 6. Formato Jekyll (Chirpy Theme)
-- Usar sintaxis de Kramdown para atributos de enlace: `[Texto](url){:target="_blank" :rel="nofollow noopener"}`.
-- No repetir el H1 dentro del cuerpo del Markdown (Chirpy ya lo añade desde el título).
-- **Front Matter:** Las etiquetas deben presentarse en formato de lista YAML: `tags: [tag1, tag2, tag3]`.
+- **Enlaces Externos:** Usar `[Texto](url){:target="_blank" :rel="nofollow noopener"}`.
+- **Enlaces Propios (Whitelist):** Usar `[Texto](url){:target="_blank"}` (sin rel) para mantener la autoridad.
+- **H1:** No repetir dentro del cuerpo del Markdown.
 
-## 7. Excerpt
-- **Debe inducir a leer el resto del post**: usa ganchos, promesas de valor o preguntas que el artículo responderá.
+## 7. Excerpt e Interlinking
+- **Excerpt:** Gancho técnico de ~150 caracteres para el feed principal.
+- **Interlinking:** Sugerir enlaces internos hacia los dominios de la Whitelist para mejorar la navegación del usuario.

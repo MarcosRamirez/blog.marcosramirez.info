@@ -7,7 +7,7 @@ authors:
 date: 2026-05-25 08:30:00 +0200
 image: /assets/img/headers/adguard-home-tu-propio-bloqueador-de-publicidad.webp
 categories: [Tecnología, Redes e Infraestructura]
-tags: [adguard, dns, publicidad, privacidad, red, infraestructura, home-lab]
+tags: [adguard, dns, privacidad, seguridad, home-lab]
 pin: false
 toc: true
 excerpt: "Os presento AdGuard Home, el primer servicio de mi serie de Home Lab. Un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo, protegiendo todos los dispositivos de tu red."
@@ -79,7 +79,7 @@ La forma más fácil es usando los [Proxmox Helper Scripts](https://community-sc
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/adguard.sh)"
 ```
 
-¿Dudas con el setup? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank" :rel="nofollow noopener"} y te ayudo.
+¿Dudas con el setup? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo.
 
 ***
 

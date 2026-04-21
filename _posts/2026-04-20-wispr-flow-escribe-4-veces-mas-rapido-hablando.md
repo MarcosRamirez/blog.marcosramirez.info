@@ -7,7 +7,7 @@ authors:
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/wispr-flow-escribe-4-veces-mas-rapido-hablando.webp
 categories: [Tecnología, Productividad y Hacks]
-tags: [software, productividad, inteligencia-artificial, voz-a-texto, voice-to-text]
+tags: [wispr-flow, inteligencia-artificial, voz-a-texto, productividad, software]
 pin: false
 toc: true
 excerpt: "Descubre Wispr Flow, la app de voz-a-texto con IA que te permite escribir en cualquier aplicación hablándole. Con 4x más velocidad que teclear, limpieza automática de muletillas, corrección al vuelo y modo susurro, revoluciona cómo creo contenido. Funciona en más de 100 idiomas, se integra en todas tus apps y incluye diccionario personalizado. Además, su sistema de retos te permite ganar días extra de prueba gratis: cada 100 palabras al día te dan un día extra de Premium, lo que hace que prácticamente puedas usarlo gratis para siempre si eres activo."

@@ -7,7 +7,7 @@ authors:
 date: 2026-05-04 08:30:00 +0200
 image: /assets/img/headers/por-que-tengo-un-home-lab.webp
 categories: [Tecnología, Redes e Infraestructura]
-tags: [homelab, privacidad, sovereignty, open source, autoalojado]
+tags: [homelab, privacidad, codigo-abierto, autoalojado, soberanía-digital]
 pin: false
 toc: true
 excerpt: "Explico qué es un Home Lab (para quien no lo sepa) y por qué elegí construir el mío. Este post es el primero de una serie sobre soberanía digital, privacidad, control de tus datos, independencia de Big Tech, ética open source y sostenibilidad técnica."
