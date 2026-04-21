@@ -228,19 +228,23 @@
 
 .share-icons {
     font-size: 1.2rem;
-    a {
+    a, a:hover, a:focus, a:active {
       text-decoration: none !important;
+      box-shadow: none !important;
+      outline: none !important;
+    }
+    a {
       transition: color 0.2s ease;
       &:not(:last-child) {
         margin-right: 0.25rem;
       }
       &:hover {
         color: var(--btn-share-hover-color) !important;
-        text-decoration: none !important;
       }
     }
     > i {
       padding-top: 0.35rem;
+      text-decoration: none !important;
       transition: color 0.2s ease;
       &:hover {
         color: var(--btn-share-hover-color) !important;
