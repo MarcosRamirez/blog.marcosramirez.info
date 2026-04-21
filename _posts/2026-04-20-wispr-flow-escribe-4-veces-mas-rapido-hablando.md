@@ -57,13 +57,49 @@ Tiene un plan gratuito con 2.000 palabras por semana en desktop y 1.000 en móvi
 
 ### Retos para ganar días extra
 
-Una cosa que me ha encantado es que Wispr Flow tiene un sistema de retos diarios que te permiten ganar días extra de uso gratuito. Por ejemplo, si dictas 1.000 palabras en un día, te-regalan un día extra de Premium. Hay varios retos disponibles:
+Una cosa que me ha encantado es que Wispr Flow tiene un sistema de **retos diarios** que te permiten ganar días extra de prueba gratuita de la versión Premium. La mecánica es simple:
 
-- Dictar X palabras al día
+- **Empiezas con 14 días gratis** de Premium al registrarte (sin tarjeta)
+- **Por cada 100 palabras** que dictes en un día, **ganas 1 día extra** de Premium
+- No hay límite máximo de días que puedes ganar
+
+O sea, si eres productivo y dictas 500 palabras al día, ¡puedes añadir 5 días más de Premium cada jornada! Hay otros retos disponibles:
+
 - Usar la app en diferentes aplicaciones
 - Mantener una racha de uso consecutivos
+- Explorar funciones nuevas
 
-Es una buena forma de probar la versión completa sin pagar mientras te familiarizas con la herramienta.
+Es una forma brutal de probar la versión completa sin pagar nada mientras te familiarizas con la herramienta.
+
+### Wispr Flow vs el input de voz nativo
+
+ ¿Pero qué tal funciona comparado con lo que ya tienes en tu móvil? Vamos a ver la diferencia:
+
+| Característica | Wispr Flow | Android (Gboard) | iPhone (Apple) |
+|---|---|---|---|
+| Precisión | 97%+ | 85-90% | 90-95% |
+| Limpieza de relleno | Sí (IA) | No | No |
+| Corrección en tiempo real | Sí | No | Limitado |
+| Funciona en todas las apps | Sí | Sí | Sí |
+| Modo susurro | Sí | No | No |
+| Idiomas | 100+ | 60+ | 50+ |
+| Velocidad típica | 200+ ppm | 100 ppm | 120 ppm |
+| Diccionario personalizado | Sí | No | No |
+
+La diferencia es noche y día. El input nativo te transcribe lo que dices, punto. Wispr Flow limpita muletillas, corrige puntuación, formatea listas y entiende correcciones al vuelo ("en comma tres... no, en comma cuatro").
+
+### Alternatives worth knowing
+
+Si después de probar Wispr Flow quieres explorar otras opciones, estas son las más recomendadas:
+
+| Herramienta | Mejor para | Precio | Offline |
+|---|---|---|---|
+| [SuperWhisper](https://superwhisper.com/){:target="_blank"} | Privacidad total (procesamiento local) | $249 vitalicio | Sí |
+| [CleverType](https://clevertype.co/){:target="_blank"} | Teclado AI todo-en-uno | Gratis / Paid | Sí |
+| [TurboWhisper](https://turbowhisper.com/){:target="_blank"} | Mac + velocidad | $49-199 | Opcional |
+| [Otter.ai](https://otter.ai/){:target="_blank"} | Transcripción de reuniones | $8.33-30/mes | No |
+
+Cada una tiene su nicho. SuperWhisper es para los que quieren privacidad total (todo pasa en tu Mac). CleverType replaces tu teclado entero con IA. TurboWhisper es el más rápido en Mac. Otter brilla en reuniones.
 
 El enlace de referido que te paso [https://wisprflow.ai/r?MARCOS1798](https://wisprflow.ai/r?MARCOS1798){:target="_blank"} te da 14 días gratis de prueba sin tarjeta.
 
