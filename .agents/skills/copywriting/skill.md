@@ -63,6 +63,7 @@ Ejemplo:
 - Debe ser un resumen completo y coherente del post.
 - Debe estar escrito en el mismo idioma que el post.
 - Debe estar escrito en formato párrafo.
+- **SIEMPRE entre comillas dobles** (no usar formato folded `>–`).
 
 ### Redactar el twitter_description
 - El twitter_description debe tener una longitud a 160 caracteres RESTANDO el titulo del post.
@@ -195,3 +196,23 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 ### Correcciones
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
 - Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`
+
+### Flujo de Trabajo
+
+1. **Primero**: Escribe el post normalmente siguiendo todas las normas de esta skill.
+2. **Después**: Mejora el post usando la **skill SEO** para optimizar:
+   - Atributos alt en imágenes
+   - rel="nofollow noopener" en enlaces externos
+   - Sección FAQ
+   - Subtítulos con long-tails
+   - Excerpt que induzca a leer
+
+### Gestión de Imágenes de Posts
+
+1. **Carpeta MISC**: En `assets/img/misc` el usuario deixará imágenes para los posts. ***NO BORRAR ESTA CARPETA***.
+
+2. **Procesamiento de imágenes**:
+   - Lee el post para obtener el slug (campo `slug` en el frontmatter)
+   - Crea una carpeta en `assets/img/<slug-del-post>/`
+   - Renombra las imágenes con un nombre descriptivo y muévelas a esa carpeta
+   - Actualiza las referencias en el post con la nueva ruta
