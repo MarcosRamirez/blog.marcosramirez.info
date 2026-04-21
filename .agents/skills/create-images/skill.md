@@ -6,7 +6,7 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 ## Skill: Generación de Imágenes
 
 ### Herramienta
-El script `_tools/generate-cover.js` genera imágenes usando proveedores gratuitos en cadena. Si el primero falla, pasa automáticamente al siguiente.
+El script `_tools/generate_cover.js` genera imágenes usando proveedores gratuitos en cadena. Si el primero falla, pasa automáticamente al siguiente.
 
 **Proveedores (en orden de prioridad):**
 1. **Pollinations.ai** — sin registro, sin API key
@@ -15,7 +15,7 @@ El script `_tools/generate-cover.js` genera imágenes usando proveedores gratuit
 ### Cómo usarlo
 
 ```bash
-node _tools/generate-cover.js \
+node _tools/generate_cover.js \
   --prompt "<descripción visual en inglés>" \
   --output "<ruta/donde/guardar.webp>"
 ```
@@ -23,7 +23,7 @@ node _tools/generate-cover.js \
 Los parámetros `--width` y `--height` son opcionales. Por defecto genera a **1900x478px**.
 
 ```bash
-node _tools/generate-cover.js \
+node _tools/generate_cover.js \
   --prompt "<descripción>" \
   --output "<ruta.webp>" \
   --width 1200 \
