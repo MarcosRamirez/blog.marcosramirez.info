@@ -10,7 +10,10 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 - **E-E-A-T:** Inyectar párrafos que demuestren experiencia directa, pruebas de software y comprensión de arquitectura técnica.
 
 ## 2. Estructura de Contenido (On-Page)
-- **H1:** Título único definido en el Front Matter.
+- **Metadatos (Límites):**
+    - **Title Tag:** Máximo 60 caracteres (priorizar palabra clave al inicio).
+    - **Meta Description:** Entre 120 y 155 caracteres (gancho comercial/técnico).
+- **H1:** Título único definido en el Front Matter. No repetir en el cuerpo.
 - **H2/H3 con Long-tail:** Subtítulos que respondan a búsquedas reales (ej: "¿Cómo configurar X en Y?").
 - **Tablas Comparativas:** Obligatorias al mencionar herramientas para comparar Precio, Funciones y Dev-Experience.
 - **Sección FAQ:** 3-4 preguntas para capturar fragmentos destacados (featured snippets).
@@ -27,7 +30,7 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 - **YAML:** `tags: [tag1, tag2, tag3]`.
 
 ## 4. Optimización de Imágenes (SEO Visual)
-- **Atributos ALT:** Técnicos y descriptivos (ej: `alt="Terminal con salida de error en Node.js"`).
+- **Atributos ALT:** Técnicos y descriptivos (ej: `alt="Terminal con salida de error en Node.js"`). Obligatorio para accesibilidad e indexación de imágenes.
 
 ## 5. Política de Enlaces y Dominios
 Para maximizar el "Link Juice" y la seguridad, la IA debe identificar el destino del enlace:
@@ -47,5 +50,38 @@ Cualquier dominio NO incluido en la lista anterior debe tratarse como externo.
 - **H1:** No repetir dentro del cuerpo del Markdown (Chirpy lo genera automáticamente).
 
 ## 7. Excerpt e Interlinking
-- **Excerpt:** Gancho técnico de ~150 caracteres para el feed principal.
+- **Excerpt:** Gancho técnico de ~150 caracteres para el feed principal (máximo 160 para evitar recorte).
 - **Interlinking:** Sugerir enlaces internos hacia los dominios de la Whitelist para mejorar la navegación del usuario.
+
+## 8. Estructura de URLs (Slugs)
+- **Longitud:** Entre 3 y 5 palabras clave.
+- **Limpieza:** Eliminar "stop words" (artículos, preposiciones, conjunciones, posesivos).
+- **Selección inteligente:** Priorizar las palabras que mejor describan el contenido:
+  - Producto o servicio principal
+  - Acción o beneficio clave
+  - Palabra clave SEO
+- **Formato:** Siempre en minúsculas, palabras separadas únicamente por guiones medios (`-`).
+- **Semántica:** Debe ser descriptivo del contenido técnico del post sin incluir caracteres especiales o acentos.
+- **Ejemplo:** "AdGuard Home: Tu propio bloqueador de publicidad y DNS" → `adguard-home-publicidad` (no `adguard-home-bloqueador` porque "publicidad" es la palabra clave buscada)
+
+## 9. Norma para Slugs (Posts Existentes vs Nuevos)
+
+**Discriminación por estado:**
+
+| Estado del post | Acción sobre el slug |
+|-----------------|---------------------|
+| **Post nuevo (sin publicar)** | Generar slug de 3-5 palabras desde el título |
+| **Post ya publicado** | NO modificar el slug existente (mantener URL actual) |
+
+**Rational:**
+- Los posts existentes ya están indexados en搜索引擎
+- Cambiar su URL Causaría errores 404 y pérdida de posicionamiento
+- Solo los posts nuevos pueden tener slugs acortados
+
+**Verificación SEO:**
+
+- Al analizar un post, verificar la cantidad de palabras en el slug (separadas por guiones)
+- **Solo warn** si:
+  - El post es nuevo (no existe en el repositorio o está en `_drafts/`)
+  - El slug tiene más de 5 palabras
+- **No warn** si el post ya está publicado (el slug actual debe mantenerse)

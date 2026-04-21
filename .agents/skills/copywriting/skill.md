@@ -55,8 +55,35 @@ Ejemplo:
 
 ### Nombres de archivos
 - Los nombres de los archivos deben estar en formato slug, es decir, en minúsculas y con guiones en lugar de espacios. Comenzando por la fecha de publicación como por ejemplo: `2025-01-19-Mi plan para 2025.md`
-- Es *** MUY IMPORTANTE *** que el nombre del archivo sea: `fecha-slug.md` (ej: `2025-01-19-mi-post.md`). La fecha debe ser la de publicación, no la de creación.
+- Es *** MUY IMPORTANTE *** que el nombre del archivo sea: `fecha-slug.md` (ej: `2025-01-19-mi-post.md`). La fecha debe ser la de publicación, no la de création.
 - *** NO DEBEN CONTENER ESPACIOS EN BLANCO *** Si encuentras espacios en blanco en el nombre del archivo, reemplázalos por guiones. y asegúrate de que el nombre del archivo sea el slug del post.
+
+### Generación del Slug (URL del Post)
+
+**Norma SEO:** El slug debe tener entre 3 y 5 palabras clave (máximo 5).
+
+**Lógica de generación:**
+
+1. **Posts nuevos (sin slug previo):**
+   - Eliminar stop words del título (el, la, los, las, un, una, de, del, en, a, al, por, para, con, sin, y, e, o, u, pero, que, es, son, está, están, tu, tus, su, sus, mi, mis, lo, los, tu, tus)
+   - Contar las palabras restantes significativas
+   - **Si tiene 5 o menos palabras** → usar todas (son importantes)
+   - **Si tiene más de 5 palabras** → seleccionar las 5 más relevantes (producto, acción, beneficio, palabra clave)
+   - Convertir a minúsculas y reemplazar espacios por guiones
+   - **Ejemplos:**
+     - "AdGuard Home: Tu propio bloqueador de publicidad y DNS" → `adguard-home-bloqueador-publicidad` (4 palabras, todas importantes)
+     - "Mi decisión de usar Proxmox" → `proxmox-decision` (2 palabras)
+     - "Por qué tengo un Home Lab - Mi filosofía" → `home-lab-filosofia`
+
+2. **Posts existentes (ya publicados):**
+   - **NO modificar el slug** si el post ya está publicado
+   - Esta norma protege el SEO existente y evita URLs rotas en buscadores
+   - Solo modificar si el post NO ha sido publicado aún (borrador nuevo)
+
+3. **Validación:**
+   - Contar las palabras del slug (separadas por guiones)
+   - El slug puede tener entre 3 y 5 palabras
+   - Si el post ya existe con un slug más largo → NO tocar (mantener para preservar indexing)
 
 ### Redactar el excerpt
 - El excerpt debe contener un resumen de entre el 10% y el 20% de la longitud del post.
