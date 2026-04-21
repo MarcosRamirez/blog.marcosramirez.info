@@ -10,154 +10,97 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [adguard, dns, alta-disponibilidad, redundancia, sync]
 pin: false
 toc: true
-excerpt: "Configura dos nodos de AdGuard Home con sincronización automática y failover. Si uno cae, el otro sigue funcionando. Sin perder bloqueo ni un segundo."
-twitter_description: "AdGuard Home en alta disponibilidad: dos nodos sincronizados y failover automático."
+excerpt: "Configura dos nodos de AdGuard Home. Uno se cae, el otro sigue. Como son nodos diferentes, tienes redundancia real."
+twitter_description: "AdGuard Home con dos nodos: si uno falla, el otro sigue."
 permalink: /:slug/
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})]*
 
-En [mi primer post sobre AdGuard Home]({% post_url 2026-05-18-adguard-home-tu-propio-bloqueador-de-publicidad %}) te mostré cómo montar el primero. Pero un solo nodo es un punto único de fallo.
+En [mi post anterior]({% post_url 2026-05-18-adguard-home-tu-propio-bloqueador-de-publicidad %}) te enseñé a instalar AdGuard Home. Pero un solo nodo es un punto único de fallo. Si se cae, se acabaron los anuncios bloqueados.
 
-¿Qué pasa si el servidor se cae? Adiós a la navegación sin anuncios.
+La solución es tener dos nodos.
 
-La solución: dos nodos sincronizados con failover automático.
+## La idea
 
-## La arquitectura
+Dos servidores AdGuard Home funcionando a la vez:
 
-Dos servidores AdGuard Home, cada uno con su propia IP:
+- Nodo 1: primero servidor
+- Nodo 2: segundo servidor
 
-- **Nodo 1**: IP del primer servidor (primer LXC, Raspberry Pi, etc.)
-- **Nodo 2**: IP del segundo servidor (segundo LXC, otro dispositivo)
+Si el primero se cae, el segundo sigue atendiendo. Como están en nodos distintos (LXC diferentes, Raspberrys distintas...), aunque uno falle, el otro sigue funcionando.
 
-El router apunta a ambas IPs como servidores DNS. Así hay balanceo de carga real, no failover. Si uno cae, el otro sigue atendiendo todas las peticiones.
+### Por qué uso .53 y .54
 
-## Qué necesitas
+El truco está en las IPs. Uso `.53` para el primero y `.54` para el segundo. Así siempre recuerdo que son los servidores DNS (el puerto 53).
 
-- Dos dispositivos con AdGuard Home (pueden ser dos Raspberry Pi, dos LXC, o cualquier cosa que pueda correr Docker)
-- AdGuardHome-Sync (para sincronizar configuración)
+- Primer nodo: `192.168.1.53`
+- Segundo nodo: `192.168.1.54`
 
-### Tip para recordar las IPs
+Fácil de recordar y fácil de configurar en el router.
 
-Un truco útil: usa `.53` para el nodo principal y `.54` para el secundario. Así siempre recuerdas que son los servidores DNS. Ejemplo:
+## Cómo se configura
 
-- Nodo principal: `192.168.1.53`
-- Nodo secundario: `192.168.1.54`
+### En el router
 
-## Instalación del segundo nodo
+Pon dos servidores DNS:
 
-En el segundo dispositivo, instala AdGuard Home igual que en el primero:
+- DNS primario: `192.168.1.53`
+- DNS secundario: `192.168.1.54`
+
+Cuando el router tiene que resolver un dominio, prueba con el primero. Si no responde, usa el segundo. Así de simple.
+
+### En el segundo nodo
+
+Instala AdGuard Home igual que el primero:
 
 ```bash
 curl -s -S -L https://raw.githubusercontent.com/AdguardTeam/AdGuardHome/master/scripts/install.sh | sh -s -- -v
 ```
 
-Abre los mismos puertos. Configura un usuario y contraseña.
+Listo. Ahora tienes dos bloqueadores funcionando.
 
-## Sincronización con AdGuardHome-Sync
+### Para sincronizar las listas
 
-La herramienta [AdGuardHome-Sync](https://github.com/bakito/AdGuardHome-Sync) copia la configuración del nodo principal al secundario automáticamente.
+Si quieres que ambos tengan las mismas listas, usa [AdGuardHome-Sync](https://github.com/bakito/AdGuardHome-Sync). Copia la configuración del primero al segundo automáticamente.
 
-### Instalación con Docker
+## Por qué dos nodos importa
 
-Crea un archivo `.adguardhome-sync.yaml` en tu home:
+Un solo nodo significa que cuando se cae, todo tu tráfico DNS falla. Nadie puederesolver nombres. Los anuncios pasan.
 
-```yaml
-origin:
-  url: "http://IP_DEL_PRIMER_NODO:3000"
-  username: "tu_usuario"
-  password: "tu_contraseña"
+Con dos nodos:
 
-replicas:
-  - url: "http://IP_DEL_SEGUNDO_NODO:3000"
-    username: "tu_usuario"
-    password: "tu_contraseña"
+- Si uno falla, el otro sigue bloqueando
+- Estás protegido contra hardware
+- Estás protegido contra cortes de luz en un equipo
 
-cron: "*/5 * * * *"  # Cada 5 minutos
-runOnStart: true
+## Tabla comparativa
 
-features:
-  filters: true
-  rewrites: true
-  generalSettings: true
-  queryLog: false
-```
-
-Y ejecuta el contenedor:
-
-```bash
-docker run -d \
-  --name adguard-sync \
-  -v ~/.adguardhome-sync.yaml:/config.yaml \
-  -p 8080:8080 \
-  ghcr.io/bakito/adguardhome-sync:latest
-```
-
-Ahora, cada 5 minutos se sincronizan las listas, filtros y configuraciones del principal al secundario.
-
-## Cómo funciona en la práctica
-
-En tu router, configura dos servidores DNS:
-
-- **DNS primario**: IP del primer nodo (primer LXC)
-- **DNS secundario**: IP del segundo nodo (segundo LXC)
-
-Cuando un dispositivo pide una resolución DNS, el router envía la petición al primero. Si no responde, prueba con el segundo. Así de simple.
-
-No necesitas Keepalived ni IP virtual. Cada nodo tiene su IP y el router hace de balanceador.
-
-## Tabla comparativa: Soluciones DNS
-
-| Aspecto | AdGuard Home único | AdGuard Home HA | Pi-hole | NextDNS |
+| Aspecto | Un nodo | Dos nodos | Pi-hole | NextDNS |
 |---------|:---:|:---:|:---:|:---:|
 | **Coste** | Gratis | Gratis | Gratis | €0-20/mes |
-| **Hardware extra** | No | Sí (segundo nodo) | No | No |
 | **Redundancia** | No | Sí | Limitada | Parcial |
-| **Sincronización** | No | Sí | Sí (con add-ons) | N/A |
-| **Failover automático** | No | Sí | No | Sí |
-| **DoH/DoT nativo** | Sí | Sí | No (needs proxy) | Sí |
-| **DHCP integrado** | Sí | Sí | Sí | No |
+| **DoH/DoT** | Sí | Sí | No | Sí |
+| **DHCP** | Sí | Sí | Sí | No |
 
 ## Cuál elegir
 
-### Para uso básico
+### Un solo nodo
 
-Un solo AdGuard Home es suficiente. Si no te importa perder el DNS un rato cuando se caiga, no necesitas más.
+Si te da igual perder el bloqueo cuando se cae, con uno tienes bastante.
 
-### Para paranoicos de la disponibilidad
+### Dos nodos
 
-Dos nodos con Keepalived. Si uno falla, el otro sigue en menos de un segundo.
+Si quieres redundancy de verdad y no quieres dependiente de un solo equipo.
 
-### Para máximo rendimiento
+### NextDNS
 
-AdGuard Home HA + un CDN como Cloudflare. El segundo nodo está en otra ubicación física.
-
-### Si no quieres mantener nada
-
-NextDNS. Todo en la nube, failover incluido, pero pierdes control total.
-
-## Preguntas frecuentes
-
-### ¿Puedo usar dos dispositivos diferentes?
-
-Sí. Raspberry Pi, contenedores LXC, mini PCs, lo que tengas. Lo único que importa es que ambos tengan AdGuard Home funcionando.
-
-### ¿La sincronización copia todo?
-
-Filtros, listas, reglas de reescritura, configuración DNS. No copia logs de queries (para eso está `queryLog: false`).
-
-### ¿Cuánto tarda el failover?
-
-Normalmente menos de 5 segundos. Keepalived detecta que el nodo no responde y cambia la IP virtual al secundario.
-
-### ¿Puedo añadir más de dos nodos?
-
-Sí. Keepalived soporta más. Solo necesitas prioridades diferentes.
+Si no quieres mantener nada y te sirve la nube.
 
 ***
 
 Compártelo si te ha gustado.
 
-¿Tienes configurado un segundo nodo? ¿Dudas sobre el failover? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre poner dos nodos? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!
