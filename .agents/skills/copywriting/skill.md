@@ -250,3 +250,9 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
    - Crea una carpeta en `assets/img/<slug-del-post>/`
    - Renombra las imágenes con un nombre descriptivo y muévelas a esa carpeta
    - Actualiza las referencias en el post con la nueva ruta
+
+3. **⚠️ REGLA CRÍTICA: Slug e Imágenes siempre juntos**:
+   - Cuando se modifica el campo `slug` en un post, SIEMPRE actualizar también:
+     - La referencia de imagen en el frontmatter (`image: /assets/img/headers/<slug>.webp`)
+     - El nombre del archivo de imagen en `assets/img/headers/`
+   - Esta regla evita URLs rotas e imágenes que no coinciden con el slug

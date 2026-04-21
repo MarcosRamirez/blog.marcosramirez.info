@@ -1,27 +1,27 @@
 ---
-title: "Home Assistant: Tu cerebro de automatización en un solo lugar"
-slug: home-assistant-automatizacion
+title: "Home Assistant: Tu cerebro de domótica en un solo lugar"
+slug: home-assistant-domotica
 authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-08 08:30:00 +0200
-image: /assets/img/headers/home-assistant-automatizacion.webp
+image: /assets/img/headers/home-assistant-domotica.webp
 categories: [Tecnología, Automatización]
-tags: [home-assistant, automatizacion, domotica,物联网, smart-home]
+tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
 pin: false
 toc: true
-excerpt: "Te presento Home Assistant, el centro de mando de mi Home Lab para automatizar todo lo que puedo. Desde luces que se encienden al anochecer hasta notificaciones cuando alguien entra en casa. Sin depender de la nube, sin suscripciones, y funcionando en un pequeño dispositivo."
+excerpt: "Te presento Home Assistant, el centro de domótica de mi Home Lab para automatizar todo lo que puedo. Desde luces que se encienden al anochecer hasta notificaciones cuando alguien entra en casa. Sin depender de la nube, sin suscripciones."
 twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni suscripciones."
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab](/tag/home-lab/). Si aún no sabes qué es un Home Lab, échale un vistazo al [post sobre mi filosofía](/posts/home-lab-filosofia/)]*
+*[Este post forma parte de la serie [Home Lab](/posts/home-lab-filosofia/). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
 Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home](/posts/adguard-home-bloqueador-publicidad/) bloqueando publicidad y rastreadores a nivel de red, [Proxmox](/posts/mi-decision-de-usar-proxmox/) virtualizando mis servicios, y las bases de datos [centralizadas](/posts/no-uso-proxmox-helper-scripts/). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 
-[Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"} es un software de código abierto que actúa como **centro de automatización del hogar**. Compatible con más de 2.000 integrations de dispositivos y servicios, desde bombillas [Philips Hue](https://www.philips-hue.com/){:target="_blank" :rel="nofollow noopener"} hasta sensores de temperatura, pasando por cámaras, cerraduras,[y más](https://www.home-assistant.io/integrations/){:target="_blank" :rel="nofollow noopener"}.
+[Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"} es un software de código abierto que actúa como **centro de domótica del hogar**. Compatible con más de 2.000 integraciones de dispositivos y servicios, desde bombillas [Philips Hue](https://www.philips-hue.com/){:target="_blank" :rel="nofollow noopener"} hasta sensores de temperatura, pasando por cámaras, cerraduras,[y más](https://www.home-assistant.io/integrations/){:target="_blank" :rel="nofollow noopener"}.
 
 La diferencia con otros ecosistemas es clara: no estás atado a una marca. Si mañana [Apple](https://www.apple.com/){:target="_blank" :rel="nofollow noopener"} cambia sus políticas o [Google](https://www.google.com/){:target="_blank" :rel="nofollow noopener"} sube precios, puedes migrar. Home Assistant no es el dueño de tus dispositivos; es el puente que los conecta.
 
@@ -29,7 +29,7 @@ La diferencia con otros ecosistemas es clara: no estás atado a una marca. Si ma
 
 ### 1. Automatizaciones reales
 
-Mi objetivo no era tener una app para controlar luces desde el móvil. Eso no es automatización; es遥控. Quería que las cosas pasen **sin intervención**.
+Mi objetivo no era tener una app para controlar luces desde el móvil. Eso no es domótica; es遥控. Quería que las cosas pasen **sin intervención**.
 
 Ejemplos concretos de lo que tengo funcionando:
 
@@ -66,7 +66,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 | **Local-first** | Funciona sin internet, sin nube, sin latencia |
 | **2.000+ integraciones** | Compatible con casi todo el ecosistema smart home |
 | **Automatizaciones complejas** | Lógica condicional avanzada (si X pasa Y, y no Z, entonces W) |
-| **Dashboard customizable** | Crea vistas exactamente como quieras |
+| **Dashboard personalizable** | Crea vistas exactamente como quieras |
 | **Historial** | Graba eventos y sensores para analizar patrones |
 | **Voice assistants** | Integrable con Assist, Alexa, Google Assistant |
 
@@ -86,8 +86,8 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 | **Código abierto** | **Sí** | No | No | No |
 | **Funciona sin internet** | **Sí** | Limitado | No | No |
 | **Integraciones** | **2.000+** | ~100 | ~500 | ~300 |
-| **Nube requerida** | No | Sí | Sí | Sí | Sí |
-| **Dashboard customizable** | **Sí** | Básico | Básico | No |
+| **Nube requerida** | No | Sí | Sí | Sí |
+| **Dashboard personalizable** | **Sí** | Básico | Básico | No |
 | **Automatizaciones complejas** | **Sí** | Limitado | Medio | Medio |
 | **Coste** | Gratis* | Hardware Apple | Hardware Nest | Dispositivos Echo |
 | **Historial de datos** | **Sí** | No | Limitado | No |
@@ -98,10 +98,11 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 
 ## Mi setup
 
-En mi caso, Home Assistant corre en una Raspberry Pi 4 con:
+En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox](/posts/mi-decision-de-usar-proxmox/), con:
 
-- **4GB de RAM** (suficiente para mi uso)
-- **SSD externo** de 128GB para la base de datos (más velocidad que una SD)
+- **2 vCPU**
+- **4GB de RAM**
+- **32GB de almacenamiento** (la imagen del sistema más la base de datos)
 - **Zigbee dongle** ([Sonoff Zigbee 3.0 USB Dongle Plus](https://itead.cc/product/sonoff-zigbee-3-0-usb-dongle-plus/){:target="_blank" :rel="nofollow noopener"}) para dispositivos Zigbee
 
 ### Dispositivos conectados
@@ -116,9 +117,9 @@ Todo esto sin cables adicionales: Zigbee crea una mesh donde los dispositivos se
 
 ## Empezar desde cero
 
-### Opción 1: Raspberry Pi (recomendada)
+### Opción 1: Raspberry Pi (recomendada para empezar)
 
-Es la forma más económica de empezar:
+Es la forma más económica de probar:
 
 1. Compra una Raspberry Pi 4 (4GB o más)
 2. Flashea la imagen oficial de Home Assistant con [Balena Etcher](https://www.balena.io/etcher/){:target="_blank" :rel="nofollow noopener"}
@@ -127,26 +128,20 @@ Es la forma más económica de empezar:
 
 Coste aproximado: 50-70€.
 
-### Opción 2: Docker en Proxmox (avanzada)
+### Opción 2: Máquina virtual en Proxmox
 
-Si ya tienes [Proxmox](/posts/mi-decision-de-usar-proxmox/) funcionando:
+Si ya tienes [Proxmox](/posts/mi-decision-de-usar-proxmox/) funcionando, puedes crear una VM con Home Assistant OS:
 
-```bash
-docker run -d \
-  --name homeassistant \
-  --privileged \
-  --network host \
-  -v ~/homeassistant/config:/config \
-  -e TZ=Europe/Madrid \
-  --restart unless-stopped \
-  ghcr.io/home-assistant/home-assistant:stable
-```
+1. Descarga la imagen de [Home Assistant OS para Proxmox](https://www.home-assistant.io/installation/)
+2. Crea una VM con 2 vCPU, 4GB de RAM
+3. Pasa el Zigbee dongle a la VM (dispositivo USB)
+4. Accede desde la IP de la VM:8123
 
-Así lo corro yo. Más control, pero requiere Docker sabe.
+Así lo corro yo. Home Assistant OS es un sistema operativo dedicado que se actualiza solo y aprovecha toda la potencia de la VM.
 
 ### Opción 3: NAS o mini PC
 
-Si ya tienes un NAS compatible o un mini PC siempre encendido, hay imágenes oficiales para VirtualBox, Proxmox, y más.
+Si ya tienes un NAS compatible o un mini PC siempre encendido, hay imágenes oficiales para VirtualBox y más plataformas.
 
 ## Automatizaciones que uso a diario
 
@@ -193,7 +188,7 @@ automation:
 
 ### ¿Necesito conocimientos técnicos?
 
-No necesariamente. La interfaz graphical permite crear automatizaciones sin escribir código. Pero entender la lógica (triggers, conditions, actions) ayuda mucho.
+No necesariamente. La interfaz gráfica permite crear automatizaciones sin escribir código. Pero entender la lógica (triggers, conditions, actions) ayuda mucho.
 
 ### ¿Funciona con dispositivos de cualquier marca?
 
