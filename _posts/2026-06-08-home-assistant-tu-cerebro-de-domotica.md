@@ -29,7 +29,7 @@ La diferencia con otros ecosistemas es clara: no estás atado a una marca. Si ma
 
 ### 1. Automatizaciones reales
 
-Mi objetivo no era tener una app para controlar luces desde el móvil. Eso no es domótica; es遥控. Quería que las cosas pasen **sin intervención**.
+Mi objetivo no era tener una app para controlar luces desde el móvil. Eso no es domótica; es control remoto. Quería que las cosas pasen **sin intervención**.
 
 Ejemplos concretos de lo que tengo funcionando:
 
@@ -77,7 +77,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 | **Curva de aprendizaje** | No es plug-and-play; requiere tiempo para entender la lógica |
 | **Compatibilidad** | Algunos dispositivos solo funcionan con integraciones específicas |
 | **Hardware necesario** | Necesitas un dispositivo para correrlo (Raspberry Pi, mini PC, NAS...) |
-| **Debugging** | Las automatizaciones fallan silenciosamente si no监控 bien |
+| **Debugging** | Las automatizaciones fallan silenciosamente si no las vigilas bien |
 
 ## Comparativa: Home Assistant vs alternativas
 
