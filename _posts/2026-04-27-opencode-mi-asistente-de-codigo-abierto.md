@@ -17,7 +17,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-*[Este post forma parte de la serie [Mi software de cabecera](/tag/software-de-cabecera/)]*
+*[Este post forma parte de la serie [Mi software de cabecera](/tags/software-de-cabecera/)]*
 
 Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama [OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} y es una herramienta de código abierto que funciona en mi terminal.
 
