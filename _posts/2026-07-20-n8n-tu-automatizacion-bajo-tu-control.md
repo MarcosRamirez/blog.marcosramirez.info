@@ -29,9 +29,15 @@ Lo que hace especial a N8N es que es de código abierto. Puedes instalarlo en tu
 
 ### Por qué existe
 
-Las herramientas de automatización como Zapier o Make son excellent pero tienen un problema: son servicios en la nube que cuestan dinero y guardan tus datos en sus servidores.
+Las herramientas de automatización como [Zapier](https://zapier.com/){:target="_blank" :rel="nofollow noopener"} o [Make](https://www.make.com/){:target="_blank" :rel="nofollow noopener"} son excellent pero tienen un problema: son servicios en la nube que cuestan dinero y guardan tus datos en sus servidores.
 
-N8N te da la potencia de esas herramientas pero en tu hardware. Sin límite de ejecuciones, sin pagar mensualidades, sin enviar tus datos a terceros.
+N8N te da la potencia de esas herramientas pero en tu硬件. Sin límite de ejecuciones, sin pagar mensualidades, sin enviar tus datos a terceros.
+
+### Sin sorpresas en la factura
+
+Aquí está la gran diferencia: las capas gratuitas de [Make](https://www.make.com/){:target="_blank" :rel="nofollow noopener"} y [Zapier](https://zapier.com/){:target="_blank" :rel="nofollow noopener"} te dejan hacer casi nada. Make te permite 100 operaciones al mes y solo 2 flujos activos. Zapier te da 5 flujos y 100 tareas. Es prácticamente inútil para automatizaciones reales.
+
+Con N8N self-hosted: ejecuta todo lo que necesites. Sin límite de operaciones. Sin límite de flujos activos. Sin esperar al siguiente ciclo de facturación para hacer algo que necesitas ahora.
 
 ## Características principales
 
@@ -151,7 +157,7 @@ Cuando recibes un mensaje en Telegram, que se guarde en una hoja de cálculo.
 
 ### Sincronización de archivos
 
-Cuando subes un archivo a Dropbox, que se copie automáticamente a Google Drive.
+Cuando subes un archivo a [Dropbox](https://www.dropbox.com/){:target="_blank" :rel="nofollow noopener"}, que se copie automáticamente a [Google Drive](https://drive.google.com/){:target="_blank" :rel="nofollow noopener"}.
 
 ### Procesamiento de correos
 
