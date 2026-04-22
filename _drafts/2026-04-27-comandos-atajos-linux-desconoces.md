@@ -23,7 +23,7 @@ slug: comandos-atajos-linux-desconoces
 
 ![Post Header]({{ page.image }})
 
-Si llevas tiempo trabajando con GNU/Linux, probablemente conoces los comandos básicos: `ls`, `cd`, `mkdir`, `grep`. Pero el terminal guarda secretos que pueden transformar tu flujo de trabajo. En este post te cuento los comandos y atajos que más me han sorprendido y que uso a diario.
+Si llevas tiempo trabajando con GNU/Linux, probablemente conoces los comandos básicos: `ls`, `cd`, `mkdir`, `grep`. Pero el terminal guarda secretos que pueden transformar tu flujo de trabajo. En este post te cuento los comandos y atajos que más me han sorpresa do y que uso a diario.
 
 ## Atajos de Teclado
 
@@ -83,7 +83,7 @@ Alt+.
 
 El historial de Bash es más potente de lo que parece:
 
-Ejecutar el último comando (equivalente a ↑ + Enter):
+Ejecutar el último comando (equivalente a â†' + Enter):
 ```bash
 !!
 ```
@@ -122,7 +122,7 @@ Buscar hacia adelante:
 "\e[B": history-search-forward
 ```
 
-Con esto, al escribir el principio de un comando y pulsar ↑, solo mostrará comandos que empiezan por eso.
+Con esto, al escribir el principio de un comando y pulsar â†', solo mostrará comandos que empiezan por eso.
 
 ## Comandos
 
@@ -148,7 +148,9 @@ La diferencia es sutil pero importante:
 
 **Mi recomendación:** Usa siempre `tail -F` para monitorizar logs en producción. Te evitarás sorpresas cuando el sistema rote los archivos.
 
-### ncdu: Analizador de Disco Visual
+### ncdu
+
+`ncdu` ([https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu){:target="_blank" :rel="nofollow noopener"}) es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfecto cuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -165,11 +167,9 @@ Analizar un directorio específico:
 ncdu /var/log
 ```
 
-`ncdu` es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfecto cuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
+### btop
 
- Website: [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu){:target="_blank"}
-
-### btop: Monitor de Sistema Moderno
+`btop` ([https://github.com/aristocratos/btop](https://github.com/aristocratos/btop){:target="_blank" :rel="nofollow noopener"}) es el sucesor moderno de `bashtop` y `bpytop`. Muestra CPU, memoria, red, discos y procesos en una interfaz visual bonita con gráficos. Es mucho más completo que `top` y más moderno que `htop`. Soporta mouse, atajos de teclado y temas personalizables.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -181,10 +181,6 @@ Ejecutar:
 btop
 ```
 
-`btop` es el sucesor moderno de `bashtop` y `bpytop`. Muestra CPU, memoria, red, discos y procesos en una interfaz visual bonita con gráficos. Es mucho más completo que `top` y más moderno que `htop`. Soporta mouse, atajos de teclado y temas personalizables.
-
-Website: [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop){:target="_blank"}
-
 **Atajos principales:**
 - `q` - Salir
 - `h`/`?` - Ver ayuda
@@ -192,7 +188,9 @@ Website: [https://github.com/aristocratos/btop](https://github.com/aristocratos/
 - `e` - Vista de árbol de procesos
 - `f` - Filtrar procesos
 
-### mtr: Traceroute y Ping Combinados
+### mtr
+
+`mtr` ([https://www.bitwizard.nl/mtr/](https://www.bitwizard.nl/mtr/){:target="_blank" :rel="nofollow noopener"}) combina `traceroute` y `ping` en una sola herramienta que muestra la ruta y la latencia de cada salto. Mucho más útil que cualquiera de los dos por separado.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -204,11 +202,9 @@ Ejecutar:
 mtr google.com
 ```
 
-`mtr` combina `traceroute` y `ping` en una sola herramienta que muestra la ruta y la latencia de cada salto. Mucho más útil que cualquiera de los dos por separado.
+### tree
 
-Website: [https://www.bitwizard.nl/mtr/](https://www.bitwizard.nl/mtr/){:target="_blank"}
-
-### tree: Ver Directorios Como Estructura
+`tree` muestra la estructura de directorios en forma de árbol.
 
 Instalar:
 ```bash
@@ -230,7 +226,9 @@ Excluir patrones:
 tree -I 'node_modules|.git'
 ```
 
-### shuf: Barajar Líneas Aleatoriamente
+### shuf
+
+`shuf` baraja líneas aleatoriamente.
 
 Obtener una línea aleatoria de un archivo:
 ```bash
@@ -242,7 +240,9 @@ Barajar un playlist:
 shuf lista.txt
 ```
 
-### nl: Numerar Líneas
+### nl
+
+`nl` numera las líneas de un archivo.
 
 Numerar todas las líneas:
 ```bash
@@ -254,7 +254,9 @@ Numerar solo líneas no vacías:
 nl -ba archivo.txt
 ```
 
-### ss: Socket Statistics (Reemplazo de netstat)
+### ss
+
+[ss](https://linux.die.net/man/8/ss){:target="_blank" :rel="nofollow noopener"} es el reemplazo moderno de `netstat` para ver sockets y conexiones.
 
 Ver puertos escuchando:
 ```bash
@@ -266,7 +268,9 @@ Ver conexiones establecidas:
 ss -tn
 ```
 
-### fzf: Buscador Fuzzy Interactivo
+### fzf
+
+`fzf` ([https://github.com/junegunn/fzf](https://github.com/junegunn/fzf){:target="_blank" :rel="nofollow noopener"}) es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
 
 Instalar:
 ```bash
@@ -283,16 +287,14 @@ Buscar archivos:
 find . -name "*.md" | fzf
 ```
 
-`fzf` es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
-
-Website: [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf){:target="_blank"}
-
 **Integraciones útiles:**
 - `Ctrl+T` - Buscar archivos para insertar en la línea de comandos
 - `Ctrl+R` - Buscar en el historial (mejora `Ctrl+R` nativo)
 - `Alt+C` - Cambiar a un directorio
 
-### bat: Reemplazo de cat con Estilo
+### bat
+
+`bat` ([https://github.com/sharkdp/bat](https://github.com/sharkdp/bat){:target="_blank" :rel="nofollow noopener"}) es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y git integration. Mucho más agradable a la vista que el simple `cat`.
 
 Instalar (en Debian puede ser batcat):
 ```bash
@@ -314,7 +316,9 @@ Listar themes disponibles:
 bat --list-themes
 ```
 
-### ripgrep: El Reemplazo de grep Definitivo
+### ripgrep
+
+`ripgrep` ([https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep){:target="_blank" :rel="nofollow noopener"}) (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
 
 Instalar:
 ```bash
@@ -336,7 +340,9 @@ Ignorar node_modules y .git:
 rg "TODO" --ignore-case --glob '!node_modules/*'
 ```
 
-### fd: Reemplazo Moderno de find
+### fd
+
+`fd` ([https://github.com/sharkdp/fd](https://github.com/sharkdp/fd){:target="_blank" :rel="nofollow noopener"}) es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
 
 Instalar (en Debian el paquete es fd-find):
 ```bash
@@ -363,7 +369,9 @@ Ignorar patrones:
 fd -I -E 'node_modules' -E '.git' .
 ```
 
-### tldr: Páginas de Manual Simplificadas
+### tldr
+
+`tldr` ([https://tldr.sh/](https://tldr.sh/){:target="_blank" :rel="nofollow noopener"}) te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
 
 Instalar:
 ```bash
@@ -385,116 +393,23 @@ Ver ejemplo rápido de docker:
 tldr docker
 ```
 
-### duf: Reemplazo de df con Estilo
+### duf
+
+`duf` ([https://github.com/muesli/duf](https://github.com/muesli/duf){:target="_blank" :rel="nofollow noopener"}) es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
 
 Instalar:
 ```bash
 sudo apt install duf
 ```
 
-```bash
-bat archivo.py
-```
-
-```bash
-bat -n archivo.md
-```
-
-```bash
-bat --list-themes
-```
-
-`bat` es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y git integration. Mucho más agradable a la vista que el simple `cat`.
-
-Website: [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat){:target="_blank"}
-
-### ripgrep: El Reemplazo de grep Definitivo
-
-```bash
-sudo apt install ripgrep
-```
-
-```bash
-rg "pattern" .
-```
-
-```bash
-rg "function" -t py
-```
-
-```bash
-rg "TODO" --ignore-case --glob '!node_modules/*'
-```
-
-`ripgrep` (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
-
-Website: [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep){:target="_blank"}
-
-### fd: Reemplazo Moderno de find
-
-```bash
-sudo apt install fd-find
-```
-
-```bash
-fd "config" .
-```
-
-```bash
-fd -e md .
-```
-
-```bash
-fd -t d .
-```
-
-```bash
-fd -I -E 'node_modules' -E '.git' .
-```
-
-`fd` es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
-
-Website: [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd){:target="_blank"}
-
-### tldr: Páginas de Manual Simplificadas
-
-```bash
-sudo apt install tldr
-```
-
-```bash
-tldr tar
-```
-
-```bash
-tldr rsync
-```
-
-```bash
-tldr docker
-```
-
-`tldr` te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
-
-Website: [https://tldr.sh/](https://tldr.sh/){:target="_blank"}
-
-### duf: Reemplazo de df con Estilo
-
-```bash
-sudo apt install duf
-```
-
+Ver uso de discos:
 ```bash
 duf
 ```
 
-`duf` es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
-
-Website: [https://github.com/muesli/duf](https://github.com/muesli/duf){:target="_blank"}
-
 ## Preguntas Frecuentes
 
-### ¿Cuál es la diferencia entre tail -f y tail -F?
+### ¿CUál es la diferencia entre tail -f y tail -F?
 
 La diferencia principal es que `tail -f` sigue el descriptor de archivo (si el log se rota, deja de seguir), mientras que `tail -F` sigue el nombre del archivo y lo reopen si se crea uno nuevo. Para monitorizar logs en producción, usa siempre `tail -F`.
 

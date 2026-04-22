@@ -24,10 +24,14 @@ Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes inclui
 
 ### Enlaces (OBLIGATORIO)
 
-- **CADA software, servicio, herramienta o marca que menciones DEBE tener un enlace** a su web oficial.
-- **La primera vez que menciones algo, debe llevar enlace**. Las menciones posteriores pueden no tenerlo.
-- Ejemplo: "Uso [AdGuard Home](https://adguard.com/) para bloquear publicidad" (la primera mención tiene enlace).
-- Usa `{:target="_blank"}` en todos los enlaces externos para que se abran en nueva pestaña.
+Consulta la skill de **copywriting-links** para las normas completas sobre cómo insertar enlaces correctamente.
+
+**Resumen rápido:**
+- CADA software, servicio, herramienta o marca debe tener enlace a su web oficial.
+- La primera vez que menciones algo, debe llevar enlace.
+- Usa `{:target="_blank"}` para enlaces propios.
+- Usa `{:target="_blank" :rel="nofollow noopener"}` para enlaces externos.
+- Usa el tag `{% post_url %}` para enlaces internos.
 
 ### Comandos
 
