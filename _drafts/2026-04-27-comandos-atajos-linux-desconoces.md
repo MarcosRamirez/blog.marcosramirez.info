@@ -23,7 +23,7 @@ slug: comandos-atajos-linux-desconoces
 
 ![Post Header]({{ page.image }})
 
-Si llevas tiempo trabajando con GNU/Linux, probablemente conoces los comandos básicos: `ls`, `cd`, `mkdir`, `grep`. Pero el terminal guarda secretos que pueden transformar tu flujo de trabajo. En este post te cuento los comandos y atajos que más me han sorpresa do y que uso a diario.
+Si llevas tiempo trabajando con GNU/Linux, probablemente conoces los comandos básicos: `ls`, `cd`, `mkdir`, `grep`. Pero el terminal guarda secretos que pueden transformar tu flujo de trabajo. En este post te cuento los comandos y atajos que más me han sorprendido y que uso a diario.
 
 ## Atajos de Teclado
 
@@ -83,7 +83,7 @@ Alt+.
 
 El historial de Bash es más potente de lo que parece:
 
-Ejecutar el último comando (equivalente a â†' + Enter):
+Ejecutar el último comando (equivalente a ↑ + Enter):
 ```bash
 !!
 ```
@@ -122,7 +122,7 @@ Buscar hacia adelante:
 "\e[B": history-search-forward
 ```
 
-Con esto, al escribir el principio de un comando y pulsar â†', solo mostrará comandos que empiezan por eso.
+Con esto, al escribir el principio de un comando y pulsar ↑, solo mostrará comandos que empiezan por eso.
 
 ## Comandos
 
@@ -409,7 +409,7 @@ duf
 
 ## Preguntas Frecuentes
 
-### ¿CUál es la diferencia entre tail -f y tail -F?
+### ¿Cuál es la diferencia entre tail -f y tail -F?
 
 La diferencia principal es que `tail -f` sigue el descriptor de archivo (si el log se rota, deja de seguir), mientras que `tail -F` sigue el nombre del archivo y lo reopen si se crea uno nuevo. Para monitorizar logs en producción, usa siempre `tail -F`.
 

@@ -293,6 +293,7 @@ Esta norma evita publicar información inventada sobre él, su Home Lab, prefere
    - Sección FAQ
    - Subtítulos con long-tails
    - Excerpt que induzca a leer
+3. **Último**: Revisa que todo el texto esté en UTF-8 (sin HTML entities como &aacute;, &eacute;, etc.)
 
 ### Gestión de Imágenes de Posts
 
