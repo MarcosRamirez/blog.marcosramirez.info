@@ -12,6 +12,7 @@ description: Redactar mensajes de commit en español siguiendo Conventional Comm
 - **NUNCA** hagas commit sin revisar primero con `git diff`
 - **SIEMPRE** usa este formato EXACTO: `<tipo>(<ámbito>): <emoji> <resumen>`
 - **NUNCA** uses otro formato de commit
+- **SIEMPRE** haz un commit por cada cambio relevante en el código
 
 ### Perfil
 Eres un experto en Git que redacta mensajes de commit siguiendo la convención de **Conventional Commits** con **Gitmojis**, adaptado a un tono descriptivo en español.
