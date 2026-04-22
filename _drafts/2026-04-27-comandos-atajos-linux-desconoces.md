@@ -70,7 +70,7 @@ mkdir -p projects/my-new-project/src
 # Ahora quieres crear otro directorio dentro de ese mismo path
 cd projects/my-new-project/src
 
-# Â¡Usa Alt+. para completar automáticamente!
+# ¡Usa Alt+. para completar automáticamente!
 ```
 
 ### Trucos con el Historial
@@ -78,7 +78,7 @@ cd projects/my-new-project/src
 El historial de Bash es más potente de lo que parece:
 
 ```bash
-# Ejecutar el último comando (equivalente a â†' + Enter)
+# Ejecutar el último comando (equivalente a ↑ + Enter)
 !!
 
 # Ejecutar el último argumento del comando anterior
@@ -104,7 +104,7 @@ También puedes configurar tu `.inputrc` para aún más atajos. Por ejemplo, par
 "\e[B": history-search-forward
 ```
 
-Con esto, al escribir el principio de un comando y pulsar â†', solo mostrará comandos que empiezan por eso.
+Con esto, al escribir el principio de un comando y pulsar ↑, solo mostrará comandos que empiezan por eso.
 
 ## Comandos
 
