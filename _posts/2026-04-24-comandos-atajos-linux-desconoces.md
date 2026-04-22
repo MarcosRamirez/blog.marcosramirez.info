@@ -13,7 +13,7 @@ tags:
   - comandos
   - atajos
   - productividad
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/comandos-atajos-linux-desconoces.webp
 pin: false
 toc: true
 twitter_description: "Estos atajos de teclado y comandos en GNU/Linux te ahorrarán horas. Aprende a usar tail -F, Ctrl+R y más."

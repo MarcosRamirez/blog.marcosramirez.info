@@ -159,12 +159,15 @@ Los borradores se encuentran en `_drafts/` con el nombre `YYYY-MM-DD-slug.md`.
 
 **Pasos para publicar un borrador:**
 
-1. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
-2. **Mover a _posts/:** Mover el archivo de `_drafts/` a `_posts/`.
+1. **Generar imagen:** Crear la imagen del post usando la skill `create-images` (dimensiones 1900x478px, formato .webp).
+2. **Actualizar frontmatter:** Cambiar el campo `image` con la ruta de la imagen generada.
+3. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
+4. **Revisar SEO:** Usar la skill SEO para optimizar el post (alt de imágenes, enlaces, FAQ, etc.).
+5. **Mover a _posts/:** Mover el archivo de `_drafts/` a `_posts/`.
    - El nombre del archivo puede cambiarse para reflejar la fecha de publicación, o mantenerse.
    - Jekyll usa la fecha del frontmatter, no el nombre del archivo.
-3. **Hacer commit:** Incluir el cambio en el commit con el tipo `content`.
-4. **Hacer push:** Solo cuando el usuario lo indique expresamente.
+6. **Hacer commit:** Incluir el cambio en el commit con el tipo `content`.
+7. **Hacer push:** Solo cuando el usuario lo indique expresamente.
 
 **Ejemplo:**
 ```yaml
