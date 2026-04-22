@@ -115,10 +115,10 @@ Estos comandos no son tan populares pero son tremendamente útiles:
 Uno de los comandos más útiles para monitorizar logs es `tail`, pero ¿sabes cuándo usar cada bandera?
 
 ```bash
-# -f sigue el archivo mediante descriptor (si se rota, deja de seguir)
 tail -f /var/log/syslog
+```
 
-# -F sigue el nombre del archivo (reabre si se rota o recrea)
+```bash
 tail -F /var/log/syslog
 ```
 
@@ -131,13 +131,14 @@ La diferencia es sutil pero importante:
 ### ncdu: Analizador de Disco Visual
 
 ```bash
-# Instalar en Debian/Ubuntu
 sudo apt install ncdu
+```
 
-# Usar en el directorio actual
+```bash
 ncdu
+```
 
-# Analizar un directorio específico
+```bash
 ncdu /var/log
 ```
 
@@ -146,10 +147,10 @@ ncdu /var/log
 ### btop: Monitor de Sistema Moderno
 
 ```bash
-# Instalar en Debian/Ubuntu
 sudo apt install btop
+```
 
-# Ejecutar
+```bash
 btop
 ```
 
@@ -165,10 +166,10 @@ btop
 ### mtr: Traceroute y Ping Combinados
 
 ```bash
-# Instalar en Debian/Ubuntu
 sudo apt install mtr
+```
 
-# Usar
+```bash
 mtr google.com
 ```
 
@@ -177,54 +178,63 @@ mtr google.com
 ### tree: Ver Directorios Como Estructura
 
 ```bash
-# Instalar
 sudo apt install tree
+```
 
-# Ver estructura de directorios
-tree -L 2           # Solo 2 niveles de profundidad
-tree -a             # Incluir archivos ocultos
-tree -I 'node_modules|.git'  # Excluir patrones
+```bash
+tree -L 2
+```
+
+```bash
+tree -a
+```
+
+```bash
+tree -I 'node_modules|.git'
 ```
 
 ### shuf: Barajar Líneas Aleatoriamente
 
 ```bash
-# Obtener una línea aleatoria de un archivo
 shuf -n 1 archivo.txt
+```
 
-# Barajar un playlist
+```bash
 shuf lista.txt
 ```
 
 ### nl: Numerar Líneas
 
 ```bash
-# Numerar todas las líneas
 nl archivo.txt
+```
 
-# Numerar solo líneas no vacías
+```bash
 nl -ba archivo.txt
 ```
 
 ### ss: Socket Statistics (Reemplazo de netstat)
 
 ```bash
-# Ver puertos escuchando
 ss -tuln
+```
 
-# Ver conexiones establecidas
+```bash
 ss -tn
 ```
 
 ### fzf: Buscador Fuzzy Interactivo
 
 ```bash
-# Instalar
 sudo apt install fzf
+```
 
-# Usos básicos
-fzf                    # Lanzar buscador interactivo
-find . -name "*.md" | fzf   # Buscar archivos
+```bash
+fzf
+```
+
+```bash
+find . -name "*.md" | fzf
 ```
 
 `fzf` es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
@@ -237,16 +247,18 @@ find . -name "*.md" | fzf   # Buscar archivos
 ### bat: Reemplazo de cat con Estilo
 
 ```bash
-# Instalar (en Debian puede ser batcat)
 sudo apt install bat
+```
 
-# Ver archivo con resaltado de sintaxis
+```bash
 bat archivo.py
+```
 
-# Mostrar números de línea
+```bash
 bat -n archivo.md
+```
 
-# Listing themes disponibles
+```bash
 bat --list-themes
 ```
 
@@ -255,16 +267,18 @@ bat --list-themes
 ### ripgrep: El Reemplazo de grep Definitivo
 
 ```bash
-# Instalar
 sudo apt install ripgrep
+```
 
-# Buscar recursivamente
+```bash
 rg "pattern" .
+```
 
-# Buscar solo en archivos Python
+```bash
 rg "function" -t py
+```
 
-# Ignorar node_modules y .git
+```bash
 rg "TODO" --ignore-case --glob '!node_modules/*'
 ```
 
@@ -273,19 +287,22 @@ rg "TODO" --ignore-case --glob '!node_modules/*'
 ### fd: Reemplazo Moderno de find
 
 ```bash
-# Instalar (en Debian el paquete es fd-find)
 sudo apt install fd-find
+```
 
-# Buscar archivos por nombre
+```bash
 fd "config" .
+```
 
-# Buscar con extensión específica
+```bash
 fd -e md .
+```
 
-# Buscar directorios
+```bash
 fd -t d .
+```
 
-# Ignorar patrones
+```bash
 fd -I -E 'node_modules' -E '.git' .
 ```
 
@@ -294,12 +311,18 @@ fd -I -E 'node_modules' -E '.git' .
 ### tldr: Páginas de Manual Simplificadas
 
 ```bash
-# Instalar
 sudo apt install tldr
+```
 
-# Ver ejemplo rápido
+```bash
 tldr tar
+```
+
+```bash
 tldr rsync
+```
+
+```bash
 tldr docker
 ```
 
@@ -308,10 +331,10 @@ tldr docker
 ### duf: Reemplazo de df con Estilo
 
 ```bash
-# Instalar
 sudo apt install duf
+```
 
-# Ver uso de discos
+```bash
 duf
 ```
 
