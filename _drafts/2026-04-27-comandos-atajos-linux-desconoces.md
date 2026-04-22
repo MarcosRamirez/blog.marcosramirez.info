@@ -69,12 +69,12 @@ Instalar y crear un directorio:
 mkdir -p projects/my-new-project/src
 ```
 
-Navegar al directorio creado:
+Navegar al directorio creado (usar Alt+. para completar automáticamente):
 ```bash
 cd projects/my-new-project/src
 ```
 
-Insertar el último argumento automáticamente:
+Pulsar Alt+. para insertar automáticamente el último argumento:
 ```bash
 Alt+.
 ```
@@ -83,7 +83,7 @@ Alt+.
 
 El historial de Bash es más potente de lo que parece:
 
-Ejecutar el último comando:
+Ejecutar el último comando (equivalente a ↑ + Enter):
 ```bash
 !!
 ```
