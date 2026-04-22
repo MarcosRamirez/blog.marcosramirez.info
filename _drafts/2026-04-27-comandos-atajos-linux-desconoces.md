@@ -167,6 +167,8 @@ ncdu /var/log
 
 `ncdu` es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfecto cuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
 
+ Website: [https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu){:target="_blank"}
+
 ### btop: Monitor de Sistema Moderno
 
 Instalar en Debian/Ubuntu:
@@ -180,6 +182,8 @@ btop
 ```
 
 `btop` es el sucesor moderno de `bashtop` y `bpytop`. Muestra CPU, memoria, red, discos y procesos en una interfaz visual bonita con gráficos. Es mucho más completo que `top` y más moderno que `htop`. Soporta mouse, atajos de teclado y temas personalizables.
+
+Website: [https://github.com/aristocratos/btop](https://github.com/aristocratos/btop){:target="_blank"}
 
 **Atajos principales:**
 - `q` - Salir
@@ -201,6 +205,8 @@ mtr google.com
 ```
 
 `mtr` combina `traceroute` y `ping` en una sola herramienta que muestra la ruta y la latencia de cada salto. Mucho más útil que cualquiera de los dos por separado.
+
+Website: [https://www.bitwizard.nl/mtr/](https://www.bitwizard.nl/mtr/){:target="_blank"}
 
 ### tree: Ver Directorios Como Estructura
 
@@ -278,6 +284,8 @@ find . -name "*.md" | fzf
 ```
 
 `fzf` es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
+
+Website: [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf){:target="_blank"}
 
 **Integraciones útiles:**
 - `Ctrl+T` - Buscar archivos para insertar en la línea de comandos
@@ -396,7 +404,9 @@ bat -n archivo.md
 bat --list-themes
 ```
 
-`bat` es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y-git integration. Mucho más agradable a la vista que el simple `cat`.
+`bat` es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y git integration. Mucho más agradable a la vista que el simple `cat`.
+
+Website: [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat){:target="_blank"}
 
 ### ripgrep: El Reemplazo de grep Definitivo
 
@@ -417,6 +427,8 @@ rg "TODO" --ignore-case --glob '!node_modules/*'
 ```
 
 `ripgrep` (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
+
+Website: [https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep){:target="_blank"}
 
 ### fd: Reemplazo Moderno de find
 
@@ -442,6 +454,8 @@ fd -I -E 'node_modules' -E '.git' .
 
 `fd` es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
 
+Website: [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd){:target="_blank"}
+
 ### tldr: Páginas de Manual Simplificadas
 
 ```bash
@@ -462,6 +476,8 @@ tldr docker
 
 `tldr` te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
 
+Website: [https://tldr.sh/](https://tldr.sh/){:target="_blank"}
+
 ### duf: Reemplazo de df con Estilo
 
 ```bash
@@ -473,6 +489,8 @@ duf
 ```
 
 `duf` es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
+
+Website: [https://github.com/muesli/duf](https://github.com/muesli/duf){:target="_blank"}
 
 ## Preguntas Frecuentes
 
