@@ -25,25 +25,7 @@ slug: comandos-atajos-linux-desconoces
 
 Si llevas tiempo trabajando con GNU/Linux, probablemente conoces los comandos básicos: `ls`, `cd`, `mkdir`, `grep`. Pero el terminal guarda secretos que pueden transformar tu flujo de trabajo. En este post te cuento los comandos y atajos que más me han sorprendido y que uso a diario.
 
-## La Diferencia Entre `tail -f` y `tail -F`
-
-Uno de los comandos más útiles para monitorizar logs es `tail`, pero &iquest;sabes cuándo usar cada bandera?
-
-```bash
-# -f sigue el archivo mediante descriptor (si se rota, deja de seguir)
-tail -f /var/log/syslog
-
-# -F sigue el nombre del archivo (reabre si se rota o recrea)
-tail -F /var/log/syslog
-```
-
-La diferencia es sutil pero importante:
-- `tail -f` sigue el **descriptor de archivo**. Si el log se rota (como hacen logrotate), deja de seguir el nuevo archivo.
-- `tail -F` sigue el **nombre del archivo**. Si el log se rota o se recrea, sigue mostrando el contenido.
-
-**Mi recomendación:** Usa siempre `tail -F` para monitorizar logs en producción. Te evitarás sorpresas cuando el sistema rote los archivos.
-
-## Atajos de Teclado Que Cambiarán Tu Vida
+## Atajos de Teclado
 
 El shell Bash (y la mayoría de shells compatibles) usa la librería Readline, que proporciona atajos de edición poderosos. Aquí van los más útiles que quizás no conoces:
 
@@ -88,7 +70,7 @@ mkdir -p projects/my-new-project/src
 # Ahora quieres crear otro directorio dentro de ese mismo path
 cd projects/my-new-project/src
 
-# &iexcl;Usa Alt+. para completar automáticamente!
+# Â¡Usa Alt+. para completar automáticamente!
 ```
 
 ### Trucos con el Historial
@@ -96,7 +78,7 @@ cd projects/my-new-project/src
 El historial de Bash es más potente de lo que parece:
 
 ```bash
-# Ejecutar el último comando (equivalente a ↑ + Enter)
+# Ejecutar el último comando (equivalente a â†' + Enter)
 !!
 
 # Ejecutar el último argumento del comando anterior
@@ -112,11 +94,56 @@ ls -la !^
 ^python^python3
 ```
 
-## Comandos "Chulos" y Poco Conocidos
+### Personalizar atajos con .inputrc
+
+También puedes configurar tu `.inputrc` para aún más atajos. Por ejemplo, para buscar con las flechas:
+
+```bash
+# En ~/.inputrc
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+```
+
+Con esto, al escribir el principio de un comando y pulsar â†', solo mostrará comandos que empiezan por eso.
+
+## Comandos
 
 Estos comandos no son tan populares pero son tremendamente útiles:
 
-### `mtr`: Traceroute y Ping Combinados
+### tail -F
+
+Uno de los comandos más útiles para monitorizar logs es `tail`, pero ¿sabes cuándo usar cada bandera?
+
+```bash
+# -f sigue el archivo mediante descriptor (si se rota, deja de seguir)
+tail -f /var/log/syslog
+
+# -F sigue el nombre del archivo (reabre si se rota o recrea)
+tail -F /var/log/syslog
+```
+
+La diferencia es sutil pero importante:
+- `tail -f` sigue el **descriptor de archivo**. Si el log se rota (como hacen logrotate), deja de seguir el nuevo archivo.
+- `tail -F` sigue el **nombre del archivo**. Si el log se rota o se recrea, sigue mostrando el contenido.
+
+**Mi recomendación:** Usa siempre `tail -F` para monitorizar logs en producción. Te evitarás sorpresas cuando el sistema rote los archivos.
+
+### ncdu: Analizador de Disco Visual
+
+```bash
+# Instalar en Debian/Ubuntu
+sudo apt install ncdu
+
+# Usar en el directorio actual
+ncdu
+
+# Analizar un directorio específico
+ncdu /var/log
+```
+
+`ncdu` es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfectocuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
+
+### mtr: Traceroute y Ping Combinados
 
 ```bash
 # Instalar en Debian/Ubuntu
@@ -128,7 +155,7 @@ mtr google.com
 
 `mtr` combina `traceroute` y `ping` en una sola herramienta que muestra la ruta y la latencia de cada salto. Mucho más útil que cualquiera de los dos por separado.
 
-### `tree`: Ver Directorios Como Estructura
+### tree: Ver Directorios Como Estructura
 
 ```bash
 # Instalar
@@ -140,7 +167,7 @@ tree -a             # Incluir archivos ocultos
 tree -I 'node_modules|.git'  # Excluir patrones
 ```
 
-### `shuf`: Barajar Líneas Aleatoriamente
+### shuf: Barajar Líneas Aleatoriamente
 
 ```bash
 # Obtener una línea aleatoria de un archivo
@@ -150,7 +177,7 @@ shuf -n 1 archivo.txt
 shuf lista.txt
 ```
 
-### `nl`: Numerar Líneas
+### nl: Numerar Líneas
 
 ```bash
 # Numerar todas las líneas
@@ -160,7 +187,7 @@ nl archivo.txt
 nl -ba archivo.txt
 ```
 
-### `ss`: Socket Statistics (Reemplazo de netstat)
+### ss: Socket Statistics (Reemplazo de netstat)
 
 ```bash
 # Ver puertos escuchando
@@ -170,40 +197,21 @@ ss -tuln
 ss -tn
 ```
 
-## El Atajo Definitivo: Ctrl+L
-
-&iquest;Conoces el atajo `Ctrl+L`? Limpia la terminal exactamente como el comando `clear`, pero mucho más rápido. Es uno de los más usados en mi día a día.
-
-```bash
-# Equivalente a Ctrl+L
-clear
-```
-
-También puedes configurar tu `.inputrc` para aún más atajos. Por ejemplo, para buscar con las flechas:
-
-```bash
-# En ~/.inputrc
-"\e[A": history-search-backward
-"\e[B": history-search-forward
-```
-
-Con esto, al escribir el principio de un comando y pulsar ↑, solo mostrará comandos que empiezan por eso.
-
 ## Preguntas Frecuentes
 
-### &iquest;Cuál es la diferencia entre tail -f y tail -F?
+### ¿Cuál es la diferencia entre tail -f y tail -F?
 
 La diferencia principal es que `tail -f` sigue el descriptor de archivo (si el log se rota, deja de seguir), mientras que `tail -F` sigue el nombre del archivo y lo reopen si se crea uno nuevo. Para monitorizar logs en producción, usa siempre `tail -F`.
 
-### &iquest;Cómo buscar en el historial de Bash?
+### ¿Cómo buscar en el historial de Bash?
 
 Usa `Ctrl+R` para hacer una búsqueda inversa en el historial. Pulsa `Ctrl+R` repetidamente para navegar entre resultados o `Ctrl+G` para cancelar.
 
-### &iquest;Qué es Readline?
+### ¿Qué es Readline?
 
 Readline es la librería que proporciona la edición de línea de comandos en Bash. Todos los atajos de edición (Ctrl+A, Ctrl+E, Alt+B, etc.) vienen de Readline y funcionan en cualquier programa que la use.
 
-### &iquest;Cómo usar el último argumento sin escribirlo?
+### ¿Cómo usar el último argumento sin escribirlo?
 
 Usa `Alt+.` (o Esc seguida de punto) para insertar automáticamente el último argumento del comando anterior. Es ideal para encadenar comandos en el mismo archivo o directorio.
 
@@ -213,6 +221,6 @@ El terminal de GNU/Linux es una herramienta extraordinariamente potente, pero su
 
 Compártelo si te ha gustado.
 
-&iquest;Tienes algún atajo o comando favorito que no menciono aquí? Cuéntamelo en los comentarios.
+¿Tienes algún atajo o comando favorito que no menciono aquí? Cuéntamelo en los comentarios.
 
 Y... hasta aquí por hoy!
