@@ -157,6 +157,21 @@ Instalar en Debian/Ubuntu:
 sudo apt install ncdu
 ```
 
+Instalar en Arch Linux:
+```bash
+sudo pacman -S ncdu
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install ncdu
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install ncdu
+```
+
 Ejecutar en el directorio actual:
 ```bash
 ncdu
@@ -174,6 +189,21 @@ ncdu /var/log
 Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install btop
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S btop
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install btop
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install btop
 ```
 
 Ejecutar:
@@ -197,6 +227,21 @@ Instalar en Debian/Ubuntu:
 sudo apt install mtr
 ```
 
+Instalar en Arch Linux:
+```bash
+sudo pacman -S mtr
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install mtr
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install mtr
+```
+
 Ejecutar:
 ```bash
 mtr google.com
@@ -206,9 +251,24 @@ mtr google.com
 
 `tree` muestra la estructura de directorios en forma de árbol.
 
-Instalar:
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install tree
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S tree
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install tree
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install tree
 ```
 
 Ver solo 2 niveles de profundidad:
@@ -228,7 +288,7 @@ tree -I 'node_modules|.git'
 
 ### shuf
 
-`shuf` baraja líneas aleatoriamente.
+`shuf` es un comando básico de GNU coreutils, viene preinstalado en la mayoría de distribuciones.
 
 Obtener una línea aleatoria de un archivo:
 ```bash
@@ -242,7 +302,7 @@ shuf lista.txt
 
 ### nl
 
-`nl` numera las líneas de un archivo.
+`nl` es un comando básico de GNU coreutils, viene preinstalado en la mayoría de distribuciones.
 
 Numerar todas las líneas:
 ```bash
@@ -256,7 +316,7 @@ nl -ba archivo.txt
 
 ### ss
 
-[ss](https://linux.die.net/man/8/ss){:target="_blank" :rel="nofollow noopener"} es el reemplazo moderno de `netstat` para ver sockets y conexiones.
+[ss](https://linux.die.net/man/8/ss){:target="_blank" :rel="nofollow noopener"} es el reemplazo moderno de `netstat` para ver sockets y conexiones. Viene preinstalado en la mayoría de distribuciones modernas (incluido en el paquete `iproute2`).
 
 Ver puertos escuchando:
 ```bash
@@ -272,9 +332,24 @@ ss -tn
 
 `fzf` ([https://github.com/junegunn/fzf](https://github.com/junegunn/fzf){:target="_blank" :rel="nofollow noopener"}) es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
 
-Instalar:
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install fzf
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S fzf
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install fzf
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install fzf
 ```
 
 Lanzar buscador interactivo:
@@ -296,9 +371,24 @@ find . -name "*.md" | fzf
 
 `bat` ([https://github.com/sharkdp/bat](https://github.com/sharkdp/bat){:target="_blank" :rel="nofollow noopener"}) es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y git integration. Mucho más agradable a la vista que el simple `cat`.
 
-Instalar (en Debian puede ser batcat):
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install bat
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S bat
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install bat
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install bat
 ```
 
 Ver archivo con resaltado de sintaxis:
@@ -320,9 +410,24 @@ bat --list-themes
 
 `ripgrep` ([https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep){:target="_blank" :rel="nofollow noopener"}) (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
 
-Instalar:
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install ripgrep
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S ripgrep
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install ripgrep
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install ripgrep
 ```
 
 Buscar recursivamente:
@@ -344,9 +449,24 @@ rg "TODO" --ignore-case --glob '!node_modules/*'
 
 `fd` ([https://github.com/sharkdp/fd](https://github.com/sharkdp/fd){:target="_blank" :rel="nofollow noopener"}) es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
 
-Instalar (en Debian el paquete es fd-find):
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install fd-find
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S fd
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install fd
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install fd
 ```
 
 Buscar archivos por nombre:
@@ -373,9 +493,24 @@ fd -I -E 'node_modules' -E '.git' .
 
 `tldr` ([https://tldr.sh/](https://tldr.sh/){:target="_blank" :rel="nofollow noopener"}) te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
 
-Instalar:
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install tldr
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S tldr
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install tldr
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install tldr
 ```
 
 Ver ejemplo rápido de tar:
@@ -397,9 +532,24 @@ tldr docker
 
 `duf` ([https://github.com/muesli/duf](https://github.com/muesli/duf){:target="_blank" :rel="nofollow noopener"}) es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
 
-Instalar:
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install duf
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S duf
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install duf
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install duf
 ```
 
 Ver uso de discos:
@@ -411,9 +561,24 @@ duf
 
 [zoxide](https://github.com/ajeetdsouza/zoxide){:target="_blank" :rel="nofollow noopener"} es un reemplazo inteligente de `cd` que aprende de tus hábitos de navegación. Mantiene un registro de los directorios que más usas y te permite saltar a ellos con solo escribir parte del nombre.
 
-Instalar:
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install zoxide
+```
+
+Instalar en Arch Linux:
+```bash
+sudo pacman -S zoxide
+```
+
+Instalar en Fedora/RHEL:
+```bash
+sudo dnf install zoxide
+```
+
+Instalar en openSUSE:
+```bash
+sudo zypper install zoxide
 ```
 
 Añadir al shell (añadir al final de ~/.bashrc o ~/.zshrc):
