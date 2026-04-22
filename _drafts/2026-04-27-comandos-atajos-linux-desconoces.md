@@ -64,13 +64,15 @@ Este es el que más uso:
 
 **Ejemplo práctico:**
 ```bash
-# Has escrito esto:
 mkdir -p projects/my-new-project/src
+```
 
-# Ahora quieres crear otro directorio dentro de ese mismo path
+```bash
 cd projects/my-new-project/src
+```
 
-# ¡Usa Alt+. para completar automáticamente!
+```bash
+Alt+.
 ```
 
 ### Trucos con el Historial
@@ -78,19 +80,22 @@ cd projects/my-new-project/src
 El historial de Bash es más potente de lo que parece:
 
 ```bash
-# Ejecutar el último comando (equivalente a ↑ + Enter)
 !!
+```
 
-# Ejecutar el último argumento del comando anterior
+```bash
 cd !$
+```
 
-# Ejecutar el primer argumento del comando anterior
+```bash
 ls -la !^
+```
 
-# Ejecutar el último comando que empezó por "git"
+```bash
 !git
+```
 
-# Reemplazar "old" por "new" en el último comando
+```bash
 ^python^python3
 ```
 
@@ -99,8 +104,10 @@ ls -la !^
 También puedes configurar tu `.inputrc` para aún más atajos. Por ejemplo, para buscar con las flechas:
 
 ```bash
-# En ~/.inputrc
 "\e[A": history-search-backward
+```
+
+```bash
 "\e[B": history-search-forward
 ```
 
