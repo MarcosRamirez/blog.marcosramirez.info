@@ -63,14 +63,18 @@ Este es el que más uso:
 - `Alt+.` (o `Esc`+.): Insertar el último argumento del comando anterior.
 
 **Ejemplo práctico:**
+
+Instalar y crear un directorio:
 ```bash
 mkdir -p projects/my-new-project/src
 ```
 
+Navegar al directorio creado:
 ```bash
 cd projects/my-new-project/src
 ```
 
+Insertar el último argumento automáticamente:
 ```bash
 Alt+.
 ```
@@ -79,22 +83,27 @@ Alt+.
 
 El historial de Bash es más potente de lo que parece:
 
+Ejecutar el último comando:
 ```bash
 !!
 ```
 
+Ejecutar el último argumento del comando anterior:
 ```bash
 cd !$
 ```
 
+Ejecutar el primer argumento del comando anterior:
 ```bash
 ls -la !^
 ```
 
+Ejecutar el último comando que empezó por "git":
 ```bash
 !git
 ```
 
+Reemplazar "old" por "new" en el último comando:
 ```bash
 ^python^python3
 ```
@@ -103,10 +112,12 @@ ls -la !^
 
 También puedes configurar tu `.inputrc` para aún más atajos. Por ejemplo, para buscar con las flechas:
 
+Buscar hacia atrás:
 ```bash
 "\e[A": history-search-backward
 ```
 
+Buscar hacia adelante:
 ```bash
 "\e[B": history-search-forward
 ```
@@ -121,10 +132,12 @@ Estos comandos no son tan populares pero son tremendamente útiles:
 
 Uno de los comandos más útiles para monitorizar logs es `tail`, pero ¿sabes cuándo usar cada bandera?
 
+Seguir archivo mediante descriptor (si se rota, deja de seguir):
 ```bash
 tail -f /var/log/syslog
 ```
 
+Seguir nombre del archivo (reabre si se rota o recrea):
 ```bash
 tail -F /var/log/syslog
 ```
@@ -137,14 +150,17 @@ La diferencia es sutil pero importante:
 
 ### ncdu: Analizador de Disco Visual
 
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install ncdu
 ```
 
+Ejecutar en el directorio actual:
 ```bash
 ncdu
 ```
 
+Analizar un directorio específico:
 ```bash
 ncdu /var/log
 ```
@@ -153,10 +169,12 @@ ncdu /var/log
 
 ### btop: Monitor de Sistema Moderno
 
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install btop
 ```
 
+Ejecutar:
 ```bash
 btop
 ```
@@ -172,10 +190,12 @@ btop
 
 ### mtr: Traceroute y Ping Combinados
 
+Instalar en Debian/Ubuntu:
 ```bash
 sudo apt install mtr
 ```
 
+Ejecutar:
 ```bash
 mtr google.com
 ```
@@ -184,62 +204,75 @@ mtr google.com
 
 ### tree: Ver Directorios Como Estructura
 
+Instalar:
 ```bash
 sudo apt install tree
 ```
 
+Ver solo 2 niveles de profundidad:
 ```bash
 tree -L 2
 ```
 
+Incluir archivos ocultos:
 ```bash
 tree -a
 ```
 
+Excluir patrones:
 ```bash
 tree -I 'node_modules|.git'
 ```
 
 ### shuf: Barajar Líneas Aleatoriamente
 
+Obtener una línea aleatoria de un archivo:
 ```bash
 shuf -n 1 archivo.txt
 ```
 
+Barajar un playlist:
 ```bash
 shuf lista.txt
 ```
 
 ### nl: Numerar Líneas
 
+Numerar todas las líneas:
 ```bash
 nl archivo.txt
 ```
 
+Numerar solo líneas no vacías:
 ```bash
 nl -ba archivo.txt
 ```
 
 ### ss: Socket Statistics (Reemplazo de netstat)
 
+Ver puertos escuchando:
 ```bash
 ss -tuln
 ```
 
+Ver conexiones establecidas:
 ```bash
 ss -tn
 ```
 
 ### fzf: Buscador Fuzzy Interactivo
 
+Instalar:
 ```bash
 sudo apt install fzf
 ```
 
+Lanzar buscador interactivo:
 ```bash
 fzf
 ```
 
+Buscar archivos:
 ```bash
 find . -name "*.md" | fzf
 ```
@@ -253,8 +286,102 @@ find . -name "*.md" | fzf
 
 ### bat: Reemplazo de cat con Estilo
 
+Instalar (en Debian puede ser batcat):
 ```bash
 sudo apt install bat
+```
+
+Ver archivo con resaltado de sintaxis:
+```bash
+bat archivo.py
+```
+
+Mostrar números de línea:
+```bash
+bat -n archivo.md
+```
+
+Listar themes disponibles:
+```bash
+bat --list-themes
+```
+
+### ripgrep: El Reemplazo de grep Definitivo
+
+Instalar:
+```bash
+sudo apt install ripgrep
+```
+
+Buscar recursivamente:
+```bash
+rg "pattern" .
+```
+
+Buscar solo en archivos Python:
+```bash
+rg "function" -t py
+```
+
+Ignorar node_modules y .git:
+```bash
+rg "TODO" --ignore-case --glob '!node_modules/*'
+```
+
+### fd: Reemplazo Moderno de find
+
+Instalar (en Debian el paquete es fd-find):
+```bash
+sudo apt install fd-find
+```
+
+Buscar archivos por nombre:
+```bash
+fd "config" .
+```
+
+Buscar con extensión específica:
+```bash
+fd -e md .
+```
+
+Buscar directorios:
+```bash
+fd -t d .
+```
+
+Ignorar patrones:
+```bash
+fd -I -E 'node_modules' -E '.git' .
+```
+
+### tldr: Páginas de Manual Simplificadas
+
+Instalar:
+```bash
+sudo apt install tldr
+```
+
+Ver ejemplo rápido de tar:
+```bash
+tldr tar
+```
+
+Ver ejemplo rápido de rsync:
+```bash
+tldr rsync
+```
+
+Ver ejemplo rápido de docker:
+```bash
+tldr docker
+```
+
+### duf: Reemplazo de df con Estilo
+
+Instalar:
+```bash
+sudo apt install duf
 ```
 
 ```bash
