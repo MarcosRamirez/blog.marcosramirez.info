@@ -56,6 +56,7 @@ El shell Bash (y la mayoría de shells compatibles) usa la librería Readline, q
 | `Alt+B` | Retroceder una palabra |
 | `Alt+F` | Avanzar una palabra |
 | `Ctrl+XX` | Alternar entre posición actual e inicio de línea |
+| `Ctrl+L` | Limpiar la pantalla (equivalente a `clear`) |
 
 ### Edición de Texto
 
