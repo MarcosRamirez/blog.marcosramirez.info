@@ -141,7 +141,26 @@ ncdu
 ncdu /var/log
 ```
 
-`ncdu` es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfectocuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
+`ncdu` es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfecto cuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
+
+### btop: Monitor de Sistema Moderno
+
+```bash
+# Instalar en Debian/Ubuntu
+sudo apt install btop
+
+# Ejecutar
+btop
+```
+
+`btop` es el sucesor moderno de `bashtop` y `bpytop`. Muestra CPU, memoria, red, discos y procesos en una interfaz visual bonita con gráficos. Es mucho más completo que `top` y más moderno que `htop`. Soporta mouse, atajos de teclado y temas personalizables.
+
+**Atajos principales:**
+- `q` - Salir
+- `h`/`?` - Ver ayuda
+- `1-4` - Cambiar entre CPU/Mem/Net/Procesos
+- `e` - Vista de árbol de procesos
+- `f` - Filtrar procesos
 
 ### mtr: Traceroute y Ping Combinados
 
@@ -196,6 +215,107 @@ ss -tuln
 # Ver conexiones establecidas
 ss -tn
 ```
+
+### fzf: Buscador Fuzzy Interactivo
+
+```bash
+# Instalar
+sudo apt install fzf
+
+# Usos básicos
+fzf                    # Lanzar buscador interactivo
+find . -name "*.md" | fzf   # Buscar archivos
+```
+
+`fzf` es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
+
+**Integraciones útiles:**
+- `Ctrl+T` - Buscar archivos para insertar en la línea de comandos
+- `Ctrl+R` - Buscar en el historial (mejora `Ctrl+R` nativo)
+- `Alt+C` - Cambiar a un directorio
+
+### bat: Reemplazo de cat con Estilo
+
+```bash
+# Instalar (en Debian puede ser batcat)
+sudo apt install bat
+
+# Ver archivo con resaltado de sintaxis
+bat archivo.py
+
+# Mostrar números de línea
+bat -n archivo.md
+
+# Listing themes disponibles
+bat --list-themes
+```
+
+`bat` es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y-git integration. Mucho más agradable a la vista que el simple `cat`.
+
+### ripgrep: El Reemplazo de grep Definitivo
+
+```bash
+# Instalar
+sudo apt install ripgrep
+
+# Buscar recursivamente
+rg "pattern" .
+
+# Buscar solo en archivos Python
+rg "function" -t py
+
+# Ignorar node_modules y .git
+rg "TODO" --ignore-case --glob '!node_modules/*'
+```
+
+`ripgrep` (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
+
+### fd: Reemplazo Moderno de find
+
+```bash
+# Instalar (en Debian el paquete es fd-find)
+sudo apt install fd-find
+
+# Buscar archivos por nombre
+fd "config" .
+
+# Buscar con extensión específica
+fd -e md .
+
+# Buscar directorios
+fd -t d .
+
+# Ignorar patrones
+fd -I -E 'node_modules' -E '.git' .
+```
+
+`fd` es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
+
+### tldr: Páginas de Manual Simplificadas
+
+```bash
+# Instalar
+sudo apt install tldr
+
+# Ver ejemplo rápido
+tldr tar
+tldr rsync
+tldr docker
+```
+
+`tldr` te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
+
+### duf: Reemplazo de df con Estilo
+
+```bash
+# Instalar
+sudo apt install duf
+
+# Ver uso de discos
+duf
+```
+
+`duf` es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
 
 ## Preguntas Frecuentes
 
