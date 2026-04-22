@@ -407,6 +407,35 @@ Ver uso de discos:
 duf
 ```
 
+### zoxide
+
+[zoxide](https://github.com/ajeetdsouza/zoxide){:target="_blank" :rel="nofollow noopener"} es un reemplazo inteligente de `cd` que aprende de tus hábitos de navegación. Mantiene un registro de los directorios que más usas y te permite saltar a ellos con solo escribir parte del nombre.
+
+Instalar:
+```bash
+sudo apt install zoxide
+```
+
+Añadir al shell (añadir al final de ~/.bashrc o ~/.zshrc):
+```bash
+eval "$(zoxide init bash)"
+```
+
+Usar (en lugar de cd):
+```bash
+z Descargas
+```
+
+Usar con fzf interactivo:
+```bash
+zoxide query --interactive
+```
+
+**¿Por qué usar zoxide?**
+- No tienes que escribir rutas completas
+- Aprende de tus directorios más visitados
+- Compatible con todos los shells
+
 ## Preguntas Frecuentes
 
 ### ¿Cuál es la diferencia entre tail -f y tail -F?

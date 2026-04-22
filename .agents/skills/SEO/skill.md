@@ -5,6 +5,11 @@ description: Skill especializada en optimizar posts de tecnología y software ba
 
 # Manual de SEO y Estilo Técnico (Instrucciones de la Skill)
 
+## Orden para escribir un buen post
+1. Seguir las instrucciones de esta skill, para redactar, investigar, etc..
+2. Una vez escrito el post, seguir las instrucciones de la skill de enlaces
+3. Una vez escrito el post, seguir las instrucciones de la skill de SEO
+
 ## 1. Perfil y Autoridad
 - **Autor:** Marcos Ramírez, Software Engineer.
 - **E-E-A-T:** Inyectar párrafos que demuestren experiencia directa, pruebas de software y comprensión de arquitectura técnica.
