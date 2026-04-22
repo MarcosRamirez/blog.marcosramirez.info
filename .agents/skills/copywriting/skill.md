@@ -151,6 +151,35 @@ Ejemplo:
    - `proxima_fecha` = siguiente lunes libre
 5. **Día y Hora:** Todos los posts deben programarse para un **lunes a las 08:30 (Hora de Madrid)**.
 6. **Formato de fecha:** `YYYY-MM-DD 08:30:00 +0200`
+7. **Fecha personalizada:** Si el usuario indica una fecha concreta, usarla directamente.
+
+### Publicación de Borradores
+
+Los borradores se encuentran en `_drafts/` con el nombre `YYYY-MM-DD-slug.md`.
+
+**Pasos para publicar un borrador:**
+
+1. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
+2. **Mover a _posts/:** Mover el archivo de `_drafts/` a `_posts/`.
+   - El nombre del archivo puede cambiarse para reflejar la fecha de publicación, o mantenerse.
+   - Jekyll usa la fecha del frontmatter, no el nombre del archivo.
+3. **Hacer commit:** Incluir el cambio en el commit con el tipo `content`.
+4. **Hacer push:** Solo cuando el usuario lo indique expresamente.
+
+**Ejemplo:**
+```yaml
+# En _drafts/
+date: 2026-04-27 08:30:00 +0200
+
+# Cambiar a fecha de publicación (viernes 24 a las 9:00)
+date: 2026-04-24 09:00:00 +0200
+```
+
+**Reglas de fecha por defecto:**
+- Si no se especifica: lunes a las 08:30
+- Si se especifica una fecha: usar esa fecha
+- Hora por defecto: 08:30 (8:30am)
+- Hora personalizada: usar la hora indicada por el usuario
 
 ### Reglas para Enlaces y URLs
 - Siempre que menciones webs, apps o empresas, etc... incluye su URL.
