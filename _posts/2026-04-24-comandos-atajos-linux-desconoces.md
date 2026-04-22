@@ -1,6 +1,6 @@
 ---
 title: "Comandos y Atajos de Teclado en GNU/Linux que Desconoces"
-date: 2026-04-27 08:30:00 +0200
+date: 2026-04-24 09:00:00 +0200
 excerpt: "Descubre los comandos y atajos de teclado del terminal GNU/Linux que te harán más productivo y eficiente. Desde tail -F hasta Ctrl+R, pasando por trucos que te ahorrarán horas de trabajo."
 authors:
   - Marcos Ramírez
