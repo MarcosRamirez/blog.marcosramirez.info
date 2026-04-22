@@ -278,6 +278,7 @@ Esta norma evita publicar información inventada sobre él, su Home Lab, prefere
 - Verifica acentos: "técnico", "público", "ord", "último", "ést", "és", etc.
 - Usa "wifi" (no "wi-fi" ni "Wifi").
 - Nombres propios de empresas/apps en su forma original: "ChatGPT", "Notion", "Slack" (sin traducir).
+- **NUNCA uses HTML entities** (como &aacute;, &eacute;, &iacute;, &oacute;, &uacute;, &ntilde;, &iquest;, etc.). Escribe siempre con caracteres UTF-8 normales (á, é, í, ó, ú, ñ, ¿).
 
 ### Flujo de Trabajo
 
