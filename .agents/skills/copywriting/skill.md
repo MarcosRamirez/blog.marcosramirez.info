@@ -61,10 +61,15 @@ Ejemplo incorrecto:
 
 ### Estructura de los posts
 
+- **IMPORTANTE: CADA POST DEBE TENER SU IMAGEN DE HEADER ÚNICA**
+- El workflow es:
+  1. Generar la imagen ANTES de subir el post (usando skill `create-images`)
+  2. Guardarla en `assets/img/headers/<slug>.webp`
+  3. Actualizar front matter con la ruta correcta
+  4. Subir el post
+- NO uses `/assets/img/headers/default.webp` - eso solo es para posts sin imagen.
 - Todos los posts deben incluir un ![Post Header]({{ page.image }}) al inicio del texto.
 - El front matter debe incluir las claves `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `pin`, `toc` `twitter_description` y `permalink`.
-- El campo image, puedes usarlo en el Post headder.
-- El valor por defecto del campo image es `/assets/img/headers/default.webp`.
 - El valor por defecto del campo pin es false.
 - El valor por defecto del campo toc es true.
 - **El valor por defecto del campo permalink es el slug del post (sin fecha).**
@@ -136,7 +141,7 @@ Ejemplo incorrecto:
 - Debe ser un resumen completo y coherente del post.
 - Debe estar escrito en el mismo idioma que el post.
 
-### Generar imágenes de los posts
+### Generar imágenes de los posts (OBLIGATORIO)
 
 **Norma:** Si no puedes generar la imagen, usar `default.webp` en el frontmatter. NO copiar ni crear archivos manualmente.
 
@@ -151,6 +156,18 @@ Ejemplo incorrecto:
 - Dimensiones: 1900x478px
 - Formato: .webp
 - Nombre: el slug del post
+*** CADA POST DEBE TENER IMAGEN PROPIA - ES OBLIGATORIO GENERARLA ANTES DE SUBIR EL POST ***
+
+1. Usa el skill `create-images` para generar una imagen única para el post
+2. Guarda la imagen en `assets/img/headers/<slug>.webp`
+3. Actualiza el front matter con la ruta correcta
+4. Commit + push de la imagen
+5. Commit + push del post
+
+- Las imágenes deben tener una dimensión de 1900x478px.
+- El nombre del archivo debe ser el slug del post.
+- La imagen debe estar en formato .webp.
+>>>>>>> Stashed changes
 
 
 ### Lógica de Programación (CALENDARIO)
