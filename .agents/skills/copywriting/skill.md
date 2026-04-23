@@ -324,8 +324,20 @@ Esta norma evita publicar información inventada sobre él, su Home Lab, prefere
    - rel="nofollow noopener" en enlaces externos
    - Sección FAQ
    - Subtítulos con long-tails
-   - Excerpt que induzca a leer
+   - Excerpt que induc a leer
 3. **Último**: Revisa que todo el texto esté en UTF-8 (sin HTML entities como &aacute;, &eacute;, etc.)
+
+### Revisión del Excerpt
+
+***CADA VEZ que edites un post o draft, DEBES revisar el excerpt.***
+
+El excerpt es la carta de presentación del post en listados y redes sociales. Debe reflejar fielmente el contenido del post, especialmente si se han añadido nuevas secciones o se han hecho cambios significativos.
+
+Revisa el excerpt cuando:
+- Añadas nuevas secciones al post
+- Cambies el enfoque o contenido principal
+- Modifies el título
+- Cualquier edición que altere el contenido del post
 
 ### Gestión de Imágenes de Posts
 

@@ -1,7 +1,7 @@
 ---
 title: "Comandos y Atajos de Teclado en GNU/Linux que Posiblemente Desconoces"
 date: 2026-04-24 09:00:00 +0200
-excerpt: "Descubre los comandos y atajos de teclado del terminal GNU/Linux que te harán más productivo y eficiente. Desde tail -F hasta Ctrl+R, pasando por trucos que te ahorrarán horas de trabajo."
+excerpt: "Descubre los comandos y atajos de teclado del terminal GNU/Linux que tearán más productivo. Desde tail -F hasta Ctrl+R, pasando por alias útiles como mkcd y dónde configurarlos."
 authors:
   - Marcos Ramírez
   - Lucía
@@ -600,6 +600,151 @@ zoxide query --interactive
 - No tienes que escribir rutas completas
 - Aprende de tus directorios más visitados
 - Compatible con todos los shells
+
+### Alias Útiles
+
+Estos alias y funciones pueden hacer tu vida mucho más fácil. Añádelos a tu `~/.bashrc` o `~/.zshrc`:
+
+** mkcd - Crear y entrar a un directorio:**
+
+```bash
+mkcd() {
+  mkdir -p "$1" && cd "$1"
+}
+```
+
+Usar:
+```bash
+mkcd nuevo-proyecto
+```
+
+**Crear y entrar al directorio con padres:**
+
+```bash
+mkcdp() {
+  mkdir -p "$1" && cd "$1"
+}
+```
+
+**Crear un directorio y copiar un archivo:**
+
+```bash
+mkcp() {
+  mkdir -p "$2" && cp -r "$1" "$2"
+}
+```
+
+**Crear un directorio y mover un archivo:**
+
+```bash
+mkmv() {
+  mkdir -p "$2" && mv "$1" "$2"
+}
+```
+
+**Extraer cualquier archivo:**
+
+```bash
+extract() {
+  if [ -f "$1" ]; then
+    case "$1" in
+      *.tar.bz2) tar xjf "$1" ;;
+      *.tar.gz) tar xzf "$1" ;;
+      *.bz2) bunzip2 "$1" ;;
+      *.gz) gunzip "$1" ;;
+      *.tar) tar xf "$1" ;;
+      *.tbz2) tar xjf "$1" ;;
+      *.tgz) tar xzf "$1" ;;
+      *.zip) unzip "$1" ;;
+      *.rar) unrar x "$1" ;;
+      *) echo "No puedo extraer: $1" ;;
+    esac
+  else
+    echo "$1 no es un archivo válido"
+  fi
+}
+```
+
+Usar:
+```bash
+extract archivo.zip
+```
+
+### Dónde Añadir los Alias
+
+Según el shell y el usuario, el archivo de configuración varía. Para que los alias estén disponibles para todos los usuarios del sistema, lo mejor es añadirlos en `/etc/profile.d/`:
+
+**Para Bash - Todos los usuarios:**
+
+Crear el archivo global:
+```bash
+sudo nano /etc/profile.d/aliases.sh
+```
+
+Añadir los alias:
+```bash
+mkcd() {
+  mkdir -p "$1" && cd "$1"
+}
+
+mkcdp() {
+  mkdir -p "$1" && cd "$1"
+}
+
+mkcp() {
+  mkdir -p "$2" && cp -r "$1" "$2"
+}
+
+mkmv() {
+  mkdir -p "$2" && mv "$1" "$2"
+}
+
+extract() {
+  if [ -f "$1" ]; then
+    case "$1" in
+      *.tar.bz2) tar xjf "$1" ;;
+      *.tar.gz) tar xzf "$1" ;;
+      *.bz2) bunzip2 "$1" ;;
+      *.gz) gunzip "$1" ;;
+      *.tar) tar xf "$1" ;;
+      *.tbz2) tar xjf "$1" ;;
+      *.tgz) tar xzf "$1" ;;
+      *.zip) unzip "$1" ;;
+      *.rar) unrar x "$1" ;;
+      *) echo "No puedo extraer: $1" ;;
+    esac
+  else
+    echo "$1 no es un archivo válido"
+  fi
+}
+```
+
+Hacer ejecutable:
+```bash
+sudo chmod +x /etc/profile.d/aliases.sh
+```
+
+**Para Zsh - Todos los usuarios:**
+
+Crear el archivo global:
+```bash
+sudo nano /etc/profile.d/aliases.zsh
+```
+
+Añadir los mismos alias o diferentes.
+
+**Por usuario específico:**
+
+- **Bash**: `~/.bashrc`
+- **Zsh**: `~/.zshrc`
+- **Todos los shells** (global): `/etc/profile.d/`
+- **Usuario específico** (global): `/home/usuario/.bashrc`
+
+Para aplicar los cambios sin reiniciar la sesión:
+```bash
+source ~/.bashrc  # Para Bash
+source ~/.zshrc  # Para Zsh
+```
 
 ## Preguntas Frecuentes
 
