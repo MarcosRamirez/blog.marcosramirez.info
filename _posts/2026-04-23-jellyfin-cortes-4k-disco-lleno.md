@@ -102,18 +102,26 @@ En mi caso robé espacio a otro LXC que tenía de sobra. El orden es crítico pa
 ```bash
 # 1. Ver espacio disponible
 vgs && lvs
+```
 
+```bash
 # 2. Parar el LXC donante
 pct stop <LXC_DONANTE_ID>
+```
 
+```bash
 # 3. Verificar filesystem, reducirlo y reducir el LV
 e2fsck -fy /dev/pve/vm-<LXC_DONANTE_ID>-disk-0
 resize2fs /dev/pve/vm-<LXC_DONANTE_ID>-disk-0 100G
 lvreduce -L 100G /dev/pve/vm-<LXC_DONANTE_ID>-disk-0
+```
 
+```bash
 # 4. Arrancar el LXC donante
 pct start <LXC_DONANTE_ID>
+```
 
+```bash
 # 5. Ampliar Jellyfin desde la web de [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"}:
 # LXC Jellyfin → Hardware → Hard Disk → Disk Action → Resize
 # Proxmox hace el resize2fs automáticamente al ampliar
@@ -121,7 +129,7 @@ pct start <LXC_DONANTE_ID>
 
 Yo intenté hacerlo por comandos (lvreduce/lvextend) y no fui capaz. Desde la interfaz web fue meter el valor y listo.
 
-¿ sabes cómo hacerlo por comandos? [Escríbeme](https://marcosramirez.info/contacto/) o deja un comentario porque ni con [Claude Code](https://claude.com/claude-code) lo conseguí.
+¿ sabes cómo hacerlo por comandos? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario porque ni con [Claude Code](https://claude.com/claude-code) lo conseguí.
 
 ⚠️ Si el tamaño en la config del LXC no coincide con el LV real, actualízalo:
 
@@ -222,6 +230,6 @@ La lección: **monitoriza el espacio en disco de tus servicios de media**. Los t
 
 Compártelo si te ha gustado.
 
-¿Tienes problemas similares con Jellyfin o algún servicio de media? [Escríbeme](https://marcosramirez.info/contacto/) o deja un comentario.
+¿Tienes problemas similares con Jellyfin o algún servicio de media? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.
 
 Y... hasta aquí por hoy!
