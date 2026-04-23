@@ -8,8 +8,8 @@ description: Normas completas para insertar enlaces en posts del blog.
 ### 1. Regla Principal
 **CADA software, servicio, herramienta o marca que menciones DEBE tener un enlace** a su web oficial.
 
-### 2. Lista Blanca de Dominios Propios (NO requieren nofollow)
-Los siguientes dominios son propios y no necesitan atributos de seguridad:
+### 2. Lista Blanca de Dominios Propios (NO requieren nofollow ni noopener)
+Los siguientes dominios son propios y solo necesitan `target="_blank"`:
 - `marcosramirez.info`
 - `marcosramirez.dev`
 - `saasquatch.es`
@@ -65,4 +65,5 @@ Echa un vistazo a [mi post sobre Home Assistant]({% post_url 2026-06-01-home-ass
 ### 8. Normas de SEO
 - Los enlaces externos deben tener `rel="nofollow noopener"` por seguridad y para no perder autoridad.
 - Los enlaces internos ayudan al SEO y a la navegación del usuario.
+- Los enlaces propios NO deben tener nofollow ni noopener - son del mismo sitio.
 - No abuses de los enlaces externos - solo enlaza cuando sea relevante y aporta valor.
