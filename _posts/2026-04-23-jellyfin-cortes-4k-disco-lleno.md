@@ -1,7 +1,7 @@
 ---
 title: "Cómo resolví los cortes aleatorios de Jellyfin en 4K (spoiler: el disco estaba lleno)"
 date: 2026-04-23 21:45:00 +0200
-excerpt: "Películas en 4K que se congelan sin motivo aparente, salvapantallas que salta a los 5 minutos... y resulta que el disco estaba al 100%. Cinco problemas encadenados que descubrí analizando los logs de Jellyfin."
+excerpt: "Películas en 4K que se cortan a los 5 minutos, salvapantallas que salta solo... Resultado: el disco del LXC estaba al 100%. Cinco problemas que descubrí revisando los logs."
 authors:
   - Marcos Ramírez
   - Lucía
