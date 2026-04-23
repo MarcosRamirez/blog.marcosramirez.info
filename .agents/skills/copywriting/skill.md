@@ -319,12 +319,13 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 ### Reglas de Contenido (NUNCA inventar)
 
-**⚠️ NORMA CRÍTICA: VERIFICA LA ORTOGRAFÍA ANTES DE PROPONER O SUGERIR CUALQUIER COSA**
+**⚠️ NORMA CRÍTICA: VERIFICA LA ORTOGRAFÍA ANTES DE ESCRIBIR CUALQUIER COSA**
 
+- SIEMPRE verifica la ortografía antes de escribir/cualquier archivo
 - Antes de sugerir un texto, revisa que NO tenga errores ortográficos
-- Especialmente: "analysando" → "analizando", "anyadido" → "añadido", "deixa" → "deja"
+- Especialmente: "analysando" → "analizando", "anyadido" → "añadido", "deixa" → "deja", "funciobaba" → "funcionaba"
 - Si no estás seguro de la ortografía, escribe la palabra en una búsqueda para verificar
-- Esta norma es prioritaria sobre cualquier otra tarea de redacción
+- Esta norma es prioritaria sobre cualquier otra tarea
 
 **⚠️ NUNCA inventes nada sobre el usuario.**
 
