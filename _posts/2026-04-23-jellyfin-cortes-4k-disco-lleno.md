@@ -8,8 +8,9 @@ authors:
 categories:
   - Tecnología
 tags:
-  - Sistemas
-  - Redes e Infraestructura
+  - sistemas
+  - redes-e-infraestructura
+  - contenedores
 image: /assets/img/headers/jellyfin-cortes-4k-disco.webp
 pin: false
 toc: true
