@@ -40,10 +40,24 @@ Consulta la skill de **copywriting-links** para las normas completas sobre cómo
   # Ejemplo para bash/shell
   comando --opcion argumento
   ```
-Ejemplo:
-  ```bash
-  bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/<servicio>.sh)"
-  ```
+- **NUNCA pongas enlaces dentro de bloques de código**. Los comandos deben ser solo el comando, sin enlaces. Los enlaces van en el texto normal, antes o después del bloque.
+- Si mencionas una herramienta en un comando, её primera mención en el texto (no dentro del código) debe llevar enlace.
+
+Ejemplo correcto:
+```markdown
+Usa [ffmpeg](https://ffmpeg.org/) para remuxear:
+
+```bash
+ffmpeg -i input.mkv -c copy output_fixed.mkv
+```
+```
+
+Ejemplo incorrecto:
+```markdown
+```bash
+[ffmpeg](https://ffmpeg.org/) -i input.mkv -c copy output_fixed.mkv
+```
+```
 
 ### Estructura de los posts
 
@@ -327,7 +341,26 @@ Esta norma evita publicar información inventada sobre él, su Home Lab, prefere
    - Excerpt que induc a leer
 3. **Último**: Revisa que todo el texto esté en UTF-8 (sin HTML entities como &aacute;, &eacute;, etc.)
 
-### Revisión del Excerpt
+#### Generación de Imágenes (OBLIGATORIO)
+
+Al crear un post o draft, DEBES intentar generar la imagen automáticamente:
+
+1. Intenta generar la imagen con el script de generación (`node _tools/generate_cover.js`)
+2. Si el script falla → reintenta una vez más
+3. Si después de reintentar no hay imagen → usa `image: /assets/img/headers/default.webp`
+4. **NUNCA preguntes al usuario si debe generar la imagen** - hazlo automáticamente
+5. Actualiza el campo `image` en el frontmatter con la ruta generada
+
+#### Revisión de SEO (OBLIGATORIO)
+
+Al crear un post o draft, DEBES revisar y aplicar SEO automáticamente:
+
+- Añadir atributo `alt` a la imagen del header
+- Crear sección FAQ con 3-4 preguntas relevantes
+- Verificar que los enlaces externos tengan `rel="nofollow noopener"`
+- **NUNCA preguntes al usuario si debe revisar el SEO** - hazlo automáticamente
+
+#### Revisión del Excerpt
 
 ***CADA VEZ que edites un post o draft, DEBES revisar el excerpt.***
 
