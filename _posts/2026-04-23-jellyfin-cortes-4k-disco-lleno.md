@@ -222,7 +222,7 @@ Aunque es recomendable para servidores con recursos limitados, no es obligatorio
 
 El problema que parecía misterioso (cortes aleatorios imposibles de reproducir) tenía una causa muy mundana: el disco lleno. Jellyfin fallaba silenciosamente porque no podía escribir en disco, y eso se manifestaba como cortes aleatorios dependiendo de qué operación intentara hacer en cada momento.
 
-Lo peor: Jellyfin lo tenía instalado con los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" :rel="nofollow noopener"}, así que un `docker run` y ya estaba. Y como "funciobaba", te olvidas.
+Lo peor: Jellyfin lo tenía instalado con los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" :rel="nofollow noopener"}, así que un par de clics y ya estaba. Y como "funciobaba", te olvidas.
 
 En total, pasé una horita entretenida solucionando el problema. Pero al menos ahora sé qué hacer para que no me pase otra vez.
 
