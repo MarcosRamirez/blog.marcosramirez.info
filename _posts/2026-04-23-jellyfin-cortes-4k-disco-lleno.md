@@ -1,7 +1,7 @@
 ---
 title: "Cómo resolví los cortes aleatorios de Jellyfin en 4K (spoiler: el disco estaba lleno)"
 date: 2026-04-23 21:45:00 +0200
-excerpt: "Películas en 4K que se cortan a los 5 minutos, salvapantallas que salta solo... Resultado: el disco del LXC estaba al 100%. Cinco problemas que descubrí revisando los logs."
+excerpt: "Películas en 4K que se cortan a los 5 minutos, salvapantallas que salta solo... No era la red. El disco del LXC estaba al 100%. Cinco problemas que encontré y solucioné: disco lleno, MKV corrupto, sin aceleración por hardware, Montaje NTFS incorrecto y NFS que no detectaba archivos."
 authors:
   - Marcos Ramírez
   - Lucía
