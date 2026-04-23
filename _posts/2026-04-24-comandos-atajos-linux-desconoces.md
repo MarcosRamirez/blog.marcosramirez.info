@@ -16,7 +16,7 @@ tags:
 image: /assets/img/headers/comandos-atajos-linux-desconoces.webp
 pin: false
 toc: true
-twitter_description: "Estos atajos de teclado y comandos en GNU/Linux te ahorrarán horas. Aprende a usar tail -F, Ctrl+R y más."
+twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mkcp, mkmv y más. Aprende a configurarlos para todos los usuarios."
 permalink: /comandos-atajos-linux-desconoces/
 slug: comandos-atajos-linux-desconoces
 ---

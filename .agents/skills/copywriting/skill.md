@@ -339,6 +339,18 @@ Revisa el excerpt cuando:
 - Modifies el título
 - Cualquier edición que altere el contenido del post
 
+### Revisión del twitter_description
+
+***CADA VEZ que edites un post o draft, DEBES revisar el twitter_description.***
+
+El twitter_description es el texto que aparece cuando se comparte el post en Twitter/X. Debe capturar la esencia del post y ser atractivo para generar clicks.
+
+Revisa el twitter_description cuando:
+- Añadas nuevas secciones al post
+- Cambies el enfoque o contenido principal
+- Modifies el título
+- Cualquier edición que altere el contenido del post
+
 ### Gestión de Imágenes de Posts
 
 1. **Carpeta MISC**: En `assets/img/misc` el usuario deixará imágenes para los posts. ***NO BORRAR ESTA CARPETA***.
