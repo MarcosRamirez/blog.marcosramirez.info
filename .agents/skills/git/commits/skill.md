@@ -24,10 +24,16 @@ description: Instrucciones para redactar commits con Conventional Commits y Gitm
 - `fix`      → 🐛
 - `docs`     → 📝
 - `feat`     → ✨
-- `style`    → 🎨
-- `refactor` → ♻️
-- `content`  → ✍️  *(solo para posts del blog)*
-- `ui`       → 🎯
+- `style`   → 🎨
+- `refactor`→ ♻️
+- `content` → ✍️  *(solo para posts del blog)*
+- `ui`      → 🎯
+- `wip`     → 🛠️  *(trabajo en progreso, NO hacer push)*
+
+## Regla especial para WIP
+- **WIP = Work in Progress** (trabajo en progreso)
+- **NUNCA hacer `git push`** con commits WIP
+- WIP es solo para guardar localmente
 
 ## REGLAS DE ORO
 1. Idioma: **español**.  
