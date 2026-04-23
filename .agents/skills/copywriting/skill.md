@@ -293,11 +293,11 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 - **Siempre incluye al inicio de la despedida**: "Compártelo si te ha gustado."
 - **Tipo de post → Despedida:**
-  - **Técnico/Tutorial**: "¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/)."
-  - **Opinión/Reflexión**: "¿Qué opinas? Cuéntame."
-  - **Serie**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
-  - **Reseña**: "¿Has probado algo similar? Cuéntame tu opinión."
-  - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
+    - **Técnico/Tutorial**: "¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/) o deja un comentario."
+    - **Opinión/Reflexión**: "¿Qué opinas? Cuéntame."
+    - **Serie**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
+    - **Reseña**: "¿Has probado algo similar? Cuéntame tu opinión."
+    - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
 - **Firma**: "Y... hasta aquí por hoy!"
 
 ### Reglas de Contenido (NUNCA inventar)
