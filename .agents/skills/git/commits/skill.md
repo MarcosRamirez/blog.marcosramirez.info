@@ -36,8 +36,8 @@ description: Instrucciones para redactar commits con Conventional Commits y Gitm
 - WIP es solo para guardar localmente
 
 ## REGLAS DE ORO
-1. Idioma: Castellano (Español de Espana).
-2. Tono: pasado participio (Corregido, anyadido).
+1. Idioma: Castellano (Español de España).
+2. Tono: pasado participio (Corregido, añadido).
 3. Longitud del resumen <= 50 caracteres.
 
 ## EJEMPLOS
