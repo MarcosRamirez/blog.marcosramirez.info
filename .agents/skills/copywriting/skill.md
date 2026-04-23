@@ -399,3 +399,12 @@ Revisa el twitter_description cuando:
      - La referencia de imagen en el frontmatter (`image: /assets/img/headers/<slug>.webp`)
      - El nombre del archivo de imagen en `assets/img/headers/`
    - Esta regla evita URLs rotas e imágenes que no coinciden con el slug
+
+### Work in Progress (WIP)
+
+Un **WIP** es un commit de trabajo en progreso. Se usa para guardar cambios intermedios que no están listos para publicar.
+
+**REGLA: NUNCA hacer `git push` en un WIP.**
+- Un WIP es solo para guardar-localmente
+- Solo se hace push cuando el usuario lo indica expresamente
+- Si hace falta hacer push de un WIP, el mensaje de commit debe indicar claramente que es un WIP
