@@ -358,13 +358,14 @@ Esta norma evita publicar información inventada sobre él, su Home Lab, prefere
 ### Flujo de Trabajo
 
 1. **Primero**: Escribe el post normalmente siguiendo todas las normas de esta skill.
-2. **Después**: Mejora el post usando la **skill SEO** para optimizar:
+2. **Segundo**: Genera la imagen automáticamente (OBLIGATORIO - sin preguntar)
+3. **Tercero**: Mejora el post usando la **skill SEO** para optimizar:
    - Atributos alt en imágenes
    - rel="nofollow noopener" en enlaces externos
    - Sección FAQ
    - Subtítulos con long-tails
    - Excerpt que induc a leer
-3. **Último**: Revisa que todo el texto esté en UTF-8 (sin HTML entities como &aacute;, &eacute;, etc.)
+4. **Último**: Revisa que todo el texto esté en UTF-8 (sin HTML entities como &aacute;, &eacute;, etc.)
 
 #### Generación de Imágenes (OBLIGATORIO)
 

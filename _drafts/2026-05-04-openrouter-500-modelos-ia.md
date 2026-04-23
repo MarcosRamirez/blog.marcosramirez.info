@@ -11,7 +11,7 @@ tags:
   - inteligencia-artificial
   - software-y-apps
   - automatizacion
-image: /assets/img/headers/default.webp
+image: /assets/img/headers/openrouter-500-modelos-ia.webp
 pin: false
 toc: true
 twitter_description: "Más de 500 modelos de IA en una sola API. Muchos gratuitos. OpenRouter es la puerta de acceso centralizado a IA."
