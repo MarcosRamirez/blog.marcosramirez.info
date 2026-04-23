@@ -31,7 +31,7 @@ Esto es obligatorio por seguridad y para evitar pasar "link juice" a sitios exte
 ### 5. Enlaces Internos (Entre Posts del Blog)
 - Si en el cuerpo del post se menciona un tema que ya fue tratado en otro post del blog, enlázalo.
 - Usa el tag nativo de Jekyll: `{% post_url YYYY-MM-DD-slug %}`
-- **NO uses** `{:target="_blank"}` para enlaces internos - deben navegar en la misma pestaña.
+- **Todos los enlaces (internos y externos) deben tener** `{:target="_blank"}`
 - El nombre del archivo debe usar guiones en lugar de espacios:
   - ✅ `{% post_url 2025-03-01-Resumen-Febrero-2025 %}`
   - ❌ `{% post_url 2025-03-01-Resumen Febrero 2025 %}`
@@ -43,7 +43,7 @@ Esto es obligatorio por seguridad y para evitar pasar "link juice" a sitios exte
 |----------------|---------|
 | Dominio propio | `[Texto](URL){:target="_blank"}` |
 | Dominio externo | `[Texto](URL){:target="_blank" :rel="nofollow noopener"}` |
-| Enlace interno (Jekyll) | `[Texto]({% post_url YYYY-MM-DD-slug %})` |
+| Enlace interno (Jekyll) | `[Texto]({% post_url YYYY-MM-DD-slug %}){:target="_blank"}` |
 
 ### 7. Ejemplos
 
@@ -54,10 +54,10 @@ Esto es obligatorio por seguridad y para evitar pasar "link juice" a sitios exte
 
 **Correcto - Enlace a dominio propio:**
 ```markdown
-Echa un vistazo a [mi post sobre Home Assistant]({% post_url 2026-06-01-home-assistant-tu-cerebro-de-domotica %}) para más detalles.
+Echa un vistazo a [mi post sobre Home Assistant]({% post_url 2026-06-01-home-assistant-tu-cerebro-de-domotica %}){:target="_blank"} para más detalles.
 ```
 
-**Incorrecto - Enlace interno con target="_blank":**
+**Correcto - Enlace interno:**
 ```markdown
 [Post anterior]({% post_url 2025-03-01-resumen-febrero-2025 %}){:target="_blank"}
 ```
