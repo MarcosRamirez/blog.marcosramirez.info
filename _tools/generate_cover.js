@@ -5,8 +5,7 @@
  *
  * Proveedores (en orden de prioridad):
  *   1. Pollinations.ai  — sin registro, sin API key
- *   2. OpenRouter (Nano Banana) — requiere OPENROUTER_API_KEY
- *   3. Hugging Face     — requiere HF_TOKEN
+ *   2. Hugging Face     — requiere HF_TOKEN
  *
  * Uso:
  *   node generate-cover.js --prompt "A futuristic city" --output "assets/img/headers/mi-post.webp"
@@ -21,7 +20,7 @@
  *   1  - Error de uso (faltan parámetros)
  *   2  - Todos los proveedores agotados (el agente debe parar y avisar al usuario)
  *   3  - Error de red o timeout en un proveedor (se reintenta con el siguiente)
- *   4  - Error inesperado
+*   4  - Error inesperado
  */
 
 const https = require("https");
@@ -182,59 +181,10 @@ async function tryHuggingFace(prompt, output, width, height) {
     );
 }
 
-async function tryOpenRouter(prompt, output, width, height) {
-    const token = process.env.OPENROUTER_API_KEY;
-    if (!token) throw { rateLimited: false, message: "OPENROUTER_API_KEY no definido, se omite OpenRouter" };
-
-    const tempOutput = output + ".tmp";
-    
-    try {
-        //Nano Banana (Gemini 2.5 Flash Image) - gratuito en OpenRouter
-        const url = "https://openrouter.ai/api/v1/chat/completions";
-        
-        //Calcular aspect ratio
-        const ratio = width > height ? "16:9" : (width === height ? "1:1" : "9:16");
-        const size = width >= 1024 ? "1K" : "K";
-        
-        const body = {
-            model: "google/gemini-2.5-flash-image-preview:free",
-            messages: [{ role: "user", content: prompt }],
-            modalities: ["image", "text"],
-            image_config: {
-                aspect_ratio: ratio,
-                image_size: size,
-                seed: Math.floor(Math.random() * 1000000)
-            }
-        };
-        
-        await httpPost(url, { Authorization: `Bearer ${token}` }, body, tempOutput);
-        
-        //Parsear respuesta JSON para obtener la imagen
-        const responseData = JSON.parse(fs.readFileSync(tempOutput, "utf8"));
-        
-        //Extraer imagen de la respuesta
-        const imagenBase64 = responseData?.choices?.[0]?.message?.images?.[0]?.image_url?.url;
-        
-        if (!imagenBase64) {
-            throw { rateLimited: false, message: "No se obtuvo imagen de OpenRouter: " + JSON.stringify(responseData).slice(0, 200) };
-        }
-        
-        //Guardar la imagen (viene como data URL: data:image/png;base64,...)
-        const base64Data = imagenBase64.replace(/^data:image\/\w+;base64,/, "");
-        const buffer = Buffer.from(base64Data, "base64");
-        fs.writeFileSync(output, buffer);
-        
-    } finally {
-        //Borrar archivo temporal si existe
-        if (fs.existsSync(tempOutput)) fs.unlinkSync(tempOutput);
-    }
-}
-
 // ── Cadena de proveedores ─────────────────────────────────────────────────────
 
 const PROVIDERS = [
     { name: "Pollinations.ai", fn: tryPollinations },
-    { name: "OpenRouter (Nano Banana)", fn: tryOpenRouter },
     { name: "Hugging Face (FLUX.1-schnell)", fn: tryHuggingFace },
 ];
 
