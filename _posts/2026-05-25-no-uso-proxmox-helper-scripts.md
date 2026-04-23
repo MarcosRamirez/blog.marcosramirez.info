@@ -24,7 +24,9 @@ Cualquiera que se haya adentrado mínimamente en el mundo de los homelabs y [Pro
 
 Son una auténtica maravilla: copias una línea en la consola de tu nodo de Proxmox, le das al Enter, respondes un par de preguntas y en cuestión de minutos tienes un contenedor LXC perfectamente configurado corriendo [Nextcloud](https://nextcloud.com/){:target="_blank" :rel="nofollow noopener"}, [N8N](https://n8n.io/){:target="_blank" :rel="nofollow noopener"}, [Paperless-ngx](https://docs.paperless-ngx.com/){:target="_blank" :rel="nofollow noopener"}, [Firefly III](https://www.firefly-iii.org/){:target="_blank" :rel="nofollow noopener"}, o cualquier otro servicio que te puedas imaginar.
 
-Durante un tiempo, yo estuve implementándolos para probar cosas rápido, e incluso pensé en basar toda la arquitectura de mis servicios en ellos. Pero conforme mi red crecía, detecté un problema arquitectónico bastante molesto. 
+Durante un tiempo, yo estuve implementándolos para probar cosas rápido, e incluso pensé en basar toda la arquitectura de mis servicios en ellos. Pero conforme mi red crecía, detecté un problema arquitectónico bastante molesto.
+
+[En mi post sobre Jellyfin]({% post_url 2026-04-23-jellyfin-cortes-4k-disco-lleno %}) os cuento cómo los helper scripts me asignaron solo 16GB de disco por defecto, y como todo "funciobaba", no me di cuenta hasta que el disco se llenó y los transcodes de 4K empezó a fallar silenciosamente. 
 
 # El problema: El aislamiento de las Bases de Datos
 
