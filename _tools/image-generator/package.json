@@ -5,6 +5,7 @@
   "main": "image_generator.js",
   "dependencies": {
     "@google-cloud/vertexai": "^1.1.0",
+    "dotenv": "^17.4.2",
     "sharp": "^0.33.2"
   }
 }

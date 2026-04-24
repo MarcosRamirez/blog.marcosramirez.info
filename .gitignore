@@ -8,3 +8,7 @@ _drafts/9999-12-31-Template.md
 _site/
 node_modules/
 **/node_modules/
+_tools/image-generator/node_modules/
+.env
+gcp-key.json
+

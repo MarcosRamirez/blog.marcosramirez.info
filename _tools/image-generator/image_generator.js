@@ -15,6 +15,10 @@ const path = require('path');
 const https = require('https');
 const http = require('http');
 
+// Cargar variables de entorno desde el archivo .env aislado
+require('dotenv').config({ path: path.join(__dirname, '.env') });
+
+
 // Intentamos cargar dependencias externas
 let VertexAI, sharp;
 try {
