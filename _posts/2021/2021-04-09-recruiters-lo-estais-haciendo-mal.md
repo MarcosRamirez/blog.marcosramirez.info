@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-04-09 20:50:00 +0100
-image: /assets/img/recruiting-nanobanana.webp
+image: /assets/img/headers/2021/recruiting-nanobanana.webp
 categories: [Personal y Desarrollo Profesional]
 tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false

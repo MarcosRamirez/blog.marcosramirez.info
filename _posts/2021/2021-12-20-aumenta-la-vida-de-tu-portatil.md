@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-12-20 08:50:00 +0100
-image: /assets/img/headers/aumenta-la-vida-de-tu-portatil-nanobanana.webp
+image: /assets/img/headers/2021/aumenta-la-vida-de-tu-portatil-nanobanana.webp
 categories: [Productividad y Hacks]
 tags: [Life Hacks, Sistemas]
 pin: false

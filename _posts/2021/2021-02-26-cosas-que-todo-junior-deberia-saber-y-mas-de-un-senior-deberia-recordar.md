@@ -11,7 +11,7 @@ toc: true
 excerpt: "Una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental. Cubro los diferentes tipos de formación disponibles (universidad, FP, bootcamps, autodidacta), los conceptos básicos que todo programador debe dominar (variables, POO, algoritmos, estructures de datos), las herramientas esenciales como IDEs y Git, y otros conocimientos avanzados como patrones de diseño, metodologías ágiles, testing y refactorización."
 twitter_description: "Guía completa para programadores Junior y Seniors: conceptos, herramientas y consejos esenciales."
 permalink: /cosas-que-todo-junior-deberia-saber-mas-de-un-senior/
-image: /assets/img/headers/cosas-que-todo-junior-deberia-saber-nanobanana.webp
+image: /assets/img/headers/2021/cosas-que-todo-junior-deberia-saber-nanobanana.webp
 ---
 ![Post Header]({{ page.image }})
 
