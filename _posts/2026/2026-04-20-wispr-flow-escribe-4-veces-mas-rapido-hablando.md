@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
-image: /assets/img/headers/wispr-flow-escritura-vocidad.webp
+image: /assets/img/headers/wispr-flow-escritura-vocidad.png
 categories: [Tecnología, Productividad y Hacks]
 tags: [voz-a-texto, productividad, software, automatización, eficiencia, herramientas]
 pin: false
