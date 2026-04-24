@@ -5,6 +5,29 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 
 ## Skill: Generación de Imágenes
 
+### ⚠️ PROCESO OBLIGATORIO ANTES DE GENERAR
+
+**NUNCA generes una imagen sin seguir estos pasos:**
+
+1. **LEE el post completo** antes de generar la imagen
+2. **IDENTIFICA en el post:**
+   - Nombres de marcas (Netflix, Google, Amazon, etc.)
+   - Nombres de servicios (Jellyfin, Home Assistant, AdGuard, etc.)
+   - Nombres de empresas o productos mencionados
+   - El concepto principal/theme del post
+3. **INCLUYE en el prompt:**
+   - Todas las marcas/servicios mencionados
+   - El concepto general del post
+   - El tono visual apropiado
+
+### Ejemplo de flujo correcto:
+
+```
+1. Leer post sobre "Netflix en Linux"
+2. Identificar: Netflix, Linux, streaming, app
+3. Generar prompt: "Netflix app on Linux, streaming service, dark modern UI, no text, no watermarks"
+```
+
 ### Uso del Script Local (`_tools/image-generator/image_generator.js`)
 El script `_tools/image-generator/image_generator.js` genera imágenes intentando usar primero **Nano Banana (Google Vertex AI)**. Si falla, usará proveedores de respaldo.
 
@@ -31,9 +54,15 @@ node _tools/image-generator/image_generator.js \
 Los parámetros `--width` y `--height` son opcionales. Por defecto genera panorámicas a **1900x478px**.
 
 ### Buenas prácticas para el prompt
+- **NUNCA generes un prompt sin haber leído el post primero**
+- **Si el post menciona marcas, servicios o empresas, INCLÚYELOS en el prompt**
 - Escríbelo siempre en inglés.
 - Sé concreto y visual: describe escena, estilo, colores, iluminación.
 - Incluye siempre al final: `no text, no watermarks`.
+- **Ejemplos de prompts correctos:**
+  - Post sobre Netflix: "Netflix streaming app, dark theme, movie night, no text, no watermarks"
+  - Post sobre Home Assistant: "Home Assistant smart home dashboard, IoT devices, dark modern UI, no text, no watermarks"
+  - Post sobre AdGuard: "AdGuard DNS blocker, privacy shield, ad blocking interface, no text, no watermarks"
 
 ### Interpretar la respuesta
 El script devuelve siempre una línea JSON en stdout:
