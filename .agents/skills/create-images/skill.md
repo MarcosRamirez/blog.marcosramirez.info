@@ -15,17 +15,13 @@ Cuando uses la herramienta nativa, sigue los mismos principios de prompt (en ing
 2. Actualizar automáticamente el campo `image` en el **frontmatter** del post relacionado con la nueva ruta.
 3. Asegurarte de que el formato visual sea panorámico (ultrawide) para los headers del blog.
 
-### Uso del Script Local (`_tools/generate_cover.js`)
-El script `_tools/generate_cover.js` genera imágenes usando proveedores gratuitos en cadena. Si el primero falla, pasa automáticamente al siguiente.
-
-**Proveedores (en orden de prioridad):**
-1. **Pollinations.ai** — sin registro, sin API key
-2. **Hugging Face (FLUX.1-schnell)** — requiere `HF_TOKEN` en variables de entorno. Si no está definido, se omite.
+### Uso del Script Local (`_tools/image-generator/image_generator.js`)
+El script `_tools/image-generator/image_generator.js` genera imágenes usando proveedores en cadena (incluyendo Nano Banana si está configurado).
 
 ### Cómo usarlo
 
 ```bash
-node _tools/generate_cover.js \
+node _tools/image-generator/image_generator.js \
   --prompt "<descripción visual en inglés>" \
   --output "<ruta/donde/guardar.webp>"
 ```
