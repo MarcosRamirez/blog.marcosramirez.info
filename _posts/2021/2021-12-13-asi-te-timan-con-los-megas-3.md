@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-12-13 18:50:00 +0100
-image: /assets/img/headers/megas.png
+image: /assets/img/headers/megas-nanobanana.webp
 categories: [Tecnología]
 tags: [Redes e Infraestructura, Reflexiones y Opinión]
 pin: false

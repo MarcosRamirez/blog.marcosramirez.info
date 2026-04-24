@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-11-29 08:50:00 +0100
-image: /assets/img/headers/transferenciasautomaticas.jpg
+image: /assets/img/headers/transferenciasautomaticas-nanobanana.webp
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Automatización]
 pin: false

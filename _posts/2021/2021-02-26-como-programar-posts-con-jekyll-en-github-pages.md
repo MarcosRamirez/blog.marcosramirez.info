@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-02-26 21:00:00 +0100
-image: /assets/img/headers/como-programar-posts-con-jekyll-en-github-pages.webp
+image: /assets/img/headers/como-programar-posts-con-jekyll-en-github-pages-nanobanana.webp
 categories: [Tecnología, Desarrollo Web]
 tags: [Desarrollo Web, Automatización, Software y Apps]
 pin: false
