@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-29 08:30:00 +0200
-image: /assets/img/headers/paperless-ngx-documentos.webp
+image: /assets/img/headers/paperless-ngx-documentos-nanobanana.webp
 categories: [Tecnología]
 tags: [documentos, privacidad, gestión, Software y Apps]
 pin: false

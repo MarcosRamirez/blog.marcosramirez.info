@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-04 08:30:00 +0200
-image: /assets/img/headers/home-lab-filosofia.webp
+image: /assets/img/headers/home-lab-filosofia-nanobanana.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [privacidad, codigo-abierto, autoalojado, soberanía-digital, infraestructura, servidores]
 pin: false

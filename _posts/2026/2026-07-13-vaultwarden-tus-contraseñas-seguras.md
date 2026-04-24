@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-07-13 08:30:00 +0200
-image: /assets/img/headers/vaultwarden-contraseñas-seguras.webp
+image: /assets/img/headers/vaultwarden-contraseñas-seguras-nanobanana.webp
 categories: [Tecnología]
 tags: [seguridad, contraseñas, privacidad, Software y Apps]
 pin: false

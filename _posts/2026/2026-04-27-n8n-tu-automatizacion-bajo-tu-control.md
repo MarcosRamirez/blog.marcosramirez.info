@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
-image: /assets/img/headers/n8n-automatizacion.webp
+image: /assets/img/headers/n8n-automatizacion-nanobanana.webp
 categories: [Tecnología]
 tags: [automatización, privacidad, Software y Apps, Productividad y Hacks]
 pin: false

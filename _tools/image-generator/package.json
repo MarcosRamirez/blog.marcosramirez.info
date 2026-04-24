@@ -6,6 +6,6 @@
   "dependencies": {
     "@google/genai": "^1.50.1",
     "dotenv": "^17.4.2",
-    "sharp": "^0.33.2"
+    "sharp": "^0.33.5"
   }
 }

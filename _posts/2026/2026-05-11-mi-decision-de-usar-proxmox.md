@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-11 08:30:00 +0200
-image: /assets/img/headers/mi-decision-de-usar-proxmox.webp
+image: /assets/img/headers/mi-decision-de-usar-proxmox-pollinationsai.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [virtualización, contenedores, infraestructura, servidores, homelab, virtualizacion]
 pin: false

@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-01 08:30:00 +0200
-image: /assets/img/headers/home-assistant-guia-domotica.webp
+image: /assets/img/headers/home-assistant-guia-domotica-nanobanana.webp
 categories: [Tecnología, Automatización]
 tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
 pin: false

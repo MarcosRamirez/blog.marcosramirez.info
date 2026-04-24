@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-15 08:30:00 +0200
-image: /assets/img/headers/firefly-iii-finanzas.webp
+image: /assets/img/headers/firefly-iii-finanzas-nanobanana.webp
 categories: [Tecnología]
 tags: [finanzas, auto-gestión, privacidad, Bancos y Fintech]
 pin: false

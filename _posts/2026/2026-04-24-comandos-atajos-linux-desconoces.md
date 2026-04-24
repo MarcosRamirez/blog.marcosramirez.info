@@ -13,7 +13,7 @@ tags:
   - comandos
   - atajos
   - productividad
-image: /assets/img/headers/comandos-atajos-linux-desconoces.webp
+image: /assets/img/headers/comandos-atajos-linux-desconoces-pollinationsai.webp
 pin: false
 toc: true
 twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mkcp, mkmv y más. Aprende a configurarlos para todos los usuarios."

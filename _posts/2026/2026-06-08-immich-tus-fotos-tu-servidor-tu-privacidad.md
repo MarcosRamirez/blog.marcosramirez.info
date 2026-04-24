@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-08 08:30:00 +0200
-image: /assets/img/headers/immich-privacidad-tus-fotos.webp
+image: /assets/img/headers/immich-privacidad-tus-fotos-nanobanana.webp
 categories: [Tecnología, Automatización]
 tags: [immich, google-photos, fotos, privacidad, self-hosted, backup]
 pin: false

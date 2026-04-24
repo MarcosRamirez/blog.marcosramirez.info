@@ -61,6 +61,7 @@ async function postProcessImage(inputPath, outputPath, width, height) {
             fit: 'cover',
             position: 'center'
         })
+        .toFormat('webp')
         .toFile(outputPath);
     
     // Si la ruta era temporal, borramos el original
@@ -181,7 +182,7 @@ async function main() {
         const base = path.basename(output, ext);
         const dir = path.dirname(output);
         const providerSuffix = usedProvider === 'Nano Banana' ? 'nanobanana' : usedProvider.toLowerCase().replace(/[^a-z0-9]/g, '');
-        const finalOutput = path.join(dir, `${base}-${providerSuffix}.png`);
+        const finalOutput = path.join(dir, `${base}-${providerSuffix}.webp`);
 
         await postProcessImage(tempOutput, finalOutput, width, height);
         console.log(JSON.stringify({ 
