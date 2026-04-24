@@ -175,7 +175,7 @@ Ejemplo incorrecto:
 **Fichero de seguimiento:** Se usa el archivo `.proximafecha` en la raíz del proyecto para gestionar las fechas de publicación.
 
 1. **Leer fecha:** Antes de crear un post, lee el archivo `.proximafecha` y obtén el valor de `proxima_fecha`.
-2. **Si el archivo no existe:** Búscalo en `_posts/` (el post con fecha más alta), calcula el siguiente lunes y crea el archivo `.proximafecha`.
+2. **Si el archivo no existe:** Búscalo en `_posts/` de forma recursiva (el post con fecha más alta), calcula el siguiente lunes y crea el archivo `.proximafecha`.
 3. **Crear post:** Usa el valor de `proxima_fecha` en el frontmatter del nuevo post.
 4. **Actualizar archivo:** Después de crear el post, calcula el siguiente lunes a partir de la fecha usada y actualiza `.proximafecha`:
    - `ultima_fecha` = fecha del post que acabas de crear
