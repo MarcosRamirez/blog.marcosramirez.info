@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-07-06 08:30:00 +0200
-image: /assets/img/headers/searxng-buscador-privado-pollinationsai.webp
+image: /assets/img/headers/2026/searxng-buscador-privado-pollinationsai.webp
 categories: [Tecnología]
 tags: [privacidad, búsqueda, Software y Apps]
 pin: false

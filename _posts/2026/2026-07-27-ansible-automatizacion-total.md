@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-07-27 08:30:00 +0200
-image: /assets/img/headers/ansible-automatizacion-nanobanana.webp
+image: /assets/img/headers/2026/ansible-automatizacion-nanobanana.webp
 categories: [Tecnología]
 tags: [ansible, automatización, infraestructura, Sistemas, Software y Apps]
 pin: false

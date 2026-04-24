@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-18 08:30:00 +0200
-image: /assets/img/headers/adguard-home-bloqueador-publicidad-nanobanana.webp
+image: /assets/img/headers/2026/adguard-home-bloqueador-publicidad-nanobanana.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [dns, privacidad, seguridad, redes,bloqueador, publicidades]
 pin: false

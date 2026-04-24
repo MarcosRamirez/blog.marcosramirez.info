@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-11 08:30:00 +0200
-image: /assets/img/headers/backup-3-2-1-nanobanana.webp
+image: /assets/img/headers/2026/backup-3-2-1-nanobanana.webp
 categories: [Tecnología, Automatización]
 tags: [backup, 3-2-1, datos, privacidad, proxmox]
 pin: false
