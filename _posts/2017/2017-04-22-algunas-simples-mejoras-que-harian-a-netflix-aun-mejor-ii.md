@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-22 11:34:34 +0200
-image: /assets/img/headers/netflix.png
+image: /assets/img/headers/2017/netflix.webp
 categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false

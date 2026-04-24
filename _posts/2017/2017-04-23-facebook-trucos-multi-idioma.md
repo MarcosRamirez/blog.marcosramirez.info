@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-23 15:04:47 +0200
-image: /assets/img/headers/facebook.png
+image: /assets/img/headers/2017/facebook.webp
 categories: [Tecnología, Software y Apps]
 tags: [facebook, trucos, tutorial, redes sociales]
 pin: false
