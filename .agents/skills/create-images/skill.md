@@ -11,21 +11,23 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 
 1. **LEE el post completo** antes de generar la imagen
 2. **IDENTIFICA en el post:**
+   - El concepto principal / temática central del post (ej: piratería, automatización, domótica, finanzas)
    - Nombres de marcas (Netflix, Google, Amazon, etc.)
    - Nombres de servicios (Jellyfin, Home Assistant, AdGuard, etc.)
    - Nombres de empresas o productos mencionados
-   - El concepto principal/theme del post
-3. **INCLUYE en el prompt:**
-   - Todas las marcas/servicios mencionados
-   - El concepto general del post
+3. **INCLUYE en el prompt (AMBOS son obligatorios):**
+   - **El concepto/temática central del post** (prioridad máxima)
+   - Las marcas/servicios mencionados
    - El tono visual apropiado
 
 ### Ejemplo de flujo correcto:
 
 ```
-1. Leer post sobre "Netflix en Linux"
-2. Identificar: Netflix, Linux, streaming, app
-3. Generar prompt: "Netflix app on Linux, streaming service, dark modern UI, no text, no watermarks"
+1. Leer post sobre "Por qué la gente vuelve a piratear"
+2. Identificar:
+   - Concepto principal: PIRATERÍA, P2P, torrent downloading
+   - Marcas: Netflix, Disney+, Amazon Prime, Apple TV, Plex, Jellyfin
+3. Generar prompt: "piracy, torrent downloading, P2P file sharing, streaming services fragmentation, Netflix Disney+ Amazon Prime icons, dark modern concept, no text, no watermarks"
 ```
 
 ### Uso del Script Local (`_tools/image-generator/image_generator.js`)
