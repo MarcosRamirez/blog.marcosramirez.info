@@ -26,8 +26,8 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 1. Leer post sobre "Por qué la gente vuelve a piratear"
 2. Identificar:
    - Concepto principal: PIRATERÍA, P2P, torrent downloading
-   - Marcas: Netflix, Disney+, Amazon Prime, Apple TV, Plex, Jellyfin
-3. Generar prompt: "piracy, torrent downloading, P2P file sharing, streaming services fragmentation, Netflix Disney+ Amazon Prime icons, dark modern concept, no text, no watermarks"
+   - Marcas: Netflix, Disney+, Amazon Prime, Apple TV
+3. Generar prompt: "piracy, torrent downloading on laptop, P2P file sharing, streaming apps on multiple screens, dark realistic photo, no text, no watermarks"
 ```
 
 ### Uso del Script Local (`_tools/image-generator/image_generator.js`)
@@ -57,7 +57,12 @@ Los parámetros `--width` y `--height` son opcionales. Por defecto genera panor�
 
 ### Buenas prácticas para el prompt
 - **NUNCA generes un prompt sin haber leído el post primero**
-- **Si el post menciona marcas, servicios o empresas, INCLÚYELOS en el prompt**
+- **Las imágenes DEBEN ser fotorrealistas/realistas, NO estilo dibujo, illustration o cartoon**
+- **NO uses la palabra "icon" para logos** - los logos no parecen reales
+- **Para representar marcas/servicios**, usa conceptos visuales en su lugar:
+  - En lugar de "Netflix icon" → "streaming on laptop screen"
+  - En lugar de "AdGuard icon" → "DNS settings screen"
+  - En lugar de "Home Assistant logo" → "smart home dashboard on tablet"
 - Escríbelo siempre en inglés.
 - Sé concreto y visual: describe escena, estilo, colores, iluminación.
 - Incluye siempre al final: `no text, no watermarks`.
