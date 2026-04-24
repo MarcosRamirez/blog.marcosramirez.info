@@ -10,7 +10,10 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 2. **Script Local**: Si el asistente no tiene capacidades nativas, debe usar el script `_tools/generate_cover.js`.
 
 ### Uso de Herramienta Nativa
-Cuando uses la herramienta nativa, sigue los mismos principios de prompt (en inglés, visual, sin texto). Una vez generada la imagen, guárdala en la ruta destino del proyecto (ej: `assets/img/headers/`).
+Cuando uses la herramienta nativa, sigue los mismos principios de prompt (en inglés, visual, sin texto). Una vez generada la imagen, **DEBES**:
+1. Guardarla en la ruta destino del proyecto (ej: `assets/img/headers/`).
+2. Actualizar automáticamente el campo `image` en el **frontmatter** del post relacionado con la nueva ruta.
+3. Asegurarte de que el formato visual sea panorámico (ultrawide) para los headers del blog.
 
 ### Uso del Script Local (`_tools/generate_cover.js`)
 El script `_tools/generate_cover.js` genera imágenes usando proveedores gratuitos en cadena. Si el primero falla, pasa automáticamente al siguiente.

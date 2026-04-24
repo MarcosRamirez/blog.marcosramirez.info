@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-18 08:30:00 +0200
-image: /assets/img/headers/lucia-asistente-open-claw.webp
+image: /assets/img/headers/lucia-asistente-open-claw-v2.png
 categories: [Tecnología, Productividad y Hacks]
 tags: [inteligencia-artificial, automatizacion, autoalojado, agentes, asistencia, chatbots]
 pin: false
