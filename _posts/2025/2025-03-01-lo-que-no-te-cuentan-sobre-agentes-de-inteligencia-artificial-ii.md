@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2025-03-01 08:50:00 +0100
-image: /assets/img/headers/lo-que-no-te-cuentan-sobre-agentes-de-inteligencia-artificial-ii.webp
+image: /assets/img/headers/lo-que-no-te-cuentan-sobre-agentes-de-inteligencia-artificial-ii-nanobanana.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false
