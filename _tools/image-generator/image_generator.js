@@ -20,9 +20,9 @@ require('dotenv').config({ path: path.join(__dirname, '.env') });
 
 
 // Intentamos cargar dependencias externas
-let VertexAI, sharp;
+let GoogleGenAI, sharp;
 try {
-    ({ VertexAI } = require('@google-cloud/vertexai'));
+    ({ GoogleGenAI } = require('@google/genai'));
     sharp = require('sharp');
 } catch (e) {
     console.error("⚠️ Faltan dependencias. Ejecuta 'npm install' en _tools/image-generator/");
@@ -72,23 +72,32 @@ async function postProcessImage(inputPath, outputPath, width, height) {
 // ── Proveedores ───────────────────────────────────────────────────────────────
 
 async function tryNanoBanana(prompt, tempOutput) {
-    if (!VertexAI) throw new Error("Dependencia @google-cloud/vertexai no disponible");
+    if (!GoogleGenAI) throw new Error("Dependencia @google/genai no disponible");
     
     const projectId = process.env.GCP_PROJECT_ID;
     if (!projectId) throw new Error("GCP_PROJECT_ID no definido en el entorno");
 
-    const vertex_ai = new VertexAI({ project: projectId, location: 'us-central1' });
-    const model = vertex_ai.getGenerativeModel({ model: 'imagen-3.0-generate-001' });
+    const ai = new GoogleGenAI({ 
+        vertexai: true, 
+        project: projectId, 
+        location: 'us-central1' 
+    });
 
-    const request = {
+    const response = await ai.models.generateImages({
+        model: 'imagen-3.0-generate-001',
         prompt: prompt,
-        aspect_ratio: "16:9", // Luego sharp lo llevará a 4:1
-        safety_settings: [{ category: 'HATE_SPEECH', threshold: 'BLOCK_MEDIUM_AND_ABOVE' }]
-    };
-
-    const response = await model.generateImages(request);
-    const imageData = response.images[0].buffer;
-    fs.writeFileSync(tempOutput, imageData);
+        config: {
+            numberOfImages: 1,
+            aspectRatio: '16:9'
+        }
+    });
+    
+    if (response && response.generatedImages && response.generatedImages.length > 0) {
+        const base64Image = response.generatedImages[0].image.imageBytes;
+        fs.writeFileSync(tempOutput, Buffer.from(base64Image, 'base64'));
+    } else {
+        throw new Error("Respuesta vacía de Nano Banana");
+    }
 }
 
 function tryPollinations(prompt, tempOutput, width, height) {
