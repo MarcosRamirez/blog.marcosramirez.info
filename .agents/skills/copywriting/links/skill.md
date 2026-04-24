@@ -30,7 +30,7 @@ Esto es obligatorio por seguridad y para evitar pasar "link juice" a sitios exte
 
 ### 5. Enlaces Internos (Entre Posts del Blog)
 - Si en el cuerpo del post se menciona un tema que ya fue tratado en otro post del blog, enlázalo.
-- Usa el tag nativo de Jekyll: `{% post_url YYYY-MM-DD-slug %}`
+- Usa el tag nativo de Jekyll: `{% post_url YYYY/YYYY-MM-DD-slug %}`
 - **Todos los enlaces (internos y externos) deben tener** `{:target="_blank"}`
 - El nombre del archivo debe usar guiones en lugar de espacios:
   - ✅ `{% post_url 2025-03-01-Resumen-Febrero-2025 %}`

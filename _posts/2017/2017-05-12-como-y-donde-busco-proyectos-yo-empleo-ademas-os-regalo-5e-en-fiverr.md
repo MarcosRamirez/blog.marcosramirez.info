@@ -16,7 +16,7 @@ permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr
 ---
 ![Post Header]({{ page.image }})
 
-El otro día hablaba sobre [tips para contratarme, o solicitarme ayuda]({% post_url 2017-05-07-quieres-que-te-ayude-quieres-contratarme %}). Hoy, os voy a hablar sobre las diferentes webs que utilizo cuando busco empleo, o proyectos.
+El otro día hablaba sobre [tips para contratarme, o solicitarme ayuda]({% post_url 2017/2017-05-07-quieres-que-te-ayude-quieres-contratarme %}). Hoy, os voy a hablar sobre las diferentes webs que utilizo cuando busco empleo, o proyectos.
 
 Imagino que muchos conoceréis Infojobs, o Tecnoempleo, por eso, voy a poner algunas más, que muchos podéis desconocer.
 
