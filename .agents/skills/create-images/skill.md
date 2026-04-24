@@ -5,7 +5,14 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 
 ## Skill: Generación de Imágenes
 
-### Herramienta
+### Prioridad de Herramientas
+1. **Herramienta Nativa (Nano Banana)**: Si el asistente dispone de una herramienta interna de generación de imágenes (como `generate_image`), **DEBE** usarla como primera opción. Es más rápida, de mayor calidad y permite iteraciones precisas.
+2. **Script Local**: Si el asistente no tiene capacidades nativas, debe usar el script `_tools/generate_cover.js`.
+
+### Uso de Herramienta Nativa
+Cuando uses la herramienta nativa, sigue los mismos principios de prompt (en inglés, visual, sin texto). Una vez generada la imagen, guárdala en la ruta destino del proyecto (ej: `assets/img/headers/`).
+
+### Uso del Script Local (`_tools/generate_cover.js`)
 El script `_tools/generate_cover.js` genera imágenes usando proveedores gratuitos en cadena. Si el primero falla, pasa automáticamente al siguiente.
 
 **Proveedores (en orden de prioridad):**
