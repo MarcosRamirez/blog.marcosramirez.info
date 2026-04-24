@@ -177,13 +177,21 @@ async function main() {
     }
 
     try {
-        await postProcessImage(tempOutput, output, width, height);
+        const ext = path.extname(output);
+        const base = path.basename(output, ext);
+        const dir = path.dirname(output);
+        const providerSuffix = usedProvider === 'Nano Banana' ? 'nanobanana' : usedProvider.toLowerCase().replace(/[^a-z0-9]/g, '');
+        const finalOutput = path.join(dir, `${base}-${providerSuffix}.png`);
+
+        await postProcessImage(tempOutput, finalOutput, width, height);
         console.log(JSON.stringify({ 
             status: "SUCCESS", 
             code: 0, 
-            message: `Imagen guardada en: ${output}`, 
+            message: `Imagen guardada en: ${finalOutput}`, 
             provider: usedProvider,
+            finalPath: finalOutput,
             processed: !!sharp
+
         }));
     } catch (e) {
         console.log(JSON.stringify({ status: "ERROR", code: 4, message: `Error en post-procesado: ${e.message}` }));

@@ -5,36 +5,30 @@ description: Generar imágenes a partir de un prompt de texto y guardarlas en un
 
 ## Skill: Generación de Imágenes
 
-### Prioridad de Herramientas
-1. **Herramienta Nativa (Nano Banana)**: Si el asistente dispone de una herramienta interna de generación de imágenes (como `generate_image`), **DEBE** usarla como primera opción. Es más rápida, de mayor calidad y permite iteraciones precisas.
-2. **Script Local**: Si el asistente no tiene capacidades nativas, debe usar el script `_tools/generate_cover.js`.
-
-### Uso de Herramienta Nativa
-Cuando uses la herramienta nativa, sigue los mismos principios de prompt (en inglés, visual, sin texto). Una vez generada la imagen, **DEBES**:
-1. Guardarla en la ruta destino del proyecto (ej: `assets/img/headers/`).
-2. Actualizar automáticamente el campo `image` en el **frontmatter** del post relacionado con la nueva ruta.
-3. Asegurarte de que el formato visual sea panorámico (ultrawide) para los headers del blog.
-
 ### Uso del Script Local (`_tools/image-generator/image_generator.js`)
-El script `_tools/image-generator/image_generator.js` genera imágenes usando proveedores en cadena (incluyendo Nano Banana si está configurado).
+El script `_tools/image-generator/image_generator.js` genera imágenes intentando usar primero **Nano Banana (Google Vertex AI)**. Si falla, usará proveedores de respaldo.
+
+### 🌟 Regla de Oro: Prioridad a Nano Banana
+El objetivo del blog es que **todas** las imágenes estén generadas por Nano Banana. 
+Para saber qué proveedor generó la imagen, el script **modifica automáticamente el nombre del archivo final**:
+*   Si funciona Nano Banana: `tu-archivo-nanobanana.png`
+*   Si entra el fallback: `tu-archivo-pollinationsai.png` o `-huggingface.png`
+
+**Instrucción obligatoria tras generar una imagen:**
+Debes leer la propiedad `finalPath` del JSON que devuelve el script y **actualizar el frontmatter (`image:`) del post** con esa ruta exacta. 
+Si ves imágenes antiguas en posts que no tienen el sufijo `-nanobanana`, debes regenerarlas con este script para migrarlas poco a poco.
 
 ### Cómo usarlo
 
 ```bash
 node _tools/image-generator/image_generator.js \
   --prompt "<descripción visual en inglés>" \
-  --output "<ruta/donde/guardar.webp>"
+  --output "<ruta/donde/guardar/nombre-base.png>"
 ```
 
-Los parámetros `--width` y `--height` son opcionales. Por defecto genera a **1900x478px**.
+*Nota: Pásale el nombre base (ej. `post.png`). El script se encarga de añadirle el sufijo `-nanobanana` o `-pollinationsai` antes de guardar.*
 
-```bash
-node _tools/generate_cover.js \
-  --prompt "<descripción>" \
-  --output "<ruta.webp>" \
-  --width 1200 \
-  --height 630
-```
+Los parámetros `--width` y `--height` son opcionales. Por defecto genera panorámicas a **1900x478px**.
 
 ### Buenas prácticas para el prompt
 - Escríbelo siempre en inglés.
