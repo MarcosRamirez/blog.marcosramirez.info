@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2016-08-09 16:40:28 +0200
-image: /assets/img/headers/comunicarse.png
+image: /assets/img/headers/2016/comunicarse.webp
 categories: ["Personal y Desarrollo Profesional", "Reflexiones y Opinión"]
 tags: [productividad, comunicación]
 pin: false

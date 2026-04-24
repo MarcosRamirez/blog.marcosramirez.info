@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2016-09-10 08:31:36 +0200
-image: /assets/img/headers/youtube.png
+image: /assets/img/headers/2016/youtube.webp
 categories: [Productividad y Hacks, Automatización]
 tags: [youtube, scripts, automatización, google]
 pin: false

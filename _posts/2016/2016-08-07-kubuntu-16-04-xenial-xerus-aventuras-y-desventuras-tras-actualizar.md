@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2016-08-07 20:34:47 +0200
-image: /assets/img/headers/kubuntu.png
+image: /assets/img/headers/2016/kubuntu.webp
 categories: [Tecnología, Sistemas]
 tags: [linux, kubuntu, tutorial, opinión]
 pin: false
