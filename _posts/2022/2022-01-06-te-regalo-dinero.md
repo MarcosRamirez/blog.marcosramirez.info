@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2022-01-06 07:50:00 +0100
-image: /assets/img/headers/transferenciasautomaticas-nanobanana.webp
+image: /assets/img/headers/2022/transferenciasautomaticas-nanobanana.webp
 categories: [Finanzas Personales]
 tags: [ahorro-e-inversion, bancos-y-fintech]
 pin: false

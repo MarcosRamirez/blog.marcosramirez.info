@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2022-01-02 08:50:00 +0100
-image: /assets/img/headers/como-ahorro-nanobanana.webp
+image: /assets/img/headers/2022/como-ahorro-nanobanana.webp
 categories: [Finanzas Personales]
 tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false
