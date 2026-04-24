@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-06-18 08:50:00 +0100
-image: /assets/img/headers/no-es-solo-un-momentito.webp
+image: /assets/img/headers/no-es-solo-un-momentito-pollinationsai.webp
 categories: [Personal y Desarrollo Profesional]
 tags: [Reflexiones y Opinión, Productividad y Hacks]
 pin: false

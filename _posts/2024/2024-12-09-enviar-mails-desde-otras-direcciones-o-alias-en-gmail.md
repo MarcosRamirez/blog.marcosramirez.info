@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-12-09 08:50:00 +0100
-image: /assets/img/headers/enviar-mails-desde-otras-direcciones-o-alias-en-gmail.webp
+image: /assets/img/headers/enviar-mails-desde-otras-direcciones-o-alias-en-gmail-nanobanana.webp
 categories: [Tecnología]
 tags: [Software y Apps, automatizacion]
 pin: false
