@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-02-05 08:50:00 +0100
-image: /assets/img/headers/curve-una-tarjeta-para-controlarlas-todas-pollinationsai.webp
+image: /assets/img/headers/2024/curve-una-tarjeta-para-controlarlas-todas-pollinationsai.webp
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false

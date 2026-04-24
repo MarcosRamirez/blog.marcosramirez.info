@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2024-10-29 08:50:00 +0100
-image: /assets/img/headers/usando-ia-para-generar-menus-nanobanana.webp
+image: /assets/img/headers/2024/usando-ia-para-generar-menus-nanobanana.webp
 categories: [Tecnología, Inteligencia Artificial]
 tags: [Inteligencia Artificial, Automatización, Software y Apps]
 pin: false
