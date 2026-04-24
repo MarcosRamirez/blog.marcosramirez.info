@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2022-02-01 08:50:00 +0100
-image: /assets/img/headers/n26-mi-neo-banco-de-cabecera.webp
+image: /assets/img/headers/n26-mi-neo-banco-de-cabecera-nanobanana.webp
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false

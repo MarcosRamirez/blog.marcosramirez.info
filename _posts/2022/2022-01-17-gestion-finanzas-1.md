@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2022-01-17 10:00:00 +0100
-image: /assets/img/headers/finanzas.jpg
+image: /assets/img/headers/finanzas-nanobanana.webp
 categories: [Finanzas Personales]
 tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false
