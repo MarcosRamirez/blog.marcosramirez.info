@@ -26,7 +26,7 @@ Son una auténtica maravilla: copias una línea en la consola de tu nodo de Prox
 
 Durante un tiempo, yo estuve implementándolos para probar cosas rápido, e incluso pensé en basar toda la arquitectura de mis servicios en ellos. Pero conforme mi red crecía, detecté un problema arquitectónico bastante molesto.
 
-[En mi post sobre Jellyfin]({% post_url 2026-04-23-jellyfin-cortes-4k-disco-lleno %}) os cuento cómo los helper scripts me asignaron solo 16GB de disco por defecto, y como todo "funciobaba", no me di cuenta hasta que el disco se llenó y los transcodes de 4K empezó a fallar silenciosamente. 
+[En mi post sobre Jellyfin]({% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco-lleno %}) os cuento cómo los helper scripts me asignaron solo 16GB de disco por defecto, y como todo "funciobaba", no me di cuenta hasta que el disco se llenó y los transcodes de 4K empezó a fallar silenciosamente. 
 
 # El problema: El aislamiento de las Bases de Datos
 
