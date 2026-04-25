@@ -23,7 +23,7 @@ permalink: /el-futuro-que-sonabamos/
 
 ## El minuto 1:10
 
-Hay una escena en la película *"Mi cerebro es electrónico"* (*The Computer Wore Tennis Shoes*, 1969) donde un ordenador empieza a hacer cosas solas. Abre una puerta, cierra una ventana, hace una llamada, reproduce una grabación. Interactuando con el mundo real.
+Hay una escena en la película *[Mi cerebro es electrónico](https://app.trakt.tv/movies/the-computer-wore-tennis-shoes-1969){:target="_blank" :rel="nofollow noopener"}* (*The Computer Wore Tennis Shoes*, 1969) donde un ordenador empieza a hacer cosas solas. Abre una puerta, cierra una ventana, hace una llamada, reproduce una grabación. Interactuando con el mundo real.
 
 Fue en [esta escena de esa película](https://www.youtube.com/watch?v=AjFAHjUM3U8&t=70){:target="_blank" :rel="nofollow noopener"}, donde mi imaginación de niño de los 80s vio el futuro. Y durante décadas, ese futuro pareció inalcanzable. Era ciencia ficción.
 
