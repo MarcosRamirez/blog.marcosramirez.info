@@ -222,7 +222,9 @@ date: 2026-04-24 09:00:00 +0200
 ### Enlaces Internos (entre posts)
 - Si en el cuerpo del post se menciona un tema que ya fue tratado en otro post del blog, enlázalo.
 - Revisa los archivos de la carpeta de posts para encontrar el post relevante y obtener su slug (nombre del archivo sin fecha ni extensión, o el campo `permalink` si existe en su front matter).
-- **IMPORTANTE: El parámetro de `post_url` DEBE incluir el año completo (YYYY-MM-DD) tal como aparece en el nombre del archivo.**
+- **IMPORTANTE: El parámetro de `post_url` DEBE incluir el año completo (YYYY/YYYY-MM-DD-slug) si el post referenciado está en una subcarpeta de año.**
+- Si el post está en `_posts/2026/`, usar `{% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco-lleno %}`
+- Si el post está en `_posts/` directamente (sin subcarpeta de año), usar `{% post_url 2025-03-01-resumen-febrero-2025 %}`
 - Formato: `[Texto del enlace]({% post_url YYYY-MM-DD-slug %})` — esto es el tag nativo de Jekyll y funciona aunque cambie el dominio o la URL base.
 - No abras el enlace en nueva pestaña (omite `{:target="_blank"}`): los enlaces internos deben navegar en la misma pestaña.
 - Si no encuentras un post que encaje con claridad, no inventes el enlace.
