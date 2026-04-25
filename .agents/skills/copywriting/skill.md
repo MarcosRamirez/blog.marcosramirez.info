@@ -187,9 +187,9 @@ Los borradores se encuentran en `_drafts/` con el nombre `YYYY-MM-DD-slug.md`.
 
 **Pasos para publicar un borrador:**
 
-1. **Generar imagen:** Crear la imagen del post usando la skill `create-images` (dimensiones 1900x478px, formato .webp).
-2. **Actualizar frontmatter:** Cambiar el campo `image` con la ruta de la imagen generada.
-3. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
+1. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
+2. **Generar imagen:** Una vezTienes el contenido del post, crear la imagen con skill `create-images`.
+3. **Actualizar frontmatter:** Añadir la ruta de la imagen generada.
 4. **Revisar SEO:** Usar la skill SEO para optimizar el post (alt de imágenes, enlaces, FAQ, etc.).
 5. **Mover a _posts/YYYY/ y renombrar:** Mover el archivo de `_drafts/` a `_posts/YYYY/` y cambiar el nombre del archivo para que la fecha en el nombre coincida con la fecha de publicación del frontmatter.
    - El nombre del archivo debe ser `YYYY-MM-DD-slug.md` donde YYYY-MM-DD coincide con la fecha de publicación.
