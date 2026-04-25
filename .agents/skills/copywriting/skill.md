@@ -82,13 +82,13 @@ Ejemplo incorrecto:
 |----------|--------|--------|--------|
 | **Título** | Lectura humana, SEO (H1) | Texto completo con mayúsculas y puntuación | "Home Assistant: Tu cerebro de domótica en un solo lugar" |
 | **Slug** | URL pública del post | 3-5 palabras clave, minúsculas, guiones | `home-assistant-guia-domotica` |
-| **Nombre archivo** | Identificador interno del .md | `fecha-slug-largo.md` (puede ser descriptivo) | `2026-06-08-home-assistant-tu-cerebro-de-domotica.md` |
+| **Nombre archivo** | Identificador interno del .md | Usa el slug del título en minúsculas y guiones (sin fecha). Ej: `mi-decision-de-usar-proxmox.md` |
 
 **Normas:**
 
 1. **Título**: Texto completo, puede tener puntuación, dos puntos, etc. Se usa para el H1 y metadatos.
 2. **Slug (URL)**: Entre 3-5 palabras clave. Nunca más de 5. Se usa en `permalink: /:slug/` y para la URL pública.
-3. **Nombre archivo**: Puede ser largo y descriptivo. Incluye la fecha de publicación. Se guarda en `_posts/`.
+3. **Nombre archivo**: **Obligatoriamente** en `_posts/YYYY/` con el nombre del slug del título (formato `slug.md`, sin fecha ni campo `slug` del front matter). El año YYYY se extrae del campo `date`.
 
 **Ejemplos de relación:**
 
@@ -194,7 +194,7 @@ Los borradores se encuentran en `_drafts/` con el nombre `YYYY-MM-DD-slug.md`.
 2. **Actualizar frontmatter:** Cambiar el campo `image` con la ruta de la imagen generada.
 3. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
 4. **Revisar SEO:** Usar la skill SEO para optimizar el post (alt de imágenes, enlaces, FAQ, etc.).
-5. **Mover a _posts/:** Mover el archivo de `_drafts/` a `_posts/`.
+5. **Mover a _posts/YYYY/:** Mover el archivo de `_drafts/` a `_posts/YYYY/` (siendo YYYY el año de publicación del post, según su `date`).
    - El nombre del archivo puede cambiarse para reflejar la fecha de publicación, o mantenerse.
    - Jekyll usa la fecha del frontmatter, no el nombre del archivo.
 6. **Hacer commit:** Incluir el cambio en el commit con el tipo `content`.
@@ -222,6 +222,7 @@ date: 2026-04-24 09:00:00 +0200
 ### Enlaces Internos (entre posts)
 - Si en el cuerpo del post se menciona un tema que ya fue tratado en otro post del blog, enlázalo.
 - Revisa los archivos de la carpeta de posts para encontrar el post relevante y obtener su slug (nombre del archivo sin fecha ni extensión, o el campo `permalink` si existe en su front matter).
+- **IMPORTANTE: El parámetro de `post_url` DEBE incluir el año completo (YYYY-MM-DD) tal como aparece en el nombre del archivo.**
 - Formato: `[Texto del enlace]({% post_url YYYY-MM-DD-slug %})` — esto es el tag nativo de Jekyll y funciona aunque cambie el dominio o la URL base.
 - No abras el enlace en nueva pestaña (omite `{:target="_blank"}`): los enlaces internos deben navegar en la misma pestaña.
 - Si no encuentras un post que encaje con claridad, no inventes el enlace.
