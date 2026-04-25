@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-05-10 19:26:42 +0200
-image: /assets/img/headers/megas.png
+image: /assets/img/headers/2017/megas-wifi-fibra-nanobanana.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, wifi]
 pin: false

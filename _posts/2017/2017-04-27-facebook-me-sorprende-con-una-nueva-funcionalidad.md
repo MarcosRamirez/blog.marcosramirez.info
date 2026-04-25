@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-27 18:58:16 +0200
-image: /assets/img/headers/facebook.png
+image: /assets/img/headers/2017/facebook.webp
 categories: [Tecnología, Software y Apps]
 tags: [facebook, beta, novedades]
 pin: false

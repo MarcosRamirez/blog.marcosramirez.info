@@ -9,7 +9,7 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, curiosidades]
 pin: false
 toc: true
-image: /assets/img/headers/2016/megas.webp
+image: assets/img/headers/2016/megas.webp
 excerpt: >-
   En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades que no obtenemos realmente. Desentraño la diferencia entre bits y bytes, explico por qué tu conexión de 100Mbps no baixa a 100MB/s, y por qué el técnico que vino a casa no sabía nada del asunto. Este post contiene información técnica y matemática básica que puede ampliar tu cultura informática.
 twitter_description: "Megabits vs Megabytes: la confusión técnica que usan las operadoras para timarte."
