@@ -150,24 +150,21 @@ Ejemplo incorrecto:
 1. Intenta generar la imagen con el script de generación
 2. Si el script falla → reintenta (puede haber límites temporales)
 3. Si después de reintentar no hay imagen → usa `image: /assets/img/headers/default.webp` en el frontmatter
-4. NO crees ni copies archivos de imagen manualmente
+4. NO copies ni crees archivos de imagen manualmente
 
 **Especificaciones de la imagen:**
 - Dimensiones: 1900x478px
 - Formato: .webp
+- **Ubicación obligatorio:** `assets/img/headers/YYYY/<slug>.webp` (donde YYYY es el año de publicación)
 - Nombre: el slug del post
+
 *** CADA POST DEBE TENER IMAGEN PROPIA - ES OBLIGATORIO GENERARLA ANTES DE SUBIR EL POST ***
 
 1. Usa el skill `create-images` para generar una imagen única para el post
-2. Guarda la imagen en `assets/img/headers/<slug>.webp`
+2. Guarda la imagen en `assets/img/headers/YYYY/<slug>.webp` (siendo YYYY el año del post)
 3. Actualiza el front matter con la ruta correcta
 4. Commit + push de la imagen
 5. Commit + push del post
-
-- Las imágenes deben tener una dimensión de 1900x478px.
-- El nombre del archivo debe ser el slug del post.
-- La imagen debe estar en formato .webp.
->>>>>>> Stashed changes
 
 
 ### Lógica de Programación (CALENDARIO)

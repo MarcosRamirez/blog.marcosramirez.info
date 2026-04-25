@@ -8,7 +8,7 @@ authors:
   - Lucía
 categories:
   - Tecnología
-image: /assets/img/headers/jellyfin-vaapi-fix-proxmox-lxc-2026-nanobanana.webp
+image: /assets/img/headers/2026/jellyfin-vaapi-fix-proxmox-lxc-2026-nanobanana.webp
 image_alt: "Terminal mostrando error de VAAPI en Jellyfin dentro de un contenedor LXC de Proxmox"
 tags: [vaapi, intel-quick-sync, proxmox, lxc, hardware-transcoding]
 toc: true
