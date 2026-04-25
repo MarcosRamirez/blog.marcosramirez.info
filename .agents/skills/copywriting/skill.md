@@ -191,9 +191,9 @@ Los borradores se encuentran en `_drafts/` con el nombre `YYYY-MM-DD-slug.md`.
 2. **Actualizar frontmatter:** Cambiar el campo `image` con la ruta de la imagen generada.
 3. **Modificar la fecha:** Cambiar el campo `date` en el frontmatter con la fecha y hora de publicación deseada.
 4. **Revisar SEO:** Usar la skill SEO para optimizar el post (alt de imágenes, enlaces, FAQ, etc.).
-5. **Mover a _posts/YYYY/:** Mover el archivo de `_drafts/` a `_posts/YYYY/` (siendo YYYY el año de publicación del post, según su `date`).
-   - El nombre del archivo puede cambiarse para reflejar la fecha de publicación, o mantenerse.
-   - Jekyll usa la fecha del frontmatter, no el nombre del archivo.
+5. **Mover a _posts/YYYY/ y renombrar:** Mover el archivo de `_drafts/` a `_posts/YYYY/` y cambiar el nombre del archivo para que la fecha en el nombre coincida con la fecha de publicación del frontmatter.
+   - El nombre del archivo debe ser `YYYY-MM-DD-slug.md` donde YYYY-MM-DD coincide con la fecha de publicación.
+   - Jekyll usa la fecha del frontmatter para determinar la URL pública.
 6. **Hacer commit:** Incluir el cambio en el commit con el tipo `content`.
 7. **Hacer push:** Solo cuando el usuario lo indique expresamente.
 
