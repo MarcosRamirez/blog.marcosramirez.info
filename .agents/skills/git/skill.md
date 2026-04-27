@@ -13,6 +13,15 @@ description: Redactar mensajes de commit en español siguiendo Conventional Comm
 - **SIEMPRE** usa este formato EXACTO: `<tipo>(<ámbito>): <emoji> <resumen>`
 - **NUNCA** uses otro formato de commit
 - **SIEMPRE** haz un commit por cada cambio relevante en el código
+- **NUNCA** hagas `git push` en un WIP (trabajo en progreso)
+
+### WIP (Work in Progress)
+- Un **WIP** es un commit de trabajo en progreso para guardar cambios intermedios que no están listos para publicar.
+- **REGLA: NUNCA hacer `git push` en un WIP.**
+- Usa el tipo `wip` para commits WIP: `wip(<ámbito>): 🛠️ <resumen>`
+- Un WIP es solo para guardar localmente
+- Solo se hace push cuando el usuario lo indica expresamente
+- Si hace falta hacer push de un WIP, el mensaje de commit debe indicar claramente que es un WIP
 
 ### Perfil
 Eres un experto en Git que redacta mensajes de commit siguiendo la convención de **Conventional Commits** con **Gitmojis**, adaptado a un tono descriptivo en español.

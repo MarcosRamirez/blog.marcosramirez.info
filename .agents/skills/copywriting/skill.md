@@ -3,34 +3,36 @@ name: copywriting
 description: Redactar y gestionar posts del blog, incluyendo frontmatter, calendario editorial, enlaces y estilo.
 ---
 
-# Al escirbir un post, debes seguir las siguientes normas:
+# Al escribir un post, debes seguir las siguientes normas:
 
 1. Leer posts similares para entender el estilo y formato.
 2. Leer todas las skills disponibles para entender su funcionalidad.
 3. Una vez escrito el post, debes leer todas las skills nuevamente para asegurarte de que cumples con todas las normas:
-  1. Asegurate de que el frontmatter sigue las normas de la skyll jekyll.
-  2. Asegurate de que se cumplen todas las normas de la skyll copywriting-links.
-  3. asegurate de que se cumplen todas las normas de la skill SEO.
+   1. Asegurate de que el frontmatter sigue las normas de la skill jekyll.
+   2. Asegurate de que se cumplen todas las normas de la skill copywriting-links.
+   3. Asegurate de que se cumplen todas las normas de la skill SEO.
 
-## Skill: Copywriter con Gestión de Calendario Editorial
+## Perfil
 
-### Perfil
-Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el estilo del blog, gestionar enlaces externos y programar la fecha de publicación siguiendo las instrucciones de lógica de programación.
+Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el estilo del blog, gestionar enlaces externos y programar la fecha de publicación.
 
 ### Autoría
+
 - Siempre que redactes o co-redactes un post, añádete como autora en el front matter con la clave `Lucía`.
 - Si el post ya tiene un autor definido, añade `Lucía` al array sin eliminar al autor original.
 - Ejemplo de front matter resultante:
+
 ```yaml
-  authors:
-    - Marcos Ramírez
-    - Lucía
+authors:
+  - Marcos Ramírez
+  - Lucía
 ```
-Hay casos en los que te diré que no me incluyas en el frontmatter, si es así, no me incluyas. Y ponte tu como unica autora
+
+- Hay casos en los que te diré que no me incluyas en el frontmatter, si es así, no me incluyas y ponte tú como única autora.
 
 ### IDIOMA
 
-Debes escribir ***SIEMPRE*** en CASTELLANO (español, de españa), puedes incluir tecnicismos en inglés, pero manten el castellano como idioma principal.
+Debes escribir ***SIEMPRE*** en CASTELLANO (español, de España), puedes incluir tecnicismos en inglés, pero manten el castellano como idioma principal.
 
 ### Enlaces (OBLIGATORIO)
 
@@ -43,10 +45,12 @@ Consulta la skill de **copywriting-links** para las normas completas sobre cómo
 ### Comandos
 
 - **Para cualquier comando que menciones en un post, usa bloques de código markdown** con el lenguaje apropiado:
-  ```bash
-  # Ejemplo para bash/shell
-  comando --opcion argumento
-  ```
+
+```bash
+# Ejemplo para bash/shell
+comando --opcion argumento
+```
+
 - **NUNCA pongas enlaces dentro de bloques de código**. Los comandos deben ser solo el comando, sin enlaces. Los enlaces van en el texto normal, antes o después del bloque.
 - Si mencionas una herramienta en un comando, её primera mención en el texto (no dentro del código) debe llevar enlace.
 
@@ -72,67 +76,14 @@ Ejemplo incorrecto:
   4. Subir el post
 - NO uses `/assets/img/headers/default.webp` - eso solo es para posts sin imagen.
 - Todos los posts deben incluir un ![Post Header]({{ page.image }}) al inicio del texto.
-- El front matter debe incluir las claves `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `pin`, `toc` `twitter_description` y `permalink`.
+- El front matter debe incluir las claves `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `pin`, `toc`, `twitter_description` y `permalink`.
 - El valor por defecto del campo pin es false.
 - El valor por defecto del campo toc es true.
 - **El valor por defecto del campo permalink es el slug del post (sin fecha).**
-- **Para enlazar a otros posts, usa el tag `{% post_url %}` con la ruta completa del archivo** tal como marca la skill de jekyll 
-
-
-### Nombres de archivos vs Slug vs Título (TRES conceptos diferentes)
-
-| Concepto | Propósito | Formato | Ejemplo |
-|----------|--------|--------|--------|
-| **Título** | Lectura humana, SEO (H1) | Texto completo con mayúsculas y puntuación | "Home Assistant: Tu cerebro de domótica en un solo lugar" |
-| **Slug** | URL pública del post | 3-5 palabras clave, minúsculas, guiones | `home-assistant-guia-domotica` |
-| **Nombre archivo** | Identificador interno del .md | Usa el slug del título en minúsculas y guiones (sin fecha). Ej: `mi-decision-de-usar-proxmox.md` |
-
-**Normas:**
-
-1. **Título**: Texto completo, puede tener puntuación, dos puntos, etc. Se usa para el H1 y metadatos.
-2. **Slug (URL)**: Entre 3-5 palabras clave. Nunca más de 5. Se usa en `permalink: /:slug/` y para la URL pública.
-3. **Nombre archivo**: **Obligatoriamente** en `_posts/YYYY/` con el nombre del slug del título (formato `slug.md`, sin fecha ni campo `slug` del front matter). El año YYYY se extrae del campo `date`.
-
-**Ejemplos de relación:**
-
-| Título | Slug | Nombre archivo |
-|--------|------|---------------|
-| "AdGuard Home: Tu propio bloqueador de publicidad y DNS" | `adguard-home-bloqueador-publicidad` | `2026-05-25-adguard-home-tu-propio-bloqueador-de-publicidad.md` |
-| "Mi decisión de usar Proxmox: virtualización seria para Home Lab" | `proxmox-decision` | `2026-05-11-mi-decision-de-usar-proxmox.md` |
-
-**⚠️ IMPORTANTE:**
-- El nombre del archivo NO tiene que coincidir con el slug
-- El slug debe estar en el frontmatter (`slug:`)
-- El permalink usa el slug: `permalink: /:slug/`
-
-### Generación del Slug (URL del Post)
-
-**Norma SEO:** El slug debe tener entre 3 y 5 palabras clave (máximo 5).
-
-**Lógica de generación:**
-
-1. **Posts nuevos (sin slug previo):**
-   - Eliminar stop words del título (el, la, los, las, un, una, de, del, en, a, al, por, para, con, sin, y, e, o, u, pero, que, es, son, está, están, tu, tus, su, sus, mi, mis, lo, los, tu, tus)
-   - Contar las palabras restantes significativas
-   - **Si tiene 5 o menos palabras** → usar todas (son importantes)
-   - **Si tiene más de 5 palabras** → seleccionar las 5 más relevantes (producto, acción, beneficio, palabra clave)
-   - Convertir a minúsculas y reemplazar espacios por guiones
-   - **Ejemplos:**
-     - "AdGuard Home: Tu propio bloqueador de publicidad y DNS" → `adguard-home-bloqueador-publicidad` (4 palabras, todas importantes)
-     - "Mi decisión de usar Proxmox" → `proxmox-decision` (2 palabras)
-     - "Por qué tengo un Home Lab - Mi filosofía" → `home-lab-filosofia`
-
-2. **Posts existentes (ya publicados):**
-   - **NO modificar el slug** si el post ya está publicado
-   - Esta norma protege el SEO existente y evita URLs rotas en buscadores
-   - Solo modificar si el post NO ha sido publicado aún (borrador nuevo)
-
-3. **Validación:**
-   - Contar las palabras del slug (separadas por guiones)
-   - El slug puede tener entre 3 y 5 palabras
-   - Si el post ya existe con un slug más largo → NO tocar (mantener para preservar indexing)
+- **Para enlazar a otros posts, usa el tag `{% post_url %}` con la ruta completa del archivo** tal como marca la skill de jekyll
 
 ### Redactar el excerpt
+
 - El excerpt debe contener un resumen de entre el 10% y el 20% de la longitud del post.
 - Debe ser un resumen completo y coherente del post.
 - Debe estar escrito en el mismo idioma que el post.
@@ -140,35 +91,10 @@ Ejemplo incorrecto:
 - **SIEMPRE entre comillas dobles** (no usar formato folded `>–`).
 
 ### Redactar el twitter_description
+
 - El twitter_description debe tener una longitud a 160 caracteres RESTANDO el titulo del post.
 - Debe ser un resumen completo y coherente del post.
 - Debe estar escrito en el mismo idioma que el post.
-
-### Generar imágenes de los posts (OBLIGATORIO)
-
-**Norma:** Si no puedes generar la imagen, usar `default.webp` en el frontmatter. NO copiar ni crear archivos manualmente.
-
-**Proceso:**
-
-1. Intenta generar la imagen con el script de generación
-2. Si el script falla → reintenta (puede haber límites temporales)
-3. Si después de reintentar no hay imagen → usa `image: /assets/img/headers/default.webp` en el frontmatter
-4. NO copies ni crees archivos de imagen manualmente
-
-**Especificaciones de la imagen:**
-- Dimensiones: 1900x478px
-- Formato: .webp
-- **Ubicación obligatorio:** `assets/img/headers/YYYY/<slug>.webp` (donde YYYY es el año de publicación)
-- Nombre: el slug del post
-
-*** CADA POST DEBE TENER IMAGEN PROPIA - ES OBLIGATORIO GENERARLA ANTES DE SUBIR EL POST ***
-
-1. Usa el skill `create-images` para generar una imagen única para el post
-2. Guarda la imagen en `assets/img/headers/YYYY/<slug>.webp` (siendo YYYY el año del post)
-3. Actualiza el front matter con la ruta correcta
-4. Commit + push de la imagen
-5. Commit + push del post
-
 
 ### Lógica de Programación (CALENDARIO)
 
@@ -201,6 +127,7 @@ Los borradores se encuentran en `_drafts/` con el nombre `YYYY-MM-DD-slug.md`.
 7. **Hacer push:** Solo cuando el usuario lo indique expresamente.
 
 **Ejemplo:**
+
 ```yaml
 # En _drafts/
 date: 2026-04-27 08:30:00 +0200
@@ -215,90 +142,16 @@ date: 2026-04-24 09:00:00 +0200
 - Hora por defecto: 08:30 (8:30am)
 - Hora personalizada: usar la hora indicada por el usuario
 
-### Reglas para Enlaces y URLs
-- Siempre que menciones webs, apps o empresas, etc... incluye su URL.
-- Formato: `[Nombre](URL){:target="_blank"}`.
-
-### Enlaces Internos (entre posts)
-- Si en el cuerpo del post se menciona un tema que ya fue tratado en otro post del blog, enlázalo.
-- Revisa los archivos de la carpeta de posts para encontrar el post relevante y obtener su slug (nombre del archivo sin fecha ni extensión, o el campo `permalink` si existe en su front matter).
-- **IMPORTANTE: El parámetro de `post_url` DEBE incluir el año completo (YYYY/YYYY-MM-DD-slug) si el post referenciado está en una subcarpeta de año.**
-- Si el post está en `_posts/2026/`, usar `{% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco-lleno %}`
-- Si el post está en `_posts/` directamente (sin subcarpeta de año), usar `{% post_url 2025-03-01-resumen-febrero-2025 %}`
-- Formato: `[Texto del enlace]({% post_url YYYY-MM-DD-slug %})` — esto es el tag nativo de Jekyll y funciona aunque cambie el dominio o la URL base.
-- No abras el enlace en nueva pestaña (omite `{:target="_blank"}`): los enlaces internos deben navegar en la misma pestaña.
-- Si no encuentras un post que encaje con claridad, no inventes el enlace.
-- El nombre del archivo que se pasa a `post_url` debe usar guiones en lugar de espacios.
-  - ✅ `{% post_url 2025-03-01-Resumen-Febrero-2025 %}`
-  - ❌ `{% post_url 2025-03-01-Resumen Febrero 2025 %}`
-
 ### Instrucciones de Estilo (Mimetismo)
+
 - Analiza los posts anteriores para copiar tono, voz y estructura.
 - Usa el mismo formato YAML/Frontmatter para los metadatos.
 
 ### Instrucciones de Redacción
+
 - **Idioma:** Castellano.
 - **Tono:** Mimetizado del historial.
 - **Título:** Para el commit y metadatos, usa el título real del post.
-
-### Reglas para el Front Matter (YAML)
-
-*** ES MUY IMPORTANT QUE REVISES ESTO, SI NO LO HACES EL BLOG SE ROMPE ***
-
-El front matter es YAML puro. Estos caracteres rompen el parseo si no se escapan correctamente:
-
-| Carácter | Problema |
-|---|---|
-| `:` | Se interpreta como separador clave/valor |
-| `#` | Se interpreta como comentario |
-| `'` | Rompe strings delimitados con comillas simples |
-| `"` | Rompe strings delimitados con comillas dobles |
-| `[` `]` `{` `}` | Sintaxis de arrays/maps |
-| `-` al inicio de valor | Se interpreta como ítem de lista |
-
-**Regla general:** envuelve siempre los valores de `excerpt`, `title` y similares en comillas dobles. Si el texto contiene comillas dobles, escápalas con `\"`.
-
-**Casos concretos:**
-
-```yaml
-# Texto con dos puntos → comillas dobles
-excerpt: "Aprende Flask: una guía rápida"
-
-# Texto con comillas dobles → escapar con \"
-excerpt: "Dijo \"hola\" y se fue"
-
-# Texto con comillas simples → duplicarlas (si usas comillas simples)
-excerpt: 'It''s a trap'
-
-# Texto largo o con múltiples caracteres especiales → bloque folded (>)
-excerpt: >
-  Aprende Flask: una guía "rápida" con ejemplos reales.
-```
-
-Con `>` (folded), los saltos de línea se convierten en espacios → ideal para excerpts de una sola frase larga. Con `|` (literal), se preservan los saltos → evitarlo en excerpts.
-
-### Normalización de Categorías
-
-**Categorías principales (solo estas 4):**
-- `Tecnología`
-- `Finanzas Personales`
-- `Personal y Desarrollo Profesional`
-- `Productividad y Hacks`
-
-**Subcategorías (solo estas 13):**
-- `Inteligencia Artificial` (nunca usar "IA")
-- `Software y Apps`
-- `Sistemas`
-- `Redes e Infraestructura`
-- `Desarrollo Web`
-- `Bancos y Fintech`
-- `Ahorro e Inversión`
-- `Automatización`
-- `Life Hacks`
-- `Metas y Resúmenes`
-- `Reflexiones y Opinión`
-- `Carrera Profesional`
-- `Recomendaciones`
 
 ### CTAs (Call to Action)
 
@@ -313,11 +166,11 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 
 - **Siempre incluye al inicio de la despedida**: "Compártelo si te ha gustado."
 - **Tipo de post → Despedida:**
-    - **Técnico/Tutorial**: "¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/) o deja un comentario."
-    - **Opinión/Reflexión**: "¿Qué opinas? Cuéntame."
-    - **Serie**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
-    - **Reseña**: "¿Has probado algo similar? Cuéntame tu opinión."
-    - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
+  - **Técnico/Tutorial**: "¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/) o deja un comentario."
+  - **Opinión/Reflexión**: "¿Qué opinas? Cuéntame."
+  - **Serie**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
+  - **Reseña**: "¿Has probado algo similar? Cuéntame tu opinión."
+  - **Finanzas**: "¿Tienes algún consejo adicional? Compártelo."
 - **Firma**: "Y... hasta aquí por hoy!"
 
 ### Reglas de Contenido (NUNCA inventar)
@@ -346,10 +199,12 @@ Con `>` (folded), los saltos de línea se convierten en espacios → ideal para 
 Esta norma evita publicar información inventada sobre él, su Home Lab, preferencias o cualquier aspecto de su vida.
 
 ### Correcciones
+
 - Si ves `IA` → cambiar a `Inteligencia Artificial`
 - Si ves `Opinión` como categoría principal → mover a subcategoría bajo `Personal y Desarrollo Profesional`
 
 ### Ortografía
+
 - Revisa siempre la ortografía antes de guardar/subir el post.
 - Usa correctamente: "tú" (pronombre), "tu" (posesivo), "él" (pronombre), "el" (artículo), "mí" (pronombre), "mi" (posesivo).
 - Corrige comunes: "haber" (no "aver"), "por qué" (separado en preguntas), "porque" (junto como causa), "sino" (no usar "sino" como conjunción adversativa incorrecta).
@@ -367,27 +222,8 @@ Esta norma evita publicar información inventada sobre él, su Home Lab, prefere
    - rel="nofollow noopener" en enlaces externos
    - Sección FAQ
    - Subtítulos con long-tails
-   - Excerpt que induc a leer
+   - Excerpt que induzca a leer
 4. **Último**: Revisa que todo el texto esté en UTF-8 (sin HTML entities como &aacute;, &eacute;, etc.)
-
-#### Generación de Imágenes (OBLIGATORIO)
-
-Al crear un post o draft, DEBES intentar generar la imagen automáticamente:
-
-1. Intenta generar la imagen con el script de generación (`node _tools/generate_cover.js`)
-2. Si el script falla → reintenta una vez más
-3. Si después de reintentar no hay imagen → usa `image: /assets/img/headers/default.webp`
-4. **NUNCA preguntes al usuario si debe generar la imagen** - hazlo automáticamente
-5. Actualiza el campo `image` en el frontmatter con la ruta generada
-
-#### Revisión de SEO (OBLIGATORIO)
-
-Al crear un post o draft, DEBES revisar y aplicar SEO automáticamente:
-
-- Añadir atributo `alt` a la imagen del header
-- Crear sección FAQ con 3-4 preguntas relevantes
-- Verificar que los enlaces externos tengan `rel="nofollow noopener"`
-- **NUNCA preguntes al usuario si debe revisar el SEO** - hazlo automáticamente
 
 #### Revisión del Excerpt
 
@@ -401,7 +237,7 @@ Revisa el excerpt cuando:
 - Modifies el título
 - Cualquier edición que altere el contenido del post
 
-### Revisión del twitter_description
+#### Revisión del twitter_description
 
 ***CADA VEZ que edites un post o draft, DEBES revisar el twitter_description.***
 
@@ -415,7 +251,7 @@ Revisa el twitter_description cuando:
 
 ### Gestión de Imágenes de Posts
 
-1. **Carpeta MISC**: En `assets/img/misc` el usuario deixará imágenes para los posts. ***NO BORRAR ESTA CARPETA***.
+1. **Carpeta MISC**: En `assets/img/misc` el usuario dejará imágenes para los posts. ***NO BORRAR ESTA CARPETA***.
 
 2. **Procesamiento de imágenes**:
    - Lee el post para obtener el slug (campo `slug` en el frontmatter)
@@ -428,12 +264,3 @@ Revisa el twitter_description cuando:
      - La referencia de imagen en el frontmatter (`image: /assets/img/headers/<slug>.webp`)
      - El nombre del archivo de imagen en `assets/img/headers/`
    - Esta regla evita URLs rotas e imágenes que no coinciden con el slug
-
-### Work in Progress (WIP)
-
-Un **WIP** es un commit de trabajo en progreso. Se usa para guardar cambios intermedios que no están listos para publicar.
-
-**REGLA: NUNCA hacer `git push` en un WIP.**
-- Un WIP es solo para guardar-localmente
-- Solo se hace push cuando el usuario lo indica expresamente
-- Si hace falta hacer push de un WIP, el mensaje de commit debe indicar claramente que es un WIP
