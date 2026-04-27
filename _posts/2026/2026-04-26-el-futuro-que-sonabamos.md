@@ -1,5 +1,6 @@
 ---
 title: "El futuro que soñábamos: cuando los ordenadores empezáron a entendernos"
+slug: el-futuro-que-sonabamos
 date: 2026-04-26 09:30:00 +0200
 excerpt: "He trabajado en desarrollo web más de tres décadas. Aprendí a programar cuando no existían Google ni Stack Overflow. Ahora vivo el futuro que imaginaba de niño, pero llegó de otra forma."
 authors:
