@@ -1,7 +1,7 @@
-```yaml
+---
 name: jekyll
 description: Describes the technical information about Jekyll, the static site generator used to build this blog with the Chirpy theme.
-```
+---
 
 # Instructions
 
@@ -18,6 +18,7 @@ The frontmatter must be in YAML format between triple dashes:
 ```yaml
 ---
 title: "Post title"
+slug: slug-name
 date: 2026-04-26 09:30:00 +0200
 excerpt: "Short summary without markdown"
 author: Marcos Ramírez
@@ -28,8 +29,9 @@ tags:
 image: /assets/img/headers/2026/image-name.webp
 image_alt: "Alternative image description"
 toc: true
+pin: false
 twitter_description: "Short description for Twitter"
-permalink: /permanent-url/
+permalink: /:slug/
 ---
 ```
 
@@ -38,6 +40,7 @@ Or with multiple authors:
 ```yaml
 ---
 title: "Post title"
+slug: slug-name
 date: 2026-04-26 09:30:00 +0200
 excerpt: "Short summary without markdown"
 authors:
@@ -50,8 +53,9 @@ tags:
 image: /assets/img/headers/2026/image-name.webp
 image_alt: "Alternative image description"
 toc: true
+pin: false
 twitter_description: "Short description for Twitter"
-permalink: /permanent-url/
+permalink: /:slug/
 ---
 ```
 
@@ -61,6 +65,8 @@ permalink: /permanent-url/
 - The frontmatter must contain all these required fields
 - Use **author** (singular) when there is only one author
 - Use **authors** (plural) when there are two or more authors
+- `slug` is always required
+- `permalink` is always `/:slug/` — no exceptions. Never use a hardcoded URL like `/my-post/`
 
 ### FrontMatter YAML Characters
 
@@ -91,7 +97,7 @@ excerpt: "He said \"hello\" and left"
 |----------|--------|--------|--------|
 | **Title** | Human reading, SEO (H1) | Full text with caps and punctuation | "Home Assistant: Your domotics brain in one place" |
 | **Slug** | Public URL of the post | 3-5 keywords, lowercase, hyphens | `home-assistant-domotics-guide` |
-| **Filename** | Internal .md identifier | Use title slug in lowercase (no date). Example: `my-proxmox-decision.md` |
+| **Filename** | Internal .md identifier | Date + slug. Format: `YYYY-MM-DD-slug.md` | `2026-06-01-home-assistant-domotics-guide.md` |
 
 **Rules:**
 
@@ -105,12 +111,11 @@ The filename (minus date) must be identical to the `slug` field in frontmatter:
 - Frontmatter: `slug: my-post-slug` → Filename: `2026-01-15-my-post-slug.md`
 - If they don't match, `{% post_url %}` will fail
 
-**IMPORTANT: If you modify the slug, you MUST also rename the file**
-
-If you change the `slug:` field in frontmatter, you MUST:
+**IMPORTANT: If you modify the slug, you MUST also:**
 1. Rename the file to match the new slug
 2. Update ALL `{% post_url %}` links in other posts that reference this post
 3. Update the image path in frontmatter (`image:` field)
+
 Failure to do this will break the build.
 
 **Examples:**
@@ -120,13 +125,12 @@ Failure to do this will break the build.
 | "Jellyfin 4K cuts" | `jellyfin-cortes-4k-disco` | `2026-04-23-jellyfin-cortes-4k-disco.md` | `2026-04-23-jellyfin-cortes-4k-disco-lleno.md` |
 | "My recommendations" | `recomendaciones-libros` | `2021-02-25-recomendaciones-libros.md` | `2021-02-25-mis-lecturas-recomendadas.md` |
 
-
 ## Filenames
 
-The format is `YYYY-MM-DD-title-slug.md`:
+The format is `YYYY-MM-DD-slug.md`, stored inside a year subfolder:
 
 ```
-_posts/YYYY/YYYY-MM-DD-title-slug.md
+_posts/YYYY/YYYY-MM-DD-slug.md
 ```
 
 ## Paths
@@ -136,7 +140,7 @@ _posts/YYYY/YYYY-MM-DD-title-slug.md
 Stored in `_posts/YYYY/`:
 
 ```
-_posts/YYYY/YYYY-MM-DD-title.md
+_posts/YYYY/YYYY-MM-DD-slug.md
 ```
 
 ### Drafts
@@ -144,7 +148,7 @@ _posts/YYYY/YYYY-MM-DD-title.md
 Stored in `_drafts/`:
 
 ```
-_drafts/YYYY-MM-DD-title.md
+_drafts/YYYY-MM-DD-slug.md
 ```
 
 ## Images
@@ -152,7 +156,7 @@ _drafts/YYYY-MM-DD-title.md
 Header images go in:
 
 ```
-/assets/img/headers/AAAA/image-name.webp
+/assets/img/headers/YYYY/image-name.webp
 ```
 
 Recommended formats: WebP with optimal quality.
@@ -167,25 +171,30 @@ Use the create-images skill to generate images with AI.
 
 When mentioning a topic covered in another post, link to it.
 
-- Use `{% post_url %}` tag with the filename in format `YYYY-MM-DD-slug` (DO NOT include year folder path):
-  - ✅ `{% post_url 2026-04-23-jellyfin-cortes-4k-disco %}`
-  - ❌ `{% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %}`
-- Format: `[Link text]({% post_url YYYY-MM-DD-slug %})` — this is Jekyll's native tag and works even if domain or base URL changes
+**CRITICAL: Always include the year subfolder in `post_url`.**
+
+Posts are stored in `_posts/YYYY/` subfolders. Jekyll 4.2 on GitHub Pages requires the year folder to be included in `{% post_url %}`, otherwise the build will fail or produce deprecation warnings.
+
+- ✅ `{% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %}`
+- ❌ `{% post_url 2026-04-23-jellyfin-cortes-4k-disco %}`
+
+Format: `[Link text]({% post_url YYYY/YYYY-MM-DD-slug %})`
 
 **CRITICAL: Filename must match the slug in frontmatter**
 
 Jekyll 4.2+ requires the filename (without date) to match exactly the `slug` field in the frontmatter:
 - If frontmatter has `slug: my-post-title`, filename must be `YYYY-MM-DD-my-post-title.md`
-- Do NOT use the post title as filename - use the slug
+- Do NOT use the post title as filename — use the slug
 
 Examples:
-| Frontmatter slug | Correct filename | Incorrect filename |
+
+| Frontmatter slug | Correct post_url | Incorrect post_url |
 |---------------|--------------|---------------|
-| `jellyfin-cortes-4k-disco` | `2026-04-23-jellyfin-cortes-4k-disco.md` | `2026-04-23-jellyfin-cortes-4k-disco-lleno.md` |
-| `recomendaciones-libros` | `2021-02-25-recomendaciones-libros.md` | `2021-02-25-mis-lecturas-recomendadas.md` |
+| `jellyfin-cortes-4k-disco` | `{% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %}` | `{% post_url 2026-04-23-jellyfin-cortes-4k-disco %}` |
+| `recomendaciones-libros` | `{% post_url 2021/2021-02-25-recomendaciones-libros %}` | `{% post_url 2021-02-25-recomendaciones-libros %}` |
 
 - The filename passed to `post_url` must use hyphens instead of spaces
-  - ✅ `{% post_url 2025-03-01-resumen-febrero-2025 %}`
+  - ✅ `{% post_url 2025/2025-03-01-resumen-febrero-2025 %}`
   - ❌ `{% post_url 2025-03-01-Resumen Febrero 2025 %}`
 
 ## Categories
