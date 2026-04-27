@@ -9,6 +9,7 @@ categories:
   - Tecnología
 tags: [linux, terminal, comandos, atajos, productividad]
 image: /assets/img/headers/2026/comandos-atajos-linux-desconoces-nanobanana.webp
+image_alt: "Terminal de Linux con código en pantalla, mostrando atajos de teclado, estilo hacker"
 pin: false
 toc: true
 twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mkcp, mkmv y más. Aprende a configurarlos para todos los usuarios."
@@ -763,8 +764,9 @@ Usa `Alt+.` (o Esc seguida de punto) para insertar automáticamente el último a
 
 El terminal de GNU/Linux es una herramienta extraordinariamente potente, pero su verdadero poder está en conocer estos pequeños detalles que te ahorran segundos repetidos miles de veces. Empieza por integrar uno o dos de estos atajos en tu rutina diaria y verás cómo tu productividad aumenta.
 
-Compártelo si te ha gustado.
-
+***
 ¿Tienes algún atajo o comando favorito que no menciono aquí? Cuéntamelo en los comentarios.
 
-Y... hasta aquí por hoy!
+Compártelo si te ha liked.
+
+Y... ¡hasta aquí por hoy!
