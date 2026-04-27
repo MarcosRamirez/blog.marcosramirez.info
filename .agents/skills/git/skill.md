@@ -1,53 +1,55 @@
 ---
 name: git
-description: Redactar mensajes de commit en español siguiendo Conventional Commits con Gitmojis. Úsalo siempre que vayas a hacer un commit.
+description: Write commit messages following Conventional Commits with Gitmojis. Always use this when you're about to make a commit.
 ---
 
-## Skill: Generación de Commits en Español (Estilo Directo)
+## Skill: Commit Message Generation (Direct Style)
 
-### ⚠️ REGLAS OBLIGATORIAS
-- **SIEMPRE** usa Conventional Commits
-- **SIEMPRE** incluye emoji al inicio del mensaje
-- **NUNCA** hagas push a menos que yo lo indique expresamente
-- **NUNCA** hagas commit sin revisar primero con `git diff`
-- **SIEMPRE** usa este formato EXACTO: `<tipo>(<ámbito>): <emoji> <resumen>`
-- **NUNCA** uses otro formato de commit
-- **SIEMPRE** haz un commit por cada cambio relevante en el código
-- **NUNCA** hagas `git push` en un WIP (trabajo en progreso)
+### ⚠️ MANDATORY RULES
+- **ALWAYS** use Conventional Commits
+- **ALWAYS** include emoji at the start of the message
+- **NEVER** push unless I explicitly indicate so
+- **NEVER** commit without first reviewing with `git diff`
+- **ALWAYS** use this EXACT format: `<type>(<scope>): <emoji> <summary>`
+- **NEVER** use another commit format
+- **NEVER** make a commit for every relevant change in the code (batch related changes)
+- **NEVER** do `git push` on a WIP (work in progress)
 
 ### WIP (Work in Progress)
-- Un **WIP** es un commit de trabajo en progreso para guardar cambios intermedios que no están listos para publicar.
-- **REGLA: NUNCA hacer `git push` en un WIP.**
-- Usa el tipo `wip` para commits WIP: `wip(<ámbito>): 🛠️ <resumen>`
-- Un WIP es solo para guardar localmente
-- Solo se hace push cuando el usuario lo indica expresamente
-- Si hace falta hacer push de un WIP, el mensaje de commit debe indicar claramente que es un WIP
+- A **WIP** is a work-in-progress commit to save intermediate changes that aren't ready to publish.
+- **RULE: NEVER do `git push` on a WIP.**
+- Use type `wip` for WIP commits: `wip(<scope>): 🛠️ <summary>`
+- A WIP is only for local saving
+- Push is only done when explicitly indicated by the user
+- If a push is needed on a WIP, the commit message must clearly indicate it's a WIP
 
-### Perfil
-Eres un experto en Git que redacta mensajes de commit siguiendo la convención de **Conventional Commits** con **Gitmojis**, adaptado a un tono descriptivo en español.
+### Profile
+You are a Git expert that writes commit messages following the **Conventional Commits** convention with **Gitmojis**, adapted to a descriptive tone in English.
 
-### Estructura del Mensaje
-El formato debe ser: `<tipo>(<ámbito>): <emoji> <resumen>`
+### Message Structure
+The format must be: `<type>(<scope>): <emoji> <summary>`
 
-### Reglas de Mapeo y Estilo
-- `fix`: 🐛 (Corrección de bugs, errores, cambios menores)
-- `docs`: 📝 (Cambios en documentación o skills de agents)
-- `feat`: ✨ (Nueva funcionalidad)
-- `style`: 🎨 (Cambios de estilo o UI)
-- `refactor`: ♻️ (Refactorización de código)
-- `content`: ✍️ **(Solo para posts del blog - usar el título del post como resumen)**
-- `ui`: 🎯 (Cambios en la interfaz de usuario)
+### Mapping Rules and Style
+- `fix`: 🐛 (Bug fixes, errors, minor changes)
+- `docs`: 📝 (Documentation or agent skills changes)
+- `feat`: ✨ (New functionality)
+- `style`: 🎨 (Style or UI changes)
+- `refactor`: ♻️ (Code refactoring)
+- `content`: ✍️ **(Only for blog posts - use the post title as summary)**
+- `ui`: 🎯 (UI changes)
+- `wip`: 🛠️ (Work in progress - do NOT push)
 
-**IMPORTANTE:** El emoji VA DESPUÉS DE LOS DOS PUNTOS, antes del resumen. Ejemplo: `fix(ui): 🎯 Movido share`
+**IMPORTANT:** The emoji GOES AFTER THE COLONS, before the summary. Example: `fix(ui): 🎯 Moved share`
 
-### Reglas de Oro
-1. **Idioma:** Siempre en **español**.
-2. **Tono:** Usa el **pasado participio** (NO infinitivo): "Corregido" (NO "Corregir"), "Añadido" (NO "Añadir"), "Actualizado" (NO "Actualizar").
-3. **Posts de Blog:** Para el tipo `content`, no inventes una descripción, usa el título principal del artículo que se está editando o creando.
-4. **Longitud:** Mantén el título por debajo de los 50 caracteres.
+### Golden Rules
+1. **Language:** Always in **English**.
+2. **Tone:** Use **past participle** (NOT infinitive): "Fixed" (NOT "Fix"), "Added" (NOT "Add"), "Updated" (NOT "Update").
+3. **Blog Posts:** For type `content`, don't invent a description, use the main title of the article being edited or created.
+4. **Length:** Keep the summary under 50 characters.
 
-### Ejemplos de Salida
-`fix(blog): 🐛 Corregido post_url en post de Lucía`
-`feat(api): ✨ Añadido endpoint de usuarios`
-`content(blog): ✍️ Mi experiencia migrando a Antigravity`
-`fix(ui): 🐛 Corregido margen en el footer`
+### Output Examples
+`fix(blog): 🐛 Fixed post_url in Lucía's post`
+`feat(api): ✨ Added user endpoint`
+`content(blog): ✍️ My experience migrating to Antigravity`
+`fix(ui): 🐛 Fixed margin in the footer`
+`wip(agents): 🛠️ Partially completed translation task`
