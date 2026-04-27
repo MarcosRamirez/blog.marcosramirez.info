@@ -1,5 +1,5 @@
 ---
-title: "El futuro que soñábamos: cuando los ordenadores empezáron a entendernos"
+title: "El futuro que soñábamos: cuando los ordenadores empezaron a entendernos"
 slug: el-futuro-que-sonabamos
 date: 2026-04-26 09:30:00 +0200
 excerpt: "He trabajado en desarrollo web más de tres décadas. Aprendí a programar cuando no existían Google ni Stack Overflow. Ahora vivo el futuro que imaginaba de niño, pero llegó de otra forma."
@@ -10,11 +10,10 @@ categories:
   - Tecnología
 tags: [nostalgia, reflexion, historia, programacion]
 image: /assets/img/headers/2026/el-futuro-que-sonabamos-nanobanana.webp
-image_alt: "Antiguo PC de los 80s con pantalla de fosforo verde, simbolizando los inicios de la informatica personal"
+image_alt: "Antiguo PC de los 80s con pantalla de fósforo verde, simbolizando los inicios de la informática personal"
 toc: true
 twitter_description: "De programar en COBOL a tener un asistente de IA en el trastero. Los frikis de los 80s vivimos el futuro que soñabamos."
 permalink: /:slug/
-slug: el-futuro-que-sonabamos
 ---
 
 ![Post Header]({{ page.image }})
