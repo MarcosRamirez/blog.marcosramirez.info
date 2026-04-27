@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/2026/n8n-automatizacion-nanobanana.webp
+image_alt: "Logo de N8N con iconos de automatización, representando flujos de trabajo conectados"
 categories: [Tecnología]
 tags: [automatización, privacidad, Software y Apps, Productividad y Hacks]
 pin: false
@@ -192,10 +193,22 @@ Que cada día revise el estado de tus servicios y te avise si algo no funciona.
 
 - No te importa pagar y quieres el más popular
 
-***
+## FAQ
 
-Compártelo si te ha gustado.
+> **1. ¿N8N es completamente gratuito?**
+> Sí, la versión self-hosted es gratuita. Solo la versión cloud tiene planes de pago.
+
+> **2. ¿Qué puedo automatizar con N8N?**
+> Casi cualquier cosa: emails, calendarios, redes sociales, bases de datos, webhooks, etc.
+
+> **3. ¿Es difícil de configurar?**
+> Tiene curva de aprendizaje, pero hay muchos templates gratuitos para empezar.
+
+***
+Compártelo si te ha liked.
 
 ¿Tienes dudas sobre N8N o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
 
-Y... hasta aquí por hoy!
+Compártelo si te ha liked.
+
+Y... ¡hasta aquí por hoy!
