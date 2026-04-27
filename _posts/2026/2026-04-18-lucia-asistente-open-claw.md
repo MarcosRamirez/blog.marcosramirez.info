@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-04-18 08:30:00 +0200
 image: /assets/img/headers/2026/lucia-asistente-open-claw-nanobanana.webp
+image_alt: "Logo de OpenClaw con iconos de WhatsApp, Discord y Telegram, representando la integración multicanal de Lucía"
 categories: [Tecnología, Productividad y Hacks]
 tags: [inteligencia-artificial, automatizacion, autoalojado, agentes, asistencia, chatbots]
 pin: false
@@ -61,7 +62,20 @@ El futuro de la IA personal no está en aplicaciones cerradas que guardan tus da
 
 Lucía ya no es solo una voz al otro lado del teléfono; es un miembro más de mi flujo de trabajo digital, y lo mejor de todo es que el "cerebro" está en mi propia casa.
 
+## FAQ
+
+> **1. ¿Qué modelos de IA puedo usar en local?**
+> Muchos. GLM-5, Qwen 3, DeepSeek V3.2, Kimi K2.5 y Llama 4 son algunos de los más populares. Puedes ejecutarlos vía LM Studio u Ollama en tu propio hardware.
+
+> **2. ¿Necesito hardware special para tener un asistente local?**
+> Depende de los modelos. Los modelos pequeños (7B-14B parámetros) funcionan en CPUs potentes o GPUs gaming. Los grandes requieren GPUs dedicado (tipo RTX 4090 o similar).
+
+> **3. ¿Es difícil configurar OpenClaw?**
+> No requiere conocimientos avanzados. OpenClaw ofrece Docker Compose y documentación clara. El principal escollo es tener el hardware adecuado.
+
 ***
 ¿Y tú? ¿Estás listo para dejar de usar la IA de otros y empezar a construir la tuya? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} qué tareas delegarías hoy mismo a un asistente autónomo.
 
-Y... hasta aquí por hoy!
+Compártelo si te ha gustado.
+
+Y... ¡hasta aquí por hoy!
