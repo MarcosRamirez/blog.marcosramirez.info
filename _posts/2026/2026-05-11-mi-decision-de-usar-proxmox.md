@@ -7,7 +7,7 @@ authors:
 date: 2026-05-11 08:30:00 +0200
 image: /assets/img/headers/2026-mi-decision-de-usar-proxmox-nanobanana.webp
 categories: [Tecnología, Redes e Infraestructura]
-tags: [virtualización, contenedores, infraestructura, servidores, homelab, virtualizacion]
+tags: [virtualizacion, contenedores, infraestructura, servidores, homelab]
 pin: false
 toc: true
 excerpt: "Explico mi elección de Proxmox como plataforma de virtualización para mi Home Lab. Analizo por qué prefiero Proxmox sobre otras opciones como ESXi, Hyper-V o Docker standalone, y cómo estructuro mis servicios."
