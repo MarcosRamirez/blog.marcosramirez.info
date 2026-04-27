@@ -15,7 +15,7 @@ twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni susc
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
 Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
 

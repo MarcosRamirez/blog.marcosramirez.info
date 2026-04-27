@@ -15,7 +15,7 @@ twitter_description: "Instala Vaultwarden en tu Home Lab y controla tus contrase
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %})]*
 
 Las contraseñas son la puerta de entrada a tu vida digital. Correo, redes sociales, banca, trabajo. Si alguien accede a tus contraseñas, lo pierde todo.
 
