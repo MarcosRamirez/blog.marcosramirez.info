@@ -1,5 +1,5 @@
 ---
-name: revision
+name: copywriting-proofreading
 description: Reviews and corrects spelling, grammar, and writing style of blog posts written in Spanish. Apply this skill whenever the user asks to review, proofread, correct, or improve the text of a post.
 ---
 
