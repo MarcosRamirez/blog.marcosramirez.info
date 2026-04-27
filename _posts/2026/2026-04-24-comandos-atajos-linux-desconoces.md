@@ -7,17 +7,12 @@ authors:
   - Lucía
 categories:
   - Tecnología
-tags:
-  - linux
-  - terminal
-  - comandos
-  - atajos
-  - productividad
+tags: [linux, terminal, comandos, atajos, productividad]
 image: /assets/img/headers/2026/comandos-atajos-linux-desconoces-nanobanana.webp
 pin: false
 toc: true
 twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mkcp, mkmv y más. Aprende a configurarlos para todos los usuarios."
-permalink: /comandos-atajos-linux-desconoces/
+permalink: /:slug/
 slug: comandos-atajos-linux-desconoces
 ---
 
