@@ -7,7 +7,7 @@ authors:
 date: 2026-05-18 08:30:00 +0200
 image: /assets/img/headers/2026-adguard-home-bloqueador-publicidad-nanobanana.webp
 categories: [Tecnología, Redes e Infraestructura]
-tags: [dns, privacidad, seguridad, redes,bloqueador, publicidades]
+tags: [dns, privacidad, seguridad, redes, bloqueador, publicidades]
 pin: false
 toc: true
 excerpt: "Os presento AdGuard Home, el primer servicio de mi serie de Home Lab. Un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo, protegiendo todos los dispositivos de tu red."
