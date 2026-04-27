@@ -5,7 +5,8 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
-image: /assets/img/headers/gente-vuelve-piratear.webp
+image: /assets/img/headers/2026/gente-vuelve-piratear-nanobanana.webp
+image_alt: "Icono de servidor casero con aplicaciones de streaming, representando el resurgence del self-hosted"
 categories: [Tecnología, Personal y Desarrollo Profesional]
 tags: [streaming, suscripciones, pirateria, entretenimiento, costes, contenidos]
 pin: false
@@ -66,9 +67,22 @@ Por unos 150-200€ puedes hacerte con un Mini PC con procesador Intel N100 (pot
 
 La comodidad y el precio justo eran los dos principales escudos contra la piratería. Al eliminar ambos, las barreras de entrada para empezar a montar servidores caseros (con herramientas como [Plex](https://www.plex.tv/){:target="_blank" :rel="nofollow noopener"}, [Jellyfin](https://jellyfin.org/){:target="_blank" :rel="nofollow noopener"} o los famosos arr de la comunidad de código libre) han bajado drásticamente.
 
-Mientras el modelo de negocio siga exprimiendo la cartera del suscriptor base a base de subidas injustificadas y pérdida de catálogo centralizado, el parche en el ojo volverá a estar de moda. 
+Mientras el modelo de negocio siga exprimiendo la cartera del suscriptor base a base de subidas injustificadas y pérdida de catálogo centralizado, el parche en el ojo volverá a estar de moda.
+
+## FAQ
+
+> **1. ¿Es legal montar un servidor casero?**
+> Sí, usar Plex o Jellyfin para tu propia biblioteca es legal. Descargar contenido protegido por derechos de autor sin licencia no lo es.
+
+> **2. ¿Cuánto cuesta mantener un servidor casero?**
+> Electricidad de un Mini PC (~10€/año) más replacement de discos cada varios años. El software es gratuito.
+
+> **3. ¿Merece la pena el esfuerzo?**
+> Si consumes mucho contenido y quieres tener todo unificado, sí. En 6-12 meses recuperas la inversión comparado con streamings.
 
 ***
-Si te ha gustado, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+Si te ha liked, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
 
-Y... hasta aquí por hoy!
+Compártelo si te ha liked.
+
+Y... ¡hasta aquí por hoy!
