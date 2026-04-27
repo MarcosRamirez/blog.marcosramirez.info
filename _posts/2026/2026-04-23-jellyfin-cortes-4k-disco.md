@@ -9,6 +9,7 @@ categories:
   - Tecnología
 tags: [sistemas, redes-e-infraestructura, contenedores]
 image: /assets/img/headers/2026/jellyfin-cortes-4k-disco-nanobanana.webp
+image_alt: "Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"
 pin: false
 toc: true
 twitter_description: "Jellyfin se cortaba aleatoriamente en 4K. El problema: disco lleno. Cinco errores encadenados que descubrí analizando los logs."
@@ -225,8 +226,11 @@ En total, pasé una horita entretenida solucionando el problema. Pero al menos a
 
 La lección: **monitoriza el espacio en disco de tus servicios de media**. Los transcodes, cachés de trickplay y logs de Jellyfin pueden crecer sin control y llenarte el disco sin avisar. Configura alertas de espacio en [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"}, Grafana/Prometheus o lo que uses, antes de que te pase lo mismo.
 
-Compártelo si te ha gustado.
-
+***
 ¿Tienes problemas similares con Jellyfin o algún servicio de media? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.
+
+Compártelo si te ha liked.
+
+Y... ¡hasta aquí por hoy!
 
 Y... hasta aquí por hoy!
