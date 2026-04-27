@@ -36,6 +36,7 @@ description: Skill specialized in optimizing technology and software posts under
 
 ## 4. Image Optimization (Visual SEO)
 - **ALT Attributes:** Technical and descriptive (e.g.: `alt="Terminal with Node.js error output"`). Mandatory for accessibility and image indexing.
+- **image_alt in Frontmatter:** Every post MUST have the `image_alt` field in frontmatter with a descriptive alt text for the header image. This is mandatory for SEO and accessibility.
 
 ## 5. Link and Domain Policy
 To maximize "Link Juice" and security, the AI must identify the link destination:
