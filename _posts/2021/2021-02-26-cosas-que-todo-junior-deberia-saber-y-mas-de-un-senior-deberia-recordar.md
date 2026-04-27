@@ -31,7 +31,7 @@ Este post iba a ser un vídeo[^1] en respuesta a este Tweet:
 Pero, escribir es mucho más rápido que grabar y editar vídeo, y como de todos modos tenía que escribir el "guión", he decidido responder
 por escrito, de momento... en algún momento grabaré este video, y otros tantos pendientes, y adeudados.
 
-Soy [Marcos Ramírez](https://marcosramirez.info){:target="_blank"}, y llevo más de 25 años dedicandome al desarrollo de apliaciones, fundamentalmente web, desde Junior, como todos, hasta CTO y CEO. y os dejo el link por si alguien quiere saber más [sobre mí]({% post_url 2021-02-25-mis-lecturas-recomendadas %}).
+Soy [Marcos Ramírez](https://marcosramirez.info){:target="_blank"}, y llevo más de 25 años dedicandome al desarrollo de apliaciones, fundamentalmente web, desde Junior, como todos, hasta CTO y CEO. y os dejo el link por si alguien quiere saber más [sobre mí]({% post_url 2021-02-25-recomendaciones-libros-blogs-peliculas-canales %}).
 
 Últimamente vengo observando un "boom" similar al de la década de los 90 (en los 90 muchísima gente empezó Ingeniería Informática), solo que ahora, debido a diversos factores, hay muchísima más personas que eligen otras vías de formación, como los CodeCamps, formación online, o autodidacta, algo perfectamente válido,
 
@@ -233,7 +233,7 @@ Esto va a gustos, a unos les gusta una cultura como la de Google... a otros, com
 
 ## Lecturas recomendadas
 
-Te dejo un link a mis lecturas recomendadas ({% post_url 2021-02-25-mis-lecturas-recomendadas %}), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
+Te dejo un link a mis lecturas recomendadas ({% post_url 2021-02-25-recomendaciones-libros-blogs-peliculas-canales %}), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
 
 Compártelo si te ha gustado. ¿Qué consejos añadirías para Juniors? [Escríbeme](https://marcosramirez.info/contacto/).
 
