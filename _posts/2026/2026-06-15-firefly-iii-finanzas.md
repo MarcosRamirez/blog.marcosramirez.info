@@ -15,7 +15,7 @@ twitter_description: "Gestiona tus finanzas desde tu propio servidor con Firefly
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
 
 Si buscas una herramienta para gestionar tu dinero, tienes dos opciones: confiar tu información financiera a servicios en la nube o gestionar tus propios datos. Firefly III es la segunda opción.
 

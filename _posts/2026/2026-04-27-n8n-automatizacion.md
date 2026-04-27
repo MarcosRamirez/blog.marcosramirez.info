@@ -15,7 +15,7 @@ twitter_description: "Instala N8N en tu Home Lab y automatiza todo lo que quiera
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
 
 ¿Te imaginas que todas esas tareas repetitivas que haces cada día se hicieran solas? Que cuando recibes un correo, se procese automáticamente. Que cuando subes un archivo a Dropbox, se sincronice con Google Drive. Que cuando llega un mensaje de Telegram, se guarde en una hoja de cálculo.
 
