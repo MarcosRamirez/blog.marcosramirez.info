@@ -1,92 +1,92 @@
 ---
 name: SEO
-description: Skill especializada en optimizar posts de tecnología y software bajo estándares E-E-A-T. Analiza jerarquía de encabezados, mejora el SEO on-page y asegura la autoridad técnica del autor como Software Engineer.
+description: Skill specialized in optimizing technology and software posts under E-E-A-T standards. Analyzes heading hierarchy, improves on-page SEO, and ensures the author's technical authority as a Software Engineer.
 ---
 
-# Manual de SEO y Estilo Técnico (Instrucciones de la Skill)
+# SEO and Technical Style Manual (Skill Instructions)
 
-## Orden para escribir un buen post
-1. Seguir las instrucciones de esta skill, para redactar, investigar, etc..
-2. Una vez escrito el post, seguir las instrucciones de la skill de enlaces
-3. Una vez escrito el post, seguir las instrucciones de la skill de SEO
+## Order for Writing a Good Post
+1. Follow this skill's instructions for writing, researching, etc.
+2. Once the post is written, follow the links skill instructions
+3. Once the post is written, follow the SEO skill instructions
 
-## 1. Perfil y Autoridad
-- **Autor:** Marcos Ramírez, Software Engineer.
-- **E-E-A-T:** Inyectar párrafos que demuestren experiencia directa, pruebas de software y comprensión de arquitectura técnica.
+## 1. Profile and Authority
+- **Author:** Marcos Ramírez, Software Engineer.
+- **E-E-A-T:** Inject paragraphs that demonstrate direct experience, software testing, and technical architecture understanding.
 
-## 2. Estructura de Contenido (On-Page)
-- **Metadatos (Límites):**
-    - **Title Tag:** Máximo 60 caracteres (priorizar palabra clave al inicio).
-    - **Meta Description:** Entre 120 y 155 caracteres (gancho comercial/técnico).
-- **H1:** Título único definido en el Front Matter. No repetir en el cuerpo.
-- **H2/H3 con Long-tail:** Subtítulos que respondan a búsquedas reales (ej: "¿Cómo configurar X en Y?").
-- **Tablas Comparativas:** Obligatorias al mencionar herramientas para comparar Precio, Funciones y Dev-Experience.
-- **Sección FAQ:** 3-4 preguntas para capturar fragmentos destacados (featured snippets).
+## 2. Content Structure (On-Page)
+- **Metadata (Limits):**
+  - **Title Tag:** Maximum 60 characters (prioritize keyword at the start).
+  - **Meta Description:** Between 120 and 155 characters (technical/commercial hook).
+- **H1:** Unique title defined in Front Matter. Don't repeat in the body.
+- **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
+- **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
+- **FAQ Section:** 3-4 questions to capture featured snippets.
 
-## 3. Gestión de Etiquetas (Tags) y Pensamiento Relacional
-- **Cantidad:** Entre 3 y 8 etiquetas por post.
-- **Regla Anti-Canibalización:** PROHIBIDO usar como etiqueta el nombre del producto, app o tema principal que da título al post.
-- **Expansión Semántica:** La IA debe razonar etiquetas relacionadas mediante el ecosistema técnico:
-    - **Tecnologías Adyacentes:** Si el post es sobre un framework, sugerir el lenguaje base o su entorno (ej: para `Next.js`, usar `react` o `vercel`).
-    - **Abstracción Técnica:** Identificar la categoría superior (ej: para `PostgreSQL`, usar `databases` o `sql`).
-    - **Casos de Uso:** Relacionar con el beneficio (ej: `performance`, `automation`, `security`).
-- **Lógica:** 1-2 Core Tech (tecnología base), 2-3 Contexto Profesional (rol/sector), 1 Intent (propósito del post).
-- **Formato:** Minúsculas, sin espacios (usar guiones), evitar repetir el título del post.
+## 3. Tag Management (Tags) and Relational Thinking
+- **Quantity:** Between 3 and 8 tags per post.
+- **Anti-Canibalization Rule:** PROHIBITED from using the product name, app, or main topic that gives the post title as a tag.
+- **Semantic Expansion:** The AI must reason related tags through the technical ecosystem:
+  - **Adjacent Technologies:** If the post is about a framework, suggest the base language or its environment (e.g.: for `Next.js`, use `react` or `vercel`).
+  - **Technical Abstraction:** Identify the upper category (e.g.: for `PostgreSQL`, use `databases` or `sql`).
+  - **Use Cases:** Relate to the benefit (e.g.: `performance`, `automation`, `security`).
+- **Logic:** 1-2 Core Tech (base technology), 2-3 Professional Context (role/sector), 1 Intent (post purpose).
+- **Format:** Lowercase, no spaces (use hyphens), avoid repeating the post title.
 - **YAML:** `tags: [tag1, tag2, tag3]`.
 
-## 4. Optimización de Imágenes (SEO Visual)
-- **Atributos ALT:** Técnicos y descriptivos (ej: `alt="Terminal con salida de error en Node.js"`). Obligatorio para accesibilidad e indexación de imágenes.
+## 4. Image Optimization (Visual SEO)
+- **ALT Attributes:** Technical and descriptive (e.g.: `alt="Terminal with Node.js error output"`). Mandatory for accessibility and image indexing.
 
-## 5. Política de Enlaces y Dominios
-Para maximizar el "Link Juice" y la seguridad, la IA debe identificar el destino del enlace:
+## 5. Link and Domain Policy
+To maximize "Link Juice" and security, the AI must identify the link destination:
 
-### A. Dominios Propios (Whitelist - Dofollow)
-NO aplicar `nofollow` ni `noopener` a los siguientes dominios:
+### A. Own Domains (Whitelist - Dofollow)
+Do NOT apply `nofollow` or `noopener` to the following domains:
 - `marcosramirez.info`
 - `marcosramirez.dev`
 - `saasquatch.es`
 
-### B. Enlaces Externos (Seguridad)
-Cualquier dominio NO incluido en la lista anterior debe tratarse como externo.
+### B. External Links (Security)
+Any domain NOT included in the above list must be treated as external.
 
-## 6. Formato Jekyll (Chirpy Theme)
-- **Enlaces Externos:** Usar `[Texto](url){:target="_blank" :rel="nofollow noopener"}`.
-- **Enlaces Propios (Whitelist):** Usar `[Texto](url){:target="_blank"}` (sin rel) para mantener la autoridad.
-- **H1:** No repetir dentro del cuerpo del Markdown (Chirpy lo genera automáticamente).
+## 6. Jekyll Format (Chirpy Theme)
+- **External Links:** Use `[Text](url){:target="_blank" :rel="nofollow noopener"}`.
+- **Own Links (Whitelist):** Use `[Text](url){:target="_blank"}` (without rel) to maintain authority.
+- **H1:** Don't repeat in the Markdown body (Chirpy generates it automatically).
 
-## 7. Excerpt e Interlinking
-- **Excerpt:** Gancho técnico de ~150 caracteres para el feed principal (máximo 160 para evitar recorte).
-- **Interlinking:** Sugerir enlaces internos hacia los dominios de la Whitelist para mejorar la navegación del usuario.
+## 7. Excerpt and Interlinking
+- **Excerpt:** Technical hook of ~150 characters for the main feed (maximum 160 to avoid truncation).
+- **Interlinking:** Suggest internal links to Whitelist domains to improve user navigation.
 
-## 8. Estructura de URLs (Slugs)
-- **Longitud:** Entre 3 y 5 palabras clave.
-- **Limpieza:** Eliminar "stop words" (artículos, preposiciones, conjunciones, posesivos).
-- **Selección inteligente:** Priorizar las palabras que mejor describan el contenido:
-  - Producto o servicio principal
-  - Acción o beneficio clave
-  - Palabra clave SEO
-- **Formato:** Siempre en minúsculas, palabras separadas únicamente por guiones medios (`-`).
-- **Semántica:** Debe ser descriptivo del contenido técnico del post sin incluir caracteres especiales o acentos.
-- **Ejemplo:** "AdGuard Home: Tu propio bloqueador de publicidad y DNS" → `adguard-home-publicidad` (no `adguard-home-bloqueador` porque "publicidad" es la palabra clave buscada)
+## 8. URL Structure (Slugs)
+- **Length:** Between 3 and 5 keywords.
+- **Cleanup:** Remove "stop words" (articles, prepositions, conjunctions, possessives).
+- **Smart Selection:** Prioritize the words that best describe the content:
+  - Main product or service
+  - Key action or benefit
+  - SEO keyword
+- **Format:** Always lowercase, words separated only by hyphens (`-`).
+- **Semantics:** Must be descriptive of the post's technical content without special characters or accents.
+- **Example:** "AdGuard Home: Your own advertisement blocker and DNS" → `adguard-home-publicidad` (not `adguard-home-bloqueador` because "publicidad" is the searched keyword)
 
-## 9. Norma para Slugs (Posts Existentes vs Nuevos)
+## 9. Rule for Slugs (Existing vs. New Posts)
 
-**Discriminación por estado:**
+**State discrimination:**
 
-| Estado del post | Acción sobre el slug |
-|-----------------|---------------------|
-| **Post nuevo (sin publicar)** | Generar slug de 3-5 palabras desde el título |
-| **Post ya publicado** | NO modificar el slug existente (mantener URL actual) |
+| Post State | Action on Slug |
+|-----------|--------------|
+| **New post (unpublished)** | Generate 3-5 word slug from title |
+| **Already published** | DO NOT modify existing slug (maintain current URL) |
 
 **Rational:**
-- Los posts existentes ya están indexados en搜索引擎
-- Cambiar su URL Causaría errores 404 y pérdida de posicionamiento
-- Solo los posts nuevos pueden tener slugs acortados
+- Existing posts are already indexed in search engines
+- Changing their URL would cause 404 errors and ranking loss
+- Only new posts can have shortened slugs
 
-**Verificación SEO:**
+**SEO Verification:**
 
-- Al analizar un post, verificar la cantidad de palabras en el slug (separadas por guiones)
-- **Solo warn** si:
-  - El post es nuevo (no existe en el repositorio o está en `_drafts/`)
-  - El slug tiene más de 5 palabras
-- **No warn** si el post ya está publicado (el slug actual debe mantenerse)
+- When analyzing a post, verify the number of words in the slug (separated by hyphens)
+- **Only warn** if:
+  - The post is new (doesn't exist in repository or is in `_drafts/`)
+  - The slug has more than 5 words
+- **Don't warn** if the post is already published (current slug must be maintained)
