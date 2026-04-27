@@ -46,13 +46,50 @@ The format must be: `<type>(<scope>): <emoji> <summary>`
 2. **Tone:** Use **past participle** (NOT infinitive): "Fixed" (NOT "Fix"), "Added" (NOT "Add"), "Updated" (NOT "Update").
 3. **Blog Posts:** For type `content`, don't invent a description, use the main title of the article being edited or created.
 4. **Length:** Keep the summary under 50 characters.
+5. **Single File Reference:** If only ONE file is modified, add the filename in parentheses right after the emoji. If MULTIPLE files are modified, do NOT include any filename.
+6. **File in Body:** When a single file is modified, add the filename at the END of the commit body (after one empty line).
+
+### Commit Body Rules
+- If ONLY one file is modified: Add the filename in () right after the emoji in the summary line
+- If MULTIPLE files are modified: Do NOT add any filename in the summary
 
 ### Output Examples
-`fix(blog): 🐛 Fixed post_url in Lucía's post`
-`feat(api): ✨ Added user endpoint`
-`content(blog): ✍️ My experience migrating to Antigravity`
-`fix(ui): 🐛 Fixed margin in the footer`
-`wip(agents): 🛠️ Partially completed translation task`
+Single file:
+`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)`
+
+Multiple files:
+`docs(agents): 🌐 Translated copywriting skill to English`
+
+With body (single file):
+`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)
+
+Updated the date reference to match the new filename.`
+
+Multiple files with body:
+`docs(agents): 🌐 Added image_alt as mandatory field in frontmatter
+
+Added image_alt requirement to both copywriting and SEO skills.`
+
+### Commit Body Rules
+- If ONLY one file is modified: Add the filename in () right after the emoji in the summary line
+- If MULTIPLE files are modified: Do NOT add any filename in the summary
+
+### Output Examples
+Single file:
+`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)`
+
+Multiple files:
+`docs(agents): 🌐 Translated copywriting skill to English`
+
+With body (single file):
+`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)
+
+Updated the date reference to match the new filename.`
+
+Multiple files with body:
+`docs(agents): 🌐 Added image_alt as mandatory field in frontmatter
+
+Added image_alt requirement to both copywriting and SEO skills.`
 
 ### Push Rules
 
