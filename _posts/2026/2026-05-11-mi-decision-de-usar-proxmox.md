@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-05-11 08:30:00 +0200
 image: /assets/img/headers/2026-mi-decision-de-usar-proxmox-nanobanana.webp
+image_alt: "Interfaz de Proxmox VE mostrando máquinas virtuales y contenedores, representando la virtualización híbrida"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [virtualizacion, contenedores, infraestructura, servidores, homelab]
 pin: false
@@ -111,8 +112,20 @@ Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocult
 
 En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
 
-***
+## FAQ
 
+> **1. ¿Qué es LXC?**
+> LXC (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados en el mismo kernel del host.
+
+> **2. ¿Puedo usar Proxmox sin experiencia previa?**
+> Sí, aunque tiene curva de aprendizaje. La documentación es buena y hay muchos tutoriales para empezar.
+
+> **3. ¿Proxmox es seguro?**
+> Sí, es código abierto con una comunidad activa. Los contenedores LXC ofrecen aislamiento entre servicios.
+
+***
 ¿Te usas Proxmox? ¿Tienes alguna duda sobre virtualización? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
 
-Y... hasta aquí por hoy!
+Compártelo si te ha liked.
+
+Y... ¡hasta aquí por hoy!
