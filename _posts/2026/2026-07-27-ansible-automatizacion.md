@@ -4,7 +4,7 @@ slug: ansible-automatizacion
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-07-27 08:30:00 +0200
+date: 2026/2026-07-27 08:30:00 +0200
 image: /assets/img/headers/2026/ansible-automatizacion-nanobanana.webp
 categories: [Tecnología]
 tags: [ansible, automatización, infraestructura, Sistemas, Software y Apps]
@@ -15,9 +15,9 @@ twitter_description: "Instala Ansible y gestiona todo tu Home Lab desde un solo 
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026/2026-05-04-home-lab-filosofia %})]*
 
-Llevo un tiempo acumulando servicios. Tengo [Home Assistant]({% post_url 2026-06-01-home-assistant-guia-domotica %}), [AdGuard]({% post_url 2026-05-18-adguard-home-bloqueador-publicidad %}), [Vaultwarden]({% post_url 2026-2026-07-13-vaultwarden-contraseñas-seguras %}), [N8N]({% post_url 2026-2026-04-27-n8n-automatizacion %}), [Immich]({% post_url 2026-2026-06-08-immich-privacidad-tus-fotos %}), [Firefly III]({% post_url 2026-2026-06-15-firefly-iii-finanzas %}), [Paperless NGX]({% post_url 2026-2026-06-29-paperless-ngx-documentos %}), [SearXNG]({% post_url 2026-2026-07-06-searxng-buscador-privado %}). Cada uno en su propio contenedor, actualizándose a su ritmo.
+Llevo un tiempo acumulando servicios. Tengo [Home Assistant]({% post_url 2026/2026-06-01-home-assistant-guia-domotica %}), [AdGuard]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}), [Vaultwarden]({% post_url 2026/2026/2026-07-13-vaultwarden-contraseñas-seguras %}), [N8N]({% post_url 2026/2026/2026-04-27-n8n-automatizacion %}), [Immich]({% post_url 2026/2026/2026-06-08-immich-privacidad-tus-fotos %}), [Firefly III]({% post_url 2026/2026/2026-06-15-firefly-iii-finanzas %}), [Paperless NGX]({% post_url 2026/2026/2026-06-29-paperless-ngx-documentos %}), [SearXNG]({% post_url 2026/2026/2026-07-06-searxng-buscador-privado %}). Cada uno en su propio contenedor, actualizándose a su ritmo.
 
 Y ahora imagínate: quieres actualizar el sistema operativo de todos tus contenedores. O instalar un certificado SSL en todos. O cambiar una configuración. ¿Entrar uno por uno? Ni hablar.
 

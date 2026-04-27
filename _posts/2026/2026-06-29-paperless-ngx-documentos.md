@@ -15,7 +15,7 @@ twitter_description: "Gestiona tus documentos digitales con Paperless NGX en tu 
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %})]*
 
 Todos tenemos papel. Facturas, contratos, garantías, recibos. Montones de papel que se acumulan y que luego no encontramos cuando los necesitamos.
 
