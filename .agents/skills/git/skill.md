@@ -53,3 +53,19 @@ The format must be: `<type>(<scope>): <emoji> <summary>`
 `content(blog): ✍️ My experience migrating to Antigravity`
 `fix(ui): 🐛 Fixed margin in the footer`
 `wip(agents): 🛠️ Partially completed translation task`
+
+### Push Rules
+
+**FUNDAMENTAL RULE**
+**NEVER** execute `git push` automatically.
+Push is only performed when explicitly indicated by the user (e.g., "Push to `main`").
+
+**RECOMMENDED STEPS WHEN PUSH IS REQUESTED**
+1. Verify status with `git status`.
+2. Confirm all changes are committed.
+3. Execute `git push <remote> <branch>` as requested by the user.
+4. If an error occurs, inform the user and request new instruction.
+
+**ADDITIONAL NOTES**
+- If push fails, do not retry without permission.
+- Do not combine `push` with `commit` in the same instruction unless the user explicitly authorizes it.
