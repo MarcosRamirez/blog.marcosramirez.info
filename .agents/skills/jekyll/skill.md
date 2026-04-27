@@ -105,6 +105,14 @@ The filename (minus date) must be identical to the `slug` field in frontmatter:
 - Frontmatter: `slug: my-post-slug` → Filename: `2026-01-15-my-post-slug.md`
 - If they don't match, `{% post_url %}` will fail
 
+**IMPORTANT: If you modify the slug, you MUST also rename the file**
+
+If you change the `slug:` field in frontmatter, you MUST:
+1. Rename the file to match the new slug
+2. Update ALL `{% post_url %}` links in other posts that reference this post
+3. Update the image path in frontmatter (`image:` field)
+Failure to do this will break the build.
+
 **Examples:**
 
 | Title | Slug | Correct Filename | Incorrect Filename |

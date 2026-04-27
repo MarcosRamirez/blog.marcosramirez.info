@@ -1,5 +1,6 @@
 ---
 title: "Cosas que todo junior debería saber, y más de un senior debería recordar"
+slug: cosas-que-todo-junior-deberia-saber-y-mas-de-un-senior-deberia-recordar
 authors:
   - "Marcos Ramírez"
   - "Lucía"

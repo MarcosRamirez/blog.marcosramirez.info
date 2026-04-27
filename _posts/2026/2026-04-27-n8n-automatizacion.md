@@ -147,7 +147,7 @@ docker run -d \
 
 Como cualquier aplicación, es importante hacer backups de tus flujos de trabajo y datos.
 
-**[En mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1-proxmox %})** te explico cómo hacerlo.
+**[En mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1 %})** te explico cómo hacerlo.
 
 ## Ejemplos de automatizaciones
 

@@ -17,7 +17,7 @@ permalink: /:slug/
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
-Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026-05-18-adguard-home-tu-propio-bloqueador-de-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
+Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026-05-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 

@@ -1,5 +1,6 @@
 ---
 title: "Migrando de WordPress a Jekyll"
+slug: migrando-de-wordpress-a-jekyll
 authors:
   - "Marcos Ramírez"
   - "Lucía"

@@ -148,7 +148,7 @@ Este script instala Vaultwarden con [Docker](https://www.docker.com/){:target="_
 
 Esto es crítico. Tus contraseñas están en tu servidor. Si el disco se rompe, pierdes todo.
 
-**[En mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1-proxmox %})** te explico cómo hacer backups correctamente. Aplica lo mismo para Vaultwarden: guarda una copia exportada regularmente.
+**[En mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1 %})** te explico cómo hacer backups correctamente. Aplica lo mismo para Vaultwarden: guarda una copia exportada regularmente.
 
 Si necesitas ayuda configurando los backups de tu bóveda, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo vemos.
 

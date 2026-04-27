@@ -187,7 +187,7 @@ Sí, Firefly III puede conectarse a MySQL o PostgreSQL externos en lugar de usar
 
 ### ¿Es seguro tener mis datos financieros en casa?
 
-Sí, siempre que tu red doméstica esté correctamente configurada. Solo tú tienes acceso. Eso sí, si los tienes en tu servidor, asegúrate de hacer backups regulares. En [mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1-proxmox %}) te explico cómo hacerlo.
+Sí, siempre que tu red doméstica esté correctamente configurada. Solo tú tienes acceso. Eso sí, si los tienes en tu servidor, asegúrate de hacer backups regulares. En [mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1 %}) te explico cómo hacerlo.
 
 ### ¿Puedo migrar desde otro gestor?
 
