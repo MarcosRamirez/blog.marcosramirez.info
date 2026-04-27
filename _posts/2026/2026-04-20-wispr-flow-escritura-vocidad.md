@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/2026/wispr-flow-escritura-vocidad-nanobanana.webp
+image_alt: "Wispr Flow en un MacBook mostrando el teclado de voz con icono de micrófono, representando la escritura por voz"
 categories: [Tecnología, Productividad y Hacks]
 tags: [voz-a-texto, productividad, software, automatización, eficiencia, herramientas]
 pin: false
@@ -111,10 +112,6 @@ La diferencia es noche y día. El input nativo ([Gboard](https://play.google.com
 
 El enlace de referido que te paso [https://wisprflow.ai/r?MARCOS1798](https://wisprflow.ai/r?MARCOS1798){:target="_blank" :rel="nofollow noopener"} te da 14 días gratis de prueba sin tarjeta.
 
-Compártelo si te ha gustado.
-
-¿Has probado algo similar? Cuéntame tu opinión.
-
 ## Preguntas Frecuentes
 
 ### ¿Wispr Flow funciona en español?
@@ -129,4 +126,9 @@ Sí, con el sistema de retos. Cada 100 palabras al día te da 1 día extra de Pr
 ### ¿Wispr Flow es seguro?
 Sí, ofrece Privacy Mode (Zero Data Retention) y en planes Enterprise cuenta con certificaciones SOC 2 Type II e ISO 27001.
 
-Y... hasta aquí por hoy!
+***
+¿Has probado algo similar? Cuéntame tu opinión.
+
+Compártelo si te ha liked.
+
+Y... ¡hasta aquí por hoy!
