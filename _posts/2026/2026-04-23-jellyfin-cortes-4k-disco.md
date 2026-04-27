@@ -7,15 +7,12 @@ authors:
   - Lucía
 categories:
   - Tecnología
-tags:
-  - sistemas
-  - redes-e-infraestructura
-  - contenedores
+tags: [sistemas, redes-e-infraestructura, contenedores]
 image: /assets/img/headers/2026/jellyfin-cortes-4k-disco-nanobanana.webp
 pin: false
 toc: true
 twitter_description: "Jellyfin se cortaba aleatoriamente en 4K. El problema: disco lleno. Cinco errores encadenados que descubrí analizando los logs."
-permalink: /jellyfin-cortes-4k-disco/
+permalink: /:slug/
 slug: jellyfin-cortes-4k-disco
 ---
 
