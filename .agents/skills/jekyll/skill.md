@@ -202,7 +202,7 @@ Examples:
 Main categories:
 - Tecnología
 - Finanzas Personales
-- Personal y Desarrollo Profesional
+- Personal
 - Productividad y Hacks
 
 Subcategories:
@@ -219,5 +219,6 @@ Subcategories:
 - Reflexiones y Opinión
 - Carrera Profesional
 - Recomendaciones
+- Personal y Desarrollo Profesional
 
 NOTE: Use "Inteligencia Artificial", NOT "IA".

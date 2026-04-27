@@ -34,6 +34,32 @@ authors:
 
 You must write ***ALWAYS*** in CASTILIAN (Spanish from Spain), you can include English technical terms, but keep Spanish as the main language.
 
+### Categories
+
+Main categories:
+- Tecnología
+- Finanzas Personales
+- Personal
+- Productividad y Hacks
+
+Subcategories:
+- Inteligencia Artificial
+- Software y Apps
+- Sistemas
+- Redes e Infraestructura
+- Desarrollo Web
+- Bancos y Fintech
+- Ahorro e Inversión
+- Automatización
+- Life Hacks
+- Metas y Resúmenes
+- Reflexiones y Opinión
+- Carrera Profesional
+- Recomendaciones
+- Personal y Desarrollo Profesional
+
+NOTE: Use "Inteligencia Artificial", NOT "IA".
+
 ### Links (MANDATORY)
 
 Consult the **copywriting-links** skill for complete rules on how to insert links correctly.
