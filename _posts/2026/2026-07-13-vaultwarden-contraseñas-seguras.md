@@ -15,7 +15,7 @@ twitter_description: "Instala Vaultwarden en tu Home Lab y controla tus contrase
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-home-lab-filosofia %})]*
 
 Las contraseñas son la puerta de entrada a tu vida digital. Correo, redes sociales, banca, trabajo. Si alguien accede a tus contraseñas, lo pierde todo.
 
@@ -148,7 +148,7 @@ Este script instala Vaultwarden con [Docker](https://www.docker.com/){:target="_
 
 Esto es crítico. Tus contraseñas están en tu servidor. Si el disco se rompe, pierdes todo.
 
-**[En mi post sobre backups]({% post_url 2026-06-11-backup-3-2-1 %})** te explico cómo hacer backups correctamente. Aplica lo mismo para Vaultwarden: guarda una copia exportada regularmente.
+**[En mi post sobre backups]({% post_url 2026/2026-06-11-backup-3-2-1 %})** te explico cómo hacer backups correctamente. Aplica lo mismo para Vaultwarden: guarda una copia exportada regularmente.
 
 Si necesitas ayuda configurando los backups de tu bóveda, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo vemos.
 

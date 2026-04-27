@@ -90,7 +90,7 @@ Los bancos, a diferencia de lo que la gente cree, o piensa, son negocios, que es
 
 Te recomiendo dedicar unas horas a estudiar al respecto, y contactar.
 
-Así como tambien te recomiendo adquirir conocomiento financiero, en [mis recomendaciones]({% post_url 2021-02-25-recomendaciones-libros-blogs-peliculas-canales %}), encontrarás información al respecto.
+Así como tambien te recomiendo adquirir conocomiento financiero, en [mis recomendaciones]({% post_url 2021/2021-02-25-recomendaciones-libros-blogs-peliculas-canales %}), encontrarás información al respecto.
 
 Y, por supuesto, en este post encontrarás algunas cosas que he aprendido a lo largo de los años
 
