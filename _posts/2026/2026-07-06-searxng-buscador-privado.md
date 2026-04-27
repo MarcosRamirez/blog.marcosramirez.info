@@ -15,7 +15,7 @@ twitter_description: "Instala SearXNG en tu Home Lab y recupera tu privacidad al
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
 
 Cada vez que buscas algo en Google, le estás dando tu información. Tu historial de búsquedas, tu dirección IP, tus intereses. Todo eso se guarda, se analiza y se usa para mostrarte anuncios.
 

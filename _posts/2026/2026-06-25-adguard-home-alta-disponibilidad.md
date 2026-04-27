@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-25 08:30:00 +0200
-image: /assets/img/headers/2026/adguard-home-alta-disponibilidad-nanobanana.webp
+image: /assets/img/headers/2026-adguard-home-alta-disponibilidad-nanobanana.webp
 categories: [Tecnología, Redes e Infraestructura]
 tags: [adguard, dns, alta-disponibilidad, redundancia, sync]
 pin: false
@@ -15,9 +15,9 @@ twitter_description: "AdGuard Home con dos nodos: si uno falla, el otro sigue."
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
 
-En [mi post anterior]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}) te enseñé a instalar AdGuard Home. Pero un solo nodo es un punto único de fallo. Si se cae, se acabaron los anuncios bloqueados.
+En [mi post anterior]({% post_url 2026-2026-05-18-adguard-home-bloqueador-publicidad %}) te enseñé a instalar AdGuard Home. Pero un solo nodo es un punto único de fallo. Si se cae, se acabaron los anuncios bloqueados.
 
 La solución es tener dos nodos.
 

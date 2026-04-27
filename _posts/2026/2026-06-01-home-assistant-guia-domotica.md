@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-01 08:30:00 +0200
-image: /assets/img/headers/2026/home-assistant-guia-domotica-nanobanana.webp
+image: /assets/img/headers/2026-home-assistant-guia-domotica-nanobanana.webp
 categories: [Tecnología, Automatización]
 tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
 pin: false
@@ -15,9 +15,9 @@ twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni susc
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
-Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
+Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026-2026-05-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026-2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026-2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 
@@ -98,7 +98,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 
 ## Mi setup
 
-En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}), con:
+En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026-2026-05-11-mi-decision-de-usar-proxmox %}), con:
 
 - **2 vCPU**
 - **4GB de RAM**
@@ -131,7 +131,7 @@ Coste aproximado: 50-70€.
 
 ### Opción 2: VM con Proxmox Helper Scripts
 
-Aunque en otro post os explico [por qué no uso los Proxmox Helper Scripts para instalar mis servicios]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}), en este caso sí lo uso: para instalar Home Assistant OS como VM. El helper script descarga la imagen oficial, crea la VM automáticamente y configura todo sin intervención.
+Aunque en otro post os explico [por qué no uso los Proxmox Helper Scripts para instalar mis servicios]({% post_url 2026-2026-05-25-no-uso-proxmox-helper-scripts %}), en este caso sí lo uso: para instalar Home Assistant OS como VM. El helper script descarga la imagen oficial, crea la VM automáticamente y configura todo sin intervención.
 
 Ejecuta este comando en la shell de Proxmox:
 
