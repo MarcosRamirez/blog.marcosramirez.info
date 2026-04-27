@@ -15,7 +15,7 @@ twitter_description: "AdGuard Home con dos nodos: si uno falla, el otro sigue."
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
 
 En [mi post anterior]({% post_url 2026-05-18-adguard-home-bloqueador-publicidad %}) te enseñé a instalar AdGuard Home. Pero un solo nodo es un punto único de fallo. Si se cae, se acabaron los anuncios bloqueados.
 

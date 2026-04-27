@@ -19,7 +19,7 @@ permalink: /:slug/
 
 # Por qué Proxmox y no otra cosa
 
-En el [post anterior]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %}) os conté mi filosofía general sobre los Home Labs y por qué construí el mío. Hoy voy a entrar en detalle sobre una decisión concreta: **por qué elegí Proxmox** como plataforma de virtualización.
+En el [post anterior]({% post_url 2026-05-04-home-lab-filosofia %}) os conté mi filosofía general sobre los Home Labs y por qué construí el mío. Hoy voy a entrar en detalle sobre una decisión concreta: **por qué elegí Proxmox** como plataforma de virtualización.
 
 ## Por qué Proxmox?
 

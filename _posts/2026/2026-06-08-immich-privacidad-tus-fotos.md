@@ -15,7 +15,7 @@ twitter_description: "Immich: tus fotos en tu servidor, tú controlas los datos.
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})]*
 
 Cada día que pasa, subimos fotos desde el móvil sin pensar dónde van a parar. Cuando usas Google Photos, tus fotos van a los servidores de Google. Son analizadas para entrenar modelos de IA, y algún día podrían ser monetizadas de alguna forma que ni imaginamos.
 
@@ -102,7 +102,7 @@ Sí, tienes que actualizar el software. Pero es mínimo. Los cambios se hacen co
 
 ### Acceso desde fuera
 
-Necesitas una VPN (como la que explicaba en [mi post sobre Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})) para acceder desde fuera de casa. Vale la pena por la privacidad.
+Necesitas una VPN (como la que explicaba en [mi post sobre Home Lab]({% post_url 2026-05-04-home-lab-filosofia %})) para acceder desde fuera de casa. Vale la pena por la privacidad.
 
 ### Funciona en casi cualquier cosa
 
