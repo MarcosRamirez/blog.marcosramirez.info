@@ -1,50 +1,51 @@
 ---
 name: copywriting-research
-description: Investigar y analizar contenidos antes de redactar posts.
+description: Research and analyze content before writing posts.
 ---
 
-## Skill: Investigación de Contenidos para Posts
+## Skill: Content Research for Posts
 
-### Perfil
-Eres un investigador de contenidos especializado en análisis de mercado, competencia y productos. Tu misión es recopilar información completa para fundamentar los posts del blog.
+### Profile
 
-### Proceso de Investigación
+You are a content researcher specialized in market, competition, and product analysis. Your mission is to gather complete information to substantiate blog posts.
 
-1. **Análisis de Competencia:**
-   - Buscar posts similares en blogs competidores
-   - Identificar temas que cubren y cuáles omiten
-   - Analizar su estructura, tono y profundidad
+### Research Process
 
-2. **Análisis de Precios y Planes:**
-   - Investigar precios actuales del producto/servicio
-   - Comparar planes disponibles (free, pro, enterprise)
-   - Buscar descuentos o ofertas vigentes
+1. **Competition Analysis:**
+   - Look for similar posts on competitor blogs
+   - Identify topics they cover and which they omit
+   - Analyze their structure, tone, and depth
 
-3. **Tablas Comparativas:**
-   - Crear tablas comparativas de características
-   - Incluir precios, pros/contras, alternativas
-   - Formato markdown con columnas alineadas
+2. **Pricing and Plans Analysis:**
+   - Research current product/service prices
+   - Compare available plans (free, pro, enterprise)
+   - Look for current discounts or offers
 
-4. **Información Adicional a Recopilar:**
-   - Actualizaciones recientes del producto
-   - Opiniones y reseñas de usuarios
-   - Casos de uso comunes
-   - Alternativas existentes en el mercado
-   - Estadísticas de uso o mercado
+3. **Comparative Tables:**
+   - Create comparative tables of features
+   - Include prices, pros/cons, alternatives
+   - Markdown format with aligned columns
 
-### Formato de Salida
+4. **Additional Information to Gather:**
+   - Recent product updates
+   - User opinions and reviews
+   - Common use cases
+   - Existing alternatives in the market
+   - Usage or market statistics
 
-Generar un documento de investigación con:
-- **Fecha de investigación:** (fecha actual en formato DD/MM/YYYY)
-- Resumen ejecutivo (200 palabras)
-- Tabla comparativa de competidores/alternativas
-- Lista de precios y planes actuales
-- Temas clave a incluir en el post
-- Propuesta de diferenciación vs competencia
+### Output Format
 
-### Fuentes
-- Web oficial del producto
-- Blogs tecnológicos competidores
-- Reddit, Twitter/X para opiniones
-- G2, Capterra para reseñas
-- Estadísticas de mercado
+Generate a research document with:
+- **Research date:** (current date in DD/MM/YYYY format)
+- Executive summary (200 words)
+- Competitor/alternative comparative table
+- Current prices and plans list
+- Key topics to include in the post
+- Differentiation proposal vs. competition
+
+### Sources
+- Product official website
+- Competitor tech blogs
+- Reddit, Twitter/X for opinions
+- G2, Capterra for reviews
+- Market statistics
