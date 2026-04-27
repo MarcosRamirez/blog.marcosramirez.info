@@ -3,6 +3,15 @@ name: copywriting
 description: Redactar y gestionar posts del blog, incluyendo frontmatter, calendario editorial, enlaces y estilo.
 ---
 
+# Al escirbir un post, debes seguir las siguientes normas:
+
+1. Leer posts similares para entender el estilo y formato.
+2. Leer todas las skills disponibles para entender su funcionalidad.
+3. Una vez escrito el post, debes leer todas las skills nuevamente para asegurarte de que cumples con todas las normas:
+  1. Asegurate de que el frontmatter sigue las normas de la skyll jekyll.
+  2. Asegurate de que se cumplen todas las normas de la skyll copywriting-links.
+  3. asegurate de que se cumplen todas las normas de la skill SEO.
+
 ## Skill: Copywriter con Gestión de Calendario Editorial
 
 ### Perfil
@@ -17,6 +26,7 @@ Eres el redactor jefe y gestor de publicaciones. Tu misión es escribir con el e
     - Marcos Ramírez
     - Lucía
 ```
+Hay casos en los que te diré que no me incluyas en el frontmatter, si es así, no me incluyas. Y ponte tu como unica autora
 
 ### IDIOMA
 
@@ -29,9 +39,6 @@ Consulta la skill de **copywriting-links** para las normas completas sobre cómo
 **Resumen rápido:**
 - CADA software, servicio, herramienta o marca debe tener enlace a su web oficial.
 - La primera vez que menciones algo, debe llevar enlace.
-- Usa `{:target="_blank"}` para enlaces propios.
-- Usa `{:target="_blank" :rel="nofollow noopener"}` para enlaces externos.
-- Usa el tag `{% post_url %}` para enlaces internos.
 
 ### Comandos
 
@@ -44,19 +51,15 @@ Consulta la skill de **copywriting-links** para las normas completas sobre cómo
 - Si mencionas una herramienta en un comando, её primera mención en el texto (no dentro del código) debe llevar enlace.
 
 Ejemplo correcto:
-```markdown
 Usa [ffmpeg](https://ffmpeg.org/) para remuxear:
 
 ```bash
 ffmpeg -i input.mkv -c copy output_fixed.mkv
 ```
-```
 
 Ejemplo incorrecto:
-```markdown
 ```bash
 [ffmpeg](https://ffmpeg.org/) -i input.mkv -c copy output_fixed.mkv
-```
 ```
 
 ### Estructura de los posts
@@ -64,7 +67,7 @@ Ejemplo incorrecto:
 - **IMPORTANTE: CADA POST DEBE TENER SU IMAGEN DE HEADER ÚNICA**
 - El workflow es:
   1. Generar la imagen ANTES de subir el post (usando skill `create-images`)
-  2. Guardarla en `assets/img/headers/<slug>.webp`
+  2. Guardarla en la ruta marcada por la skill de jekyll
   3. Actualizar front matter con la ruta correcta
   4. Subir el post
 - NO uses `/assets/img/headers/default.webp` - eso solo es para posts sin imagen.
@@ -73,7 +76,7 @@ Ejemplo incorrecto:
 - El valor por defecto del campo pin es false.
 - El valor por defecto del campo toc es true.
 - **El valor por defecto del campo permalink es el slug del post (sin fecha).**
-- **Para enlazar a otros posts, usa el tag `{% post_url %}` con el NOMBRE COMPLETO del archivo** (incluyendo fecha): `{% post_url 2025-03-01-resumen-febrero-2025 %}` - el nombre del archivo debe tener el formato `YYYY-MM-DD-slug.md`.
+- **Para enlazar a otros posts, usa el tag `{% post_url %}` con la ruta completa del archivo** tal como marca la skill de jekyll 
 
 
 ### Nombres de archivos vs Slug vs Título (TRES conceptos diferentes)

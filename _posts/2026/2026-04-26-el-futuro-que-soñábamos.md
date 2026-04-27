@@ -1,7 +1,7 @@
 ---
-title: "El futuro que soñábamos: cuando los ordenadores empezóron a entendernos"
+title: "El futuro que soñábamos: cuando los ordenadores empezáron a entendernos"
 date: 2026-04-26 09:30:00 +0200
-excerpt: "He trabajado en desarrollo web más de tres décadas. Aprendí a programar cuando no existían [Google](https://www.google.com){:target=\"_blank\" :rel=\"nofollow noopener\"} ni [Stack Overflow](https://stackoverflow.com/){:target=\"_blank\" :rel=\"nofollow noopener\"}. Ahora vivo el futuro que imaginaba de niño, pero llegó de otra forma."
+excerpt: "He trabajado en desarrollo web más de tres décadas. Aprendí a programar cuando no existían Google ni Stack Overflow. Ahora vivo el futuro que imaginaba de niño, pero llegó de otra forma."
 authors:
   - Marcos Ramírez
   - Lucía
