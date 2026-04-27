@@ -15,7 +15,7 @@ twitter_description: "La regla 3-2-1 de backups: protege tus datos con 3 copias 
 permalink: /:slug/
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})]*
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %})]*
 
 Un disco duro puede fallar. Un ransomware puede cifrar todos tus archivos. Un incendio puede destruir tu servidor. Si solo tienes una copia de tus datos, los has perdido.
 
@@ -52,7 +52,7 @@ Ejemplos de datos a respaldar:
 
 Un NAS o disco adicional donde hacer backup periódico. Si el servidor principal falla, puedes levantar todo desde aquí.
 
-Para quien usa [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}), [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) (PBS) es la solución nativa y gratuita.
+Para quien usa [Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}), [Proxmox Backup Server](https://www.proxmox.com/en/proxmox-backup-server) (PBS) es la solución nativa y gratuita.
 
 ### Copia 3: Backup fuera de casa
 

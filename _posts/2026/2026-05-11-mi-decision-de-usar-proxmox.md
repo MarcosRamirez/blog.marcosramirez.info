@@ -19,7 +19,7 @@ permalink: /:slug/
 
 # Por qué Proxmox y no otra cosa
 
-En el [post anterior]({% post_url 2026/2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %}) os conté mi filosofía general sobre los Home Labs y por qué construí el mío. Hoy voy a entrar en detalle sobre una decisión concreta: **por qué elegí Proxmox** como plataforma de virtualización.
+En el [post anterior]({% post_url 2026-05-04-por-que-tengo-un-home-lab-mi-filosofia %}) os conté mi filosofía general sobre los Home Labs y por qué construí el mío. Hoy voy a entrar en detalle sobre una decisión concreta: **por qué elegí Proxmox** como plataforma de virtualización.
 
 ## Por qué Proxmox?
 
@@ -109,7 +109,7 @@ Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocult
 
 **Proxmox** gana en relación calidad-precio: código abierto, sin licencias, UI web completa, soporta tanto VMs como contenedores ligeros (LXC). Docker standalone es más simple pero carece de gestión centralizada, snapshots y alta disponibilidad.
 
-En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
+En el [post dedicado a los helper scripts]({% post_url 2026-05-25-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
 
 ***
 

@@ -19,7 +19,7 @@ permalink: /:slug/
 
 # Serie Home Lab
 
-Continuamos con la serie de Home Lab. En el [post sobre Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue [**AdGuard Home**](https://adguard.com/es/adguard-home/overview.html){:target="_blank" :rel="nofollow noopener"}, y es probablemente el más útil de todos.
+Continuamos con la serie de Home Lab. En el [post sobre Proxmox]({% post_url 2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue [**AdGuard Home**](https://adguard.com/es/adguard-home/overview.html){:target="_blank" :rel="nofollow noopener"}, y es probablemente el más útil de todos.
 
 ## ¿Qué es AdGuard Home?
 

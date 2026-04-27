@@ -82,7 +82,7 @@ A continuación os detallo todos los problemas que me he encontrado, y encontrar
 
 ### Programar posts en el tiempo
 
-Es lo primero que eché en falta, y lo solucioné fácilmente como explico en {% post_url 2021/2021-02-26-como-programar-posts-con-jekyll-en-github-pages %}
+Es lo primero que eché en falta, y lo solucioné fácilmente como explico en {% post_url 2021-02-26-como-programar-posts-con-jekyll-en-github-pages %}
 
 ### El proceso de importación de posts es bastante "Meh"
 
