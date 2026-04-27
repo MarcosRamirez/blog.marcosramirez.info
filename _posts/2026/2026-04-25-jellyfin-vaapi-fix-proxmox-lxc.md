@@ -18,7 +18,7 @@ permalink: /jellyfin-vaapi-fix-proxmox-lxc/
 
 ![Post Header]({{ page.image }})
 
-Este post es la continuación de [Jellyfin cortes 4K y disco lleno]({% post_url 2026-04-23-jellyfin-cortes-4k-disco-lleno %}). Hace un par de días parecía que todo estaba arreglado y que la transcodificación funcionaba bien, pero resulta que no: la GPU no estaba bien configurada y los cortes seguían apareciendo.
+Este post es la continuación de [Jellyfin cortes 4K y disco lleno]({% post_url 2026-04-23-jellyfin-cortes-4k-disco %}). Hace un par de días parecía que todo estaba arreglado y que la transcodificación funcionaba bien, pero resulta que no: la GPU no estaba bien configurada y los cortes seguían apareciendo.
 
 ## Problema – Error de transcodificación en Jellyfin
 
