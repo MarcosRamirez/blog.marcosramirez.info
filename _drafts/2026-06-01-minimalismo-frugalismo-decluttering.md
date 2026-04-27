@@ -1,5 +1,5 @@
 ---
-title: "Minimalismo y Frugalismo: Cómo Donar, Vender o Tirar Cosas para Vivir Más Ligero"
+title: "Minimalismo y Frugalismo: Cómo Donar, Vender o Tirar Cosas para Vivir Mejor"
 slug: minimalismo-frugalismo-decluttering
 date: 2026-06-01 08:30:00 +0200
 excerpt: "Explora cómo donar, vender o reciclar objetos de tu vida cotidiana para reducir el desorden y vivir de forma más sostenible. Desde ropa hasta cacharros, regalos y bolsas."
@@ -7,8 +7,8 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 categories:
-  - Personal y Desarrollo Profesional
-tags: [minimalismo, decluttering, frugalismo, organizacion]
+  - Personal
+tags: [minimalismo, decluttering, frugalismo, organización]
 image: /assets/img/headers/2026/minimalismo-frugalismo-decluttering.webp
 image_alt: "Objetos cotidianos ordenados: ropa, bolsas de plástico, tuppers y pequeños aparatos"
 pin: false
