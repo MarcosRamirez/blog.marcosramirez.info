@@ -5,13 +5,13 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2016-08-07 20:34:47 +0200
-image: assets/img/headers/2016/kubuntu.webp
+image: /assets/img/headers/2016/kubuntu.webp
+image_alt: "Captura de pantalla de Kubuntu 16.04 con escritorio clásico y plasmoides"
 categories: [Tecnología, Sistemas]
 tags: [linux, kubuntu, tutorial, opinión]
 pin: false
 toc: true
-excerpt: >-
-  Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías en Spotify y MySQL Workbench. En este post, detallo cada uno de estos inconvenientes y proporciono las soluciones paso a paso para recuperar la estabilidad y funcionalidad del sistema KDE.
+excerpt: "Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías."
 twitter_description: "Problemas y soluciones tras actualizar a Kubuntu 16.04 Xenial Xerus."
 permalink: /kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar/
 ---
@@ -41,7 +41,7 @@ Lo primero que noté que "se había roto" fué:
 10. Desaparición de Turpial
 11. Magnets links no abren deluge (desde Google Chrome)
 
-Si en los próximos días noto que falla/falta algo más, lo iré añadiendo, estar atentos a posibles updates. O, si os falla algo, <a href="https://marcosramirez.info/contacto/" target="_blank">escríbeme</a> y vemos cómo arreglarlo.
+Si en los próximos días noto que falla/falta algo más, lo iré añadiendo, estar atentos a posibles updates. O, si os falla algo, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y vemos cómo arreglarlo.
 
 Así pues... ¡allá vamos!
 
@@ -178,8 +178,23 @@ deleting=false
 CIERRAS SESIÓN (no hace falta reiniciar), y listo... funcionando ;)
 
 ***
+
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
 
-Y... hasta aquí por hoy!
+## FAQ
+
+> **1. Kubuntu 16.04 sigue las mismas actualizaciones que Ubuntu?**
+> Sí, Kubuntu 16.04 sigue el ciclo de actualizaciones de Ubuntu LTS. Recibe actualizaciones de seguridad durante 5 años.
+
+> **2. Spotify no me funciona tras actualizar, qué puedo hacer?**
+> Ejecuta Spotify en terminal para ver el error. Usually es falta de libgcrypt11. Instala el paquete correspondiente a tu arquitectura.
+
+> **3. Los plasmoides no aparecen en el escritorio**
+> En KDE 5+ puedes activar el escritorio clásico haciendo clic derecho > Preferencias de escritorio > Cambiar "Escritorio" a "Vista de carpetas".
+
+> **4. MySQL Workbench no inicia tras actualizar**
+> Instala las dependencias manually: libatkmm-1.6-1v5, libcairomm-1.0-1v5, libglibmm-2.4-1v5, libpangomm-1.4-1v5, libgtkmm-2.4-1v5, python-paramiko.
+
+Y... ¡hasta aquí por hoy!

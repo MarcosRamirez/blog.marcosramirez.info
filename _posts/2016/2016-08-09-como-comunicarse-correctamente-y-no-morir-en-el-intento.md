@@ -5,13 +5,13 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2016-08-09 16:40:28 +0200
-image: assets/img/headers/2016/comunicarse.webp
-categories: ["Personal y Desarrollo Profesional", "Reflexiones y Opinión"]
+image: /assets/img/headers/2016/comunicarse.webp
+image_alt: "Iconos de comunicación: email, WhatsApp, teléfono y chat"
+categories: [Personal, Reflexiones y Opinión]
 tags: [productividad, comunicación]
 pin: false
 toc: true
-excerpt: >-
-  En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional. Desde las normas básicas para correos electrónicos y citas, pasando por la gestión de chats, WhatsApp y llamadas telefónicas, analizo por qué casi nadie sabe comunicarse correctamente.
+excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional."
 twitter_description: "Mi guía para comunicarte conmigo sin perder tiempo: email, WhatsApp, teléfono y reuniones."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
@@ -156,8 +156,23 @@ Para otros casos, probablemente notarás que no presto atención a la conversaci
 Y, eso es todo... actuando tal como he descrito, que no es más que con un mínimo de sentido común, podrás comunicarte conmigo sin miedo a que me cabree.
 
 ***
+
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas sobre comunicación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
 
-Y... hasta aquí por hoy!
+## FAQ
+
+> **1. Por qué es importante comunicarse bien por email?**
+> Un email bien redactado incluye asunto claro, estructura breve y acción requerida. Esto evita malentendidos y acelera respuestas.
+
+> **2. Cuándo es mejor llamar por teléfono que escribir?**
+> Para temas urgentes o que requieren matices, la llamada es mejor. Para temas que necesitan documentación, el email es ideal.
+
+> **3. Cómo gestionar WhatsApp de manera profesional?**
+> Establece horarios de respuesta, usa mensajes de voz solo cuando sea necesario, y evita conversaciones largas que deberían ser una llamada o email.
+
+> **4. Por qué no respondemos inmediatamente a todos los mensajes?**
+> Para mantener la productividad, es necesario bloquear tiempo para trabajo profundo sin interrupciones constantes.
+
+Y... ¡hasta aquí por hoy!
