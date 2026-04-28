@@ -23,6 +23,21 @@ description: Skill specialized in optimizing technology and software posts under
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
 - **FAQ Section:** 3-4 questions to capture featured snippets.
 
+### Keyword Identification
+Before writing any content, first identify and list the most effective primary keyword based on the topic. Additionally, suggest 3-5 relevant LSI (Latent Semantic Indexing) keywords to be naturally integrated into the text.
+
+### Target Keyword Density
+Maintain a density between 0.5% and 1.5% for the primary keyword. Never use keyword stuffing.
+
+### Strategic Placement
+Ensure the primary keyword is placed in the H1, the first paragraph (within the first 100 words), at least one H2 or H3, and the conclusion.
+
+### Semantic Integration
+Use the identified LSI keywords and synonyms throughout the text to build topical authority naturally.
+
+### Structure & Readability
+Organize the content with clear headers (H1, H2, H3) and bullet points. Always prioritize human readability and flow over mechanical keyword insertion.
+
 ## 3. Tag Management (Tags) and Relational Thinking
 - **Quantity:** Between 3 and 8 tags per post.
 - **Anti-Canibalization Rule:** PROHIBITED from using the product name, app, or main topic that gives the post title as a tag.

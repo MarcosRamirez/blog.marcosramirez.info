@@ -179,25 +179,27 @@ date: 2026-04-24 09:00:00 +0200
 - **Tone:** Mimicked from history.
 - **Title:** For commit and metadata, use the actual post title.
 
-### CTAs (Call to Action)
+### CTAs (Call to Action) - User-Facing Only
 
-- Use "déja un comentario o escríbeme", linking to [Contacto](https://marcosramirez.info/contacto/){:target="_blank"}.
+**CRITICAL RULE: CTAs must be user-facing only. NEVER include internal marketing language like "capture lead", "convert project", "generate lead" in the post text. Readers should only see professional, natural CTAs.**
+
+- Use CTAs linking to [Contacto](https://marcosramirez.info/contacto/){:target="_blank"} for business inquiries.
 - **Inline CTAs:** Don't put CTAs only at the end. Include them throughout the post when it makes sense:
-  - After explaining something complex → "Si necesitas ayuda, escríbeme."
-  - After lists of advantages → "¿Te interesa este servicio?"
-  - After configuration steps → "¿Dudas con el setup?"
-- At the end of the post → main contact CTA.
+  - After explaining technical solutions → "¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}."
+  - After configuration steps → "¿Necesitas esta integración para tu negocio? [Consulta con expertos](https://marcosramirez.info/contacto/){:target="_blank"}."
+  - When mentioning tools/services → "¿Te interesa esta tecnología para tu empresa? [Descubre cómo podemos ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}."
+- At the end of the post → main CTA targeting potential customers.
 
 ### Closing
 
-- **Always include at the beginning of the closing:** "Compártelo si te ha gustado."
-- **Post type → Closing:**
-  - **Technical/Tutorial**: "¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/) o deja un comentario."
-  - **Opinion/Reflection**: "¿Qué opinas? Cuéntame."
+- **Always include at the beginning of the closing:** "Compártelo si te ha resultado útil."
+- **Post type → Closing (Customer-Oriented):**
+  - **Technical/Tutorial**: "¿Implementas soluciones de IA en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}."
+  - **Opinion/Reflection**: "¿Qué te parece esta tecnología? Cuéntame si la usas en tu negocio."
   - **Series**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
-  - **Review**: "¿Has probado algo similar? Cuéntame tu opinión."
-  - **Finance**: "¿Tienes algún consejo adicional? Compártelo."
-- **Signature**: "Y... ¡hasta aquí por hoy!"
+  - **Review**: "¿Has evaluado soluciones similares para tu empresa? Cuéntame."
+  - **Finance**: "¿Aplicas esto en tu estrategia financiera? Compártelo."
+- **Signature**: "Y... hasta aquí por hoy!"
 
 ### Content Rules (NEVER invent)
 
@@ -229,20 +231,19 @@ This rule avoids publishing invented information about them, their Home Lab, pre
 - If you see `IA` → change to `Inteligencia Artificial`
 - If you see `Opinión` as main category → move to subcategory under `Personal y Desarrollo Profesional`
 
-### Spelling
+### Spelling and Grammar - MANDATORY VERIFICATION
 
-- Always verify spelling before saving/publishing the post.
-- Use correctly: "tú" (pronoun), "tu" (possessive), "él" (pronoun), "el" (article), "mí" (pronoun), "mi" (possessive).
-- Fix common ones: "haber" (not "aver"), "por qué" (separated in questions), "porque" (joined as cause), "sino" (don't use "sino" as incorrect adversative conjunction).
-- Verify accents: "técnico", "público", "ord", "último", "ést", "és", etc.
-- Use "wifi" (not "wi-fi" nor "Wifi").
-- Proper names of companies/apps in their original form: "ChatGPT", "Notion", "Slack" (don't translate).
-- **NEVER use HTML entities** (like &aacute;, &eacute;, &iacute;, &oacute;, &uacute;, &ntilde;, &iquest;, etc.). Always write with normal UTF-8 characters (á, é, í, ó, ú, ñ, ¿).
+**CRITICAL RULE: You MUST write all content with perfect spelling and grammar on the FIRST attempt.**
+
+- **Before writing ANY text**: Verify spelling of every word in your mind before typing
+- **Verification method**: Before saving ANY file, mentally read each word and confirm spelling is correct
+- **If unsure about spelling**: Search the word to verify before writing it
+- **This rule is PRIORITY OVER ANY OTHER TASK** - never skip spelling verification
 
 ### Workflow
 
 1. **First**: Write the post normally following all this skill's rules.
-2. **Second**: Generate the image automatically (MANDATORY - don't ask)
+2. **Second**: Generate the image automatically (MANDATORY - don't ask), follow the image generation skill instructions.
 3. **Third**: Improve the post using the **SEO** skill to optimize:
    - Alt attributes on images
    - rel="nofollow noopener" on external links
