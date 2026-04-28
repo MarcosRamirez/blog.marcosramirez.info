@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/2026/wispr-flow-escritura-vocidad-nanobanana.webp
+image_alt: "Persona hablando al micrófono con icono de transcripción de voz por IA"
 image_alt: "Wispr Flow en un MacBook mostrando el teclado de voz con icono de micrófono, representando la escritura por voz"
 categories: [Tecnología, Productividad y Hacks]
 tags: [voz-a-texto, productividad, software, automatización, eficiencia, herramientas]

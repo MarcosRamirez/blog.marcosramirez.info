@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/2026/home-lab-filosofia-nanobanana.webp
+image_alt: "Servidores caseros en rack con luces LED, symbolizando el home lab"
 image_alt: "Rack de servidores casero con cables, LEDs parpadeantes, representando un Home Lab activo"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [privacidad, codigo-abierto, autoalojado, soberanía-digital, infraestructura, servidores]

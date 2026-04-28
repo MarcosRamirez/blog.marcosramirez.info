@@ -9,6 +9,7 @@ categories:
   - Tecnología
 tags: [linux, terminal, comandos, atajos, productividad]
 image: /assets/img/headers/2026/comandos-atajos-linux-desconoces-nanobanana.webp
+image_alt: "Terminal de Linux con comandos y atajos de teclado"
 image_alt: "Terminal de Linux con código en pantalla, mostrando atajos de teclado, estilo hacker"
 pin: false
 toc: true

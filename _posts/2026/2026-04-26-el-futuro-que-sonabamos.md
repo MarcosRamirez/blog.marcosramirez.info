@@ -10,6 +10,7 @@ categories:
   - Tecnología
 tags: [nostalgia, reflexion, historia, programacion]
 image: /assets/img/headers/2026/el-futuro-que-sonabamos-nanobanana.webp
+image_alt: "Ciudad futurista con tecnología avanzada y coches voladores"
 image_alt: "Antiguo PC de los 80s con pantalla de fósforo verde, simbolizando los inicios de la informática personal"
 toc: true
 twitter_description: "De programar en COBOL a tener un asistente de IA en el trastero. Los frikis de los 80s vivimos el futuro que soñabamos."

@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-11-25 08:50:00 +0100
 image: /assets/img/headers/2024/revolut-mi-nuevo-neobanco-de-cabecera-nanobanana.webp
+image_alt: "Logo de Revolut en móvil con tarjeta"
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false

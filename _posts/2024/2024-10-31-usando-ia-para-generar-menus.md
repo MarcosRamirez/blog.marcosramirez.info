@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-10-29 08:50:00 +0100
 image: /assets/img/headers/2024/usando-ia-para-generar-menus-nanobanana.webp
+image_alt: "IA generando menú semanal de comida"
 categories: [Tecnología, Inteligencia Artificial]
 tags: [Inteligencia Artificial, Automatización, Software y Apps]
 pin: false

@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-12-09 08:50:00 +0100
 image: /assets/img/headers/2024/enviar-mails-desde-otras-direcciones-o-alias-en-gmail-nanobanana.webp
+image_alt: "Gmail con múltiples cuentas de email"
 categories: [Tecnología]
 tags: [Software y Apps, automatizacion]
 pin: false

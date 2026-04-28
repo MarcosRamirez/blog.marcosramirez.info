@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-02-05 08:50:00 +0100
 image: /assets/img/headers/2024/curve-una-tarjeta-para-controlarlas-todas-pollinationsai.webp
+image_alt: "Tarjetas de crédito apiladas con logo de Curve"
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false

@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-04-18 08:30:00 +0200
 image: /assets/img/headers/2026/lucia-asistente-open-claw-nanobanana.webp
+image_alt: "Lucía, asistente de IA, como personaje digital conversando"
 image_alt: "Logo de OpenClaw con iconos de WhatsApp, Discord y Telegram, representando la integración multicanal de Lucía"
 categories: [Tecnología, Inteligencia Artificial, Productividad y Hacks]
 tags: [inteligencia-artificial, automatizacion, autoalojado, agentes, asistencia, chatbots]

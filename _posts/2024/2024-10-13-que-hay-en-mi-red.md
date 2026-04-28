@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-10-13 08:50:00 +0100
 image: /assets/img/headers/2024/network-nanobanana.webp
+image_alt: "Diagrama de red doméstica con servidores"
 categories: [Tecnología]
 tags: [Sistemas, Redes e Infraestructura]
 pin: false

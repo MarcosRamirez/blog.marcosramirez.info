@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2025-03-01 08:50:00 +0100
 image: /assets/img/headers/2025/lo-que-no-te-cuentan-sobre-agentes-de-inteligencia-artificial-ii-nanobanana.webp
+image_alt: "Agentes de IA avanzados trabajando en equipo"
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, desarrollo, tutorial, asistentes]
 pin: false

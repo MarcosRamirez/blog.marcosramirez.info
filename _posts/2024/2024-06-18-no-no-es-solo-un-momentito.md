@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-06-18 08:50:00 +0100
 image: /assets/img/headers/2024/no-es-solo-un-momentito-pollinationsai.webp
+image_alt: "Persona pensativa con icono de momento"
 categories: [Personal y Desarrollo Profesional]
 tags: [Reflexiones y Opinión, Productividad y Hacks]
 pin: false

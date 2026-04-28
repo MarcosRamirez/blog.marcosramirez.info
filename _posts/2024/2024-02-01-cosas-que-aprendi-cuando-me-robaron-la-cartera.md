@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2024-02-01 08:50:00 +0100
 image: /assets/img/headers/2024/cosas-que-aprendi-cuando-me-robaron-la-cartera-nanobanana.webp
+image_alt: "Cartera vacía con icono de aprendizaje"
 categories: [Personal y Desarrollo Profesional]
 tags: [Reflexiones y Opinión, Life Hacks]
 pin: false
