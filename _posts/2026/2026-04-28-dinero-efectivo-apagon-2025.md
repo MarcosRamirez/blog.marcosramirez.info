@@ -111,7 +111,7 @@ Esa noche aprendí que **el efectivo no es un residuo del pasado, es una herrami
 ## Herramientas útiles
 
 - **[Caja fuerte](https://amzn.to/4tOaPqs){:target="_blank" :rel="nofollow noopener"}**: Para guardar tu efectivo de emergencia.  
-- **Monedero RFID**: Para proteger tus tarjetas, pero lleva también efectivo.  
+- **[Monedero RFID](https://amzn.to/4mVVfXd){:target="_blank" :rel="nofollow noopener"}**: Para proteger tus tarjetas, pero lleva también efectivo.  
 - **App de finanzas**: [Firefly III](https://firefly-iii.org/){:target="_blank" :rel="nofollow noopener"} para hacer seguimiento de tu efectivo también.
 
 ## Conclusión
