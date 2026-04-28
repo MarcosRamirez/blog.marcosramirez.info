@@ -14,11 +14,6 @@
 - Formato: `<tipo>(<ámbito>): <emoji> <resumen>`
 -Tipos: `feat`, `fix`, `docs`, `style`, `refactor`, `content`
 
-## Categorías Normalizadas
-- Principales: `Tecnología`, `Finanzas Personales`, `Personal y Desarrollo Profesional`, `Productividad y Hacks`
-- Subcategorías: `Inteligencia Artificial`, `Software y Apps`, `Sistemas`, `Redes e Infraestructura`, `Desarrollo Web`, `Bancos y Fintech`, `Ahorro e Inversión`, `Automatización`, `Life Hacks`, `Metas y Resúmenes`, `Reflexiones y Opinión`, `Carrera Profesional`, `Recomendaciones`
-- NO usar "IA" → usar "Inteligencia Artificial"
-
 ## Skills
 - `.agents/skills/git` - Commits
 - `.agents/skills/copywriting` - Posts (author Lucía, front matter, programación)

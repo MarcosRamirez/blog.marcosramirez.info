@@ -4,13 +4,15 @@ description: Write and manage blog posts, including frontmatter, editorial calen
 ---
 
 # When writing a post, you must follow these rules:
-
+ 
 1. Read similar posts to understand style and format.
 2. Read all available skills to understand their functionality.
+   **→ AFTER READING: Summarize key data (categories, rules) in your response to memorize them**
 3. Once written, read all skills again to ensure you comply with all rules:
-   1. Ensure frontmatter follows jekyll skill rules.
-   2. Ensure all copywriting-links skill rules are met.
-   3. Ensure all SEO skill rules are met.
+   **→ BEFORE RE-READING: Check if you already know the info from step 2**
+    1. Ensure frontmatter follows jekyll skill rules.
+    2. Ensure all copywriting-links skill rules are met.
+    3. Ensure all SEO skill rules are met.
 
 ## Profile
 
@@ -58,9 +60,24 @@ Subcategories:
 - Reflexiones y Opinión
 - Carrera Profesional
 - Recomendaciones
-- Personal y Desarrollo Profesional
+- Desarrollo Profesional
 
 NOTE: Use "Inteligencia Artificial", NOT "IA".
+
+### ⚠️ CRITICAL: Remember These Categories
+**YOU MUST MEMORIZE these categories after reading this file. Do NOT re-read this section when asked about categories.**
+
+Main categories (exactly ONE per post):
+- Tecnología
+- Finanzas Personales
+- Personal
+- Productividad y Hacks
+
+Subcategories (add ALL relevant):
+- Inteligencia Artificial, Software y Apps, Sistemas, Redes e Infraestructura, Desarrollo Web
+- Bancos y Fintech, Ahorro e Inversión
+- Automatización, Life Hacks, Metas y Resúmenes
+- Reflexiones y Opinión, Carrera Profesional, Recomendaciones, Desarrollo Profesional
 
 ### Categorization Rules (MANDATORY)
 - Every post MUST have exactly ONE main category from: Tecnología, Finanzas Personales, Personal, Productividad y Hacks
@@ -88,6 +105,8 @@ NOTE: Use "Inteligencia Artificial", NOT "IA".
 - [ ] Checked: ¿Es sobre IA? → "Inteligencia Artificial" añadida
 - [ ] Checked: ¿Es sobre sistemas/self-hosting? → "Sistemas" añadida
 - [ ] Checked: ¿Es sobre desarrollo? → "Desarrollo Web" o "Software y Apps" añadida
+- [ ] `Personal` main category posts use Friday 08:30:00 +0200
+- [ ] Non-`Personal` posts use Monday 08:30:00 +0200
 
 ### Links (MANDATORY)
 
@@ -155,15 +174,17 @@ Incorrect example:
 
 **Tracking file:** The `.proximafecha` file in the project root is used to manage publication dates.
 
-1. **Read date:** Before creating a post, read the `.proximafecha` file and get the `proxima_fecha` value.
-2. **If the file doesn't exist:** Search recursively in `_posts/` (the post with the highest date), calculate the following Monday, and create the `.proximafecha` file.
-3. **Create post:** Use the `proxima_fecha` value in the new post's frontmatter.
-4. **Update file:** After creating the post, calculate the following Monday from the used date and update `.proximafecha`:
-   - `ultima_fecha` = date of the post you just created
-   - `proxima_fecha` = next free Monday
-5. **Day and Time:** All posts must be scheduled for **Monday at 08:30 (Madrid time)**.
+1. **Read date:** Before creating a post, read the `.proximafecha` file and get the `proxima_fecha` value (or `proxima_fecha_personal` for `Personal` main category posts).
+2. **If the file doesn't exist:** Search recursively in `_posts/` for the last post of each type, calculate the following Monday (general) or Friday (Personal), and create the `.proximafecha` file with both date pairs.
+3. **Create post:** Use the appropriate `proxima_fecha` value in the new post's frontmatter based on its main category.
+4. **Update file:** After creating the post, calculate the following Monday/Friday from the used date and update `.proximafecha`:
+   - General posts: `ultima_fecha` = date used, `proxima_fecha` = next free Monday
+   - Personal posts: `ultima_fecha_personal` = date used, `proxima_fecha_personal` = next free Friday
+5. **Day and Time:**
+   - General posts (non-Personal): **Monday at 08:30 (Madrid time)**
+   - `Personal` main category posts: **Friday at 08:30 (Madrid time)**
 6. **Date format:** `YYYY-MM-DD 08:30:00 +0200`
-7. **Custom date:** If the user indicates a specific date, use it directly.
+7. **Custom date:** If the user indicates a specific date, use it directly (overrides category-based rules).
 
 ### Publishing Drafts
 
@@ -192,7 +213,7 @@ date: 2026-04-24 09:00:00 +0200
 ```
 
 **Default date rules:**
-- If not specified: Monday at 08:30
+- If not specified: Monday at 08:30 (non-Personal), Friday at 08:30 (Personal main category)
 - If a date is specified: use that date
 - Default time: 08:30 (8:30am)
 - Custom time: use the time indicated by the user
@@ -258,7 +279,7 @@ This rule avoids publishing invented information about them, their Home Lab, pre
 ### Corrections
 
 - If you see `IA` → change to `Inteligencia Artificial`
-- If you see `Opinión` as main category → move to subcategory under `Personal y Desarrollo Profesional`
+- If you see `Opinión` as main category → move to subcategory under `Desarrollo Profesional`
 
 ### Spelling and Grammar - MANDATORY VERIFICATION
 
