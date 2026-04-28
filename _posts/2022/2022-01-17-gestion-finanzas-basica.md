@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2022-01-17 10:00:00 +0100
 image: /assets/img/headers/2022/finanzas-nanobanana.webp
+image_alt: "Gráfico de presupuesto y gestión financiera personal"
 categories: [Finanzas Personales]
 tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false

@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2022-02-01 08:50:00 +0100
 image: /assets/img/headers/2022/n26-mi-neo-banco-de-cabecera-nanobanana.webp
+image_alt: "Logo de N26 en móvil con tarjeta de débito"
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false
