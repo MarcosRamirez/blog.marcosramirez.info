@@ -58,7 +58,7 @@ Cuando pagas con tarjeta o móvil, **cada transacción queda registrada**: dónd
 
 Actualmente, más del 95% de las transacciones en países desarrollados son digitales. Cada pago con tarjeta, transferencia o app genera un rastro permanente. Bancos, procesadoras y cada vez más, gobiernos, tienen visibilidad total sobre tus hábitos financieros. Esta infraestructura de vigilancia ya está en su lugar, y solo el efectivo queda fuera del alcance de este panóptico financiero.
 
-#### El peligro de las [CBDC](https://www.ecb.europa.eu/paym/digital_euro/explanation/html/index.en.html?prefLang=es){:target="_blank" :rel="nofollow noopener"} (Monedas Digitales de Bancos Centrales)
+#### El peligro de las [CBDC](https://www.bde.es/wbe/es/areas-actuacion/politica-monetaria/preguntas-frecuentes/definicion-funciones-del-dinero/que-son-las-cbdc.html){:target="_blank" :rel="nofollow noopener"} (Monedas Digitales de Bancos Centrales)
 
 Más de 130 países (representando el 90% del PIB mundial) están desarrollando sus propias monedas digitales. A diferencia del efectivo, una CBDC otorga al banco central la capacidad de **monitorizar, congelar o redirigir cada transacción en tiempo real**. Pero lo más preocupante no es solo la vigilancia: el dinero programable permite:
 
