@@ -90,17 +90,22 @@ Ante este panorama, la diversificación de herramientas y la preparación técni
 | [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"} | 10$/mes (créditos) | Multiplicador 27x | Integración VSCode | Cierres de registro, créditos |
 | [Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} | 20$/mes (flat) | Acceso completo | IDE nativo | Precios estables por ahora |
 | [OpenCode](https://opencode.ai){:target="_blank" :rel="nofollow noopener"} | Variable | Flexible | CLI/Editor agnostic | Opción emergente |
-| [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} (Local) | Gratis (hardware) | Modelos locales | Configuración propia | Control total, sin créditos |
+| [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} (Local) | Gratis (hardware) | Modelos locales | CLI sencillo | Control total, sin créditos |
+| [LM Studio](https://lmstudio.ai/){:target="_blank" :rel="nofollow noopener"} (Local) | Gratis (hardware) | Modelos locales | GUI amigable | Ideal para principiantes |
 
 1. **[Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"}**: Actualmente una de las alternativas más populares. Aunque se espera que también ajuste sus precios, su enfoque en la experiencia de desarrollo (IDE nativo) y su capacidad para conectar con diferentes modelos siguen siendo atractivos. Mantente atento a sus anuncios post-1 de junio.
 
 2. **[OpenCode](https://opencode.ai){:target="_blank" :rel="nofollow noopener"}**: Una opción emergente que promete flexibilidad. Aunque su ecosistema es más joven, ofrece una alternativa interesante para quienes buscan escapar del monopolio de los grandes.
 
-3. **LLMs Locales**: La opción definitiva para el control de costes. Herramientas como [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} o LM Studio permiten ejecutar modelos de lenguaje directamente en tu máquina.
-
-¿Te interesa montar tu propio entorno local con [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"}? [Cuéntame](https://marcosramirez.info/contacto/){:target="_blank"} qué hardware tienes y te recomiendo la mejor configuración.
-   - **Ventajas**: Coste cero tras la inversión inicial en hardware, privacidad total, sin límites de tokens.
+3. **[Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"}**: La opción definitiva para el control de costes. Permite ejecutar modelos de lenguaje directamente en tu máquina vía CLI, ideal para automatización y scripts.
+   - **Ventajas**: Coste cero tras la inversión inicial en hardware, privacidad total, sin límites de tokens, integración fácil con herramientas de desarrollo.
    - **Desventajas**: Requiere hardware potente (GPU con buena VRAM) y los modelos locales, aunque potentes, aún no igualan la capacidad de razonamiento de los modelos frontera en la nube para tareas extremadamente complejas.
+
+4. **[LM Studio](https://lmstudio.ai/){:target="_blank" :rel="nofollow noopener"}**: Alternativa local con interfaz gráfica intuitiva. Perfecta si prefieres una experiencia visual para descargar, gestionar y ejecutar modelos locales sin tocar la terminal.
+   - **Ventajas**: Interfaz amigable, descarga de modelos con un clic, chat integrado, compatible con formatos GGUF.
+   - **Desventajas**: Menos flexible para integración en pipelines de desarrollo que Ollama, mismos requisitos de hardware.
+
+¿Te interesa montar tu propio entorno local con [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} o [LM Studio](https://lmstudio.ai/){:target="_blank" :rel="nofollow noopener"}? [Cuéntame](https://marcosramirez.info/contacto/){:target="_blank"} qué hardware tienes y te recomiendo la mejor configuración.
 
 ### Cómo prepararte para la inevitable subida de precios
 
