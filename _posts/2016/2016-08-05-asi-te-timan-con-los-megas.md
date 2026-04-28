@@ -9,9 +9,9 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, curiosidades]
 pin: false
 toc: true
-image: assets/img/headers/2016/megas.webp
-excerpt: >-
-  En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades que no obtenemos realmente. Desentraño la diferencia entre bits y bytes, explico por qué tu conexión de 100Mbps no baixa a 100MB/s, y por qué el técnico que vino a casa no sabía nada del asunto. Este post contiene información técnica y matemática básica que puede ampliar tu cultura informática.
+image: /assets/img/headers/2016/megas.webp
+image_alt: "Gráfico comparativo entre bits y bytes con iconos de velocidad"
+excerpt: "En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades que no obtenemos realmente."
 twitter_description: "Megabits vs Megabytes: la confusión técnica que usan las operadoras para timarte."
 permalink: /asi-te-timan-con-los-megas/
 ---
@@ -67,8 +67,22 @@ permalink: /asi-te-timan-con-los-megas/
 <p>Si queréis saber más, aquí tenéis la <a href="https://es.wikipedia.org/wiki/Prefijo_binario" target="_blank">tabla de prefijos binarios</a> (de base 10 y base 2, o decimales y binarios), donde descubriréis los "mebibytes" por ejemplo, ideal para que los cuñados la lien más aún.</p>
 <p>&nbsp;</p>
 
-<p>Compártelo si te ha gustado.</p>
+Compártelo si te ha gustado.
 
-<p>¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.</p>
+¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
 
-<p>Y... hasta aquí por hoy!</p>
+## FAQ
+
+> **1. Qué es un Megabit?**
+> Un Megabit (Mb) es una unidad de medida de velocidad de transmisión de datos. Equivale a 1.000.000 de bits.
+
+> **2. Qué es un MegaByte?**
+> Un MegaByte (MB) es una unidad de medida de almacenamiento. Equivale a 1.000.000 de bytes (8.000.000 de bits).
+
+> **3. Por qué me timan con los megas?**
+> Las operadoras venden "megas" (Mb) pero tu piensas en "megabytes" (MB). Al ser 8 veces menor, tu conexión de "100 megas" solo baixa 12,5 MB/s reales.
+
+> **4. Cómo calcular la velocidad real de descarga?**
+> Divide los Mbps entre 8. Ejemplo: 300 Mbps ÷ 8 = 37,5 MB/s reales de descarga máxima.
+
+Y... ¡hasta aquí por hoy!
