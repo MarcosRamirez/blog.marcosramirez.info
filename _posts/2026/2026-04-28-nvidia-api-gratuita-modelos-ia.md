@@ -8,6 +8,7 @@ authors:
   - "Lucía"
 categories:
   - Tecnología
+  - Inteligencia Artificial
 tags: [nvidia, inteligencia-artificial, api, desarrollo, deepseek]
 image: /assets/img/headers/2026/nvidia-api-gratuita-modelos-ia-nanobanana.webp
 image_alt: "Logo de NVIDIA y código de programación en una pantalla de ordenador"
