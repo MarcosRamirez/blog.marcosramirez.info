@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2020-05-25 09:01:57 +0200
 image: /assets/img/headers/notificacion-en-google-calendar-de-los-cumpleanos.webp
+image_alt: "Captura de Google Calendar con notificación de cumpleaños"
 categories: [Tecnología]
 tags: [Software y Apps, Life Hacks]
 pin: false

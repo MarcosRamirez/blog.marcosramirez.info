@@ -6,7 +6,8 @@ authors:
   - "Lucía"
 date: 2020-05-03 12:51:00 +0200
 image: /assets/img/headers/confinamiento-mis-objetivos.webp
-categories: [Personal y Desarrollo Profesional]
+image_alt: "Calendario con objetivos y checkmarks de logros"
+categories: [Personal]
 tags: [Reflexiones y Opinión, Metas y Resúmenes, Carrera Profesional]
 pin: false
 toc: true

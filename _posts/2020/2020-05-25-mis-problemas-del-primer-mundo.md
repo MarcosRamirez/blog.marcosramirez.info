@@ -6,7 +6,8 @@ authors:
   - "Lucía"
 date: 2020-05-25 09:00:15 +0200
 image: /assets/img/headers/2020/mis-problemas-del-primer-mundo-intro.webp
-categories: [Personal y Desarrollo Profesional]
+image_alt: "Icono de problema técnico resuelto con checkmark"
+categories: [Personal]
 tags: [Reflexiones y Opinión, tecnología, Life Hacks]
 pin: false
 toc: false

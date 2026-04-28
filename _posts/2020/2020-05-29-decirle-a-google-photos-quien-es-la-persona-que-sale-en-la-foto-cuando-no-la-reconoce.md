@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2020-05-29 17:21:57 +0200
 image: /assets/img/headers/decirle-a-google-photos.webp
+image_alt: "Captura de Google Photos con reconocimiento facial"
 categories: [Tecnología]
 tags: [Software y Apps, Life Hacks]
 pin: false
