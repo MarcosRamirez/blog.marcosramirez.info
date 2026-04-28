@@ -25,7 +25,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-La noticia ha caído como un jarro de agua fría para miles de desarrolladores: [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"} ha cerrado nuevos registros para sus planes Pro, Pro Plus y Student, y a partir del 1 de junio de 2026 dará por finalizada la era de las cuotas fijas. En su lugar, estrena un sistema de créditos mensuales con multiplicadores de consumo que alcanzan los 27x para modelos de alto rendimiento. No es un cambio menor, es una señal clara de que el modelo de negocio de la [Inteligencia Artificial](https://blog.marcosramirez.info/categoria/inteligencia-artificial/){:target="_blank"} está atravesando una transformación profunda.
+La noticia ha caído como un jarro de agua fría para miles de desarrolladores: [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"} ha cerrado nuevos registros para sus planes Pro, Pro Plus y Student, y a partir del 1 de junio de 2026 dará por finalizada la era de las cuotas fijas. En su lugar, estrena un sistema de créditos mensuales con multiplicadores de consumo que alcanzan los 27x para modelos de alto rendimiento. No es un cambio menor, es una señal clara de que el modelo de negocio de la [Inteligencia Artificial](https://blog.marcosramirez.info/categories/inteligencia-artificial/){:target="_blank"} está atravesando una transformación profunda.
 
 ## El fin de la era ilimitada en la IA para desarrollo
 
@@ -49,7 +49,7 @@ Si necesitas ayuda para evaluar cómo este cambio afecta a tu flujo de trabajo, 
 
 ### El contexto industrial: el fin de los precios "loss leader"
 
-El mercado de la [Inteligencia Artificial](https://blog.marcosramirez.info/categoria/inteligencia-artificial/){:target="_blank"} está madurando, y con ello llega la necesidad de rentabilidad. [OpenAI](https://openai.com/){:target="_blank" :rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" :rel="nofollow noopener"} y [Google](https://ai.google/){:target="_blank" :rel="nofollow noopener"} están abandonando progresivamente los planes de 20 dólares al mes "ilimitados" en favor de niveles de uso basados en consumo real.
+El mercado de la [Inteligencia Artificial](https://blog.marcosramirez.info/categories/inteligencia-artificial/){:target="_blank"} está madurando, y con ello llega la necesidad de rentabilidad. [OpenAI](https://openai.com/){:target="_blank" :rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" :rel="nofollow noopener"} y [Google](https://ai.google/){:target="_blank" :rel="nofollow noopener"} están abandonando progresivamente los planes de 20 dólares al mes "ilimitados" en favor de niveles de uso basados en consumo real.
 
 El análisis es claro: los modelos de lenguaje más potentes consumen recursos computacionales que un pago mensual plano no puede cubrir cuando el usuario hace un uso intensivo. Los proveedores se encuentran ante un dilema: o suben precios o quiebran el modelo de negocio. La industria está optando por la primera opción, y es muy probable que competidores directos como [Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} o [Windsurf](https://windsurf.com/){:target="_blank" :rel="nofollow noopener"} sigan esta misma estela de subidas de precios en los próximos meses.
 
