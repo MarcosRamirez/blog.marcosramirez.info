@@ -10,10 +10,11 @@ description: Write commit messages following Conventional Commits with Gitmojis.
 - **ALWAYS** include emoji at the start of the message
 - **NEVER** push unless I explicitly indicate so
 - **NEVER** commit without first reviewing with `git diff`
-- **ALWAYS** use this EXACT format: `<type>(<scope>): <emoji> <summary>`
+- **ALWAYS** use this EXACT format: `<type>(<scope>): <emoji> <summary>\n\n<body with change resume>`
 - **NEVER** use another commit format
 - **NEVER** make a commit for every relevant change in the code (batch related changes)
 - **NEVER** do `git push` on a WIP (work in progress)
+- **ALWAYS** include a commit body (separated from the summary line by an empty line) with a concise resume of all changes in the commit.
 
 ### WIP (Work in Progress)
 - A **WIP** is a work-in-progress commit to save intermediate changes that aren't ready to publish.
@@ -27,7 +28,14 @@ description: Write commit messages following Conventional Commits with Gitmojis.
 You are a Git expert that writes commit messages following the **Conventional Commits** convention with **Gitmojis**, adapted to a descriptive tone in English.
 
 ### Message Structure
-The format must be: `<type>(<scope>): <emoji> <summary>`
+The format must be: `<type>(<scope>): <emoji> <summary>` followed by an empty line and the commit body.
+
+Example structure:
+```
+<type>(<scope>): <emoji> <summary>
+
+<body with change resume>
+```
 
 ### Mapping Rules and Style
 - `fix`: 🐛 (Bug fixes, errors, minor changes)
@@ -39,57 +47,51 @@ The format must be: `<type>(<scope>): <emoji> <summary>`
 - `ui`: 🎯 (UI changes)
 - `wip`: 🛠️ (Work in progress - do NOT push)
 
-**IMPORTANT:** The emoji GOES AFTER THE COLONS, before the summary. Example: `fix(ui): 🎯 Moved share`
+**IMPORTANT:** The emoji GOES AFTER THE COLONS, before the summary. Example: `fix(ui): 🎯 Move share`
 
 ### Golden Rules
 1. **Language:** Always in **English**.
-2. **Tone:** Use **past participle** (NOT infinitive): "Fixed" (NOT "Fix"), "Added" (NOT "Add"), "Updated" (NOT "Update").
+2. **Tone:** Use **imperative mood** (NOT past participle/infinitive): "Fix" (NOT "Fixed"/"Fixing"), "Add" (NOT "Added"/"Adding"), "Update" (NOT "Updated"/"Updating").
 3. **Blog Posts:** For type `content`, don't invent a description, use the main title of the article being edited or created.
 4. **Length:** Keep the summary under 50 characters.
 5. **Single File Reference:** If only ONE file is modified, add the filename in parentheses right after the emoji. If MULTIPLE files are modified, do NOT include any filename.
 6. **File in Body:** When a single file is modified, add the filename at the END of the commit body (after one empty line).
 
 ### Commit Body Rules
-- If ONLY one file is modified: Add the filename in () right after the emoji in the summary line
-- If MULTIPLE files are modified: Do NOT add any filename in the summary
+- **MANDATORY for ALL commits**: Include a body section separated by an empty line from the summary
+- The body must summarize ALL changes made in the commit (in English, imperative mood)
+- Single file: Add filename in summary line AND in body footer (existing rule)
+- Multiple files: Body must cover changes across ALL modified files, preferably with bulleted points
+- Use bulleted points (-) for clarity when summarizing multiple changes
+
+### Golden Rules (continued)
+7. **Body:** Always summarize all changes in English using imperative mood, preferably with bulleted points for readability.
 
 ### Output Examples
 Single file:
-`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)`
+```
+fix(blog): 🐛 Fix post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)
+
+Update the date reference to match the new filename.
+(_posts/2026/2026-04-18-lucia-asistente-open-claw.md)
+```
 
 Multiple files:
-`docs(agents): 🌐 Translated copywriting skill to English`
+```
+docs(agents): 📝 Consolidate categories as Single Source of Truth
 
-With body (single file):
-`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)
-
-Updated the date reference to match the new filename.`
-
-Multiple files with body:
-`docs(agents): 🌐 Added image_alt as mandatory field in frontmatter
-
-Added image_alt requirement to both copywriting and SEO skills.`
-
-### Commit Body Rules
-- If ONLY one file is modified: Add the filename in () right after the emoji in the summary line
-- If MULTIPLE files are modified: Do NOT add any filename in the summary
-
-### Output Examples
-Single file:
-`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)`
-
-Multiple files:
-`docs(agents): 🌐 Translated copywriting skill to English`
-
-With body (single file):
-`fix(blog): 🐛 Fixed post_url in Lucía's post (_posts/2026/2026-04-18-lucia-asistente-open-claw.md)
-
-Updated the date reference to match the new filename.`
+- Move category definitions from AGENTS.md to copywriting skill
+- Update copywriting skill with memorize rules and Personal category date logic
+- Delete draft post and replace header image
+```
 
 Multiple files with body:
-`docs(agents): 🌐 Added image_alt as mandatory field in frontmatter
+```
+docs(agents): 🌐 Add image_alt as mandatory field in frontmatter
 
-Added image_alt requirement to both copywriting and SEO skills.`
+- Add image_alt requirement to copywriting skill
+- Update SEO skill to reference image_alt validation
+```
 
 ### Push Rules
 
