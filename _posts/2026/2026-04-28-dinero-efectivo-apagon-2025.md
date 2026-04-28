@@ -21,7 +21,7 @@ permalink: /:slug/
 
 ## Introducción
 
-Hoy, **28 de abril de 2026**, se cumple un año del [gran apagón eléctrico en España](https://www.infobae.com/espana/2025/04/29/apagon-en-espana-en-directo-ultima-hora-sobre-las-causas-el-reestablecimiento-del-servicio-y-la-incidencia-en-el-transporte/){:target="_blank" :rel="nofollow noopener"}. Un evento sin precedentes que dejó a millones de personas sin luz, sin comunicaciones y, por supuesto, sin poder usar sus tarjetas ni datáfonos.
+Hoy, **28 de abril de 2026**, se cumple un año del [gran apagón eléctrico en España](https://www.infobae.com/espana/2025/04/29/apagon-en-espana-en-directo-ultima-hora-sobre-las-causas-el-reestablecimiento-del-servicio-y-la-incidencia-en-el-transporte/){:target="_blank" rel="nofollow noopener"}. Un evento sin precedentes que dejó a millones de personas sin luz, sin comunicaciones y, por supuesto, sin poder usar sus tarjetas ni datáfonos.
 
 Ese día aprendimos una lección brutal: **la tecnología falla, pero el dinero en efectivo nunca falla**.
 
@@ -30,7 +30,7 @@ Ese día aprendimos una lección brutal: **la tecnología falla, pero el dinero 
 A las 12:33 del mediodía, una desconexión en la red de transporte eléctrico dejó a gran parte de la península Ibérica a oscuras. Pero no solo se fue la luz. Con ella se fueron:
 
 - **Datáfonos sin cobertura**: Las antenas de telefonía dependen de la red eléctrica.
-- **[TPVs](https://es.wikipedia.org/wiki/Terminal_punto_de_venta){:target="_blank" :rel="nofollow noopener"} fuera de servicio**: Sin electricidad, no hay transacciones.
+- **[TPVs](https://es.wikipedia.org/wiki/Terminal_punto_de_venta){:target="_blank" rel="nofollow noopener"} fuera de servicio**: Sin electricidad, no hay transacciones.
 - **Cajeros automáticos inoperativos**: Sin red, no hay conexión bancaria.
 - **Tiendas que no podían cobrar**: Muchos establecimientos tuvieron que cerrar porque sus TPVs no funcionaban.
 
@@ -58,7 +58,7 @@ Cuando pagas con tarjeta o móvil, **cada transacción queda registrada**: dónd
 
 Actualmente, más del 95% de las transacciones en países desarrollados son digitales. Cada pago con tarjeta, transferencia o app genera un rastro permanente. Bancos, procesadoras y cada vez más, gobiernos, tienen visibilidad total sobre tus hábitos financieros. Esta infraestructura de vigilancia ya está en su lugar, y solo el efectivo queda fuera del alcance de este panóptico financiero.
 
-#### El peligro de las [CBDC](https://www.bde.es/wbe/es/areas-actuacion/politica-monetaria/preguntas-frecuentes/definicion-funciones-del-dinero/que-son-las-cbdc.html){:target="_blank" :rel="nofollow noopener"} (Monedas Digitales de Bancos Centrales)
+#### El peligro de las [CBDC](https://www.bde.es/wbe/es/areas-actuacion/politica-monetaria/preguntas-frecuentes/definicion-funciones-del-dinero/que-son-las-cbdc.html){:target="_blank" rel="nofollow noopener"} (Monedas Digitales de Bancos Centrales)
 
 Más de 130 países (representando el 90% del PIB mundial) están desarrollando sus propias monedas digitales. A diferencia del efectivo, una CBDC otorga al banco central la capacidad de **monitorizar, congelar o redirigir cada transacción en tiempo real**. Pero lo más preocupante no es solo la vigilancia: el dinero programable permite:
 
@@ -110,9 +110,9 @@ Esa noche aprendí que **el efectivo no es un residuo del pasado, es una herrami
 
 ## Herramientas útiles
 
-- **[Caja fuerte](https://amzn.to/4tOaPqs){:target="_blank" :rel="sponsored nofollow noopener"}**: Para guardar tu efectivo de emergencia.  
-- **[Monedero RFID](https://amzn.to/4mVVfXd){:target="_blank" :rel="sponsored nofollow noopener"}**: Para proteger tus tarjetas, pero lleva también efectivo.  
-- **App de finanzas**: [Firefly III](https://amzn.to/43MOPxO){:target="_blank" :rel="sponsored nofollow noopener"} para hacer seguimiento de tu efectivo también.
+- **[Caja fuerte](https://amzn.to/4tOaPqs){:target="_blank" rel="sponsored nofollow noopener"}**: Para guardar tu efectivo de emergencia.  
+- **[Monedero RFID](https://amzn.to/4mVVfXd){:target="_blank" rel="sponsored nofollow noopener"}**: Para proteger tus tarjetas, pero lleva también efectivo.  
+- **App de finanzas**: [Firefly III](https://amzn.to/43MOPxO){:target="_blank" rel="sponsored nofollow noopener"} para hacer seguimiento de tu efectivo también.
 
 ## Conclusión
 
