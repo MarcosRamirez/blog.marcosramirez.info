@@ -29,11 +29,11 @@ Listado de empresas que te regalan 100€ o más por registrarte o contratar sus
 
 ## 1.- Fiverrs
 
- [Fiverr](https://www.fiverr.com/s2/f2c677aae2){:target="_blank" :rel="nofollow noopener"} es una las plataformas para Freelance que uso tanto para contratar a gente, como para buscar trabajos, desde este link conseguirás hasta 100€ en descuentos para contratar a cualquier profesional. (resto de conficiones y ventajas en la web)
+ [Fiverr](https://www.fiverr.com/s2/f2c677aae2){:target="_blank" rel="nofollow noopener"} es una las plataformas para Freelance que uso tanto para contratar a gente, como para buscar trabajos, desde este link conseguirás hasta 100€ en descuentos para contratar a cualquier profesional. (resto de conficiones y ventajas en la web)
 
 ## 2.- SweatCoin
 
- [SweatCoin](https://sweatco.in/ws/immarcosramirez){:target="_blank" :rel="nofollow noopener"} ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo. (resto de conficiones y ventajas en la web)
+ [SweatCoin](https://sweatco.in/ws/immarcosramirez){:target="_blank" rel="nofollow noopener"} ***NO ES UNA CRYPTO***, es una aplicación que, literalmente, te paga por caminar, la llevo usando unos 3 años, y aunque evidentemente no vas a ganar mucho, puedes sacar un pico, que yo personalmente, uso para fin de año. Si caminas de manera regular, te recomiendo echarle un vistazo. (resto de conficiones y ventajas en la web)
 
 # 50€ (o menos)
 
@@ -41,14 +41,14 @@ Listado de empresas que te regalan 50€ o menos por registrarte o contratar sus
 
 ## 1.- Revolut 
 
-[Revolut](https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1){:target="_blank" :rel="nofollow noopener"}
+[Revolut](https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1){:target="_blank" rel="nofollow noopener"}
  Es el Neobanco que estoy usando en 2024, sigue sin tener todo lo que quiero, pero es a día de hoy, la mejor opción que he encontrado.
 
 Dan 40€ por cada nueva alta*.
 
 <u>Pero debes tener en cuenta que <b>SOLO TIENES hasta el 31 de Diciembre de 2024</b> para completar los siguientes pasos</u>:
 
-1. Darte de alta en [Revolut](https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1){:target="_blank" :rel="nofollow noopener"} (desde [este enlace](https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1){:target="_blank" :rel="nofollow noopener"})
+1. Darte de alta en [Revolut](https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1){:target="_blank" rel="nofollow noopener"} (desde [este enlace](https://revolut.com/referral/?referral-code=marcos6jla!DEC1-24-AR-L1){:target="_blank" rel="nofollow noopener"})
 2. Ingresar al menos 25€
   Puedes hacerlo con una transferencia bancaria, o una tarjeta de crédito o débito.
 3. Pedir la tarjeta
@@ -65,11 +65,11 @@ Listado de empresas que te regalan 30€ o menos por registrarte o contratar sus
 
 <del>## 1.- TasteIt
 
-Si te registras en [TasteIt](https://tasteit.es/?referral=marcosramirez){:target="_blank" :rel="nofollow noopener"} con el código "marcosramirez" (sin las comillas), obtendrás 30€ de descuento en tus tres primeras compras, divididos en 10€ por compra.
+Si te registras en [TasteIt](https://tasteit.es/?referral=marcosramirez){:target="_blank" rel="nofollow noopener"} con el código "marcosramirez" (sin las comillas), obtendrás 30€ de descuento en tus tres primeras compras, divididos en 10€ por compra.
 </del>
 ## 1.- Dia
 
-Si te registras en [Supermercado Día](https://rfrn.page.link/uuPRLT87QGHhBZzT6){:target="_blank" :rel="nofollow noopener"} desde [este enlace](https://rfrn.page.link/uuPRLT87QGHhBZzT6){:target="_blank" :rel="nofollow noopener"}, obtendrás 20€ de descuento en tu primera compra
+Si te registras en [Supermercado Día](https://rfrn.page.link/uuPRLT87QGHhBZzT6){:target="_blank" rel="nofollow noopener"} desde [este enlace](https://rfrn.page.link/uuPRLT87QGHhBZzT6){:target="_blank" rel="nofollow noopener"}, obtendrás 20€ de descuento en tu primera compra
 # 10€ (o menos)
 
 Listado de empresas que te regalan 10€ o menos por registrarte o contratar sus servicios
@@ -83,24 +83,24 @@ Listado de empresas que te regalan 5€ o menos por registrarte o contratar sus 
 
 ## 1.- verse
 
-[Verse](https://verse.me/invite/MTHTVT){:target="_blank" :rel="nofollow noopener"} Para quien no lo conozca, [verse](https://verse.me/$marcosramirez){:target="_blank" :rel="nofollow noopener"} es una alternativa a Bizum, que regala 5€ por cada nuevo usuario, además de que hace concursos en los que reparte 400€ entre los usuarios bastante a menudo (resto de conficiones y ventajas en la web)
+[Verse](https://verse.me/invite/MTHTVT){:target="_blank" rel="nofollow noopener"} Para quien no lo conozca, [verse](https://verse.me/$marcosramirez){:target="_blank" rel="nofollow noopener"} es una alternativa a Bizum, que regala 5€ por cada nuevo usuario, además de que hace concursos en los que reparte 400€ entre los usuarios bastante a menudo (resto de conficiones y ventajas en la web)
 
 
 ## 2.- Curve
 
-[Curve](https://www.curve.com/join#N9JYMP8D){:target="_blank" :rel="nofollow noopener"} No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.(resto de conficiones y ventajas en la web)
+[Curve](https://www.curve.com/join#N9JYMP8D){:target="_blank" rel="nofollow noopener"} No solo te ofrece 5€ de regalo por registrarte, además, te da un 1% de Cashback en todos tus pagos con tarjeta.(resto de conficiones y ventajas en la web)
 
 
 ## 3.- N26 
 
-[N26](https://n26.com/r/marcosr8764){:target="_blank" :rel="nofollow noopener"} Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. (resto de conficiones y ventajas en la web)
+[N26](https://n26.com/r/marcosr8764){:target="_blank" rel="nofollow noopener"} Es, desde 2022, mi banco principal, dado que me ofrece muchas funcionalidades que em ayudan a ahorar tiempo y dinero, además, te da 5€ al registrarte. (resto de conficiones y ventajas en la web)
 
 ## 4.- Google Opinion Rewards
 
-[Google Opinion Rewards](https://googleopinionrewardsrefer.page.link/?apn=com.google.android.apps.paidtasks&ibi=com.google.paidtasks&isi=1227019728&link=https%3A%2F%2Fsurveys.google.com%2Fgoogle-opinion-rewards%2Freferrer_code%3DN2NKSNQ5&utm_source=gor_share_android_referral){:target="_blank" :rel="nofollow noopener"}, es el programa de recompensas de Google, por tu opinion, paga unos céntimos por cada una, pero puede ser suficiente para, por ejemplo, que Google One te salga gratis algún mes al año.
+[Google Opinion Rewards](https://googleopinionrewardsrefer.page.link/?apn=com.google.android.apps.paidtasks&ibi=com.google.paidtasks&isi=1227019728&link=https%3A%2F%2Fsurveys.google.com%2Fgoogle-opinion-rewards%2Freferrer_code%3DN2NKSNQ5&utm_source=gor_share_android_referral){:target="_blank" rel="nofollow noopener"}, es el programa de recompensas de Google, por tu opinion, paga unos céntimos por cada una, pero puede ser suficiente para, por ejemplo, que Google One te salga gratis algún mes al año.
 
 ## 5.- Cabify
-[Cabify](https://cabify.com/i/marcosr2147){:target="_blank" :rel="nofollow noopener"} Te regala 3€ para tus siguentes tres carreras (resto de conficiones y ventajas en la web)
+[Cabify](https://cabify.com/i/marcosr2147){:target="_blank" rel="nofollow noopener"} Te regala 3€ para tus siguentes tres carreras (resto de conficiones y ventajas en la web)
 
 
 Compártelo si te ha gusta. ¿Conoces alguna promoción adicional? Compártelo.
