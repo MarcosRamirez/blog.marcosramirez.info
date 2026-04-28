@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2022-01-02 08:50:00 +0100
 image: /assets/img/headers/2022/como-ahorro-nanobanana.webp
+image_alt: "Gráfico de ahorro con monedas y gráfico de progresso"
 categories: [Finanzas Personales]
 tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false

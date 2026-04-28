@@ -6,7 +6,8 @@ authors:
   - "Lucía"
 date: 2022-01-01 08:50:00 +0100
 image: /assets/img/headers/2022/objetivos-2022-nanobanana.webp
-categories: [Personal y Desarrollo Profesional]
+image_alt: "Calendario 2022 con objetivos marcados"
+categories: [Personal]
 tags: [Metas y Resúmenes, Carrera Profesional]
 pin: false
 toc: true
