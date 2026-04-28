@@ -36,6 +36,50 @@ authors:
 
 You must write ***ALWAYS*** in CASTILIAN (Spanish from Spain), you can include English technical terms, but keep Spanish as the main language.
 
+### Emoji Usage Guidelines
+
+Emojis are permitted in posts when they enhance readability and align with the blog's tone. Follow these mandatory rules:
+
+**In Titles:**
+- Use at most ONE emoji, placed at the start of the title (never at the end)
+- Appropriate use cases:
+  - Warnings/critical topics: ⚠️
+  - Finance/money posts: 💰/💸
+  - AI/tech opinions: 🤖/💡
+  - Tutorials: 🔧
+- Prohibited: Formal announcements, technical documentation, or posts with strict professional tone.
+
+**In Content:**
+- Timeline/chronology posts: Use 📅 before every date entry, followed by a single space: `📅 3 de febrero:`
+- Warnings/critical notes: Use ⚠️ before the note, followed by a space
+- Bullet points: Use emojis only for visual lists in casual/personal posts, never in technical tutorials
+- Limit to 1-2 emojis per paragraph maximum.
+
+**Spacing Rules:**
+- Always add a single space after an emoji before adjacent text: `📅 21 de abril:` (correct) vs `📅21 de abril:` (incorrect)
+- Emojis at the end of a sentence require no extra spacing: `¡Qué divertido! 🎉`
+
+**Approved Emoji Reference (Topic-Aligned):**
+| Topic | Approved Emojis |
+|-------|-----------------|
+| Warnings/Critical | ⚠️, 🚨, 🛑 |
+| Dates/Timeline | 📅 (only, for consistency) |
+| Finance/Money | 💰, 💸, 💳, 📊 |
+| AI/Technology | 🤖, 🧠, 💻, 🚀 |
+| Success/Completion | ✅, 🎉, 🏆 |
+| Code/Development | 🔧, 🐛, ⚡ |
+| Personal/Casual | 🤷, 😂, 🎯 (limit to 1x per post) |
+
+**Emojis to Avoid:**
+- Multiple repeating emojis (e.g., 💸💸💸) except for strong emphasis in casual personal posts
+- Obscure/uncommon emojis that may not render on all devices
+- Overly casual/emotionally charged emojis (💩, 🤡) in professional/technical posts
+- Relying solely on emojis to convey meaning (always include accompanying text)
+
+**Accessibility:**
+- Screen readers announce emojis as their description; use sparingly
+- Never use emojis as the only way to communicate critical information
+
 ### Categories (Single Source of Truth)
 
 **⚠️ ALL other skills must reference this section. Do NOT duplicate this list elsewhere.**
@@ -107,6 +151,7 @@ Subcategories (add ALL relevant):
 - [ ] Checked: ¿Es sobre desarrollo? → "Desarrollo Web" o "Software y Apps" añadida
 - [ ] `Personal` main category posts use Friday 08:30:00 +0200
 - [ ] Non-`Personal` posts use Monday 08:30:00 +0200
+- [ ] Verified emoji usage follows Emoji Usage Guidelines
 
 ### Links (MANDATORY)
 

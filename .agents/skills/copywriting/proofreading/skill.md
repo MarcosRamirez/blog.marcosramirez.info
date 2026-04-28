@@ -31,11 +31,28 @@ The blog is written in a **casual but informed tone** — like a knowledgeable f
 - Do NOT replace anglicisms with forced Spanish translations if it would sound unnatural
 - Correct false anglicisms or incorrect uses (e.g. "realizar" used as direct translation of "to perform" when it doesn't fit naturally)
 
+### Emoji usage (per Emoji Usage Guidelines)
+- Verify all emojis follow the Emoji Usage Guidelines from the copywriting skill
+- Check spacing: exactly one space after emoji before adjacent text (e.g., `📅 3 febrero` ✅, `📅3 febrero` ❌)
+- Title-specific checks:
+  - Max 1 emoji per title, placed only at the start (never at the end)
+  - No emojis in formal/technical post titles
+- Content-specific checks:
+  - Use 📅 for all date/timeline entries (no mixing with ⏰, 🗓️ etc.)
+  - Limit to 1-2 emojis per paragraph maximum
+  - No repeating emojis (e.g., 💸💸💸) except in casual personal posts
+- Prohibited emoji checks:
+  - Obscure/uncommon emojis that may not render on all devices
+  - Overly casual emojis (💩, 🤡) in professional/technical posts
+  - Emojis used as the sole way to convey critical meaning
+- Accessibility: Verify emojis complement (not replace) accompanying text
+
 ### Markdown
 - Do NOT modify markdown formatting (headers, bold, italic, lists, tables, code blocks)
 - Do NOT modify Liquid tags (`{% post_url %}`, `{{ }}`, etc.)
 - Do NOT modify URLs or link targets
 - Do NOT modify frontmatter fields except `title`, `excerpt`, and `twitter_description` if they contain errors
+- Do NOT modify emojis inside code blocks, Liquid tags, or URLs
 
 ## What NOT to change
 - The author's voice and personal style
@@ -43,6 +60,7 @@ The blog is written in a **casual but informed tone** — like a knowledgeable f
 - Technical explanations — do not rephrase if you are not 100% sure the meaning is preserved
 - Opinions and arguments — only fix how they are expressed, not what they say
 - Frontmatter fields: `slug`, `date`, `image`, `categories`, `tags`, `permalink`, `toc`, `pin`
+- Emojis that comply with the Emoji Usage Guidelines (do not remove or modify compliant emojis)
 
 ## Output format
 
@@ -56,7 +74,7 @@ List every change made in this format:
 
 - **[Tipo]** `texto original` → `texto corregido` — _motivo_
 
-Types: `Ortografía`, `Gramática`, `Estilo`, `Claridad`, `Puntuación`, `Repetición`
+Types: `Ortografía`, `Gramática`, `Estilo`, `Claridad`, `Puntuación`, `Repetición`, `Emojis`
 
 If no changes were needed, say: "No se han encontrado errores."
 
@@ -69,3 +87,7 @@ If no changes were needed, say: "No se han encontrado errores."
 | "N8N tiene nodos de IA integrados. N8N permite..." | "N8N tiene nodos de IA integrados. Permite..." | Repetición | Repeated subject in consecutive sentences |
 | "en el momento en el que lo instalas" | "cuando lo instalas" | Claridad | Redundant phrase |
 | "excellent" | "excelente" | Ortografía | English word used instead of Spanish |
+| "📅3 febrero: Lanzamiento" | "📅 3 febrero: Lanzamiento" | Emojis | Missing space after emoji |
+| "💸💸💸 Gasté mucho" | "💸 Gasté mucho" | Emojis | Repeating emojis in non-casual post |
+| "Título de post ⚠️" | "⚠️ Título de post" | Emojis | Emoji moved from end to start of title |
+| "Usamos 🤡 para testing" | "Usamos herramientas de testing" | Emojis | Overly casual emoji in technical post |
