@@ -5,13 +5,13 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2017-04-14 16:37:03 +0200
-image: //assets/img/headers/2017/netflix.webp
+image: /assets/img/headers/2017/netflix.webp
+image_alt: "Logo de Netflix en pantalla de smart TV"
 categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: >-
-  Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, destacando tanto sus aciertos técnicos como sus fallos de UX que carry años sin solucionarse. En este post propongo mejoras concretas para la gestión de las listas de visualización, el molesto aviso de "¿Sigues ahí?" y la integración con Chromecast.
+excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, proponiendo mejoras concretas para la gestión de listas."
 twitter_description: "Crítica de UX a Netflix: listado, Chromecast, avisos y más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
@@ -56,4 +56,18 @@ Compártelo si te ha gustado.
 
 ¿Has probado algo similar? Cuéntame tu opinión.
 
-Y... hasta aquí por hoy!
+## FAQ
+
+> **1. Netflix permite crear listas personalizadas?**
+> Sí, pero la gestión es básica. Solo puedes crear una lista "Mi lista" y reordenar manualmente, sin carpetas o etiquetas.
+
+> **2. El aviso "Sigues ahí?" se puede desactivar?**
+> No hay opción oficial para desactivarlo. Solo puedes pulsar "Seguir viendo" antes de que aparezca.
+
+> **3. Funciona Chromecast con Netflix en todos los dispositivos?**
+> Sí, pero la calidad depende de la velocidad de tu conexión. Recomienda al menos 25 Mbps para 4K.
+
+> **4. Netflix guarda el historial de visualización automáticamente?**
+> Sí, y no se puede borrar historial desde la app móvil, solo desde navegador.
+
+Y... ¡hasta aquí por hoy!

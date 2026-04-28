@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-04-28 09:16:35 +0200
 image: /assets/img/headers/google-voice-access.webp
+image_alt: "Logo de Google Voice Access en Android"
 categories: [Tecnología, Software y Apps]
 tags: [google, android, review, accesibilidad]
 pin: false

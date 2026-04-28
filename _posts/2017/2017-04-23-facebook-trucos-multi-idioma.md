@@ -6,12 +6,12 @@ authors:
   - "Lucía"
 date: 2017-04-23 15:04:47 +0200
 image: /assets/img/headers/2017/facebook.webp
+image_alt: "Logo de Facebook en móvil y escritorio"
 categories: [Tecnología, Software y Apps]
 tags: [facebook, trucos, tutorial, redes sociales]
 pin: false
 toc: false
-excerpt: >-
-  En este post explico cómo configurar Facebook para gestionar múltiples idiomas. Descubrirás cómo eliminar el aviso de traducción para los idiomas que hablas, configurar traducciones automáticas para otros idiomas, y la posibilidad de crear publicaciones en varios idiomas simultáneamente.
+excerpt: "En este post explico cómo configurar Facebook para gestionar múltiples idiomas: eliminar avisos de traducción, activar automáticas y publicar en varios idiomas."
 twitter_description: "Facebook permite gestionar idiomas: eliminar avisos de traducción, activar automáticas y publicar en varios idiomas."
 permalink: /facebook-trucos-multi-idioma/
 ---

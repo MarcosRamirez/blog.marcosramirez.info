@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-04-29 09:02:59 +0200
 image: /assets/img/headers/gboard-tutorial.webp
+image_alt: "Logo de Gboard, el teclado de Google para Android"
 categories: [Tecnología, Software y Apps]
 tags: [google, gboard, android, tutorial, review]
 pin: false

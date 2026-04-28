@@ -6,12 +6,12 @@ authors:
   - "Lucía"
 date: 2017-04-22 11:34:34 +0200
 image: /assets/img/headers/2017/netflix.webp
+image_alt: "Logo de Netflix en pantalla de smart TV"
 categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: >-
-  Segunda parte de mi análisis sobre la experiencia de usuario en Netflix, donde me centro en problemas más técnicos que la primera entrega. Abordo los problemas de navegación horizontal en la web, la falta de indicadores de idioma claros, las diferencias entre el reproductor móvil y el de PC, y la oportunidad perdida de su API pública.
+excerpt: "Segunda parte de mi análisis sobre la experiencia de usuario en Netflix, donde me centro en problemas técnicos de navegación, idiomas y reproductores."
 twitter_description: "Netflix UX II: navegación, idiomas, reproductor móvil y API cerrada."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor-ii/
 ---

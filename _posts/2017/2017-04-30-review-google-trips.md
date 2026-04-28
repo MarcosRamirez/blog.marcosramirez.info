@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-04-30 12:53:56 +0200
 image: /assets/img/headers/google-trips.webp
+image_alt: "Logo de Google Trips para planificación de viajes"
 categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, review, viajes]
 pin: false

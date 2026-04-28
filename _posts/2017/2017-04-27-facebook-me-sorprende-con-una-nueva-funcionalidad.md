@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-04-27 18:58:16 +0200
 image: /assets/img/headers/2017/facebook.webp
+image_alt: "Logo de Facebook Beta en móvil"
 categories: [Tecnología, Software y Apps]
 tags: [facebook, beta, novedades]
 pin: false
