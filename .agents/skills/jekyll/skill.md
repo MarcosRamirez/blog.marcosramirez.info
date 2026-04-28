@@ -165,6 +165,31 @@ Recommended width: 1500px.
 
 Use the create-images skill to generate images with AI.
 
+## Kramdown Link Format
+
+Jekyll uses Kramdown as its Markdown parser. The correct format for links with attributes is:
+
+```markdown
+[Text](url){:target="_blank" rel="attribute"}
+```
+
+**CRITICAL:** Do NOT put a colon (`:`) before `rel` or other attributes inside the braces.
+
+**Correct:**
+```markdown
+[Link](https://example.com){:target="_blank" rel="nofollow noopener"}
+```
+
+**Incorrect:**
+```markdown
+[Link](https://example.com){:target="_blank" :rel="nofollow noopener"}
+```
+
+**Special case - Amazon Affiliate Links:**
+```markdown
+[Text](https://amzn.to/xxxxx){:target="_blank" rel="sponsored nofollow noopener"}
+```
+
 ## Liquid Tags
 
 ### Internal Links (between posts)
