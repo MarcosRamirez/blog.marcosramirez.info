@@ -61,8 +61,9 @@ Example structure:
 - **MANDATORY for ALL commits**: Include a body section separated by an empty line from the summary
 - The body must summarize ALL changes made in the commit (in English, imperative mood)
 - Single file: Add filename in summary line AND in body footer (existing rule)
-- Multiple files: Body must cover changes across ALL modified files, preferably with bulleted points
-- Use bulleted points (-) for clarity when summarizing multiple changes
+- Multiple files: Body must cover changes across ALL modified files
+- **Use bulleted points (-) for clarity when summarizing multiple changes**
+- **For multiple files: Put the FULL FILENAME PATH before the changes description for each file**
 
 ### Golden Rules (continued)
 7. **Body:** Always summarize all changes in English using imperative mood, preferably with bulleted points for readability.
@@ -78,19 +79,20 @@ Update the date reference to match the new filename.
 
 Multiple files:
 ```
-docs(agents): 📝 Consolidate categories as Single Source of Truth
-
-- Move category definitions from AGENTS.md to copywriting skill
-- Update copywriting skill with memorize rules and Personal category date logic
-- Delete draft post and replace header image
+docs(agents): 📝 Update SEO and copywriting skills
 ```
 
-Multiple files with body:
+Multiple files with body (detailed resume):
 ```
-docs(agents): 🌐 Add image_alt as mandatory field in frontmatter
+docs(agents): 📝 Update SEO and copywriting skills
 
-- Add image_alt requirement to copywriting skill
-- Update SEO skill to reference image_alt validation
+- _posts/2026/2026-04-28-dinero-efectivo-apagon-2025.md:
+  - Fix broken RTVE link to Infobae source
+  - Add Amazon affiliate links to caja fuerte and monedero RFID
+  - Update CBDC link to Bank of Spain
+- .agents/skills/SEO/skill.md:
+  - Add rel=sponsored rule for Amazon links
+  - Fix Kramdown format (remove colon before rel)
 ```
 
 ### Push Rules
