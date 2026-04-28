@@ -62,7 +62,7 @@ La landing debe decir: *"Sí, estás en el lugar correcto para encontrar el libr
 
 Muchos no comprarán hoy. Pero su intención de leer el libro sigue ahí. Capture esa intención:
 
-> "Déjame avisarte cuando el libro esté gratis en Kindle Unlimited"
+> "Dejame avisarte cuando el libro esté gratis en Kindle Unlimited"
 
 ### 4. Monetizar la intención relacionada
 
@@ -107,7 +107,7 @@ Ofrece opciones según la intención: compra (afiliados), lectura gratuita (enla
 
 ¿Tienes un sitio web que recibe tráfico con intención específica? Me encantaría conocer tu experiencia: ¿cómo estás aprovechando ese tráfico? ¿Qué resultados has obtenido?
 
-Déjame un comentario abajo o escríbeme directamente. También puedes revisar mi experimento en vivo en [marcosramirez.info](https://marcosramirez.info/){:target="_blank"}.
+Dejame un comentario abajo o escríbeme directamente. También puedes revisar mi experimento en vivo en [marcosramirez.info](https://marcosramirez.info/){:target="_blank"}.
 
 Compártelo si te ha gustado.
 

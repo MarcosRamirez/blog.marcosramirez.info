@@ -124,7 +124,7 @@ En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-pr
 > Sí, es código abierto con una comunidad activa. Los contenedores LXC ofrecen aislamiento entre servicios.
 
 ***
-¿Te usas Proxmox? ¿Tienes alguna duda sobre virtualización? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Te usas Proxmox? ¿Tienes alguna duda sobre virtualización? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
 
 Compártelo si te ha liked.
 

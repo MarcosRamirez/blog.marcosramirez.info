@@ -76,7 +76,7 @@ Y ahora muchos diréis, si... claro, a ver donde encuentras un alquiler de 450�
 Bien, perfecto, **HAZ Y AJUSTA TU PRESUPUESTO**, cambia porcentajes de las partidas, no gastes en todas las partidas todos los meses, etc...
 Para esto es un presupuesto, para manejar y saber de antemano cuanto puedes gastar en cada cosa.
 
-¿Siguen sin salirte las cuentas?, no pasa nada **sigue leyendo**. En los siguientes puntos, encontrarás las respuestas, y si no es así **déjame un comentario**.
+¿Siguen sin salirte las cuentas?, no pasa nada **sigue leyendo**. En los siguientes puntos, encontrarás las respuestas, y si no es así **Dejame un comentario**.
 
 En [este enlace](https://docs.google.com/spreadsheets/d/1ihJTOEmGWtsu_mtTE6r3qT3M14NwVWm40gLEeNEhoX0/edit?usp=sharing){:target="_blank"} te dejo una plantilla de Google Sheets, que puedes usar como base para organizar tu presupuesto, y tener incluso una visión global a año vista.
 Espero que te sea de utilidad.

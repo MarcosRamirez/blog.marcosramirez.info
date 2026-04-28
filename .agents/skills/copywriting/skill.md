@@ -290,6 +290,23 @@ This rule avoids publishing invented information about them, their Home Lab, pre
 - **If unsure about spelling**: Search the word to verify before writing it
 - **This rule is PRIORITY OVER ANY OTHER TASK** - never skip spelling verification
 
+### Common Spelling Errors (Always Verify)
+- "analysando" → "analizando"
+- "anyadido" → "añadido"
+- "deixa" → "deja"
+- "funcionaba" → "funcionaba"
+- "Déja" → "Deja" (NOT "Déja" - wrong accent)
+- "tú" (pronoun) vs "tu" (possessive)
+- "él" (pronoun) vs "el" (article)
+- "mí" (pronoun) vs "mi" (possessive)
+- "haber" (NOT "aver")
+- "por qué" (separated in questions) vs "porque" (joined as cause) vs "porque" (conjunction)
+- "sino" (NOT "sino" as adversative conjunction)
+- Verify accents: "técnico", "público", "último", "éste", "ése", etc.
+- Use "wifi" (not "wi-fi" nor "Wifi")
+- Proper names of companies/apps in original form: "ChatGPT", "Notion", "Slack" (don't translate)
+- **NEVER use HTML entities** (like &aacute;, &eacute;, &iacute;, &oacute;, &uacute;, &ntilde;, &iquest;, etc.). Always write with normal UTF-8 characters (á, é, í, ó, ú, ñ, ¿).
+
 ### Workflow
 
 1. **First**: Write the post normally following all this skill's rules.

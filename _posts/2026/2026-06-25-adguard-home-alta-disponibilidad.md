@@ -101,6 +101,6 @@ Si no quieres mantener nada y te sirve la nube.
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre poner dos nodos? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre poner dos nodos? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!

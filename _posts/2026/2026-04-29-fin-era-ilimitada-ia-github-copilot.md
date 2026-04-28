@@ -121,7 +121,7 @@ Por ahora, [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"
 **¿Son los LLMs locales una alternativa viable para desarrollo profesional?**
 Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de razonamiento de los modelos frontera para tareas extremadamente complejas. Son ideales para tareas rutinarias, mientras que los modelos en la nube siguen siendo mejores para arquitectura y debugging avanzado.
 
-¿Has probado ya alguna alternativa a [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? [Déja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu experiencia.
+¿Has probado ya alguna alternativa a [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? [Deja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu experiencia.
 
 - **Diversifica tus herramientas**: No pongas todos los huevos en la cesta de [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}. Aprende a usar [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} o configura [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} para tareas que no requieran modelos de máxima potencia.
 - **Experimenta con modelos locales**: Instala [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} y prueba modelos como Llama 3 o Mistral. Evalúa si el rendimiento es suficiente para tu flujo de trabajo diario.
@@ -130,6 +130,6 @@ Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de raz
 
 Compártelo si te ha gustado.
 
-¿Qué opinas de este cambio de modelo en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? ¿Crees que otras herramientas como [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} seguirán el mismo camino? [Déja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu opinión.
+¿Qué opinas de este cambio de modelo en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? ¿Crees que otras herramientas como [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} seguirán el mismo camino? [Deja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu opinión.
 
 Y... ¡hasta aquí por hoy!

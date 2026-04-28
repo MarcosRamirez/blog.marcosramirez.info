@@ -81,7 +81,7 @@ Mientras el modelo de negocio siga exprimiendo la cartera del suscriptor base a 
 > Si consumes mucho contenido y quieres tener todo unificado, sí. En 6-12 meses recuperas la inversión comparado con streamings.
 
 ***
-Si te ha liked, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+Si te ha liked, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
 
 Compártelo si te ha liked.
 

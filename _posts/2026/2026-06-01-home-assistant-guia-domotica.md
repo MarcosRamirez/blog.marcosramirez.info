@@ -212,6 +212,6 @@ Home Assistant arranca solo cuando vuelve la luz. Los dispositivos vuelven a su 
 
 Compártelo si te ha gustado.
 
-¿Automatizas algo en casa? ¿Quieres consejo para empezar? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo.
+¿Automatizas algo en casa? ¿Quieres consejo para empezar? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo.
 
 Y... hasta aquí por hoy!

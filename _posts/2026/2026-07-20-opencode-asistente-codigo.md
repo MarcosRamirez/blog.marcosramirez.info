@@ -116,6 +116,6 @@ Con herramientas propietarias:
 
 ***
 
-¿Usas alguna herramienta de código abierto para tu día a día? Déja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+¿Usas alguna herramienta de código abierto para tu día a día? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
 
 Y... hasta aquí por hoy!
