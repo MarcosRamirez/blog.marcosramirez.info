@@ -23,7 +23,7 @@ Paperless NGX es la solución.
 
 ## Qué es Paperless NGX
 
-[Paperless NGX](https://paperless-ngx.com/){:target="_blank" :rel="nofollow noopener"} es un sistema de gestión de documentos de código abierto. Transforma tus documentos físicos en un archivo digital, totalmente local, sin suscripciones, sin servicios en la nube.
+[Paperless NGX](https://paperless-ngx.com/){:target="_blank" rel="nofollow noopener"} es un sistema de gestión de documentos de código abierto. Transforma tus documentos físicos en un archivo digital, totalmente local, sin suscripciones, sin servicios en la nube.
 
 Lo de "NGX" es porque es la nueva versión del proyecto original "Paperless". El desarrollo continúa activamente y tiene una comunidad muy detrás.
 
@@ -96,19 +96,19 @@ Todo esto funciona en local si quieres, sin enviar datos a externos.
 
 ### Dropbox
 
-[Dropbox](https://www.dropbox.com/){:target="_blank" :rel="nofollow noopener"} es popular pero tus documentos están en sus servidores. Pago mensual por espacio.
+[Dropbox](https://www.dropbox.com/){:target="_blank" rel="nofollow noopener"} es popular pero tus documentos están en sus servidores. Pago mensual por espacio.
 
 ### Google Drive
 
-[Google Drive](https://drive.google.com/){:target="_blank" :rel="nofollow noopener"} viene con tu cuenta de Gmail. Es práctico pero no es privado. Google lee tus archivos.
+[Google Drive](https://drive.google.com/){:target="_blank" rel="nofollow noopener"} viene con tu cuenta de Gmail. Es práctico pero no es privado. Google lee tus archivos.
 
 ### Evernote
 
-[Evernote](https://evernote.com/){:target="_blank" :rel="nofollow noopener"} está más orientado a notas que a documentos. El precio ha subido y los datos no son tuyos.
+[Evernote](https://evernote.com/){:target="_blank" rel="nofollow noopener"} está más orientado a notas que a documentos. El precio ha subido y los datos no son tuyos.
 
 ### Expensify
 
-[Expensify](https://www.expensify.com/){:target="_blank" :rel="nofollow noopener"} está centrado en gastos empresariales. Excesivo para uso personal.
+[Expensify](https://www.expensify.com/){:target="_blank" rel="nofollow noopener"} está centrado en gastos empresariales. Excesivo para uso personal.
 
 ## Por qué self-hosted importa
 

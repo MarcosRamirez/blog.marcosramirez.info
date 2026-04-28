@@ -26,19 +26,19 @@ Eso es N8N.
 
 ## Qué es N8N
 
-[N8N](https://n8n.io/){:target="_blank" :rel="nofollow noopener"} es una herramienta de automatización de flujo de trabajo (workflow automation). Te permite conectar diferentes servicios y aplicaciones para que trabajen juntas automáticamente.
+[N8N](https://n8n.io/){:target="_blank" rel="nofollow noopener"} es una herramienta de automatización de flujo de trabajo (workflow automation). Te permite conectar diferentes servicios y aplicaciones para que trabajen juntas automáticamente.
 
 Lo que hace especial a N8N es que es de código abierto. Puedes instalarlo en tu propio servidor, tienes control total sobre tus datos y no hay límite de ejecuciones como en las alternativas en la nube.
 
 ### Por qué existe
 
-Las herramientas de automatización como [Zapier](https://zapier.com/){:target="_blank" :rel="nofollow noopener"} o [Make](https://www.make.com/){:target="_blank" :rel="nofollow noopener"} son excellent pero tienen un problema: son servicios en la nube que cuestan dinero y guardan tus datos en sus servidores.
+Las herramientas de automatización como [Zapier](https://zapier.com/){:target="_blank" rel="nofollow noopener"} o [Make](https://www.make.com/){:target="_blank" rel="nofollow noopener"} son excellent pero tienen un problema: son servicios en la nube que cuestan dinero y guardan tus datos en sus servidores.
 
 N8N te da la potencia de esas herramientas pero en tu servidor. Sin límite de ejecuciones, sin pagar mensualidades, sin enviar tus datos a terceros.
 
 ### Sin sorpresas en la factura
 
-Aquí está la gran diferencia: las capas gratuitas de [Make](https://www.make.com/){:target="_blank" :rel="nofollow noopener"} y [Zapier](https://zapier.com/){:target="_blank" :rel="nofollow noopener"} te dejan hacer casi nada. Make te permite 100 operaciones al mes y solo 2 flujos activos. Zapier te da 5 flujos y 100 tareas. Es prácticamente inútil para automatizaciones reales.
+Aquí está la gran diferencia: las capas gratuitas de [Make](https://www.make.com/){:target="_blank" rel="nofollow noopener"} y [Zapier](https://zapier.com/){:target="_blank" rel="nofollow noopener"} te dejan hacer casi nada. Make te permite 100 operaciones al mes y solo 2 flujos activos. Zapier te da 5 flujos y 100 tareas. Es prácticamente inútil para automatizaciones reales.
 
 Con N8N self-hosted: ejecuta todo lo que necesites. Sin límite de operaciones. Sin límite de flujos activos. Sin esperar al siguiente ciclo de facturación para hacer algo que necesitas ahora.
 
@@ -50,7 +50,7 @@ N8N tiene un editor drag-and-drop muy intuitivo. Conectas nodos, configuras la l
 
 ### Más de 400 integraciones
 
-N8N se conecta con cientos de servicios: [Slack](https://slack.com/){:target="_blank" :rel="nofollow noopener"}, [Discord](https://discord.com/){:target="_blank" :rel="nofollow noopener"}, [Telegram](https://telegram.org/){:target="_blank" :rel="nofollow noopener"}, [Google Sheets](https://www.google.com/sheets){:target="_blank" :rel="nofollow noopener"}, [Gmail](https://mail.google.com/){:target="_blank" :rel="nofollow noopener"}, [Notion](https://www.notion.so/){:target="_blank" :rel="nofollow noopener"}, [Airtable](https://airtable.com/){:target="_blank" :rel="nofollow noopener"}, [MySQL](https://www.mysql.com/){:target="_blank" :rel="nofollow noopener"}, [PostgreSQL](https://www.postgresql.org/){:target="_blank" :rel="nofollow noopener"}, y muchos más.
+N8N se conecta con cientos de servicios: [Slack](https://slack.com/){:target="_blank" rel="nofollow noopener"}, [Discord](https://discord.com/){:target="_blank" rel="nofollow noopener"}, [Telegram](https://telegram.org/){:target="_blank" rel="nofollow noopener"}, [Google Sheets](https://www.google.com/sheets){:target="_blank" rel="nofollow noopener"}, [Gmail](https://mail.google.com/){:target="_blank" rel="nofollow noopener"}, [Notion](https://www.notion.so/){:target="_blank" rel="nofollow noopener"}, [Airtable](https://airtable.com/){:target="_blank" rel="nofollow noopener"}, [MySQL](https://www.mysql.com/){:target="_blank" rel="nofollow noopener"}, [PostgreSQL](https://www.postgresql.org/){:target="_blank" rel="nofollow noopener"}, y muchos más.
 
 ### Código personalizado
 
@@ -58,7 +58,7 @@ Si las integraciones existentes no son suficientes, puedes escribir tu propio c�
 
 ### Inteligencia artificial
 
-N8N tiene nodos de IA integrados. Puedes usar [LangChain](https://www.langchain.com/){:target="_blank" :rel="nofollow noopener"}, conectar con [OpenAI](https://openai.com/){:target="_blank" :rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" :rel="nofollow noopener"} o modelos locales.
+N8N tiene nodos de IA integrados. Puedes usar [LangChain](https://www.langchain.com/){:target="_blank" rel="nofollow noopener"}, conectar con [OpenAI](https://openai.com/){:target="_blank" rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" rel="nofollow noopener"} o modelos locales.
 
 ### Modo cola
 
@@ -81,19 +81,19 @@ Puedes ver qué se ha ejecutado, qué ha fallado y por qué. Muy útil para depu
 
 ### N8N Cloud
 
-[N8N Cloud](https://n8n.io/pricing/){:target="_blank" :rel="nofollow noopener"} es la versión oficial hosted. Empieza en 20 euros al mes por 2.500 ejecuciones. Conveniente, pero pierdes el control de tus datos.
+[N8N Cloud](https://n8n.io/pricing/){:target="_blank" rel="nofollow noopener"} es la versión oficial hosted. Empieza en 20 euros al mes por 2.500 ejecuciones. Conveniente, pero pierdes el control de tus datos.
 
 ### Make
 
-[Make](https://www.make.com/){:target="_blank" :rel="nofollow noopener"} (antes Integromat) es excellent y tiene más integraciones. Pero es código cerrado y las ejecuciones cuestan dinero.
+[Make](https://www.make.com/){:target="_blank" rel="nofollow noopener"} (antes Integromat) es excellent y tiene más integraciones. Pero es código cerrado y las ejecuciones cuestan dinero.
 
 ### Zapier
 
-[Zapier](https://zapier.com/){:target="_blank" :rel="nofollow noopener"} es el más popular. También el más caro. 20 euros al mes minimum y las ejecuciones se agotan rápido.
+[Zapier](https://zapier.com/){:target="_blank" rel="nofollow noopener"} es el más popular. También el más caro. 20 euros al mes minimum y las ejecuciones se agotan rápido.
 
 ### Power Automate
 
-[Power Automate](https://powerautomate.microsoft.com/){:target="_blank" :rel="nofollow noopener"} es de Microsoft. Está bien si usas el ecosistema Microsoft, pero fuera de eso es limitado.
+[Power Automate](https://powerautomate.microsoft.com/){:target="_blank" rel="nofollow noopener"} es de Microsoft. Está bien si usas el ecosistema Microsoft, pero fuera de eso es limitado.
 
 ## Por qué self-hosted importa
 
@@ -160,7 +160,7 @@ Cuando recibes un mensaje en Telegram, que se guarde en una hoja de cálculo.
 
 ### Sincronización de archivos
 
-Cuando subes un archivo a [Dropbox](https://www.dropbox.com/){:target="_blank" :rel="nofollow noopener"}, que se copie automáticamente a [Google Drive](https://drive.google.com/){:target="_blank" :rel="nofollow noopener"}.
+Cuando subes un archivo a [Dropbox](https://www.dropbox.com/){:target="_blank" rel="nofollow noopener"}, que se copie automáticamente a [Google Drive](https://drive.google.com/){:target="_blank" rel="nofollow noopener"}.
 
 ### Procesamiento de correos
 

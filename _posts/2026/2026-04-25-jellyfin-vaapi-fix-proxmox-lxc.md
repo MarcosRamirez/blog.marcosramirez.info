@@ -22,7 +22,7 @@ Este post es la continuación de [Jellyfin cortes 4K y disco lleno]({% post_url 
 
 ## Problema – Error de transcodificación en Jellyfin
 
-[Jellyfin](https://jellyfin.org/){:target="_blank" :rel="nofollow noopener"} muestra la siguiente excepción:
+[Jellyfin](https://jellyfin.org/){:target="_blank" rel="nofollow noopener"} muestra la siguiente excepción:
 
 ```bash
 Device creation failed: -542398533.
@@ -34,7 +34,7 @@ Esto ocurre aunque la comprobación de `vainfo` funciona dentro del contenedor y
 
 ## Diagnóstico – ¿Por qué Jellyfin no accede a /dev/dri?
 
-En el nodo [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"}:
+En el nodo [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}:
 
 ```bash
 ls -la /dev/dri/

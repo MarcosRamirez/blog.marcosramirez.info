@@ -19,7 +19,7 @@ slug: jellyfin-cortes-4k-disco
 
 ![Post Header]({{ page.image }}){:alt="Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"}
 
-Llevaba días con el mismo problema: ponía una película en 4K en la TV, y en algún momento aleatorio la imagen se congelaba y saltaba el salvapantallas. A veces pasaba al minuto, a veces aguantaba media hora. [Jellyfin](https://jellyfin.org/){:target="_blank" :rel="nofollow noopener"} seguía corriendo en el servidor, sin reiniciarse, sin avisar. Imposible reproducir el problema de forma consistente.
+Llevaba días con el mismo problema: ponía una película en 4K en la TV, y en algún momento aleatorio la imagen se congelaba y saltaba el salvapantallas. A veces pasaba al minuto, a veces aguantaba media hora. [Jellyfin](https://jellyfin.org/){:target="_blank" rel="nofollow noopener"} seguía corriendo en el servidor, sin reiniciarse, sin avisar. Imposible reproducir el problema de forma consistente.
 
 Después de investigar los logs, encontré no uno sino cinco problemas encadenados. Los cuento en orden de descubrimiento.
 
@@ -68,7 +68,7 @@ En mi caso el error EBML aparecía durante el propio remux, lo que significa que
 
 ## Problema 2 — Disco lleno al 100% (el culpable principal)
 
-Este era el problema gordo. El LXC de Jellyfin tenía asignados 16GB y estaba al 100%. Sin espacio, Jellyfin no podía escribir logs, segmentos de transcoding ni archivos temporales, lo que hacía que [ffmpeg](https://ffmpeg.org/){:target="_blank" :rel="nofollow noopener"} fallara silenciosamente y la reproducción se cortara.
+Este era el problema gordo. El LXC de Jellyfin tenía asignados 16GB y estaba al 100%. Sin espacio, Jellyfin no podía escribir logs, segmentos de transcoding ni archivos temporales, lo que hacía que [ffmpeg](https://ffmpeg.org/){:target="_blank" rel="nofollow noopener"} fallara silenciosamente y la reproducción se cortara.
 
 Para detectarlo:
 
@@ -87,7 +87,7 @@ pct exec <JELLYFIN_ID> -- rm -rf /var/cache/jellyfin/*
 
 Pero la solución de fondo es ampliar el disco. El problema era que:
 
-1. Jellyfin lo tenía instalado con los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" :rel="nofollow noopener"}. Y como "funciobaba", te olvidas.
+1. Jellyfin lo tenía instalado con los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" rel="nofollow noopener"}. Y como "funciobaba", te olvidas.
 
 2. Los Helper Scripts por defecto asignan **16GB** de disco al contenedor. Parece mucho, pero con transcodes de 4K se llena rápido.
 
@@ -120,7 +120,7 @@ pct start <LXC_DONANTE_ID>
 ```
 
 ```bash
-# 5. Ampliar Jellyfin desde la web de [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"}:
+# 5. Ampliar Jellyfin desde la web de [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}:
 # LXC Jellyfin → Hardware → Hard Disk → Disk Action → Resize
 # Proxmox hace el resize2fs automáticamente al ampliar
 ```
@@ -220,11 +220,11 @@ Aunque es recomendable para servidores con recursos limitados, no es obligatorio
 
 El problema que parecía misterioso (cortes aleatorios imposibles de reproducir) tenía una causa muy mundana: el disco lleno. Jellyfin fallaba silenciosamente porque no podía escribir en disco, y eso se manifestaba como cortes aleatorios dependiendo de qué operación intentara hacer en cada momento.
 
-Lo peor: Jellyfin lo tenía instalado con los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" :rel="nofollow noopener"}, así que un par de clics y ya estaba. Y como "funciobaba", te olvidas.
+Lo peor: Jellyfin lo tenía instalado con los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" rel="nofollow noopener"}, así que un par de clics y ya estaba. Y como "funciobaba", te olvidas.
 
 En total, pasé una horita entretenida solucionando el problema. Pero al menos ahora sé qué hacer para que no me pase otra vez.
 
-La lección: **monitoriza el espacio en disco de tus servicios de media**. Los transcodes, cachés de trickplay y logs de Jellyfin pueden crecer sin control y llenarte el disco sin avisar. Configura alertas de espacio en [Proxmox](https://www.proxmox.com/){:target="_blank" :rel="nofollow noopener"}, Grafana/Prometheus o lo que uses, antes de que te pase lo mismo.
+La lección: **monitoriza el espacio en disco de tus servicios de media**. Los transcodes, cachés de trickplay y logs de Jellyfin pueden crecer sin control y llenarte el disco sin avisar. Configura alertas de espacio en [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}, Grafana/Prometheus o lo que uses, antes de que te pase lo mismo.
 
 ***
 ¿Tienes problemas similares con Jellyfin o algún servicio de media? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.

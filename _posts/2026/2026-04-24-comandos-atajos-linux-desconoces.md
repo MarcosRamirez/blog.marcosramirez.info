@@ -146,7 +146,7 @@ La diferencia es sutil pero importante:
 
 ### ncdu
 
-`ncdu` ([https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu){:target="_blank" :rel="nofollow noopener"}) es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfecto cuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
+`ncdu` ([https://dev.yorhel.nl/ncdu](https://dev.yorhel.nl/ncdu){:target="_blank" rel="nofollow noopener"}) es un analizador de uso de disco con interfaz ncurses. Te permite navegar visualmente por los directorios y ver cuál consume más espacio. Es perfecto cuando necesitas encontrar ese directorio que está ocupando demasiado espacio y no sabes dónde está.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -180,7 +180,7 @@ ncdu /var/log
 
 ### btop
 
-`btop` ([https://github.com/aristocratos/btop](https://github.com/aristocratos/btop){:target="_blank" :rel="nofollow noopener"}) es el sucesor moderno de `bashtop` y `bpytop`. Muestra CPU, memoria, red, discos y procesos en una interfaz visual bonita con gráficos. Es mucho más completo que `top` y más moderno que `htop`. Soporta mouse, atajos de teclado y temas personalizables.
+`btop` ([https://github.com/aristocratos/btop](https://github.com/aristocratos/btop){:target="_blank" rel="nofollow noopener"}) es el sucesor moderno de `bashtop` y `bpytop`. Muestra CPU, memoria, red, discos y procesos en una interfaz visual bonita con gráficos. Es mucho más completo que `top` y más moderno que `htop`. Soporta mouse, atajos de teclado y temas personalizables.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -216,7 +216,7 @@ btop
 
 ### mtr
 
-`mtr` ([https://www.bitwizard.nl/mtr/](https://www.bitwizard.nl/mtr/){:target="_blank" :rel="nofollow noopener"}) combina `traceroute` y `ping` en una sola herramienta que muestra la ruta y la latencia de cada salto. Mucho más útil que cualquiera de los dos por separado.
+`mtr` ([https://www.bitwizard.nl/mtr/](https://www.bitwizard.nl/mtr/){:target="_blank" rel="nofollow noopener"}) combina `traceroute` y `ping` en una sola herramienta que muestra la ruta y la latencia de cada salto. Mucho más útil que cualquiera de los dos por separado.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -312,7 +312,7 @@ nl -ba archivo.txt
 
 ### ss
 
-[ss](https://linux.die.net/man/8/ss){:target="_blank" :rel="nofollow noopener"} es el reemplazo moderno de `netstat` para ver sockets y conexiones. Viene preinstalado en la mayoría de distribuciones modernas (incluido en el paquete `iproute2`).
+[ss](https://linux.die.net/man/8/ss){:target="_blank" rel="nofollow noopener"} es el reemplazo moderno de `netstat` para ver sockets y conexiones. Viene preinstalado en la mayoría de distribuciones modernas (incluido en el paquete `iproute2`).
 
 Ver puertos escuchando:
 ```bash
@@ -326,7 +326,7 @@ ss -tn
 
 ### fzf
 
-`fzf` ([https://github.com/junegunn/fzf](https://github.com/junegunn/fzf){:target="_blank" :rel="nofollow noopener"}) es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
+`fzf` ([https://github.com/junegunn/fzf](https://github.com/junegunn/fzf){:target="_blank" rel="nofollow noopener"}) es un buscador fuzzy universal para la terminal. Puedes usarlo para buscar archivos, historial de comandos, procesos, o cualquier cosa que piping a él. Cuando lo pruebas, no puedes vivir sin él.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -365,7 +365,7 @@ find . -name "*.md" | fzf
 
 ### bat
 
-`bat` ([https://github.com/sharkdp/bat](https://github.com/sharkdp/bat){:target="_blank" :rel="nofollow noopener"}) es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y git integration. Mucho más agradable a la vista que el simple `cat`.
+`bat` ([https://github.com/sharkdp/bat](https://github.com/sharkdp/bat){:target="_blank" rel="nofollow noopener"}) es un reemplazo moderno de `cat` con resaltado de sintaxis, números de línea y git integration. Mucho más agradable a la vista que el simple `cat`.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -404,7 +404,7 @@ bat --list-themes
 
 ### ripgrep
 
-`ripgrep` ([https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep){:target="_blank" :rel="nofollow noopener"}) (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
+`ripgrep` ([https://github.com/BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep){:target="_blank" rel="nofollow noopener"}) (rg) es mucho más rápido que `grep` y por defecto ya ignora archivos `.gitignore`, `node_modules` y binarios. Es el estándar de facto para buscar en código.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -443,7 +443,7 @@ rg "TODO" --ignore-case --glob '!node_modules/*'
 
 ### fd
 
-`fd` ([https://github.com/sharkdp/fd](https://github.com/sharkdp/fd){:target="_blank" :rel="nofollow noopener"}) es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
+`fd` ([https://github.com/sharkdp/fd](https://github.com/sharkdp/fd){:target="_blank" rel="nofollow noopener"}) es un reemplazo de `find` más rápido y con sintaxis más simple. Por defecto ignora `.gitignore` y tiene salida coloreada.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -487,7 +487,7 @@ fd -I -E 'node_modules' -E '.git' .
 
 ### tldr
 
-`tldr` ([https://tldr.sh/](https://tldr.sh/){:target="_blank" :rel="nofollow noopener"}) te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
+`tldr` ([https://tldr.sh/](https://tldr.sh/){:target="_blank" rel="nofollow noopener"}) te da ejemplos prácticos y concretos de comandos, mucho más útil que las páginas de `man` cuando necesitas algo rápido. Ideal para comandos que no usas frecuentemente.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -526,7 +526,7 @@ tldr docker
 
 ### duf
 
-`duf` ([https://github.com/muesli/duf](https://github.com/muesli/duf){:target="_blank" :rel="nofollow noopener"}) es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
+`duf` ([https://github.com/muesli/duf](https://github.com/muesli/duf){:target="_blank" rel="nofollow noopener"}) es un reemplazo moderno de `df` con una interfaz bonita que muestra el uso de discos de forma clara y colorida.
 
 Instalar en Debian/Ubuntu:
 ```bash
@@ -555,7 +555,7 @@ duf
 
 ### zoxide
 
-[zoxide](https://github.com/ajeetdsouza/zoxide){:target="_blank" :rel="nofollow noopener"} es un reemplazo inteligente de `cd` que aprende de tus hábitos de navegación. Mantiene un registro de los directorios que más usas y te permite saltar a ellos con solo escribir parte del nombre.
+[zoxide](https://github.com/ajeetdsouza/zoxide){:target="_blank" rel="nofollow noopener"} es un reemplazo inteligente de `cd` que aprende de tus hábitos de navegación. Mantiene un registro de los directorios que más usas y te permite saltar a ellos con solo escribir parte del nombre.
 
 Instalar en Debian/Ubuntu:
 ```bash

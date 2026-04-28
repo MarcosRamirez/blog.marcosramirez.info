@@ -23,7 +23,7 @@ slug: openrouter-500-modelos-ia
 
 El otro día alguien me comento que tenía problemas con usar IAs gratuitas. Esta persona quería algo local, así que OpenRouter no le sirve. Pero quizás haya quien no conozca OpenRouter y le pueda venir bien para usarlo con cualquier agente o herramienta de IA.
 
-[OpenRouter](https://openrouter.ai/){:target="_blank" :rel="nofollow noopener"} es un gateway unificado. Una sola API key, un solo endpoint, y puedes usar más de 500 modelos de docenas de proveedores. OpenAI-compatible, cambiar de proveedor es solo cambiar una línea de código.
+[OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} es un gateway unificado. Una sola API key, un solo endpoint, y puedes usar más de 500 modelos de docenas de proveedores. OpenAI-compatible, cambiar de proveedor es solo cambiar una línea de código.
 
 ### Modelos gratuitos
 

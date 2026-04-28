@@ -42,11 +42,11 @@ Este proceso de migración desde servicios SaaS hacia alternativas auto-alojadas
 
 | Antes (SaaS) | Ahora (Self-hosted) |
 |---|---|
-| Google Drive | [Nextcloud](https://nextcloud.com/){:target="_blank" :rel="nofollow noopener"} / [Syncthing](https://syncthing.net/){:target="_blank" :rel="nofollow noopener"} |
-| Dropbox | [Syncthing](https://syncthing.net/){:target="_blank" :rel="nofollow noopener"} |
-| Netflix / Spotify | [Jellyfin](https://jellyfin.org/){:target="_blank" :rel="nofollow noopener"} / [Navidrome](https://www.navidrome.org/){:target="_blank" :rel="nofollow noopener"} |
+| Google Drive | [Nextcloud](https://nextcloud.com/){:target="_blank" rel="nofollow noopener"} / [Syncthing](https://syncthing.net/){:target="_blank" rel="nofollow noopener"} |
+| Dropbox | [Syncthing](https://syncthing.net/){:target="_blank" rel="nofollow noopener"} |
+| Netflix / Spotify | [Jellyfin](https://jellyfin.org/){:target="_blank" rel="nofollow noopener"} / [Navidrome](https://www.navidrome.org/){:target="_blank" rel="nofollow noopener"} |
 | Gmail | Autocorreo con Postfix |
-| Google Photos | [Photoprism](https://www.photoprism.app/){:target="_blank" :rel="nofollow noopener"} |
+| Google Photos | [Photoprism](https://www.photoprism.app/){:target="_blank" rel="nofollow noopener"} |
 
 Cada servicio que migro es un servicio que dejo de pagar con mi privacidad.
 

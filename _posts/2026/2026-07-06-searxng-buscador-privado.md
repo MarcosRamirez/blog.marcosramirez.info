@@ -23,7 +23,7 @@ SearXNG te permite buscar sin ser rastreado.
 
 ## Qué es SearXNG
 
-[SearXNG](https://searxng.org/){:target="_blank" :rel="nofollow noopener"} es un metabuscador de código abierto. Un metabuscador no tiene su propio índice de páginas web. En su lugar, toma los resultados de otros buscadores y los junta.
+[SearXNG](https://searxng.org/){:target="_blank" rel="nofollow noopener"} es un metabuscador de código abierto. Un metabuscador no tiene su propio índice de páginas web. En su lugar, toma los resultados de otros buscadores y los junta.
 
 Esto tiene varias ventajas:
 
@@ -80,19 +80,19 @@ Necesita muy pocos recursos. Con 256 MB de RAM basta. Puedes correrlo en una Ras
 
 ### Google
 
-[Google](https://www.google.com/){:target="_blank" :rel="nofollow noopener"} es el buscador más usado. También es el que más datos recopila sobre ti. Cada búsqueda se guarda, se asocia con tu perfil y se usa para mostrarte anuncios personalizados.
+[Google](https://www.google.com/){:target="_blank" rel="nofollow noopener"} es el buscador más usado. También es el que más datos recopila sobre ti. Cada búsqueda se guarda, se asocia con tu perfil y se usa para mostrarte anuncios personalizados.
 
 ### Bing
 
-[Bing](https://www.bing.com/){:target="_blank" :rel="nofollow noopener"} de Microsoft. También rastrea y guarda todo.
+[Bing](https://www.bing.com/){:target="_blank" rel="nofollow noopener"} de Microsoft. También rastrea y guarda todo.
 
 ### DuckDuckGo
 
-[DuckDuckGo](https://duckduckgo.com/){:target="_blank" :rel="nofollow noopener"} es un buscador centrado en privacidad. No guarda historial. Pero sus resultados son menos completos que Google y sigue siendo un servicio externo.
+[DuckDuckGo](https://duckduckgo.com/){:target="_blank" rel="nofollow noopener"} es un buscador centrado en privacidad. No guarda historial. Pero sus resultados son menos completos que Google y sigue siendo un servicio externo.
 
 ### Startpage
 
-[Startpage](https://www.startpage.com/){:target="_blank" :rel="nofollow noopener"} usa resultados de Google sin rastreo. Interesante, pero es un servicio externo y no tienes control.
+[Startpage](https://www.startpage.com/){:target="_blank" rel="nofollow noopener"} usa resultados de Google sin rastreo. Interesante, pero es un servicio externo y no tienes control.
 
 ## Por qué self-hosted importa
 

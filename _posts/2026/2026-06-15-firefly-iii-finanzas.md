@@ -21,7 +21,7 @@ Si buscas una herramienta para gestionar tu dinero, tienes dos opciones: confiar
 
 ## Qué es Firefly III
 
-[Firefly III](https://www.firefly-iii.org/){:target="_blank" :rel="nofollow noopener"} es un gestor de finanzas personales de código abierto. Se autodenomina "gestor de finanzas personales" y eso es exactamente lo que hace: te ayuda a controlar ingresos, gastos y presupuestos.
+[Firefly III](https://www.firefly-iii.org/){:target="_blank" rel="nofollow noopener"} es un gestor de finanzas personales de código abierto. Se autodenomina "gestor de finanzas personales" y eso es exactamente lo que hace: te ayuda a controlar ingresos, gastos y presupuestos.
 
 La diferencia clave con otras herramientas es que tú controlas dónde están tus datos. No hay servidores externos, no hay cesión de información a terceros. Todo está en tu hardware.
 
@@ -125,11 +125,11 @@ Si te interesa esta configuración con base de datos centralizada, [escríbeme](
 
 ### YNAB
 
-[YNAB](https://www.ynab.com/){:target="_blank" :rel="nofollow noopener"} es la opción más popular en la nube. Sus 14,99 € al mesdan una experiencia pulida, pero tus datos están en sus servidores. Además, usa "presupuesto base cero", un enfoque diferente donde asignas cada euro a una categoría.
+[YNAB](https://www.ynab.com/){:target="_blank" rel="nofollow noopener"} es la opción más popular en la nube. Sus 14,99 € al mesdan una experiencia pulida, pero tus datos están en sus servidores. Además, usa "presupuesto base cero", un enfoque diferente donde asignas cada euro a una categoría.
 
 ### Mint
 
-[Mint](https://www.mint.com/){:target="_blank" :rel="nofollow noopener"} era gratuito pero fue desconectado en 2024. Es una opción que ya no existe.
+[Mint](https://www.mint.com/){:target="_blank" rel="nofollow noopener"} era gratuito pero fue desconectado en 2024. Es una opción que ya no existe.
 
 ### Excel
 
@@ -137,7 +137,7 @@ Puedes hacerlo con hojas de cálculo, pero el mantenimiento manual es tedioso. F
 
 ### GNUCash
 
-[GNUCash](https://www.gnucash.org/){:target="_blank" :rel="nofollow noopener"} es código abierto y tiene más funciones contables (fondos de inversión, acciones), pero la interfaz es más compleja.
+[GNUCash](https://www.gnucash.org/){:target="_blank" rel="nofollow noopener"} es código abierto y tiene más funciones contables (fondos de inversión, acciones), pero la interfaz es más compleja.
 
 ## Por qué self-hosted importa
 

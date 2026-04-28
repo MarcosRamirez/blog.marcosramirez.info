@@ -19,13 +19,13 @@ permalink: /:slug/
 
 *[Este post forma parte de la serie [Mi software de cabecera](/tags/software-de-cabecera/)]*
 
-Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama [OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} y es una herramienta de código abierto que funciona en mi terminal.
+Desde hace unos meses tengo un nuevo compañero de trabajo. No es una persona, pero escribe código, investiga y me ahorra horas cada semana. Se llama [OpenCode](https://opencode.ai/){:target="_blank" rel="nofollow noopener"} y es una herramienta de código abierto que funciona en mi terminal.
 
 ## Qué es OpenCode
 
-[OpenCode](https://opencode.ai/){:target="_blank" :rel="nofollow noopener"} es un agente de IA que corre en la línea de comandos. A diferencia de [ChatGPT](https://chat.openai.com/){:target="_blank" :rel="nofollow noopener"} o [Claude](https://claude.ai/){:target="_blank" :rel="nofollow noopener"} en el navegador, aquí el modelo tiene acceso directo a tus archivos, puede ejecutar comandos y hacer ediciones reales en tu proyecto.
+[OpenCode](https://opencode.ai/){:target="_blank" rel="nofollow noopener"} es un agente de IA que corre en la línea de comandos. A diferencia de [ChatGPT](https://chat.openai.com/){:target="_blank" rel="nofollow noopener"} o [Claude](https://claude.ai/){:target="_blank" rel="nofollow noopener"} en el navegador, aquí el modelo tiene acceso directo a tus archivos, puede ejecutar comandos y hacer ediciones reales en tu proyecto.
 
-Tiene más de 140.000 estrellas en [GitHub](https://github.com/){:target="_blank" :rel="nofollow noopener"} y lo usan más de 6 millones de desarrolladores al mes. Y lo mejor: es código abierto. No hay vendor lock-in, no te obliga a usar un modelo concreto y no guarda tu código.
+Tiene más de 140.000 estrellas en [GitHub](https://github.com/){:target="_blank" rel="nofollow noopener"} y lo usan más de 6 millones de desarrolladores al mes. Y lo mejor: es código abierto. No hay vendor lock-in, no te obliga a usar un modelo concreto y no guarda tu código.
 
 ### Modelos disponibles
 
@@ -36,7 +36,7 @@ OpenCode permite usar diferentes modelos de IA. Puedes elegir el que prefieras:
 - **Google Gemini**: Buena relación calidad-precio
 - **OpenCode Zen**: Modelos optimizados específicamente para agentes de código
 
-[Zen](https://opencode.ai/zen){:target="_blank" :rel="nofollow noopener"} es una curated de modelos optimizados para coding agents. Pagas por uso, sin suscripciones. Aproximadamente $20 al mes depende del uso.
+[Zen](https://opencode.ai/zen){:target="_blank" rel="nofollow noopener"} es una curated de modelos optimizados para coding agents. Pagas por uso, sin suscripciones. Aproximadamente $20 al mes depende del uso.
 
 ## Tiempo ahorrado: ejemplos reales
 
@@ -77,23 +77,23 @@ Hay archivos que no entiendo o que heredé de otros proyectos. Le pido a OpenCod
 
 ### Claude Code
 
-[Claude Code](https://claude.ai/claude-code){:target="_blank" :rel="nofollow noopener"} es la versión CLI de Anthropic. Buena herramienta, pero propietaria. $20/mes.
+[Claude Code](https://claude.ai/claude-code){:target="_blank" rel="nofollow noopener"} es la versión CLI de Anthropic. Buena herramienta, pero propietaria. $20/mes.
 
 ### Cursor
 
-[Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} es excellent pero es código cerrado. $20/mes. Buena integración con VS Code, pero no tienes control sobre tus datos.
+[Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} es excellent pero es código cerrado. $20/mes. Buena integración con VS Code, pero no tienes control sobre tus datos.
 
 ### GitHub Copilot
 
-[GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"} es $10/mes. Integrado en VS Code, pero Microsoft guarda tu código.
+[GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"} es $10/mes. Integrado en VS Code, pero Microsoft guarda tu código.
 
 ### Zencoder
 
-[Zencoder](https://zencoder.ai/){:target="_blank" :rel="nofollow noopener"} es otro agente de código. $19-$250/mes según el plan. Código cerrado.
+[Zencoder](https://zencoder.ai/){:target="_blank" rel="nofollow noopener"} es otro agente de código. $19-$250/mes según el plan. Código cerrado.
 
 ### Codex
 
-[OpenAI Codex](https://openai.com/codex/){:target="_blank" :rel="nofollow noopener"} viene con ChatGPT Plus. $20/mes. Código cerrado.
+[OpenAI Codex](https://openai.com/codex/){:target="_blank" rel="nofollow noopener"} viene con ChatGPT Plus. $20/mes. Código cerrado.
 
 ## Por qué código abierto importa
 

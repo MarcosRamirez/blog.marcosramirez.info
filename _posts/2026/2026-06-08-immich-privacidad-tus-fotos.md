@@ -19,7 +19,7 @@ permalink: /:slug/
 
 Cada día que pasa, subimos fotos desde el móvil sin pensar dónde van a parar. Cuando usas Google Photos, tus fotos van a los servidores de Google. Son analizadas para entrenar modelos de IA, y algún día podrían ser monetizadas de alguna forma que ni imaginamos.
 
-[Immich](https://immich.app/){:target="_blank" :rel="nofollow noopener"} es la alternativa. Un servidor de fotos que tienes en tu propia casa.
+[Immich](https://immich.app/){:target="_blank" rel="nofollow noopener"} es la alternativa. Un servidor de fotos que tienes en tu propia casa.
 
 ## El problema de Google Photos
 

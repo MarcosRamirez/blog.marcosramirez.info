@@ -22,7 +22,7 @@ permalink: /:slug/
 
 ## Introducción
 
-[NVIDIA](https://www.nvidia.com/){:target="_blank" :rel="nofollow noopener"} ha lanzado un programa de acceso gratuito que permite a los desarrolladores probar modelos de inteligencia artificial de última generación a través de su portal [build.nvidia.com/models](https://build.nvidia.com/models){:target="_blank" :rel="nofollow noopener"}. Esta iniciativa elimina las barreras de entrada tradicionales: no se requiere tarjeta de crédito, únicamente verificación mediante teléfono móvil.
+[NVIDIA](https://www.nvidia.com/){:target="_blank" rel="nofollow noopener"} ha lanzado un programa de acceso gratuito que permite a los desarrolladores probar modelos de inteligencia artificial de última generación a través de su portal [build.nvidia.com/models](https://build.nvidia.com/models){:target="_blank" rel="nofollow noopener"}. Esta iniciativa elimina las barreras de entrada tradicionales: no se requiere tarjeta de crédito, únicamente verificación mediante teléfono móvil.
 
 ¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
 
@@ -46,7 +46,7 @@ El portal proporciona acceso a modelos de lenguaje de gran escala (LLMs) con cap
 
 ## Configuración técnica
 
-La integración con estos modelos se realiza mediante librerías compatibles con la API de [OpenAI](https://platform.openai.com/){:target="_blank" :rel="nofollow noopener"}. Los desarrolladores pueden reutilizar su código existente modificando únicamente el parámetro `base_url`:
+La integración con estos modelos se realiza mediante librerías compatibles con la API de [OpenAI](https://platform.openai.com/){:target="_blank" rel="nofollow noopener"}. Los desarrolladores pueden reutilizar su código existente modificando únicamente el parámetro `base_url`:
 
 ```python
 from openai import OpenAI
@@ -106,7 +106,7 @@ El servicio está optimizado para desarrollo y pruebas:
 
 NVIDIA reduce significativamente la barrera de entrada para desarrolladores que deseen experimentar con modelos de inteligencia artificial de frontera. La compatibilidad con librerías existentes y la ausencia de requisitos de pago mediante tarjeta de crédito hacen que esta propuesta sea particularmente atractiva para desarrolladores independientes y equipos de investigación.
 
-Accede a los modelos en [build.nvidia.com/models](https://build.nvidia.com/models){:target="_blank" :rel="nofollow noopener"} y comienza a integrar IA de última generación.
+Accede a los modelos en [build.nvidia.com/models](https://build.nvidia.com/models){:target="_blank" rel="nofollow noopener"} y comienza a integrar IA de última generación.
 
 ## FAQ
 

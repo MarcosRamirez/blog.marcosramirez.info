@@ -40,13 +40,13 @@ Las **VMs** las uso para servicios que necesitan más aislamiento o un sistema o
 ## Por qué no otras opciones?
 
 ### ESXi
-[VMware ESXi](https://www.vmware.com/products/esxi-and-vsphere.html){:target="_blank" :rel="nofollow noopener"} es excelente, pero tiene problemas para un Home Lab:
+[VMware ESXi](https://www.vmware.com/products/esxi-and-vsphere.html){:target="_blank" rel="nofollow noopener"} es excelente, pero tiene problemas para un Home Lab:
 1. **Precio**: La versión gratuita tiene limitaciones severas
 2. **Recursos**: Consumo relativamente alto para lo que ofrece
 3. **Web**: Requiere una cuenta de VMware para acceder a la UI
 
 ### Hyper-V
-[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/){:target="_blank" :rel="nofollow noopener"} está ligado a Windows Server o Windows Pro. Si quieres algo más nativo para Linux, no es lo ideal.
+[Microsoft Hyper-V](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/){:target="_blank" rel="nofollow noopener"} está ligado a Windows Server o Windows Pro. Si quieres algo más nativo para Linux, no es lo ideal.
 
 ### Docker standalone (sin Proxmox)
 Docker en un solo host está bien para empezar, pero:

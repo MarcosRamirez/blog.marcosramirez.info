@@ -17,13 +17,13 @@ permalink: /:slug/
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
-Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"}.
+Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 
-[Home Assistant](https://www.home-assistant.io/){:target="_blank" :rel="nofollow noopener"} es un software de código abierto que actúa como **centro de domótica del hogar**. Compatible con más de 2.000 integraciones de dispositivos y servicios, desde bombillas [Philips Hue](https://www.philips-hue.com/){:target="_blank" :rel="nofollow noopener"} hasta sensores de temperatura, pasando por cámaras, cerraduras,[y más](https://www.home-assistant.io/integrations/){:target="_blank" :rel="nofollow noopener"}.
+[Home Assistant](https://www.home-assistant.io/){:target="_blank" rel="nofollow noopener"} es un software de código abierto que actúa como **centro de domótica del hogar**. Compatible con más de 2.000 integraciones de dispositivos y servicios, desde bombillas [Philips Hue](https://www.philips-hue.com/){:target="_blank" rel="nofollow noopener"} hasta sensores de temperatura, pasando por cámaras, cerraduras,[y más](https://www.home-assistant.io/integrations/){:target="_blank" rel="nofollow noopener"}.
 
-La diferencia con otros ecosistemas es clara: no estás atado a una marca. Si mañana [Apple](https://www.apple.com/){:target="_blank" :rel="nofollow noopener"} cambia sus políticas o [Google](https://www.google.com/){:target="_blank" :rel="nofollow noopener"} sube precios, puedes migrar. Home Assistant no es el dueño de tus dispositivos; es el puente que los conecta.
+La diferencia con otros ecosistemas es clara: no estás atado a una marca. Si mañana [Apple](https://www.apple.com/){:target="_blank" rel="nofollow noopener"} cambia sus políticas o [Google](https://www.google.com/){:target="_blank" rel="nofollow noopener"} sube precios, puedes migrar. Home Assistant no es el dueño de tus dispositivos; es el puente que los conecta.
 
 ## Por qué lo instalé
 
@@ -103,16 +103,16 @@ En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant 
 - **2 vCPU**
 - **4GB de RAM**
 - **32GB de almacenamiento** (la imagen del sistema más la base de datos)
-- **Zigbee dongle** ([Sonoff Zigbee 3.0 USB Dongle Plus](https://itead.cc/product/sonoff-zigbee-3-0-usb-dongle-plus/){:target="_blank" :rel="nofollow noopener"}) para dispositivos Zigbee
+- **Zigbee dongle** ([Sonoff Zigbee 3.0 USB Dongle Plus](https://itead.cc/product/sonoff-zigbee-3-0-usb-dongle-plus/){:target="_blank" rel="nofollow noopener"}) para dispositivos Zigbee
 
 ### Dispositivos compatibles
 
 Home Assistant es compatible con muchíssimo dispositivos. Algunos de los más populares:
 
-- **Iluminación**: [Philips Hue](https://www.philips-hue.com/){:target="_blank" :rel="nofollow noopener"}, [LIFX](https://www.lifx.com/){:target="_blank" :rel="nofollow noopener"}, [Xiaomi](https://www.xiaomi.com/){:target="_blank" :rel="nofollow noopener"}
-- **Sensores**: Zigbee, Z-Wave, [Shelly](https://shelly.cloud/){:target="_blank" :rel="nofollow noopener"}
-- **Cámaras**: [Ring](https://www.ring.com/){:target="_blank" :rel="nofollow noopener"}, [Reolink](https://reolink.com/){:target="_blank" :rel="nofollow noopener"}
-- **Termostatos**: [Nest](https://store.google.com/us/product/nest_learning_thermostat_3rd_gen){:target="_blank" :rel="nofollow noopener"}, [Ecobee](https://www.ecobee.com/){:target="_blank" :rel="nofollow noopener"}
+- **Iluminación**: [Philips Hue](https://www.philips-hue.com/){:target="_blank" rel="nofollow noopener"}, [LIFX](https://www.lifx.com/){:target="_blank" rel="nofollow noopener"}, [Xiaomi](https://www.xiaomi.com/){:target="_blank" rel="nofollow noopener"}
+- **Sensores**: Zigbee, Z-Wave, [Shelly](https://shelly.cloud/){:target="_blank" rel="nofollow noopener"}
+- **Cámaras**: [Ring](https://www.ring.com/){:target="_blank" rel="nofollow noopener"}, [Reolink](https://reolink.com/){:target="_blank" rel="nofollow noopener"}
+- **Termostatos**: [Nest](https://store.google.com/us/product/nest_learning_thermostat_3rd_gen){:target="_blank" rel="nofollow noopener"}, [Ecobee](https://www.ecobee.com/){:target="_blank" rel="nofollow noopener"}
 
 Zigbee y Z-Wave crean una mesh donde los dispositivos se comunican entre ellos, extendiendo el alcance sin cables adicionales.
 
@@ -123,7 +123,7 @@ Zigbee y Z-Wave crean una mesh donde los dispositivos se comunican entre ellos, 
 Es la forma más económica de probar:
 
 1. Compra una Raspberry Pi 4 (4GB o más)
-2. Flashea la imagen oficial de Home Assistant con [Balena Etcher](https://www.balena.io/etcher/){:target="_blank" :rel="nofollow noopener"}
+2. Flashea la imagen oficial de Home Assistant con [Balena Etcher](https://www.balena.io/etcher/){:target="_blank" rel="nofollow noopener"}
 3. Enciende con el cable ethernet conectado
 4. Accede desde `homeassistant.local:8123`
 
@@ -198,7 +198,7 @@ No necesariamente. La interfaz gráfica permite crear automatizaciones sin escri
 
 ### ¿Funciona con dispositivos de cualquier marca?
 
-No todos. Comprueba la [lista de integraciones](https://www.home-assistant.io/integrations/){:target="_blank" :rel="nofollow noopener"} antes de comprar. Si el dispositivo usa Zigbee, Z-Wave o Matter, probablemente sí.
+No todos. Comprueba la [lista de integraciones](https://www.home-assistant.io/integrations/){:target="_blank" rel="nofollow noopener"} antes de comprar. Si el dispositivo usa Zigbee, Z-Wave o Matter, probablemente sí.
 
 ### ¿Puedo controlar todo desde fuera de casa?
 

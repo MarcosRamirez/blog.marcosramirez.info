@@ -46,8 +46,8 @@ La landing debe decir: *"Sí, estás en el lugar correcto para encontrar el libr
 
 ### 2. Ofrecer opciones según la intención
 
-- **Quiere comprar** → Enlaces de afiliado [Amazon](https://amazon.com){:target="_blank" :rel="nofollow noopener"}, [Kindle](https://amazon.com/kindle){:target="_blank" :rel="nofollow noopener"}, [Audible](https://audible.com){:target="_blank" :rel="nofollow noopener"}
-- **Quiere leer gratis** → Enlaces a [Internet Archive](https://archive.org){:target="_blank" :rel="nofollow noopener"}, [Project Gutenberg](https://www.gutenberg.org){:target="_blank" :rel="nofollow noopener"}
+- **Quiere comprar** → Enlaces de afiliado [Amazon](https://amazon.com){:target="_blank" rel="nofollow noopener"}, [Kindle](https://amazon.com/kindle){:target="_blank" rel="nofollow noopener"}, [Audible](https://audible.com){:target="_blank" rel="nofollow noopener"}
+- **Quiere leer gratis** → Enlaces a [Internet Archive](https://archive.org){:target="_blank" rel="nofollow noopener"}, [Project Gutenberg](https://www.gutenberg.org){:target="_blank" rel="nofollow noopener"}
 - **Quiere saber más** → Info sobre el autor y contexto histórico
 
 | Plataforma | Precio | Tipo de acceso | Afiliación |

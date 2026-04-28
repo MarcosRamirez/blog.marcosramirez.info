@@ -23,7 +23,7 @@ Un gestor de contraseñas no es opcional. Es fundamental. Y Vaultwarden te da el
 
 ## Qué es Vaultwarden
 
-[Vaultwarden](https://vaultwarden.net/){:target="_blank" :rel="nofollow noopener"} es una implementación de servidor del API de [Bitwarden](https://bitwarden.com/){:target="_blank" :rel="nofollow noopener"}, escrita en [Rust](https://www.rust-lang.org/){:target="_blank" :rel="nofollow noopener"}. Es ligera, rápida y totalmente compatible con todos los clientes oficiales de Bitwarden: extensiones de navegador, aplicaciones de escritorio, apps móviles.
+[Vaultwarden](https://vaultwarden.net/){:target="_blank" rel="nofollow noopener"} es una implementación de servidor del API de [Bitwarden](https://bitwarden.com/){:target="_blank" rel="nofollow noopener"}, escrita en [Rust](https://www.rust-lang.org/){:target="_blank" rel="nofollow noopener"}. Es ligera, rápida y totalmente compatible con todos los clientes oficiales de Bitwarden: extensiones de navegador, aplicaciones de escritorio, apps móviles.
 
 Básicamente, es Bitwarden pero en tu servidor, sin pagar nada por las funcionalidades premium.
 
@@ -60,9 +60,9 @@ Estas son las funcionalidades que en Bitwarden requieren suscripción, y en Vaul
 Soporta múltiples métodos de 2FA:
 
 - Correo electrónico
-- [Duo](https://duo.com/){:target="_blank" :rel="nofollow noopener"}
-- [YubiKey](https://www.yubico.com/){:target="_blank" :rel="nofollow noopener"}
-- [FIDO2](https://fidoalliance.org/fido2/){:target="_blank" :rel="nofollow noopener"} WebAuthn (incluyendo [Nitrokey](https://nitrokey.com/){:target="_blank" :rel="nofollow noopener"} y [Solokeys](https://solokeys.com/){:target="_blank" :rel="nofollow noopener"})
+- [Duo](https://duo.com/){:target="_blank" rel="nofollow noopener"}
+- [YubiKey](https://www.yubico.com/){:target="_blank" rel="nofollow noopener"}
+- [FIDO2](https://fidoalliance.org/fido2/){:target="_blank" rel="nofollow noopener"} WebAuthn (incluyendo [Nitrokey](https://nitrokey.com/){:target="_blank" rel="nofollow noopener"} y [Solokeys](https://solokeys.com/){:target="_blank" rel="nofollow noopener"})
 
 ### Sincronización en tiempo real
 
@@ -74,7 +74,7 @@ Vaultwarden usa apenas 50 MB de RAM. Puedes correrlo en una Raspberry Pi sin pro
 
 ### Bases de datos
 
-Usa [SQLite](https://www.sqlite.org/){:target="_blank" :rel="nofollow noopener"} por defecto, pero puede conectarse a [MySQL](https://www.mysql.com/){:target="_blank" :rel="nofollow noopener"} o [PostgreSQL](https://www.postgresql.org/){:target="_blank" :rel="nofollow noopener"} para mejor rendimiento y escalabilidad.
+Usa [SQLite](https://www.sqlite.org/){:target="_blank" rel="nofollow noopener"} por defecto, pero puede conectarse a [MySQL](https://www.mysql.com/){:target="_blank" rel="nofollow noopener"} o [PostgreSQL](https://www.postgresql.org/){:target="_blank" rel="nofollow noopener"} para mejor rendimiento y escalabilidad.
 
 ## Comparativa con alternativas
 
@@ -91,7 +91,7 @@ Usa [SQLite](https://www.sqlite.org/){:target="_blank" :rel="nofollow noopener"}
 
 ### Bitwarden Cloud
 
-[Bitwarden](https://bitwarden.com/){:target="_blank" :rel="nofollow noopener"} es la opción oficial. Puedes usarlo gratis para un usuario, pero las funcionalidades premium cuestan. Tus datos están en sus servidores.
+[Bitwarden](https://bitwarden.com/){:target="_blank" rel="nofollow noopener"} es la opción oficial. Puedes usarlo gratis para un usuario, pero las funcionalidades premium cuestan. Tus datos están en sus servidores.
 
 ### Bitwarden Self-Hosted
 
@@ -99,11 +99,11 @@ La versión auto-alojada oficial de Bitwarden. Requiere Microsoft SQL Server y u
 
 ### 1Password
 
-[1Password](https://1password.com/){:target="_blank" :rel="nofollow noopener"} es excelente pero es propietario y caro. No tienes acceso al código.
+[1Password](https://1password.com/){:target="_blank" rel="nofollow noopener"} es excelente pero es propietario y caro. No tienes acceso al código.
 
 ### LastPass
 
-[LastPass](https://www.lastpass.com/){:target="_blank" :rel="nofollow noopener"} ha tenido varios incidentes de seguridad. No es recomendable.
+[LastPass](https://www.lastpass.com/){:target="_blank" rel="nofollow noopener"} ha tenido varios incidentes de seguridad. No es recomendable.
 
 ## Por qué self-hosted importa
 
@@ -129,13 +129,13 @@ La instalación recomendada en un Home Lab es mediante LXC. Usa el script de ins
 curl -s -S -L https://raw.githubusercontent.com/ghost-of-company/vaultwarden/main/install.sh | bash
 ```
 
-Este script instala Vaultwarden con [Docker](https://www.docker.com/){:target="_blank" :rel="nofollow noopener"}, que es la forma recomendada de ejecutarlo.
+Este script instala Vaultwarden con [Docker](https://www.docker.com/){:target="_blank" rel="nofollow noopener"}, que es la forma recomendada de ejecutarlo.
 
 ### Requisitos
 
 - Un contenedor LXC con Docker instalado
 - Al menos 512 MB de RAM
-- HTTPS obligatorio (usa un reverse proxy como [Caddy](https://caddyserver.com/){:target="_blank" :rel="nofollow noopener"} o [Nginx](https://nginx.org/){:target="_blank" :rel="nofollow noopener"})
+- HTTPS obligatorio (usa un reverse proxy como [Caddy](https://caddyserver.com/){:target="_blank" rel="nofollow noopener"} o [Nginx](https://nginx.org/){:target="_blank" rel="nofollow noopener"})
 
 ### Configuración básica
 

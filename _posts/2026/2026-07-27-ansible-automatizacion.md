@@ -25,7 +25,7 @@ Ahí entra Ansible.
 
 ## Qué es Ansible
 
-[Ansible](https://www.ansible.com/){:target="_blank" :rel="nofollow noopener"} es una herramienta de automatización de código abierto. Te permite definir el estado de tus máquinas en archivos YAML y luego Ansible se encarga de aplicar ese estado.
+[Ansible](https://www.ansible.com/){:target="_blank" rel="nofollow noopener"} es una herramienta de automatización de código abierto. Te permite definir el estado de tus máquinas en archivos YAML y luego Ansible se encarga de aplicar ese estado.
 
 Lo mejor: no necesitas instalar nada en los servidores objetivo. Solo SSH.
 
@@ -154,19 +154,19 @@ roles/
 
 ### Puppet
 
-[Puppet](https://puppet.com/){:target="_blank" :rel="nofollow noopener"} es potente pero requiere un servidor central (Puppet Master) y agente en cada nodo. Excesivo para un Home Lab.
+[Puppet](https://puppet.com/){:target="_blank" rel="nofollow noopener"} es potente pero requiere un servidor central (Puppet Master) y agente en cada nodo. Excesivo para un Home Lab.
 
 ### Chef
 
-[Chef](https://www.chef.io/){:target="_blank" :rel="nofollow noopener"} requiere Ruby y agentes. Demasiado complejo para lo que necesitas.
+[Chef](https://www.chef.io/){:target="_blank" rel="nofollow noopener"} requiere Ruby y agentes. Demasiado complejo para lo que necesitas.
 
 ### SaltStack
 
-[SaltStack](https://www.saltproject.io/){:target="_blank" :rel="nofollow noopener"} es bueno pero tiene curva de aprendizaje. Requiere agente.
+[SaltStack](https://www.saltproject.io/){:target="_blank" rel="nofollow noopener"} es bueno pero tiene curva de aprendizaje. Requiere agente.
 
 ### Terraform
 
-[Terraform](https://www.terraform.io/){:target="_blank" :rel="nofollow noopener"} es para provisioning, no para configuración. Sirve para crear máquinas, no para configurarlas después. Se complementa con Ansible.
+[Terraform](https://www.terraform.io/){:target="_blank" rel="nofollow noopener"} es para provisioning, no para configuración. Sirve para crear máquinas, no para configurarlas después. Se complementa con Ansible.
 
 ## Por qué elegí Ansible
 
