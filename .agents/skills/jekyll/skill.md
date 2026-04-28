@@ -199,29 +199,11 @@ Examples:
 
 ## Categories
 
-Main categories:
-- Tecnología
-- Finanzas Personales
-- Personal
-- Productividad y Hacks
+See [Copywriting Skill - Categories (Single Source of Truth)](file:///D:/Code/Marcos%20Ram%C3%ADrez/blog.marcosramirez.info/.agents/skills/copywriting/skill.md) for the full list of available categories and subcategories.
 
-Subcategories:
-- Inteligencia Artificial
-- Software y Apps
-- Sistemas
-- Redes e Infraestructura
-- Desarrollo Web
-- Bancos y Fintech
-- Ahorro e Inversión
-- Automatización
-- Life Hacks
-- Metas y Resúmenes
-- Reflexiones y Opinión
-- Carrera Profesional
-- Recomendaciones
-- Personal y Desarrollo Profesional
-
-NOTE: Use "Inteligencia Artificial", NOT "IA".
+**Rule**: Always use the exact category names defined in the Copywriting skill.
+- Main categories: `Tecnología`, `Finanzas Personales`, `Personal`, `Productividad y Hacks`
+- Subcategories: `Inteligencia Artificial`, `Software y Apps`, etc.
 
 ### Category URL Structure
 - Category archive pages are accessible at `/categories/<category-slug>/` (plural "categories")

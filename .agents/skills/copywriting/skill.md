@@ -34,7 +34,9 @@ authors:
 
 You must write ***ALWAYS*** in CASTILIAN (Spanish from Spain), you can include English technical terms, but keep Spanish as the main language.
 
-### Categories
+### Categories (Single Source of Truth)
+
+**⚠️ ALL other skills must reference this section. Do NOT duplicate this list elsewhere.**
 
 Main categories:
 - Tecnología
@@ -59,6 +61,33 @@ Subcategories:
 - Personal y Desarrollo Profesional
 
 NOTE: Use "Inteligencia Artificial", NOT "IA".
+
+### Categorization Rules (MANDATORY)
+- Every post MUST have exactly ONE main category from: Tecnología, Finanzas Personales, Personal, Productividad y Hacks
+- Additionally, MUST include ALL relevant subcategories that apply to the post topic
+- Decision tree:
+  - Post about AI models/tools? → Add "Inteligencia Artificial"
+  - Post about self-hosting/servers? → Add "Sistemas"
+  - Post about coding/web dev? → Add "Desarrollo Web" or "Software y Apps"
+  - Post about local LLMs? → Add "Inteligencia Artificial" + "Sistemas"
+- Example: A post about NVIDIA API (AI models) → categories: [Tecnología, Inteligencia Artificial]
+- Example: A post about Home Assistant → categories: [Tecnología, Sistemas]
+
+### Quick Decision Table
+| Post Topic | Main Category | Subcategories to Add |
+|------------|---------------|----------------------|
+| AI models, LLMs, Copilot, ChatGPT | Tecnología | Inteligencia Artificial |
+| Home Lab, Self-hosting, Docker | Tecnología | Sistemas |
+| Web dev, React, APIs | Tecnología | Desarrollo Web |
+| Local LLMs, Ollama, LM Studio | Tecnología | Inteligencia Artificial, Sistemas |
+| Finance apps, Banks | Finanzas Personales | Bancos y Fintech |
+
+### Pre-Publish Checklist
+- [ ] Verified post has exactly ONE main category
+- [ ] Verified all relevant subcategories are included based on topic
+- [ ] Checked: ¿Es sobre IA? → "Inteligencia Artificial" añadida
+- [ ] Checked: ¿Es sobre sistemas/self-hosting? → "Sistemas" añadida
+- [ ] Checked: ¿Es sobre desarrollo? → "Desarrollo Web" o "Software y Apps" añadida
 
 ### Links (MANDATORY)
 
