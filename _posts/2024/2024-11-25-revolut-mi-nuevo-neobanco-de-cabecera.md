@@ -123,4 +123,19 @@ Si buscas una plataforma que elimine fronteras financieras, ahorre dinero y simp
 ¿Listo para transformar la manera en que manejas tu dinero? Descarga Revolut y comienza a explorar sus ventajas hoy mismo.
 
 ***
+
+## Preguntas Frecuentes
+
+### ¿Es Revolut un banco real?
+
+Revolut es una empresa de dinero electrónico autorizada en Reino Unido y Europa. No es un banco tradicional pero ofrece servicios bancarios.
+
+### ¿Es seguro guardar dinero en Revolut?
+
+Dinero guardado en Revolut está protegido bajo el esquema de protección de depósitos del Reino Unido hasta 85.000£ por persona.
+
+### ¿Cuánto cuesta Revolut?
+
+La versión gratuita incluye la mayoría de funciones. Los planes Premium y Metal añaden beneficios como seguros de viaje y metal.
+
 No olvides compartir el post si te ha gustado

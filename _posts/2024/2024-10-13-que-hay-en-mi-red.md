@@ -125,4 +125,19 @@ Y... eso es todo, si me he dejado algo en el tintero, ya lo añadiré.
 P.D, Las descripciones son cosa de la IA, que voy con algo de prisa xD.
 
 ***
-No olvides compartir el post si te ha gustado.
+
+## Preguntas Frecuentes
+
+### ¿Qué necesito para montar un home lab?
+
+Necesitas un mínimo de conocimientos de redes y Linux, hardware básico (una Raspberry Pi o un viejo PC), y tiempo para configurar y mantener los servicios.
+
+### ¿Es seguro tener servicios expuestos a internet?
+
+Sí, si sigues buenas prácticas: usa VPN para acceso remoto, configura firewall correctamente, mantén actualizado el software, y usa autenticación robusta.
+
+### ¿Cuánto consume un home lab?
+
+Depende del hardware. Un Raspberry Pi consume unos 5-15W. Un servidor más potente puede llegar a 50-100W. El coste mensual suele ser de 5-15€.
+
+No olvides compartir el post si te ha liked.

@@ -7,7 +7,7 @@ authors:
 date: 2024-06-18 08:50:00 +0100
 image: /assets/img/headers/2024/no-es-solo-un-momentito-pollinationsai.webp
 image_alt: "Persona pensativa con icono de momento"
-categories: [Personal y Desarrollo Profesional]
+categories: [Personal]
 tags: [Reflexiones y Opinión, Productividad y Hacks]
 pin: false
 toc: true
@@ -74,8 +74,23 @@ Ahí sí, está claro que hay que hablar. Pero por favor, que sea algo realmente
 3. Mejorar la concentración:
 
 "10 Simple Ways to Improve Your Focus and Concentration": Artículo de Psychology Today [7 Ways to Get More Focused](https://www.psychologytoday.com/us/blog/the-empowerment-diary/202108/7-ways-get-more-focused){:target="_blank"}
-"Get Things Done: The Art of Stress-Free Productivity": Libro de David Allen [Getting Things Done](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity-ebook/dp/B00KWG9M2E){:target="_blank", rel="nofollow"}
-"Deep Work: Rules for Focused Success in a Distracted World": Libro de Cal Newport [Deep Work](https://www.amazon.com/NEW-Deep-Work-Focused-Success-Distracted/dp/B09VQ2WZ4Y){:target="_blank", rel="nofollow"}
+"Get Things Done: The Art of Stress-Free Productivity": Libro de David Allen [Getting Things Done](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity-ebook/dp/B00KWG9M2E){:target="_blank", rel="sponsored nofollow noopener"}
+"Deep Work: Rules for Focused Success in a Distracted World": Libro de Cal Newport [Deep Work](https://www.amazon.com/NEW-Deep-Work-Focused-Success-Distracted/dp/B09VQ2WZ4Y){:target="_blank", rel="sponsored nofollow noopener"}
 
 ***
+
+## Preguntas Frecuentes
+
+### ¿Cuánto tiempo se necesita para volver a concentrarse después de una interrupción?
+
+Según estudios de la Universidad de California, se necesitan aproximadamente 23 minutos para recuperar el estado de concentración previo tras una interrupción.
+
+### ¿Cómo decir que no tengo tiempo sin sonar rude?
+
+Usa respuestas como "Ahora mismo estoy inmerso en algo, ¿podemos verlo más tarde?" o "Tengo la agenda completa hoy, ¿te parece mañana?".
+
+### ¿Es malo decir que no tengo tiempo?
+
+No, es saludable establecer límites. Proteger tu productividad muestra respeto por tu tiempo y el de los demás.
+
 No olvides compartir el post si te ha gustado

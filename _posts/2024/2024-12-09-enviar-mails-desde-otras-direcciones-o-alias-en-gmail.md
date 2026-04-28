@@ -35,4 +35,19 @@ Y listo... ya podéis enviar correos desde esa dirección.
 Es una cosa sencilla, pero que no han actualizado en la documentación
 
 ***
+
+## Preguntas Frecuentes
+
+### ¿Puedo usar alias sin tener Gmail premium?
+
+Sí, puedes añadir hasta 5 alias gratuitos usando la opción "Añadir otra dirección de correo" en configuración.
+
+### ¿Los alias aparecen como remitentes diferentes?
+
+Sí, el destinatario verá la dirección del alias como remitente. Puedes elegir qué dirección mostrar en cada邮件.
+
+### ¿Necesito verificar los alias?
+
+Sí, cada alias requiere verificación mediante un código enviado al email añadido. No puedes usar emails que no controles.
+
 No olvides compartir el post si te ha gustado

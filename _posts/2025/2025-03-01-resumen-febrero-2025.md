@@ -7,7 +7,7 @@ authors:
 date: 2025-03-01 08:50:00 +0100
 image: /assets/img/headers/2025/resumen-febrero-2025-nanobanana.webp
 image_alt: "Gráfico de resumen mensual de febrero 2025"
-categories: [Personal y Desarrollo Profesional, Metas y Resúmenes]
+categories: [Personal, Metas y Resúmenes]
 tags: [resumen, personal, desarrollo, tecnología, lucia]
 pin: false
 toc: true

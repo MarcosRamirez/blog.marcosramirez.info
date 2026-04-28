@@ -312,4 +312,19 @@ Fresas con nata
 ```
 
 ***
+
+## Preguntas Frecuentes
+
+### ¿Qué IA es mejor para generar menús?
+
+GPT-4 y Claude son ambos excelentes. Claude suele ser más detallado en instrucciones dietéticas, mientras que GPT-4 es más creativo con recetas.
+
+### ¿Cómo hacer que la IA respete mis restricciones alimentarias?
+
+Incluye todas tus restricciones en el prompt: alergias, preferencias (vegana, keto, sin lactosa), alimentos que no te gusten, y número de días.
+
+### ¿Los menús generados por IA son nutritionnellement completos?
+
+No siempre. Revisa los menús y ajusta según necesidad. Consulta con un nutricionista para planes a largo plazo.
+
 No olvides compartir el post si te ha gustado

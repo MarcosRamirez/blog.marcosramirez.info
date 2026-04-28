@@ -7,7 +7,7 @@ authors:
 date: 2024-02-01 08:50:00 +0100
 image: /assets/img/headers/2024/cosas-que-aprendi-cuando-me-robaron-la-cartera-nanobanana.webp
 image_alt: "Cartera vacía con icono de aprendizaje"
-categories: [Personal y Desarrollo Profesional]
+categories: [Personal]
 tags: [Reflexiones y Opinión, Life Hacks]
 pin: false
 toc: true
@@ -51,5 +51,19 @@ Pero bueno...este incidente me enseñó varias cosas:
 Ahora, espero poder echármelo a la cara, y decirle en un idioma que entienda, lo importante que era para mi una cosa que había en esa cartera, que ahora, surely esté en un vertedero...
 
 Compártelo si te ha gusta. ¿Te han robado alguna vez? Cuéntame.
+
+## Preguntas Frecuentes
+
+### ¿Qué hacer inmediatamente después de un robo?
+
+Lo primero es denunciar en comisaría y bloquear tus tarjetas. Si llevas localizador como AirTag, actívalo para rastrear la ubicación. Revisa las cámaras de seguridad del lugar donde ocurrió el robo.
+
+### ¿Es útil un localizador Bluetooth en la cartera?
+
+Sí, un AirTag o similar puede ayudarte a localizar tu cartera o al ladrón. En mi caso, el ladrón tiró la cartera rápidamente al detectar el localizador, lo que demuestra su utilidad como elemento disuasorio.
+
+### ¿Cómo prevenir robos en espacios públicos?
+
+Mantén la cartera en el bolsillo frontal, no en el trasero. Estate atento a personas que se acerque demasiado en colas. Evita sacar grandes cantidades de efectivo y no dejes objetos de valor expuestos.
 
 Y... hasta aquí por hoy!

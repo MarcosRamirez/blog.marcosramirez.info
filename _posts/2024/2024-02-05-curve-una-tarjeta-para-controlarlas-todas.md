@@ -52,4 +52,19 @@ Conclusiones
 
 
 ***
+
+## Preguntas Frecuentes
+
+### ¿Curve es gratuito?
+
+Curve tiene una versión gratuita con funcionalidades básicas. Para acceder a ventajas como el seguro de viaje y mayor protección contra fraude, necesitas Curve Premium o Metal.
+
+### ¿Puedo usar Curve en cualquier país?
+
+Curve funciona en la mayoría de países donde se acepta Mastercard. La moneda se convierte automáticamente al tipo de cambio de Mastercard.
+
+### ¿Es seguro usar Curve?
+
+Curve está regulado como institución de dinero electrónico en el Reino Unido y ofrece protección contra fraude de hasta 100.000€ por transacción no autorizada.
+
 No olvides compartir el post si te ha gustado
