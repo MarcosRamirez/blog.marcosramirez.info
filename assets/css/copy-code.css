@@ -1,0 +1,33 @@
+/* Copy button for code blocks */
+
+.highlight {
+  position: relative;
+}
+
+.highlight .copy-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  padding: 4px 8px;
+  background: transparent;
+  border: none;
+  color: #999;
+  cursor: pointer;
+  opacity: 1;
+  transition: color 0.2s ease;
+  z-index: 10;
+}
+
+.highlight .copy-btn:hover {
+  color: #333;
+}
+
+.highlight .copy-btn.copied {
+  color: #28a745;
+}
+
+.highlight .copy-btn svg {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
