@@ -65,6 +65,10 @@ Do NOT apply `nofollow` or `noopener` to the following domains:
 ### B. External Links (Security)
 Any domain NOT included in the above list must be treated as external.
 
+### C. Amazon Affiliate Links (Sponsored)
+All Amazon affiliate links (amzn.to) must include `rel="sponsored nofollow noopener"`:
+`[Text](https://amzn.to/xxxxx){:target="_blank" :rel="sponsored nofollow noopener"}`
+
 ## 6. Jekyll Format (Chirpy Theme)
 - **External Links:** Use `[Text](url){:target="_blank" :rel="nofollow noopener"}`.
 - **Own Links (Whitelist):** Use `[Text](url){:target="_blank"}` (without rel) to maintain authority.
