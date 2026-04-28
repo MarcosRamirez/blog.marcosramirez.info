@@ -45,6 +45,8 @@ A partir del 1 de junio de 2026, los usuarios de [GitHub Copilot](https://github
 
 Esta no es una decisión aislada de GitHub. Es la punta del iceberg de una tendencia global en 2026.
 
+Si necesitas ayuda para evaluar cómo este cambio afecta a tu flujo de trabajo, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+
 ### El contexto industrial: el fin de los precios "loss leader"
 
 El mercado de la [Inteligencia Artificial](https://blog.marcosramirez.info/categoria/inteligencia-artificial/){:target="_blank"} está madurando, y con ello llega la necesidad de rentabilidad. [OpenAI](https://openai.com/){:target="_blank" :rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" :rel="nofollow noopener"} y [Google](https://ai.google/){:target="_blank" :rel="nofollow noopener"} están abandonando progresivamente los planes de 20 dólares al mes "ilimitados" en favor de niveles de uso basados en consumo real.
@@ -63,6 +65,8 @@ Los desarrolladores tendrán que tomar decisiones conscientes:
 - Usar modelos rápidos y económicos para tareas rutinarias (boilerplate, refactors simples).
 - Reservar modelos premium (27x) solo para problemas complejos de arquitectura o debugging avanzado.
 - Monitorizar activamente el consumo de créditos para evitar quedarse sin acceso a mitad de sprint.
+
+¿Dudas con cómo calcular el consumo real de tus créditos? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo a optimizar tu configuración.
 
 ### Cambios en la productividad y gestión de equipos
 
@@ -93,6 +97,8 @@ Ante este panorama, la diversificación de herramientas y la preparación técni
 2. **[OpenCode](https://opencode.ai){:target="_blank" :rel="nofollow noopener"}**: Una opción emergente que promete flexibilidad. Aunque su ecosistema es más joven, ofrece una alternativa interesante para quienes buscan escapar del monopolio de los grandes.
 
 3. **LLMs Locales**: La opción definitiva para el control de costes. Herramientas como [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} o LM Studio permiten ejecutar modelos de lenguaje directamente en tu máquina.
+
+¿Te interesa montar tu propio entorno local con [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"}? [Cuéntame](https://marcosramirez.info/contacto/){:target="_blank"} qué hardware tienes y te recomiendo la mejor configuración.
    - **Ventajas**: Coste cero tras la inversión inicial en hardware, privacidad total, sin límites de tokens.
    - **Desventajas**: Requiere hardware potente (GPU con buena VRAM) y los modelos locales, aunque potentes, aún no igualan la capacidad de razonamiento de los modelos frontera en la nube para tareas extremadamente complejas.
 
@@ -114,6 +120,8 @@ Por ahora, [Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener
 **¿Son los LLMs locales una alternativa viable para desarrollo profesional?**
 Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de razonamiento de los modelos frontera para tareas extremadamente complejas. Son ideales para tareas rutinarias, mientras que los modelos en la nube siguen siendo mejores para arquitectura y debugging avanzado.
 
+¿Has probado ya alguna alternativa a [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"}? [Déja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu experiencia.
+
 - **Diversifica tus herramientas**: No pongas todos los huevos en la cesta de [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"}. Aprende a usar [Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} o configura [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} para tareas que no requieran modelos de máxima potencia.
 - **Experimenta con modelos locales**: Instala [Ollama](https://ollama.com/){:target="_blank" :rel="nofollow noopener"} y prueba modelos como Llama 3 o Mistral. Evalúa si el rendimiento es suficiente para tu flujo de trabajo diario.
 - **Monitoriza tu consumo**: Si te quedas en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"}, familiarízate con el panel de control de créditos. Entiende qué tipo de tareas consumen más y ajusta tu comportamiento.
@@ -121,6 +129,6 @@ Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de raz
 
 Compártelo si te ha gustado.
 
-¿Qué opinas de este cambio de modelo en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"}? ¿Crees que otras herramientas como [Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} seguirán el mismo camino? Cuéntame tu opinión.
+¿Qué opinas de este cambio de modelo en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" :rel="nofollow noopener"}? ¿Crees que otras herramientas como [Cursor](https://cursor.sh/){:target="_blank" :rel="nofollow noopener"} seguirán el mismo camino? [Déja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu opinión.
 
 Y... ¡hasta aquí por hoy!
