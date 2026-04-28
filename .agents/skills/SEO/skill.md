@@ -65,8 +65,30 @@ Do NOT apply `nofollow` or `noopener` to the following domains:
 ### B. External Links (Security)
 Any domain NOT included in the above list must be treated as external.
 
+### C. Affiliate Link Detection
+The AI must identify affiliate/referral links and mark them with `rel="sponsored"`.
+
+**Common affiliate programs:**
+- **Amazon:** `amazon.*` (any TLD) and `amzn.to` (short URLs)
+- **Alibaba Group:** `alibaba.com`, `aliexpress.com`, `aliexpress.*`
+- **eBay:** `ebay.*`
+- **Booking.com:** `booking.com`
+- **Generic patterns:** URLs containing `/ref=`, `?tag=`, `?aff=`, `?partner=`
+
+**Rule:** If a link matches ANY affiliate pattern:
+1. Add `rel="sponsored nofollow noopener"` to the link
+2. Use Kramdown format from Jekyll skill: `{:target="_blank" rel="sponsored nofollow noopener"}`
+3. Do NOT add colon (`:`) before `rel`
+
+**Example:**
+```markdown
+[Product](https://amazon.com/dp/B08XXXXXX/?tag=affiliate-20){:target="_blank" rel="sponsored nofollow noopener"}
+[Short URL](https://amzn.to/4tOaPqs){:target="_blank" rel="sponsored nofollow noopener"}
+```
+
 ## 6. Jekyll Format (Chirpy Theme)
 - **External Links:** Use `[Text](url){:target="_blank" rel="nofollow noopener"}` (no colon before rel).
+- **Affiliate Links:** Use `[Text](url){:target="_blank" rel="sponsored nofollow noopener"}` (see Affiliate Link Detection section).
 - **Own Links (Whitelist):** Use `[Text](url){:target="_blank"}` (without rel) to maintain authority.
 - **H1:** Don't repeat in the Markdown body (Chirpy generates it automatically).
 
