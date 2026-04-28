@@ -5,7 +5,8 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-02-26 18:00:00 +0100
-categories: [Personal y Desarrollo Profesional]
+categories: [Personal]
+image_alt: "Desarrollador junior y senior trabajando juntos"
 tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false
 toc: true

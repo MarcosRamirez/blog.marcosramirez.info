@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2021-11-22 08:50:00 +0100
 image: /assets/img/headers/2021/opt-in-en-2021-nanobanana.webp
+image_alt: "Email con botón de Opt-In para consentimiento"
 categories: [Productividad y Hacks]
 tags: [Automatización, Reflexiones y Opinión]
 pin: false

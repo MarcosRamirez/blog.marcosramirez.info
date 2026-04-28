@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2021-11-29 08:50:00 +0100
 image: /assets/img/headers/2021/transferenciasautomaticas-nanobanana.webp
+image_alt: "App de banco con configuración de transferencias automáticas"
 categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Automatización]
 pin: false

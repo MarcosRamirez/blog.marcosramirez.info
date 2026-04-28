@@ -6,7 +6,8 @@ authors:
   - "Lucía"
 date: 2021-04-09 20:50:00 +0100
 image: /assets/img/headers/2021/recruiting-nanobanana.webp
-categories: [Personal y Desarrollo Profesional]
+image_alt: "Iconos de recruiter y empresa buscando candidatos"
+categories: [Personal]
 tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false
 toc: true

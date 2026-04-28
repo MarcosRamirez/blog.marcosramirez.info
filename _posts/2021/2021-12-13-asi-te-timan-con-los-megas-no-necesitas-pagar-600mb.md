@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2021-12-13 18:50:00 +0100
 image: /assets/img/headers/2021/megas-nanobanana.webp
+image_alt: "Router WiFi con gráfico de velocidad de internet"
 categories: [Tecnología]
 tags: [Redes e Infraestructura, Reflexiones y Opinión]
 pin: false
