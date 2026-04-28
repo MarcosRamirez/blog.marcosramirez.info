@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-05-10 19:26:42 +0200
 image: /assets/img/headers/2017/megas-wifi-fibra-nanobanana.webp
+image_alt: "Router WiFi y cable de fibra óptica"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [redes, internet, fibra, wifi]
 pin: false

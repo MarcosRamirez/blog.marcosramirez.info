@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-05-04 12:27:05 +0200
 image: /assets/img/headers/android-pinning.webp
+image_alt: "Captura de pantalla de Android con Screen Pinning activado"
 categories: [Tecnología, Sistemas]
 tags: [android, tutorial, ciberseguridad, trucos]
 pin: false

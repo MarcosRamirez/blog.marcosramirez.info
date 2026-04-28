@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-07-08 12:12:27 +0200
 image: /assets/img/headers/os-presento-a-amy-ingram.webp
+image_alt: "Logo de Amy Ingram, asistente de IA para reuniones"
 categories: [Tecnología, Inteligencia Artificial]
 tags: [ia, productividad, automatización, asistentes]
 pin: false

@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-05-05 19:25:30 +0200
 image: /assets/img/headers/google-play-family-i.webp
+image_alt: "Logo de Google Play con icono de familia"
 categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false

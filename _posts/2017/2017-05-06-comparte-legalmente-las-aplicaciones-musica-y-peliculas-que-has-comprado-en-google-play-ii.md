@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-05-06 19:28:35 +0200
 image: /assets/img/headers/google-play-family-ii.webp
+image_alt: "Captura de pantalla del Plan Familiar de Google Play"
 categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false

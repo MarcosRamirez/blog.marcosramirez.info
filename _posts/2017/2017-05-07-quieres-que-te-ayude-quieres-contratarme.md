@@ -6,7 +6,8 @@ authors:
   - "Lucía"
 date: 2017-05-07 19:25:28 +0200
 image: /assets/img/headers/quieres-que-te-ayude.webp
-categories: [Personal y Desarrollo Profesional, Carrera Profesional]
+image_alt: "Texto professionnel ¿Quieres que te ayude? con icono de maleta"
+categories: [Personal, Carrera Profesional]
 tags: [freelance, empleo, profesional]
 pin: false
 toc: true

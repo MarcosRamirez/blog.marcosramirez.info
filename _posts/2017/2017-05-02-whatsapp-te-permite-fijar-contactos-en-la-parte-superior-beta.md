@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2017-05-02 08:14:41 +0200
 image: /assets/img/headers/whatsapp-fijar-contactos.webp
+image_alt: "Captura de pantalla de WhatsApp con contactos fijados"
 categories: [Tecnología, Software y Apps]
 tags: [whatsapp, beta, tutorial]
 pin: false
