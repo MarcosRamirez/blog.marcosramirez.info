@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - Lucía
 date: 2026-05-08 08:30:00 +0200
-image: /assets/img/headers/monetizar-trafico-libro-nanobanana.webp
+image: /assets/img/2026/monetizar-trafico-libro-nanobanana.webp
 image_alt: "Libros apilados con monedas"
 categories: [Personal]
 tags: [seo, afiliacion, marketing-digital, landings, conversion-optimization]
