@@ -25,7 +25,7 @@ Aquí tienes la cronología de lo sucedido este mes:
 
 ## 📅 4 de abril: El fin de los agentes "gratuitos"
 
-Anthropic comenzó el mes limitando el uso de frameworks de agentes de terceros (como [OpenClaw](https://openclaw.ai/){:target="_blank" rel="nofollow noopener"}) bajo las suscripciones Pro y Max. Lo que antes era un "uso ilimitado" dentro de la cuota, pasó a requerir facturación por uso (API), encareciendo drásticamente los proyectos de automatización.
+Anthropic comenzó el mes limitando el uso de frameworks de agentes de terceros (como [OpenClaw](https://openclaw.ai/){:target="_blank" rel="nofollow noopener"}) bajo las suscripciones Pro y Max. Lo que antes era un "uso ilimitado" dentro de la cuota, pasó a requerir facturación por uso (API), encareciendo drásticamente los proyectos de automatización. Si quieres saber más sobre cómo uso OpenClaw en mi [propio servidor]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %}){:target="_blank"}, puedes leer mi experiencia con Lucía.
 
 ## 📅 21 de abril: El polémico "Test A/B" de Claude Code
 
