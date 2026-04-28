@@ -21,7 +21,7 @@ permalink: /:slug/
 
 ## Introducción
 
-Hoy, **28 de abril de 2026**, se cumple un año del [gran apagón eléctrico en España](https://www.rtve.es/noticias/economia/2025/04/28/apagon-luces-espana-2025/){:target="_blank" :rel="nofollow noopener"}. Un evento sin precedentes que dejó a millones de personas sin luz, sin comunicaciones y, por supuesto, sin poder usar sus tarjetas ni datáfonos.
+Hoy, **28 de abril de 2026**, se cumple un año del [gran apagón eléctrico en España](https://www.rtve.es/noticias/20250428/apagon-generalizado-varias-provincias-espanolas/16557669.shtml){:target="_blank" :rel="nofollow noopener"}. Un evento sin precedentes que dejó a millones de personas sin luz, sin comunicaciones y, por supuesto, sin poder usar sus tarjetas ni datáfonos.
 
 Ese día aprendimos una lección brutal: **la tecnología falla, pero el dinero en efectivo nunca falla**.
 
