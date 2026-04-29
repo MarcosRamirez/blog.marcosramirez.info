@@ -17,8 +17,8 @@ description: Skill specialized in optimizing technology and software posts under
 ## 2. Content Structure (On-Page)
 - **Metadata (Limits):**
   - **Title Tag:** Maximum 60 characters (prioritize keyword at the start).
-  - **Meta Description:** Between 120 and 155 characters (technical/commercial hook).
-- **H1:** Unique title defined in Front Matter. Don't repeat in the body.
+  - **Meta Description (meta_description):** Between 120 and 155 characters (shown to crawlers in search results). This is a separate frontmatter field from excerpt.
+- **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
 - **FAQ Section:** 3-4 questions to capture featured snippets.

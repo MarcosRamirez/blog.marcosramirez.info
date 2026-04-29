@@ -204,7 +204,7 @@ Incorrect example:
 
 ### Writing the Excerpt
 
-- The excerpt must contain a summary between 10% and 20% of the post length.
+- The excerpt must contain a summary between 20% and 30% of the post length (shown to users in listings).
 - It must be a complete and coherent summary of the post.
 - It must be written in the same language as the post.
 - It must be written in paragraph format.
