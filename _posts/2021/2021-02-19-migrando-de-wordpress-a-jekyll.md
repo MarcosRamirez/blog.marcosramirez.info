@@ -1,18 +1,19 @@
 ---
-title: "Migrando de WordPress a Jekyll"
+title: "Migrando de WordPress a Jekyll + GitHub Pages"
 slug: migrando-de-wordpress-a-jekyll
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2021-02-19 10:34:00 +0100
-categories: [Tecnología]
-tags: [Desarrollo Web, Sistemas]
+date: 2021-02-19 08:30:00 +0100
+image: /assets/img/headers/wordpress-to-jekyll.webp
+image_alt: "Logos de WordPress y Jekyll con flecha de migración"
+categories: [Tecnología, Software y Apps]
+tags: [jekyll, github-pages, migración, tutorial]
 pin: false
 toc: true
-image: /assets/img/headers/2021/wp2jekyll-nanobanana.webp
-image_alt: "WordPress logo transitioning to Jekyll logo"
-excerpt: "Detallo mi experiencia migrando múltiples blogs de WordPress a Jekyll, una decisión motivada por la búsqueda de simplicidad, seguridad y un flujo de trabajo optimizado para desarrolladores. Explico los problemas que me encontré con WordPress (mantenimiento, seguridad, actualizaciones) y las ventajas de Jekyll (markdown, GitHub, integración continua). También describo los problemas encontrados durante la migración: la programación de posts futuros, el proceso de importación de contenido y la implementación de Twitter cards."
-twitter_description: "Cómo migrar de WordPress a Jekyll: razones, proceso y problemas encontrados."
+excerpt: "Migrar de WordPress a Jekyll con GitHub Pages fue uno de los mejores cambios que hice para simplificar mi flujo de trabajo. Analizo por qué dejé WordPress, los problemas que encontré con la exportación de HTML y Markdown, y cómo configuré Jekyll para que mi blog funcionara perfectamente en GitHub Pages. Una guía completa de migración técnica."
+twitter_description: "Migrar de WordPress a Jekyll + GitHub Pages: guía completa de migración técnica."
+meta_description: "Migra tu blog de WordPress a Jekyll con GitHub Pages. Aprende el proceso completo paso a paso y soluciona problemas. Lee más."
 permalink: /migrando-de-wordpress-a-jekyll/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

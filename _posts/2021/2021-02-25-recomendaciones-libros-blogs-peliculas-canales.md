@@ -9,10 +9,11 @@ categories: [Personal y Desarrollo Profesional]
 tags: [Recomendaciones, Carrera Profesional]
 pin: false
 toc: true
-excerpt: "Curo una lista personal de recomendaciones que abarca desde literatura técnica fundamental para programadores hasta novelas de terror y producciones audiovisuales. Encontrarás títulos esenciales como Clean Code de Robert C. Martin, The Clean Coder, Refactoring de Fowler, y Principios y algoritmos de concurrencia. También incluyo recomendaciones de películas de terror como El Tubo y novelas como Apocalipsis de Stephen King."
+excerpt: "Descubre mi lista curada de recomendaciones personales que abarca literatura técnica fundamental para programadores, novelas de terror y producciones audiovisuales. Encontrarás títulos esenciales como Clean Code de Robert C. Martin, The Clean Coder y Refactoring de Fowler para mejorar tus habilidades de programación. También incluyo recomendaciones de novelas de terror como Apocalipsis de Stephen King, películas como El Tubo, y series como TeaCup, From y Lost. Una guía completa que iré actualizando regularmente con nuevos títulos de interés para la comunidad."
 twitter_description: "Mis recomendaciones de libros de programación, novelas de terror y películas."
 image: /assets/img/headers/2021/recomendaciones-nanobanana.webp
 image_alt: "Stack de libros, laptop y cine"
+meta_description: "Descubre mi lista de libros de programación, novelas de terror y películas recomendadas. Una guía curada que actualizo regularmente. Lee más."
 permalink: /recomendaciones-libros-blogs-peliculas-canales/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

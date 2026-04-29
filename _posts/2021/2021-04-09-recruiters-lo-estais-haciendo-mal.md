@@ -11,8 +11,9 @@ categories: [Personal]
 tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false
 toc: true
-excerpt: "Expongo una crítica constructiva sobre los procesos de selección en el sector IT, analizando los errores que cometen recruiters y empresas al redactar ofertas poco claras o 'humo'. Cubro las ofertas que 'van de guay' (buscan ninjas developers), las que dan poca información sobre el proyecto, las preguntas cuyas respuestas están en el CV del candidato, las 'primeras llamadas' improductivas, las entrevistas técnicas excesivamente largas, y las pruebas técnicas que piden desarrollar un carrito de la compra sin pagar por el tiempo invertido."
+excerpt: "Expongo una crítica constructiva sobre los procesos de selección en el sector IT, analizando los errores que cometen recruiters y empresas al redactar ofertas poco claras o con humo. Cubro las ofertas que van de guay buscando ninja developers, las que dan poca información sobre el proyecto, y las preguntas cuyas respuestas ya están en el CV del candidato. También analizo las primeras llamadas improductivas, las entrevistas técnicas excesivamente largas, y las pruebas técnicas que piden desarrollar un carrito de la compra sin pagar por el tiempo invertido. Una reflexión sobre cómo mejorar los procesos de selección en tecnología."
 twitter_description: "Crítica a los procesos de selección en IT: ofertas vagas, pruebas técnicas sin pagar y pérdida de tiempo."
+meta_description: "Crítica constructiva a los procesos de selección en IT: ofertas vagas, pruebas técnicas sin pagar y pérdida de tiempo. Descubre mejores prácticas."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

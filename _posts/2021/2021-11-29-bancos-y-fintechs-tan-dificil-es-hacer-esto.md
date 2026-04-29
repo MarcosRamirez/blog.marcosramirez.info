@@ -11,8 +11,9 @@ categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Automatización]
 pin: false
 toc: true
-excerpt: "Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales. Los bancos podrían implementar fácilmente un gestor de eventos que permitiera automatizar transferencias según condiciones: enviar el IVA a otra cuenta automáticamente al recibir ingresos, o transferir el excedente a ahorro cuando el saldo supere cierto umbral. La pregunta es: ¿es tan difícil implementar algo así? N26 ofrece algo parecido en sus planes premium, pero solo entre sus espacios y con coste mínimo de 4,9€/mes."
+excerpt: "Cuestiono la falta de herramientas de automatización avanzada en el sector bancario y fintech para la gestión de finanzas personales. Los bancos podrían implementar fácilmente un gestor de eventos que permitiera automatizar transferencias según condiciones específicas. Por ejemplo, enviar el IVA a otra cuenta automáticamente al recibir ingresos, o transferir el excedente a una cuenta de ahorro cuando el saldo supere cierto umbral. Te muestro ejemplos de código de cómo sería esta implementación. La pregunta es: ¿es tan difícil implementar algo así? N26 ofrece algo parecido en sus planes premium, pero solo entre sus espacios y con coste mínimo de 4,9€/mes."
 twitter_description: "Automatización de transferencias en bancos: por qué no podemos configurar reglas simples?"
+meta_description: "Automatiza transferencias bancarias según condiciones: envía IVA a otra cuenta o ahorra el excedente. Descubre por qué los bancos no ofrecen esto. Lee más."
 permalink: /:slug/
 ---
 

@@ -10,10 +10,11 @@ image_alt: "Desarrollador junior y senior trabajando juntos"
 tags: [Carrera Profesional, Reflexiones y Opinión]
 pin: false
 toc: true
-excerpt: "Una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental. Cubro los diferentes tipos de formación disponibles (universidad, FP, bootcamps, autodidacta), los conceptos básicos que todo programador debe dominar (variables, POO, algoritmos, estructures de datos), las herramientas esenciales como IDEs y Git, y otros conocimientos avanzados como patrones de diseño, metodologías ágiles, testing y refactorización."
+excerpt: "Una guía exhaustiva dirigida tanto a programadores Junior que dan sus primeros pasos como a Seniors que necesitan recordar lo fundamental. Cubro los diferentes tipos de formación disponibles como universidad, FP, bootcamps y autodidacta, explicando los conceptos básicos que todo programador debe dominar como variables, POO, algoritmos y estructuras de datos. También detallo las herramientas esenciales como IDEs y Git, y conocimientos avanzados como patrones de diseño, metodologías ágiles, testing y refactorización. Incluyo consejos sobre inglés, virtualización con Docker y Kubernetes, y cómo lidiar con los egos en el sector. Una guía completa para mejorar tu carrera profesional en programación."
 twitter_description: "Guía completa para programadores Junior y Seniors: conceptos, herramientas y consejos esenciales."
 permalink: /cosas-que-todo-junior-deberia-saber-mas-de-un-senior/
 image: /assets/img/headers/2021/cosas-que-todo-junior-deberia-saber-nanobanana.webp
+meta_description: "Guía completa para programadores Junior y Senior: conceptos básicos, herramientas y consejos esenciales. Mejora tu carrera profesional hoy. Lee más."
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
