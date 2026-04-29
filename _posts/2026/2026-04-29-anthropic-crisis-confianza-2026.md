@@ -2,7 +2,7 @@
 title: "⚠️ ¿Qué está pasando con Anthropic? Crisis de confianza (Abril 2026)"
 slug: "anthropic-crisis-confianza-2026"
 date: 2026-04-29 08:30:00 +0200
-excerpt: "Anthropic ha vivido un abril de 2026 para el olvido. Repasamos una crisis de confianza que ha sacudido a la comunidad de desarrolladores."
+excerpt: "Anthropic ha vivido un abril de 2026 para el olvido, con limitación de agentes gratuitos, cambios sin avisar en Claude Code, un nuevo tokenizador que encarece precios un 45% y errores de facturación como el caso Hermes. Repasamos una crisis de confianza que ha sacudido a la comunidad de desarrolladores este mes."
 authors:
   - "Marcos Ramírez"
   - "Lucía"
@@ -15,6 +15,7 @@ toc: true
 twitter_description: "Agentes caros, tests sin avisar y errores de facturación. Cronología de una crisis de confianza en Anthropic."
 permalink: /:slug/
 excerpt_separator: <!--more-->
+meta_description: "Anthropic vive crisis en abril 2026: agentes caros, tokenizador que sube precios y fallos de facturación. Cronología completa aquí. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

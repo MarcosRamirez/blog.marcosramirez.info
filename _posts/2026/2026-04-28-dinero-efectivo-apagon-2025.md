@@ -2,7 +2,7 @@
 title: "Por qué tener dinero en efectivo (y el apagón 2025)"
 slug: dinero-efectivo-apagon-2025
 date: 2026-04-28 08:30:00 +0200
-excerpt: "Hoy se cumple un año del apagón eléctrico en España. Un recordatorio de por qué el efectivo es vital: privacidad, libertad y resiliencia ante fallos tecnológicos."
+excerpt: "Hoy se cumple un año del gran apagón eléctrico en España. Un recordatorio de por qué el efectivo es vital: privacidad, libertad y resiliencia ante fallos tecnológicos. El 28 de abril de 2025 una desconexión en la red de transporte eléctrico dejó a millones sin luz, sin comunicaciones y sin poder usar sus tarjetas ni datáfonos. Solo quienes tenían efectivo pudieron seguir con su día normalmente. El efectivo no necesita batería, ni red, ni satélite. Funciona siempre y te da privacidad absoluta sin perfiles comerciales ni rastreadores."
 authors:
   - "Marcos Ramírez"
   - "Lucía"
@@ -14,6 +14,7 @@ image_alt: "Billetes de euros y monedas sobre una mesa de madera, junto a una li
 pin: false
 toc: true
 twitter_description: "Apagón 2025: por qué el efectivo sigue siendo vital por privacidad, libertad y resiliencia ante fallos tecnológicos."
+meta_description: "Descubre por qué el efectivo sigue siendo vital tras el apagón 2025. Privacidad, libertad y resiliencia ante fallos tecnológicos. Lee más."
 permalink: /:slug/
 ---
 

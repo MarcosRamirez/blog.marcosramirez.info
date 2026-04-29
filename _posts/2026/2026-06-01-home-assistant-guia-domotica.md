@@ -1,6 +1,6 @@
 ---
 title: "Home Assistant: Tu cerebro de domótica en un solo lugar"
-slug: home-assistant-guia-domotica
+slug: home-assitant-guia-domotica
 authors:
   - "Marcos Ramírez"
   - "Lucía"
@@ -11,9 +11,10 @@ categories: [Tecnología, Automatización]
 tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
 pin: false
 toc: true
-excerpt: "Te presento Home Assistant, el centro de domótica de mi Home Lab para automatizar todo lo que puedo. Desde luces que se encienden al anochecer hasta notificaciones cuando alguien entra en casa. Sin depender de la nube, sin suscripciones."
+excerpt: "Home Assistant es el centro de domótica de mi Home Lab para automatizar luces al anochecer, calefacción según temperatura y notificaciones de seguridad. Compatible con 2.000+ integraciones, funciona localmente sin nubes ni suscripciones. Incluye dashboards personalizados y automatizaciones con lógica condicional avanzada."
 twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni suscripciones."
 permalink: /:slug/
+meta_description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones y dashboards personalizados. Sin nube. Descubre más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*

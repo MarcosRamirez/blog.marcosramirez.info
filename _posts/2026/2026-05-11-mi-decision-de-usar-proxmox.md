@@ -11,9 +11,10 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [virtualizacion, contenedores, infraestructura, servidores, homelab]
 pin: false
 toc: true
-excerpt: "Explico mi elección de Proxmox como plataforma de virtualización para mi Home Lab. Analizo por qué prefiero Proxmox sobre ESXi, Hyper-V o Docker standalone, cómo estructuro servicios en LXC (AdGuard Home, Nginx Proxy Manager, Workers) y VMs, y por qué evito Docker dentro de LXC."
+excerpt: "Explico por qué elegí Proxmox como plataforma de virtualización para mi Home Lab sobre ESXi, Hyper-V o Docker standalone. Te muestro cómo estructuro servicios en LXC ligeros para AdGuard Home, Nginx Proxy Manager y Workers, y VMs para cargas con Docker como Home Assistant. Incluye comparativa de opciones y por qué evito Docker dentro de LXC."
 twitter_description: "Por qué elijo Proxmox para mi Home Lab: virtualización seria."
 permalink: /:slug/
+meta_description: "Elige Proxmox para tu Home Lab: VMs y LXC con gestión vía CLI pct y qm. Comparativa vs ESXi y Docker. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

@@ -2,7 +2,7 @@
 title: "Jellyfin VAAPI hardware transcoding fix en Proxmox LXC sin privilegios"
 slug: "jellyfin-vaapi-fix-proxmox-lxc"
 date: 2026-04-25 08:30:00 +0200
-excerpt: "Aprende a corregir el error de transcodificación hardware VAAPI en Jellyfin dentro de un contenedor LXC sin privilegios en Proxmox."
+excerpt: "Aprende a corregir el error de transcodificación hardware VAAPI en Jellyfin dentro de un contenedor LXC sin privilegios en Proxmox. El error Device creation failed: -542398533 ocurre aunque vainfo funciona porque los dispositivos /dev/dri/card1 y renderD128 se mapean como root:root en lugar de root:video y root:render. Crea un hook script en /var/lib/vz/snippets que cambia los permisos automáticamente en post-start, registralo con pct set y reinicia el contenedor para que Jellyfin acceda a Intel Quick Sync sin errores."
 authors:
   - Marcos Ramírez
   - Lucía
@@ -14,6 +14,7 @@ image_alt: "Terminal mostrando error de VAAPI en Jellyfin dentro de un contenedo
 tags: [vaapi, intel-quick-sync, proxmox, lxc, hardware-transcoding]
 toc: true
 twitter_description: "Solución al problema de VAAPI en un LXC sin privilegios. Guía paso a paso para hacer funcionar Jellyfin con hardware transcoding en Proxmox."
+meta_description: "Soluciona el error VAAPI en Jellyfin LXC sin privilegios. Crea hook script y corrige permisos para Intel Quick Sync. Aprende la configuración paso a paso. Lee más."
 permalink: /:slug/
 ---
 

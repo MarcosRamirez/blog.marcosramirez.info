@@ -7,13 +7,13 @@ authors:
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/2026/gente-vuelve-piratear-nanobanana.webp
 image_alt: "Servidor casero con aplicaciones de streaming, representando el resurgimiento del self-hosted"
-image_alt: "Icono de servidor casero con aplicaciones de streaming, representando el resurgence del self-hosted"
 categories: [Tecnología, Personal]
 tags: [streaming, suscripciones, pirateria, entretenimiento, costes, contenidos]
 pin: false
 toc: true
-excerpt: "Analizo el fin de la paz del streaming y por qué la piratería vuelve a ganar terreno. La fragmentación de plataformas, las subidas de precios y la pérdida de propiedad digital empujan a los usuarios de vuelta al P2P."
+excerpt: "Analizo el fin de la paz del streaming y por qué la piratería vuelve a ganar terreno. La fragmentación de plataformas con Netflix, Disney+, Max, Amazon Prime Video, Apple TV+ y SkyShowtime dispara la factura mensual hasta 58,95€ al mes. Las subidas de precios injustificadas, la pérdida de propiedad digital donde ya no eres dueño de lo comprado y pueden borrarlo con un botón, y la introducción de anuncios en tarifas de pago empujan a los usuarios de vuelta al P2P. Comparo el coste del streaming vs montar un servidor casero con Mini PC Intel N100 y discos de alta capacidad por menos de 400€ en pago único."
 twitter_description: "El fin del streaming barato: fragmentación, precios y piratería."
+meta_description: "Descubre por qué la gente vuelve a piratear: fragmentación, subidas de precios y pérdida de propiedad digital. Monta tu servidor casero hoy. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

@@ -3,7 +3,7 @@ title: "Monetizar tráfico de búsqueda: intención sobre resultados"
 slug: monetizar-trafico-libro
 authors:
   - "Marcos Ramírez"
-  - Lucía
+  - "Lucía"
 date: 2026-05-08 08:30:00 +0200
 image: /assets/img/headers/2026/monetizar-trafico-libro-nanobanana.webp
 image_alt: "Libros apilados con monedas"
@@ -11,9 +11,10 @@ categories: [Personal]
 tags: [seo, afiliacion, marketing-digital, landings, conversion-optimization]
 pin: false
 toc: true
-excerpt: "Cómo aprovechar el tráfico de alta intención que llega a tu web buscando un producto, usando mi caso con el libro Marcos Ramírez de Carlos Luis Fallas."
+excerpt: "Aprende a monetizar tráfico de alta intención que llega a tu web buscando un producto específico. Usando mi caso con el libro Marcos Ramírez de Carlos Luis Fallas, te explico cómo validar la búsqueda, ofrecer opciones según intención y capturar leads para el futuro. Aplica la regla del coste por uso y optimiza conversiones."
 twitter_description: "La intención de búsqueda vale más que la conversión inmediata. Cómo monetizar tráfico con propósito."
 permalink: /:slug/
+meta_description: "Monetiza tráfico de alta intención con tu web. Valida búsquedas, ofrece opciones y captura leads. Aprende más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }}){:alt="Libros apilados con monedas"}

@@ -11,9 +11,10 @@ categories: [Tecnología, Productividad y Hacks]
 tags: [código-abierto, cli, herramientas, productividad, desarrollo, terminal]
 pin: false
 toc: true
-excerpt: "Desde hace unos meses tengo un nuevo compañero de trabajo que escribe código, investiga y me ahorra horas cada semana. Se llama OpenCode, una herramienta de código abierto que funciona en mi terminal y me ayuda con tareas de desarrollo, redacción de posts y resolución de problemas técnicos. Con más de 140.000 estrellas en GitHub y usado por más de 6 millones de desarrolladores, es la alternativa open source a ChatGPT y Claude."
+excerpt: "OpenCode es un agente de IA de código abierto con más de 140.000 estrellas en GitHub. Funciona en tu terminal con acceso directo a archivos, ejecución de comandos y edición real. Compatible con modelos OpenAI, Anthropic, Google y Zen, úsalo para redactar posts, refactorizar código y explicar lógica legacy."
 twitter_description: "OpenCode es mi asistente de código abierto que me ahorra horas cada semana."
 permalink: /:slug/
+meta_description: "OpenCode: asistente de código abierto con 140k+ estrellas. Redacta, refactoriza y explica código. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

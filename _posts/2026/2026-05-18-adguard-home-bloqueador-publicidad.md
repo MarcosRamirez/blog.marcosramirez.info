@@ -11,8 +11,9 @@ categories: [Tecnología, Redes e Infraestructura]
 tags: [dns, privacidad, seguridad, redes, bloqueador, publicidades]
 pin: false
 toc: true
-excerpt: "Os presento AdGuard Home, el primer servicio de mi serie de Home Lab. Un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo, protegiendo todos los dispositivos de tu red."
+excerpt: "AdGuard Home es un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo. Protege todos los dispositivos sin instalar nada en cada uno, bloqueando publicidad, trackers, phishing y contenido adulto. Usa listas como EasyList y permite añadir tus propias para bloquear redes sociales y TikTok. Corre ligero en LXC con 512MB RAM."
 twitter_description: "AdGuard Home: tu propio bloqueador de publicidad a nivel de red."
+meta_description: "Protege tu red con AdGuard Home: bloqueador de publicidad y rastreadores a nivel DNS. Instala tu propio en Home Lab hoy. Lee más."
 permalink: /:slug/
 ---
 

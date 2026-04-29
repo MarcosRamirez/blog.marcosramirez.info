@@ -11,9 +11,10 @@ categories: [Tecnología, Sistemas]
 tags: [home-lab, infraestructura, servidores, organización]
 pin: false
 toc: true
-excerpt: "Guía completa sobre racks y mini racks para tu Home Lab. Te explico las opciones disponibles según el espacio y presupuesto, desde mini racks de escritorio hasta armarios de pared."
+excerpt: "Guía completa sobre racks y mini racks para tu Home Lab según espacio y presupuesto. Compara mini racks de escritorio (2-6U), racks de pared (6-12U), racks de 12-18U y racks completos de 42U. Incluye opciones para Mini PCs y SBCs, comparativas de modelos y dónde comprar."
 twitter_description: "Guía de racks y mini racks para Home Lab. Opciones para cada espacio y presupuesto."
 permalink: /:slug/
+meta_description: "Elige el rack ideal para tu Home Lab: mini racks, de pared o 42U. Comparativa y dónde comprar. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

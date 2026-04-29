@@ -11,9 +11,10 @@ categories: [Tecnología]
 tags: [Sistemas, Software y Apps, Automatización]
 pin: false
 toc: true
-excerpt: "El *arr stack y FlexGet son las dos herramientas más populares para automatizar descargas de series, películas y música. Te explico cuál elegir según tus necesidades técnicas y nivel de experiencia."
+excerpt: "Compara el *arr stack y FlexGet para automatizar descargas de series, películas y música. El *arr ofrece interfaz web y quality profiles automáticos, mientras FlexGet brinda flexibilidad total mediante YAML. Te explico cuál elegir según tus necesidades técnicas y por qué pueden trabajar juntos."
 twitter_description: "*arr stack vs FlexGet: ¿cuál herramienta de automatización de descargas te conviene más?"
 permalink: /:slug/
+meta_description: "Compara el *arr stack vs FlexGet para automatizar descargas. Interfaz web o YAML total. Elige tu opción aquí. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

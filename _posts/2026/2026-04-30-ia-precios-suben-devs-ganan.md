@@ -2,7 +2,7 @@
 title: "Inteligencia Artificial: precios suben, devs ganan"
 slug: ia-precios-suben-devs-ganan
 date: 2026-04-30 08:30:00 +0200
-excerpt: "Inteligencia Artificial sube precios: GitHub, Anthropic y OpenAI eliminan planes ilimitados. Beneficia a devs que usan IA eficientemente."
+excerpt: "La subida de precios en IA beneficia a desarrolladores que usan la tecnología de forma eficiente. Con GitHub Copilot, Anthropic y OpenAI eliminando planes ilimitados, el mercado valora el talento humano que maximiza el rendimiento de cada crédito invertido. Analizamos el impacto de multiplicadores 27x y comparamos costes entre cloud vs hardware local como DGX Spark."
 authors:
   - Marcos Ramírez
   - Lucía
@@ -20,6 +20,7 @@ toc: true
 pin: false
 twitter_description: "Inteligencia Artificial sube precios: GitHub, Anthropic y OpenAI. ¿Por qué beneficia a devs? Equilibra costes de talento humano y modelos de IA."
 permalink: /:slug/
+meta_description: "La subida de precios en IA beneficia a devs que usan la tecnología eficientemente. Multiplicadores 27x y comparativa cloud vs local. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
