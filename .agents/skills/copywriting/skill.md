@@ -152,6 +152,7 @@ Subcategories (add ALL relevant):
 - [ ] `Personal` main category posts use Friday 08:30:00 +0200
 - [ ] Non-`Personal` posts use Monday 08:30:00 +0200
 - [ ] Verified emoji usage follows Emoji Usage Guidelines
+- [ ] Verified `image_alt` is set in frontmatter (required for SEO/accessibility)
 
 ### Links (MANDATORY)
 
@@ -194,7 +195,7 @@ Incorrect example:
   3. Update front matter with the correct path
   4. Publish the post
 - Don't use `/assets/img/headers/default.webp` - that's only for posts without an image.
-- All posts must include a ![Post Header]({{ page.image }}) at the beginning of the text.
+- All posts must include a ![{{ page.image_alt }}]({{ page.image }}) at the beginning of the text.
 - Front matter must include the keys: `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `image_alt`, `pin`, `toc`, `twitter_description`, and `permalink`.
 - Default value for `pin` is false.
 - Default value for `toc` is true.

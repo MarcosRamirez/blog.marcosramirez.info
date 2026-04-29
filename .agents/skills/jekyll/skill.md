@@ -165,6 +165,15 @@ Recommended width: 1500px.
 
 Use the create-images skill to generate images with AI.
 
+### Post Header Image Format
+
+Use the `image_alt` from frontmatter for accessibility:
+```markdown
+![{{ page.image_alt }}]({{ page.image }})
+```
+
+Always ensure `image_alt` is set in frontmatter for SEO and accessibility.
+
 ## Kramdown Link Format
 
 Jekyll uses Kramdown as its Markdown parser. The correct format for links with attributes is:
