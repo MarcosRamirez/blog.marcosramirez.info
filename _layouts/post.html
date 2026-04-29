@@ -59,10 +59,6 @@ layout: default
 
       <div class="post-content">
 
-        {% if page.image %}
-        <img src="{{ page.image }}" class="preview-img" alt="{{ page.image_alt | default: " Preview Image" }}">
-        {% endif %}
-
         {{ content }}
 
       {% include post-sharing.html %}
