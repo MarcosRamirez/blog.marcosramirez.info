@@ -196,7 +196,7 @@ Incorrect example:
   4. Publish the post
 - Don't use `/assets/img/headers/default.webp` - that's only for posts without an image.
 - All posts must include a ![{{ page.image_alt }}]({{ page.image }}) at the beginning of the text.
-- Front matter must include the keys: `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `image_alt`, `pin`, `toc`, `twitter_description`, and `permalink`.
+- Front matter must include the keys: `title`, `date`, `excerpt`, `authors`, `categories`, `tags`, `image`, `image_alt`, `pin`, `toc`, `twitter_description`, `description`, and `permalink`.
 - Default value for `pin` is false.
 - Default value for `toc` is true.
 - **Default value for `permalink` is the post slug (without date).**

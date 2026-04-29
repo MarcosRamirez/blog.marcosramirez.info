@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "En este post comparto mi filosofía de trabajo como informático. Explico por qué ya no acepto proyectos de desarrollo web aislados y me centro en soluciones completas, aportando valor real al negocio y no solo escribiendo código. También anuncio que Lucía se une como asistente virtual."
 twitter_description: "Nueva etapa: ya no acepto proyectos web aislados. Busco aportar valor real al negocio."
-meta_description: "Aprende por qué dejé de aceptar proyectos web aislados. Descubre mi nuevo enfoque en soluciones de valor. Lee más."
+description: "Aprende por qué dejé de aceptar proyectos web aislados. Descubre mi nuevo enfoque en soluciones de valor. Lee más."
 permalink: /quieres-que-te-ayude-quieres-contratarme/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

@@ -14,7 +14,7 @@ pin: false
 toc: true
 excerpt: "Explico qué es un Home Lab (para quien no lo sepa) y por qué elegí construir el mío. Un Home Lab es tener un ordenador pequeño funcionando 24/7 en casa ejecutando servicios que de otro modo usarías en la nube. Este post es el primero de una serie sobre soberanía digital, privacidad, control de tus datos, independencia de Big Tech, ética open source y sostenibilidad técnica. Te explico por qué tu propia nube de archivos, servidor de Medios, DNS que bloquea publicidad, calendario y correo deben estar bajo tu control y no en manos de terceros."
 twitter_description: "Por qué elegí montar mi infraestructura en lugar de alquilarla a terceros. El primero de una serie."
-meta_description: "Descubre por qué tengo un Home Lab: soberanía digital, privacidad y control total de tus datos. Aprende a montar el tuyo paso a paso. Lee más."
+description: "Descubre por qué tengo un Home Lab: soberanía digital, privacidad y control total de tus datos. Aprende a montar el tuyo paso a paso. Lee más."
 permalink: /:slug/
 ---
 

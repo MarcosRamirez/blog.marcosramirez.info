@@ -14,7 +14,7 @@ toc: true
 excerpt: "Ansible es una herramienta de automatización de código abierto que gestiona todos tus servidores y contenedores desde un solo punto mediante SSH. Usa playbooks en YAML, es idempotente y no requiere agentes. Olvídate de actualizar cada servicio a mano."
 twitter_description: "Instala Ansible y gestiona todo tu Home Lab desde un solo lugar."
 permalink: /:slug/
-meta_description: "Ansible: automatiza tu Home Lab con playbooks YAML sin agentes. Gestiona servidores vía SSH. Descubre más."
+description: "Ansible: automatiza tu Home Lab con playbooks YAML sin agentes. Gestiona servidores vía SSH. Descubre más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Migrar de WordPress a Jekyll con GitHub Pages fue uno de los mejores cambios que hice para simplificar mi flujo de trabajo. Analizo por qué dejé WordPress, los problemas que encontré con la exportación de HTML y Markdown, y cómo configuré Jekyll para que mi blog funcionara perfectamente en GitHub Pages. Una guía completa de migración técnica."
 twitter_description: "Migrar de WordPress a Jekyll + GitHub Pages: guía completa de migración técnica."
-meta_description: "Migra tu blog de WordPress a Jekyll con GitHub Pages. Aprende el proceso completo paso a paso y soluciona problemas. Lee más."
+description: "Migra tu blog de WordPress a Jekyll con GitHub Pages. Aprende el proceso completo paso a paso y soluciona problemas. Lee más."
 permalink: /migrando-de-wordpress-a-jekyll/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

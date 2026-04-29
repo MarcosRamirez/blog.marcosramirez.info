@@ -16,7 +16,7 @@ pin: false
 toc: true
 twitter_description: "Frugalismo vs Minimalismo: aprende la diferencia y cómo el frugalismo puede llevarte a la independencia financiera. Guía práctica."
 permalink: /:slug/
-meta_description: "Frugalismo vs minimalismo: aplica el coste por uso y la regla del 4% para independencia financiera. Aprende más."
+description: "Frugalismo vs minimalismo: aplica el coste por uso y la regla del 4% para independencia financiera. Aprende más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "Otro de mis problemas del primer mundo con Google Photos. Cuando tienes fotos de una persona que el sistema no reconoce, como cientos de fotos de tu pareja haciendo muecas, Google identifica la cara pero no sabe quién es. Peor aún, no te permite decirselo manualmente. Si tienes fotos donde directamente no se ve la cara de la persona, la situación es aún más frustrante. ¿Conoces alguna solución?"
 twitter_description: "Problema sin solución: cómo decirle a Google Photos quién es una persona que no reconoce."
-meta_description: "Identifica caras en Google Photos y dime quién es manualmente. Descubre soluciones para fotos no reconocidas. Lee más."
+description: "Identifica caras en Google Photos y dime quién es manualmente. Descubre soluciones para fotos no reconocidas. Lee más."
 permalink: /decirle-a-google-photos-quien-es-la-persona-que-sale-en-la-foto-cuando-no-la-reconoce/
 ---
 

@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Soluciona la limitación de Jekyll en GitHub Pages para programar publicaciones futuras. Te explico cómo configurar el archivo _config.yml con la opción future para controlar si Jekyll debe publicar posts con fecha en el futuro. Aprende a configurar el workflow en .github/workflows/pages-deploy.yml con schedule para ejecutar builds automáticos cada 30 minutos, permitiendo que los posts programados se publiquen automáticamente. También te muestro una alternativa menos elegante que consiste en forzar el rebuild ejecutando un push vacío desde tu local. Una guía técnica paso a paso para automatizar tu blog Jekyll."
 twitter_description: "Cómo programar posts con Jekyll en GitHub Pages: configuración y workflow completo."
-meta_description: "Programa posts en Jekyll con GitHub Pages. Configura schedule en workflows y publica automáticamente tu contenido. Aprende el proceso paso a paso."
+description: "Programa posts en Jekyll con GitHub Pages. Configura schedule en workflows y publica automáticamente tu contenido. Aprende el proceso paso a paso."
 permalink: /:slug/
 ---
 

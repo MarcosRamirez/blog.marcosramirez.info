@@ -10,7 +10,7 @@ pin: false
 toc: false
 excerpt: "Comparto mis métodos para buscar proyectos y empleo como programador. Analizo plataformas como Fiverr, LinkedIn y otras vías, explicando por qué Fiverr me ha funcionado para conseguir clientes internacionales. También regalo 5€ a quienes se registren usando mi enlace de referido."
 twitter_description: "Buscando proyectos o empleo? Aprende de mi experiencia y recibe 5€ en Fiverr."
-meta_description: "Aprende a buscar proyectos y empleo como programador. Descubre Fiverr y consigue 5€ de regalo. Lee más."
+description: "Aprende a buscar proyectos y empleo como programador. Descubre Fiverr y consigue 5€ de regalo. Lee más."
 permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

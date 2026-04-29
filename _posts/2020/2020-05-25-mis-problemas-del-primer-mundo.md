@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "Inauguro una nueva sección en el blog llamada Mis problemas del primer mundo, donde documentaré problemas técnicos específicos que me encuentro en mi día a día y sus respectivas soluciones. Esta categoría nace con el propósito de crear un repositorio accesible donde otros desarrolladores puedan encontrar ayuda para los mismos obstáculos que yo he enfrentado."
 twitter_description: "Nueva sección del blog: Mis problemas del primer mundo. Problemas técnicos concretos y sus soluciones."
-meta_description: "Descubre la nueva sección del blog con problemas técnicos y soluciones. Aprende de mis experiencias. Lee más."
+description: "Descubre la nueva sección del blog con problemas técnicos y soluciones. Aprende de mis experiencias. Lee más."
 permalink: /mis-problemas-del-primer-mundo/
 ---
 

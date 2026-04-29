@@ -20,7 +20,7 @@ toc: true
 pin: false
 twitter_description: "Inteligencia Artificial sube precios: GitHub, Anthropic y OpenAI. ¿Por qué beneficia a devs? Equilibra costes de talento humano y modelos de IA."
 permalink: /:slug/
-meta_description: "La subida de precios en IA beneficia a devs que usan la tecnología eficientemente. Multiplicadores 27x y comparativa cloud vs local. Lee más."
+description: "La subida de precios en IA beneficia a devs que usan la tecnología eficientemente. Multiplicadores 27x y comparativa cloud vs local. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

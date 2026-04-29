@@ -14,7 +14,7 @@ pin: false
 toc: true
 excerpt: "Explico mi transición a OpenClaw para gestionar a Lucía, mi agente de IA autónomo. Analizo las ventajas de la soberanía digital ejecutando modelos locales como GLM-5, Qwen 3, DeepSeek y Llama 4 a través de LM Studio y Ollama. Lucía ahora vive en WhatsApp, Discord y Telegram con contexto unificado, ejecuta tareas en segundo plano como redactar posts, gestionar correo, resumir YouTube, escribir código, administrar el Home Lab y monitorear mi conexión a internet. El futuro de la IA personal no está en aplicaciones cerradas, sino en sistemas como OpenClaw que te devuelven el control."
 twitter_description: "Lucía ahora corre en mi home lab con OpenClaw: soberanía digital, modelos locales y automatización total."
-meta_description: "Descubre cómo migré a OpenClaw para gestionar a Lucía con modelos locales y soberanía digital. Automatiza tus tareas con IA hoy. Lee más."
+description: "Descubre cómo migré a OpenClaw para gestionar a Lucía con modelos locales y soberanía digital. Automatiza tus tareas con IA hoy. Lee más."
 permalink: /:slug/
 ---
 

@@ -14,7 +14,7 @@ image_alt: "Pantalla de televisión con reproductor de video congelado, cuarto o
 pin: false
 toc: true
 twitter_description: "Jellyfin se cortaba aleatoriamente en 4K. El problema: disco lleno. Cinco errores encadenados que descubrí analizando los logs."
-meta_description: "Jellyfin se cortaba en 4K por disco lleno. Aprende a solucionar problemas de MKV, transcoding y NFS con estos cinco pasos. Lee más."
+description: "Jellyfin se cortaba en 4K por disco lleno. Aprende a solucionar problemas de MKV, transcoding y NFS con estos cinco pasos. Lee más."
 permalink: /:slug/
 slug: jellyfin-cortes-4k-disco
 ---

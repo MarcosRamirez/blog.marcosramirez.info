@@ -14,7 +14,7 @@ toc: true
 excerpt: "Firefly III es un gestor de finanzas personales de código abierto con contabilidad de doble entrada, presupuestación y reglas automáticas. Instálalo en tu Home Lab conectado a tu base de datos centralizada y olvídate de suscripciones como YNAB."
 twitter_description: "Gestiona tus finanzas desde tu propio servidor con Firefly III."
 permalink: /:slug/
-meta_description: "Firefly III: gestor de finanzas con doble entrada y presupuestos. Instala en tu Home Lab hoy. Lee más."
+description: "Firefly III: gestor de finanzas con doble entrada y presupuestos. Instala en tu Home Lab hoy. Lee más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

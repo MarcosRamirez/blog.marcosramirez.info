@@ -31,6 +31,7 @@ image_alt: "Alternative image description"
 toc: true
 pin: false
 twitter_description: "Short description for Twitter"
+description: "Meta description for SEO (140-155 chars)"
 permalink: /:slug/
 ---
 ```
@@ -55,9 +56,9 @@ image_alt: "Alternative image description"
 toc: true
 pin: false
 twitter_description: "Short description for Twitter"
+description: "Meta description for SEO (140-155 chars)"
 permalink: /:slug/
 ---
-```
 
 ### FrontMatter Rules
 

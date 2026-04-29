@@ -17,7 +17,7 @@ description: Skill specialized in optimizing technology and software posts under
 ## 2. Content Structure (On-Page)
 - **Metadata (Limits):**
   - **Title Tag:** Maximum 60 characters (prioritize keyword at the start).
-  - **Meta Description (meta_description):** Between 140 and 155 characters (shown to crawlers in search results). Do NOT exceed 160 characters. This is a separate frontmatter field from excerpt.
+  - **Meta Description (description):** Between 140 and 155 characters (shown to crawlers in search results). Do NOT exceed 160 characters. This is a separate frontmatter field from excerpt.
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
@@ -25,13 +25,13 @@ description: Skill specialized in optimizing technology and software posts under
 
 ### Meta Description Generation Rules
 
-When writing the `meta_description` field for a post, follow these mandatory rules:
+When writing the `description` field for a post, follow these mandatory rules:
 
 #### Constraints & Requirements:
 
 | Requirement | Details |
 |--------------|---------|
-| **Language** | MUST be written in Castilian Spanish (Spanish from Spain). NEVER write meta_description in English or other languages. |
+| **Language** | MUST be written in Castilian Spanish (Spanish from Spain). NEVER write description in English or other languages. |
 | **Length** | Keep between **140 and 155 characters** (including spaces). Do NOT exceed 160 characters. |
 | **Keywords** | Naturally include the primary keyword near the beginning of the text. |
 | **Tone** | Use an engaging, professional, and action-oriented tone. |
@@ -55,24 +55,24 @@ When writing the `meta_description` field for a post, follow these mandatory rul
 
 **Tutorial Post (Benefit-Driven):**
 ```yaml
-meta_description: "Learn how to use pct and qm commands in Proxmox. Complete guide to manage LXC containers and VMs via CLI in your Home Lab. Read more."
+description: "Learn how to use pct and qm commands in Proxmox. Complete guide to manage LXC containers and VMs via CLI in your Home Lab. Read more."
 ```
 (152 characters)
 
 **Opinion Post (Problem-Agitation-Solution):**
 ```yaml
-meta_description: "Why I chose Proxmox for my Home Lab virtualization. Compare Proxmox vs ESXi, Hyper-V and Docker standalone to discover the best solution. Read more."
+description: "Why I chose Proxmox for my Home Lab virtualization. Compare Proxmox vs ESXi, Hyper-V and Docker standalone to discover the best solution. Read more."
 ```
 (154 characters)
 
 **Finance Post (Benefit-Driven):**
 ```yaml
-meta_description: "Frugality vs Minimalism: real differences. Learn how frugality lets you live better while spending less without giving up what matters. Discover the secrets."
+description: "Frugality vs Minimalism: real differences. Learn how frugality lets you live better while spending less without giving up what matters. Discover the secrets."
 ```
 (155 characters)
 
 #### YAML Formatting Note:
-- In YAML frontmatter, use double quotes around the entire description: `meta_description: "text here"`
+- In YAML frontmatter, use double quotes around the entire description: `description: "text here"`
 - Do NOT use double quotes INSIDE the description text itself
 - Use plain text only within the description.
 
@@ -83,7 +83,7 @@ meta_description: "Frugality vs Minimalism: real differences. Learn how frugalit
 - [ ] Structure follows Problem-Agitation-Solution OR Benefit-driven
 - [ ] Ends with proper CTA (Read more/Learn how/Discover the secrets/Get started today)
 - [ ] NO double quotes (`"`) inside the description text
-- [ ] YAML format uses double quotes: `meta_description: "..."`
+- [ ] YAML format uses double quotes: `description: "..."`
 
 ### Keyword Identification
 Before writing any content, first identify and list the most effective primary keyword based on the topic. Additionally, suggest 3-5 relevant LSI (Latent Semantic Indexing) keywords to be naturally integrated into the text.

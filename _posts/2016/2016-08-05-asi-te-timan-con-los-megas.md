@@ -13,7 +13,7 @@ image: /assets/img/headers/asi-te-timan-con-los-megas-nanobanana.webp
 image_alt: "Gráfico comparativo entre bits y bytes con iconos de velocidad"
 excerpt: "En este primer post del blog, exploramos la confusión técnica entre Megabits y Megabytes, explicando cómo las operadoras aprovechan esta diferencia para vendernos velocidades que no obtenemos realmente. Analizamos por qué es importante entender esta distinción y cómo afecta a nuestra experiencia de navegación diaria. Descubrimos que 100 megas (Mbps) equivalen solo a 12,5 MB/s reales, y aprendemos a calcular la velocidad real dividiendo entre 8. Una guía básica de cultura informática para no ser engañados."
 twitter_description: "Megabits vs Megabytes: la confusión técnica que usan las operadoras para timarte."
-meta_description: "Aprende la diferencia entre Megabits y Megabytes. Descubre cómo las operadoras engañan con las velocidades de fibra y calcula tu velocidad real dividiendo entre 8. Lee más."
+description: "Aprende la diferencia entre Megabits y Megabytes. Descubre cómo las operadoras engañan con las velocidades de fibra y calcula tu velocidad real dividiendo entre 8. Lee más."
 permalink: /asi-te-timan-con-los-megas/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

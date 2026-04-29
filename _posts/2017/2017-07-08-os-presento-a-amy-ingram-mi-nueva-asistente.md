@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "Os presento a Amy Ingram, mi nueva asistente virtual. Explico por qué decidí contratarla para gestionar emails, agendar reuniones y filtrar comunicaciones, permitiéndome centrar en el trabajo de desarrollo. Una solución que ha mejorado mi productividad drásticamente."
 twitter_description: "Presentando a Amy Ingram: mi nueva asistente virtual para gestión de agenda."
-meta_description: "Conoce a Amy Ingram, mi nueva asistente virtual. Mejora tu productividad delegando tareas hoy. Lee más."
+description: "Conoce a Amy Ingram, mi nueva asistente virtual. Mejora tu productividad delegando tareas hoy. Lee más."
 permalink: /os-presento-a-amy-ingram-mi-nueva-asistente/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

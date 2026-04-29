@@ -20,7 +20,7 @@ toc: true
 twitter_description: "Más de 500 modelos de IA en una API unify cada proveedor. Muchos gratuitos. Úsalo como gateway centralizado."
 permalink: /:slug/
 slug: openrouter-500-modelos-ia
-meta_description: "Accede a más de 500 modelos de IA con OpenRouter, gateway unificado con 30 modelos gratuitos y fallback automático. Lee más."
+description: "Accede a más de 500 modelos de IA con OpenRouter, gateway unificado con 30 modelos gratuitos y fallback automático. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

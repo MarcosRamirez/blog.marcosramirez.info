@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Continúo el análisis técnico sobre agentes de IA, abordando los desafíos de latencia que afectan las conversaciones habladas. El LLM añade 600-1200ms de latencia, el TTS como ElevenLabs unos 600ms, y las herramientas y knowledge bases también suman tiempo. Explico cómo enseñarles a hablar correctamente ya que la plataforma que uses influye en la entonación, la importancia de los GuardRails para evitar alucinaciones y dar información no relevante, la seguridad para no revelar información confidencial incluyendo el prompt, cómo cumplir con el RGPD para dar datos privados a la persona correcta con multas importantes en Europa, y técnicas de debug cuando el agente da respuestas inesperadas."
 twitter_description: "Segunda parte del análisis sobre agentes de IA: latencia, GuardRails, seguridad RGPD y debug."
-meta_description: "Parte II: latencia en agentes IA, GuardRails, seguridad RGPD y debug. Aprende a solucionar problemas comunes de tus agentes. Lee más."
+description: "Parte II: latencia en agentes IA, GuardRails, seguridad RGPD y debug. Aprende a solucionar problemas comunes de tus agentes. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

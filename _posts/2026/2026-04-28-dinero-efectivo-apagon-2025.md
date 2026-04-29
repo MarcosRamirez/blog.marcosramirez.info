@@ -14,7 +14,7 @@ image_alt: "Billetes de euros y monedas sobre una mesa de madera, junto a una li
 pin: false
 toc: true
 twitter_description: "Apagón 2025: por qué el efectivo sigue siendo vital por privacidad, libertad y resiliencia ante fallos tecnológicos."
-meta_description: "Descubre por qué el efectivo sigue siendo vital tras el apagón 2025. Privacidad, libertad y resiliencia ante fallos tecnológicos. Lee más."
+description: "Descubre por qué el efectivo sigue siendo vital tras el apagón 2025. Privacidad, libertad y resiliencia ante fallos tecnológicos. Lee más."
 permalink: /:slug/
 ---
 

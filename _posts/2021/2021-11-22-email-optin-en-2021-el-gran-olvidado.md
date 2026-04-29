@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Denuncio una mala praxis extendida en empresas e instituciones: el envío de correos electrónicos con información confidencial sin un proceso previo de Opt-In. Cuando das tu email a una empresa, deberían enviarte un mail de confirmación para validar que realmente es tuyo. Si no lo hacen y te llegan correos con información sensible como datos bancarios, reservas de vuelos o información escolar de tus hijos, podrían estar cometiendo un delito. Te explico cómo crear automatizaciones con Zapier para gestionar este problema y mi iniciativa de crear un salón de la vergüenza para empresas que lo practican."
 twitter_description: "El problema del OptIn en emails: cómo las empresas envían información confidencial sin tu consentimiento."
-meta_description: "Denuncia el problema del OptIn en emails: empresas envían información confidencial sin consentimiento. Aprende a protegerte y automatizar respuestas. Lee más."
+description: "Denuncia el problema del OptIn en emails: empresas envían información confidencial sin consentimiento. Aprende a protegerte y automatizar respuestas. Lee más."
 permalink: /:slug/
 ---
 

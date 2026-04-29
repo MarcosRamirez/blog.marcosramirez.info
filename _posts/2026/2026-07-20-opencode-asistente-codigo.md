@@ -14,7 +14,7 @@ toc: true
 excerpt: "OpenCode es un agente de IA de código abierto con más de 140.000 estrellas en GitHub. Funciona en tu terminal con acceso directo a archivos, ejecución de comandos y edición real. Compatible con modelos OpenAI, Anthropic, Google y Zen, úsalo para redactar posts, refactorizar código y explicar lógica legacy."
 twitter_description: "OpenCode es mi asistente de código abierto que me ahorra horas cada semana."
 permalink: /:slug/
-meta_description: "OpenCode: asistente de código abierto con 140k+ estrellas. Redacta, refactoriza y explica código. Lee más."
+description: "OpenCode: asistente de código abierto con 140k+ estrellas. Redacta, refactoriza y explica código. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

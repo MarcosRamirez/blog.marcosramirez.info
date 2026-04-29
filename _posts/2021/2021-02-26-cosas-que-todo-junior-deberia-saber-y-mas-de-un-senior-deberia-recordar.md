@@ -14,7 +14,7 @@ excerpt: "Una guía exhaustiva dirigida tanto a programadores Junior que dan sus
 twitter_description: "Guía completa para programadores Junior y Seniors: conceptos, herramientas y consejos esenciales."
 permalink: /cosas-que-todo-junior-deberia-saber-mas-de-un-senior/
 image: /assets/img/headers/2021/cosas-que-todo-junior-deberia-saber-nanobanana.webp
-meta_description: "Guía completa para programadores Junior y Senior: conceptos básicos, herramientas y consejos esenciales. Mejora tu carrera profesional hoy. Lee más."
+description: "Guía completa para programadores Junior y Senior: conceptos básicos, herramientas y consejos esenciales. Mejora tu carrera profesional hoy. Lee más."
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 

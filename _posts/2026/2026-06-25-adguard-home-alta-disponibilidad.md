@@ -14,7 +14,7 @@ toc: true
 excerpt: "Configura dos nodos de AdGuard Home en alta disponibilidad: si uno se cae, el otro sigue bloqueando. Usa IPs .53 y .54, sincroniza listas con AdGuardHome-Sync y olvídate de puntos únicos de fallo en tu red."
 twitter_description: "AdGuard Home con dos nodos: si uno falla, el otro sigue."
 permalink: /:slug/
-meta_description: "Configura dos nodos de AdGuard Home con alta disponibilidad. Si uno falla, el otro sigue. Aprende más."
+description: "Configura dos nodos de AdGuard Home con alta disponibilidad. Si uno falla, el otro sigue. Aprende más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

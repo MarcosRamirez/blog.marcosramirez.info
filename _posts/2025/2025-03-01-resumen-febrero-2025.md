@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Resumo un intenso Febrero 2025 marcado por la evolución de Lucía, mi agente de voz inteligente que ahora discrimina el horario laboral, transfiere llamadas según departamento, tiene backup para fallos de webhook, y ha mejorado su habla corrigiendo problemas con palabras como 'Anhoa'. También avancé en la nueva web con sección FAQ, textos legales, hero mejorado y contacto optimizado. Gestioné nuevos clientes incluyendo digitalización integral de un negocio de barrio, integración de CRM Holded con WordPress, migración de WordPress a Hostinger con PHP7, y evaluación de alianza comercial con partner de ERP. Envié mi primera campaña de email marketing."
 twitter_description: "Resumen de Febrero 2025: Lucía evoluciona, nuevos clientes y web."
-meta_description: "Descubre mi resumen de Febrero 2025: evolución de Lucía, nuevos clientes, web y campañas de email marketing. Lee más."
+description: "Descubre mi resumen de Febrero 2025: evolución de Lucía, nuevos clientes, web y campañas de email marketing. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

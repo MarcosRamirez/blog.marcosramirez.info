@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Realizo un recorrido detallado por mi infraestructura tecnológica doméstica y los servicios que autogestiono en mi día a día. Mi setup incluye NAS con TrueNAS y URBackup para almacenamiento y copias, servidor Media Center con Plex, Jellyfin, Immich y Frigate para contenido multimedia y seguridad, red y seguridad con piHole, AdGuard, WireGuard y Wazuh, automatización con n8n, Sonarr, Radarr y Jackett, bases de datos con PostgreSQL, MariaDB, MongoDB, Redis y ElasticSearch, domótica con Home Assistant y Asterisk, gestión documental con paperless-ng, mensajería con RabbitMQ y Gotify, e inteligencia artificial con Ollama, Whisper, Piper y LobeChat."
 twitter_description: "Mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama y más."
-meta_description: "Descubre mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama y más servicios. Explora mi setup completo. Lee más."
+description: "Descubre mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama y más servicios. Explora mi setup completo. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

@@ -15,7 +15,7 @@ toc: true
 excerpt: "Wispr Flow es una app de voz a texto con IA que te permite escribir en cualquier aplicación hablando. Alcanza 4x más velocidad que teclear, limpia muletillas automáticamente, corrige al vuelo y ofrece modo susurro. Funciona en más de 100 idiomas, se integra en todas tus apps, incluye diccionario personalizado y un sistema de retos donde cada 100 palabras al día te dan un día extra de Premium gratis."
 twitter_description: "Wispr Flow: Escribe 4x más rápido hablando. La app que reemplaza tu teclado."
 permalink: /:slug/
-meta_description: "Escribe 4x más rápido con Wispr Flow, app de voz a texto con IA que limpia muletillas y corrige al vuelo. Usa retos para ganar días gratis. Descubre más."
+description: "Escribe 4x más rápido con Wispr Flow, app de voz a texto con IA que limpia muletillas y corrige al vuelo. Usa retos para ganar días gratis. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

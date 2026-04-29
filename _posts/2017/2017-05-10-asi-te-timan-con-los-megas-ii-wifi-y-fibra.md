@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Segunda parte de cómo las operadoras nos engañan con las velocidades. Analizo las diferencias reales entre Wifi y Fibra óptica, por qué tu conexión Wifi nunca alcanza la velocidad contratada y cómo verificar la velocidad real mediante test de velocidad correctos. Una guía para no ser engañado por las operadoras."
 twitter_description: "Wifi vs Fibra: por qué nunca alcanzas la velocidad contratada. Segunda parte de megas."
-meta_description: "Descubre por qué el Wifi no alcanza tu velocidad contratada. Compara Wifi vs Fibra y verifica tu conexión. Lee más."
+description: "Descubre por qué el Wifi no alcanza tu velocidad contratada. Compara Wifi vs Fibra y verifica tu conexión. Lee más."
 permalink: /asi-te-timan-con-los-megas-ii-wifi-y-fibra/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

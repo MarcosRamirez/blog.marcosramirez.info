@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Explico por qué he adoptado Revolut como mi neobanco de referencia, superando las limitaciones de otras entidades. Revolut ofrece cuentas multidivisa con más de 30 monedas, conversiones sin comisiones al tipo de cambio interbancario, tarjetas de débito globales, Pockets para organizar gastos por categorías, cuentas de ahorro con interés competitivo y redondeo automático de compras, transferencias internacionales económicas, inversiones en acciones y criptomonedas, y planes flexibles desde gratuito hasta premium. Una plataforma completa para gestionar tus finanzas en la era digital."
 twitter_description: "Revolut como neobanco: cuenta multidivisa, Pockets, ahorro automático e inversiones."
-meta_description: "Conoce Revolut: cuenta multidivisa, Pockets, ahorro automático e inversiones. Gestiona tus finanzas con la plataforma líder hoy. Lee más."
+description: "Conoce Revolut: cuenta multidivisa, Pockets, ahorro automático e inversiones. Gestiona tus finanzas con la plataforma líder hoy. Lee más."
 permalink: /:slug/
 ---
 

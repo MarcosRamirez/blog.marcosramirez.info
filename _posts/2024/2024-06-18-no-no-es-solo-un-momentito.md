@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Explico por qué el mismo 'momentito' puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones. Como programador, mi trabajo requiere concentración plena y un estado mental casi zen. Cuando alguien me interrumpe con una tontería o me pide un minutito que se convierte en media hora, tardo 23 minutos en volver a pillar el hilo según estudios de la Universidad de California. Incluyo señales no verbales para identificar cuando alguien está concentrado y consejos de comunicación asíncrona. También proporciono documentación sobre el tiempo de recuperación y recursos para mejorar la concentración como 'Deep Work' y 'Getting Things Done'."
 twitter_description: "Por qué el 'momentito' puede arruinar horas de trabajo técnico: el coste del hiperfoco."
-meta_description: "Descubre por qué el 'momentito' arruina horas de trabajo técnico. Aprende sobre el hiperfoco, el coste de interrupciones y cómo proteger tu concentración. Lee más."
+description: "Descubre por qué el 'momentito' arruina horas de trabajo técnico. Aprende sobre el hiperfoco, el coste de interrupciones y cómo proteger tu concentración. Lee más."
 permalink: /:slug/
 ---
 

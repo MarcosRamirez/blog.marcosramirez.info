@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Aprende a usar los comandos pct y qm para gestionar contenedores LXC y máquinas virtuales en Proxmox desde la línea de comandos. Esta guía completa cubre la creación de contenedores y VMs, gestión de plantillas, configuración de red e IPs estáticas, modificación de recursos como CPU y memoria, redimensionamiento de discos con advertencias importantes, montaje de directorios con bind mounts y virtio-fs, y comandos del sistema como backups con vzdump. Incluye una comparativa de comandos pct vs qm, consejos prácticos con rangos de IPs para organizar tu Home Lab, y soluciones a problemas comunes como los que afectaron a mi instalación de Jellyfin con NFS."
 twitter_description: "Domina los comandos pct y qm de Proxmox: gestión completa de LXC y VMs vía CLI para tu Home Lab."
-meta_description: "Aprende a usar pct y qm en Proxmox. Comandos para gestionar LXC, VMs, red, discos y bind mounts vía CLI en tu infraestructura de virtualización."
+description: "Aprende a usar pct y qm en Proxmox. Comandos para gestionar LXC, VMs, red, discos y bind mounts vía CLI en tu infraestructura de virtualización."
 permalink: /:slug/
 ---
 

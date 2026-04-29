@@ -16,7 +16,7 @@ toc: true
 twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mkcp, mkmv y más. Aprende a configurarlos para todos los usuarios."
 permalink: /:slug/
 slug: comandos-atajos-linux-desconoces
-meta_description: "Domina atajos de Linux como Ctrl+R y comandos como tail -F, ncdu o fzf. Crea alias útiles y mejora tu flujo en terminal. Aprende más."
+description: "Domina atajos de Linux como Ctrl+R y comandos como tail -F, ncdu o fzf. Crea alias útiles y mejora tu flujo en terminal. Aprende más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

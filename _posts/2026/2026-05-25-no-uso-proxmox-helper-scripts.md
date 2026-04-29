@@ -14,7 +14,7 @@ toc: true
 excerpt: "Explico por qué dejé de usar los helper scripts de Proxmox a favor de una arquitectura más robusta. Los scripts instalan bases de datos dentro de cada contenedor, generando desperdicio de RAM, mantenimiento complejo y backups difíciles. Te muestro cómo centralizar bases de datos en un servidor dedicado para ahorrar recursos y simplificar."
 twitter_description: "Por qué dejé los helper scripts de Proxmox: bases de datos centralizadas."
 permalink: /:slug/
-meta_description: "Evita helper scripts en Proxmox: centraliza bases de datos y ahorra RAM. Arquitectura robusta aquí. Lee más."
+description: "Evita helper scripts en Proxmox: centraliza bases de datos y ahorra RAM. Arquitectura robusta aquí. Lee más."
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 

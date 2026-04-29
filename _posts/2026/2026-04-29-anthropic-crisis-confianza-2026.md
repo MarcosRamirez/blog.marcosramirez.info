@@ -15,7 +15,7 @@ toc: true
 twitter_description: "Agentes caros, tests sin avisar y errores de facturación. Cronología de una crisis de confianza en Anthropic."
 permalink: /:slug/
 excerpt_separator: <!--more-->
-meta_description: "Anthropic vive crisis en abril 2026: agentes caros, tokenizador que sube precios y fallos de facturación. Cronología completa aquí. Lee más."
+description: "Anthropic vive crisis en abril 2026: agentes caros, tokenizador que sube precios y fallos de facturación. Cronología completa aquí. Lee más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

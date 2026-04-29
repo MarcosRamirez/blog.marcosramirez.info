@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Comparto mi sistema personal de gestión financiera, un manual práctico diseñado para quienes buscan tomar el control de su dinero y salir de la cultura de gastar el 100% del sueldo. Explico la importancia de priorizar el ahorro antes que cualquier gasto, guardando mínimo el 10% de tus ingresos y sumando los excedentes del mes. Te enseño a crear presupuestos con partidas definidas como alimentación de 150€ por persona, vivienda máximo 25%, y mantener varias cuentas bancarias separadas para ingresos, ahorros y recibos. También te doy consejos para evitar tarjetas de crédito con intereses abusivos y optimizar tus compras comparando precios en Google Shopping, Carritus y usando cashback con LetyShops o Karma."
 twitter_description: "Cómo gestionar mis finanzas: sistema completo de ahorro y presupuesto personal."
-meta_description: "Aprende a gestionar tus finanzas: ahorra el 10% de ingresos, crea presupuestos y evita deudas. Sistema completo de ahorro paso a paso. Lee más."
+description: "Aprende a gestionar tus finanzas: ahorra el 10% de ingresos, crea presupuestos y evita deudas. Sistema completo de ahorro paso a paso. Lee más."
 permalink: /:slug/ 
 ---
 

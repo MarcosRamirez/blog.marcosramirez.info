@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Corrijo y actualizo la documentación oficial de Google para configurar el envío de correos desde direcciones externas o alias en Gmail. La documentación de Google no está actualizada porque ya no aparece la opción Enviar verificación. En su lugar, debes configurar el servidor SMTP de la cuenta que quieres añadir, activar Acceso de aplicaciones menos seguras, usar el SMTP de Google smtp.gmail.com puerto 465, y crear una contraseña de aplicación específica en lugar de tu contraseña normal. También respondo preguntas frecuentes sobre el límite de alias, cómo aparecen los remitentes y el proceso de verificación necesario."
 twitter_description: "Cómo configurar alias de email en Gmail: la documentación de Google está desactualizada."
-meta_description: "Configura alias de email en Gmail: corrige la documentación de Google y usa SMTP con contraseñas de aplicación. Aprende el proceso paso a paso. Lee más."
+description: "Configura alias de email en Gmail: corrige la documentación de Google y usa SMTP con contraseñas de aplicación. Aprende el proceso paso a paso. Lee más."
 permalink: /:slug/
 ---
 

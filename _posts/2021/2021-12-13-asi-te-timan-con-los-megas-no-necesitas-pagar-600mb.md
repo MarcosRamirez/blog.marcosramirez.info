@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "En la tercera entrega sobre los mitos de las conexiones a internet, desmonto la necesidad real de contratar planes de 600Mb o 1Gbps. Te explico cuánta velocidad necesitas para cada actividad: videoconferencia (1Mbps), streaming HD (5Mbps), 4K (25Mbps) y gaming (10Mbps). Con una familia de 8 personas haciendo videollamadas, viendo películas en 4K y HD, y jugando online, necesitan apenas 90Mbps en total. El precio medio de 600Mbps es de 45€/mes, pero no hay justificación técnica para contratar más de 100Mbps para la gran mayoría de usuarios, siendo una cuestión puramente comercial de las operadoras."
 twitter_description: "Mitos de las conexiones a internet: ¿necesitas realmente 600Mb?"
-meta_description: "Descubre cuánta velocidad de internet necesitas realmente. Una familia de 8 solo necesita 90Mbps. No pagues por 600Mb sin justificación técnica. Lee más."
+description: "Descubre cuánta velocidad de internet necesitas realmente. Una familia de 8 solo necesita 90Mbps. No pagues por 600Mb sin justificación técnica. Lee más."
 permalink: /asi-te-timan-con-los-megas-no-necesitas-pagar-600mb/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

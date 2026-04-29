@@ -13,7 +13,7 @@ excerpt: "Descubre mi lista curada de recomendaciones personales que abarca lite
 twitter_description: "Mis recomendaciones de libros de programación, novelas de terror y películas."
 image: /assets/img/headers/2021/recomendaciones-nanobanana.webp
 image_alt: "Stack de libros, laptop y cine"
-meta_description: "Descubre mi lista de libros de programación, novelas de terror y películas recomendadas. Una guía curada que actualizo regularmente. Lee más."
+description: "Descubre mi lista de libros de programación, novelas de terror y películas recomendadas. Una guía curada que actualizo regularmente. Lee más."
 permalink: /recomendaciones-libros-blogs-peliculas-canales/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
