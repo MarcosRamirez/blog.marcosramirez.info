@@ -47,10 +47,11 @@
   {% seo title=false %}
 
   <title>
-  {%- unless page.layout == "home" -%}
-    {{ page.title | append: " | "}}
-  {%- endunless -%}
+  {% if page.layout == "home" %}
     {{ site.title }}
+  {% else %}
+    {{ page.title }}
+  {% endif %}
   </title>
 
   {% include favicons.html %}
