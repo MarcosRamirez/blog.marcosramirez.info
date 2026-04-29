@@ -16,7 +16,7 @@ twitter_description: "Cómo configurar alias de email en Gmail: la documentació
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Esté será un post corto, pero lo dejo por escrito dado que la documentación de google no está actualizada y me ha llevado más tiempo del que me hubiera gustado, así que, dejo la solución aquí por si a alguien le sirve. (al menos a mi me servirá para la próxima vez que lo necesite).
 

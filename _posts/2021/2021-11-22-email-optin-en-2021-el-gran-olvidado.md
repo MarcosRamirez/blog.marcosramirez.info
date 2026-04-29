@@ -16,7 +16,7 @@ twitter_description: "El problema del OptIn en emails: cómo las empresas envía
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Si estás leyendo esto, seguramente tienes un problema
 

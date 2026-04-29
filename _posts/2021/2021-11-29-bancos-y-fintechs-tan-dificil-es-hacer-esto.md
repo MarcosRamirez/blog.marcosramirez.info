@@ -16,7 +16,7 @@ twitter_description: "Automatización de transferencias en bancos: por qué no p
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 *Disclaimer*: Sé que [N26](https://n26.com/r/marcosr8764){:target="_blank"} ofrece algo parecido a esto en sus planes premium, pero:
 1. Solo lo ofrece entre sus espacios (no tienen IBAN propio, ni puedes transferir a otro IBAN/Cuenta)

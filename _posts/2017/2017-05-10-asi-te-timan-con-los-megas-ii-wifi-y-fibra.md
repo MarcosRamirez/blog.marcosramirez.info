@@ -15,7 +15,7 @@ excerpt: "Segunda parte del análisis sobre la velocidad de internet. Aunque ten
 twitter_description: "Tu WiFi de fibra no alcanza 300 Mbps por usar 2.4 GHz. La solución: 5 GHz o WiFi+."
 permalink: /asi-te-timan-con-los-megas-ii-wifi-y-fibra/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Revisando posts... y borradores, he visto esto.
 

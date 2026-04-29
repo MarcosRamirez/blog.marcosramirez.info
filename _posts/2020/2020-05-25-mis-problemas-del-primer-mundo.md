@@ -16,7 +16,7 @@ twitter_description: "Nueva sección del blog: Mis problemas del primer mundo. P
 permalink: /mis-problemas-del-primer-mundo/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Hola,
 

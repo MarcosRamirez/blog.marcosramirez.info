@@ -15,7 +15,7 @@ excerpt: "Tutorial en vídeo sobre Gboard, el teclado oficial de Google para And
 twitter_description: "Tutorial de Gboard: selecciona y edita texto fácilmente con el teclado de Google. Vídeo incluido."
 permalink: /video-tutorial-de-gboard-y-review-de-nuevas-funcionalidades/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Hola, hoy os traigo un pequeño video tutorial de Gboard, así como un review de las nuevas funcionalidades para selección y edición de texto.
 

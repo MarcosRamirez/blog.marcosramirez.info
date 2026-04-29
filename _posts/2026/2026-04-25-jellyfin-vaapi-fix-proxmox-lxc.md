@@ -17,7 +17,7 @@ twitter_description: "Solución al problema de VAAPI en un LXC sin privilegios. 
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Este post es la continuación de [Jellyfin cortes 4K y disco lleno]({% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %}). Hace un par de días parecía que todo estaba arreglado y que la transcodificación funcionaba bien, pero resulta que no: la GPU no estaba bien configurada y los cortes seguían apareciendo.
 

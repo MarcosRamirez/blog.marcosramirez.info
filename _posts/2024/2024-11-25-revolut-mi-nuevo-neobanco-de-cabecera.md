@@ -16,7 +16,7 @@ twitter_description: "Revolut como neobanco: cuenta multidivisa, Pockets, ahorro
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 En un mundo cada vez más globalizado, gestionar tus finanzas de manera eficiente y accesible se ha convertido en una prioridad. Ya sea que trabajes con múltiples monedas, busques ahorrar de forma flexible o necesites una plataforma versátil para gestionar tus gastos, Revolut se posiciona como una de las mejores opciones del mercado. Este banco digital ha revolucionado la manera en que interactuamos con el dinero, ofreciendo herramientas innovadoras y características que se adaptan a las necesidades de individuos y empresas.
 

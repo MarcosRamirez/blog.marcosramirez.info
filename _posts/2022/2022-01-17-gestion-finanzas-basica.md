@@ -15,7 +15,7 @@ excerpt: "Inicio una serie dedicada a la gestión financiera básica, analizando
 twitter_description: "Gestión financiera básica: errores comunes y conceptos fundamentales que debes conocer."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 **Disclaimer**: No me dedico a las finanzas, ni soy asesor profesional, aquí simplemente expongo mi experiencia y mis métodos de gestión.
 

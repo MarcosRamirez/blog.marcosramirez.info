@@ -15,7 +15,7 @@ twitter_description: "AdGuard Home: tu propio bloqueador de publicidad a nivel d
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Serie Home Lab
 

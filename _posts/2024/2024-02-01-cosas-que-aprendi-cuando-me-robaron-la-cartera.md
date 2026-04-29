@@ -15,7 +15,7 @@ excerpt: "Relato mi experiencia personal tras el robo de mi cartera en un superm
 twitter_description: "Qué aprendí cuando me robaron la cartera en el supermercado: AirTag, denuncia y lecciones."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Lo que aprendí cuando me robaron la cartera
 

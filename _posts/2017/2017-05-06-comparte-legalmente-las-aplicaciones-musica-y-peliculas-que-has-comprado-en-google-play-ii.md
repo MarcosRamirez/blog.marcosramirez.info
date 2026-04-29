@@ -15,7 +15,7 @@ excerpt: "Segunda parte del tutorial sobre el Plan Familiar de Google Play. Apre
 twitter_description: "Gestiona qué contenido compartes en el Plan Familiar. Selecciona apps una por una."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-ii/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Ayer, en la [primera parte](/comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i/) del post, os expliqué como dar de alta el grupo familiar. Hoy, os explicaré como gestionar el contenido a compartir de manera manual.
 

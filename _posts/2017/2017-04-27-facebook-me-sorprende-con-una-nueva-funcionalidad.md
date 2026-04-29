@@ -17,7 +17,7 @@ twitter_description: "Nuevo botón de recomendación de vídeos en Facebook Beta
 permalink: /facebook-me-sorprende-con-una-nueva-funcionalidad/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Para los que no lo sepáis, soy Beta Tester de Facebook... (y de WhatsApp, y de Google, y de otras tantas compañías) por tanto, de vez en cuando me sorprenden con cosas así (no, a nosotros no nos avisan de manera oficial casi nunca).
 

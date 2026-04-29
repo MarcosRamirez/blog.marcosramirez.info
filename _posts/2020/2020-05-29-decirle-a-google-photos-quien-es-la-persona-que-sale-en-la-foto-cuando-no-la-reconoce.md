@@ -16,7 +16,7 @@ twitter_description: "Problema sin solución: cómo decirle a Google Photos qui�
 permalink: /decirle-a-google-photos-quien-es-la-persona-que-sale-en-la-foto-cuando-no-la-reconoce/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Aquí vengo con otro de mis problemas del primer mundo...
 

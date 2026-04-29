@@ -15,7 +15,7 @@ excerpt: "WhatsApp Beta ha incorporado una funcionalidad que permite fijar hasta
 twitter_description: "WhatsApp Beta permite fijar hasta 3 contactos arriba. Tutorial paso a paso."
 permalink: /whatsapp-te-permite-fijar-contactos-en-la-parte-superior-beta/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 ¿Cuántas veces has pensado que sería genial que tus contactos preferidos apareciesen los primeros en WhatsApp? Pues ahora, ya puedes fijar hasta **TRES** contactos en la parte superior.
 

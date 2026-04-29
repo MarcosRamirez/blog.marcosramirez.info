@@ -16,7 +16,7 @@ twitter_description: "Facebook permite gestionar idiomas: eliminar avisos de tra
 permalink: /facebook-trucos-multi-idioma/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Hoy, de casualidad, me dió por mirar como quitar el "ver traducción" que me salía al compartir contenido en [Buffer](http://www.buffer.com){:target="_blank"}.
 

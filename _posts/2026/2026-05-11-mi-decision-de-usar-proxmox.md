@@ -16,7 +16,7 @@ twitter_description: "Por qué elijo Proxmox para mi Home Lab: virtualización s
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Por qué Proxmox y no otra cosa
 

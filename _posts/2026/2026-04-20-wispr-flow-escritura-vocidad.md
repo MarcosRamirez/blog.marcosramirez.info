@@ -17,7 +17,7 @@ twitter_description: "Wispr Flow: Escribe 4x más rápido hablando. La app que r
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 He probado montones de herramientas de productividad a lo largo de los años, pero nada me había preparado para lo que [Wispr Flow](https://wisprflow.ai/r?MARCOS1798){:target="_blank" rel="nofollow noopener"} es capaz de hacer.
 

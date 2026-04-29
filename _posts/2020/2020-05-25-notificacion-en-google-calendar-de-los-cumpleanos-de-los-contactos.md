@@ -16,7 +16,7 @@ twitter_description: "Cómo configurar notificaciones para los cumpleaños en Go
 permalink: /notificacion-en-google-calendar-de-los-cumpleanos-de-los-contactos/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 ![ezgif-2-be5f38cead3a](/assets/2020/05/ezgif-2-be5f38cead3a.png)
 

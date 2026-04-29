@@ -17,7 +17,7 @@ permalink: /:slug/
 excerpt_separator: <!--more-->
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 [Anthropic](https://www.anthropic.com/){:target="_blank" rel="nofollow noopener"}, que se posicionaba como la alternativa ética y transparente en el mundo de la [Inteligencia Artificial](https://es.wikipedia.org/wiki/Inteligencia_artificial){:target="_blank" rel="nofollow noopener"}, ha vivido un mes de abril para el olvido. Lo que muchos usuarios notaban como fallos aislados ha resultado ser una serie de decisiones y errores técnicos que han sacudido a la comunidad de desarrolladores.<!--more-->
 

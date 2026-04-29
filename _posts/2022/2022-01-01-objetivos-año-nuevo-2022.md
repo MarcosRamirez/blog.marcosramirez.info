@@ -15,7 +15,7 @@ excerpt: "Establezco mi hoja de ruta para el año 2022, detallando una serie de 
 twitter_description: "Mis objetivos para 2022: carnet, ejercicio, leads, poker y más."
 permalink: /:slug/ 
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Pues ya estamos aquí... 1 de Enero de 2022, empezamos un nuevo año.
 

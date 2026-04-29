@@ -17,7 +17,7 @@ twitter_description: "De programar en COBOL a tener un asistente de IA en el tra
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 ## El minuto 1:10
 

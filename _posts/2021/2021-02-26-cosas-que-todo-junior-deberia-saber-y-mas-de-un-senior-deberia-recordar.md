@@ -15,7 +15,7 @@ twitter_description: "Guía completa para programadores Junior y Seniors: concep
 permalink: /cosas-que-todo-junior-deberia-saber-mas-de-un-senior/
 image: /assets/img/headers/2021/cosas-que-todo-junior-deberia-saber-nanobanana.webp
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Disclaimer
 

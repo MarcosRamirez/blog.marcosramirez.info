@@ -15,7 +15,7 @@ excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmi
 twitter_description: "Mi guía para comunicarte conmigo sin perder tiempo: email, WhatsApp, teléfono y reuniones."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Cualquiera que me conozca un poco en profundidad, sabe de sobra que mi carácter es fuerte, por decirlo suavemente.
 

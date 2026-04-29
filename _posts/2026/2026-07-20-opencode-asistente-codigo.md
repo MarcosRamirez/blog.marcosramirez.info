@@ -15,7 +15,7 @@ twitter_description: "OpenCode es mi asistente de código abierto que me ahorra 
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 *[Este post forma parte de la serie [Mi software de cabecera](/tags/software-de-cabecera/)]*
 

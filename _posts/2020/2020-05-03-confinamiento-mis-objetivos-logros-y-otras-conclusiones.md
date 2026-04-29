@@ -15,7 +15,7 @@ excerpt: "Tras 52 días de confinamiento por la pandemia de COVID-19, reflexiono
 twitter_description: "52 días de confinamiento: mis objetivos, logros reales y conclusiones sobre la gestión del COVID-19."
 permalink: /confinamiento-mis-objetivos-logros-y-otras-conclusiones/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Hoy es 3 de Mayo de 2020, hoy llevo 52 días sin salir de casa... aunque desde ayer, se puede salir a pasear, o hacer ejercicio...
 

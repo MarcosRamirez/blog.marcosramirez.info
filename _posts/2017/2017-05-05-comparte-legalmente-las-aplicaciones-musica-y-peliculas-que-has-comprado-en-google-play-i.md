@@ -15,7 +15,7 @@ excerpt: "El Plan Familiar de Google Play llega a España permitiendo compartir 
 twitter_description: "Comparte apps y contenido en Google Play con hasta 5 personas. Tutorial del Plan Familiar completo."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 El [Plan Familiar de Google](https://play.google.com/store/account){:target="_blank"} acaba de llegar a España, pero, a diferencia de otros planes familiares (como por ejemplo el [plan familiar de Spotify](https://www.spotify.com/es/family/){:target="_blank"}), Google no nos exige que los miembros sean realmente familiares. Si quieres aprender cómo, aquí te dejo un tutorial.
 

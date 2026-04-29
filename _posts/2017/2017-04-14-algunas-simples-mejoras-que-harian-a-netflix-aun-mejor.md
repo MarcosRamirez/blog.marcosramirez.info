@@ -16,7 +16,7 @@ twitter_description: "Crítica de UX a Netflix: listado, Chromecast, avisos y m�
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Antes de nada, dejar claro que soy "heavy user", y cuando digo heavy user de NetFlix, es que, dado que trabajo en casa, siempre lo tengo "de fondo" (motivo por el cual "devoro" tanta serie/película).
 

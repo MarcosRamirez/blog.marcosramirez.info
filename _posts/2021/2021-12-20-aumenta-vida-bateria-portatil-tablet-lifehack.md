@@ -15,7 +15,7 @@ excerpt: "Comparto un LifeHack sencilla y eficaz para prolongar la vida útil de
 twitter_description: "LifeHack para prolongar la vida de la batería de tu portátil: el truco del temporizador."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Hoy ha venido un conocido a verme, y justo ha visto este hack, para mi del todo lógico y normal, que vengo usando hace tiempo, pero como le ha llamado la atención, os lo explico a vosotros también.
 

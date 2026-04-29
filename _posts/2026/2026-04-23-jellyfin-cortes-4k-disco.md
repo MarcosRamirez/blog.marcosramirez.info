@@ -18,7 +18,7 @@ permalink: /:slug/
 slug: jellyfin-cortes-4k-disco
 ---
 
-![Post Header]({{ page.image }}){:alt="Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"}
+![{{ page.image_alt }}]({{ page.image }}){:alt="Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"}
 
 Llevaba días con el mismo problema: ponía una película en 4K en la TV, y en algún momento aleatorio la imagen se congelaba y saltaba el salvapantallas. A veces pasaba al minuto, a veces aguantaba media hora. [Jellyfin](https://jellyfin.org/){:target="_blank" rel="nofollow noopener"} seguía corriendo en el servidor, sin reiniciarse, sin avisar. Imposible reproducir el problema de forma consistente.
 

@@ -16,7 +16,7 @@ twitter_description: "Por qu√© el 'momentito' puede arruinar horas de trabajo t√
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Escribo este post, para dejar por escrito algo que estoy muy cansado de explicar, y al mismo tiempo, aprovecho para recomedaros [este otro](https://blog.marcosramirez.info/como-comunicarse-correctamente-y-no-morir-en-el-intento/), de 2016, pero que sigue vigente.
 

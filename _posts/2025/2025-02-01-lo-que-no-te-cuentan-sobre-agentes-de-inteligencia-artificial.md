@@ -15,7 +15,7 @@ excerpt: "Analizo con ojo crítico el auge de las agencias de IA, desmitificando
 twitter_description: "La verdad sobre agentes de IA: no son inteligentes, cuestan más de lo que parece y requieren conocimientos técnicos."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Un poco de contexto
 Llevo aproximadamente cinco años el mundo de la inteligencia artificial, y aproximadamente dos años desarrollando agentes de inteligencia artificial de manera profesional, y TREINTA, desarrollando aplicaciones.

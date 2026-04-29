@@ -17,7 +17,7 @@ twitter_description: "Instala N8N en tu Home Lab y automatiza todo lo que quiera
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*
 

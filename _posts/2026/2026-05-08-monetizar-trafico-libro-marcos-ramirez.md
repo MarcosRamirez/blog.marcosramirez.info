@@ -16,7 +16,7 @@ twitter_description: "La intención de búsqueda vale más que la conversión in
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }}){:alt="Libros apilados con monedas"}
+![{{ page.image_alt }}]({{ page.image }}){:alt="Libros apilados con monedas"}
 
 ## El valor de la intención
 

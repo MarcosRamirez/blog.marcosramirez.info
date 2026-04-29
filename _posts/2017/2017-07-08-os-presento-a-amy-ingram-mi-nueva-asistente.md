@@ -15,7 +15,7 @@ excerpt: "Amy Ingram es una Inteligencia Artificial de X.AI que gestiona tu agen
 twitter_description: "Amy Ingram: tu asistente de IA organiza reuniones por email. 5 gratis al mes o $39/mes ilimitado."
 permalink: /os-presento-a-amy-ingram-mi-nueva-asistente/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Si habéis tenido la suerte de agendar una reunión conmigo últimamente (lo de suerte, porque mi tiempo últimamente es más que escaso), seguramente ya habréis cruzado algunos mails con ella, dado que es quien lleva mi agenda.
 

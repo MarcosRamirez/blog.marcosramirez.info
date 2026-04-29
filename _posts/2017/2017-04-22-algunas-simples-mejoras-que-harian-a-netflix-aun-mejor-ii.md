@@ -15,7 +15,7 @@ excerpt: "Segunda parte de mi análisis sobre la experiencia de usuario en Netfl
 twitter_description: "Netflix UX II: navegación, idiomas, reproductor móvil y API cerrada."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor-ii/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 No tenía muy claro si escribiría, o cuando escribiría este segundo post... pero cuando el otro día escribí el [primer post](/algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/) sobre posibles mejoras de NetFlix, tenía claro que iba a haber más.
 

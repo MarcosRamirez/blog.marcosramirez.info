@@ -15,7 +15,7 @@ excerpt: "Expongo una crítica constructiva sobre los procesos de selección en 
 twitter_description: "Crítica a los procesos de selección en IT: ofertas vagas, pruebas técnicas sin pagar y pérdida de tiempo."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Si hay algo que odio es perder el tiempo (mucho más si me lo hacen perder),y los procesos de selección del sector IT (al menos para programadores o CTO), en muchas ocasiones, son una completa pérdida de tiempo, simplemente, por que hacen las cosas mal.
 

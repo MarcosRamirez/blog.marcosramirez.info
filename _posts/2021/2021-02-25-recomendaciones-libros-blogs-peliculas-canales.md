@@ -15,7 +15,7 @@ image: /assets/img/headers/2021/recomendaciones-nanobanana.webp
 image_alt: "Stack de libros, laptop y cine"
 permalink: /recomendaciones-libros-blogs-peliculas-canales/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 {{ slugHack }}
 Una de las cosas que mis padres, bueno, sobre todo mi madre, me inculcaron de niño, fué la lectura.
 Uno de los recuerdos que tengo de mi infancia es el de la visita de "[el del círculo](https://www.circulo.es/){:target="_blank"}" (de lectores), hoy en día casi olvidado ya.

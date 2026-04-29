@@ -15,7 +15,7 @@ excerpt: "Detallo mi experiencia migrando múltiples blogs de WordPress a Jekyll
 twitter_description: "Cómo migrar de WordPress a Jekyll: razones, proceso y problemas encontrados."
 permalink: /migrando-de-wordpress-a-jekyll/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Estoy migrando todos mis blogs a Jekyll, y de paso, estoy aprovechando para decidir cual(es) de ellos unificar aquí.
 El proceso llevará algo de, o bastante, tiempo.

@@ -16,7 +16,7 @@ twitter_description: "Cómo usar IA para planificar menús semanales equilibrado
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Hablando con la endocrina de mi madre, me dí cuenta de lo problemático que es, sobretodo para personas mayores, llevar una dieta adecuada, por lo que empecé a hacer menús, manualmente, para ella... pero como era tedioso, decidí usar IA para ello, y por si a alguien más le resulta útil, he tratado de simplificar el proceso, para que cualquiera pueda hacerlo, y adaptarlo a sus necesidades.
 

@@ -16,7 +16,7 @@ twitter_description: "Cómo programar posts con Jekyll en GitHub Pages: configur
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 El primer problema "serio", que me he encontrado con [Jekyll](https://jekyllrb.com/){:target="_blank"}, es que no podía programar los posts, crear un post con la fecha en futuro, no es suficiente para que se publique, también hay que hacer que se ejecute el build, ¿como?, simplemente modificando el archivo:
 

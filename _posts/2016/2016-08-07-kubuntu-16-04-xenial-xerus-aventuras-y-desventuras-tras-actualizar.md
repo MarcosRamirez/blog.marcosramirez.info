@@ -15,7 +15,7 @@ excerpt: "Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una s
 twitter_description: "Problemas y soluciones tras actualizar a Kubuntu 16.04 Xenial Xerus."
 permalink: /kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Ayer (Sábado 6 de Agosto de 2.016) a las 8:25 de la mañana, al sentarme frente al PC, me encuentro con que había una nueva actualización de sistema a la versión 16.04 (aunque nada más instalarla se actualizó de nuevo a la 16.04.1), también llamada Xenial Xerus.
 

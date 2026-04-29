@@ -15,7 +15,7 @@ excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cu
 twitter_description: "Curve: agrupa todas tus tarjetas en una, conversión de divisas y aplaza pagos hasta 12 meses."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Ventajas de [Curve](https://www.curve.com/join#N9JYMP8D): la tarjeta que lo hace todo
 

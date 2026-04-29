@@ -16,7 +16,7 @@ twitter_description: "Screen Pinning de Android: bloquea tu móvil a una sola ap
 permalink: /como-permitir-usar-solo-una-aplicacion-en-android-pinning-video-tutorial/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 ¿Alguna vez le has dejado tu móvil a un niño para que juegue y cuando te lo ha devuelto te has encontrado con apps borradas, 200 instaladas, iconos borrados, o cosas peores?
 Entonces, sigue leyendo: en este post, aprenderás a evitar esto.

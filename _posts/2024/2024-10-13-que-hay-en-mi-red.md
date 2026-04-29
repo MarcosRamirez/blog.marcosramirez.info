@@ -15,7 +15,7 @@ excerpt: "Realizo un recorrido detallado por mi infraestructura tecnológica dom
 twitter_description: "Mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama y más."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Actualizado: 13 de Noviembre de 2024.
 

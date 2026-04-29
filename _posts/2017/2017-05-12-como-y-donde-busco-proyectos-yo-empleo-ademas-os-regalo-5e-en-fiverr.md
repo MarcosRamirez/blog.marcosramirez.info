@@ -15,7 +15,7 @@ excerpt: "Mis estrategias y webs favoritas para buscar empleo y proyectos freela
 twitter_description: "Webs para buscar empleo técnico: Infojobs, Tecnoempleo, Experteer y Fiverr. 5€ de regalo incluido."
 permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 El otro día hablaba sobre [tips para contratarme, o solicitarme ayuda]({% post_url 2017/2017-05-07-quieres-que-te-ayude-quieres-contratarme %}). Hoy, os voy a hablar sobre las diferentes webs que utilizo cuando busco empleo, o proyectos.
 

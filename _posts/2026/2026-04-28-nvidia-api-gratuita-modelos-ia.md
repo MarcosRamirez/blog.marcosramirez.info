@@ -18,7 +18,7 @@ twitter_description: "NVIDIA ofrece acceso gratuito a modelos de IA como DeepSee
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 > **Aviso importante**: Los endpoints gratuitos que ofrece NVIDIA son lentos. Muy lentos. Son totalmente inusables. Es mejor usar los modelos gratuitos de [OpenCode](https://opencode.ai/){:target="_blank" rel="nofollow noopener"} u [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} que son más rápidos.
 

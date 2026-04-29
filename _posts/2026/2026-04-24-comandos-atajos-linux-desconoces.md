@@ -18,7 +18,7 @@ permalink: /:slug/
 slug: comandos-atajos-linux-desconoces
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Si llevas tiempo trabajando con GNU/Linux, probablemente conoces los comandos básicos: `ls`, `cd`, `mkdir`, `grep`. Pero el terminal guarda secretos que pueden transformar tu flujo de trabajo. En este post te cuento los comandos y atajos que más me han sorprendido y que uso a diario.
 

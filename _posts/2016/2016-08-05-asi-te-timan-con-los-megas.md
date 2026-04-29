@@ -15,7 +15,7 @@ excerpt: "En este primer post del blog, exploramos la confusión técnica entre 
 twitter_description: "Megabits vs Megabytes: la confusión técnica que usan las operadoras para timarte."
 permalink: /asi-te-timan-con-los-megas/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 <p>Y he decidido empezar con algo que, cualquier informático, o persona que realmente sepa de informática sabe, pero que a la gran masa (CUÑADOS INCLUIDOS x)) ignoran, y les timan.</p>
 <p>Como informático, entono el "mea culpa" dado que en nuestro afán de hacer la informática fácil para todos, solo hemos conseguido crear un montón de ignorantes que se creen genios por saber usar una aplicación.</p>
 <p>Y, sobretodo, he empezado con este post, por que llevaba sin Internet desde el día 27 por una avería, y hoy, cuando ha venido el "técnico" tampoco sabía nada del asunto, al menos, se ha ido "aprendido", espero que tú también ;).</p>

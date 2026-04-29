@@ -15,7 +15,7 @@ excerpt: "Continúo el análisis técnico sobre agentes de IA, abordando los des
 twitter_description: "Segunda parte del análisis sobre agentes de IA: latencia, GuardRails, seguridad RGPD y debug."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Segundas partes... ¿nunca fueron buenas?
 

@@ -15,7 +15,7 @@ excerpt: "En la tercera entrega sobre los mitos de las conexiones a internet, de
 twitter_description: "Mitos de las conexiones a internet: ¿necesitas realmente 600Mb?"
 permalink: /asi-te-timan-con-los-megas-no-necesitas-pagar-600mb/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Este es el tercer, y espero que último post sobre los timos con las conexiones a internet, en el repasaremos rápidamente que velicidad de conexión
 necesitas, que seguro que más de uno se sorprende, y sobretodo, de los precios, y sus... sorpresas.

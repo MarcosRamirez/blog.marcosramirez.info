@@ -17,7 +17,7 @@ twitter_description: "Lucía ahora corre en mi home lab con OpenClaw: soberanía
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Más allá del chat: Automatización real
 

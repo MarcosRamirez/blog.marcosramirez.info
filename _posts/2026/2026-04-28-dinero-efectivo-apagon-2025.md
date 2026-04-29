@@ -17,7 +17,7 @@ twitter_description: "Apagón 2025: por qué el efectivo sigue siendo vital por 
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 ## Introducción
 

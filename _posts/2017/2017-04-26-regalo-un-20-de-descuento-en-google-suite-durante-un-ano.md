@@ -15,7 +15,7 @@ excerpt: "GSuite es la solución empresarial de Google que te permite usar Gmail
 twitter_description: "20% dto. en GSuite el primer año. Código PDHDKXU3AKMCDL9. 14 días de prueba gratis."
 permalink: /regalo-un-20-de-descuento-en-google-suite-durante-un-ano/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 Antes que nada, para el que no lo conozca, [GSuite](https://goo.gl/MazWd7){:target="_blank"} es, por decirlo fácilmente, "Google para empresas": son casi todas las aplicaciones de Google adaptadas a la empresa, que te permite hacer cosas como:
 

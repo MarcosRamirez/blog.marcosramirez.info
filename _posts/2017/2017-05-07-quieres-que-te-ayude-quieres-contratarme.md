@@ -15,7 +15,7 @@ excerpt: "Explico mi disponibilidad profesional para proyectos y empleo. Estoy i
 twitter_description: "Mi disponibilidad para proyectos, empleo y colaboraciones. Lo que me interesa y lo que no."
 permalink: /quieres-que-te-ayude-quieres-contratarme/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 De manera más o menos regular, me llegan peticiones de ayuda, ofertas de empleo, etc... En este post, pretendo explicar mi disponibilidad y disposición para este tipo de peticiones.
 

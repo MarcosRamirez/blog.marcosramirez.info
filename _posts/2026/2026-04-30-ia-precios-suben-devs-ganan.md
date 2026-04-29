@@ -22,7 +22,7 @@ twitter_description: "Inteligencia Artificial sube precios: GitHub, Anthropic y 
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 > **Resumen:** La subida de precios en Inteligencia Artificial beneficia a los desarrolladores cualificados, pues equilibra los costes del talento humano con los crecientes costes de inferencia de la Inteligencia Artificial.
 

@@ -16,7 +16,7 @@ twitter_description: "Automatizar lista Ver Más Tarde de YouTube con Google Scr
 permalink: /anadir-automaticamente-nuevos-videos-de-subscripciones-de-youtube-a-la-lista-ver-mas-tarde-watch-it-later/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 > ⚠️ **DEPRECADO**: En 2021 se deshabilitó la funcionalidad que permitía funcionar a este Script.
 

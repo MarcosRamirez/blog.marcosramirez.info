@@ -15,7 +15,7 @@ excerpt: "Recopilo una serie de promociones y sistemas de referidos que permiten
 twitter_description: "Promociones y referidos para ahorrar más de 370€: Fiverr, Revolut, Curve, N26 y más."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }}){:alt="Diversos logotipos de apps y servicios de fintech"}
+![{{ page.image_alt }}]({{ page.image }}){:alt="Diversos logotipos de apps y servicios de fintech"}
 
 **Actualizado**: 09 de Diciembre de 2024. (Por favor, si algún enlace o promoción ya no es válida, házmelo saber para actualizarlo)
 

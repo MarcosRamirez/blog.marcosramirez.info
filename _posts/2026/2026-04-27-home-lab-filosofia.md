@@ -17,7 +17,7 @@ twitter_description: "Por qué elegí poseer mi infraestructura en lugar de alqu
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # ¿Qué Demonios Es un Home Lab?
 

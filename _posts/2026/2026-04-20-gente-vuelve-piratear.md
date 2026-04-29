@@ -16,7 +16,7 @@ excerpt: "Analizo el fin de la paz del streaming y por qué la piratería vuelve
 twitter_description: "El fin del streaming barato: fragmentación, precios y piratería."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 > ⚠️ **Aviso:** Este post es un análisis técnico y de mercado sobre las tendencias de consumo digital. No pretendo, bajo ningún concepto, hacer apología de la piratería ni fomentar la descarga ilegal de contenido protegido por derechos de autor. Mi objetivo es simplemente reflexionar sobre cómo la fragmentación del servicio afecta al comportamiento del usuario.
 

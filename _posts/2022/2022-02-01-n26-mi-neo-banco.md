@@ -16,7 +16,7 @@ twitter_description: "N26 como neobanco de cabecera: ventajas sobre la banca tra
 permalink: /:slug/
 ---
 
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 > A Julio de 2022 he cerrado mis cuentas con N26, dado que me cobraron una comisión, por descubierto, de 9€.
 > Si bien, gracias a <a href="">Preico Juridicos</a>, conseguí que me devolviesen, dicha comisión. 

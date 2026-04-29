@@ -15,7 +15,7 @@ excerpt: "Resumo un intenso Febrero 2025 marcado por la evolución de Lucía, mi
 twitter_description: "Resumen de Febrero 2025."
 permalink: /:slug/
 ---
-![Post Header]({{ page.image }})
+![{{ page.image_alt }}]({{ page.image }})
 
 # Febrero 2025 (un año más viejo)
 
