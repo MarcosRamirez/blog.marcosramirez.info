@@ -150,8 +150,19 @@ docs(agents): 📝 Update SEO and copywriting skills
 ### Push Rules
 
 **FUNDAMENTAL RULE**
-**NEVER** execute `git push` automatically.
-Push is only performed when explicitly indicated by the user (e.g., "Push to `main`").
+**NEVER** execute `git push` automatically or without explicit user instruction.
+
+**What counts as explicit push instruction:**
+- User says "push", "gcp", "gcpo", "commit and push"
+- User says "commit" followed by "push" in same message
+- User explicitly names a branch to push to
+
+**What does NOT count as explicit push instruction:**
+- "commit", "gc" (commit only)
+- Any variation that only mentions committing
+- Silence or generic instructions
+
+Push is only performed when explicitly indicated by the user.
 
 **RECOMMENDED STEPS WHEN PUSH IS REQUESTED**
 1. Verify status with `git status`.
