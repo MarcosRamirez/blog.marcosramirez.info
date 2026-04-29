@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-07-06 08:30:00 +0200
 image: /assets/img/headers/2026/searxng-buscador-privado-pollinationsai.webp
+image_alt: "Logo de SearXNG como buscador privado"
 categories: [Tecnología]
 tags: [privacidad, búsqueda, Software y Apps]
 pin: false

@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-07-20 08:30:00 +0200
 image: /assets/img/headers/2026/opencode-asistente-codigo-nanobanana.webp
+image_alt: "Logo de OpenCode en terminal con código de programación"
 categories: [Tecnología, Productividad y Hacks]
 tags: [código-abierto, cli, herramientas, productividad, desarrollo, terminal]
 pin: false

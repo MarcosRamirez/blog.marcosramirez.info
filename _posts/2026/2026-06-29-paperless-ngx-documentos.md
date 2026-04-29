@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-06-29 08:30:00 +0200
 image: /assets/img/headers/2026/paperless-ngx-documentos-nanobanana.webp
+image_alt: "Logo de Paperless-ngx para gestionar documentos"
 categories: [Tecnología]
 tags: [documentos, privacidad, gestión, Software y Apps]
 pin: false

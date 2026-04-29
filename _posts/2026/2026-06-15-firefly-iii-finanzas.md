@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-06-15 08:30:00 +0200
 image: /assets/img/headers/2026/firefly-iii-finanzas-nanobanana.webp
+image_alt: "Logo de Firefly III para finanzas personales"
 categories: [Tecnología]
 tags: [finanzas, auto-gestión, privacidad, Bancos y Fintech]
 pin: false

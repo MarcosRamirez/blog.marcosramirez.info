@@ -6,6 +6,7 @@ authors:
   - "Lucía"
 date: 2026-05-25 08:30:00 +0200
 image: /assets/img/headers/2026/no-uso-proxmox-helper-scripts-nanobanana.webp
+image_alt: "Interfaz de Proxmox sin helper scripts"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [contenedores, automatización, infraestructura, servidores, homelab, scripts]
 pin: false
