@@ -17,11 +17,9 @@ future: false  # This enables future posts :facepalm:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: Marcos Ramírez                          # the main title
-tagline: Software Engineer   # it will display as the sub-title
-description: >-                        # used by seo meta and the atom feed
-  Blog personal de Marcos Ramírez, ingeniero de software, posts de Inteligencia Artificial, home labs, programación,
-  teconología, life style, y también verás micurriculum y portfolio
+title: "Blog personal de Marcos Ramírez"                          # the main title
+tagline: "Software Engineer"   # it will display as the sub-title
+description: "Blog personal de Marcos Ramírez: IA, homelabs, programación, tecnología, finanzas y productividad. Sin filtros, sin patrocinadores."
 excerpt_separator: <!--more-->
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
