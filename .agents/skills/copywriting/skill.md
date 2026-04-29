@@ -249,12 +249,14 @@ Incorrect example:
 
 ### Scheduling Logic (Calendar)
 
+**⚠️ IMPORTANT: Only update `.proximafecha` when a post is PUBLISHED (moved to `_posts/`), NOT when creating drafts.**
+
 **Tracking file:** The `.proximafecha` file in the project root is used to manage publication dates.
 
 1. **Read date:** Before creating a post, read the `.proximafecha` file and get the `proxima_fecha` value (or `proxima_fecha_personal` for `Personal` main category posts).
-2. **If the file doesn't exist:** Search recursively in `_posts/` for the last post of each type, calculate the following Monday (general) or Friday (Personal), and create the `.proximafecha` file with both date pairs.
-3. **Create post:** Use the appropriate `proxima_fecha` value in the new post's frontmatter based on its main category.
-4. **Update file:** After creating the post, calculate the following Monday/Friday from the used date and update `.proximafecha`:
+2. **Create draft:** Use a placeholder date in the draft. The draft date does NOT affect `.proximafecha`.
+3. **Publish draft:** When you move a draft to `_posts/` with a real publication date, THEN update `.proximafecha`.
+4. **Update file:** After publishing, calculate the following Monday/Friday from the used date and update `.proximafecha`:
    - General posts: `ultima_fecha` = date used, `proxima_fecha` = next free Monday
    - Personal posts: `ultima_fecha_personal` = date used, `proxima_fecha_personal` = next free Friday
 5. **Day and Time:**
@@ -267,6 +269,8 @@ Incorrect example:
 
 Drafts are located in `_drafts/` with the name `YYYY-MM-DD-slug.md`.
 
+**⚠️ IMPORTANT: `.proximafecha` is NOT updated when creating drafts. Only update it when publishing.**
+
 **Steps to publish a draft:**
 
 1. **Modify the date:** Change the `date` field in the frontmatter with the desired publication date and time.
@@ -276,8 +280,9 @@ Drafts are located in `_drafts/` with the name `YYYY-MM-DD-slug.md`.
 5. **Move to _posts/YYYY/ and rename:** Move the file from `_drafts/` to `_posts/YYYY/` and change the filename so the date in the name matches the publication date in the frontmatter.
    - The filename must be `YYYY-MM-DD-slug.md` where YYYY-MM-DD matches the publication date.
    - Jekyll uses the frontmatter date to determine the public URL.
-6. **Commit:** Include the change in the commit with type `content`.
-7. **Push:** Only when the user explicitly indicates.
+6. **Update `.proximafecha`:** Calculate and update `ultima_fecha` and `proxima_fecha` based on the publication date used.
+7. **Commit:** Include the change in the commit with type `content`.
+8. **Push:** Only when the user explicitly indicates.
 
 **Example:**
 
