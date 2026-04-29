@@ -29,6 +29,25 @@ Básicamente, es tener en tu casa lo que las grandes tecnológicas te cobran, pe
 
 **Este post es el primero de una serie** en la que te contaré mi visión del Home Lab, por qué lo construí, qué ventajas tiene y qué retos supone. En posts posteriores iré entrando en más detalle sobre cómo hacerlo realidad, qué servicios puedes montar y cómo resolver los problemas comunes. Pero hoy no te voy a contar qué equipo uso ni qué servicios tengo exactamente; usaré ejemplos genéricos y ya hablaré de mi setup específico en otro momento.
 
+Posts publicados de la serie:
+
+- 27 de abril de 2026: [N8N: Tu automatización bajo tu control, sin pagos mensuales]({% post_url 2026/2026-04-27-n8n-automatizacion %})
+
+Próximos posts de la serie (fecha de publicación):
+
+- 11 de mayo de 2026: Mi decisión de usar Proxmox: virtualización seria para Home Lab
+- 18 de mayo de 2026: Racks y Mini Racks para tu Home Lab: guía completa
+- 25 de mayo de 2026: Por qué no uso los helper scripts de Proxmox
+- 1 de junio de 2026: Home Assistant: Tu cerebro de domótica en un solo lugar
+- 8 de junio de 2026: Immich: Tus fotos, tu servidor, tu privacidad
+- 11 de junio de 2026: La regla 3-2-1 de backups: No perder tus datos nunca más
+- 15 de junio de 2026: Firefly III: Tus finanzas personales, en tu servidor, bajo tu control
+- 25 de junio de 2026: AdGuard Home en alta disponibilidad: Dos nodos con sincronización
+- 29 de junio de 2026: Paperless NGX: Gestiona tus documentos digitales sin perder el control
+- 6 de julio de 2026: SearXNG: Tu buscador privado y sin rastreos
+- 13 de julio de 2026: Vaultwarden: Tus contraseñas seguras, en tu servidor, bajo tu control
+- 27 de julio de 2026: Ansible: Automatiza tu Home Lab de principio a fin
+
 # El Pilar de la Libertad y la Soberanía Digital
 
 ### Propiedad Física de los Datos

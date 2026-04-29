@@ -5,13 +5,13 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-11 08:30:00 +0200
-image: /assets/img/headers/2026-mi-decision-de-usar-proxmox-nanobanana.webp
+image: /assets/img/headers/mi-decision-de-usar-proxmox.webp
 image_alt: "Interfaz de Proxmox VE mostrando máquinas virtuales y contenedores, representando la virtualización híbrida"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [virtualizacion, contenedores, infraestructura, servidores, homelab]
 pin: false
 toc: true
-excerpt: "Explico mi elección de Proxmox como plataforma de virtualización para mi Home Lab. Analizo por qué prefiero Proxmox sobre otras opciones como ESXi, Hyper-V o Docker standalone, y cómo estructuro mis servicios."
+excerpt: "Explico mi elección de Proxmox como plataforma de virtualización para mi Home Lab. Analizo por qué prefiero Proxmox sobre ESXi, Hyper-V o Docker standalone, cómo estructuro servicios en LXC (AdGuard Home, Nginx Proxy Manager, Workers) y VMs, y por qué evito Docker dentro de LXC."
 twitter_description: "Por qué elijo Proxmox para mi Home Lab: virtualización seria."
 permalink: /:slug/
 ---
@@ -31,11 +31,13 @@ En el [post anterior]({% post_url 2026/2026-04-27-home-lab-filosofia %}) os cont
 
 La combinación de VMs y LXCs me da la flexibilidad que necesito: algunos servicios van en contenedores ligeros (para algo que necesito correr 24/7 con poco consumo), otros van en VMs completas (cuando necesito más aislamiento o un sistema operativo específico).
 
+Destaco que, aunque Proxmox incluye interfaz web, prefiero gestionar todo vía línea de comandos usando las herramientas nativas `pct` (para contenedores LXC) y `qm` (para máquinas virtuales), lo que me da mayor automatización y control.
+
 ### LXC vs VMs
 
-Los **contenedores LXC** son perfectos para servicios como Docker, Home Assistant, Pi-hole... Consumen muy pocos recursos, arranque instantáneo, y puedo tener docenas corriendo en un solo host.
+Los **contenedores LXC** son perfectos para servicios ligeros como AdGuard Home, Nginx Proxy Manager, o Workers con scripts a medida para tareas específicas. Todos asignan IP estática, consumen pocos recursos, arranque instantáneo, y puedo tener docenas corriendo en un solo host.
 
-Las **VMs** las uso para servicios que necesitan más aislamiento o un sistema operativo propio: un pfSense para el firewall, un Windows para algo puntual, un Linux con desktop environment para tareas concretas.
+Las **VMs** las uso para servicios que necesitan más aislamiento, un sistema operativo específico, o cargas con Docker (como Home Assistant): pfSense para firewall, Windows puntual, Linux con desktop, o Workers que requieran Docker.
 
 ## Por qué no otras opciones?
 
@@ -63,26 +65,24 @@ Con Proxmox tengo:
 
 ## Cómo estructuro mis servicios
 
-Básicamente, mis servicios funcionan dentro de contenedores LXC, pero con una arquitectura centralizada:
+Gestiono Proxmox principalmente vía CLI (`pct create` para LXC, `qm create` para VMs) en lugar de la interfaz web, con esta arquitectura clara:
 
-1. **Contenedores LXC "limpios"** - Creo contenedores vacíos desde la UI de Proxmox
-2. **Docker dentro de cada contenedor** - En lugar de servicios preinstalados, instalo Docker en cada LXC
-3. **Docker Compose** - Cada servicio tiene su docker-compose.yml
-4. **Bases de datos centralizadas** - Todos los servicios apuntan a un MariaDB/PostgreSQL centralizado
+1. **Contenedores LXC** - Creados con `pct create` (o UI si se prefiere), ejecutan servicios directamente sin Docker: AdGuard Home, Nginx Proxy Manager, o Workers con scripts personalizados para tareas específicas. Todos tienen IP estática asignada.
+2. **Máquinas Virtuales** - Creadas con `qm create` (o UI), para cargas que requieren Docker (como Home Assistant), sistemas operativos específicos, o Workers que necesiten entornos aislados. También asignan IP estática.
+3. **Bases de datos centralizadas** - Todos los servicios (LXC o VMs) apuntan a una instancia única de MariaDB/PostgreSQL centralizada.
 
-El paso 4 es la clave. En lugar de que cada servicio tenga su propia base de datos dentro de su propio contenedor, todos apuntan a un MariaDB centralizado. Una sola instancia de base de datos, un solo backup, una sola actualización.
-
-Esto reduce drásticamente el consumo de RAM y simplifica el mantenimiento.
+Esto reduce drásticamente el consumo de RAM: una sola instancia de base de datos, un solo backup, una sola actualización.
 
 ### Ejemplo: Nextcloud en Proxmox
 
-1. Crear un LXC desde la UI de Proxmox
-2. Entrar al contenedor (`pct enter 100`)
-3. Instalar Docker
-4. Desplegar Nextcloud mediante Docker Compose
+Para Nextcloud, uso una VM (donde sí es correcto usar Docker):
+1. Crear una VM con `qm create` (o UI de Proxmox)
+2. Entrar a la VM (`qm enter <vmid>`)
+3. Instalar Docker y Docker Compose
+4. Desplegar Nextcloud mediante docker-compose.yml
 5. **Apuntar al MariaDB centralizado**
 
-En lugar de instalar Nextcloud con su propia base de datos internamente, apunto al MariaDB central y listo.
+Nunca instalo Docker dentro de LXC: es una mala práctica que genera problemas de aislamiento y rendimiento.
 
 ## La visión a largo plazo
 
@@ -110,7 +110,9 @@ Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocult
 
 **Proxmox** gana en relación calidad-precio: código abierto, sin licencias, UI web completa, soporta tanto VMs como contenedores ligeros (LXC). Docker standalone es más simple pero carece de gestión centralizada, snapshots y alta disponibilidad.
 
-En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo.
+En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo. Eso sí, en ocasiones utilizo los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" rel="nofollow noopener"} para agilizar instalaciones específicas, siempre revisando previamente lo que ejecutan.
+
+Además, estoy preparando una mini guía/tutorial de Proxmox donde compartiré mi flujo de trabajo completo: desde la gestión vía CLI con `pct` y `qm`, hasta la estructura de servicios, bases de datos centralizadas y buenas prácticas para Home Lab.
 
 ## FAQ
 
@@ -124,8 +126,8 @@ En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-pr
 > Sí, es código abierto con una comunidad activa. Los contenedores LXC ofrecen aislamiento entre servicios.
 
 ***
-¿Te usas Proxmox? ¿Tienes alguna duda sobre virtualización? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Usas Proxmox? ¿Tienes alguna duda sobre virtualización? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
 
-Compártelo si te ha liked.
+Compártelo si te ha gustado.
 
 Y... ¡hasta aquí por hoy!
