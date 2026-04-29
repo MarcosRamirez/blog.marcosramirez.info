@@ -11,8 +11,9 @@ categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, proponiendo mejoras concretas para la gestión de listas."
+excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, proponiendo mejoras concretas para la gestión de listas. Analizo problemas de navegación, la búsqueda de títulos, los avisos de nuevos episodios, la integración con Chromecast y cómo mejorar la experiencia general de visualización tanto en móvil como en TV. Una crítica constructiva desde la perspectiva de un heavy user."
 twitter_description: "Crítica de UX a Netflix: listado, Chromecast, avisos y más."
+meta_description: "Mejora la experiencia de usuario en Netflix con cambios simples. Descubre cómo optimizar listas, navegación y Chromecast. Lee más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
 

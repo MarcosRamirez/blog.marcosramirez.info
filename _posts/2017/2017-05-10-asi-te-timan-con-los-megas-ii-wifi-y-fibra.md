@@ -1,18 +1,19 @@
 ---
-title: "Así te timan con los megas II: Wifi y Fibra"
+title: "Así te timan con los megas (II): Wifi y Fibra"
 slug: asi-te-timan-con-los-megas-ii-wifi-y-fibra
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2017-05-10 19:26:42 +0200
-image: /assets/img/headers/2017/megas-wifi-fibra-nanobanana.webp
-image_alt: "Router WiFi y cable de fibra óptica"
+date: 2017-05-10 18:39:47 +0200
+image: /assets/img/headers/2017/megas-ii.webp
+image_alt: "Gráfico de velocidades Wifi vs Fibra"
 categories: [Tecnología, Redes e Infraestructura]
-tags: [redes, internet, fibra, wifi]
+tags: [redes, internet, fibra, wifi, curiosidades]
 pin: false
-toc: false
-excerpt: "Segunda parte del análisis sobre la velocidad de internet. Aunque tengas fibra de 300 Mbps, el WiFi puede ser el cuello de botella. El 99% de los routers operan a 2.4 GHz, no alcanzando velocidades de fibra. Las nuevas redes de 5 GHz y tecnologías como WiFi+ son la solución."
-twitter_description: "Tu WiFi de fibra no alcanza 300 Mbps por usar 2.4 GHz. La solución: 5 GHz o WiFi+."
+toc: true
+excerpt: "Segunda parte de cómo las operadoras nos engañan con las velocidades. Analizo las diferencias reales entre Wifi y Fibra óptica, por qué tu conexión Wifi nunca alcanza la velocidad contratada y cómo verificar la velocidad real mediante test de velocidad correctos. Una guía para no ser engañado por las operadoras."
+twitter_description: "Wifi vs Fibra: por qué nunca alcanzas la velocidad contratada. Segunda parte de megas."
+meta_description: "Descubre por qué el Wifi no alcanza tu velocidad contratada. Compara Wifi vs Fibra y verifica tu conexión. Lee más."
 permalink: /asi-te-timan-con-los-megas-ii-wifi-y-fibra/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

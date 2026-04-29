@@ -13,6 +13,7 @@ pin: false
 toc: false
 excerpt: "Google Trips es la aplicación de Google para planificar viajes. Organiza automáticamente tus reservas, crea itinerarios personalizados y ofrece guías locales, todo accesible sin conexión durante tus desplazamientos. En este vídeo tutorial te muestro todas sus funcionalidades."
 twitter_description: "Google Trips: organiza reservas, itinerarios y guías offline para tus viajes. Vídeo review completo."
+meta_description: "Organiza tus viajes con Google Trips. Crea itinerarios y accede a guías offline sin conexión. Descubre más."
 permalink: /review-google-trips/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

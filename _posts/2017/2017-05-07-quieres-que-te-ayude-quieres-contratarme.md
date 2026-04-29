@@ -1,18 +1,19 @@
 ---
-title: "¿Quieres que te ayude? ¿Quieres contratarme?"
+title: "Quieres que te ayude? Quieres contratarme?"
 slug: quieres-que-te-ayude-quieres-contratarme
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2017-05-07 19:25:28 +0200
-image: /assets/img/headers/quieres-que-te-ayude.webp
-image_alt: "Texto professionnel ¿Quieres que te ayude? con icono de maleta"
-categories: [Personal, Carrera Profesional]
-tags: [freelance, empleo, profesional]
+date: 2017-05-07 10:22:16 +0200
+image: /assets/img/headers/2017/quieres-que-te-ayude.webp
+image_alt: "Logo personal de Marcos Ramírez con texto 'Quieres que te ayude?'"
+categories: [Personal, Reflexiones y Opinión]
+tags: [personal, trabajo, opinión]
 pin: false
-toc: true
-excerpt: "Explico mi disponibilidad profesional para proyectos y empleo. Estoy interesado en proyectos innovadores, puestos de CTO y colaboraciones freelance interesante. No me interesan ejercicios para estudiantes, arreglar ordenadores gratis, software pirata ni actividades ilegales."
-twitter_description: "Mi disponibilidad para proyectos, empleo y colaboraciones. Lo que me interesa y lo que no."
+toc: false
+excerpt: "En este post comparto mi filosofía de trabajo como informático. Explico por qué ya no acepto proyectos de desarrollo web aislados y me centro en soluciones completas, aportando valor real al negocio y no solo escribiendo código. También anuncio que Lucía se une como asistente virtual."
+twitter_description: "Nueva etapa: ya no acepto proyectos web aislados. Busco aportar valor real al negocio."
+meta_description: "Aprende por qué dejé de aceptar proyectos web aislados. Descubre mi nuevo enfoque en soluciones de valor. Lee más."
 permalink: /quieres-que-te-ayude-quieres-contratarme/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

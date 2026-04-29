@@ -11,8 +11,9 @@ categories: [Tecnología, Software y Apps]
 tags: [netflix, opinión, ux, review]
 pin: false
 toc: true
-excerpt: "Segunda parte de mi análisis sobre la experiencia de usuario en Netflix, donde me centro en problemas técnicos de navegación, idiomas y reproductores."
+excerpt: "Segunda parte de mi análisis sobre la experiencia de usuario en Netflix, donde me centro en problemas técnicos de navegación, idiomas y reproductores. Analizo la falta de ordenación por fecha en las listas, la gestión de idiomas, los problemas con el reproductor en móvil y cómo la API cerrada limita las posibilidades de integración. Una crítica constructiva desde la perspectiva de un heavy user que busca mejorar la plataforma."
 twitter_description: "Netflix UX II: navegación, idiomas, reproductor móvil y API cerrada."
+meta_description: "Mejora la experiencia de usuario en Netflix con cambios simples. Descubre cómo optimizar navegación y reproductor en móvil. Lee más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor-ii/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

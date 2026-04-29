@@ -4,15 +4,16 @@ slug: os-presento-a-amy-ingram-mi-nueva-asistente
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2017-07-08 12:12:27 +0200
-image: /assets/img/headers/os-presento-a-amy-ingram.webp
-image_alt: "Logo de Amy Ingram, asistente de IA para reuniones"
-categories: [Tecnología, Inteligencia Artificial]
-tags: [ia, productividad, automatización, asistentes]
+date: 2017-07-08 08:30:00 +0200
+image: /assets/img/headers/2017/amy-ingram.webp
+image_alt: "Foto de Amy Ingram sonriendo con portátil"
+categories: [Personal, Carrera Profesional]
+tags: [asistente, trabajo, productividad]
 pin: false
-toc: true
-excerpt: "Amy Ingram es una Inteligencia Artificial de X.AI que gestiona tu agenda y organiza reuniones por email. Solo tienes que ponerla en copia al solicitar una reunión y ella se encarga de buscar huecos, acordar horarios y lugares. Versión gratuita permite 5 reuniones al mes, $39/mes para ilimitadas."
-twitter_description: "Amy Ingram: tu asistente de IA organiza reuniones por email. 5 gratis al mes o $39/mes ilimitado."
+toc: false
+excerpt: "Os presento a Amy Ingram, mi nueva asistente virtual. Explico por qué decidí contratarla para gestionar emails, agendar reuniones y filtrar comunicaciones, permitiéndome centrar en el trabajo de desarrollo. Una solución que ha mejorado mi productividad drásticamente."
+twitter_description: "Presentando a Amy Ingram: mi nueva asistente virtual para gestión de agenda."
+meta_description: "Conoce a Amy Ingram, mi nueva asistente virtual. Mejora tu productividad delegando tareas hoy. Lee más."
 permalink: /os-presento-a-amy-ingram-mi-nueva-asistente/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

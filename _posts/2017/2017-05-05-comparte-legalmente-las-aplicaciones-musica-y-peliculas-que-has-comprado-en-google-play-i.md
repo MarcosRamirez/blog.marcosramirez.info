@@ -11,8 +11,9 @@ categories: [Tecnología, Software y Apps]
 tags: [google, tutorial, android]
 pin: false
 toc: true
-excerpt: "El Plan Familiar de Google Play llega a España permitiendo compartir aplicaciones, música y películas con hasta cinco personas de forma legal. No es necesario que sean familiares reales. Te explico cómo darte de alta como administrador desde el PC, los pasos para configurar el pago con tarjeta de crédito y cómo elegir el contenido a compartir."
+excerpt: "El Plan Familiar de Google Play llega a España permitiendo compartir aplicaciones, música y películas con hasta cinco personas de forma legal. No es necesario que sean familiares reales. Te explico cómo darte de alta como administrador desde el PC, los pasos para configurar el pago con tarjeta de crédito y cómo elegir el contenido a compartir entre los miembros del grupo familiar."
 twitter_description: "Comparte apps y contenido en Google Play con hasta 5 personas. Tutorial del Plan Familiar completo."
+meta_description: "Comparte apps y juegos en Google Play con hasta 5 personas. Configura el Plan Familiar y ahorra dinero. Descubre más."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

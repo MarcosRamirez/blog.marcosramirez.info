@@ -1,18 +1,16 @@
 ---
-title: "¿Cómo y dónde busco proyectos y/o empleo? (además os regalo 5€ en Fiverr)"
+title: "Cómo y dónde busco proyectos y/o empleo + además os regalo 5€ en Fiverr"
 slug: como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr
-authors:
-  - "Marcos Ramírez"
-  - "Lucía"
-date: 2017-05-12 19:40:04 +0200
-image: /assets/img/headers/como-y-donde-busco-proyectos.webp
-image_alt: "Iconos de bolsas de trabajo y plataformas freelance"
+date: 2017-05-12 19:14:55 +0200
+image: /assets/img/headers/2017/fiverr.webp
+image_alt: "Logo de Fiverr con dinero y lupa"
 categories: [Personal, Carrera Profesional]
-tags: [empleo, freelance, consejos, fiverr]
+tags: [trabajo, fiverr, empleo, programador]
 pin: false
-toc: true
-excerpt: "Mis estrategias y webs favoritas para buscar empleo y proyectos freelance como programador. Uso Infojobs, Tecnoempleo y Experteer para empleo presencial, y Fiverr para proyectos freelance. Calculo el salario por hora incluyendo desplazamientos. Registro y os regalo 5€ para nuevos usuarios."
-twitter_description: "Webs para buscar empleo técnico: Infojobs, Tecnoempleo, Experteer y Fiverr. 5€ de regalo incluido."
+toc: false
+excerpt: "Comparto mis métodos para buscar proyectos y empleo como programador. Analizo plataformas como Fiverr, LinkedIn y otras vías, explicando por qué Fiverr me ha funcionado para conseguir clientes internacionales. También regalo 5€ a quienes se registren usando mi enlace de referido."
+twitter_description: "Buscando proyectos o empleo? Aprende de mi experiencia y recibe 5€ en Fiverr."
+meta_description: "Aprende a buscar proyectos y empleo como programador. Descubre Fiverr y consigue 5€ de regalo. Lee más."
 permalink: /como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

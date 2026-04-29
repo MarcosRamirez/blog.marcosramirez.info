@@ -12,7 +12,8 @@ tags: [google, gsuite, oferta]
 pin: false
 toc: false
 excerpt: "GSuite es la solución empresarial de Google que te permite usar Gmail con tu propio dominio de correo, ofreciendo 30 GB de almacenamiento y asistencia técnica 24/7. El precio es de tan solo $4 por usuario al mes, y con el descuento del 20% durante un año que os regalo, serán $3.2. Incluye 14 días de prueba gratuita."
-twitter_description: "20% dto. en GSuite el primer año. Código PDHDKXU3AKMCDL9. 14 días de prueba gratis."
+twitter_description: "20% dto. en GSuite el primer año. Código PDHDKXU3AKMCDL9. 14 días de prueba gratuita."
+meta_description: "Consigue GSuite con 20% de descuento durante un año. Usa Gmail con tu dominio propio por $3.2/mes. Regístrate gratis hoy."
 permalink: /regalo-un-20-de-descuento-en-google-suite-durante-un-ano/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
