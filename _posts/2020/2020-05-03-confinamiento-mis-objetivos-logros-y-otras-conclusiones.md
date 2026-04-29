@@ -13,6 +13,7 @@ pin: false
 toc: true
 excerpt: "Tras 52 días de confinamiento por la pandemia de COVID-19, reflexiono sobre mis objetivos personales y los logros alcanzados durante este período. Desde dejar de fumar y mantener una rutina estricta, hasta hacer ejercicio y reducir el consumo de alcohol, cada día ha sido una oportunidad para mejorar. También analizo el crecimiento en mis perfiles sociales de poker y Twitch, comparto mis conclusiones sobre la gestión governmental y explico por qué continuaré trabajando de forma remota."
 twitter_description: "52 días de confinamiento: mis objetivos, logros reales y conclusiones sobre la gestión del COVID-19."
+meta_description: "Reflexiona sobre 52 días de confinamiento COVID-19. Descubre objetivos cumplidos y lecciones aprendidas. Lee más."
 permalink: /confinamiento-mis-objetivos-logros-y-otras-conclusiones/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
