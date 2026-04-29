@@ -20,6 +20,8 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
+> **Aviso importante**: Los modelos gratuitos de NVIDIA son lentos. Muy lentos. Incluso su propio chat web es lento. Si necesitas velocidad, considera usar modelos de pago o alternativas como [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} con modelos gratuitos.
+
 ## Introducción
 
 [NVIDIA](https://www.nvidia.com/){:target="_blank" rel="nofollow noopener"} ha lanzado un programa de acceso gratuito que permite a los desarrolladores probar modelos de inteligencia artificial de última generación a través de su portal [build.nvidia.com/models](https://build.nvidia.com/models){:target="_blank" rel="nofollow noopener"}. Esta iniciativa elimina las barreras de entrada tradicionales: no se requiere tarjeta de crédito, únicamente verificación mediante teléfono móvil.
