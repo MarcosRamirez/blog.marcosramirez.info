@@ -1,27 +1,30 @@
 ---
-title: "OpenRouter: tu puerta de acceso a más de 500 modelos de IA, muchos gratuitos"
+title: "OpenRouter: 500 modelos de IA en una sola API"
 date: 2026-05-04 08:30:00 +0200
-excerpt: "OpenRouter ofrece más de 500 modelos de IA en una sola API. Lo mejor: modelos gratuitos sin configurar nada. Además, puedes usarlo como gateway centralizado para OpenCode y OpenClaw."
+excerpt: "OpenRouter es un gateway unificado que ofrece acceso a más de 500 modelos de IA de docenas de proveedores mediante una sola API key y endpoint. Cuenta con casi 30 modelos gratuitos ideales para desarrollo y pruebas, sin necesidad de tarjeta de crédito. Su sistema de fallback automático y compatibilidad con OpenAI lo convierten en una solución centralizada perfecta para herramientas como OpenCode y OpenClaw."
 authors:
   - Marcos Ramírez
   - Lucía
 categories:
   - Tecnología
+  - Inteligencia Artificial
+  - Software y Apps
 tags:
   - inteligencia-artificial
   - software-y-apps
   - automatizacion
 image: /assets/img/headers/openrouter-500-modelos-ia.webp
+image_alt: "Logo de OpenRouter con múltiples modelos de IA conectados"
 pin: false
 toc: true
-twitter_description: "Más de 500 modelos de IA en una sola API. Muchos gratuitos. OpenRouter es la puerta de acceso centralizado a IA."
-permalink: /openrouter-500-modelos-ia/
+twitter_description: "Más de 500 modelos de IA en una API. Muchos gratuitos. Úsalo como gateway centralizado para OpenCode y OpenClaw."
+permalink: /:slug/
 slug: openrouter-500-modelos-ia
 ---
 
 ![Post Header]({{ page.image }}){:alt="Logo de OpenRouter con múltiples modelos de IA conectados"}
 
-El otro día alguien me comento que tenía problemas con usar IAs gratuitas. Esta persona quería algo local, así que OpenRouter no le sirve. Pero quizás haya quien no conozca OpenRouter y le pueda venir bien para usarlo con cualquier agente o herramienta de IA.
+El otro día alguien me comentó que tenía problemas con usar IAs gratuitas. Esta persona quería algo local, así que OpenRouter no le sirve. Pero quizás haya quien no conozca OpenRouter y le pueda venir bien para usarlo con cualquier agente o herramienta de IA.
 
 [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} es un gateway unificado. Una sola API key, un solo endpoint, y puedes usar más de 500 modelos de docenas de proveedores. OpenAI-compatible, cambiar de proveedor es solo cambiar una línea de código.
 
@@ -33,7 +36,7 @@ Una de las mejores cosas de OpenRouter: tiene modelos gratuitos. No son cuatro, 
 - DeepSeek R1 — excelente para razonamiento
 - Llama 3.3 70B — el clásico de Meta
 - Gemma 4 — la familia de Google
-- MiniMax M2.5 — de los más potentes para desarrollo, incluso para OpenClaw (versióm 2.7 disponible قريبamente)
+- MiniMax M2.5 — de los más potentes para desarrollo, incluso para OpenClaw (versión 2.7 disponible próximamente)
 
 El router `openrouter/free` escoge automáticamente el mejor modelo gratuito según lo que necesites (visión, tool calling, etc.).
 
@@ -48,9 +51,11 @@ Límites típicos: 20 peticiones/minuto, 200/día. Sin tarjeta de crédito neces
 
 ### OpenCode y OpenClaw
 
-Esto es lo que mola: OpenCode y OpenClaw pueden usar OpenRouter como backend. Así tienes todos los modelos (gratuitos y de pago) centralizados, sin configurar docenas de API keys.
+Esto es lo que mola: [OpenCode]({% post_url 2026/2026-07-20-opencode-asistente-codigo %}){:target="_blank"} y [OpenClaw](https://openclaw.dev/){:target="_blank" rel="nofollow noopener"} pueden usar OpenRouter como backend. Así tienes todos los modelos (gratuitos y de pago) centralizados, sin configurar docenas de API keys.
 
 Solo necesitas configurar tu API key de OpenRouter en ambos entornos, y ya tienes acceso a más de 500 modelos.
+
+¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
 
 ### Ejemplo rápido
 
@@ -69,9 +74,25 @@ response = client.chat.completions.create(
 )
 ```
 
+### Preguntas frecuentes
+
+**¿OpenRouter es gratuito?**
+OpenRouter ofrece casi 30 modelos gratuitos sin necesidad de tarjeta de crédito. También tienes modelos de pago con precios competitivos.
+
+**¿Puedo usar OpenRouter con herramientas como OpenCode?**
+Sí, tanto OpenCode como OpenClaw pueden usar OpenRouter como backend configurando simplemente la API key y el endpoint.
+
+**¿Qué límites tienen los modelos gratuitos?**
+Los límites típicos son 20 peticiones por minuto y 200 al día, suficiente para desarrollo y pruebas.
+
+**¿Es seguro usar OpenRouter?**
+Al ser un gateway, tú controlas qué modelo usar. OpenRouter no entrena con tus datos y puedes cambiar de proveedor cuando quieras.
+
 ---
 
-Compártelo si te ha gustado.
+Compártelo si te ha resultado útil.
+
+¿Implementas soluciones de IA en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
 
 ¿Usas algún otro agregador de modelos? Escríbeme o deja un comentario.
 
