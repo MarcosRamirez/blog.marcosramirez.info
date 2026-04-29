@@ -17,7 +17,7 @@ future: false  # This enables future posts :facepalm:
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # --------------------------
-title: "Blog personal de Marcos Ramírez"                          # the main title
+title: "Marcos Ramírez · Software, homelabs e inteligencia artificial"                          # the main title
 tagline: "Software Engineer"   # it will display as the sub-title
 description: "Blog personal de Marcos Ramírez: IA, homelabs, programación, tecnología, finanzas y productividad. Sin filtros, sin patrocinadores."
 excerpt_separator: <!--more-->
