@@ -311,27 +311,38 @@ date: 2026-04-24 09:00:00 +0200
 - **Tone:** Mimicked from history.
 - **Title:** For commit and metadata, use the actual post title.
 
-### CTAs (Call to Action) - User-Facing Only
+### CTAs (Call to Action) - Lead Capture Rules
 
-**CRITICAL RULE: CTAs must be user-facing only. NEVER include internal marketing language like "capture lead", "convert project", "generate lead" in the post text. Readers should only see professional, natural CTAs.**
+**Every post MUST end with a CTA. Determine if the post is LEAD or NO-LEAD:**
 
-- Use CTAs linking to [Contacto](https://marcosramirez.info/contacto/){:target="_blank"} for business inquiries.
-- **Inline CTAs:** Don't put CTAs only at the end. Include them throughout the post when it makes sense:
-  - After explaining technical solutions → "¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}."
-  - After configuration steps → "¿Necesitas esta integración para tu negocio? [Consulta con expertos](https://marcosramirez.info/contacto/){:target="_blank"}."
-  - When mentioning tools/services → "¿Te interesa esta tecnología para tu empresa? [Descubre cómo podemos ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}."
-- At the end of the post → main CTA targeting potential customers.
+#### Lead posts
+Topics: AI/ML, software architecture, automation, custom development, cloud infrastructure, DevOps,等技术领域咨询服务
 
-### Closing
+→ Add contact link with dynamic CTA text:
+```
+[Dinamic CTA text](https://marcosramirez.info/contacto/){:target="_blank"}
+```
+
+CTA text rules:
+- Vary the text — don't use the same CTA every time
+- Match the post topic and reader context
+- Examples: "¿Hablamos?", "Escríbeme si necesitas ayuda con esto", "Contáctame para implementarlo en tu empresa", "Programemos una llamada", "¿Quieres automatizar esto en tu negocio?"
+- Keep it short (2-6 words)
+
+#### No-lead posts
+All other content: reviews, guides for third-party tools, personal posts, opinion pieces, tutorials for tools you don't offer services around
+
+→ Text-only invitation to comment (NO link):
+- Vary the text based on post context
+- Examples: "¿Ya conocías esta herramienta?", "¿Qué opinas?", "Compártelo si te ha resultado útil", "¿Has tenido experiencia similar?"
+
+**⚠️ IMPORTANT: Excerpt does NOT support links** — CTA for lead capture must go ONLY in the article body, not in excerpt.
+
+### Closing (Required)
 
 - **Always include at the beginning of the closing:** "Compártelo si te ha resultado útil."
-- **Post type → Closing (Customer-Oriented):**
-  - **Technical/Tutorial**: "¿Implementas soluciones de IA en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}."
-  - **Opinion/Reflection**: "¿Qué te parece esta tecnología? Cuéntame si la usas en tu negocio."
-  - **Series**: "¿Quieres ver el siguiente post de la serie? Stay tuned."
-  - **Review**: "¿Has evaluado soluciones similares para tu empresa? Cuéntame."
-  - **Finance**: "¿Aplicas esto en tu estrategia financiera? Compártelo."
-- **Signature**: "Y... hasta aquí por hoy!"
+- **Closing then follows the CTA rules above (lead or no-lead)**
+- **Signature:** "Y... hasta aquí por hoy!"
 
 ### Content Rules (NEVER invent)
 

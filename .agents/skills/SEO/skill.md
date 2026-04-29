@@ -15,9 +15,24 @@ description: Skill specialized in optimizing technology and software posts under
 - **E-E-A-T:** Inject paragraphs that demonstrate direct experience, software testing, and technical architecture understanding.
 
 ## 2. Content Structure (On-Page)
+
+### ⚠️ MANDATORY VERIFICATION BEFORE COMMIT/PUSH
+
+Before any commit or push, you MUST verify ALL of the following:
+
+| Field | Limit | How to verify |
+|-------|-------|---------------|
+| `description` | 140-155 characters | `echo "text" \| wc -c` (count manually, do NOT estimate) |
+| `title` | ≤60 characters | Count characters manually |
+| Tags | 3-8 tags, NO product name | Check list |
+| `image_alt` | Must exist | Check frontmatter |
+
+**Do NOT commit if any of these fail. Fix first.**
+
 - **Metadata (Limits):**
   - **Title Tag:** Maximum 60 characters (prioritize keyword at the start).
   - **Meta Description (description):** Between 140 and 155 characters (shown to crawlers in search results). Do NOT exceed 160 characters. This is a separate frontmatter field from excerpt.
+  - **Verification:** Use `echo "text" | wc -c` or count manually — do NOT estimate.
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
@@ -79,13 +94,15 @@ description: "Frugality vs Minimalism: real differences. Learn how frugality let
 - Use plain text only within the description.
 
 #### Verification Checklist:
-- [ ] Length is between 140-155 characters (use `echo "text" | wc -c`)
-- [ ] Primary keyword appears near the beginning
+- [ ] **`description` length verified: 140-155 characters** — Count with `echo "text" | wc -c` (do NOT estimate)
+- [ ] **`title` length: ≤60 characters** — Count manually
+- [ ] Primary keyword appears near the beginning of `description`
 - [ ] Tone is engaging, professional, action-oriented
-- [ ] Structure follows Problem-Agitation-Solution OR Benefit-driven
+- [ ] Structure follows Problem-Agigation-Solution OR Benefit-driven
 - [ ] Ends with proper CTA (Read more/Learn how/Discover the secrets/Get started today)
 - [ ] NO double quotes (`"`) inside the description text
 - [ ] YAML format uses double quotes: `description: "..."`
+- [ ] `image_alt` field exists in frontmatter
 
 ### Keyword Identification
 Before writing any content, first identify and list the most effective primary keyword based on the topic. Additionally, suggest 3-5 relevant LSI (Latent Semantic Indexing) keywords to be naturally integrated into the text.
@@ -165,6 +182,7 @@ The AI must identify affiliate/referral links and mark them with `rel="sponsored
 
 ## 7. Excerpt and Interlinking
 - **Excerpt:** See **copywriting skill** for rules (20-30% of post length, paragraph format, double quotes).
+- **⚠️ Excerpt does NOT support links** — CTA for lead capture must go ONLY in the article body, not in excerpt.
 - **Interlinking:** Suggest internal links to Whitelist domains to improve user navigation.
 
 ## 8. URL Structure (Slugs)
