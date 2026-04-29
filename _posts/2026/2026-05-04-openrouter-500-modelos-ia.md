@@ -22,7 +22,7 @@ permalink: /:slug/
 slug: openrouter-500-modelos-ia
 ---
 
-![Post Header]({{ page.image }}){:alt="Logo de OpenRouter con múltiples modelos de IA conectados"}
+![Post Header]({{ page.image }})
 
 El otro día alguien me comentó que tenía problemas con usar IAs gratuitas. Esta persona quería algo local, así que OpenRouter no le sirve. Pero quizás haya quien no conozca OpenRouter y le pueda venir bien para usarlo con cualquier agente o herramienta de IA.
 
