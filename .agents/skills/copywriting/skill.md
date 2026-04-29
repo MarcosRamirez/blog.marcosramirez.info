@@ -249,14 +249,14 @@ Incorrect example:
 
 ### Scheduling Logic (Calendar)
 
-**⚠️ IMPORTANT: Only update `.proximafecha` when a post is PUBLISHED (moved to `_posts/`), NOT when creating drafts.**
+**⚠️ IMPORTANT: `.proximafecha` is only updated when a post is PUBLISHED (created directly in `_posts/` or moved from `_drafts/`). Creating drafts does NOT affect `.proximafecha`.**
 
 **Tracking file:** The `.proximafecha` file in the project root is used to manage publication dates.
 
 1. **Read date:** Before creating a post, read the `.proximafecha` file and get the `proxima_fecha` value (or `proxima_fecha_personal` for `Personal` main category posts).
-2. **Create draft:** Use a placeholder date in the draft. The draft date does NOT affect `.proximafecha`.
-3. **Publish draft:** When you move a draft to `_posts/` with a real publication date, THEN update `.proximafecha`.
-4. **Update file:** After publishing, calculate the following Monday/Friday from the used date and update `.proximafecha`:
+2. **Create draft:** Use a placeholder date in `_drafts/`. The draft does NOT affect `.proximafecha`.
+3. **Create post directly OR publish draft:** When creating a NEW post in `_posts/` OR moving a draft to `_posts/`, use the appropriate `proxima_fecha` value based on the publication date.
+4. **Update `.proximafecha`:** After publishing (either direct creation or draft publish), calculate the following Monday/Friday from the used date:
    - General posts: `ultima_fecha` = date used, `proxima_fecha` = next free Monday
    - Personal posts: `ultima_fecha_personal` = date used, `proxima_fecha_personal` = next free Friday
 5. **Day and Time:**
