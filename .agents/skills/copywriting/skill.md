@@ -327,6 +327,14 @@ This rule avoids publishing invented information about them, their Home Lab, pre
 - If you see `IA` → change to `Inteligencia Artificial`
 - If you see `Opinión` as main category → move to subcategory under `Desarrollo Profesional`
 
+### Affiliate Links Disclosure
+
+If a post contains affiliate links (detected by `rel="sponsored"`), you MUST include the following text at the end of the post body (before the closing):
+
+```
+*Este artículo contiene enlaces de afiliado.*
+```
+
 ### Spelling and Grammar - MANDATORY VERIFICATION
 
 **CRITICAL RULE: You MUST write all content with perfect spelling and grammar on the FIRST attempt.**
