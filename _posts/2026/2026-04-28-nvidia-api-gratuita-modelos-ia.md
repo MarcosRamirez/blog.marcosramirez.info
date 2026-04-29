@@ -20,7 +20,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-> **Aviso importante**: Los endpoints gratuitos que ofrece NVIDIA son lentos. Muy lentos. Son totalmente inusables. Es mejor usar los modelos gratuitos de [OpenCode](https://opencode.ai/){:target="_blank" rel="nofollow noopener"} o [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} que son más rápidos.
+> **Aviso importante**: Los endpoints gratuitos que ofrece NVIDIA son lentos. Muy lentos. Son totalmente inusables. Es mejor usar los modelos gratuitos de [OpenCode](https://opencode.ai/){:target="_blank" rel="nofollow noopener"} u [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} que son más rápidos.
 
 ## Introducción
 
