@@ -68,6 +68,16 @@ Return the full corrected post. At the end, add a section:
 
 ---
 
+## Length Verification
+
+**Minimum: 1200 words of body content**
+
+- Verify the post meets the 1200 word minimum (excluding frontmatter, code blocks)
+- If the post is under 1200 words, flag it: "⚠️ Post is under 1200 words (approximately X words). Not ready for publishing."
+- Code blocks do not count toward word total
+
+---
+
 ## Cambios realizados
 
 List every change made in this format:

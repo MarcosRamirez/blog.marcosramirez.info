@@ -25,6 +25,8 @@ description: Skill specialized in optimizing technology and software posts under
 
 ### Meta Description Generation Rules
 
+**Related fields:** For `excerpt` and `twitter_description` rules, see **copywriting skill**. This section covers ONLY the `description` field (SEO meta for crawlers).
+
 When writing the `description` field for a post, follow these mandatory rules:
 
 #### Constraints & Requirements:
@@ -130,22 +132,29 @@ Any domain NOT included in the above list must be treated as external.
 ### C. Affiliate Link Detection
 The AI must identify affiliate/referral links and mark them with `rel="sponsored"`.
 
-**Common affiliate programs:**
-- **Amazon:** `amazon.*` (any TLD) and `amzn.to` (short URLs)
-- **Alibaba Group:** `alibaba.com`, `aliexpress.com`, `aliexpress.*`
-- **eBay:** `ebay.*`
-- **Booking.com:** `booking.com`
-- **Generic patterns:** URLs containing `/ref=`, `?tag=`, `?aff=`, `?partner=`
+**Common affiliate URL patterns:**
+| Platform | Look for |
+|----------|----------|
+| Amazon | `amazon.com`, `amazon.es`, `amzn.to`, `/dp/`, `?tag=`, `?ref=` |
+| Alibaba Group | `alibaba.com`, `aliexpress.com`, `aliexpress.*` |
+| eBay | `ebay.com`, `ebay.*`, `/ref=`, `?affiliate` |
+| Generic | `?aff=`, `?partner=`, `?campaign=`, `/ref=` (in any URL) |
 
 **Rule:** If a link matches ANY affiliate pattern:
 1. Add `rel="sponsored nofollow noopener"` to the link
-2. Use Kramdown format from Jekyll skill: `{:target="_blank" rel="sponsored nofollow noopener"}`
+2. Use Kramdown format: `{:target="_blank" rel="sponsored nofollow noopener"}`
 3. Do NOT add colon (`:`) before `rel`
 
-**Example:**
+**Examples:**
 ```markdown
-[Product](https://amazon.com/dp/B08XXXXXX/?tag=affiliate-20){:target="_blank" rel="sponsored nofollow noopener"}
-[Short URL](https://amzn.to/4tOaPqs){:target="_blank" rel="sponsored nofollow noopener"}
+# Amazon product page
+[Product](https://amazon.com/dp/B08XXXXXX){:target="_blank" rel="sponsored nofollow noopener"}
+
+# Amazon short link
+[Product](https://amzn.to/4tOaPqs){:target="_blank" rel="sponsored nofollow noopener"}
+
+# Generic affiliate parameter
+[Service](https://example.com/?ref=user123){:target="_blank" rel="sponsored nofollow noopener"}
 ```
 
 ## 6. Jekyll Format (Chirpy Theme)
@@ -155,7 +164,7 @@ The AI must identify affiliate/referral links and mark them with `rel="sponsored
 - **H1:** Don't repeat in the Markdown body (Chirpy generates it automatically).
 
 ## 7. Excerpt and Interlinking
-- **Excerpt:** Technical hook of ~150 characters for the main feed (maximum 160 to avoid truncation).
+- **Excerpt:** See **copywriting skill** for rules (20-30% of post length, paragraph format, double quotes).
 - **Interlinking:** Suggest internal links to Whitelist domains to improve user navigation.
 
 ## 8. URL Structure (Slugs)

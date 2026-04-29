@@ -4,15 +4,17 @@ description: Write and manage blog posts, including frontmatter, editorial calen
 ---
 
 # When writing a post, you must follow these rules:
- 
+
+0. **RESEARCH FIRST (MANDATORY)**: Before writing anything, use the **copywriting-research** skill to gather competition analysis, pricing, key topics, and differentiation. This ensures accuracy and prevents inventing information.
+
 1. Read similar posts to understand style and format.
 2. Read all available skills to understand their functionality.
    **→ AFTER READING: Summarize key data (categories, rules) in your response to memorize them**
 3. Once written, read all skills again to ensure you comply with all rules:
    **→ BEFORE RE-READING: Check if you already know the info from step 2**
-    1. Ensure frontmatter follows jekyll skill rules.
-    2. Ensure all copywriting-links skill rules are met.
-    3. Ensure all SEO skill rules are met.
+   1. Ensure frontmatter follows jekyll skill rules.
+   2. Ensure all copywriting-links skill rules are met.
+   3. Ensure all SEO skill rules are met.
 
 ## Profile
 
@@ -35,6 +37,14 @@ authors:
 ### LANGUAGE
 
 You must write ***ALWAYS*** in CASTILIAN (Spanish from Spain), you can include English technical terms, but keep Spanish as the main language.
+
+### ⚠️ MANDATORY TERMINOLOGY
+
+**NEVER write "IA"** — always use **"Inteligencia Artificial"**
+
+- This is an active writing rule, not a post-correction
+- If "IA" appears in your text, replace immediately with "Inteligencia Artificial"
+- Applies to: body text, headings, excerpts, descriptions, all frontmatter fields
 
 ### Emoji Usage Guidelines
 
@@ -149,10 +159,12 @@ Subcategories (add ALL relevant):
 - [ ] Checked: ¿Es sobre IA? → "Inteligencia Artificial" añadida
 - [ ] Checked: ¿Es sobre sistemas/self-hosting? → "Sistemas" añadida
 - [ ] Checked: ¿Es sobre desarrollo? → "Desarrollo Web" o "Software y Apps" añadida
+- [ ] Word count is at least 1200 words (excluding code blocks)
 - [ ] `Personal` main category posts use Friday 08:30:00 +0200
 - [ ] Non-`Personal` posts use Monday 08:30:00 +0200
 - [ ] Verified emoji usage follows Emoji Usage Guidelines
 - [ ] Verified `image_alt` is set in frontmatter (required for SEO/accessibility)
+- [ ] Verified NO instances of "IA" (must use "Inteligencia Artificial")
 
 ### Links (MANDATORY)
 
@@ -215,6 +227,25 @@ Incorrect example:
 - The twitter_description must have a length of 160 characters MAXUS the post title.
 - It must be a complete and coherent summary of the post.
 - It must be written in the same language as the post.
+
+### Meta Fields: Three Different Purposes
+
+| Field | Length | Purpose | Used Where |
+|-------|--------|---------|------------|
+| **excerpt** | 20-30% of post (150-300 words) | Human summary | Homepage, listings, RSS feed |
+| **description** | 140-155 characters | SEO pitch for crawlers | Google search snippet |
+| **twitter_description** | 160 characters max | Social card text | Twitter/X sharing |
+
+**⚠️ Key distinction:** excerpt is prose (words) for human readers; description is a short pitch (characters) for search engines. They serve different audiences and have different lengths.
+
+### Post Length Requirement
+
+**Minimum: 1200 words of body content**
+
+- Every post MUST have at least 1200 words (excluding frontmatter, code blocks)
+- Drafts under 1200 words are NOT ready for publishing
+- If topic is too short: expand with examples, depth, or related information
+- Code blocks do not count toward word total
 
 ### Scheduling Logic (Calendar)
 
@@ -324,7 +355,6 @@ This rule avoids publishing invented information about them, their Home Lab, pre
 
 ### Corrections
 
-- If you see `IA` → change to `Inteligencia Artificial`
 - If you see `Opinión` as main category → move to subcategory under `Desarrollo Profesional`
 
 ### Affiliate Links Disclosure
@@ -362,6 +392,8 @@ If a post contains affiliate links (detected by `rel="sponsored"`), you MUST inc
 - **NEVER use HTML entities** (like &aacute;, &eacute;, &iacute;, &oacute;, &uacute;, &ntilde;, &iquest;, etc.). Always write with normal UTF-8 characters (á, é, í, ó, ú, ñ, ¿).
 
 ### Workflow
+
+0. **RESEARCH FIRST (MANDATORY)**: Use **copywriting-research** skill - gather competition analysis, pricing, key topics, differentiation from existing posts.
 
 1. **First**: Write the post normally following all this skill's rules.
 2. **Second**: Generate the image automatically (MANDATORY - don't ask), follow the image generation skill instructions.

@@ -1,9 +1,24 @@
 ---
 name: copywriting-research
-description: Research and analyze content before writing posts.
+description: Research and analyze content before writing posts. MANDATORY step before writing any post.
 ---
 
-## Skill: Content Research for Posts
+## ⚠️ MANDATORY: Research Before Writing
+
+**This skill is REQUIRED before writing any post content.**
+
+**Research must be done ONLINE** — use WebFetch to gather current information from:
+- Official product/Service websites
+- Competition tech blogs
+- Reddit, Twitter/X for opinions
+- G2, Capterra for reviews
+- Market statistics and pricing pages
+
+Purpose:
+- Gather complete, CURRENT information to write accurately
+- Verify pricing, features, and availability online (don't assume)
+- Avoid inventing details about products, pricing, or features
+- Understand competition and differentiate your content
 
 ### Profile
 

@@ -68,6 +68,58 @@ Example structure:
 ### Golden Rules (continued)
 7. **Body:** Always summarize all changes in English using imperative mood, preferably with bulleted points for readability.
 
+### ❌ Common Mistakes (AIs Ignore These Rules)
+
+**MISTAKE 1: Emoji in wrong position (BEFORE colon instead of AFTER)**
+```markdown
+# ❌ WRONG - emoji before colon
+✨ docs: Update readme
+
+# ✅ CORRECT - emoji after colon, before summary
+docs: ✨ Update readme
+```
+
+**MISTAKE 2: Past tense instead of imperative mood**
+```markdown
+# ❌ WRONG - past tense ("Added")
+content: ✍️ Added new post about Ansible
+
+# ✅ CORRECT - imperative mood ("Add")
+content: ✍️ Add new post about Ansible
+```
+
+**MISTAKE 3: Missing body section**
+```markdown
+# ❌ WRONG - no body
+docs: ✨ Update readme
+
+# ✅ CORRECT - body required with summary
+docs: ✨ Update readme
+
+- Added installation instructions
+- Fixed broken links
+```
+
+**MISTAKE 4: Wrong scope format (parentheses around scope name)**
+```markdown
+# ❌ WRONG - parentheses around scope name
+feat: ✨ (blog) Add new feature
+
+# ✅ CORRECT - parentheses around scope VALUE only
+feat(blog): ✨ Add new feature
+```
+
+**MISTAKE 5: Single file but no path in body footer**
+```markdown
+# ❌ WRONG - no path in body for single file
+fix: 🐛 Fix typo
+
+# ✅ CORRECT - path in body footer for single file
+fix: 🐛 Fix typo
+
+Fixed spelling error in _posts/2026/my-post.md
+```
+
 ### Output Examples
 Single file:
 ```
