@@ -5,14 +5,15 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2016-08-09 16:40:28 +0200
-image: /assets/img/headers/2016/comunicarse.webp
+image: /assets/img/headers/como-comunicarse-correctamente-y-no-morir-en-el-intento-nanobanana-pollinationsai.webp
 image_alt: "Iconos de comunicación: email, WhatsApp, teléfono y chat"
 categories: [Personal, Reflexiones y Opinión]
 tags: [productividad, comunicación]
 pin: false
 toc: true
-excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional."
+excerpt: "En este post, comparto mi guía personal sobre cómo comunicarse conmigo de manera eficiente, aunque también aplica a cualquier profesional. Analizo por qué no debo perder tiempo con malas comunicaciones y ofrezco pautas claras para emails, reuniones, chats (WhatsApp, IRC, Messenger) y llamadas telefónicas. Aprende a ser conciso y directo para no morir en el intento."
 twitter_description: "Mi guía para comunicarte conmigo sin perder tiempo: email, WhatsApp, teléfono y reuniones."
+meta_description: "Aprende a comunicarte conmigo sin perder tiempo. Domina emails, WhatsApp y teléfono con pautas claras de profesionalismo. Lee más."
 permalink: /como-comunicarse-correctamente-y-no-morir-en-el-intento/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

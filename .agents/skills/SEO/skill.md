@@ -31,6 +31,7 @@ When writing the `meta_description` field for a post, follow these mandatory rul
 
 | Requirement | Details |
 |--------------|---------|
+| **Language** | MUST be written in Castilian Spanish (Spanish from Spain). NEVER write meta_description in English or other languages. |
 | **Length** | Keep between **140 and 155 characters** (including spaces). Do NOT exceed 160 characters. |
 | **Keywords** | Naturally include the primary keyword near the beginning of the text. |
 | **Tone** | Use an engaging, professional, and action-oriented tone. |
