@@ -50,12 +50,10 @@ layout: page
     </h1>
 
     <div class="post-content">
-      <p>
-        <img src="{{ post.image }}" alt="{{ post.title }} image">
-          {% comment %}
-          {% include no-linenos.html content=post.content %}
-          {{ content | markdownify | strip_html | truncate: 200 }}
-        {% endcomment %}
+<p>
+        <a href="{{ post.url | relative_url }}">
+          <img src="{{ post.image }}" alt="{{ post.image_alt | default: post.title }}">
+        </a>
       </p>
       <p>
         {{ post.excerpt }}
