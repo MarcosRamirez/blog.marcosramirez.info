@@ -11,8 +11,9 @@ categories: [Personal]
 tags: [Metas y Resúmenes, Carrera Profesional]
 pin: false
 toc: true
-excerpt: "Establezco mi hoja de ruta para el año 2022, detallando una serie de propósitos personales, profesionales y deportivos. En el ámbito personal: sacarme el carnet de conducir, hacer ejercicio diario, volver a hacer streamings, reducir el consumo de tabaco y alcohol, mejorar la gestión financiera y viajar más. En lo profesional: conseguir al menos 5 leads diarios, aprender un lenguaje nuevo, publicar más en GitHub, buscar un nuevo proyecto principal y sacar un MVP. En poker: jugar al menos 1000 manos diarias, estudiar 3 horas semanales y volver a hacer streamings."
+excerpt: "Establezco mi hoja de ruta para el año 2022, detallando una serie de propósitos personales, profesionales y deportivos que quiero cumplir. En el ámbito personal me propongo sacarme el carnet de conducir, hacer ejercicio diario, volver a hacer streamings, reducir el consumo de tabaco y alcohol, mejorar mi gestión financiera y viajar más. En lo profesional busco conseguir al menos 5 leads diarios, aprender un lenguaje nuevo, publicar más en GitHub, buscar un nuevo proyecto principal y sacar un MVP. En poker me planteo jugar al menos 1000 manos diarias, estudiar 3 horas semanales y volver a hacer streamings."
 twitter_description: "Mis objetivos para 2022: carnet, ejercicio, leads, poker y más."
+meta_description: "Mis objetivos para 2022: carnet, ejercicio, leads diarios y retos en poker. Descubre mi hoja de ruta para este año y planifica la tuya. Lee más."
 permalink: /:slug/ 
 ---
 ![{{ page.image_alt }}]({{ page.image }})

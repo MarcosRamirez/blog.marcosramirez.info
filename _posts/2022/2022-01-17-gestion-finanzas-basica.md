@@ -11,8 +11,9 @@ categories: [Finanzas Personales]
 tags: [Ahorro e Inversión, Bancos y Fintech]
 pin: false
 toc: true
-excerpt: "Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero. A través de una encuesta en Twitter, identifico las preguntas fundamentales que todos deberíamos hacernos: ¿tienes una única cuenta bancaria? ¿usas tarjetas de crédito? ¿tienes más de un préstamo? ¿haces presupuestos? Cada pregunta viene acompañada de su análisis detallado y los errores que cometemos, desde no saber cuánto ganamos por hora hasta no ahorrar ni invertir. El objetivo es proporcionar herramientas prácticas para mejorar nuestra relación con el dinero."
+excerpt: "Inicio una serie dedicada a la gestión financiera básica, analizando los errores estructurales más comunes en el manejo del dinero que cometemos todos. A través de una encuesta en Twitter, identifico las preguntas fundamentales que todos deberíamos hacernos: ¿tienes una única cuenta bancaria? ¿usas tarjetas de crédito? ¿tienes más de un préstamo? ¿haces presupuestos? ¿dices a menudo que no te llega el dinero? Cada pregunta viene acompañada de su análisis detallado y los errores que cometemos, desde no saber cuánto ganamos por hora hasta no ahorrar ni invertir nunca. El objetivo es proporcionar herramientas prácticas para mejorar nuestra relación con el dinero."
 twitter_description: "Gestión financiera básica: errores comunes y conceptos fundamentales que debes conocer."
+meta_description: "Aprende gestión financiera básica: errores comunes, presupuestos y cómo evitar deudas innecesarias. Mejora tu relación con el dinero hoy. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

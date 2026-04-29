@@ -11,8 +11,9 @@ categories: [Finanzas Personales]
 tags: [ahorro-e-inversion, bancos-y-fintech]
 pin: false
 toc: true
-excerpt: "Recopilo una serie de promociones y sistemas de referidos que permiten obtener más de 370€ en bonificaciones y descuentos. Incluye ofertas de Fiverr (hasta 100€), SweatCoin (criptomoneda que te paga por caminar), Revolut (40€ por alta), Supermercado Día (20€ de descuento), Curve (5€ + 1% cashback), N26 (5€), Google Opinion Rewards, y Cabify (3€ por tres carreras). El truco es que el dinero no lo regalo yo, sino las empresas a través de sus programas de referidos."
+excerpt: "Recopilo una serie de promociones y sistemas de referidos que permiten obtener más de 370€ en bonificaciones y descuentos reales para tu bolsillo. Incluye ofertas de Fiverr con hasta 100€ en descuentos para contratar profesionales, SweatCoin que te paga criptomonedas por caminar, Revolut que regala 40€ por alta, Supermercado Día con 20€ de descuento, Curve con 5€ y 1% cashback, N26 con 5€ de bienvenida, Google Opinion Rewards que paga por tus opiniones, y Cabify con 3€ por tres carreras. El truco es aprovechar los programas de referidos de las empresas para ahorrar dinero real sin inversiones de riesgo."
 twitter_description: "Promociones y referidos para ahorrar más de 370€: Fiverr, Revolut, Curve, N26 y más."
+meta_description: "Ahorra más de 370€ con promociones y referidos: Fiverr, Revolut, Curve, N26 y más. Aprovecha estas ofertas gratuitas hoy. Descubre cómo."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }}){:alt="Diversos logotipos de apps y servicios de fintech"}

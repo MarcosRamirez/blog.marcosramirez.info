@@ -11,8 +11,9 @@ categories: [Finanzas Personales]
 tags: [Bancos y Fintech, Ahorro e Inversión]
 pin: false
 toc: true
-excerpt: "Analizo mi experiencia con N26 y el auge de los neobancos frente a la banca tradicional. Como informáticos, nos molesta que una transferencia tarde días cuando es un proceso que dura segundos. Desde noviembre de 2017 el BCE permite transferencias inmediatas (menos de 20 segundos), pero los bancos tradicionales siguen sin usarlas y cobran hasta 6€ por transferencias instantáneas. Los neobancos ofrecen cuentas sin comisiones, tarjetas de débito virtuales instantáneas, tarjetas físicas personalizables, monederos de ahorro automatizados y transfersias inmediatas gratis."
+excerpt: "Analizo mi experiencia con N26 y el auge de los neobancos frente a la banca tradicional, explicando por qué decidí cambiar mi forma de entender la banca. Como informático me molesta que una transferencia tarde días cuando es un proceso que dura segundos, y desde noviembre de 2017 el BCE permite transferencias inmediatas en menos de 20 segundos, pero los bancos tradicionales siguen sin usarlas y cobran hasta 6€ por transferencias instantáneas. Los neobancos ofrecen cuentas sin comisiones, tarjetas de débito virtuales instantáneas, tarjetas físicas personalizables, monederos de ahorro automatizados y transferencias inmediatas gratis para modernizar tu gestión financiera."
 twitter_description: "N26 como neobanco de cabecera: ventajas sobre la banca tradicional."
+meta_description: "Descubre por qué N26 es mi neobanco de cabecera: sin comisiones, transferencias instantáneas y tarjetas virtuales. Mejora tu banca hoy. Lee más."
 permalink: /:slug/
 ---
 
