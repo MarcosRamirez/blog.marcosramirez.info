@@ -20,7 +20,7 @@ permalink: /:slug/
 
 ![Post Header]({{ page.image }})
 
-> **Aviso importante**: Los modelos gratuitos de NVIDIA son lentos. Muy lentos. Incluso su propio chat web es lento. Si necesitas velocidad, considera usar modelos de pago o alternativas como [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} con modelos gratuitos.
+> **Aviso importante**: Los modelos gratuitos de NVIDIA son lentos. Muy lentos. Son totalmente inusables. Es mejor usar los modelos gratuitos de [OpenCode](https://opencode.ai/){:target="_blank" rel="nofollow noopener"} o [OpenRouter](https://openrouter.ai/){:target="_blank" rel="nofollow noopener"} que son más rápidos.
 
 ## Introducción
 
