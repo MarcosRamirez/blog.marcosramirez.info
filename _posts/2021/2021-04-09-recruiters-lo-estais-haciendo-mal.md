@@ -1,5 +1,5 @@
 ---
-title: "Recruiters: Lo estáis haciendo mal"
+title: "Recruiters IT: críticas y errores en procesos de selección"
 slug: recruiters-lo-estais-haciendo-mal
 authors:
   - "Marcos Ramírez"
@@ -22,7 +22,7 @@ Si hay algo que odio es perder el tiempo (mucho más si me lo hacen perder),y lo
 
 Así que, recruiters, head hunters, y *empresarios* (que también tenéis que ver) aquí os dejo todo lo que estáis haciendo mal (según yo, y muchos compañeros)
 
-# Ofertas de empleo mal redactadas
+## Ofertas de empleo mal redactadas
 
 Esto lo voy a dividir en varios ocasiones
 
@@ -52,23 +52,23 @@ Yo tengo mi copy paste preparado, y listo... sí, hasta para la última, contest
 
 En este punto, pongamos que ya has invertido **10** minutos en la oferta laboral, leerla, contestar el cuestionario, buscar información de la empresa, etc..
 
-# La "primera llamada" (0,5/1 hora más)
+## La "primera llamada" (0,5/1 hora más)
 
 Yo ya asumo que la primera persona que me llama, no tiene conocimiento técnico alguno, y que muy probablemente sea una pérdida de tiempo.
 Así que directamente suelo tomar el control de la conversación, y llevarla por el lado que me interesa, que es sacar información de la empresa, y la oferta en sí (no a nivel técnico, claro, que aquí mi interlocutor no tendrá ni idea [^2]), así que, si tiene preguntas, se las contesto lo más escueto posible, antes o después de acribillarle yo a preguntas sobre el proyecto, el ambiente, la cultura, y todo lo que crea oportuno.
 
-# Te contamos el proyecto en profundidad (60/120 minutos más)
+## Te contamos el proyecto en profundidad (60/120 minutos más)
 
 Una vez superada la primera llamada, suele venir la llamada con el jefe de proyecto, que tampoco suele tener mucho conocimiento técnico[^3], o de un comercial.
 Básicamente, es una entrevista de +-1 hora, en la que te cuentan, de nuevo, la historia de la empresa, y el proyecto, los problemas que tienen, y lo que quieren obtener a futuro.
 
-# Entrevista técnica (1/2 horas más)
+## Entrevista técnica (1/2 horas más)
 
 Una vez ya te han contado todo, y te han preguntado sobre tu experiencia, y te han preguntado sobre tus habilidades personales, y las preguntas típicas de por que te vas de una empresa a otra, me hace gracia que algunos aún les extrañe que cambie de empleo cada 2 años máximo, como si fuese algo extraño..
 
 Ya, por fín, te sientas con alguien que habla tu idioma, y que, a la hora de la verdad, es el que te va a convencer de si te interesa o no, clarmente, por muy chulo que sea la idea, o el proyecto, si lo están ejecutando mal, o con prisas, pues voy a decir que no, y haber invertido 2 horas, hasta obtener información vital, me parece un error.
 
-# Pruebas técnicas (2/40 horas más)
+## Pruebas técnicas (2/40 horas más)
 
 Desde ya, digo que no estoy ni a favor, ni en contra de los tests de conocimientos, pruebas técnicas o como lo quieras llamar, siempre que tengamos claro lo siguiente:
 

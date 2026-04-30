@@ -1,11 +1,11 @@
 ---
-title: "Mis recomendaciones, libros, blogs, películas, canales..."
+title: "Mis recomendaciones: libros de programación, terror y más"
 slug: "recomendaciones-libros-blogs-peliculas-canales"
 authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2021-02-25 21:00:00 +0100
-categories: [Personal y Desarrollo Profesional]
+categories: [Personal]
 tags: [Recomendaciones, Carrera Profesional]
 pin: false
 toc: true
@@ -13,7 +13,7 @@ excerpt: "Descubre mi lista curada de recomendaciones personales que abarca lite
 twitter_description: "Mis recomendaciones de libros de programación, novelas de terror y películas."
 image: /assets/img/headers/2021/recomendaciones-nanobanana.webp
 image_alt: "Stack de libros, laptop y cine"
-description: "Descubre mi lista de libros de programación, novelas de terror y películas recomendadas. Una guía curada que actualizo regularmente. Lee más."
+description: "Libros de programación, novelas de terror y películas recomendadas. Clean Code, The Clean Coder, Refactoring y más. Guía completa y actualizada."
 permalink: /recomendaciones-libros-blogs-peliculas-canales/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
@@ -29,7 +29,7 @@ Por ello, voy a dividir este post en géneros y tendréis a la derecha un menú 
 
 <iframe src="https://rcm-eu.amazon-adsystem.com/e/cm?o=30&p=26&l=ur1&category=audiblees&banner=01TE432HXVN1N1H4F102&f=ifr&linkID=5db01fee75408df1b00f3d0bb49d1de3&t=vivirjugand03-21&tracking_id=vivirjugand03-21" width="468" height="60" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
 
-# Programación
+## Programación
 
 1. ***[Clean Code](https://amzn.to/3aPT5VQ){:rel="nofollow", target="_blank"}***: Lo tienes disponible en [Castellano](https://amzn.to/3syncHv){:rel="nofollow", target="_blank"} [(Código Limpio)](https://amzn.to/3syncHv){:rel="nofollow", target="_blank"} o en [Ingles](https://amzn.to/3aPT5VQ){:rel="nofollow", target="_blank"}, y para mí, es el primer libro que todo programador debería leer, por que habla de algo, para mí, importántisimo, que son CONCEPTOS. y no lenguajes. lo que aprenderás en este libro, podrás aplicarlo a cualquier lenguaje.
 
@@ -43,18 +43,18 @@ Por ello, voy a dividir este post en géneros y tendréis a la derecha un menú 
 
 3. ***[Principios y algoritmos de concurrencia](https://amzn.to/3aTHiWH){:rel="nofollow", target="_blank"}*** Es un libro claramente avanzado, y orientado a la programación concurrente, obviamente, pero es un libro a mi parecer, bastante bien escrito, y en castellano.
 
-# Novelas
+## Novelas
 
 ## Terror
 
 ***[Apocalipsis](https://amzn.to/3aV6A6C){:rel="nofollow", target="_blank"}***: Lo pongo, por que (aparte de que [Stephen King](https://amzn.to/37N8rbw){:rel="nofollow", target="_blank"} es uno de mis escritores ligeros de terror favoritos)... este libro, sin exagerar, lo habré leído unas 4 o 5 veces cuando tenía entre los 15 y 18 años, luego hasta me compré los DVDs de la miniserie... y, debido al argumento (búscalo 😛), me parece divertido hasta ponerlo en la lista.
 
-# Películas
+## Películas
 
 ***[El tubo](https://amzn.to/3pZTH1y){:rel="nofollow", target="_blank"}***: Si te gustó Cube, te gustará.. no diré más, es una película sorprendente.
 
 
-# Series
+## Series
 
 - TeaCup
 - From

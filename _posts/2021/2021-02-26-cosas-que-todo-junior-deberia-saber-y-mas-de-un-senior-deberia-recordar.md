@@ -1,5 +1,5 @@
 ---
-title: "Cosas que todo junior debería saber, y más de un senior debería recordar"
+title: "Lo que todo junior debería saber y un senior debería recordar"
 slug: cosas-que-todo-junior-deberia-saber-y-mas-de-un-senior-deberia-recordar
 authors:
   - "Marcos Ramírez"
@@ -14,17 +14,17 @@ excerpt: "Una guía exhaustiva dirigida tanto a programadores Junior que dan sus
 twitter_description: "Guía completa para programadores Junior y Seniors: conceptos, herramientas y consejos esenciales."
 permalink: /cosas-que-todo-junior-deberia-saber-mas-de-un-senior/
 image: /assets/img/headers/2021/cosas-que-todo-junior-deberia-saber-nanobanana.webp
-description: "Guía completa para programadores Junior y Senior: conceptos básicos, herramientas y consejos esenciales. Mejora tu carrera profesional hoy. Lee más."
+description: "Guía completa para programadores Junior y Senior: conceptos básicos, herramientas y consejos esenciales para mejorar tu carrera profesional. Lee más."
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Disclaimer
+## Disclaimer
 
 Para los de piel fina: este post, va dirigido tanto a personas que han decidido empezar a estudiar programación, sin contar con ningún tipo de "background", como a quien ya ha aprendido lo básico (juniors), y a todo Senior que quiera leerlo, y aportar su granito de arena, o sus 2 cents... como queráis decirlo, o recordar algunas cosas, que quizá haya olvidado.
 
 Habrá cosas subjetivas, basadas en mi prisma, obviamente, pero la intención es aportar algo de mi experiencia para intentar ayudar.
 
-# Introducción
+## Introducción
 
 Este post iba a ser un vídeo[^1] en respuesta a este Tweet:
 
@@ -62,7 +62,7 @@ Esa frase, debería ser lo primero a aprender al iniciar cualquier tipo de estud
 Este punto, el de no saber lo que no sabes, es extensible desde que decides formarte, hasta que ... te mueres :).
 No, en serio, por suerte, la informática es una profesión en la que no dejas de aprender cosas nuevas, aunque no tantas veces aprendes CONCEPTOS nuevos, y es en esto en lo que debes centrarte.
 
-# Quiero aprender a programar
+## Quiero aprender a programar
 
 Si estás en el punto de querer aprender a programar, lo primero que debes saber es elegir como quieres formarte, hay varias opciones, y trataré de expònerte toras con sus pros y contras.
 Aunque este post está pensado, sobretodo, para quienes eligieron formarse de manera autodidacta, o quienes no saben hacía donde dirigirse.
@@ -124,7 +124,7 @@ Si alguien cree que falta algo, ya sabe ;).
 
 Si alguien que falta algo, ya sabe (seguro que me he dejado algo)
 
-# Al grano, lo que todo Junior debería saber
+## Al grano, lo que todo Junior debería saber
 
 Bueno, ahora, te has dado de bruces con la realidad, donde resulta que en la facultad, el bootcamp, o tu solo por tu cuenta, no has aprendido muchas cosas de las que se usan en el mundo real, ¿verdad?, aquí te dejo lo que a mi parecer todo Junior debería saber
 
@@ -216,7 +216,7 @@ YAML se usa en cientos de aplicaciones, por no decir casi todas, como formato de
 
 Esto he dudado en si incluirlo o no, pero ... en realidad, te dediques a lo que te dediques, creo que saber usar VMWare, Docker, o Kubernetes, solo puede darte ventajas.
 
-# BONUS
+## BONUS
 
 Tenemos una profesión priviligiada, y, aunque soy consciente de que, quizá hablo desde una posición aún más privilegiada, me voy a permitir aconsejarte que elijas bien donde trabajar, y con quien, nuestra profesión nos permite, en mayor o menor medida, darnos el lujo de elegir, y deberías aprovecharlo.
 

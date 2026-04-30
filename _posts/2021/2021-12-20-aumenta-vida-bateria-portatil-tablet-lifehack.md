@@ -1,5 +1,5 @@
 ---
-title: "Aumenta la vida de tu portatil, tablet o similar con este simple LifeHack"
+title: "LifeHack: usa un temporizador para alargar la batería y optimizar"
 slug: aumenta-vida-bateria-portatil-tablet-lifehack
 authors:
   - "Marcos Ramírez"

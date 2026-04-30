@@ -1,5 +1,5 @@
 ---
-title: "Así te timan con los megas, no necesitas pagar 600Mb"
+title: "No necesitas 600Mb: cuánto internet necesitas realmente"
 slug: asi-te-timan-con-los-megas-no-necesitas-pagar-600mb
 authors:
   - "Marcos Ramírez"
@@ -21,7 +21,7 @@ permalink: /asi-te-timan-con-los-megas-no-necesitas-pagar-600mb/
 Este es el tercer, y espero que último post sobre los timos con las conexiones a internet, en el repasaremos rápidamente que velicidad de conexión
 necesitas, que seguro que más de uno se sorprende, y sobretodo, de los precios, y sus... sorpresas.
 
-# Cuanta velocidad necesitas para...
+## Cuanta velocidad necesitas para...
 
 - Video conferencia: 1Mbs (por participante)
 - Streaming en HD: 5Mbs
@@ -47,7 +47,7 @@ Total: 90Mbs
 
 ¿Sorprendido? no me extraña...
 
-# ¿Y por qué no contratar 100Mbs?
+## ¿Y por qué no contratar 100Mbs?
 
 Pues uno de los motivos, es que, actualmente, en España, cuesta lo mismo contratar 100Mbs, que 600Mbs...
 

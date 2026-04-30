@@ -1,5 +1,5 @@
 ---
-title: "Bancos y Fintechs ¿tan dificil es hacer esto?"
+title: "Bancos y Fintechs: ¿difícil hacer transferencias automáticas?"
 slug: bancos-y-fintechs-tan-dificil-es-hacer-esto
 authors:
   - "Marcos Ramírez"

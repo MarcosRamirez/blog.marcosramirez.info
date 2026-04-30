@@ -1,5 +1,5 @@
 ---
-title: "Email OptIn en 2021: El gran olvidado?"
+title: "El problema del Email OptIn en 2021: el consentimiento digital"
 slug: email-optin-en-2021-el-gran-olvidado
 authors:
   - "Marcos Ramírez"
@@ -13,13 +13,13 @@ pin: false
 toc: true
 excerpt: "Denuncio una mala praxis extendida en empresas e instituciones: el envío de correos electrónicos con información confidencial sin un proceso previo de Opt-In. Cuando das tu email a una empresa, deberían enviarte un mail de confirmación para validar que realmente es tuyo. Si no lo hacen y te llegan correos con información sensible como datos bancarios, reservas de vuelos o información escolar de tus hijos, podrían estar cometiendo un delito. Te explico cómo crear automatizaciones con Zapier para gestionar este problema y mi iniciativa de crear un salón de la vergüenza para empresas que lo practican."
 twitter_description: "El problema del OptIn en emails: cómo las empresas envían información confidencial sin tu consentimiento."
-description: "Denuncia el problema del OptIn en emails: empresas envían información confidencial sin consentimiento. Aprende a protegerte y automatizar respuestas. Lee más."
+description: "Denuncia el problema del OptIn en emails: empresas envían información confidencial sin consentimiento. Aprende a protegerte y automatizar respuestas"
 permalink: /:slug/
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Si estás leyendo esto, seguramente tienes un problema
+## Si estás leyendo esto, seguramente tienes un problema
 
 Si has llegado hasta aquí, es muy, muy, muy probable que la empresa o institución para la que trabajas, o a la que representa, me haya enviado un mail, que podría ser hasta ilegal.
 
@@ -36,7 +36,7 @@ Desde los que me llegan gracias al [feature de los puntos de GMail](https://supp
 
 Hasta los que causan las empresas/instituciones por no hacer Opt-In... simple, ya nisiquiera digo/pido uno doble.
 
-# ¿Qué es eso del OptIn?
+## ¿Qué es eso del OptIn?
 
 Es algo tan simple y lógico, como que cada vez que das tu email a una empresa, te envíen un mail de confirmación, para que si no se confirma que ese es realmente tu email, NO SE ENVIE MAIL ALGUNO.
 
@@ -46,7 +46,7 @@ De este modo, si la dirección está equivocada, el receptor del email, simpleme
 
 Del mismo modo, las empresas que envían emails, sin haber hecho un optin previo, también podrían estar cometiendo un delito
 
-# ¿Y por qué te cuento todo esto?
+## ¿Y por qué te cuento todo esto?
 
 Como dije, este artículo va más enfocado a las empresas, e instituciones, que no han hecho OptIn, y me envían a mi los emails (por mucho que ya les he insistido).
 Y a quienes sufrís el mismo problema, y queréis que os explique como lidio con ello
@@ -71,7 +71,7 @@ Y seguro que alguien que de verdad sea un delincuente, se le ocurrirían más co
 
 Lo gracioso, es que cuando aviso, en el 99% de los casos, HACEN CASO OMISO, tanto empresas, como instituciones o particulares.
 
-# ¿Como lidio con ello?
+## ¿Como lidio con ello?
 
 Por suerte, tengo conocimientos informáticos, y legales, como para haber creado "automatizaciones" para que esto no me quite demasiado tiempo.
 
