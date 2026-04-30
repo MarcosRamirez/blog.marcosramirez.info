@@ -13,12 +13,12 @@ pin: false
 toc: true
 excerpt: "Continúo el análisis técnico sobre agentes de IA, abordando los desafíos de latencia que afectan las conversaciones habladas. El LLM añade 600-1200ms de latencia, el TTS como ElevenLabs unos 600ms, y las herramientas y knowledge bases también suman tiempo. Explico cómo enseñarles a hablar correctamente ya que la plataforma que uses influye en la entonación, la importancia de los GuardRails para evitar alucinaciones y dar información no relevante, la seguridad para no revelar información confidencial incluyendo el prompt, cómo cumplir con el RGPD para dar datos privados a la persona correcta con multas importantes en Europa, y técnicas de debug cuando el agente da respuestas inesperadas."
 twitter_description: "Segunda parte del análisis sobre agentes de IA: latencia, GuardRails, seguridad RGPD y debug."
-description: "Parte II: latencia en agentes IA, GuardRails, seguridad RGPD y debug. Aprende a solucionar problemas comunes de tus agentes. Lee más."
+description: "Agentes de Inteligencia Artificial (II): latencia, GuardRails, seguridad RGPD y debug. Aprende a solucionar problemas comunes de tus agentes. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Segundas partes... ¿nunca fueron buenas?
+## Segundas partes... ¿nunca fueron buenas?
 
 El mes pasado escribí la primera parte de este post, pero como he visto más preguntas, y problemas que no traté, voy a hacerlo en este.
 
@@ -29,7 +29,7 @@ También aprenderás a lidiar con la latencia, y a enseñar a tu agente a hablar
 
 
 
-# Latencia 
+## Latencia 
 
 Este comienzo de 2025, está siendo movidito en cuanto a IA, y están empezando a surgir los primeros problemas y movidas (Musk y OpenAI, DeepSeek, caídas de servicio, etc )
 
@@ -58,7 +58,7 @@ Y aquí también meto en el saco las Knowledge Bases, que no es más que una lla
 
 Cada llamada a una herramienta, requiere su tiempo, y a más compleja, o más carga tenga el servidor, más tardará.
 
-# Enseñarles a hablar
+## Enseñarles a hablar
 
 De las consultas más frecuentes que encuentro son:
 
@@ -79,13 +79,13 @@ Por tanto, la forma en la que se le envía el texto al TTS para que lo procese, 
 Esto afecta sobretodo a entonaciones, y velocidad del habla.
 
 
-# GuardRails
+## GuardRails
 
 Es importante definir bien el marco de actuación de tu agente, para evitar que "alucine" y de información no relevante, o que no quieres dar.
 Por ejemplo, si tienes un agente de soporte técnico para una empresa de desarrollo, y le preguntan sobre reparar un ordenador, es muy probable que el agente de instrucciones para ello, dado que está en el marco de la tecnologia.
 
 
-# Seguridad
+## Seguridad
 
 Es muy, muy importante asegurarnos de que la IA no revele información confidencial, pero ¿qué es información confidencial?.
 Normalmente, consideramos información confidencial la de nuestros clientes, y creemos que con decir "no reveles información confidencial de nuestros clientes" está todo solucionado, pero NO ES ASÍ, lo veremos luego.
@@ -98,7 +98,7 @@ Si un cliente llama a tu agente, y le pide que le facilite SUS DATOS y la IA le 
 
 Es por eso que es importante asegurarnos de que nuestros agentes cumplen con la ley, y controlar todas las casuísticas posibles.
 
-# Debug
+## Debug
 
 Algo que sorprende a mucha gente, es que se puede hacer debug a un Agente de inteligencia artificial, sobretodo, cuando "alucina", y muchas veces, en realidad, no está alucinando tanto como pensamos.
 

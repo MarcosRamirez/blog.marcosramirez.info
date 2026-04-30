@@ -1,5 +1,5 @@
 ---
-title: "Resumen Febrero 2025"
+title: "Resumen de febrero 2025: Lucía con clientes y web nueva"
 slug: resumen-febrero-2025
 authors:
   - "Marcos Ramírez"
@@ -13,12 +13,12 @@ pin: false
 toc: true
 excerpt: "Resumo un intenso Febrero 2025 marcado por la evolución de Lucía, mi agente de voz inteligente que ahora discrimina el horario laboral, transfiere llamadas según departamento, tiene backup para fallos de webhook, y ha mejorado su habla corrigiendo problemas con palabras como 'Anhoa'. También avancé en la nueva web con sección FAQ, textos legales, hero mejorado y contacto optimizado. Gestioné nuevos clientes incluyendo digitalización integral de un negocio de barrio, integración de CRM Holded con WordPress, migración de WordPress a Hostinger con PHP7, y evaluación de alianza comercial con partner de ERP. Envié mi primera campaña de email marketing."
 twitter_description: "Resumen de Febrero 2025: Lucía evoluciona, nuevos clientes y web."
-description: "Descubre mi resumen de Febrero 2025: evolución de Lucía, nuevos clientes, web y campañas de email marketing. Lee más."
+description: "Resumen de Febrero 2025: evolución de Lucía con Inteligencia Artificial, nuevos clientes, web nueva y campañas de email marketing. Descubre los logros."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Febrero 2025 (un año más viejo)
+## Febrero 2025 (un año más viejo)
 
 Febrero, lo he empezado "tarde", la verdad, mi cumpleaños es el día 3, Lunes este año, y tengo la costumbre de tomarme el día de mi cumpleaños libre, y, creo que a partir del próximo año, me tomaré el día siguiente también.
 
@@ -27,7 +27,7 @@ En resumen, en Febrero, básicamente he empezado a trabajar el día 4...
 Además este mes está siendo movidito respecto a la IA, y fallos... que si <a href="https://elpais.com/tecnologia/2025-02-15/moscas-a-canonazos-la-lucha-contra-la-pirateria-en-el-futbol-tumba-miles-de-webs-legitimas.html" target="_blank">MoviStar bloqueando medio CloudFlare</a>, que si <a href="https://www.xataka.com/empresas-y-economia/elon-musk-lanza-una-oferta-inesperada-para-adquirir-openai-por-casi-100-000-millones-de-dolares" target="_blank">Musk liándola con OpenAI</a>, que si se cae OpenAI y 11Labs... 
 
 
-# Lucia 
+## Lucia 
 
 Este mes le he dedicado algo más de tiempo, y tiene capacidades nuevas:
 
@@ -50,13 +50,13 @@ Además de todo lo que ya hace (que creo que no lo he dicho)
 - Gestiona insultos y faltas de respeto
 - Gestiona llamadas de broma 
 
-# La nueva web
+## La nueva web
 Básicamente textos, textos, y más textos. Sobretodo los legales
 Y he puesto una seccion FAQ, que creo cubre casi todas las preguntas generales.
 he mejorado el hero 
 He mejorado el contact.
 
-# Clientes.
+## Clientes.
 
 Aparte de mi cliente principal, han entrado un par de nuevos clientes, que evidentemente, me están restando tiempo de poder desarrollar mis proyectos, ¿qué me han pedido estos clientes?
 
@@ -87,7 +87,7 @@ Estos últimos días me ha surgido un cliente, conocido, que tenía un WordPress
 
 He estado hablando con una empresa partner de un ERP, y probablemente lleguemos a un acuerdo comercial.
 
-# Nuevas oportunidades
+## Nuevas oportunidades
 
 Me han propuesto ser partner de un ERP, y ... lo estoy evaluando.
 
