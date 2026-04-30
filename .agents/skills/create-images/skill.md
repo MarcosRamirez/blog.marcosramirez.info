@@ -94,10 +94,10 @@ node _tools/image-generator/image_generator.js --prompt "..." --output "/assets/
 ```bash
 node _tools/image-generator/image_generator.js \
   --prompt "<visual description in English>" \
-  --output "<path/where/to save/base-name.png>"
+  --output "<path/where/to save/base-name.webp>"
 ```
 
-*Note: Pass the base name (e.g. `post.png`). The script takes care of adding the `-nanobanana` or `-pollinationsai` suffix before saving.*
+*Note: Pass the base name (e.g. `post.webp`). The script takes care of adding the `-nanobanana` or `-pollinationsai` suffix before saving.*
 
 The `--width` and `--height` parameters are optional. By default it generates panoramics at **1900x478px**.
 

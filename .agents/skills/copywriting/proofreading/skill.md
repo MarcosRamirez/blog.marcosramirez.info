@@ -25,6 +25,11 @@ The blog is written in a **casual but informed tone** — like a knowledgeable f
 - Ambiguous pronoun references
 - Inconsistent verb tense within the same section
 
+### Mandatory terminology
+- **NEVER allow "IA"** in any part of the post — always replace with **"Inteligencia Artificial"**
+  - Applies to: body text, headings, excerpts, `description`, `twitter_description`, all frontmatter fields
+  - `IA` → `Inteligencia Artificial` (always, no exceptions)
+
 ### Anglicisms and technical terms
 - Accept established anglicisms that are common in tech Spanish: *email*, *hosting*, *backup*, *deploy*, *workflow*, *self-hosted*, *home lab*, *feedback*, *link*, etc.
 - Accept English technical terms when there is no natural Spanish equivalent or when the Spanish term would be unnatural for a tech audience

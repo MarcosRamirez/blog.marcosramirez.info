@@ -19,14 +19,14 @@ The following domains are own and only need `target="_blank"`:
 ### 3. External Links (Require security)
 Any domain NOT in the above whitelist is external.
 
-**Format:** `[Text](URL){:target="_blank" :rel="nofollow noopener"}`
+**Format:** `[Text](URL){:target="_blank" rel="nofollow noopener"}`
 
 This is mandatory for security and to avoid passing "link juice" to external sites.
 
 ### 4. When to Put Links
 - **The first time you mention** something, it must have a link.
 - Subsequent mentions don't need one.
-- Correct example: "I use [AdGuard Home](https://adguard.com/){:target="_blank" :rel="nofollow noopener"} to block ads"
+- Correct example: "I use [AdGuard Home](https://adguard.com/){:target="_blank" rel="nofollow noopener"} to block ads"
 
 ### 5. Internal Links (Between Blog Posts)
 - If the post body mentions a topic already covered in another blog post, link to it.
@@ -42,14 +42,28 @@ This is mandatory for security and to avoid passing "link juice" to external sit
 | Link Type | Format |
 |-----------|--------|
 | Own domain | `[Text](URL){:target="_blank"}` |
-| External domain | `[Text](URL){:target="_blank" :rel="nofollow noopener"}` |
-| Internal link (Jekyll) | `[Text]({% post_url YYYY-MM-DD-slug %}){:target="_blank"}` |
+| External domain | `[Text](URL){:target="_blank" rel="nofollow noopener"}` |
+| Affiliate link | `[Text](URL){:target="_blank" rel="sponsored nofollow noopener"}` |
+| Internal link (Jekyll) | `[Text]({% post_url YYYY/YYYY-MM-DD-slug %}){:target="_blank"}` |
 
-### 7. Examples
+### 7. Affiliate Links
+Any link that includes affiliate/referral parameters must use `rel="sponsored"`.
+
+**Common affiliate patterns:**
+- Amazon: `amazon.com`, `amazon.es`, `amzn.to`, `/dp/`, `?tag=`
+- Generic: `?aff=`, `?partner=`, `?ref=` (in any non-own domain URL)
+
+**Format:** `[Text](URL){:target="_blank" rel="sponsored nofollow noopener"}`
+
+```markdown
+[Product](https://amzn.to/4tOaPqs){:target="_blank" rel="sponsored nofollow noopener"}
+```
+
+### 8. Examples
 
 **Correct - External link:**
 ```markdown
-[btop](https://github.com/aristocratos/btop){:target="_blank" :rel="nofollow noopener"} is a modern system monitor.
+[btop](https://github.com/aristocratos/btop){:target="_blank" rel="nofollow noopener"} is a modern system monitor.
 ```
 
 **Correct - Link to own domain:**
@@ -62,7 +76,7 @@ Check out [my post about Home Assistant]({% post_url 2026/2026-06-01-home-assist
 [Previous post]({% post_url 2025/2025-03-01-resumen-febrero-2025 %}){:target="_blank"}
 ```
 
-### 8. SEO Rules
+### 9. SEO Rules
 - External links must have `rel="nofollow noopener"` for security and to avoid losing authority.
 - Internal links help SEO and user navigation.
 - Own links should NOT have nofollow or noopener - they're from the same site.

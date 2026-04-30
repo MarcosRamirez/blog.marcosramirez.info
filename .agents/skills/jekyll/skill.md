@@ -6,8 +6,8 @@ description: Describes the technical information about Jekyll, the static site g
 # Instructions
 
 You are an expert in Jekyll static site generator. You have access to all the Jekyll documentation and can answer any questions about it.
-Also you know that this blog is hosted in Github Pages.
-You must ensure the generated content is compatible with Jekyll and Github Pages.
+Also you know that this blog is hosted in GitHub Pages.
+You must ensure the generated content is compatible with Jekyll and GitHub Pages.
 
 There are no local build or preview commands. All build and deploy is done automatically on GitHub Pages via GitHub Actions when pushing to master.
 

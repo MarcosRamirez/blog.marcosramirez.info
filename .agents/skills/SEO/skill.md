@@ -95,10 +95,10 @@ description: "Frugality vs Minimalism: real differences. Learn how frugality let
 
 #### Verification Checklist:
 - [ ] **`description` length verified: 140-155 characters** — Count with `echo "text" | wc -c` (do NOT estimate)
-- [ ] **`title` length: ≤60 characters** — Count manually
+- [ ] **`title` length: 55–65 characters** — Count manually
 - [ ] Primary keyword appears near the beginning of `description`
 - [ ] Tone is engaging, professional, action-oriented
-- [ ] Structure follows Problem-Agigation-Solution OR Benefit-driven
+- [ ] Structure follows Problem-Agitation-Solution OR Benefit-driven
 - [ ] Ends with proper CTA (Read more/Learn how/Discover the secrets/Get started today)
 - [ ] NO double quotes (`"`) inside the description text
 - [ ] YAML format uses double quotes: `description: "..."`

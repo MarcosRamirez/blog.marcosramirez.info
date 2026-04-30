@@ -10,10 +10,10 @@ description: Write and manage blog posts, including frontmatter, editorial calen
 1. **APPLY JEKYLL SKILL (MANDATORY)**: When writing or editing any post or draft, you MUST load and apply the **Jekyll** skill to verify frontmatter format, slug requirements, image paths, permalinks, and all technical compatibility with GitHub Pages.
 
 2. Read similar posts to understand style and format.
-2. Read all available skills to understand their functionality.
+3. Read all available skills to understand their functionality.
    **→ AFTER READING: Summarize key data (categories, rules) in your response to memorize them**
-3. Once written, read all skills again to ensure you comply with all rules:
-   **→ BEFORE RE-READING: Check if you already know the info from step 2**
+4. Once written, read all skills again to ensure you comply with all rules:
+   **→ BEFORE RE-READING: Check if you already know the info from step 3**
    1. Ensure frontmatter follows jekyll skill rules.
    2. Ensure all copywriting-links skill rules are met.
    3. Ensure all SEO skill rules are met.
@@ -125,21 +125,6 @@ Subcategories:
 
 NOTE: Use "Inteligencia Artificial", NOT "IA".
 
-### ⚠️ CRITICAL: Remember These Categories
-**YOU MUST MEMORIZE these categories after reading this file. Do NOT re-read this section when asked about categories.**
-
-Main categories (exactly ONE per post):
-- Tecnología
-- Finanzas Personales
-- Personal
-- Productividad y Hacks
-
-Subcategories (add ALL relevant):
-- Inteligencia Artificial, Software y Apps, Sistemas, Redes e Infraestructura, Desarrollo Web
-- Bancos y Fintech, Ahorro e Inversión
-- Automatización, Life Hacks, Metas y Resúmenes
-- Reflexiones y Opinión, Carrera Profesional, Recomendaciones, Desarrollo Profesional
-
 ### Categorization Rules (MANDATORY)
 - Every post MUST have exactly ONE main category from: Tecnología, Finanzas Personales, Personal, Productividad y Hacks
 - Additionally, MUST include ALL relevant subcategories that apply to the post topic
@@ -235,7 +220,7 @@ Incorrect example:
 
 ### Writing the twitter_description
 
-- The twitter_description must have a length of 160 characters MAXUS the post title.
+- The twitter_description must have a maximum length of 160 characters.
 - It must be a complete and coherent summary of the post.
 - It must be written in the same language as the post.
 
@@ -327,7 +312,7 @@ date: 2026-04-24 09:00:00 +0200
 **Every post MUST end with a CTA. Determine if the post is LEAD or NO-LEAD:**
 
 #### Lead posts
-Topics: AI/ML, software architecture, automation, custom development, cloud infrastructure, DevOps,等技术领域咨询服务
+Topics: AI/ML, software architecture, automation, custom development, cloud infrastructure, DevOps, and technical consulting
 
 → Add contact link with dynamic CTA text:
 ```
@@ -382,7 +367,7 @@ This rule avoids publishing invented information about them, their Home Lab, pre
 
 ### Corrections
 
-- If you see `Opinión` as main category → move to subcategory under `Desarrollo Profesional`
+- If you see `Opinión` as main category → move to `Reflexiones y Opinión` subcategory
 
 ### Affiliate Links Disclosure
 
