@@ -1,5 +1,5 @@
 ---
-title: "Mis problemas del primer mundo"
+title: "Mis problemas del primer mundo: soluciones técnicas diarias"
 slug: mis-problemas-del-primer-mundo
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "Inauguro una nueva sección en el blog llamada Mis problemas del primer mundo, donde documentaré problemas técnicos específicos que me encuentro en mi día a día y sus respectivas soluciones. Esta categoría nace con el propósito de crear un repositorio accesible donde otros desarrolladores puedan encontrar ayuda para los mismos obstáculos que yo he enfrentado."
 twitter_description: "Nueva sección del blog: Mis problemas del primer mundo. Problemas técnicos concretos y sus soluciones."
-description: "Descubre la nueva sección del blog con problemas técnicos y soluciones. Aprende de mis experiencias. Lee más."
+description: "Nueva sección del blog: problemas técnicos concretos que me encuentro en mi día a día y sus soluciones. Repositorio de ayuda para desarrolladores. Lee más."
 permalink: /mis-problemas-del-primer-mundo/
 ---
 
