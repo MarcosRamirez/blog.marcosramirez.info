@@ -8,11 +8,14 @@ description: Research and analyze content before writing posts. MANDATORY step b
 **This skill is REQUIRED before writing any post content.**
 
 **Research must be done ONLINE** — use WebFetch to gather current information from:
+- Google search (for general queries and reviews)
 - Official product/Service websites
 - Competition tech blogs
 - Reddit, Twitter/X for opinions
 - G2, Capterra for reviews
 - Market statistics and pricing pages
+- YouTube for video demonstrations
+- GitHub for open source projects
 
 Purpose:
 - Gather complete, CURRENT information to write accurately

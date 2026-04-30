@@ -1,0 +1,30 @@
+#!/bin/sh
+
+echo ""
+echo "🔍 Running pre-commit verification..."
+echo ""
+
+FILE=$(git diff --cached --name-only --diff-filter=ACM | grep -E '\.(md|html)$' | head -1)
+
+if [ -z "$FILE" ]; then
+  echo "✅ No markdown or html files to verify"
+  exit 0
+fi
+
+if [ ! -f "_tools/verify-post.js" ]; then
+  echo "⚠️  verify-post.js not found, skipping verification"
+  exit 0
+fi
+
+node _tools/verify-post.js "$FILE"
+EXIT_CODE=$?
+
+if [ $EXIT_CODE -ne 0 ]; then
+  echo ""
+  echo "❌ Verification failed. Fix errors before committing."
+  echo ""
+  exit 1
+fi
+
+echo ""
+exit 0

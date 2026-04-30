@@ -40,7 +40,16 @@ To know which provider generated the image, the script **automatically modifies 
 - If Nano Banana works: `your-file-nanobanana.webp`
 - If fallback enters: `your-file-pollinationsai.webp` or `-huggingface.webp`
 
-**⚠️ CRITICAL: The Actual File Path**
+**⚠️ CRITICAL: Path is Relative to Repo Root**
+
+The `--output` path is **relative to the repository root**, NOT an absolute path. Do NOT use Windows-style absolute paths like `D:\Code\...\assets\img\...`. Use paths relative to where you ran the command.
+
+**Correct:** `node _tools/image-generator/image_generator.js ... --output "assets/img/headers/my-post.webp"`
+**Incorrect:** `--output "D:\Code\Marcos Ramírez\blog.marcosramirez.info\assets\img\headers\my-post.webp"`
+
+### 🌟 After Generating: Apply Jekyll Skill
+
+After generating an image and updating the frontmatter, **you MUST apply the Jekyll skill** to verify the post meets all technical requirements (frontmatter format, image path, etc.) before considering the post draft complete.
 
 The `--output` path you pass does NOT include the suffix. The script adds the provider suffix to create the actual filename:
 

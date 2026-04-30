@@ -7,7 +7,9 @@ description: Write and manage blog posts, including frontmatter, editorial calen
 
 0. **RESEARCH FIRST (MANDATORY)**: Before writing anything, use the **copywriting-research** skill to gather competition analysis, pricing, key topics, and differentiation. This ensures accuracy and prevents inventing information.
 
-1. Read similar posts to understand style and format.
+1. **APPLY JEKYLL SKILL (MANDATORY)**: When writing or editing any post or draft, you MUST load and apply the **Jekyll** skill to verify frontmatter format, slug requirements, image paths, permalinks, and all technical compatibility with GitHub Pages.
+
+2. Read similar posts to understand style and format.
 2. Read all available skills to understand their functionality.
    **→ AFTER READING: Summarize key data (categories, rules) in your response to memorize them**
 3. Once written, read all skills again to ensure you comply with all rules:
@@ -37,6 +39,11 @@ authors:
 ### LANGUAGE
 
 You must write ***ALWAYS*** in CASTILIAN (Spanish from Spain), you can include English technical terms, but keep Spanish as the main language.
+
+**Anglicisms vs. Other Languages:**
+- **Anglicisms are OK**: Keep established tech anglicisms like *email*, *hosting*, *backup*, *deploy*, *workflow*, *uptime*, *API*, *CLI*, *debug*, *stack*, *frontend*, *backend*, *DevOps*, etc. They are natural in Spanish tech writing.
+- **Words from OTHER languages (Portuguese, French, etc.) are NOT OK**: If a word comes from Portuguese, French, Catalan, etc. (not English), convert it to Spanish. Example: "escolha" (Portuguese) → "elección", "demande" (French) → "demanda".
+- **Rule**: If unsure if a word is an anglicism, check if it's commonly used in English tech contexts. If yes, keep it. If it comes from another language, convert to Spanish.
 
 ### ⚠️ MANDATORY TERMINOLOGY
 
@@ -171,8 +178,12 @@ Subcategories (add ALL relevant):
 Consult the **copywriting-links** skill for complete rules on how to insert links correctly.
 
 **Quick summary:**
-- EVERY software, service, tool, or brand you mention must have a link to its official website.
-- The first time you mention something, it must have a link.
+- EVERY software, service, tool, brand, company, or website you mention must have a link to its official website on FIRST MENTION.
+- Example: "OpenAI" → `[OpenAI](https://openai.com/)` on first mention
+- Example: "Claude" → `[Claude](https://claude.ai/)` on first mention
+- Example: "Abacus.AI" → `[Abacus.AI](https://abacus.ai/)` on first mention
+- This applies to ALL external entities: AI providers, tools, platforms, companies, products, etc.
+- Links use format: `[Name](url){:target="_blank" rel="nofollow noopener"}` for external links
 
 ### Commands
 
@@ -419,6 +430,7 @@ If a post contains affiliate links (detected by `rel="sponsored"`), you MUST inc
    - FAQ section
    - Subtitles with long-tails
    - Excerpt that induces reading
+   - **ALSO**: Apply the **Jekyll** skill to verify frontmatter format, image paths, and technical requirements are correct.
 4. **Last**: Verify all text is in UTF-8 (without HTML entities like &aacute;, &eacute;, etc.)
 
 ### Excerpt Review

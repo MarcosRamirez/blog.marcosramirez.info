@@ -22,16 +22,16 @@ Before any commit or push, you MUST verify ALL of the following:
 
 | Field | Limit | How to verify |
 |-------|-------|---------------|
-| `description` | 140-155 characters | `echo "text" \| wc -c` (count manually, do NOT estimate) |
-| `title` | ≤60 characters | Count characters manually |
+| `description` | 140-155 characters | `echo "text" | wc -c` (count manually, do NOT estimate) |
+| `title` | 55-65 characters | Count characters manually |
 | Tags | 3-8 tags, NO product name | Check list |
 | `image_alt` | Must exist | Check frontmatter |
 
 **Do NOT commit if any of these fail. Fix first.**
 
 - **Metadata (Limits):**
-  - **Title Tag:** Maximum 60 characters (prioritize keyword at the start).
-  - **Meta Description (description):** Between 140 and 155 characters (shown to crawlers in search results). Do NOT exceed 160 characters. This is a separate frontmatter field from excerpt.
+  - **Title Tag:** Between 55 and 65 characters (prioritize keyword at the start).
+  - **Meta Description (description):** Between 140 and 155 characters (shown to search results). Do NOT exceed 160 characters. This is a separate frontmatter field from excerpt.
   - **Verification:** Use `echo "text" | wc -c` or count manually — do NOT estimate.
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
