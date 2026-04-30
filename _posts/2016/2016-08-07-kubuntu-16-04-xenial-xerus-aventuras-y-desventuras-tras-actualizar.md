@@ -1,5 +1,5 @@
 ---
-title: "Kubuntu 16.04 (Xenial Xerus): Aventuras y desventuras tras actualizar"
+title: "Kubuntu 16.04 Xenial Xerus: problemas y soluciones al actualizar"
 slug: kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar
 date: 2016-08-07 20:34:47 +0200
 authors:
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Tras actualizar a Kubuntu 16.04 (Xenial Xerus), me encontré con una serie de errores comunes que van desde la desaparición de plasmoides hasta problemas con librerías. Analizo cada problema y ofrezco soluciones paso a paso para restaurar el sistema, incluyendo la configuración del escritorio clásico, reparación de Spotify, MySQL Workbench, estilos GTK, y la solución para magnet links en Deluge desde Chrome. Una guía completa para usuarios que actualizan su sistema Kubuntu."
 twitter_description: "Problemas y soluciones tras actualizar a Kubuntu 16.04 Xenial Xerus."
-description: "Descubre cómo solucionar errores tras actualizar a Kubuntu 16.04 Xenial Xerus. Repara plasmoides, Spotify, MySQL Workbench y magnet links. Lee más."
+description: "Soluciona los errores más comunes tras actualizar a Kubuntu 16.04 Xenial Xerus. Repara plasmoides, Spotify, MySQL Workbench, GTK y magnet links. Lee más."
 permalink: /kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
