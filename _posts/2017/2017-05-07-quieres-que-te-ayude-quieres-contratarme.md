@@ -1,5 +1,5 @@
 ---
-title: "Quieres que te ayude? Quieres contratarme?"
+title: "Trabaja conmigo: proyectos de desarrollo y soluciones de valor"
 slug: quieres-que-te-ayude-quieres-contratarme
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "En este post comparto mi filosofía de trabajo como informático. Explico por qué ya no acepto proyectos de desarrollo web aislados y me centro en soluciones completas, aportando valor real al negocio y no solo escribiendo código. También anuncio que Lucía se une como asistente virtual."
 twitter_description: "Nueva etapa: ya no acepto proyectos web aislados. Busco aportar valor real al negocio."
-description: "Aprende por qué dejé de aceptar proyectos web aislados. Descubre mi nuevo enfoque en soluciones de valor. Lee más."
+description: "Ya no acepto proyectos web aislados. Me centro en soluciones completas que aportan valor real al negocio. Descubre cómo trabajar conmigo. Lee más."
 permalink: /quieres-que-te-ayude-quieres-contratarme/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

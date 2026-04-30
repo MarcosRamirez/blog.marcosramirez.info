@@ -1,5 +1,5 @@
 ---
-title: "Como permitir usar solo una aplicación en Android (Pinning) + Video tutorial"
+title: "Cómo bloquear tu Android a una sola app con Screen Pinning"
 slug: como-permitir-usar-solo-una-aplicacion-en-android-pinning-video-tutorial
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "El Screen Pinning o Fijar pantalla es una funcionalidad de seguridad de Android que permite bloquear el dispositivo para que solo se pueda usar una aplicación concreta. Es ideal para prestar el móvil a niños o terceros. Aprende a activarlo en Ajustes > Seguridad y a solicitar PIN para desactivarlo, garantizando que nadie salga de la app sin tu permiso."
 twitter_description: "Screen Pinning de Android: bloquea tu móvil a una sola app. Tutorial y vídeo incluídos."
-description: "Bloquea tu móvil a una sola app con Screen Pinning de Android. Aprende a activarlo y protege tu privacidad. Lee más."
+description: "Screen Pinning de Android bloquea tu móvil a una sola aplicación. Ideal para prestar el dispositivo a terceros. Aprende a activarlo paso a paso. Lee más."
 permalink: /como-permitir-usar-solo-una-aplicacion-en-android-pinning-video-tutorial/
 ---
 

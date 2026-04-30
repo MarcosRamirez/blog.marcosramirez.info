@@ -1,5 +1,5 @@
 ---
-title: "Facebook: Trucos multi idioma"
+title: "Trucos multiidioma en Facebook: elimina avisos de traducción"
 slug: facebook-trucos-multi-idioma
 authors:
   - "Marcos Ramírez"
@@ -12,8 +12,7 @@ tags: [facebook, trucos, tutorial, redes sociales]
 pin: false
 toc: false
 excerpt: "En este post explico cómo configurar Facebook para gestionar múltiples idiomas: eliminar avisos de traducción, activar automáticas y publicar en varios idiomas."
-twitter_description: "Facebook permite gestionar idiomas: eliminar avisos de traducción, activar automáticas y publicar en varios idiomas."
-permalink: /facebook-trucos-multi-idioma/
+description: "Configura Facebook para gestionar múltiples idiomas: elimina avisos de traducción, activa automáticas y publica en varios idiomas. Tutorial completo."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

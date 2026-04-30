@@ -1,5 +1,5 @@
 ---
-title: "Algunas simples mejoras que harían a NetFlix aún mejor"
+title: "Simple mejoras que harían a Netflix aún mejor: perfiles"
 slug: algunas-simples-mejoras-que-harian-a-netflix-aun-mejor
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Como usuario intensivo de Netflix, analizo críticamente la experiencia de usuario de la plataforma, proponiendo mejoras concretas para la gestión de listas. Analizo problemas de navegación, la búsqueda de títulos, los avisos de nuevos episodios, la integración con Chromecast y cómo mejorar la experiencia general de visualización tanto en móvil como en TV. Una crítica constructiva desde la perspectiva de un heavy user."
 twitter_description: "Crítica de UX a Netflix: listado, Chromecast, avisos y más."
-description: "Mejora la experiencia de usuario en Netflix con cambios simples. Descubre cómo optimizar listas, navegación y Chromecast. Lee más."
+description: "Mejora la experiencia de usuario en Netflix. Analizo problemas de listas, navegación, Chromecast y avisos de episodios. Descubre cómo optimizar. Lee más."
 permalink: /algunas-simples-mejoras-que-harian-a-netflix-aun-mejor/
 ---
 

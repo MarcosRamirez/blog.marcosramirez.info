@@ -1,5 +1,5 @@
 ---
-title: "Regalo un 20% de descuento en Google Suite DURANTE UN AÑO"
+title: "Google Suite: 20% de descuento el primer año para tu dominio"
 slug: regalo-un-20-de-descuento-en-google-suite-durante-un-ano
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "GSuite es la solución empresarial de Google que te permite usar Gmail con tu propio dominio de correo, ofreciendo 30 GB de almacenamiento y asistencia técnica 24/7. El precio es de tan solo $4 por usuario al mes, y con el descuento del 20% durante un año que os regalo, serán $3.2. Incluye 14 días de prueba gratuita."
 twitter_description: "20% dto. en GSuite el primer año. Código PDHDKXU3AKMCDL9. 14 días de prueba gratuita."
-description: "Consigue GSuite con 20% de descuento durante un año. Usa Gmail con tu dominio propio por $3.2/mes. Regístrate gratis hoy."
+description: "GSuite (ahora Google Workspace) por $3.2/mes el primer año. Usa Gmail con tu propio dominio, 30 GB de almacenamiento y asistencia 24/7. 14 días de prueba."
 permalink: /regalo-un-20-de-descuento-en-google-suite-durante-un-ano/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

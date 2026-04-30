@@ -13,6 +13,7 @@ pin: false
 toc: false
 excerpt: "Tutorial en vídeo sobre Gboard, el teclado oficial de Google para Android. En este video explico las nuevas funcionalidades de selección y edición de texto que facilitan escribir más rápido y con menos errores en tu dispositivo móvil."
 twitter_description: "Tutorial de Gboard: selecciona y edita texto fácilmente con el teclado de Google. Vídeo incluido."
+description: "Tutorial de Gboard: el teclado de Google para Android. Vídeo con nuevas funcionalidades de selección y edición de texto para escribir más rápido."
 permalink: /video-tutorial-de-gboard-y-review-de-nuevas-funcionalidades/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

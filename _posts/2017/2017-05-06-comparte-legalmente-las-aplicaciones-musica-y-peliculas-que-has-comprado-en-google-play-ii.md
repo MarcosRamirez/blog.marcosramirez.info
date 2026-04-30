@@ -1,5 +1,5 @@
 ---
-title: "Comparte LEGALMENTE las aplicaciones, música y películas que has comprado en Google Play (II)"
+title: "Plan Familiar Google Play (II): gestiona el contenido compartido"
 slug: comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-ii
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Segunda parte del tutorial sobre el Plan Familiar de Google Play. Aprende a gestionar el contenido que compartes: desactiva la adición automática de compras y selecciona manualmente qué aplicaciones, música y películas estarán disponibles para cada miembro del grupo. Un control total sobre lo que compartes con tu familia digital."
 twitter_description: "Gestiona qué contenido compartes en el Plan Familiar. Selecciona apps una por una."
-description: "Gestiona el contenido compartido en Google Play Family. Selecciona apps manualmente y ahorra dinero. Lee más."
+description: "Google Play Family (II): gestiona el contenido compartido entre los miembros. Selecciona apps manualmente y controla qué compartes. Tutorial."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-ii/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

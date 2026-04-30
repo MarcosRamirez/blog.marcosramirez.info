@@ -1,5 +1,5 @@
 ---
-title: "Os presento a Amy Ingram, mi nueva asistente"
+title: "Amy Ingram: mi asistente virtual de Inteligencia Artificial"
 slug: os-presento-a-amy-ingram-mi-nueva-asistente
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "Os presento a Amy Ingram, mi nueva asistente virtual. Explico por qué decidí contratarla para gestionar emails, agendar reuniones y filtrar comunicaciones, permitiéndome centrar en el trabajo de desarrollo. Una solución que ha mejorado mi productividad drásticamente."
 twitter_description: "Presentando a Amy Ingram: mi nueva asistente virtual para gestión de agenda."
-description: "Conoce a Amy Ingram, mi nueva asistente virtual. Mejora tu productividad delegando tareas hoy. Lee más."
+description: "Presento a Amy Ingram, mi asistente virtual de Inteligencia Artificial. Gestiona emails, agenda reuniones y filtra comunicaciones. Productividad mejorada."
 permalink: /os-presento-a-amy-ingram-mi-nueva-asistente/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
@@ -118,6 +118,6 @@ Si alguien tiene curiosidad, simplemente puede pedirme que le ponemos al habla c
 
 Compártelo si te ha gusta.
 
-¿Tienes alguna pregunta sobre asistentes de IA? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes alguna pregunta sobre asistentes de Inteligencia Artificial? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

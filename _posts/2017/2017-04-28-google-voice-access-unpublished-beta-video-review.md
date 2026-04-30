@@ -1,5 +1,5 @@
 ---
-title: "Google Voice Access (Unpublished Beta) Video Review"
+title: "Google Voice Access (Beta no publicada): análisis en vídeo"
 slug: google-voice-access-unpublished-beta-video-review
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: false
 excerpt: "Voice Access es una aplicación en fase beta que permite controlar tu dispositivo Android mediante comandos de voz. En este vídeo analizo su funcionamiento, sus posibilidades para mejorar la accesibilidad y las inestabilidades propias de una versión aún en desarrollo. Una herramienta prometedora para usuarios con diversidad funcional."
 twitter_description: "Vídeo review de Voice Access: controla tu Android solo con la voz. App beta de accesibilidad."
-description: "Controla tu Android solo con la voz usando Voice Access. Descubre sus funciones de accesibilidad y oportunidades. Lee más."
+description: "Voice Access permite controlar tu Android solo con la voz. Análisis en vídeo de esta beta de accesibilidad para dispositivos Android. Descubre más."
 permalink: /google-voice-access-unpublished-beta-video-review/
 ---
 ![{{ page.image_alt }}]({{ page.image }})

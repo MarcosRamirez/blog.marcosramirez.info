@@ -1,5 +1,5 @@
 ---
-title: "Comparte LEGALMENTE las aplicaciones, música y películas que has comprado en Google Play (I)"
+title: "Comparte apps y contenido de Google Play con hasta 5 personas"
 slug: comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "El Plan Familiar de Google Play llega a España permitiendo compartir aplicaciones, música y películas con hasta cinco personas de forma legal. No es necesario que sean familiares reales. Te explico cómo darte de alta como administrador desde el PC, los pasos para configurar el pago con tarjeta de crédito y cómo elegir el contenido a compartir entre los miembros del grupo familiar."
 twitter_description: "Comparte apps y contenido en Google Play con hasta 5 personas. Tutorial del Plan Familiar completo."
-description: "Comparte apps y juegos en Google Play con hasta 5 personas. Configura el Plan Familiar y ahorra dinero. Descubre más."
+description: "Google Play Family: comparte apps, música y películas con hasta 5 personas sin ser familiares reales. Aprende a configurar el Plan Familiar. Lee más."
 permalink: /comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
