@@ -1,5 +1,5 @@
 ---
-title: "💰Como gestiono mis finanzas (1ª parte) Conceptos básicos"
+title: "Cómo gestiono mis finanzas (1ª parte): conceptos básicos"
 slug: gestion-finanzas-basica
 authors:
   - "Marcos Ramírez"
@@ -42,7 +42,7 @@ Además, incluiré algún punto extra.
 Teniendo claro que ***este post*** es únicamente una ***introducción*** y que se tratará más en profundidad cada tema, en posts individuales.
 
 
-# Tener solo una cuenta bancaria
+## Tener solo una cuenta bancaria
 
 ¿Verdad que alguna vez has dicho algo como "me han pasado el recibo de XXXX y me ha fastidiado el mes"?, pues, esto se soluciona simplemente, teniendo al menos dos cuentas bancarias (yo tengo alguna más).
 
@@ -53,7 +53,7 @@ Con esto solucionarás **parte** del problema anteriormente citado, y alguno má
 
 En próximos posts, hablaremos más en detalle sobre esto.
 
-# Usar tarjetas de crédito
+## Usar tarjetas de crédito
 
 
 Usar tarjetas de crédito, es uno de los grandes errores [^1], en realidad, cualquier tipo de endeudamiento, es un error, pero las tarjetas de crédito, suelen ofrecer condiciones e intereses abusivos. Y en este pais aún no se tiene claro lo que es el TIN, el TAE, y sobretodo, que existe la usura.
@@ -61,12 +61,12 @@ Una tarjeta de débito, es siempre mejor opción.
 
 En próximos posts, hablaremos más en detalle sobre esto.
 
-# Tener más de un préstamo
+## Tener más de un préstamo
 Como dije antes, endeudarse nunca es una buena opción, y por norma general, casi nunca es necesario (soy de la opinión de que la única deuda aceptable es para vivienda, o herramientas que generen ingresos), por tanto, si tienes más de un préstamo, seguramente estés sobreendeudado.
 
 En próximos posts, hablaremos más en detalle sobre esto, incluyendo temas como *** la USURA***, dado que a muchos os sorprenderá que seguramente tenéis un préstamo usuruario, dado que hay una cantidad enorme de ellos.
 
-# No hacer presupuestos
+## No hacer presupuestos
 
 
 No planificar, siempre es un error, y un presupuesto, no es más que eso, planificar que hacer con tu dinero.
@@ -77,7 +77,7 @@ En próximos posts, hablaremos más en detalle sobre esto, os explicaré como ha
 | Y ahora, vamos con algunos "Extras"
 
 
-# No saber cuanto ganas por hora.
+## No saber cuanto ganas por hora.
 
 
 El día de noche vieja, no sé si producto del alcohol, estuve hablando con alguien que afirmaba que con su sueldo de 1400€ al mes, el ganaba 20€ por hora, lo cual, evidentemente, no es cierto.
@@ -103,14 +103,14 @@ En próximos posts, hablaremos más en detalle sobre esto, dado que esto es una 
 
 
 
-# Tener miedo a las matemáticas
+## Tener miedo a las matemáticas
 
 Del punto anterior, una de las cosas que extraigo, es lo sorprendente que es lo mucho que asustan las matemáticas, y lo poco que se emplean, por ello, deberías aprender matemática básica
 
 En próximos posts, hablaremos más en detalle sobre esto.
 
 
-# No ahorrar
+## No ahorrar
 
 Estoy muy cansado de escuchar "si no llego a fin de mes, como voy a ahorrar", y esto me lo dicen, en la barra de un bar, con una cerveza o copa en la mano.
 Y si... posiblemente puede que no sea tu caso, o que me salgas con "es que si no puedo darme un capricho"...
@@ -125,7 +125,7 @@ Por ejemplo, pongamos que ahorras solo 3€ al mes, eso son 36€ al año, que, 
 
 Pero no voy a ahondar más en este punto... En próximos posts, hablaremos más en detalle sobre esto, y sobre diferentes maneras de hacerlo.
 
-# No invertir
+## No invertir
 
 Si no puedes ahorrar, ¿cómo vas a poder invertir, verdad? o "Invertir es para ricos", etc.. etc...
 

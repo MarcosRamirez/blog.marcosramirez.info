@@ -1,5 +1,5 @@
 ---
-title: "Mi (neo) Banco de cabecera (N26)"
+title: "N26, mi neobanco de cabecera: análisis completo y experiencia"
 slug: n26-mi-neo-banco
 authors:
   - "Marcos Ramírez"
@@ -42,14 +42,14 @@ Eso, unido a que ahora te cobran por ingresar dinero, por no tener dinero, etc, 
 Hizo que me pasase, a los llamados "Neo Bancos", de manera definitiva.
 
 
-# ¿Qué es un neo banco?
+## ¿Qué es un neo banco?
 
 Básicamente, es un banco online, por lo tanto, carece de oficinas, y de personas con las que puedas hablar físicamente.
 Lo dejo claro desde el principio, por que esto le supone un problema a muchos, para mi no lo es.
 
 Lo que si están, normalmente, es ligados a bancos tradicionales, digamos que son "marcas alternativas" de determinados bancos, o bien, son bancos creados para ofrecer este servicio, puramente online.
 
-# Ofrecen servicios extra (gratis)
+## Ofrecen servicios extra (gratis)
 
 A diferencia de la banca tradicional, los neo bancos tienen un modelo de negocio, más basado en los datos (como Facebook, por ejemplo), por tanto, ofrecen más servicios gratuitos.
 

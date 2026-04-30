@@ -1,5 +1,5 @@
 ---
-title: "Mis objetivos para año nuevo (2022 edition)"
+title: "Mis objetivos para el nuevo año 2022: edición completa."
 slug: objetivos-año-nuevo-2022
 authors:
   - "Marcos Ramírez"
@@ -25,7 +25,7 @@ Voy a dividirlo por intereses personales, como profesional, y "poker", que ya sa
 Y por cierto, si alguno quiere apostar, ya sabe, que me lo diga.
 
 
-# Personal
+## Personal
 
 1. Sacarme el carnet de conducir.
 2. Hacer ejercicio diario.
@@ -36,7 +36,7 @@ Y por cierto, si alguno quiere apostar, ya sabe, que me lo diga.
 7. Viajar más, aunque "sólo" sea subir al monte.
 
 
-# Freelance / Profesional
+## Freelance / Profesional
 
 1. Conseguir al menos 5 leads diarios.
 2. Aprender al menos un lenguaje nuevo.
@@ -45,7 +45,7 @@ Y por cierto, si alguno quiere apostar, ya sabe, que me lo diga.
 5. Intentar sacar al menos un MVP de ese proyecto que me ronda la cabeza.
 
 
-# Poker
+## Poker
 
 1. Jugar al menos 1000 manos diarias (Que serán 2500+ diarias de Viernes a Domingo 🤣).
 2. Estudiar al menos 3 horas semanales.

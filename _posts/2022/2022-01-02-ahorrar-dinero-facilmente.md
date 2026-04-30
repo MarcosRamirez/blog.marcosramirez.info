@@ -1,5 +1,5 @@
 ---
-title: "Como gestiono mis finanzas (II) Ahorro básico"
+title: "Cómo gestiono mis finanzas (II): sistema básico de ahorro"
 slug: ahorrar-dinero-facilmente
 authors:
   - "Marcos Ramírez"
@@ -16,8 +16,6 @@ twitter_description: "Cómo gestionar mis finanzas: sistema completo de ahorro y
 description: "Aprende a gestionar tus finanzas: ahorra el 10% de ingresos, crea presupuestos y evita deudas. Sistema completo de ahorro paso a paso. Lee más."
 permalink: /:slug/ 
 ---
-
-
 Disclaimer: en este post explico como y por qué ahorro yo, con la única intención de echar una mano a quienes, últimamente, me preguntan a menudo, además de, hacer esta información pública, para que la puedan consultar de manera simple, y sea accesible para cualquier otra persona a la que pueda serle de utilidad.
 
 Algo que hay que tener claro, es que en España, la educación financiera es nula, no se enseña en el colegio, ni en casa, lo cual es un error.
@@ -26,7 +24,7 @@ La mayoría de personas, simplemente trabajan, gastan el 100% de su sueldo, y cu
 Si es tu caso, deberías seguit leyendo, y empezar a aprender sobre finanzas básicas.
 
 
-# Lo primero, eres tú, luego, viene todo lo demás por
+## Lo primero, eres tú, luego, viene todo lo demás por
 
 Voy a empezar por un consejo, algo que debes tener claro desde el minuto cero, desde ya:
 
@@ -35,7 +33,7 @@ Voy a empezar por un consejo, algo que debes tener claro desde el minuto cero, d
 Esto es así, determina con que cantidad o porcentaje quieres empezar, y de ahí, ve avanzando (por si te lo preguntas, yo ahorro mínimo un 10% de mis ingresos.
 Y a ello, le sumo los excedentes del mes)
 
-# Presupuestos
+## Presupuestos
 
 Sin duda el error más común es no hacer presupuestos, esto te ayuda a identificar donde puedes ahorrar, y, sobretodo a saber que cantidad de dinero dedicar a cada cosa.
 
@@ -86,7 +84,7 @@ Espero que te sea de utilidad.
 Puedes copiarla a tu Google Drive, y rellenarla con tus datos de manera privada, por supuesto.
 
 
-# Bancos
+## Bancos
 
 Los bancos, a diferencia de lo que la gente cree, o piensa, son negocios, que están para ganar dinero contigo, incluso de **manera ilegal**, si, has leído bien, hace ya algunos años que le recomiendo a mucha gente contratar los servicios juridicos de empresas como (la pionera) [Preico Juridicos](https://www.preicojuridicos.com){:target="_blank"}, dedicadas a recuperar el dinero cobrado de más por bancos y entidades financieras, tanto en préstamos usuruarios (o usureros), como por comisiones ilegales.
 
@@ -212,17 +210,17 @@ Evidentemente, yo no voy a pedir préstamos, a no ser que tenga el dinero (aunqu
 
 Además, para el Scoring, tienen en cuenta más cosas, de las que si queréis, os contaré más.
 
-# Ocio
+## Ocio
 
 Muchas personas que conozco, tienden a no considerar gastos de ocio cosas como Netflix, o cualquier otra plataforma digital, o el salir a tomar unas cañas (aunque esto, puedo entenderlo, yo mismo tengo estas cosas en una partida llamda "vida social", si entiendes que es un "lujo", estamos bien)
 
 Por tanto, aprender a provisionar, y crear partidas de dinero ("cajas" a las que va el dinero) paraa los diferentes gastos, es muy importante.
 
-# Loterias
+## Loterias
 
 Yo no juego a la lotería, nunca, jamás, lo cual a mucha gente que me conoce, y sabe que sou jugador de poker, le extraña, pero es tan simple como que el poker no es un juego de azar, y por tanto
 
-# Compras innecesarias
+## Compras innecesarias
 
 ## Alimentación
 
@@ -251,7 +249,7 @@ Algunas de estas cosas son:
 Todo ello, anque no lo creas, además de la mejora de salud que conlleva, supone un ahorro mensual importante.
 
 
-# Ahorra al comparar
+## Ahorra al comparar
 
 
 Normalmente la gente hace toda la compra en un mismo supermercado, a día de hoy, yo hago la compra básicamente en 3 o 5 sitios diferentes, siendo tres de ellos online.
