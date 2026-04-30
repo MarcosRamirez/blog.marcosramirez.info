@@ -14,7 +14,7 @@ toc: true
 excerpt: "Home Assistant es el centro de domótica de mi Home Lab para automatizar luces al anochecer, calefacción según temperatura y notificaciones de seguridad. Compatible con 2.000+ integraciones, funciona localmente sin nubes ni suscripciones. Incluye dashboards personalizados y automatizaciones con lógica condicional avanzada."
 twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni suscripciones."
 permalink: /:slug/
-description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones y dashboards personalizados. Sin nube. Descubre más."
+description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones, dashboards personalizados y funcionamiento sin nube. Instálalo en tu Home Lab. Aprende a configurarlo paso a paso."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*

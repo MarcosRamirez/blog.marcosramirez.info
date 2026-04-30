@@ -1,5 +1,5 @@
 ---
-title: "Immich: Tus fotos, tu servidor, tu privacidad"
+title: "Immich: fotos privadas en tu servidor, sin suscripción"
 slug: immich-privacidad-tus-fotos
 authors:
   - "Marcos Ramírez"
@@ -14,7 +14,7 @@ toc: true
 excerpt: "Immich es la alternativa de código abierto a Google Photos para gestionar tus fotos en tu propio servidor. Sin suscripción, con reconocimiento facial local, búsqueda por IA, mapas GPS y álbumes compartidos. Backup automático desde iOS y Android, tú controlas tus recuerdos más privados."
 twitter_description: "Immich: tus fotos en tu servidor, tú controlas los datos."
 permalink: /:slug/
-description: "Immich: tu alternativa a Google Photos con reconocimiento facial local. Tus fotos, tu servidor. Descubre más."
+description: "Immich es la alternativa a Google Photos: tus fotos en tu servidor, sin suscripción. Reconocimiento facial local, backup automático desde móvil y búsqueda por IA. Tus recuerdos, tu control."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

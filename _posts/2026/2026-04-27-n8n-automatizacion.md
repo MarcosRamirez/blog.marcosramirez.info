@@ -6,7 +6,6 @@ authors:
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/2026/n8n-automatizacion-nanobanana.webp
-image_alt: "Logo de n8n con flujo de automatización visual"
 image_alt: "Logo de N8N con iconos de automatización, representando flujos de trabajo conectados"
 categories: [Tecnología]
 tags: [automatización, privacidad, Software y Apps, Productividad y Hacks]
@@ -14,7 +13,7 @@ pin: false
 toc: true
 excerpt: "N8N es una herramienta de automatización de flujo de trabajo de código abierto que puedes instalar en tu Home Lab. Automatiza tus tareas sin pagar mensualidades y sin depender de servicios externos. Te permite conectar diferentes servicios y aplicaciones para que trabajen juntas automáticamente. A diferencia de Zapier o Make que tienen límites de ejecuciones y cuestan dinero, N8N self-hosted te da potencia ilimitada sin facturas sorpresa. Tiene editor visual drag-and-drop, más de 400 integraciones, soporte para código personalizado en JavaScript o Python, nodos de IA con LangChain, OpenAI o Anthropic, y modo cola para escalar hasta 200 ejecuciones por segundo."
 twitter_description: "Instala N8N en tu Home Lab y automatiza todo lo que quieras sin pagar mensualidades."
-description: "Automatiza tus tareas con N8N self-hosted: sin límites, sin mensualidades y bajo tu control total. Descubre cómo instalarlo hoy. Lee más."
+description: "Automatiza tus tareas con N8N self-hosted: sin límites ni mensualidades y bajo tu control total. Instalación en Home Lab. Descubre cómo hacerlo hoy. Lee más."
 permalink: /:slug/
 ---
 

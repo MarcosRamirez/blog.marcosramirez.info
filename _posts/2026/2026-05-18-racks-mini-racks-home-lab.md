@@ -1,5 +1,5 @@
 ---
-title: "Racks y Mini Racks para tu Home Lab: guía completa"
+title: "Racks y mini racks para tu Home Lab: guía completa"
 slug: racks-mini-racks-home-lab
 authors:
   - "Marcos Ramírez"
@@ -14,7 +14,7 @@ toc: true
 excerpt: "Guía completa sobre racks y mini racks para tu Home Lab según espacio y presupuesto. Compara mini racks de escritorio (2-6U), racks de pared (6-12U), racks de 12-18U y racks completos de 42U. Incluye opciones para Mini PCs y SBCs, comparativas de modelos y dónde comprar."
 twitter_description: "Guía de racks y mini racks para Home Lab. Opciones para cada espacio y presupuesto."
 permalink: /:slug/
-description: "Elige el rack ideal para tu Home Lab: mini racks, de pared o 42U. Comparativa y dónde comprar. Descubre más."
+description: "Elige el rack ideal para tu Home Lab según espacio y presupuesto. Mini racks de escritorio, de pared o completos 42U. Comparativa de modelos, precios y dónde comprar. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

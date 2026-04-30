@@ -1,5 +1,5 @@
 ---
-title: "Paperless NGX: Gestiona tus documentos digitales sin perder el control"
+title: "Paperless NGX: documentos digitales organizados sin perder control"
 slug: paperless-ngx-documentos
 authors:
   - "Marcos Ramírez"
@@ -14,7 +14,7 @@ toc: true
 excerpt: "Paperless NGX es un gestor de documentos de código abierto con OCR automático, etiquetado inteligente y búsqueda por texto completo. Instálalo en tu Home Lab, conecta tu base de datos centralizada y ten tus facturas, contratos y recibos siempre accesibles."
 twitter_description: "Gestiona tus documentos digitales con Paperless NGX en tu propio servidor."
 permalink: /:slug/
-description: "Paperless NGX: gestiona tus documentos con OCR y búsqueda. Tu servidor, tu privacidad. Descubre más."
+description: "Paperless NGX gestiona tus documentos con OCR automático, etiquetado inteligente y búsqueda por texto completo. Instálalo en tu Home Lab. Tus facturas y contratos siempre organizados. Descubre más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

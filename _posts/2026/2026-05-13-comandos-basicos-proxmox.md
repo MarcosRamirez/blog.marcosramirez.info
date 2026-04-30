@@ -1,5 +1,5 @@
 ---
-title: "Comandos básicos de Proxmox: gestión vía CLI"
+title: "Comandos básicos de Proxmox: gestión de LXC y VMs vía CLI"
 slug: comandos-basicos-proxmox
 authors:
   - "Marcos Ramírez"

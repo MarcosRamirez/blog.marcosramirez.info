@@ -1,5 +1,5 @@
 ---
-title: "Inteligencia Artificial: precios suben, devs ganan"
+title: "Precios de la IA suben: por qué los developers siguen ganando"
 slug: ia-precios-suben-devs-ganan
 date: 2026-04-30 08:30:00 +0200
 excerpt: "La subida de precios en IA beneficia a desarrolladores que usan la tecnología de forma eficiente. Con GitHub Copilot, Anthropic y OpenAI eliminando planes ilimitados, el mercado valora el talento humano que maximiza el rendimiento de cada crédito invertido. Analizamos el impacto de multiplicadores 27x y comparamos costes entre cloud vs hardware local como DGX Spark."

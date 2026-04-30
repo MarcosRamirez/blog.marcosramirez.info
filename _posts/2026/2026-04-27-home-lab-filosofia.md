@@ -6,7 +6,6 @@ authors:
   - "Lucía"
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/2026/home-lab-filosofia-nanobanana.webp
-image_alt: "Servidores caseros en rack con luces LED, symbolizando el home lab"
 image_alt: "Rack de servidores casero con cables, LEDs parpadeantes, representando un Home Lab activo"
 categories: [Tecnología, Redes e Infraestructura]
 tags: [privacidad, codigo-abierto, autoalojado, soberanía-digital, infraestructura, servidores]
@@ -20,7 +19,7 @@ permalink: /:slug/
 
 ![{{ page.image_alt }}]({{ page.image }})
 
-# ¿Qué Demonios Es un Home Lab?
+## ¿Qué Demonios Es un Home Lab?
 
 Antes de nada, si no sabes qué es un Home Lab, no te preocupes. No es cosa de científicos locos ni de películas de hackers con cables por todas partes.
 

@@ -1,5 +1,5 @@
 ---
-title: "Cómo resolví los cortes aleatorios de Jellyfin en 4K (spoiler: el disco estaba lleno)"
+title: "Cómo resolví los cortes de Jellyfin en 4K: disco lleno y más"
 date: 2026-04-23 21:45:00 +0200
 excerpt: "Películas en 4K que se cortan a los 5 minutos, salvapantallas que salta solo... No era la red. El disco del LXC estaba al 100%. Descubrí y solucioné cinco problemas encadenados: disco lleno que impedía escribir logs y segmentos de transcoding, archivo MKV corrupto con error EBML, falta de aceleración por hardware Quick Sync en Intel HD Graphics 530, montaje NTFS incorrecto que no permitía borrar archivos, y NFS que no detectaba archivos nuevos por falta de inotify. Aprende a diagnosticar con journalctl, ffprobe y ffmpeg."
 authors:
@@ -9,12 +9,11 @@ categories:
   - Tecnología
 tags: [sistemas, redes-e-infraestructura, contenedores]
 image: /assets/img/headers/2026/jellyfin-cortes-4k-disco-nanobanana.webp
-image_alt: "Logo de Jellyfin con pantalla de reproducción de video 4K"
 image_alt: "Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"
 pin: false
 toc: true
 twitter_description: "Jellyfin se cortaba aleatoriamente en 4K. El problema: disco lleno. Cinco errores encadenados que descubrí analizando los logs."
-description: "Jellyfin se cortaba en 4K por disco lleno. Aprende a solucionar problemas de MKV, transcoding y NFS con estos cinco pasos. Lee más."
+description: "Jellyfin se cortaba en 4K por disco lleno. Solucioné cinco problemas encadenados: MKV corrupto, VAAPI, disco lleno, NFS y permisos NTFS. Descubre cómo lo hice."
 permalink: /:slug/
 slug: jellyfin-cortes-4k-disco
 ---

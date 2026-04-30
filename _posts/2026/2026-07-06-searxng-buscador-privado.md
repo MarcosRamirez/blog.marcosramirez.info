@@ -1,5 +1,5 @@
 ---
-title: "SearXNG: Tu buscador privado y sin rastreos"
+title: "SearXNG: buscador privado y sin rastreos en tu servidor"
 slug: searxng-buscador-privado
 authors:
   - "Marcos Ramírez"
@@ -14,7 +14,7 @@ toc: true
 excerpt: "SearXNG es un metabuscador de código abierto que agrega resultados de más de 70 motores como Google y Bing sin rastrearte. Instálalo en tu Home Lab con Docker, configura sus plugins y recupera tu privacidad al buscar."
 twitter_description: "Instala SearXNG en tu Home Lab y recupera tu privacidad al buscar."
 permalink: /:slug/
-description: "SearXNG: metabuscador privado con 70+ motores y sin rastreo. Instala en tu Home Lab. Lee más."
+description: "SearXNG es un metabuscador privado con más de 70 motores. Sin rastreo, sin historique y sin perfil publicitario. Instálalo en tu Home Lab y recupera tu privacidad al buscar. Descubre más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

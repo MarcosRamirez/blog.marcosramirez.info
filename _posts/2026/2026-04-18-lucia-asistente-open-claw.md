@@ -1,12 +1,11 @@
 ---
-title: "Lucía: La evolución de mi asistente de IA con OpenClaw"
+title: "Lucía: asistente de IA con OpenClaw para automatización en Home Lab"
 slug: lucia-asistente-open-claw
 authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-04-18 08:30:00 +0200
 image: /assets/img/headers/2026/lucia-asistente-open-claw-nanobanana.webp
-image_alt: "Lucía, asistente de IA, como personaje digital conversando"
 image_alt: "Logo de OpenClaw con iconos de WhatsApp, Discord y Telegram, representando la integración multicanal de Lucía"
 categories: [Tecnología, Inteligencia Artificial, Productividad y Hacks]
 tags: [inteligencia-artificial, automatizacion, autoalojado, agentes, asistencia, chatbots]
@@ -14,13 +13,13 @@ pin: false
 toc: true
 excerpt: "Explico mi transición a OpenClaw para gestionar a Lucía, mi agente de IA autónomo. Analizo las ventajas de la soberanía digital ejecutando modelos locales como GLM-5, Qwen 3, DeepSeek y Llama 4 a través de LM Studio y Ollama. Lucía ahora vive en WhatsApp, Discord y Telegram con contexto unificado, ejecuta tareas en segundo plano como redactar posts, gestionar correo, resumir YouTube, escribir código, administrar el Home Lab y monitorear mi conexión a internet. El futuro de la IA personal no está en aplicaciones cerradas, sino en sistemas como OpenClaw que te devuelven el control."
 twitter_description: "Lucía ahora corre en mi home lab con OpenClaw: soberanía digital, modelos locales y automatización total."
-description: "Descubre cómo migré a OpenClaw para gestionar a Lucía con modelos locales y soberanía digital. Automatiza tus tareas con IA hoy. Lee más."
+description: "Descubre cómo migré a OpenClaw para gestionar a Lucía con modelos locales y soberanía digital. Automatiza tus tareas con Inteligencia Artificial hoy. Lee más."
 permalink: /:slug/
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Más allá del chat: Automatización real
+## Más allá del chat: Automatización real
 
 Desde que os hablé de Lucía en mi [Resumen de Febrero 2025]({% post_url 2025/2025-03-01-resumen-febrero-2025 %}), su evolución no ha parado. Lo que empezó como un agente de voz para gestionar llamadas y citas, se ha convertido hoy en un sistema mucho más complejo y, sobre todo, **autónomo**.
 

@@ -1,5 +1,5 @@
 ---
-title: "Por qué no uso los helper scripts de Proxmox"
+title: "Las razones por las que no uso los helper scripts de Proxmox"
 slug: no-uso-proxmox-helper-scripts
 authors:
   - "Marcos Ramírez"
@@ -14,13 +14,13 @@ toc: true
 excerpt: "Explico por qué dejé de usar los helper scripts de Proxmox a favor de una arquitectura más robusta. Los scripts instalan bases de datos dentro de cada contenedor, generando desperdicio de RAM, mantenimiento complejo y backups difíciles. Te muestro cómo centralizar bases de datos en un servidor dedicado para ahorrar recursos y simplificar."
 twitter_description: "Por qué dejé los helper scripts de Proxmox: bases de datos centralizadas."
 permalink: /:slug/
-description: "Evita helper scripts en Proxmox: centraliza bases de datos y ahorra RAM. Arquitectura robusta aquí. Lee más."
+description: "Evita helper scripts en Proxmox: centraliza bases de datos y ahorra RAM. Los scripts instalan bases de datos en cada contenedor, generando desperdicio de recursos. Arquitectura robusta explicada. Lee más."
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
 En el [post anterior sobre Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
 
-# El encanto de lo fácil
+## El encanto de lo fácil
 
 Cualquiera que se haya adentrado mínimamente en el mundo de los homelabs y [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"} se ha cruzado alguna vez con los famosos "[Proxmox Helper Scripts](https://community-scripts.org/)" (como los conocidos scripts de `tteck`).
 

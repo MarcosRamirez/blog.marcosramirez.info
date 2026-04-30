@@ -1,5 +1,5 @@
 ---
-title: "Por qué la gente vuelve a piratear"
+title: "Por qué la gente vuelve a piratear en la era del streaming"
 slug: gente-vuelve-piratear
 authors:
   - "Marcos Ramírez"
@@ -20,13 +20,13 @@ permalink: /:slug/
 
 > ⚠️ **Aviso:** Este post es un análisis técnico y de mercado sobre las tendencias de consumo digital. No pretendo, bajo ningún concepto, hacer apología de la piratería ni fomentar la descarga ilegal de contenido protegido por derechos de autor. Mi objetivo es simplemente reflexionar sobre cómo la fragmentación del servicio afecta al comportamiento del usuario.
 
-# El fin de la edad de oro del streaming
+## El fin de la edad de oro del streaming
 
 Hace unos años parecía que habíamos encontrado la solución definitiva a la piratería. Llegó [Netflix](https://www.netflix.com/){:target="_blank" rel="nofollow noopener"} junto a otras plataformas, y de repente, pagar una suscripción de unos 10 euros al mes para tener miles de películas y series a un clic de distancia en el sofá parecía la mejor inversión del mundo. Era tan accesible y fácil que descargar contenido por torrent o buscar enlaces de dudosa procedencia se convirtió en una pérdida de tiempo.
 
 Pero, a día de hoy, estamos viendo un preocupante efecto rebote: **cada vez más gente vuelve a piratear**. Y la culpa no la tiene el usuario que "lo quiere todo gratis", sino una industria que ha tensado la cuerda hasta romperla.
 
-# Fragmentación absoluta
+## Fragmentación absoluta
 
 Ese ecosistema único y accesible se ha roto. Antes, cuando íbamos al videoclub, tenías todo el catálogo disponible en un solo sitio: daba igual el estudio o la productora, simplemente entrabas y elegías. Hoy en día, si quieres estar al tanto de todo lo que se comenta en la oficina o en Twitter (o [X](https://x.com/){:target="_blank" rel="nofollow noopener"}), necesitas hacer una inversión considerable. 
 
@@ -34,7 +34,7 @@ Ese ecosistema único y accesible se ha roto. Antes, cuando íbamos al videoclub
 
 Si sumas todo esto, la factura mensual se parece más y más a los antiguos paquetes de televisión por cable de los que precisamente intentábamos huir. Se suponía que el streaming venía a salvarnos, no a esclavizarnos a pagar seis cuotas mensuales diferentes.
 
-# Subidas de precio y anuncios
+## Subidas de precio y anuncios
 
 Por si la fragmentación fuera poco, las reglas del juego que firmamos al principio han cambiado radicalmente. 
 
@@ -42,11 +42,11 @@ Todas las plataformas han aumentado su precio de manera sostenida. Además, han 
 
 Pagas por ver contenido y encima tienes cortes publicitarios, algo que la piratería o el propio streaming primigenio habían erradicado. 
 
-# La mentira de las "compras" digitales
+## La mentira de las "compras" digitales
 
 Por si fuera poco, nos están arrebatando el concepto de propiedad. Antes comprabas una película en DVD o Blu-Ray y era tuya para siempre. Ahora, si compras contenido digital, realmente ya no eres el dueño: adquieres una mera licencia de uso sujeta a términos y condiciones. Ya han saltado casos donde servicios como la [PlayStation Store](https://store.playstation.com/){:target="_blank" rel="nofollow noopener"} u otras plataformas borran contenido "comprado" de las bibliotecas de los usuarios por pura expiración de licencias. Estás pagando a precio de oro algo que pueden quitarte con solo pulsar un botón.
 
-# Hablemos de números: El coste del streaming vs Servidor Casero
+## Hablemos de números: El coste del streaming vs Servidor Casero
 
 Para entender la magnitud de la sangría económica, echemos un vistazo a lo que cuesta mantener las plataformas principales en España actualmente comparando los planes Estándar (1080p sin anuncios) y los Premium (4K):
 
@@ -64,7 +64,7 @@ Pagar más de 700€ anuales por un servicio alquilado y fragmentado duele. Espe
 
 Por unos 150-200€ puedes hacerte con un Mini PC con procesador Intel N100 (potente y de bajísimo consumo). Añádele un par de discos duros de alta capacidad por otros 150-200€. Por menos de **400€ en un pago único**, tienes el hardware preparado. El software necesario ([Plex](https://www.plex.tv/){:target="_blank" rel="nofollow noopener"}, [Jellyfin](https://jellyfin.org/){:target="_blank" rel="nofollow noopener"} y la [*suite* de herramientas *arr`](https://wiki.servarr.com/){:target="_blank" rel="nofollow noopener"} como [Sonarr](https://sonarr.tv/){:target="_blank" rel="nofollow noopener"} y [Radarr](https://radarr.video/){:target="_blank" rel="nofollow noopener"}) es de código abierto y completamente gratuito. Recuperas la inversión en unos seis meses, tu contenido es tuyo de verdad y está todo consolidado en una sola interfaz increíble.
 
-# El resurgir de los "mares"
+## El resurgir de los "mares"
 
 La comodidad y el precio justo eran los dos principales escudos contra la piratería. Al eliminar ambos, las barreras de entrada para empezar a montar servidores caseros (con herramientas como [Plex](https://www.plex.tv/){:target="_blank" rel="nofollow noopener"}, [Jellyfin](https://jellyfin.org/){:target="_blank" rel="nofollow noopener"} o los famosos arr de la comunidad de código libre) han bajado drásticamente.
 

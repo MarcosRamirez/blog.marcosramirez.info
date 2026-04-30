@@ -1,5 +1,5 @@
 ---
-title: "Vaultwarden: Tus contraseñas seguras, en tu servidor, bajo tu control"
+title: "Vaultwarden: contraseñas seguras en tu servidor, sin pagos"
 slug: vaultwarden-contraseñas-seguras
 authors:
   - "Marcos Ramírez"
@@ -14,7 +14,7 @@ toc: true
 excerpt: "Vaultwarden es una implementación ligera de Bitwarden escrita en Rust. Obtén todas las funcionalidades premium gratis: TOTP, archivos adjuntos y acceso de emergencia. Compatible con todos los clientes oficiales, cifrado del lado del cliente y tus datos en tu propio servidor."
 twitter_description: "Instala Vaultwarden en tu Home Lab y controla tus contraseñas."
 permalink: /:slug/
-description: "Vaultwarden: todas las funciones premium de Bitwarden, gratis. Tu servidor, tus contraseñas. Descubre más."
+description: "Vaultwarden: todas las funciones premium de Bitwarden gratis. TOTP, archivos adjuntos y acceso de emergencia. Tus contraseñas en tu servidor, sin pagos mensuales. Descubre más."
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

@@ -1,5 +1,5 @@
 ---
-title: "OpenCode: Mi asistente de código abierto"
+title: "OpenCode: asistente de código abierto para developers"
 slug: opencode-asistente-codigo
 authors:
   - "Marcos Ramírez"
@@ -14,7 +14,7 @@ toc: true
 excerpt: "OpenCode es un agente de IA de código abierto con más de 140.000 estrellas en GitHub. Funciona en tu terminal con acceso directo a archivos, ejecución de comandos y edición real. Compatible con modelos OpenAI, Anthropic, Google y Zen, úsalo para redactar posts, refactorizar código y explicar lógica legacy."
 twitter_description: "OpenCode es mi asistente de código abierto que me ahorra horas cada semana."
 permalink: /:slug/
-description: "OpenCode: asistente de código abierto con 140k+ estrellas. Redacta, refactoriza y explica código. Lee más."
+description: "OpenCode: +140k estrellas, acceso a archivos y edición real. Compatible con OpenAI y Anthropic. Elige el modelo que prefieras. Perfecto para developers y automatización. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

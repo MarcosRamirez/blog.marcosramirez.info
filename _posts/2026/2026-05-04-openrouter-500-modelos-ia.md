@@ -1,5 +1,5 @@
 ---
-title: "OpenRouter: 500 modelos de IA en una sola API"
+title: "OpenRouter: 500 modelos de IA en una API unificada"
 date: 2026-05-04 08:30:00 +0200
 excerpt: "OpenRouter es un gateway unificado con más de 500 modelos de IA de docenas de proveedores mediante una sola API key y endpoint. Incluye casi 30 modelos gratuitos ideales para desarrollo, sin tarjeta de crédito. Su sistema de fallback automático cambia de modelo si uno falla, y su compatibilidad con OpenAI permite integrarlo fácilmente en herramientas como OpenCode y OpenClaw."
 authors:
@@ -20,7 +20,7 @@ toc: true
 twitter_description: "Más de 500 modelos de IA en una API unify cada proveedor. Muchos gratuitos. Úsalo como gateway centralizado."
 permalink: /:slug/
 slug: openrouter-500-modelos-ia
-description: "Accede a más de 500 modelos de IA con OpenRouter, gateway unificado con 30 modelos gratuitos y fallback automático. Lee más."
+description: "Accede a más de 500 modelos de IA con OpenRouter, gateway unificado con casi 30 modelos gratuitos y fallback automático. Compatible OpenAI, ideal para desarrollo. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

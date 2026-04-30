@@ -16,7 +16,7 @@ pin: false
 toc: true
 twitter_description: "NVIDIA ofrece acceso gratuito a modelos de IA como DeepSeek V4 y GLM 5.1 vía API. Integra con librerías compatibles con OpenAI."
 permalink: /:slug/
-description: "Accede gratis a modelos NVIDIA como DeepSeek V4 y GLM 5.1 vía API. Solo verificación móvil, compatible con OpenAI. Lee más."
+description: "Accede gratis a modelos NVIDIA como DeepSeek V4 y GLM 5.1 vía API. Solo verificación móvil, sin tarjeta. Compatible con librerías OpenAI. Ideal para desarrollo."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

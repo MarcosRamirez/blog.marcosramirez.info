@@ -1,5 +1,5 @@
 ---
-title: "Comandos y Atajos de Teclado en GNU/Linux que Posiblemente Desconoces"
+title: "Comandos y atajos de teclado en GNU/Linux que quizás desconoces"
 date: 2026-04-24 09:00:00 +0200
 excerpt: "Domina los atajos de teclado y comandos de GNU/Linux que te harán más productivo. Aprende a usar tail -F para logs, Ctrl+R para buscar en historial, y crea alias útiles como mkcd o mkmv. Incluye herramientas como ncdu, btop, fzf, bat, ripgrep y zoxide para mejorar tu flujo de trabajo en terminal."
 authors:
@@ -9,14 +9,13 @@ categories:
   - Tecnología
 tags: [linux, terminal, comandos, atajos, productividad]
 image: /assets/img/headers/2026/comandos-atajos-linux-desconoces-nanobanana.webp
-image_alt: "Terminal de Linux con comandos y atajos de teclado"
 image_alt: "Terminal de Linux con código en pantalla, mostrando atajos de teclado, estilo hacker"
 pin: false
 toc: true
 twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mkcp, mkmv y más. Aprende a configurarlos para todos los usuarios."
 permalink: /:slug/
 slug: comandos-atajos-linux-desconoces
-description: "Domina atajos de Linux como Ctrl+R y comandos como tail -F, ncdu o fzf. Crea alias útiles y mejora tu flujo en terminal. Aprende más."
+description: "Domina atajos de Linux como Ctrl+R, tail -F, ncdu, fzf y más. Crea alias útiles como mkcd o mkmv. Mejora tu productividad en terminal. Aprende más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

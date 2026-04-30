@@ -1,5 +1,5 @@
 ---
-title: "AdGuard Home: Tu propio bloqueador de publicidad y DNS (Serie Home Lab)"
+title: "AdGuard Home: tu propio bloqueador de publicidad y DNS"
 slug: adguard-home-bloqueador-publicidad
 authors:
   - "Marcos Ramírez"
@@ -13,13 +13,13 @@ pin: false
 toc: true
 excerpt: "AdGuard Home es un bloqueador de publicidad y rastreadores a nivel de red que funciona como DNS interceptivo. Protege todos los dispositivos sin instalar nada en cada uno, bloqueando publicidad, trackers, phishing y contenido adulto. Usa listas como EasyList y permite añadir tus propias para bloquear redes sociales y TikTok. Corre ligero en LXC con 512MB RAM."
 twitter_description: "AdGuard Home: tu propio bloqueador de publicidad a nivel de red."
-description: "Protege tu red con AdGuard Home: bloqueador de publicidad y rastreadores a nivel DNS. Instala tu propio en Home Lab hoy. Lee más."
+description: "Protege tu red con AdGuard Home: bloqueador de publicidad y rastreadores a nivel DNS. Instala tu propio en Home Lab hoy. Configuración y ventajas explicadas. Lee más."
 permalink: /:slug/
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Serie Home Lab
+## Serie Home Lab
 
 Continuamos con la serie de Home Lab. En el [post sobre Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) os conté cómo tengo estructurados mis servicios. El primer servicio que deployé fue [**AdGuard Home**](https://adguard.com/es/adguard-home/overview.html){:target="_blank" rel="nofollow noopener"}, y es probablemente el más útil de todos.
 
