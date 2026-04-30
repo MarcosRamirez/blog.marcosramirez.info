@@ -1,5 +1,5 @@
 ---
-title: "Curve. Una tarjeta para controlarlas todas."
+title: "Curve: la tarjeta que controla todas tus cuentas bancarias"
 slug: curve-una-tarjeta-para-controlarlas-todas
 authors:
   - "Marcos Ramírez"
@@ -13,12 +13,12 @@ pin: false
 toc: true
 excerpt: "Analizo Curve, la tarjeta Mastercard que permite unificar todas tus cuentas bancarias en un solo plástico vinculado a una aplicación móvil. Sus principales ventajas incluyen agrupar todas tus tarjetas en una sola, conversión de divisas a tipos de cambio competitivos que puedes rechazar si no te gusta, posibilidad de aplazar pagos hasta 12 meses, protección contra fraude de hasta 100.000€, seguro de viaje gratuito y enviar dinero a otros usuarios sin comisiones. También explico cómo funciona la aplicación móvil para gestionar tus tarjetas, bloquear tarjetas perdidas y realizar pagos. Una solución ideal para simplificar tus finanzas y ahorrar en viajes y compras internacionales."
 twitter_description: "Curve: agrupa todas tus tarjetas en una, conversión de divisas y aplaza pagos hasta 12 meses."
-description: "Curve: una tarjeta para controlar todas tus cuentas bancarias. Convierte divisas, aplaza pagos y protege tus compras. Descubre sus ventajas y únete hoy. Lee más."
+description: "Curve: tarjeta Mastercard que unifica todas tus cuentas. Convierte divisas, aplaza pagos hasta 12 meses y protege tus compras. Descubre cómo funciona."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Ventajas de [Curve](https://www.curve.com/join#N9JYMP8D): la tarjeta que lo hace todo
+## Ventajas de [Curve](https://www.curve.com/join#N9JYMP8D): la tarjeta que lo hace todo
 
 [Curve](https://www.curve.com/join#N9JYMP8D) es una tarjeta Mastercard que permite a los usuarios agrupar todas sus tarjetas bancarias en una sola. Esto simplifica el proceso de pago y ofrece una serie de ventajas adicionales, como la conversión de divisas a tipos de cambio competitivos y la posibilidad de aplazar los pagos.
 

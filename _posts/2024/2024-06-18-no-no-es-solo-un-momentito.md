@@ -1,5 +1,5 @@
 ---
-title: "No, No es solo un momentito"
+title: "El coste del hiperfoco: 'momentito' y la productividad digital"
 slug: no-no-es-solo-un-momentito
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Explico por qué el mismo 'momentito' puede arruinar horas de trabajo técnico, analizando el fenómeno del hiperfoco y el coste cognitivo de las interrupciones. Como programador, mi trabajo requiere concentración plena y un estado mental casi zen. Cuando alguien me interrumpe con una tontería o me pide un minutito que se convierte en media hora, tardo 23 minutos en volver a pillar el hilo según estudios de la Universidad de California. Incluyo señales no verbales para identificar cuando alguien está concentrado y consejos de comunicación asíncrona. También proporciono documentación sobre el tiempo de recuperación y recursos para mejorar la concentración como 'Deep Work' y 'Getting Things Done'."
 twitter_description: "Por qué el 'momentito' puede arruinar horas de trabajo técnico: el coste del hiperfoco."
-description: "Descubre por qué el 'momentito' arruina horas de trabajo técnico. Aprende sobre el hiperfoco, el coste de interrupciones y cómo proteger tu concentración. Lee más."
+description: "El coste del hiperfoco: por qué el 'momentito' arruina horas de trabajo técnico. Aprende sobre interrupciones, concentración y comunicación asíncrona."
 permalink: /:slug/
 ---
 
@@ -37,7 +37,7 @@ Por ello, necesitamos estar altamente concentrados. A veces, incluso entro en "h
 
 ¿Y qué pasa con la productividad? Se va al garete. Tardo más en hacer las cosas, cometo más errores y, en el peor de los casos, hasta termino tirando la toalla y dejando la tarea a medias.
 
-# ¿Qué podemos hacer?
+## ¿Qué podemos hacer?
 
 Lo primero, claramente, tener empatia y respeto, igual que no se te ocurre meter prisa a un camarero cuando ves que esta corriendo arriba y abajo con bandejas llenas, no interrumpas a alguien que ves que tiene claros signos de estar concentrado.
 
@@ -57,7 +57,7 @@ Tambien vuelvo a recomendaros este enlace sobre como [comunicarse correctamente]
 
 Ahí sí, está claro que hay que hablar. Pero por favor, que sea algo realmente urgente, no una tonteria que podía esperar, y que puede hacer peligrar tu integridad física.
 
-# Documentación:
+## Documentación:
 
 1. Estudio de la Universidad de California sobre el tiempo que toma volver a concentrarse tras una interrupción: [Study on the Cost of Interruption](https://ics.uci.edu/~gmark/chi08-mark.pdf){:target="_blank"}
 

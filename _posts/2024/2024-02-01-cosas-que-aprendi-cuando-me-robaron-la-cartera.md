@@ -1,5 +1,5 @@
 ---
-title: "💸 Cosas que aprendí cuando me robaron la cartera 💸"
+title: "Lecciones del robo de mi cartera: seguridad cotidiana y AirTag"
 slug: cosas-que-aprendi-cuando-me-robaron-la-cartera
 authors:
   - "Marcos Ramírez"
@@ -13,12 +13,12 @@ pin: false
 toc: true
 excerpt: "Relato mi experiencia personal tras el robo de mi cartera en un supermercado, detallando el proceso de denuncia y las lecciones aprendidas sobre seguridad cotidiana. El ladrón aparentemente normal se quedó con más de 100€ en efectivo, mi DNI, tarjetas de crédito y objetos con valor sentimental. Las tres lecciones principales: no llevar objetos personales importantes en la cartera, usar un localizador Bluetooth como AirTag, y estar atento a las personas que te rodean en espacios públicos. También respondo preguntas frecuentes sobre qué hacer inmediatamente después de un robo, la utilidad de un localizador Bluetooth y cómo prevenir robos en espacios públicos."
 twitter_description: "Qué aprendí cuando me robaron la cartera en el supermercado: AirTag, denuncia y lecciones."
-description: "Aprende de mi experiencia tras el robo de mi cartera en un supermercado y cómo denunciar. Descubre lecciones de seguridad, usa AirTag y protege tus objetos personales. Lee más."
+description: "Aprende de mi experiencia tras el robo de mi cartera. Lecciones de seguridad, uso de AirTag y cómo denunciar. Protege tus objetos personales. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-# Lo que aprendí cuando me robaron la cartera
+## Lo que aprendí cuando me robaron la cartera
 
 A mediados de diciembre de 2023, un día como cualquier otro, fui al supermercado a hacer la compra. Como siempre, llevaba mi cartera en el bolsillo trasero del pantalón, con mi DNI, mis tarjetas de crédito, unos 120€ en efectivo, y algunos objetos personales.
 

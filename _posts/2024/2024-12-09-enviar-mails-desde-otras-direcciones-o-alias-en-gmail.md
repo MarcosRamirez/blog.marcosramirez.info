@@ -1,5 +1,5 @@
 ---
-title: "Enviar mails desde otras direcciones o alias en gmail"
+title: "Configurar alias de email en Gmail: guía actualizada paso a paso"
 slug: enviar-mails-desde-otras-direcciones-o-alias-en-gmail
 authors:
   - "Marcos Ramírez"
@@ -23,7 +23,7 @@ Esté será un post corto, pero lo dejo por escrito dado que la documentación d
 
 Básicamente, lo que hay que hacer es seguir [la documentación de Google](https://support.google.com/mail/answer/22370?hl=es#:~:text=Haz%20clic%20en%20la%20pesta%C3%B1a,la%20que%20quieras%20enviar%20mensajes.&text=Enviar%20verificaci%C3%B3n.) hasta el punto 6.
 
-# Paso 6 CORRECTO.
+## Paso 6 CORRECTO.
 
 Aquí es donde la documentación de google no está actualizada, ya que no aparece la opción de "Enviar verificación" que se menciona en la documentación.
 

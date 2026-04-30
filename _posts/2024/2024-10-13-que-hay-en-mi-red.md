@@ -1,5 +1,5 @@
 ---
-title: "¿Que hay en mi red?"
+title: "Mi infraestructura tecnológica doméstica: el setup completo"
 slug: que-hay-en-mi-red
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Realizo un recorrido detallado por mi infraestructura tecnológica doméstica y los servicios que autogestiono en mi día a día. Mi setup incluye NAS con TrueNAS y URBackup para almacenamiento y copias, servidor Media Center con Plex, Jellyfin, Immich y Frigate para contenido multimedia y seguridad, red y seguridad con piHole, AdGuard, WireGuard y Wazuh, automatización con n8n, Sonarr, Radarr y Jackett, bases de datos con PostgreSQL, MariaDB, MongoDB, Redis y ElasticSearch, domótica con Home Assistant y Asterisk, gestión documental con paperless-ng, mensajería con RabbitMQ y Gotify, e inteligencia artificial con Ollama, Whisper, Piper y LobeChat."
 twitter_description: "Mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama y más."
-description: "Descubre mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama y más servicios. Explora mi setup completo. Lee más."
+description: "Mi infraestructura tecnológica doméstica: NAS, Docker, Home Assistant, Plex, Ollama, AdGuard, n8n y más servicios. Descubre mi setup completo. Lee más."
 permalink: /:slug/
 ---
 ![{{ page.image_alt }}]({{ page.image }})
@@ -30,7 +30,7 @@ Antes que nada, algunas generalidades:
 - Los servidores corren <a href="https://ubuntu.com" target="_blank">Ubuntu Server</a>, y algún <a href="https://www.debian.org" target="_blank">Debian</a> queda por ahí aún
 - La mayoría de servidores escriben/leen todo directamente en el NAS
 
-# NAS (Network Attached Storage)
+## NAS (Network Attached Storage)
 
 Básicamente, es un disco duro conectado a la red, que se puede acceder desde cualquier dispositivo conectado a la red.
 
@@ -40,7 +40,7 @@ Aquí almaceno todo el contenido multimedia, BackUps, etc.. y todo con redundanc
 - <a href="https://www.urbackup.org/" target="_blank">URBackup</a> - Soluciones de copia de seguridad y restauración para servidores y estaciones de trabajo.
 - <a href="https://deluge-torrent.org/" target="_blank">deluged</a> - Cliente de torrents ligero y fácil de usar.
 
-# Media Center
+## Media Center
 
 Este servidor se encarga de servir contenido multimedia, y de la gestión de las caras de seguridad, dado que requieren de procesamiento de imagen, o transcodificaciíon, y algo de IA para las cámaras, tiene su propia tarjeta gráfica para ello.
 
@@ -49,7 +49,7 @@ Este servidor se encarga de servir contenido multimedia, y de la gestión de las
 - <a href="https://immich.app/" target="_blank">Immich</a> - Solución de almacenamiento de fotos y videos basada en la nube.
 - <a href="https://frigate.video/" target="_blank">Frigate</a> - Sistema de detección de objetos para cámaras de seguridad.
 
-# Networking/Security
+## Networking/Security
 
 Este se servidor se encarga de la gestión de la red, y de la seguridad de la red, y de la gestión de los dispositivos conectados a la red.
 
@@ -61,7 +61,7 @@ Este se servidor se encarga de la gestión de la red, y de la seguridad de la re
 - <a href="https://www.cloudflare.com/es-es/learning/dns/glossary/dynamic-dns/" target="_blank">CloudFlare DDNS</a> - Cliente del servicio de DDNS de CloudFlare.
 - <a href="https://networkupstools.org/" target="_blank">Network UPS Tools (NUT)</a>: Software para la gestión de UPS (SAI)
 
-# Workers
+## Workers
 
 Esta es una de mis máquinas favoritas, por no desmerecer a las demás xD, quienes me conocen, saben que me encanta automatizar cosas, y esta máquina es la que se encarga de automatizar la mayoría de cosas.
 
@@ -72,7 +72,7 @@ Aparte de los servicios aquí listados, también ejecutra scripts propios, para 
 - <a href="https://radarr.video/" target="_blank">Radarr</a> - Gestor de descargas de películas para organizar y descargar tus películas favoritas.
 - <a href="https://github.com/Jackett/Jackett" target="_blank">Jackett</a> - Buscador de torrents para encontrar y descargar torrents de forma fácil.
 
-# Bases de datos
+## Bases de datos
 
 Dado que necesito varias bases de datos, tengo un servidor potente, solo para ellas, sobretodo para el poker, que es la que realmente quiero que vuele, ya aprovecho y centralizo aquí las bases de datos para el resto de servicios.
 
@@ -82,28 +82,28 @@ Dado que necesito varias bases de datos, tengo un servidor potente, solo para el
 - <a href="https://redis.io/" target="_blank">redis</a> - Base de datos en memoria de código abierto.
 - <a href="https://www.elastic.co/" target="_blank">ElasticSearch</a> - Motor de búsqueda y análisis de datos de código abierto.
 
-# Domotica 
+## Domotica 
 
 Poco que decir aquí, un server que se encarga de correr Home Assistant, y Asterisk, para la gestión de la domótica, y de la telefonía.
 
 - <a href="https://www.home-assistant.io/" target="_blank">Home Assistant</a> - Plataforma de automatización del hogar de código abierto.
 - <a href="https://www.asterisk.org/" target="_blank">Asterisk</a> - Sistema de telefonía IP de código abierto.
 
-# General Information
+## General Information
 
 Aquí es donde seguramente me deje algunas cosas, pero básicamente, son los servicios que uso, últimamente estoy probando paperless, para gestión ducumental (facturas, recibos, etc), que es una maravilla, y Grafana, para la visualización de datos, y todo lo relacionado con la monitorización.
 
 - <a href="https://paperless-ng.readthedocs.io/en/latest/" target="_blank">paperless-ng</a> - Sistema de gestión de documentos de código abierto.
 - <a href="https://grafana.com/" target="_blank">Grafana</a> - Plataforma de visualización de datos de código abierto.
 
-# Mensajes
+## Mensajes
 
 Para todo lo relacionado con la comunicación, tanto entre servicios, como con los usuarios, y para las notificaciones.
 
 - <a href="https://www.rabbitmq.com/" target="_blank">RabbitMQ</a> - Servidor de mensajería de código abierto.
 - <a href="https://gotify.net/" target="_blank">Gotify</a> - Sistema de notificaciones de código abierto.
 
-# Inteligencia Artificial
+## Inteligencia Artificial
 
 Aún no lo tengo operativo, pero es mi próximo paso, lo que tengo planeado, es solventar una serie de carencias de Alexa y Google Home en la integración con Home Assistant, que básicamente, es que no tienen contexto, ni recuerdan, y para ello, pretendo crear mi propio asistente de voz local. ¿como?
 

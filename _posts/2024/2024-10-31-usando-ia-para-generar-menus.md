@@ -1,5 +1,5 @@
 ---
-title: "Usando IA para generar menús"
+title: "Genera menús semanales equilibrados con Inteligencia Artificial"
 slug: usando-ia-para-generar-menus
 authors:
   - "Marcos Ramírez"
@@ -13,7 +13,7 @@ pin: false
 toc: true
 excerpt: "Detallo un método práctico para utilizar la Inteligencia Artificial en la planificación de menús semanales equilibrados. Usando ChatGPT versión de pago o gratuita con ajustes, puedes generar menús para dos personas considerando restricciones como diabetes, preferencias por temporada, hidratos de carbono nightly y limitaciones específicas. El proceso incluye dar instrucciones detalladas en formato Markdown con plantilla HTML para generar el menú, y proporcionar un listado organizado de platos por categorías como guisos, legumbres, carnes, pescados, pastas, ensaladas y más. También explico cómo adaptar las instrucciones para la versión gratuita reduciendo la carga cognitiva de la IA."
 twitter_description: "Cómo usar IA para planificar menús semanales equilibrados: método con ChatGPT."
-description: "Aprende a usar IA para generar menús semanales equilibrados para diabéticos y familias. Planifica con ChatGPT paso a paso. Descubre cómo."
+description: "Usa la Inteligencia Artificial para planificar menús semanales equilibrados. Aprende a usar ChatGPT para generar planes de comida para diabéticos."
 permalink: /:slug/
 ---
 
@@ -23,12 +23,12 @@ Hablando con la endocrina de mi madre, me dí cuenta de lo problemático que es,
 
 Así que voy a explicar como puedes hacerlo de la manera más fácil posible.
 
-# Requisitos  
+## Requisitos  
 
 - Una cuenta de <a href="https://chat.openai.com" target="_blank">ChatGPT</a> (<a href="https://openai.com" target="_blank">OpenAI</a>)
 - Un editor de texto
 
-# Consideraciones 
+## Consideraciones 
 
 Yo uso la versión de pago de ChatGPT, por lo que _es posible_ que instrucciones tan profundas como las que uso, no funcionen en la versión gratuita, pero os dejo algunos tips para que si funcione: 
 
@@ -45,7 +45,7 @@ O, algo útil que se me acaba de ocurrir, que te haga la lista de la compra de c
 
 
 
-# Paso 1: Darle las instrucciones para que genere el menú
+## Paso 1: Darle las instrucciones para que genere el menú
 
 Este es el paso más importante, ya que es el que define el resultado final, así que te recomiendo que lo leas varias veces, y que lo modifiques a tu gusto, para que el resultado final sea el que deseas.
 
@@ -157,7 +157,7 @@ Hola, voy a darte un listado de comidas, en formato Markdown, verás que están 
 ```
 
 
-# Paso 2: Darle el listado de platos.
+## Paso 2: Darle el listado de platos.
 
 Ahora que ya sabe que tiene que hacer, le damos el listado de platos que tiene que usar, para generar los menús.
 De hecho, la misma IA de pedirá que le des el listado.
@@ -170,7 +170,7 @@ Lo único "especial" es que la casquería, es un "subgrupo" de carnes, cada # in
 Aquí, por ejemplo, que es algo que pensé en hacer, pero no hice, se puede añadir un listado de guarniciones.
 
 ```
-# Guisos
+## Guisos
 
 Cocido
 Estofado de pollo
@@ -180,7 +180,7 @@ Carrillada
 Caldereta
 Callos
 
-# Legumbres
+## Legumbres
 
 Empedrao
 Judías blancas
@@ -191,7 +191,7 @@ Potaje
 Guisantes/Habas con jamón y huevo duro
 Patatas con arroz y bacalao
 
-# Carnes
+## Carnes
 
 Chuletas de cerdo
 Lomo
@@ -214,7 +214,7 @@ Pavo
 Hígado
 Sesitos
 
-# Pasta
+## Pasta
 
 Macarrones con jamón
 Macarrones con carne picada
@@ -229,7 +229,7 @@ Quiche
 Pan de ajo
 Pizza casera
 
-# Ensaladas
+## Ensaladas
 
 Ensalada de pollo
 de garbanzos
@@ -238,7 +238,7 @@ Ensalada mixta
 Ensaladilla rusa
 Ensalada campera
 
-# Verduras 
+## Verduras 
 
 Coliflor
 Broccoli
@@ -249,7 +249,7 @@ Repollo
 Acelgas 
 Coles de Brusela
 
-# Pescados
+## Pescados
 
 Merluza en salsa
 Emperador
@@ -259,14 +259,14 @@ Atún
 Palometa
 Salmon
 
-# Arroces 
+## Arroces 
 
 Paella
 Arroz a la cubana
 Arroz con pollo
 Risotto
 
-# Tortillas / Huevos
+## Tortillas / Huevos
 
 Tortilla de patata
 Tortilla francesa
@@ -276,7 +276,7 @@ Tortilla con jamón y queso
 Huevos fritos
 Huevos revueltos
 
-# Sopas 
+## Sopas 
 
 Sopa de pasta
 Crema calabacín
@@ -285,7 +285,7 @@ Puré de verduras
 Salmorejo
 Gazpacho
 
-# Sandwiches / similares 
+## Sandwiches / similares 
 
 Sandwich jamón y queso 
 Sandwich cubano
@@ -293,14 +293,14 @@ Empanada de carne
 Empanada de Atún
 
 
-# Comida basura 
+## Comida basura 
 
 Pizza Congelada
 San jacobos
 Croquetas
 Empanadillas
 
-# Postres 
+## Postres 
 
 Tarta de queso
 Flan
