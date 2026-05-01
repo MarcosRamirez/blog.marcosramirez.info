@@ -36,7 +36,7 @@ Before any commit or push, you MUST verify ALL of the following:
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
-- **FAQ Section:** 3-4 questions to capture featured snippets. Use HTML `<details>`/`<summary>` tags for each Q&A — this creates collapsible entries and is compatible with Jekyll/Kramdown:
+- **FAQ Section:** 3-4 questions to capture featured snippets. **Use HTML not markdown** `<details>`/`<summary>` tags for each Q&A — this creates collapsible entries and is compatible with Jekyll/Kramdown:
 
 ```html
 <details>
