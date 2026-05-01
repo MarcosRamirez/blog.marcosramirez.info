@@ -82,7 +82,7 @@ bundle exec jekyll serve
 # → Available at http://localhost:4000
 
 # Generate a header image for a post
-node _tools/image-generator/image_generator.js \
+node .agents/skills/create-images/scripts/image_generator.js \
   --prompt "<visual description in English, no text, no watermarks>" \
   --output "assets/img/headers/YYYY/post-slug.webp"
 # The script adds a provider suffix to the filename (e.g. -nanobanana.webp)
@@ -135,7 +135,7 @@ permalink: /:slug/
 
 Main categories (exactly **one** per post): `Tecnología`, `Finanzas Personales`, `Personal`, `Productividad y Hacks`
 
-Subcategories (add all that apply): `Inteligencia Artificial`, `Software y Apps`, `Sistemas`, `Redes e Infraestructura`, `Desarrollo Web`, `Bancos y Fintech`, `Ahorro e Inversión`, `Automatización`, `Life Hacks`, `Metas y Resúmenes`, `Reflexiones y Opinión`, `Carrera Profesional`, `Recomendaciones`, `Desarrollo Profesional`
+Subcategories (add all that apply): `Inteligencia Artificial`, `Software y Apps`, `Sistemas`, `Redes e Infraestructura`, `Desarrollo Web`, `Bancos y Fintech`, `Ahorro e Inversión`, `Automatización`, `Life Hacks`, `Metas y Resúmenes`, `Reflexiones y Opinión`, `Carrera Profesional`, `Recomendaciones`, `Desarrollo Profesional`, `Negocios y Digitalización`, `Verifactu`, `Home Lab`
 
 **Never write "IA"** — always use "Inteligencia Artificial" (applies to body, headings, frontmatter).
 
@@ -176,9 +176,18 @@ Never add `#` headings in post body — Chirpy auto-generates H1 from frontmatte
 
 ## Publication Scheduling
 
-- `.proximafecha` tracks `proxima_fecha` (next Monday) and `proxima_fecha_personal` (next Friday)
-- General posts publish **Monday 08:30 +0200**; `Personal` category posts publish **Friday 08:30 +0200**
-- **Only update `.proximafecha` when publishing** (moving to `_posts/` or creating directly there) — drafts do not affect it
+Dates are calculated dynamically by the `publisher` skill — no `.proximafecha` file.
+
+| Category rule | Day |
+|---|---|
+| Subcategory `Home Lab` | Next free **Friday** at 08:30 +0200 |
+| Main category `Personal` | Next free **Sunday** at 08:30 +0200 |
+| Everything else | Next free **any day** at 08:30 +0200 |
+
+```bash
+node .agents/skills/publisher/scripts/schedule.js next home-lab   # or personal / general
+node .agents/skills/publisher/scripts/schedule.js publish <slug>  # moves draft to _posts/
+```
 
 ## Pre-commit Hook
 
@@ -215,6 +224,8 @@ Skills in `.agents/skills/` define editorial workflows. Load the relevant skill 
 | `SEO` | Optimizing posts for search engines |
 | `jekyll` | Verifying frontmatter and Jekyll compatibility |
 | `create-images` | Generating header images with AI |
+| `lead-capture` | Determining CTA tier and copy for any post |
+| `publisher` | Publishing drafts / calculating next free date |
 | `git` | Writing commit messages |
 
 ### Image generation workflow
@@ -227,11 +238,12 @@ Skills in `.agents/skills/` define editorial workflows. Load the relevant skill 
 
 ### Publishing a draft workflow
 
-1. Change `date` in frontmatter to the publication date
-2. Generate header image (create-images skill)
-3. Update frontmatter `image:` with `finalPath`
-4. Apply SEO skill optimizations
-5. Move file from `_drafts/` to `_posts/YYYY/` and rename to match publication date
-6. Update `.proximafecha`
-7. Commit with type `content`
-8. Push only if explicitly requested
+1. Generate header image (create-images skill)
+2. Update frontmatter `image:` with `finalPath`
+3. Apply SEO skill optimizations
+4. Run publisher script (auto-calculates date, moves file to `_posts/YYYY/`):
+   ```bash
+   node .agents/skills/publisher/scripts/schedule.js publish <slug>
+   ```
+5. Commit with type `content`
+6. Push only if explicitly requested

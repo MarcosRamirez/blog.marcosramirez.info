@@ -103,7 +103,7 @@ If no changes were needed, say: "No se han encontrado errores."
 |----------|-----------|------|--------|
 | "esta es la razon" | "esta es la razón" | Ortografía | Missing accent |
 | "hacer back-up" | "hacer backup" | Estilo | Established anglicism written as one word |
-| "N8N tiene nodos de IA integrados. N8N permite..." | "N8N tiene nodos de IA integrados. Permite..." | Repetición | Repeated subject in consecutive sentences |
+| "N8N tiene nodos de IA integrados. N8N permite..." | "N8N tiene nodos de Inteligencia Artificial integrados. Permite..." | Repetición + Terminología | Repeated subject removed; IA → Inteligencia Artificial |
 | "en el momento en el que lo instalas" | "cuando lo instalas" | Claridad | Redundant phrase |
 | "excellent" | "excelente" | Ortografía | English word used instead of Spanish |
 | "📅3 febrero: Lanzamiento" | "📅 3 febrero: Lanzamiento" | Emojis | Missing space after emoji |

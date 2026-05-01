@@ -162,9 +162,8 @@ NOTE: Use "Inteligencia Artificial", NOT "IA".
 - [ ] Checked: ¿Es sobre IA? → "Inteligencia Artificial" añadida
 - [ ] Checked: ¿Es sobre sistemas/self-hosting? → "Sistemas" añadida
 - [ ] Checked: ¿Es sobre desarrollo? → "Desarrollo Web" o "Software y Apps" añadida
-- [ ] Word count is at least 1200 words (excluding code blocks)
-- [ ] `Personal` main category posts use Friday 08:30:00 +0200
-- [ ] Non-`Personal` posts use Monday 08:30:00 +0200
+- [ ] Ran counter script and validated all field values against rules table
+- [ ] Verified publication date follows publisher skill rules (Home Lab → Friday, Personal → Sunday, else → next free date)
 - [ ] Verified emoji usage follows Emoji Usage Guidelines
 - [ ] Verified `image_alt` is set in frontmatter (required for SEO/accessibility)
 - [ ] Verified NO instances of "IA" (must use "Inteligencia Artificial")
@@ -245,6 +244,26 @@ Incorrect example:
 
 **⚠️ Key distinction:** excerpt is prose (words) for human readers; description is a short pitch (characters) for search engines. They serve different audiences and have different lengths.
 
+### Verify Lengths with Counter Script
+
+**⚠️ Do NOT count manually.** Use the counter script to get raw numbers:
+
+```bash
+node .agents/skills/copywriting/scripts/counter.js <file>
+```
+
+The script returns JSON with counts for every field. The skill must validate these values against the rules below:
+
+| Field | What to check | Rule |
+|---|---|---|
+| `title.characters` | Length of title | No explicit limit, keep concise |
+| `excerpt.words` | Word count of excerpt | 150-300 words |
+| `excerpt.pctOfBody` | Excerpt as % of body | 20-30% |
+| `excerpt.characters` | Character count of excerpt | For reference |
+| `description.characters` | Length of description (SEO meta description) | 140-155 characters |
+| `twitter_description.characters` | Length of twitter description | ≤160 characters |
+| `body.words` | Body word count (excl. code blocks) | ≥1200 words |
+
 ### Post Length Requirement
 
 **Minimum: 1200 words of body content**
@@ -275,7 +294,12 @@ Drafts are located in `_drafts/` with the name `YYYY-MM-DD-slug.md`.
 1. **Generate image:** Once you have the post content, create the image with create-images skill (1900x478px, .webp format).
 2. **Update frontmatter:** Add the generated image path.
 3. **Review SEO:** Use the SEO skill to optimize the post (image alt, links, FAQ, etc.).
-4. **Publish:** Load the publisher skill and run the schedule script:
+4. **Verify lengths:** Run the counter script and validate the numbers against the rules table above:
+   ```bash
+   node .agents/skills/copywriting/scripts/counter.js _drafts/YYYY-MM-DD-slug.md
+   ```
+   Adjust any field that doesn't meet the constraints, then re-run.
+5. **Publish:** Load the publisher skill and run the schedule script:
    ```bash
    # Auto-calculate date from categories
    node .agents/skills/publisher/scripts/schedule.js publish <draft-slug>
@@ -283,9 +307,18 @@ Drafts are located in `_drafts/` with the name `YYYY-MM-DD-slug.md`.
    # Or use a specific custom date
    node .agents/skills/publisher/scripts/schedule.js publish <draft-slug> 2026-07-14
    ```
-   The script auto-detects categories, calculates the correct date, updates frontmatter, and moves the draft to `_posts/YYYY/YYYY-MM-DD-slug.md`.
-5. **Commit:** Include the change in the commit with type `content`.
-6. **Push:** Only when the user explicitly indicates.
+    The script auto-detects categories, calculates the correct date, updates frontmatter, and moves the draft to `_posts/YYYY/YYYY-MM-DD-slug.md`.
+ 6. **Commit:** Include the change in the commit with type `content`.
+ 7. **Push:** Only when the user explicitly indicates.
+
+### Modifying Existing Posts
+
+When editing or updating a post that already exists in `_posts/`:
+
+- Add or update the `last_modified_at` field with the current date and time
+- Format: same as `date` — `YYYY-MM-DD HH:MM:SS +0200`
+- Example: `last_modified_at: 2026-05-01 10:00:00 +0200`
+- Do NOT set `last_modified_at` when creating a new post for the first time
 
 ### Style Instructions (Mimicry)
 

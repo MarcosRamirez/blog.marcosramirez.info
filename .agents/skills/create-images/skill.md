@@ -65,7 +65,7 @@ The `--output` path you pass does NOT include the suffix. The script adds the pr
 | Hugging Face (fallback) | `-huggingface` | `my-slug-huggingface.webp` |
 
 **Correct workflow:**
-1. Run: `node .agents/skills/create-images/scripts/image_generator.js --prompt "..." --output "/assets/img/headers/2026/my-slug.webp"`
+1. Run: `node .agents/skills/create-images/scripts/image_generator.js --prompt "..." --output "assets/img/headers/2026/my-slug.webp"`
 2. Script returns JSON with `finalPath` — **THIS is the actual file path**
 3. Copy the `finalPath` value exactly into frontmatter `image:` field
 4. Do NOT use the `--output` path directly (it lacks the suffix)
@@ -73,7 +73,7 @@ The `--output` path you pass does NOT include the suffix. The script adds the pr
 **Example:**
 ```bash
 # Command:
---output "/assets/img/headers/2026/ansible-automatizacion.webp"
+--output "assets/img/headers/2026/ansible-automatizacion.webp"
 
 # Actual file created:
 /assets/img/headers/2026/ansible-automatizacion-nanobanana.webp
@@ -91,7 +91,7 @@ If you edit a post whose header image does NOT have a provider suffix (e.g., `my
 
 Run the script with the same slug base to regenerate:
 ```bash
-node .agents/skills/create-images/scripts/image_generator.js --prompt "..." --output "/assets/img/headers/2026/my-slug.webp"
+node .agents/skills/create-images/scripts/image_generator.js --prompt "..." --output "assets/img/headers/2026/my-slug.webp"
 ```
 
 ### How to use it

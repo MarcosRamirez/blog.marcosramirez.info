@@ -26,17 +26,25 @@ Before any commit or push, you MUST verify ALL of the following:
 
 | Field | Limit | How to verify |
 |-------|-------|---------------|
-| `description` | 140-155 characters | `echo "text" | wc -c` (count manually, do NOT estimate) |
-| `title` | 55-65 characters | Count characters manually |
+| `title` | 55-65 characters | Run counter script |
+| `description` | 140-155 characters | Run counter script |
 | Tags | 3-8 tags, NO product name | Check list |
 | `image_alt` | Must exist | Check frontmatter |
 
 **Do NOT commit if any of these fail. Fix first.**
 
+Use the counter script to get all counts at once:
+
+```bash
+node .agents/skills/copywriting/scripts/counter.js <file>
+```
+
+The script returns JSON with `title.characters`, `description.characters`, and all other field counts. Validate the numbers against the limits above.
+
 - **Metadata (Limits):**
   - **Title Tag:** Between 55 and 65 characters (prioritize keyword at the start).
   - **Meta Description (description):** Between 140 and 155 characters (shown to search results). Do NOT exceed 160 characters. This is a separate frontmatter field from excerpt.
-  - **Verification:** Use `echo "text" | wc -c` or count manually — do NOT estimate.
+  - **Verification:** Run `node .agents/skills/copywriting/scripts/counter.js <file>` — do NOT estimate.
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
@@ -71,7 +79,7 @@ When writing the `description` field for a post, follow these mandatory rules:
 | **Keywords** | Naturally include the primary keyword near the beginning of the text. |
 | **Tone** | Use an engaging, professional, and action-oriented tone. |
 | **Structure** | Use 'Problem-Agitation-Solution' OR 'Benefit-driven' approach. |
-| **CTA** | End with a strong Call to Action: 'Read more,' 'Learn how,' 'Discover the secrets,' or 'Get started today.' |
+| **CTA** | End with a strong Call to Action in Spanish: 'Lee más,' 'Aprende cómo,' 'Descubre los secretos,' or 'Empieza hoy.' |
 | **Formatting** | Do NOT use double quotes (`"`) within the description to avoid HTML parsing errors. Use plain text only. |
 
 #### Structure Templates:
@@ -90,21 +98,21 @@ When writing the `description` field for a post, follow these mandatory rules:
 
 **Tutorial Post (Benefit-Driven):**
 ```yaml
-description: "Learn how to use pct and qm commands in Proxmox. Complete guide to manage LXC containers and VMs via CLI in your Home Lab. Read more."
+description: "Aprende a usar los comandos pct y qm en Proxmox. Guía completa para gestionar contenedores LXC y máquinas virtuales mediante CLI. Descúbrelo aquí."
 ```
-(152 characters)
+(146 characters)
 
 **Opinion Post (Problem-Agitation-Solution):**
 ```yaml
-description: "Why I chose Proxmox for my Home Lab virtualization. Compare Proxmox vs ESXi, Hyper-V and Docker standalone to discover the best solution. Read more."
+description: "Por qué elegí Proxmox para mi Home Lab. Comparativa completa: Proxmox vs ESXi, Hyper-V y Docker standalone para encontrar la mejor solución. Lee más."
 ```
-(154 characters)
+(149 characters)
 
 **Finance Post (Benefit-Driven):**
 ```yaml
-description: "Frugality vs Minimalism: real differences. Learn how frugality lets you live better while spending less without giving up what matters. Discover the secrets."
+description: "Frugalismo vs minimalismo: diferencias reales. Aprende a vivir mejor gastando menos sin renunciar a lo que más importa. Descubre los secretos."
 ```
-(155 characters)
+(142 characters)
 
 #### YAML Formatting Note:
 - In YAML frontmatter, use double quotes around the entire description: `description: "text here"`
@@ -112,12 +120,12 @@ description: "Frugality vs Minimalism: real differences. Learn how frugality let
 - Use plain text only within the description.
 
 #### Verification Checklist:
-- [ ] **`description` length verified: 140-155 characters** — Count with `echo "text" | wc -c` (do NOT estimate)
-- [ ] **`title` length: 55–65 characters** — Count manually
+- [ ] **`description` length verified: 140-155 characters** — Run counter script
+- [ ] **`title` length: 55–65 characters** — Run counter script
 - [ ] Primary keyword appears near the beginning of `description`
 - [ ] Tone is engaging, professional, action-oriented
 - [ ] Structure follows Problem-Agitation-Solution OR Benefit-driven
-- [ ] Ends with proper CTA (Read more/Learn how/Discover the secrets/Get started today)
+- [ ] Ends with proper CTA in Spanish (Lee más/Aprende cómo/Descubre los secretos/Empieza hoy)
 - [ ] NO double quotes (`"`) inside the description text
 - [ ] YAML format uses double quotes: `description: "..."`
 - [ ] `image_alt` field exists in frontmatter

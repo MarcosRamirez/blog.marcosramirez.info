@@ -36,9 +36,9 @@ This is mandatory for security and to avoid passing "link juice" to external sit
 - If the post body mentions a topic already covered in another blog post, link to it.
 - Use the Jekyll native tag: `{% post_url YYYY/YYYY-MM-DD-slug %}`
 - **All links (internal and external) must have** `{:target="_blank"}`
-- The filename must use hyphens instead of spaces:
-  - ✅ `{% post_url 2025-03-01-Resumen-Febrero-2025 %}`
-  - ❌ `{% post_url 2025-03-01-Resumen Febrero 2025 %}`
+- The filename must use hyphens instead of spaces and always include the year subfolder:
+  - ✅ `{% post_url 2025/2025-03-01-resumen-febrero-2025 %}`
+  - ❌ `{% post_url 2025-03-01-Resumen Febrero 2025 %}` (missing year folder, has spaces)
 - If you can't find a post that fits clearly, don't invent the link.
 
 ### 6. Format Summary
@@ -72,7 +72,7 @@ Any link that includes affiliate/referral parameters must use `rel="sponsored"`.
 
 **Correct - Link to own domain:**
 ```markdown
-Check out [my post about Home Assistant]({% post_url 2026/2026-06-01-home-assistant-tu-cerebro-de-domotica %}){:target="_blank"} for more details.
+Check out [my post about Home Assistant]({% post_url 2026/2026-06-01-home-assistant-guia-domotica %}){:target="_blank"} for more details.
 ```
 
 **Correct - Internal link:**
