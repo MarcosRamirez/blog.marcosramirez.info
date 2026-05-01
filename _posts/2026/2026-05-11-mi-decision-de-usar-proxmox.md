@@ -7,7 +7,7 @@ authors:
 date: 2026-05-11 08:30:00 +0200
 image: /assets/img/headers/mi-decision-de-usar-proxmox.webp
 image_alt: "Interfaz de Proxmox VE mostrando máquinas virtuales y contenedores, representando la virtualización híbrida"
-categories: [Tecnología, Redes e Infraestructura]
+categories: [Tecnología, Home Lab, Redes e Infraestructura]
 tags: [virtualizacion, contenedores, infraestructura, servidores, homelab]
 pin: false
 toc: true

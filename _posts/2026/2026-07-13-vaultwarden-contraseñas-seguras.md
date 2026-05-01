@@ -7,7 +7,7 @@ authors:
 date: 2026-07-13 08:30:00 +0200
 image: /assets/img/headers/2026/vaultwarden-contraseñas-seguras-nanobanana.webp
 image_alt: "Logo de Vaultwarden para gestionar contraseñas"
-categories: [Tecnología]
+categories: [Tecnología, Home Lab]
 tags: [seguridad, contraseñas, privacidad, Software y Apps]
 pin: false
 toc: true

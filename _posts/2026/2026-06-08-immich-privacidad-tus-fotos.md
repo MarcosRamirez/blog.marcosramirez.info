@@ -7,7 +7,7 @@ authors:
 date: 2026-06-08 08:30:00 +0200
 image: /assets/img/headers/2026/immich-privacidad-tus-fotos-nanobanana.webp
 image_alt: "Logo de Immich para gestionar fotos privadas"
-categories: [Tecnología, Automatización]
+categories: [Tecnología, Home Lab, Automatización]
 tags: [immich, google-photos, fotos, privacidad, self-hosted, backup]
 pin: false
 toc: true

@@ -7,7 +7,7 @@ authors:
 date: 2026-05-18 08:30:00 +0200
 image: /assets/img/headers/2026/racks-mini-racks-home-lab-nanobanana.webp
 image_alt: "Rack de servidor con mini rack para Home Lab, mostrando organización de equipos"
-categories: [Tecnología, Sistemas]
+categories: [Tecnología, Home Lab, Sistemas]
 tags: [home-lab, infraestructura, servidores, organización]
 pin: false
 toc: true

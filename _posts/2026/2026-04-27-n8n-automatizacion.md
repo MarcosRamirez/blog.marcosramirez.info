@@ -7,7 +7,7 @@ authors:
 date: 2026-04-27 08:30:00 +0200
 image: /assets/img/headers/2026/n8n-automatizacion-nanobanana.webp
 image_alt: "Logo de N8N con iconos de automatización, representando flujos de trabajo conectados"
-categories: [Tecnología]
+categories: [Tecnología, Home Lab]
 tags: [automatización, privacidad, Software y Apps, Productividad y Hacks]
 pin: false
 toc: true

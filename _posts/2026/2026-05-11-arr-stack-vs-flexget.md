@@ -7,7 +7,7 @@ authors:
 date: 2026-05-11 08:30:00 +0200
 image: /assets/img/headers/arr-stack-vs-flexget-nanobanana.webp
 image_alt: "Comparación visual entre el stack *arr y FlexGet"
-categories: [Tecnología]
+categories: [Tecnología, Home Lab]
 tags: [Sistemas, Software y Apps, Automatización]
 pin: false
 toc: true

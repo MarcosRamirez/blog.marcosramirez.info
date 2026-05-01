@@ -7,7 +7,7 @@ authors:
 date: 2026-06-01 08:30:00 +0200
 image: /assets/img/headers/2026-home-assistant-guia-domotica-nanobanana.webp
 image_alt: "Logo de Home Assistant para domótica"
-categories: [Tecnología, Automatización]
+categories: [Tecnología, Home Lab, Automatización]
 tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
 pin: false
 toc: true

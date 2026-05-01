@@ -7,7 +7,7 @@ authors:
 date: 2026-05-13 08:30:00 +0200
 image: /assets/img/headers/comandos-basicos-proxmox-nanobanana.webp
 image_alt: "Terminal de Linux mostrando comandos pct y qm de Proxmox para gestión de contenedores y máquinas virtuales"
-categories: [Tecnología, Sistemas, Redes e Infraestructura]
+categories: [Tecnología, Home Lab, Sistemas, Redes e Infraestructura]
 tags: [cli, pct, qm, lxc, qemu, virtualizacion, homelab]
 pin: false
 toc: true

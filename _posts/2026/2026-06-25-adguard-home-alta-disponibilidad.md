@@ -7,7 +7,7 @@ authors:
 date: 2026-06-25 08:30:00 +0200
 image: /assets/img/headers/2026-adguard-home-alta-disponibilidad-nanobanana.webp
 image_alt: "Logo de AdGuard Home con alta disponibilidad"
-categories: [Tecnología, Redes e Infraestructura]
+categories: [Tecnología, Home Lab, Redes e Infraestructura]
 tags: [adguard, dns, alta-disponibilidad, redundancia, sync]
 pin: false
 toc: true
