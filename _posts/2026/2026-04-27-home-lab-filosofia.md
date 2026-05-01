@@ -43,6 +43,7 @@ Próximos posts de la serie (fecha de publicación):
 - 13 de mayo de 2026: Comandos básicos de Proxmox: gestión de LXC y VMs vía CLI
 - 18 de mayo de 2026: AdGuard Home: tu propio bloqueador de publicidad y DNS
 - 18 de mayo de 2026: Racks y mini racks para tu Home Lab: guía completa
+- 22 de mayo de 2026: Jellyfin vs Plex vs Stremio: Cuál elegir en 2026
 - 25 de mayo de 2026: Las razones por las que no uso los helper scripts de Proxmox
 - 1 de junio de 2026: Home Assistant: Tu cerebro de domótica en un solo lugar
 - 8 de junio de 2026: Immich: fotos privadas en tu servidor, sin suscripción

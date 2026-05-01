@@ -36,6 +36,33 @@ toc: true
 pin: false
 twitter_description: "Short description for Twitter"
 description: "Meta description for SEO (140-155 chars)"
+last_modified_at: 2026-05-01 10:00:00 +0200
+permalink: /:slug/
+---
+```
+
+Or with multiple authors:
+
+```yaml
+---
+title: "Post title"
+slug: slug-name
+date: 2026-04-26 09:30:00 +0200
+excerpt: "Short summary without markdown"
+authors:
+  - Marcos Ramírez
+  - Lucía
+categories:
+  - Tecnología
+tags:
+  - example
+image: /assets/img/headers/2026/image-name.webp
+image_alt: "Alternative image description"
+toc: true
+pin: false
+twitter_description: "Short description for Twitter"
+description: "Meta description for SEO (140-155 chars)"
+last_modified_at: 2026-05-01 10:00:00 +0200
 permalink: /:slug/
 ---
 ```
@@ -72,6 +99,13 @@ permalink: /:slug/
 - Use **authors** (plural) when there are two or more authors
 - `slug` is always required
 - `permalink` is always `/:slug/` — no exceptions. Never use a hardcoded URL like `/my-post/`
+
+### last_modified_at
+
+- **Optional field** — omit on new post creation
+- Set when updating or modifying an existing post already in `_posts/`
+- Format: same as `date` — `YYYY-MM-DD HH:MM:SS +0200`
+- Example: `last_modified_at: 2026-05-01 10:00:00 +0200`
 
 ### FrontMatter YAML Characters
 
