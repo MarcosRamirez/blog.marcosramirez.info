@@ -46,6 +46,8 @@ layout: compress
 
   {% if post.summary %}
     <summary>{{ post.summary | strip }}</summary>
+  {% elsif post.description %}
+    <summary>{{ post.description | strip_html | truncate: 400 }}</summary>
   {% else %}
     <summary>
       {% include no-linenos.html content=post.content %}
