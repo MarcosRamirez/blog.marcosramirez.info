@@ -1,7 +1,7 @@
 ---
 title: "RouteLLM: routing automático de LLMs para profesionales"
 slug: routellm-router-ia-automatico
-date: 2026-06-01 09:00:00 +0200
+date: 2026-05-06 08:30:00 +0200
 authors:
   - Marcos Ramírez
   - Lucía
