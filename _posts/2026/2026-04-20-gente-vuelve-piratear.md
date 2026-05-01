@@ -7,7 +7,7 @@ authors:
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/2026/gente-vuelve-piratear-nanobanana.webp
 image_alt: "Servidor casero con aplicaciones de streaming, representando el resurgimiento del self-hosted"
-categories: [Tecnología, Personal]
+categories: [Tecnología, Reflexiones y Opinión]
 tags: [streaming, suscripciones, pirateria, entretenimiento, costes, contenidos]
 pin: false
 toc: true

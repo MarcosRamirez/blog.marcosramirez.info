@@ -8,7 +8,7 @@ date: 2026-07-06 08:30:00 +0200
 image: /assets/img/headers/2026/searxng-buscador-privado-pollinationsai.webp
 image_alt: "Logo de SearXNG como buscador privado"
 categories: [Tecnología, Home Lab]
-tags: [privacidad, búsqueda, Software y Apps]
+tags: [privacidad, metabuscador, self-hosted, open-source, busqueda]
 pin: false
 toc: true
 excerpt: "SearXNG es un metabuscador de código abierto que agrega resultados de más de 70 motores como Google y Bing sin rastrearte. Instálalo en tu Home Lab con Docker, configura sus plugins y recupera tu privacidad al buscar."

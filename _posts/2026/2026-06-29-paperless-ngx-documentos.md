@@ -1,5 +1,5 @@
 ---
-title: "Paperless NGX: documentos digitales organizados sin perder control"
+title: "Paperless NGX: documentos digitales organizados y bajo control"
 slug: paperless-ngx-documentos
 authors:
   - "Marcos Ramírez"
@@ -8,7 +8,7 @@ date: 2026-06-29 08:30:00 +0200
 image: /assets/img/headers/2026/paperless-ngx-documentos-nanobanana.webp
 image_alt: "Logo de Paperless-ngx para gestionar documentos"
 categories: [Tecnología, Home Lab]
-tags: [documentos, privacidad, gestión, Software y Apps]
+tags: [documentos, privacidad, ocr, digitalizacion, self-hosted, open-source]
 pin: false
 toc: true
 excerpt: "Paperless NGX es un gestor de documentos de código abierto con OCR automático, etiquetado inteligente y búsqueda por texto completo. Instálalo en tu Home Lab, conecta tu base de datos centralizada y ten tus facturas, contratos y recibos siempre accesibles."

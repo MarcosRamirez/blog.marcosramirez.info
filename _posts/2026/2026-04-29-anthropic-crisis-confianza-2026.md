@@ -1,5 +1,5 @@
 ---
-title: "La crisis de Anthropic: qué pasó y por qué importa"
+title: "Crisis de confianza en Anthropic: qué pasó y cómo afecta a devs"
 slug: "anthropic-crisis-confianza-2026"
 date: 2026-04-29 08:30:00 +0200
 excerpt: "Anthropic ha vivido un abril de 2026 para el olvido, con limitación de agentes gratuitos, cambios sin avisar en Claude Code, un nuevo tokenizador que encarece precios un 45% y errores de facturación como el caso Hermes. Repasamos una crisis de confianza que ha sacudido a la comunidad de desarrolladores este mes."
@@ -7,14 +7,13 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 categories: ["Tecnología", "Inteligencia Artificial"]
-tags: ["tokenizador", "automatizacion", "ia"]
+tags: ["tokenizador", "automatizacion", "inteligencia-artificial", "desarrollo", "api"]
 image: "/assets/img/headers/2026/anthropic-crisis-confianza-2026-nanobanana.webp"
 image_alt: "Interfaz de Claude AI con mensajes de error y advertencias de confianza"
 pin: false
 toc: true
 twitter_description: "Agentes caros, tests sin avisar y errores de facturación. Cronología de una crisis de confianza en Anthropic."
 permalink: /:slug/
-excerpt_separator: <!--more-->
 description: "Anthropic vive crisis en abril 2026: agentes caros, tokenizador que sube precios y fallos de facturación. Cronología completa aquí. Lee más."
 ---
 
@@ -26,7 +25,7 @@ Aquí tienes la cronología de lo sucedido este mes:
 
 ## 📅 4 de abril: El fin de los agentes "gratuitos"
 
-Anthropic comenzó el mes limitando el uso de frameworks de agentes de terceros (como [OpenClaw](https://openclaw.ai/){:target="_blank" rel="nofollow noopener"}) bajo las suscripciones Pro y Max. Lo que antes era un "uso ilimitado" dentro de la cuota, pasó a requerir facturación por uso (API), encareciendo drásticamente los proyectos de automatización. Si quieres saber más sobre cómo uso OpenClaw en mi [propio servidor]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %}){:target="_blank"}, puedes leer mi experiencia con Lucía.
+Anthropic comenzó el mes limitando el uso de frameworks de agentes de terceros (como [OpenClaw](https://openclaw.ai/){:target="_blank" rel="nofollow noopener"}) bajo las suscripciones Pro y Max. Lo que antes era un "uso ilimitado" dentro de la cuota, pasó a requerir facturación por uso (API), encareciendo drásticamente los proyectos de automatización. Si quieres saber más sobre cómo uso OpenClaw en mi [propio servidor]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %}){:target="_blank" rel="nofollow noopener"}, puedes leer mi experiencia con Lucía.
 
 ## 📅 21 de abril: El polémico "Test A/B" de Claude Code
 
@@ -73,6 +72,6 @@ Genera entre un 30% y 45% más de tokens para el mismo texto, encareciendo el us
 
 Compártelo si te ha resultado útil.
 
-¿Quieres implementar soluciones de IA en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank" rel="nofollow noopener"}.
+¿Quieres implementar soluciones de Inteligencia Artificial en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

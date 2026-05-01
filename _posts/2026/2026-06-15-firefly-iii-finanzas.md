@@ -1,5 +1,5 @@
 ---
-title: "Firefly III: finanzas personales en tu servidor, sin suscripciones"
+title: "Firefly III: finanzas personales en tu servidor sin suscripciones"
 slug: firefly-iii-finanzas
 authors:
   - "Marcos Ramírez"
@@ -8,7 +8,7 @@ date: 2026-06-15 08:30:00 +0200
 image: /assets/img/headers/2026/firefly-iii-finanzas-nanobanana.webp
 image_alt: "Logo de Firefly III para finanzas personales"
 categories: [Tecnología, Home Lab]
-tags: [finanzas, auto-gestión, privacidad, Bancos y Fintech]
+tags: [finanzas, presupuesto, privacidad, open-source, contabilidad, self-hosted]
 pin: false
 toc: true
 excerpt: "Firefly III es un gestor de finanzas personales de código abierto con contabilidad de doble entrada, presupuestación y reglas automáticas. Instálalo en tu Home Lab conectado a tu base de datos centralizada y olvídate de suscripciones como YNAB."

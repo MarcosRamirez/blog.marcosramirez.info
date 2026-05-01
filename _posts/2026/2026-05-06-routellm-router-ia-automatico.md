@@ -7,11 +7,11 @@ authors:
   - Lucía
 excerpt: "RouteLLM es el router inteligente de ChatLLM que analiza tu consulta y elige automáticamente el mejor modelo de Inteligencia Artificial. Sin pensar, sin cambiar de pestaña, sin pagar de más."
 twitter_description: "Cómo RouteLLM de ChatLLM elige automáticamente el mejor modelo de Inteligencia Artificial para cada tarea."
-description: "RouteLLM elige automáticamente el mejor modelo de IA según tu consulta. Sin margen sobre el proveedor, con failover automático. Descúbrelo."
+description: "RouteLLM elige automáticamente el mejor modelo de Inteligencia Artificial según tu consulta. Sin margen sobre el proveedor, con failover automático. Descúbrelo."
 categories: [Tecnología, Inteligencia Artificial]
-tags: [inteligencia-artificial, chatgpt, claude, gemini, api, automatizacion, programming]
+tags: [inteligencia-artificial, llm, api, automatizacion, routing, herramientas-desarrollo, multimodal]
 image: /assets/img/headers/2026/routellm-router-ia-automatica-chatllm-nanobanana.webp
-image_alt: "Diagrama de RouteLLM mostrando cómo routing consultas al mejor modelo de IA"
+image_alt: "Diagrama de RouteLLM mostrando cómo enruta consultas al mejor modelo de Inteligencia Artificial"
 toc: true
 pin: false
 permalink: /:slug/

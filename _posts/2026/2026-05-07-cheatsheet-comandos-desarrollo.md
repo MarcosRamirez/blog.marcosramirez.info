@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Por qué mantengo un cheatsheet.txt (luego .md) desde hace más de 20 años"
+title: "Por qué mantengo un cheatsheet.txt en todos mis proyectos"
 slug: cheatsheet-comandos-desarrollo
 date: 2026-05-07 08:30:00 +0200
 last_modified_at:
@@ -12,7 +12,7 @@ excerpt: "Llevo años manteniendo un archivo de texto plano donde anoto comandos
 image: /assets/img/headers/2026/cheatsheet-comandos-desarrollo-pollinationsai.webp
 image_alt: "Captura de pantalla de un archivo de texto con comandos y notas de desarrollo, representando un cheatsheet personal"
 permalink: /:slug/
-description: "Descubre por qué mantener un archivo cheatsheet.txt o .md con comandos y notas puede mejorar tu productividad como desarrollador. Un truco de más de 20 años."
+description: "Descubre por qué un cheatsheet.txt o .md mejora tu productividad como desarrollador. Una costumbre de más de 20 años con resultados probados."
 twitter_description: "Llevo años usando un cheatsheet.txt (luego .md) para comandos y notas. Un truco simple que todo dev debería adoptar."
 toc: true
 pin: false

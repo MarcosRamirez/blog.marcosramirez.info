@@ -7,14 +7,14 @@ authors:
 date: 2026-04-20 08:30:00 +0200
 image: /assets/img/headers/2026/wispr-flow-escritura-vocidad-nanobanana.webp
 image_alt: "Wispr Flow en un MacBook mostrando el teclado de voz con icono de micrófono, representando la escritura por voz"
-categories: [Tecnología, Productividad y Hacks]
+categories: [Tecnología]
 tags: [voz-a-texto, productividad, software, automatización, eficiencia, herramientas]
 pin: false
 toc: true
-excerpt: "Wispr Flow es una app de voz a texto con IA que te permite escribir en cualquier aplicación hablando. Alcanza 4x más velocidad que teclear, limpia muletillas automáticamente, corrige al vuelo y ofrece modo susurro. Funciona en más de 100 idiomas, se integra en todas tus apps, incluye diccionario personalizado y un sistema de retos donde cada 100 palabras al día te dan un día extra de Premium gratis."
+excerpt: "Wispr Flow es una app de voz a texto con Inteligencia Artificial que te permite escribir en cualquier aplicación hablando. Alcanza 4x más velocidad que teclear, limpia muletillas automáticamente, corrige al vuelo y ofrece modo susurro. Funciona en más de 100 idiomas, se integra en todas tus apps, incluye diccionario personalizado y un sistema de retos donde cada 100 palabras al día te dan un día extra de Premium gratis."
 twitter_description: "Wispr Flow: Escribe 4x más rápido hablando. La app que reemplaza tu teclado."
 permalink: /:slug/
-description: "Escribe 4x más rápido con Wispr Flow, app de voz a texto con IA que limpia muletillas y corrige al vuelo. Usa retos para ganar días gratis. Descubre más."
+description: "Escribe 4x más rápido con Wispr Flow, app de voz a texto con Inteligencia Artificial que limpia muletillas y corrige al vuelo. Usa retos para ganar días gratis. Descubre más."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

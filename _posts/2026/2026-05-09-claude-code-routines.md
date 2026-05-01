@@ -5,10 +5,10 @@ authors:
   - Marcos Ramírez
   - Lucía
 date: 2026-05-09 08:30:00 +0200
-image: /assets/img/headers/claude-code-routines-nanobanana.webp
+image: /assets/img/headers/2026/claude-code-routines-nanobanana.webp
 image_alt: "Captura de pantalla de la interfaz de Claude Code mostrando el panel de rutinas con tareas programadas y flujos de trabajo automatizados"
 categories: [Tecnología, Inteligencia Artificial, Software y Apps]
-tags: [claude, claude-code, automatización, rutinas, ia-desarrollo, productividad-desarrollo, herramientas-ia, devops]
+tags: [automatización, rutinas, productividad-desarrollo, devops, desarrollo-software, automatizacion-nube]
 pin: false
 toc: true
 excerpt: "El 14 de abril de 2026, Anthropic lanzó las Rutinas en Claude Code en fase de vista previa de investigación. Esta funcionalidad permite configurar una vez un prompt, un repositorio y conectores, y ejecutar la automatización de forma recurrente en la infraestructura en la nube de Anthropic. A diferencia de /loop (limitado a la sesión) y las tareas programadas del Escritorio (que requieren que tu máquina esté encendida), las rutinas funcionan incluso con tu portátil apagado. En este análisis detallo cómo funcionan las tres modalidades de activación —programada, API y eventos de GitHub—, los límites diarios según tu plan (5 en Pro, 15 en Max, 25 en Team/Enterprise) y el impacto en el consumo de tokens de la API. Comparo las ventajas frente a las tareas programadas de ChatGPT y explico por qué esta función posiciona a Claude Code como la herramienta líder para desarrolladores que necesitan automatización real en sus flujos de trabajo."

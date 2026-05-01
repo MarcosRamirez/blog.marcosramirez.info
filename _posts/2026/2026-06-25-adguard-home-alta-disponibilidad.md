@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-25 08:30:00 +0200
-image: /assets/img/headers/2026-adguard-home-alta-disponibilidad-nanobanana.webp
+image: /assets/img/headers/2026/adguard-home-alta-disponibilidad-nanobanana.webp
 image_alt: "Logo de AdGuard Home con alta disponibilidad"
 categories: [Tecnología, Home Lab, Redes e Infraestructura]
 tags: [adguard, dns, alta-disponibilidad, redundancia, sync]

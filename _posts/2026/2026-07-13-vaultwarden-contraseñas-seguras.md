@@ -8,7 +8,7 @@ date: 2026-07-13 08:30:00 +0200
 image: /assets/img/headers/2026/vaultwarden-contraseñas-seguras-nanobanana.webp
 image_alt: "Logo de Vaultwarden para gestionar contraseñas"
 categories: [Tecnología, Home Lab]
-tags: [seguridad, contraseñas, privacidad, Software y Apps]
+tags: [seguridad, contraseñas, privacidad, self-hosted, gestor-contrasenas, open-source]
 pin: false
 toc: true
 excerpt: "Vaultwarden es una implementación ligera de Bitwarden escrita en Rust. Obtén todas las funcionalidades premium gratis: TOTP, archivos adjuntos y acceso de emergencia. Compatible con todos los clientes oficiales, cifrado del lado del cliente y tus datos en tu propio servidor."

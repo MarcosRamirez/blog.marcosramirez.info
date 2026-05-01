@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Jellyfin vs Plex vs Stremio: Cuál elegir en 2026"
+title: "Jellyfin, Plex o Stremio: cuál elegir para tu servidor multimedia"
 slug: jellyfin-plex-stremio-comparativa-2026
 date: 2026-05-22 08:30:00 +0200
 last_modified_at:
 authors:
   - Marcos Ramírez
 categories: [Tecnología, Sistemas, Home Lab]
-tags: [Jellyfin, Plex, Stremio, streaming, media server, autoalojamiento]
+tags: [streaming, autoalojamiento, servidor-multimedia, comparativa, media-server, rendimiento]
 excerpt: >
   En España, la comparación entre servidores multimedia y agregadores de streaming
   va más allá de las funcionalidades. Los indexers limitados, el contenido en

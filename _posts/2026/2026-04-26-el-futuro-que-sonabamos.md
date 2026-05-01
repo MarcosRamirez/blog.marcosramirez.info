@@ -1,5 +1,5 @@
 ---
-title: "El futuro que soñábamos: cuando los ordenadores empezaron a entendernos"
+title: "El futuro que soñábamos: cuando las máquinas empezaron a entendernos"
 slug: el-futuro-que-sonabamos
 date: 2026-04-26 09:30:00 +0200
 excerpt: "He trabajado en desarrollo web más de tres décadas. Aprendí a programar en los 80s cuando no existían Google ni Stack Overflow. Ahora vivo el futuro que imaginaba de niño, pero llegó de otra forma. Los ordenadores ahora entienden el lenguaje natural, responden preguntas, generan código, crean imágenes y mantienen conversaciones. El sueño de entonces se cumplió y se superó. Los que nos llamaban frikis por pasar horas frente a pantallas de fósforo verde ahora no levantan la vista del móvil. Los que se reían de nuestra fascinación por las máquinas ahora no pueden vivir sin ellas y vienen a preguntarme cómo configurar el WhatsApp o por qué no les funciona el GPS."
@@ -12,8 +12,9 @@ tags: [nostalgia, reflexion, historia, programacion]
 image: /assets/img/headers/2026/el-futuro-que-sonabamos-nanobanana.webp
 image_alt: "Antiguo PC de los 80s con pantalla de fósforo verde, simbolizando los inicios de la informática personal"
 toc: true
-twitter_description: "De programar en COBOL a tener un asistente de IA en el trastero. Los frikis de los 80s vivimos el futuro que soñábamos."
-description: "Descubre cómo pasamos de programar en BASIC y COBOL a tener asistentes de IA. Los frikis de los 80s vivimos el futuro soñado. Automatización y modelos locales. Lee más."
+pin: false
+twitter_description: "De programar en COBOL a tener un asistente de Inteligencia Artificial en el trastero. Los frikis de los 80s vivimos el futuro soñado."
+description: "Descubre cómo pasamos de programar en BASIC y COBOL a tener asistentes de Inteligencia Artificial. Los frikis de los 80s vivimos el futuro soñado. Modelos locales. Lee más."
 permalink: /:slug/
 ---
 

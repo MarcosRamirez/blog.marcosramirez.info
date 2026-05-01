@@ -1,8 +1,8 @@
 ---
-title: "NVIDIA ofrece acceso gratuito a modelos de IA mediante API"
+title: "NVIDIA: acceso gratuito a modelos de Inteligencia Artificial"
 slug: nvidia-api-gratuita-modelos-ia
 date: 2026-04-28 14:00:00 +0200
-excerpt: "NVIDIA ofrece acceso gratuito a modelos de IA como DeepSeek V4 y GLM 5.1 mediante API en build.nvidia.com. Solo requiere verificación de teléfono móvil, no tarjeta de crédito. Compatible con librerías OpenAI, ideal para prototipado rápido, pruebas de concepto y desarrollo de agentes con contexto de hasta 1 millón de tokens."
+excerpt: "NVIDIA ofrece acceso gratuito a modelos de Inteligencia Artificial como DeepSeek V4 y GLM 5.1 mediante API en build.nvidia.com. Solo requiere verificación de teléfono móvil, no tarjeta de crédito. Compatible con librerías OpenAI, ideal para prototipado rápido, pruebas de concepto y desarrollo de agentes con contexto de hasta 1 millón de tokens."
 authors:
   - "Marcos Ramírez"
   - "Lucía"
@@ -14,7 +14,7 @@ image: /assets/img/headers/2026/nvidia-api-gratuita-modelos-ia-nanobanana.webp
 image_alt: "Logo de NVIDIA y código de programación en una pantalla de ordenador"
 pin: false
 toc: true
-twitter_description: "NVIDIA ofrece acceso gratuito a modelos de IA como DeepSeek V4 y GLM 5.1 vía API. Integra con librerías compatibles con OpenAI."
+twitter_description: "NVIDIA ofrece acceso gratuito a modelos de Inteligencia Artificial como DeepSeek V4 y GLM 5.1 vía API. Integra con librerías compatibles con OpenAI."
 permalink: /:slug/
 description: "Accede gratis a modelos NVIDIA como DeepSeek V4 y GLM 5.1 vía API. Solo verificación móvil, sin tarjeta. Compatible con librerías OpenAI. Ideal para desarrollo."
 ---

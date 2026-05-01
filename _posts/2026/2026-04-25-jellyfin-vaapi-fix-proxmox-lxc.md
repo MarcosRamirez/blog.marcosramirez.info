@@ -11,7 +11,8 @@ categories:
   - Home Lab
 image: /assets/img/headers/2026/jellyfin-vaapi-fix-proxmox-lxc-2026-nanobanana.webp
 image_alt: "Terminal mostrando error de VAAPI en Jellyfin dentro de un contenedor LXC de Proxmox"
-tags: [vaapi, intel-quick-sync, proxmox, lxc, hardware-transcoding]
+tags: [vaapi, intel-quick-sync, lxc, hardware-transcoding, troubleshooting]
+pin: false
 toc: true
 twitter_description: "Solución al problema de VAAPI en un LXC sin privilegios. Guía paso a paso para hacer funcionar Jellyfin con hardware transcoding en Proxmox."
 description: "Soluciona el error VAAPI en Jellyfin LXC sin privilegios. Hook script y permisos para Intel Quick Sync. Aprende a configurarlo paso a paso. Descubre más."

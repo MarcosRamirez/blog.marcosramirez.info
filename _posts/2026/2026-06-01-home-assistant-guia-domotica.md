@@ -1,25 +1,27 @@
 ---
 title: "Home Assistant: Tu cerebro de domótica en un solo lugar"
-slug: home-assitant-guia-domotica
+slug: home-assistant-guia-domotica
 authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-06-01 08:30:00 +0200
-image: /assets/img/headers/2026-home-assistant-guia-domotica-nanobanana.webp
+image: /assets/img/headers/2026/home-assistant-guia-domotica-nanobanana.webp
 image_alt: "Logo de Home Assistant para domótica"
 categories: [Tecnología, Home Lab, Automatización]
-tags: [home-assistant, domotica, automatizacion, smart-home, sensores]
+tags: [domotica, automatizacion, sensores, zigbee, local-first]
 pin: false
 toc: true
 excerpt: "Home Assistant es el centro de domótica de mi Home Lab para automatizar luces al anochecer, calefacción según temperatura y notificaciones de seguridad. Compatible con 2.000+ integraciones, funciona localmente sin nubes ni suscripciones. Incluye dashboards personalizados y automatizaciones con lógica condicional avanzada."
 twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni suscripciones."
 permalink: /:slug/
-description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones, dashboards personalizados y funcionamiento sin nube. Instálalo en tu Home Lab. Aprende a configurarlo paso a paso."
+description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones, dashboards personalizados y automatizaciones sin nube. Guía completa para tu Home Lab."
 ---
 
-*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %}). Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
+![{{ page.image_alt }}]({{ page.image }})
 
-Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}) bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}). Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" rel="nofollow noopener"}.
+*[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %}){:target="_blank" rel="nofollow noopener"}. Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
+
+Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}){:target="_blank" rel="nofollow noopener"} bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}){:target="_blank" rel="nofollow noopener"} virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}){:target="_blank" rel="nofollow noopener"}. Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 
@@ -31,7 +33,7 @@ La diferencia con otros ecosistemas es clara: no estás atado a una marca. Si ma
 
 ### 1. Automatizaciones reales
 
-Mi objetivo no era tener una app para controlar luces desde el móvil. Eso no es domótica; es control remoto. Quería que las cosas pasen **sin intervención**.
+Mi objetivo no era tener una app para controlar luces desde el móvil. Eso no es domótica; es control remoto. El objetivo era que las cosas pasaran **sin intervención**.
 
 Ejemplos concretos de lo que tengo funcionando:
 
@@ -88,7 +90,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 | **Código abierto** | **Sí** | No | No | No |
 | **Funciona sin internet** | **Sí** | Limitado | No | No |
 | **Integraciones** | **2.000+** | ~100 | ~500 | ~300 |
-| **Nube requerida** | No | Sí | Sí | Sí |
+| **Necesita nube** | No | Sí | Sí | Sí |
 | **Dashboard personalizable** | **Sí** | Básico | Básico | No |
 | **Automatizaciones complejas** | **Sí** | Limitado | Medio | Medio |
 | **Coste** | Gratis* | Hardware Apple | Hardware Nest | Dispositivos Echo |
@@ -100,7 +102,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 
 ## Mi setup
 
-En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}), con:
+En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}){:target="_blank" rel="nofollow noopener"}, con:
 
 - **2 vCPU**
 - **4GB de RAM**
@@ -109,7 +111,7 @@ En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant 
 
 ### Dispositivos compatibles
 
-Home Assistant es compatible con muchíssimo dispositivos. Algunos de los más populares:
+Home Assistant es compatible con muchísimos dispositivos. Algunos de los más populares:
 
 - **Iluminación**: [Philips Hue](https://www.philips-hue.com/){:target="_blank" rel="nofollow noopener"}, [LIFX](https://www.lifx.com/){:target="_blank" rel="nofollow noopener"}, [Xiaomi](https://www.xiaomi.com/){:target="_blank" rel="nofollow noopener"}
 - **Sensores**: Zigbee, Z-Wave, [Shelly](https://shelly.cloud/){:target="_blank" rel="nofollow noopener"}
@@ -133,7 +135,7 @@ Coste aproximado: 50-70€.
 
 ### Opción 2: VM con Proxmox Helper Scripts
 
-Aunque en otro post os explico [por qué no uso los Proxmox Helper Scripts para instalar mis servicios]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}), en este caso sí lo uso: para instalar Home Assistant OS como VM. El helper script descarga la imagen oficial, crea la VM automáticamente y configura todo sin intervención.
+Aunque en otro post os explico [por qué no uso los Proxmox Helper Scripts para instalar mis servicios]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}){:target="_blank" rel="nofollow noopener"}, en este caso sí lo uso: para instalar Home Assistant OS como VM. El helper script descarga la imagen oficial, crea la VM automáticamente y configura todo sin intervención.
 
 Ejecuta este comando en la shell de Proxmox:
 

@@ -1,5 +1,5 @@
 ---
-title: "Frugalismo: vivir mejor gastando menos vs minimalismo"
+title: "Frugalismo vs minimalismo: cómo vivir mejor gastando menos"
 slug: frugalismo-vs-minimalismo
 date: 2026-05-15 08:30:00 +0200
 excerpt: "Descubre qué es el frugalismo y cómo aplicar el concepto de coste por uso para maximizar beneficios reales. Aprende la diferencia clave con el minimalismo: el frugalista calcula beneficio por euro invertido mientras el minimalista simplifica espacios. Te explico principios como la regla del 4%, regla de 3 días y estrategias FIRE para alcanzar la independencia financiera."
@@ -16,7 +16,7 @@ pin: false
 toc: true
 twitter_description: "Frugalismo vs Minimalismo: aprende la diferencia y cómo el frugalismo puede llevarte a la independencia financiera. Guía práctica."
 permalink: /:slug/
-description: "Frugalismo vs minimalismo: aplica el coste por uso y la regla del 4% para independencia financiera. Aprende más."
+description: "Frugalismo vs minimalismo: aplica el coste por uso y la regla del 4% para la independencia financiera. Estrategias FIRE y hábitos de ahorro explicados."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

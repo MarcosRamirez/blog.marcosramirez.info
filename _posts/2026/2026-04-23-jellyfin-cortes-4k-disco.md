@@ -8,7 +8,7 @@ authors:
 categories:
   - Tecnología
   - Home Lab
-tags: [sistemas, redes-e-infraestructura, contenedores]
+tags: [troubleshooting, logs, transcodificacion, disco-lleno, diagnostico]
 image: /assets/img/headers/2026/jellyfin-cortes-4k-disco-nanobanana.webp
 image_alt: "Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"
 pin: false

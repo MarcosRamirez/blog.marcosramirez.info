@@ -11,7 +11,7 @@ categories:
   - Inteligencia Artificial
   - Software y Apps
   - Automatización
-tags: [inteligencia-artificial, agentes, claude-code, cursor, automatizacion, open-source, developer-tools]
+tags: [inteligencia-artificial, agentes, automatizacion, open-source, developer-tools, formato-abierto]
 image: /assets/img/headers/2026/agent-skills-estandar-agentes-nanobanana.webp
 image_alt: "Múltiples agentes de Inteligencia Artificial cargando módulos de conocimiento especializado desde una biblioteca digital"
 toc: true

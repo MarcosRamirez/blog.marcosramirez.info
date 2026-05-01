@@ -8,13 +8,13 @@ date: 2026-05-03 08:30:00 +0200
 image: /assets/img/headers/2026/10-trucos-suscripcion-claude-nanobanana.webp
 image_alt: "Pantalla mostrando la interfaz de Claude con métricas de uso y una mano señalando el medidor de suscripción"
 categories: [Tecnología]
-tags: [eficiencia, optimización, herramientas-desarrollo, productividad, context-management, ahorro, inteligencia-artificial, claude]
+tags: [eficiencia, optimización, herramientas-desarrollo, productividad, context-management, ahorro, inteligencia-artificial]
 pin: false
 toc: true
 excerpt: "10 trucos prácticos para que tu suscripción de Claude dure más. Hábitos de uso que he probado y que multiplican lo que obtienes sin cambiar de plan ni pagar más."
 twitter_description: "10 trucos que he probado para que mi suscripción de Claude dure toda la semana. Cómo llegar a 150-200 mensajes diarios en lugar de 45."
 permalink: /:slug/
-description: "10 trucos para que tu suscripción de Claude dure toda la semana. Gestiona tu uso y llega a 150-200 mensajes diarios con tu plan actual."
+description: "10 trucos para que tu suscripción de Claude dure toda la semana. Gestiona tu uso y llega a 150-200 mensajes diarios con tu plan actual. Trucos probados."
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

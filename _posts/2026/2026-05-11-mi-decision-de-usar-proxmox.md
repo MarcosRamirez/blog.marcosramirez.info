@@ -5,7 +5,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-11 08:30:00 +0200
-image: /assets/img/headers/mi-decision-de-usar-proxmox.webp
+image: /assets/img/headers/2026/mi-decision-de-usar-proxmox-nanobanana.webp
 image_alt: "Interfaz de Proxmox VE mostrando máquinas virtuales y contenedores, representando la virtualización híbrida"
 categories: [Tecnología, Home Lab, Redes e Infraestructura]
 tags: [virtualizacion, contenedores, infraestructura, servidores, homelab]

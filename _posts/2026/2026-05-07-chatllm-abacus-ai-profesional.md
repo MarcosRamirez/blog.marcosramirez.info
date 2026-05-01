@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChatLLM de Abacus.AI: el asistente que reúne todos los modelos de IA"
+title: "ChatLLM de Abacus.AI: Inteligencia Artificial todo en uno"
 slug: chatllm-abacus-ai-profesional
 date: 2026-05-07 08:30:00 +0200
 last_modified_at:
@@ -8,13 +8,13 @@ authors:
   - Marcos Ramírez
   - Lucía
 categories: [Tecnología, Inteligencia Artificial]
-tags: [ChatLLM, Abacus.AI, LLM, productividad, asistente-ia, DeepAgent]
-excerpt: "ChatLLM de Abacus.AI es un asistente profesional que te da acceso a más de 100 modelos de Inteligencia Artificial en una sola plataforma. Desde GPT-5.4 hasta Claude Opus 4.6, Gemini 3.1 Pro y Llama 4, todo en un mismo sitio por 10 $ al mes. Incluye generación de imágenes con Nano Banana Pro, vídeo con Sora 2, y DeepAgent para automatizar tareas complejas. Ideal para profesionales y equipos que necesitan acceso a la mejor IA sin pagar multiples suscripciones por separado."
+tags: [llm, productividad, inteligencia-artificial, multimodal, herramientas-desarrollo, automatizacion]
+excerpt: "ChatLLM de Abacus.AI es un asistente profesional que te da acceso a más de 100 modelos de Inteligencia Artificial en una sola plataforma. Desde GPT-5.4 hasta Claude Opus 4.6, Gemini 3.1 Pro y Llama 4, todo en un mismo sitio por 10 $ al mes. Incluye generación de imágenes con Nano Banana Pro, vídeo con Sora 2, y DeepAgent para automatizar tareas complejas. Ideal para profesionales y equipos que necesitan acceso a la mejor Inteligencia Artificial sin pagar múltiples suscripciones por separado."
 image: /assets/img/headers/2026/chatllm-abacus-ai-profesional-nanobanana.webp
-image_alt: "Interfaz de ChatLLM mostrando múltiples modelos de IA conectados, representando el asistente unificado de Abacus.AI"
+image_alt: "Interfaz de ChatLLM mostrando múltiples modelos de Inteligencia Artificial conectados, representando el asistente unificado de Abacus.AI"
 permalink: /:slug/
-description: "ChatLLM de Abacus.AI: acceso a 100+ modelos de IA, DeepAgent, generación de imágenes y vídeo. Solo 10 $/mes para profesionales."
-twitter_description: "ChatLLM de Abacus.AI: todos los modelos de IA en uno. GPT-5.4, Claude, Gemini y más por solo 10 $/mes."
+description: "ChatLLM de Abacus.AI: acceso a 100+ modelos de Inteligencia Artificial, generación de imágenes y vídeo, y automatización avanzada. Solo 10 $/mes para profesionales."
+twitter_description: "ChatLLM de Abacus.AI: todos los modelos de Inteligencia Artificial en uno. GPT-5.4, Claude, Gemini y más por solo 10 $/mes."
 toc: true
 pin: false
 ---

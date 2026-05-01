@@ -1,5 +1,5 @@
 ---
-title: "OpenCode: asistente de código abierto para developers"
+title: "OpenCode: el asistente de código abierto para developers"
 slug: opencode-asistente-codigo
 authors:
   - "Marcos Ramírez"
@@ -7,11 +7,11 @@ authors:
 date: 2026-07-20 08:30:00 +0200
 image: /assets/img/headers/2026/opencode-asistente-codigo-nanobanana.webp
 image_alt: "Logo de OpenCode en terminal con código de programación"
-categories: [Tecnología, Productividad y Hacks]
+categories: [Tecnología]
 tags: [código-abierto, cli, herramientas, productividad, desarrollo, terminal]
 pin: false
 toc: true
-excerpt: "OpenCode es un agente de IA de código abierto con más de 140.000 estrellas en GitHub. Funciona en tu terminal con acceso directo a archivos, ejecución de comandos y edición real. Compatible con modelos OpenAI, Anthropic, Google y Zen, úsalo para redactar posts, refactorizar código y explicar lógica legacy."
+excerpt: "OpenCode es un agente de Inteligencia Artificial de código abierto con más de 140.000 estrellas en GitHub. Funciona en tu terminal con acceso directo a archivos, ejecución de comandos y edición real. Compatible con modelos OpenAI, Anthropic, Google y Zen, úsalo para redactar posts, refactorizar código y explicar lógica legacy."
 twitter_description: "OpenCode es mi asistente de código abierto que me ahorra horas cada semana."
 permalink: /:slug/
 description: "OpenCode: +140k estrellas, acceso a archivos y edición real. Compatible con OpenAI y Anthropic. Elige el modelo que prefieras. Perfecto para developers y automatización. Descubre más."

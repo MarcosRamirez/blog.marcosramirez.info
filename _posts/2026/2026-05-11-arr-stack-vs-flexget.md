@@ -1,14 +1,14 @@
 ---
-title: "Arr Stack vs FlexGet: automatiza tus descargas fácil"
+title: "Arr Stack vs FlexGet: automatiza tus descargas fácilmente"
 slug: arr-stack-vs-flexget
 authors:
   - "Marcos Ramírez"
   - "Lucía"
 date: 2026-05-11 08:30:00 +0200
-image: /assets/img/headers/arr-stack-vs-flexget-nanobanana.webp
+image: /assets/img/headers/2026/arr-stack-vs-flexget-nanobanana.webp
 image_alt: "Comparación visual entre el stack *arr y FlexGet"
 categories: [Tecnología, Home Lab]
-tags: [Sistemas, Software y Apps, Automatización]
+tags: [descargas-automaticas, indexadores, multimedia, automatizacion, self-hosted, gestores-descarga]
 pin: false
 toc: true
 excerpt: "Compara el *arr stack y FlexGet para automatizar descargas de series, películas y música. El *arr ofrece interfaz web y quality profiles automáticos, mientras FlexGet brinda flexibilidad total mediante YAML. Te explico cuál elegir según tus necesidades técnicas y por qué pueden trabajar juntos."

@@ -5,16 +5,16 @@ authors:
   - Marcos Ramírez
   - Lucía
 date: 2026-05-10 08:30:00 +0200
-image: /assets/img/headers/travian-estrategia-mmo-parte-2-nanobanana.webp
+image: /assets/img/headers/2026/travian-estrategia-mmo-parte-2-nanobanana.webp
 image_alt: "Mapa de Travian mostrando la zona 7x7 alrededor de una aldea con rutas de granjeo y ubicaciones de oasis"
 categories: [Juegos]
-tags: [MMO, estrategia, Travian, granjeo, segunda aldea, juegos online, estrategia 7x7]
+tags: [MMO, estrategia, granjeo, segunda-aldea, juegos-online, estrategia-7x7, recursos]
 pin: false
 toc: true
 excerpt: "Segunda parte de la guía definitiva de Travian, basada en 12 años de experiencia en el mejor MMO de estrategia que conozco personalmente. Tras cubrir los imperios, oasis y herramientas básicas en la primera entrega, en esta ocasión profundizamos en las mecánicas que definen el crecimiento a medio plazo en el juego. Aprende a dominar el granjeo avanzado de jugadores con listas de granjas optimizadas y reconocimiento previo de objetivos para minimizar bajas. Descubre por qué la estrategia de expansión 7x7 es la clave para proteger tu imperio, reducir tiempos de viaje y maximizar el saqueo diario de recursos. Conoce las fuentes de financiación para tu segunda aldea, cuántas granjas necesitas exactamente y qué terrenos elegir según el imperio que juegues y tus necesidades específicas de recursos. Te explico también los costes reales de colonos y cómo ahorrar recursos en los primeros días. Incluye consejos prácticos paso a paso y preguntas frecuentes basadas en experiencia real en rondas recientes."
 twitter_description: "Travian II: granjeo, estrategia 7x7 y cómo financiar tu segunda aldea. Consejos de 12 años de experiencia en el MMO."
 description: "Segunda parte de la guía de Travian: granjeo avanzado, estrategia 7x7, financiar tu segunda aldea y elegir terreno. Consejos de 12 años de experiencia."
-permalink: /travian-estrategia-mmo-parte-2/
+permalink: /:slug/
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
