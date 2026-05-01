@@ -128,6 +128,7 @@ Subcategories:
 - Desarrollo Profesional
 - Negocios y Digitalización
 - Verifactu
+- Home Lab
 
 NOTE: Use "Inteligencia Artificial", NOT "IA".
 
@@ -137,16 +138,18 @@ NOTE: Use "Inteligencia Artificial", NOT "IA".
 - Decision tree:
   - Post about AI models/tools? → Add "Inteligencia Artificial"
   - Post about self-hosting/servers? → Add "Sistemas"
+  - Post about home lab setups? → Add "Home Lab"
   - Post about coding/web dev? → Add "Desarrollo Web" or "Software y Apps"
   - Post about local LLMs? → Add "Inteligencia Artificial" + "Sistemas"
 - Example: A post about NVIDIA API (AI models) → categories: [Tecnología, Inteligencia Artificial]
 - Example: A post about Home Assistant → categories: [Tecnología, Sistemas]
+- Example: A post about a Home Lab NAS → categories: [Tecnología, Home Lab]
 
 ### Quick Decision Table
 | Post Topic | Main Category | Subcategories to Add |
 |------------|---------------|----------------------|
 | AI models, LLMs, Copilot, ChatGPT | Tecnología | Inteligencia Artificial |
-| Home Lab, Self-hosting, Docker | Tecnología | Sistemas |
+| Home Lab, Self-hosting, Docker | Tecnología | Sistemas, Home Lab |
 | Web dev, React, APIs | Tecnología | Desarrollo Web |
 | Local LLMs, Ollama, LM Studio | Tecnología | Inteligencia Artificial, Sistemas |
 | Finance apps, Banks | Finanzas Personales | Bancos y Fintech |
@@ -251,58 +254,38 @@ Incorrect example:
 - If topic is too short: expand with examples, depth, or related information
 - Code blocks do not count toward word total
 
-### Scheduling Logic (Calendar)
+### Scheduling
 
-**⚠️ IMPORTANT: `.proximafecha` is only updated when a post is PUBLISHED (created directly in `_posts/` or moved from `_drafts/`). Creating drafts does NOT affect `.proximafecha`.**
+**⚠️ Do NOT use `.proximafecha`.** All date calculation and draft publishing is handled by the **publisher skill**.
 
-**Tracking file:** The `.proximafecha` file in the project root is used to manage publication dates.
-
-1. **Read date:** Before creating a post, read the `.proximafecha` file and get the `proxima_fecha` value (or `proxima_fecha_personal` for `Personal` main category posts).
-2. **Create draft:** Use a placeholder date in `_drafts/`. The draft does NOT affect `.proximafecha`.
-3. **Create post directly OR publish draft:** When creating a NEW post in `_posts/` OR moving a draft to `_posts/`, use the appropriate `proxima_fecha` value based on the publication date.
-4. **Update `.proximafecha`:** After publishing (either direct creation or draft publish), calculate the following Monday/Friday from the used date:
-   - General posts: `ultima_fecha` = date used, `proxima_fecha` = next free Monday
-   - Personal posts: `ultima_fecha_personal` = date used, `proxima_fecha_personal` = next free Friday
-5. **Day and Time:**
-   - General posts (non-Personal): **Monday at 08:30 (Madrid time)**
-   - `Personal` main category posts: **Friday at 08:30 (Madrid time)**
-6. **Date format:** `YYYY-MM-DD 08:30:00 +0200`
-7. **Custom date:** If the user indicates a specific date, use it directly (overrides category-based rules).
+**Schedule rules:**
+- **Home Lab** subcategory → Next free Friday at 08:30:00 +0200
+- **Personal** main category → Next free Sunday at 08:30:00 +0200
+- Everything else → Next free date (any day) at 08:30:00 +0200
+- Custom date: If the user specifies a date, use it directly (overrides all rules)
 
 ### Publishing Drafts
 
 Drafts are located in `_drafts/` with the name `YYYY-MM-DD-slug.md`.
 
-**⚠️ IMPORTANT: `.proximafecha` is NOT updated when creating drafts. Only update it when publishing.**
+**⚠️ IMPORTANT: Dates are calculated dynamically from `_posts/` filenames.** The `.proximafecha` file has been replaced.
 
 **Steps to publish a draft:**
 
-1. **Modify the date:** Change the `date` field in the frontmatter with the desired publication date and time.
-2. **Generate image:** Once you have the post content, create the image with create-images skill (1900x478px, .webp format).
-3. **Update frontmatter:** Add the generated image path.
-4. **Review SEO:** Use the SEO skill to optimize the post (image alt, links, FAQ, etc.).
-5. **Move to _posts/YYYY/ and rename:** Move the file from `_drafts/` to `_posts/YYYY/` and change the filename so the date in the name matches the publication date in the frontmatter.
-   - The filename must be `YYYY-MM-DD-slug.md` where YYYY-MM-DD matches the publication date.
-   - Jekyll uses the frontmatter date to determine the public URL.
-6. **Update `.proximafecha`:** Calculate and update `ultima_fecha` and `proxima_fecha` based on the publication date used.
-7. **Commit:** Include the change in the commit with type `content`.
-8. **Push:** Only when the user explicitly indicates.
+1. **Generate image:** Once you have the post content, create the image with create-images skill (1900x478px, .webp format).
+2. **Update frontmatter:** Add the generated image path.
+3. **Review SEO:** Use the SEO skill to optimize the post (image alt, links, FAQ, etc.).
+4. **Publish:** Load the publisher skill and run the schedule script:
+   ```bash
+   # Auto-calculate date from categories
+   node .agents/skills/publisher/scripts/schedule.js publish <draft-slug>
 
-**Example:**
-
-```yaml
-# In _drafts/
-date: 2026-04-27 08:30:00 +0200
-
-# Change to publication date (Friday 24 at 9:00)
-date: 2026-04-24 09:00:00 +0200
-```
-
-**Default date rules:**
-- If not specified: Monday at 08:30 (non-Personal), Friday at 08:30 (Personal main category)
-- If a date is specified: use that date
-- Default time: 08:30 (8:30am)
-- Custom time: use the time indicated by the user
+   # Or use a specific custom date
+   node .agents/skills/publisher/scripts/schedule.js publish <draft-slug> 2026-07-14
+   ```
+   The script auto-detects categories, calculates the correct date, updates frontmatter, and moves the draft to `_posts/YYYY/YYYY-MM-DD-slug.md`.
+5. **Commit:** Include the change in the commit with type `content`.
+6. **Push:** Only when the user explicitly indicates.
 
 ### Style Instructions (Mimicry)
 
