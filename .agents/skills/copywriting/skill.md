@@ -122,6 +122,8 @@ Subcategories:
 - Carrera Profesional
 - Recomendaciones
 - Desarrollo Profesional
+- Negocios y Digitalización
+- Verifactu
 
 NOTE: Use "Inteligencia Artificial", NOT "IA".
 
@@ -144,6 +146,8 @@ NOTE: Use "Inteligencia Artificial", NOT "IA".
 | Web dev, React, APIs | Tecnología | Desarrollo Web |
 | Local LLMs, Ollama, LM Studio | Tecnología | Inteligencia Artificial, Sistemas |
 | Finance apps, Banks | Finanzas Personales | Bancos y Fintech |
+| Verifactu, facturación electrónica, compliance fiscal | Tecnología | Verifactu |
+| IA para negocios, digitalización pyme, tecnología para empresas | Tecnología | Inteligencia Artificial, Negocios y Digitalización |
 
 ### Pre-Publish Checklist
 - [ ] Verified post has exactly ONE main category
@@ -307,30 +311,9 @@ date: 2026-04-24 09:00:00 +0200
 - **Tone:** Mimicked from history.
 - **Title:** For commit and metadata, use the actual post title.
 
-### CTAs (Call to Action) - Lead Capture Rules
+### CTAs (Call to Action)
 
-**Every post MUST end with a CTA. Determine if the post is LEAD or NO-LEAD:**
-
-#### Lead posts
-Topics: AI/ML, software architecture, automation, custom development, cloud infrastructure, DevOps, and technical consulting
-
-→ Add contact link with dynamic CTA text:
-```
-[Dinamic CTA text](https://marcosramirez.info/contacto/){:target="_blank"}
-```
-
-CTA text rules:
-- Vary the text — don't use the same CTA every time
-- Match the post topic and reader context
-- Examples: "¿Hablamos?", "Escríbeme si necesitas ayuda con esto", "Contáctame para implementarlo en tu empresa", "Programemos una llamada", "¿Quieres automatizar esto en tu negocio?"
-- Keep it short (2-6 words)
-
-#### No-lead posts
-All other content: reviews, guides for third-party tools, personal posts, opinion pieces, tutorials for tools you don't offer services around
-
-→ Text-only invitation to comment (NO link):
-- Vary the text based on post context
-- Examples: "¿Ya conocías esta herramienta?", "¿Qué opinas?", "Compártelo si te ha resultado útil", "¿Has tenido experiencia similar?"
+**Load the `lead-capture` skill** to determine the correct CTA tier (BUSINESS / SOFT / COMMUNITY / SILENT) and the exact copy for every post. The lead-capture skill contains the full service catalog, topic → tier mapping, placement rules, and ready-to-use CTA copy in Spanish.
 
 **⚠️ IMPORTANT: Excerpt does NOT support links** — CTA for lead capture must go ONLY in the article body, not in excerpt.
 
