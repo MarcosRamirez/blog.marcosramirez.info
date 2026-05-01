@@ -1,6 +1,10 @@
 ---
 name: copywriting-research
 description: Research and analyze content before writing posts. MANDATORY step before writing any post.
+compatibility: Designed for Claude Code, requires network access for online research
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 ## ⚠️ MANDATORY: Research Before Writing

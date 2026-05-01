@@ -1,6 +1,11 @@
 ---
 name: git
 description: Write commit messages following Conventional Commits with Gitmojis. Always use this when you're about to make a commit.
+compatibility: Designed for Claude Code
+allowed-tools: Bash(git:*) Bash(echo:*) Read
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 ## Skill: Commit Message Generation (Direct Style)

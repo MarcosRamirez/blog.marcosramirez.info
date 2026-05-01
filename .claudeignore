@@ -1,0 +1,30 @@
+# === Build artifacts ===
+_site/
+_failed/
+.jekyll-cache/
+
+# === Dependencies ===
+node_modules/
+**/node_modules/
+Gemfile.lock
+package-lock.json
+
+# === Secrets ===
+.env
+.env*
+gcp-key.json
+
+# === Local tracking files ===
+.proximafecha
+
+# === Generated files ===
+feed.xml
+sitemap.xml
+
+# === Old/backup files ===
+_tools/
+README.md.sav
+cheatsheet.md
+
+# === Claude own config (already loaded by system) ===
+.claude/

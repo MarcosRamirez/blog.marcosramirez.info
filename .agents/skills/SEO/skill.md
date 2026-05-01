@@ -1,6 +1,10 @@
 ---
 name: seo
 description: Skill specialized in optimizing technology and software posts under E-E-A-T standards. Analyzes heading hierarchy, improves on-page SEO, and ensures the author's technical authority as a Software Engineer.
+compatibility: Designed for Claude Code
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 # SEO and Technical Style Manual (Skill Instructions)

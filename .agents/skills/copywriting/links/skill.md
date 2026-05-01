@@ -1,6 +1,10 @@
 ---
 name: copywriting-links
 description: Complete rules for inserting links in blog posts.
+compatibility: Designed for Claude Code
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 ## Skill: Links in Posts

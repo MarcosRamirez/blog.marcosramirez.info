@@ -1,6 +1,11 @@
 ---
 name: create-images
 description: Generate images from a text prompt and save them to a specific path. Use this when you need to create an image with AI.
+compatibility: Designed for Claude Code, requires Node.js and access to Google Vertex AI / Pollinations.ai / Hugging Face APIs
+allowed-tools: Bash(node:*) Read Write
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 ## Skill: Image Generation
@@ -30,8 +35,8 @@ description: Generate images from a text prompt and save them to a specific path
 3. Generate prompt: "piracy, torrent downloading on laptop, P2P file sharing, streaming apps on multiple screens, dark realistic photo, no text, no watermarks"
 ```
 
-### Using the Local Script (`_tools/image-generator/image_generator.js`)
-The script `_tools/image-generator/image_generator.js` generates images trying first **Nano Banana (Google Vertex AI)**. If it fails, it will use fallback providers.
+### Using the Script (`.agents/skills/create-images/scripts/image_generator.js`)
+The script `.agents/skills/create-images/scripts/image_generator.js` generates images trying first **Nano Banana (Google Vertex AI)**. If it fails, it will use fallback providers.
 
 ### 🌟 Golden Rule: Priority to Nano Banana
 
@@ -44,7 +49,7 @@ To know which provider generated the image, the script **automatically modifies 
 
 The `--output` path is **relative to the repository root**, NOT an absolute path. Do NOT use Windows-style absolute paths like `D:\Code\...\assets\img\...`. Use paths relative to where you ran the command.
 
-**Correct:** `node _tools/image-generator/image_generator.js ... --output "assets/img/headers/my-post.webp"`
+**Correct:** `node .agents/skills/create-images/scripts/image_generator.js ... --output "assets/img/headers/my-post.webp"`
 **Incorrect:** `--output "D:\Code\Marcos Ramírez\blog.marcosramirez.info\assets\img\headers\my-post.webp"`
 
 ### 🌟 After Generating: Apply Jekyll Skill
@@ -60,7 +65,7 @@ The `--output` path you pass does NOT include the suffix. The script adds the pr
 | Hugging Face (fallback) | `-huggingface` | `my-slug-huggingface.webp` |
 
 **Correct workflow:**
-1. Run: `node _tools/image-generator/image_generator.js --prompt "..." --output "/assets/img/headers/2026/my-slug.webp"`
+1. Run: `node .agents/skills/create-images/scripts/image_generator.js --prompt "..." --output "/assets/img/headers/2026/my-slug.webp"`
 2. Script returns JSON with `finalPath` — **THIS is the actual file path**
 3. Copy the `finalPath` value exactly into frontmatter `image:` field
 4. Do NOT use the `--output` path directly (it lacks the suffix)
@@ -86,13 +91,13 @@ If you edit a post whose header image does NOT have a provider suffix (e.g., `my
 
 Run the script with the same slug base to regenerate:
 ```bash
-node _tools/image-generator/image_generator.js --prompt "..." --output "/assets/img/headers/2026/my-slug.webp"
+node .agents/skills/create-images/scripts/image_generator.js --prompt "..." --output "/assets/img/headers/2026/my-slug.webp"
 ```
 
 ### How to use it
 
 ```bash
-node _tools/image-generator/image_generator.js \
+node .agents/skills/create-images/scripts/image_generator.js \
   --prompt "<visual description in English>" \
   --output "<path/where/to save/base-name.webp>"
 ```

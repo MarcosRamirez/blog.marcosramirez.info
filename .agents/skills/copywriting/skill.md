@@ -1,6 +1,10 @@
 ---
 name: copywriting
 description: Write and manage blog posts, including frontmatter, editorial calendar, links, and style.
+compatibility: Designed for Claude Code
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 # When writing a post, you must follow these rules:

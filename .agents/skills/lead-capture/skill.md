@@ -1,6 +1,10 @@
 ---
 name: lead-capture
 description: Defines CTA strategy, service catalog, tier rules, and ready-to-use copy for every post. Load this skill whenever writing or editing a post to determine the correct CTA type and text.
+compatibility: Designed for Claude Code
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 # Lead Capture Skill

@@ -1,6 +1,10 @@
 ---
 name: jekyll
 description: Describes the technical information about Jekyll, the static site generator used to build this blog with the Chirpy theme.
+compatibility: Designed for Claude Code, requires Jekyll 4.2+ with Chirpy theme on GitHub Pages
+metadata:
+  author: marcos-ramirez
+  version: "1.0"
 ---
 
 # Instructions
@@ -234,7 +238,7 @@ Examples:
 
 ## Categories
 
-See [Copywriting Skill - Categories (Single Source of Truth)](file:///D:/Code/Marcos%20Ram%C3%ADrez/blog.marcosramirez.info/.agents/skills/copywriting/skill.md) for the full list of available categories and subcategories.
+See [Copywriting Skill - Categories (Single Source of Truth)](../copywriting/SKILL.md) for the full list of available categories and subcategories.
 
 **Rule**: Always use the exact category names defined in the Copywriting skill.
 - Main categories: `Tecnología`, `Finanzas Personales`, `Personal`, `Productividad y Hacks`
