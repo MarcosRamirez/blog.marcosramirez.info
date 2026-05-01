@@ -2,6 +2,73 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## 1. No Coding Without Context
+
+- BEFORE writing code: read relevant files, check git logs, and understand the architecture.
+- If you lack sufficient context, ask. Do not assume.
+
+## 2. Short Responses
+
+- Respond in 1-3 sentences. No preambles, no final summaries.
+- Do not repeat what the user said. Do not explain the obvious.
+- Code speaks for itself: do not narrate every line you write.
+
+## 3. Do Not Rewrite Entire Files
+
+- Use Edit (partial replacement); NEVER use Write for existing files unless the change is >80% of the file.
+- Change only what is necessary. Do not "clean up" surrounding code.
+
+## 4. Do Not Reread Files
+
+- If you have already read a file in this conversation, do not read it again unless it has changed.
+- Take mental notes of the important parts during your first read.
+
+## 5. Validate Before Declaring Done
+
+- After a change: compile, run tests, or verify that it works.
+- Never say "done" without evidence that it functions.
+
+## 6. Zero Flattery or Small Talk
+
+- Do not say "Great question," "Great idea," "Perfect," etc.
+- Do not flatter the user. Go straight to the work.
+
+## 7. Simple Solutions
+
+- Implement the minimum required to solve the problem. Nothing else.
+- Do not add abstractions, helpers, types, validations, or features that were not requested.
+- 3 repeated lines > 1 premature abstraction.
+
+## 8. Do Not Argue With the User
+
+- If the user says "do it this way," do it that way. Do not debate unless there is a real security risk or data loss.
+- If you disagree, mention your concern in 1 sentence and proceed with the request.
+
+## 9. Read Only What Is Necessary
+
+- Do not read entire files if you only need a section. Use offset and limit.
+- If you know the exact path, use Read directly. Do not use Glob + Grep + Read when Read suffices.
+
+## 10. Do Not Narrate the Plan Before Executing
+
+- Do not say "I'm going to read the file, then modify the function, then compile..." Just do it.
+- The user sees your tool calls. They do not need a text preview.
+
+## 11. Parallelize Tool Calls
+
+- If you need to read 3 independent files, read all 3 in a single message, not one by one.
+- Fewer roundtrips = fewer accumulated context tokens.
+
+## 12. Do Not Duplicate Code in the Response
+
+- If you edited a file, do not copy the result into your response. The user sees it in the diff.
+- If you created a file, do not display it entirely in text as well.
+
+## 13. Do Not Use Agent When Grep/Read Suffices
+
+- Agent duplicates the entire context in a subprocess. Only use it for broad searches or complex tasks.
+- To find a specific function or file, use Grep or Glob directly.
+
 ## Project Overview
 
 Personal blog at [https://blog.marcosramirez.info](https://blog.marcosramirez.info) built with **Jekyll + Chirpy theme**, deployed automatically to **GitHub Pages** on every push to `master`. Language: Castilian Spanish (Spain).

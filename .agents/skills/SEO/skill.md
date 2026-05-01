@@ -1,5 +1,5 @@
 ---
-name: SEO
+name: seo
 description: Skill specialized in optimizing technology and software posts under E-E-A-T standards. Analyzes heading hierarchy, improves on-page SEO, and ensures the author's technical authority as a Software Engineer.
 ---
 

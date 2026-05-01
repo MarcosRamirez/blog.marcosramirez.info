@@ -11,4 +11,6 @@ node_modules/
 _tools/image-generator/node_modules/
 .env
 gcp-key.json
+cheatsheet.md
+.claude
 
