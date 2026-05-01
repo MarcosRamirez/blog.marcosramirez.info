@@ -14,6 +14,7 @@ Load the publisher skill when:
 - Calculating the next available publication date for a category
 - The user asks about the publication schedule or calendar
 - Moving a draft to `_posts/` with the correct date
+- Updating the Home Lab series index in `home-lab-filosofia.md`
 
 ## Schedule rules
 
@@ -53,11 +54,31 @@ The script:
 3. Calculates the correct date (or uses the custom date if provided)
 4. Updates the `date` field in frontmatter
 5. Moves the file to `_posts/YYYY/YYYY-MM-DD-slug.md`
-6. Returns JSON confirmation
+6. If category is **Home Lab**, automatically updates the series index in `home-lab-filosofia.md`
+7. Returns JSON confirmation
 
 ### Custom dates
 
 If the user specifies a date, **always use it**. Pass it as the second argument to the publish command. Custom dates override all category rules.
+
+### Update Home Lab series index
+
+The post `home-lab-filosofia.md` contains a series index listing published and future Home Lab posts. The script automatically updates this section:
+
+```bash
+# Manually update the series index
+node .agents/skills/publisher/scripts/schedule.js update-series
+```
+
+When a draft with **Home Lab** category is published, the series index is **automatically updated** after the file is moved to `_posts/`.
+
+The series section format:
+- **Published posts:** `- DD de month de YYYY: [Title]({% post_url year/filename %})`
+- **Future posts:** `- DD de month de YYYY: Title`
+- Posts are sorted by date, ascending
+- The `home-lab-filosofia.md` file itself is excluded from the list
+- If no published posts exist, shows a placeholder message
+- If no future posts exist, shows a placeholder message
 
 ## Category detection
 
@@ -87,5 +108,6 @@ The script reads the draft's frontmatter `categories` field:
 - **seo** skill runs on the post after publishing (frontmatter verification)
 - **create-images** skill generates the header image before publishing
 - **git** skill handles the commit message
+- **Home Lab series index** (`home-lab-filosofia.md`): automatically updated when publishing Home Lab posts
 
 See [references/rules.md](references/rules.md) for the complete schedule rules reference.

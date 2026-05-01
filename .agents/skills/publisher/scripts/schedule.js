@@ -3,10 +3,12 @@
  * Blog post scheduler and publisher.
  * Scans _posts/ to find existing dates and calculates next free dates.
  * Handles draft publishing with automatic category detection.
+ * Updates the Home Lab series index in home-lab-filosofia.md.
  *
  * Usage:
  *   node schedule.js next <type>              — Get next free date
  *   node schedule.js publish <slug> [date]    — Publish a draft
+ *   node schedule.js update-series            — Update Home Lab series index
  *
  * Types: sistemas, home-lab, personal, general
  */
@@ -14,7 +16,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const ROOT = path.resolve(__dirname, '../../..');
+const ROOT = path.resolve(__dirname, '../../../..');
 const POSTS_DIR = path.join(ROOT, '_posts');
 const DRAFTS_DIR = path.join(ROOT, '_drafts');
 const TIME = '08:30:00 +0200';
@@ -88,9 +90,9 @@ function findNextFree(from, stepFn, existing) {
 
 /** Parse YAML frontmatter — simple key: value extraction */
 function parseFrontmatter(text) {
-  const m = text.match(/^---\n([\s\S]*?)\n---/);
+  const m = text.match(/^---\r?\n([\s\S]*?)\r?\n---/);
   if (!m) return {};
-  const lines = m[1].split('\n');
+  const lines = m[1].split(/\r?\n/);
   const fm = {};
   let currentKey = null;
 
@@ -141,6 +143,158 @@ function detectType(fm) {
 
   // Default: general
   return 'general';
+}
+
+const MONTHS_ES = [
+  'enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio',
+  'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'
+];
+
+const SERIES_FILE_SLUG = 'home-lab-filosofia';
+
+function formatSpanishDate(dateStr) {
+  const [y, m, d] = dateStr.split('-').map(Number);
+  return `${d} de ${MONTHS_ES[m - 1]} de ${y}`;
+}
+
+/** Get all posts that have Home Lab category, sorted by date */
+function getHomeLabPosts() {
+  const posts = [];
+  try {
+    const years = fs.readdirSync(POSTS_DIR);
+    for (const year of years) {
+      const yearDir = path.join(POSTS_DIR, year);
+      if (!fs.statSync(yearDir).isDirectory()) continue;
+      const files = fs.readdirSync(yearDir);
+      for (const f of files) {
+        if (!f.endsWith('.md')) continue;
+        const dateMatch = f.match(/^(\d{4}-\d{2}-\d{2})-/);
+        if (!dateMatch) continue;
+        const filePath = path.join(yearDir, f);
+        const content = fs.readFileSync(filePath, 'utf-8');
+        const fm = parseFrontmatter(content);
+        const categories = fm.categories || [];
+        const cats = Array.isArray(categories) ? categories : [categories];
+        if (cats.some(c => c.toLowerCase() === 'home lab' || c.toLowerCase() === 'home-lab' || c.toLowerCase() === 'homelab')) {
+          posts.push({
+            date: dateMatch[1],
+            filename: f,
+            year: year,
+            title: fm.title || f,
+            slug: fm.slug || f.replace(/^\d{4}-\d{2}-\d{2}-/, '').replace(/\.md$/, ''),
+          });
+        }
+      }
+    }
+  } catch { /* _posts/ may not exist yet */ }
+  posts.sort((a, b) => a.date.localeCompare(b.date));
+  return posts;
+}
+
+/** Build the series index section content */
+function buildSeriesSection(posts, today) {
+  const published = posts.filter(p => p.date <= today);
+  const future = posts.filter(p => p.date > today);
+
+  let publishedSection = 'Posts publicados de la serie:\n';
+  if (published.length === 0) {
+    publishedSection += '\n';
+    publishedSection += '*(Aún no hay posts publicados en esta serie.)*\n';
+  } else {
+    publishedSection += '\n';
+    for (const p of published) {
+      const jekyllUrl = p.filename.replace(/\.md$/, '');
+      publishedSection += `- ${formatSpanishDate(p.date)}: [${p.title}]({% post_url ${p.year}/${jekyllUrl} %})\n`;
+    }
+  }
+
+  publishedSection += '\n';
+  publishedSection += 'Próximos posts de la serie (fecha de publicación):\n';
+  publishedSection += '\n';
+  if (future.length === 0) {
+    publishedSection += '*(No hay posts futuros planificados.)*\n';
+  } else {
+    for (const p of future) {
+      publishedSection += `- ${formatSpanishDate(p.date)}: ${p.title}\n`;
+    }
+  }
+
+  return publishedSection;
+}
+
+/** Update the series section in home-lab-filosofia.md. Returns status object. */
+function updateSeriesInPlace(today, allPosts) {
+  const homeLabWithoutRoot = allPosts.filter(p => p.slug !== SERIES_FILE_SLUG);
+
+  // Find the series index file
+  let seriesFile = null;
+  try {
+    const years = fs.readdirSync(POSTS_DIR);
+    for (const year of years) {
+      const yearDir = path.join(POSTS_DIR, year);
+      if (!fs.statSync(yearDir).isDirectory()) continue;
+      const files = fs.readdirSync(yearDir);
+      const match = files.find(f => f.includes(SERIES_FILE_SLUG));
+      if (match) {
+        seriesFile = path.join(yearDir, match);
+        break;
+      }
+    }
+  } catch { /* ignore */ }
+
+  if (!seriesFile) {
+    return { status: 'error', message: 'Series index file not found' };
+  }
+
+  const content = fs.readFileSync(seriesFile, 'utf-8');
+  const seriesSectionRegex = /(Posts publicados de la serie:\r?\n[\s\S]*?)(?=\r?\n## |\r?\n# )/;
+  const match = content.match(seriesSectionRegex);
+
+  if (!match) {
+    return { status: 'error', message: 'Could not find series section' };
+  }
+
+  const newSection = buildSeriesSection(homeLabWithoutRoot, today);
+  const updatedContent = content.replace(seriesSectionRegex, newSection);
+
+  if (content === updatedContent) {
+    return { status: 'unchanged' };
+  }
+
+  fs.writeFileSync(seriesFile, updatedContent);
+
+  const publishedCount = homeLabWithoutRoot.filter(p => p.date <= today).length;
+  const futureCount = homeLabWithoutRoot.filter(p => p.date > today).length;
+
+  return {
+    status: 'updated',
+    published: publishedCount,
+    future: futureCount
+  };
+}
+
+/** Update the series index in home-lab-filosofia.md (standalone command) */
+function cmdUpdateSeries() {
+  const today = formatDate(new Date());
+  const allPosts = getHomeLabPosts();
+  const homeLabWithoutRoot = allPosts.filter(p => p.slug !== SERIES_FILE_SLUG);
+
+  if (homeLabWithoutRoot.length === 0) {
+    console.log(JSON.stringify({
+      status: 'skipped',
+      message: 'No Home Lab posts found (excluding series root).'
+    }, null, 2));
+    return;
+  }
+
+  const result = updateSeriesInPlace(today, allPosts);
+
+  if (result.status === 'error') {
+    console.error(`Error: ${result.message}`);
+    process.exit(1);
+  }
+
+  console.log(JSON.stringify(result, null, 2));
 }
 
 /** Build the schedule config */
@@ -246,7 +400,7 @@ function cmdPublish(slug, customDate) {
   fs.writeFileSync(destFile, updatedContent);
   fs.unlinkSync(draftFile);
 
-  console.log(JSON.stringify({
+  const publishResult = {
     status: 'published',
     date: dateStr,
     formatted: formatted,
@@ -254,7 +408,17 @@ function cmdPublish(slug, customDate) {
     day: config.day,
     file: path.relative(ROOT, destFile),
     draft: path.relative(ROOT, draftFile)
-  }, null, 2));
+  };
+
+  // Auto-update Home Lab series index if this is a Home Lab post
+  if (type === 'home-lab') {
+    const today = formatDate(new Date());
+    const allPosts = getHomeLabPosts();
+    const seriesResult = updateSeriesInPlace(today, allPosts);
+    publishResult.seriesUpdated = seriesResult;
+  }
+
+  console.log(JSON.stringify(publishResult, null, 2));
 }
 
 // ── Main ─────────────────────────────────────────────────
@@ -265,6 +429,7 @@ if (args.length === 0) {
   console.error('Usage:');
   console.error('  schedule.js next <type>              — Get next free date');
   console.error('  schedule.js publish <slug> [date]    — Publish a draft');
+  console.error('  schedule.js update-series            — Update Home Lab series index');
   console.error('');
   console.error('Types: sistemas, home-lab, personal, general');
   process.exit(1);
@@ -282,6 +447,8 @@ if (command === 'next') {
   }
   const [slug, customDate] = rest;
   cmdPublish(slug, customDate);
+} else if (command === 'update-series') {
+  cmdUpdateSeries();
 } else {
   console.error(`Unknown command: ${command}`);
   process.exit(1);
