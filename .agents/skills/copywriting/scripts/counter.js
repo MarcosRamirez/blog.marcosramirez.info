@@ -53,6 +53,12 @@ function countWords(text) {
   return words.length;
 }
 
+function countParagraphs(text) {
+  // Split by two or more newlines, filter out empty paragraphs
+  const paragraphs = text.split(/\n\s*\n/).filter(p => p.trim().length > 0);
+  return paragraphs.length;
+}
+
 function stripMarkdown(text) {
   return text
     .replace(/```[\s\S]*?```/g, '')
@@ -83,7 +89,7 @@ function cmdCount(filePath) {
   const bodyWords = countWords(bodyClean);
 
   const excerptWords = countWords(excerpt);
-  const excerptPct = bodyWords > 0 ? ((excerptWords / bodyWords) * 100).toFixed(1) : 0;
+  const excerptParagraphs = countParagraphs(excerpt);
 
   const result = {
     file: path.relative(ROOT, file),
@@ -95,7 +101,7 @@ function cmdCount(filePath) {
       text: excerpt,
       words: excerptWords,
       characters: excerpt.length,
-      pctOfBody: parseFloat(excerptPct)
+      paragraphs: excerptParagraphs
     },
     description: {
       text: description,

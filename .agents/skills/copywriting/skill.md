@@ -222,10 +222,10 @@ Incorrect example:
 
 ### Writing the Excerpt
 
-- The excerpt must contain a summary between 20% and 30% of the post length (shown to users in listings).
+- The excerpt must be a concise summary of the post in paragraph format.
+- Maximum: 1 paragraph (2 paragraphs absolute maximum).
 - It must be a complete and coherent summary of the post.
 - It must be written in the same language as the post.
-- It must be written in paragraph format.
 - **ALWAYS in double quotes** (do not use folded format `>–`).
 
 ### Writing the twitter_description
@@ -238,7 +238,7 @@ Incorrect example:
 
 | Field | Length | Purpose | Used Where |
 |-------|--------|---------|------------|
-| **excerpt** | 20-30% of post (150-300 words) | Human summary | Homepage, listings, RSS feed |
+| **excerpt** | 1-2 paragraphs max | Human summary | Homepage, listings, RSS feed |
 | **description** | 140-155 characters | SEO pitch for crawlers | Google search snippet |
 | **twitter_description** | 160 characters max | Social card text | Twitter/X sharing |
 
@@ -257,8 +257,8 @@ The script returns JSON with counts for every field. The skill must validate the
 | Field | What to check | Rule |
 |---|---|---|
 | `title.characters` | Length of title | No explicit limit, keep concise |
-| `excerpt.words` | Word count of excerpt | 150-300 words |
-| `excerpt.pctOfBody` | Excerpt as % of body | 20-30% |
+| `excerpt.words` | Word count of excerpt | ≤200 words recommended |
+| `excerpt.paragraphs` | Paragraph count | 1-2 max |
 | `excerpt.characters` | Character count of excerpt | For reference |
 | `description.characters` | Length of description (SEO meta description) | 140-155 characters |
 | `twitter_description.characters` | Length of twitter description | ≤160 characters |

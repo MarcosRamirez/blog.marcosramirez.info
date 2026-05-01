@@ -207,7 +207,7 @@ The AI must identify affiliate/referral links and mark them with `rel="sponsored
 - **H1:** Don't repeat in the Markdown body (Chirpy generates it automatically).
 
 ## 7. Excerpt and Interlinking
-- **Excerpt:** See **copywriting skill** for rules (20-30% of post length, paragraph format, double quotes).
+- **Excerpt:** See **copywriting skill** for rules (1-2 paragraphs max, paragraph format, double quotes).
 - **⚠️ Excerpt does NOT support links** — CTA for lead capture must go ONLY in the article body, not in excerpt.
 - **Interlinking:** Suggest internal links to Whitelist domains to improve user navigation.
 
