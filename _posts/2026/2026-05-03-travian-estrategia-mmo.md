@@ -7,8 +7,8 @@ authors:
 date: 2026-05-03 08:30:00 +0200
 image: /assets/img/headers/travian-estrategia-mmo-nanobanana.webp
 image_alt: "Mapa del juego Travian mostrando aldeas, recursos y rutas de ataque de tropas en un entorno medieval"
-categories: [Personal, Reflexiones y Opinión]
-tags: [MMO, estrategia, consejos, juegos, multiplayer, juegos-online, guerra]
+categories: [Juegos]
+tags: [MMO, estrategia, consejos, juegos, multiplayer, juegos-online, guerra, Travian]
 pin: false
 toc: true
 excerpt: "Llevo 12 años jugando a Travian de forma intermitente pero constante. He participado en múltiples rondas gestionando cuentas de siete imperios diferentes y vivido guerras épicas. Tras retomarlo hace unos días, un amigo me preguntó por estrategias básicas y cómo crecer rápido. En esta guía comparto lo que he aprendido sobre este MMO de estrategia. Explico tres puntos críticos: Travian no es para jugar solo (necesitas alianza activa 24h), es bastante PTW con ventajas para quienes compran oro, y es un juego de guerra constante donde el objetivo es construir la Maravilla del Mundo. Analizo los siete imperios: romanos (mi favorito), galos, teutones, hunos, egipcios, espartanos y vikingos, detallando sus tropas y edificios especiales. Explico las estrategias de oasis: sistema de recompensas por matar animales, periodo de protección inicial y consejos para farmear con listas de granjas organizadas por dificultad. También cubro cómo conquistar oasis para bonificaciones y las herramientas imprescindibles con una comparativa detallada. Comparto consejos para crecer rápido priorizando recursos y almacenamiento, ahorrando oro para el héroe y aprovechando las ventajas de cada imperio. Mi experiencia personal narra una guerra de 72 horas donde 60 jugadores destruimos una Maravilla al 92%. Finalmente, explico la fase final: la construcción de la Maravilla que requiere cientos de jugadores activos y coordinación perfecta."

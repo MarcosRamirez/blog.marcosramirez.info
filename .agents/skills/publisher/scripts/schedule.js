@@ -141,6 +141,11 @@ function detectType(fm) {
     return 'personal';
   }
 
+  // Check for Juegos main category (same rules as Personal)
+  if (cats.some(c => c.toLowerCase() === 'juegos')) {
+    return 'juegos';
+  }
+
   // Default: general
   return 'general';
 }
@@ -302,6 +307,7 @@ function getSchedule(type) {
   const configs = {
     'home-lab':   { day: 'Friday',  nextFn: nextFriday,  label: 'Home Lab' },
     'personal':   { day: 'Sunday',  nextFn: nextSunday,  label: 'Personal' },
+    'juegos':     { day: 'Sunday',  nextFn: nextSunday,  label: 'Juegos' },
     'general':    { day: 'Any day', nextFn: nextDay,     label: 'General' },
   };
   return configs[type] || configs.general;
@@ -317,7 +323,7 @@ function cmdNext(type) {
 
   // For Friday/Sunday: start from next matching day; for general: start from tomorrow
   let start;
-  if (type === 'home-lab' || type === 'personal') {
+  if (type === 'home-lab' || type === 'personal' || type === 'juegos') {
     start = config.nextFn(today);
   } else {
     start = nextDay(today);
@@ -371,7 +377,7 @@ function cmdPublish(slug, customDate) {
     const today = new Date();
     today.setHours(0, 0, 0, 0);
     let start;
-    if (type === 'home-lab' || type === 'personal') {
+    if (type === 'home-lab' || type === 'personal' || type === 'juegos') {
       start = config.nextFn(today);
     } else {
       start = nextDay(today);
@@ -431,7 +437,7 @@ if (args.length === 0) {
   console.error('  schedule.js publish <slug> [date]    — Publish a draft');
   console.error('  schedule.js update-series            — Update Home Lab series index');
   console.error('');
-  console.error('Types: sistemas, home-lab, personal, general');
+  console.error('Types: sistemas, home-lab, personal, juegos, general');
   process.exit(1);
 }
 

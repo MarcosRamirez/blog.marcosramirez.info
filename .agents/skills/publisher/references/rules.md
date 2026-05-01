@@ -5,6 +5,7 @@
 | Main Category | Subcategory | Schedule |
 |--------------|-------------|----------|
 | Personal | (any) | Next free **Sunday** at 08:30:00 +0200 |
+| Juegos | (any) | Next free **Sunday** at 08:30:00 +0200 |
 | (any) | Home Lab | Next free **Friday** at 08:30:00 +0200 |
 | (any) | (none of above) | Next free **date** (any day) at 08:30:00 +0200 |
 
@@ -22,7 +23,8 @@ The script reads the draft's frontmatter `categories` field and applies these ru
 
 1. **Home Lab:** If `categories` contains "Home Lab", "home-lab", or "homelab" (case-insensitive) → Friday
 2. **Personal:** If the first/main category is "Personal" → Sunday
-3. **Everything else:** → Next free date (any day)
+3. **Juegos:** If the first/main category is "Juegos" → Sunday (same as Personal)
+4. **Everything else:** → Next free date (any day)
 
 ## Day Definitions
 
