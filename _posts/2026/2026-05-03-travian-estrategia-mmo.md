@@ -134,6 +134,7 @@ Esto te ayuda a preparar la simulación de combate adecuada antes de atacar.
 Para farmear oasis de forma eficiente, la mayoría de jugadores serios usan "listas de granjas" (farmlists). Te recomiendo organizarlas así:
 
 **Oasis fáciles (Hierro, Barro y sus variantes con grano)**: Usa caballería de ataque o combinaciones de caballería ofensiva y defensiva. Ejemplos por imperio:
+
 - Teutones: 1 Paladín + 1 Caballero Teutón
 - Galos: 1 Theutates Thunder + 1 Haeduo
 - Egipcios: 1 Guardia Anhur + 1 Carro Resheph
@@ -150,6 +151,7 @@ Los mejores farmeadores de oasis usan combinaciones de 6-6-6 o 6-6-3 unidades de
 ### Tu héroe y los oasis
 
 Tu héroe puede limpiar oasis solo, especialmente más adelante en el juego. Algunos consejos:
+
 - Asigna puntos de héroe a fuerza de combate, no a producción de recursos, si confías en el farmeo con héroe.
 - El farmeo con héroe se vuelve eficiente una vez que tu héroe alcanza nivel 30+.
 - Equipamiento recomendado: Caballo, Espuelas Pequeñas, Mapa Pequeño, arma de mano derecha, Casco de Conciencia, Armadura de Escamas Ligera.
@@ -161,6 +163,7 @@ Algo crucial: **tu héroe no necesita participar en la batalla para recibir las 
 Una vez que has matado a todos los animales iniciales, el oasis empieza a producir recursos. Puedes conquistarlo con tu héroe para obtener una bonificación de producción en la aldea desde la que atacaste.
 
 Para conquistar necesitas:
+
 - Mansión del héroe nivel 10 para 1 oasis
 - Nivel 15 para un segundo oasis  
 - Nivel 20 para el tercer oasis
@@ -170,6 +173,7 @@ El oasis debe estar dentro de un radio de 3 casillas de tu aldea. Una vez conqui
 ### Oasis de otros jugadores
 
 También puedes conquerir oasis que pertenezcan a otros jugadores. Las reglas son:
+
 - Si el defensor tiene 3 oasis: 1 ataque con tu héroe basta
 - Si tiene 2 oasis: necesitas atacar 2 veces
 - Si tiene 1 oasis: necesitas atacar 3 veces
