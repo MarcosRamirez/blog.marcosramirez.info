@@ -1,5 +1,15 @@
 # AGENTS.md - Blog Marcos Ramírez
 
+## Contexto del Usuario
+Para información personal sobre Marcos (ubicación, equipo, software, Home Lab, preferencias), leer:
+- `.context/user.md` - Información personal y preferencias
+- `.context/machine.md` - Especificaciones del equipo
+- `.context/software.md` - Herramientas de desarrollo
+- `.context/location.md` - Ubicación y timezone
+- `.context/home-lab.md` - Configuración del Home Lab
+
+**IMPORTANTE:** Antes de asumir anything sobre el usuario o su entorno, consultar estos archivos. No inventar información.
+
 ## Tech Stack
 - Jekyll + Chirpy theme
 - GitHub Pages (build automático en push)

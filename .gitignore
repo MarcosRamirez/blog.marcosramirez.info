@@ -13,4 +13,5 @@ _tools/image-generator/node_modules/
 gcp-key.json
 cheatsheet.md
 .claude
+.context
 
