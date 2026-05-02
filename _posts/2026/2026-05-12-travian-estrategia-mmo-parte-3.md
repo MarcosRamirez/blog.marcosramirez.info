@@ -7,7 +7,7 @@ authors:
 date: 2026-05-12 08:30:00 +0200
 excerpt: "Tercera parte de la guía definitiva de Travian. Aprende a expandir tu zona de granjeo más allá del 7x7, por qué solo debes usar caballería a largas distancias, cómo usar herramientas para encontrar inactivos y los riesgos de destruir 'vacas' en el juego."
 categories:
-  - Tecnología
+  - Juegos
 tags:
   - MMO
   - estrategia
@@ -21,6 +21,7 @@ toc: true
 pin: false
 twitter_description: "Travian III: cómo expandir tu zona de granjeo más allá del 7x7 usando solo caballería. Consejos para encontrar inactivos y evitar riesgos."
 description: "Aprende a expandir tu zona de granjeo más allá del 7x7 en Travian. Descubre por qué usar solo caballería a largas distancias y los riesgos de ataques."
+last_modified_at: 2026-05-02 10:00:00 +0200
 permalink: /:slug/
 ---
 
