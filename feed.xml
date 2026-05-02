@@ -44,8 +44,8 @@ layout: compress
     {% endfor %}
   {% endif %}
 
-  {% if post.summary %}
-    <summary>{{ post.summary | strip }}</summary>
+  {% if post.excerpt %}
+    <summary>{{ post.excerpt | strip }}</summary>
   {% elsif post.description %}
     <summary>{{ post.description | strip_html | truncate: 400 }}</summary>
   {% else %}
