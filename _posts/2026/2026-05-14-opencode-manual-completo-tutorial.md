@@ -2,7 +2,7 @@
 title: "OpenCode: Manual Completo - Guía Definitiva del Agente de Coding"
 slug: opencode-manual-completo-tutorial
 date: 2026-05-14 08:30:00 +0200
-last_modified_at: 2026-05-02 14:30:00 +0200
+last_modified_at: 2026-05-02 14:45:00 +0200
 excerpt: "Manual completo de OpenCode: instalación, configuración, modelos, agentes, MCP, GitHub integration y casos de uso prácticos. La guía más detallada del agente de coding open-source."
 authors:
   - Marcos Ramírez
@@ -300,7 +300,6 @@ Ejemplo de agente personalizado en `opencode.json`:
 | `Ctrl+D` | Salir |
 | `Ctrl+G` | Abrir en editor externo |
 | `Enter` | Enviar mensaje |
-| `Alt+Enter` | Nueva línea |
 | `Shift+Enter` | Nueva línea en el chat |
 
 ### Temas
