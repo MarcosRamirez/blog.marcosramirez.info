@@ -213,6 +213,23 @@ Use the `image_alt` from frontmatter for accessibility:
 
 Always ensure `image_alt` is set in frontmatter for SEO and accessibility.
 
+### Additional Images (Post Body)
+
+Additional images provided by the user for the post body (not the header) should be stored in:
+
+```
+img/posts/<año>/<slug>/image-name.webp
+```
+
+Example: `img/posts/2026/travian-estrategia-ofensiva-primeros-dias/travian-gold-ventajas.webp`
+
+These images come from `assets/img/misc/` and are moved to the post's folder during post preparation.
+
+The header image (generated with create-images skill) continues using:
+```
+/assets/img/headers/YYYY/image-name.webp
+```
+
 ## Kramdown Link Format
 
 Jekyll uses Kramdown as its Markdown parser. The correct format for links with attributes is:
