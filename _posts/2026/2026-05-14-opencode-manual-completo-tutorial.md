@@ -2,6 +2,7 @@
 title: "OpenCode: Manual Completo - Guía Definitiva del Agente de Coding"
 slug: opencode-manual-completo-tutorial
 date: 2026-05-14 08:30:00 +0200
+last_modified_at: 2026-05-02 12:00:00 +0200
 excerpt: "Manual completo de OpenCode: instalación, configuración, modelos, agentes, MCP, GitHub integration y casos de uso prácticos. La guía más detallada del agente de coding open-source."
 authors:
   - Marcos Ramírez
@@ -232,6 +233,23 @@ Invocarlo:
 | `/redo` | Rehacer |
 | `/models` | Ver modelos disponibles |
 | `/connect` | Conectar proveedor |
+
+### Ejecutar comandos directamente
+
+Usa el prefijo `!` para ejecutar comandos de shell directamente sin pasar por el agente:
+
+```
+!ls -la
+!npm test
+!git status
+```
+
+Esto es útil para:
+- Comandos rápidos que no necesitan contexto del agente
+- Verificar el estado actual del proyecto
+- Ejecutar scripts o comandos cortos
+
+El agente continuará su trabajo mientras el comando se ejecuta en segundo plano.
 
 ### Crear agentes personalizados
 
