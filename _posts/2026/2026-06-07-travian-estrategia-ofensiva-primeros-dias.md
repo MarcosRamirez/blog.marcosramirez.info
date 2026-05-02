@@ -1,15 +1,15 @@
 ---
-title: "Travian: estrategia ofensiva para los primeros días"
+title: "Travian: estrategia ofensiva para los primeros días del servidor"
 slug: travian-estrategia-ofensiva-primeros-dias
 authors:
   - Marcos Ramírez
   - Lucía
-date: 2026-05-02 08:30:00 +0200
+date: 2026-06-07 08:30:00 +0200
 excerpt: "Tercera parte de la guía definitiva de Travian basada en 12 años de experiencia. En esta entrega profundizamos en la estrategia ofensiva para los primeros días: cómo distribuir los primeros puntos del héroe, priorizar edificios, entrenar tropas desde el primer momento y maximizar el farmeo de oasis. Aprende a construir una cuenta ofensiva sólida desde el día 1 y a preparar tu segunda aldea con criterios estratégicos para el crecimiento a medio plazo."
 twitter_description: "Travian: estrategia ofensiva para los primeros días. Cómo growear rápido y preparar tu segunda aldea desde el inicio."
-description: "Estrategia offensiva de Travian para los primeros días: puntos del héroe, edificios clave, training de tropas y farmeo de oasis. Aprende más."
+description: "Estrategia ofensiva de Travian para los primeros días: puntos del héroe, edificios clave, training de tropas y farmeo de oasis. Aprende más."
 categories: [Juegos]
-tags: [MMO, estrategia, ofensivo, crecimiento, primeros-dias, Travian, granjeo, tropasy]
+tags: [MMO, ofensivo, crecimiento, primeros-dias, granjeo, tropas]
 image: /assets/img/headers/2026/travian-estrategia-ofensiva-primeros-dias-nanobanana.webp
 image_alt: "Interfaz de Travian mostrando un héroe con atributos de ataque, edificio de cuartel entrenando tropas y oasis en el mapa"
 pin: false
@@ -21,7 +21,7 @@ permalink: /:slug/
 
 Esta es la tercera entrega de mi guía sobre Travian, el MMO de estrategia por excelencia. Si has leído las partes anteriores, ya conoces los imperios, los oasis y las herramientas básicas. Ahora vamos a lo que realmente importa: cómo construir una cuenta ofensiva desde el primer día.
 
-La diferencia entre un jugador que domina el servidor y uno que se queda atrás se decide en los primeros siete días. En esta guía te explico exactamente qué hacer y cuándo hacerlo si decides jugar de forma ofensivo.
+La diferencia entre un jugador que domina el servidor y uno que se queda atrás se decide en los primeros siete días. En esta guía te explico exactamente qué hacer y cuándo hacerlo si decides jugar de forma ofensiva.
 
 ## La decisión inicial: ofensivo o defensivo
 
@@ -37,13 +37,13 @@ Nada más crear tu cuenta, tu héroe tiene varios puntos por distribuir. La preg
 
 En servidores recientes, los oasis suelen tener muchos animales desde el principio. En este caso, **es mejor dar puntos de producción al héroe** para maximizar tu producción de recursos mientras tienes protección de novato. Una vez que termine la protección de novato (aproximadamente 3-7 días dependiendo del servidor), puedes cambiar la distribución de puntos a ataque puro.
 
-Esta estrategia te permite acelerar tu crecimiento económico en las primeras fases cuando más lo necesitas, y una vez que ya tienes tropasy una economía establecida, cambias a offensive para farmeet y limpiar oasis.
+Esta estrategia te permite acelerar tu crecimiento económico en las primeras fases cuando más lo necesitas, y una vez que ya tienes tropas y una economía establecida, cambias a ofensivo para farmear y limpiar oasis.
 
 ### Estrategia para servidores establecidos
 
 Si ya han pasado varias semanas desde que empezó el servidor y los oasis ya están más vacíos, la respuesta es clara: **todos los puntos en ataque**. No necesitas producción de recursos extra porque el farmeo de oasis y las granjas te van a dar todos los recursos que necesitas.
 
-Esta estrategia funciona así: con tu héroe enfocado al 100% en ataque, puedes limpiar oasis más difíciles y hacer raids más efectivos. Al principio puedes darte algún punto en producción si lo necesitas, pero una vez que tienes troupes constantemente farmeando, no hace falta. El farmeo con raids te genera suficientes recursos para no depender de la producción pasiva del héroe.
+Esta estrategia funciona así: con tu héroe enfocado al 100% en ataque, puedes limpiar oasis más difíciles y hacer raids más efectivos. Al principio puedes darte algún punto en producción si lo necesitas, pero una vez que tienes tropas constantemente farmeando, no hace falta. El farmeo con raids te genera suficientes recursos para no depender de la producción pasiva del héroe.
 
 Mi recomendación personal: **pon todos los puntos en ataque (off)**. Si en algún momento específico te hace falta un punto extra de producción, yo lo puedo poner, pero el objetivo es ataque puro para maximizar tu capacidad de farmeo y clear de oasis.
 
@@ -55,7 +55,7 @@ En los primeros días, tu lista de construcción debe seguir un orden muy espec�
 
 Tu prioridad absoluta en las primeras horas es subir el edificio principal al nivel 3 lo más rápido posible. Este edificio te permite construir el cuartel, que es donde entrenarás tus tropas ofensivas. Sin cuartel, no puedes generar el flujo de recursos que necesitas como jugador ofensivo.
 
-Una vez tengas el cuartel construido, no lo dejes parado. Mi recomendación es entrenando al menos un par de tropas desde el primer día, aunque sean pocas. Estas tropas te servirán para dos cosas: defenderte de ataques rápidos de otros jugadores y, más importante, empezar a farmeet oasis para generar recursos adicionales.
+Una vez tengas el cuartel construido, no lo dejes parado. Mi recomendación es entrenando al menos un par de tropas desde el primer día, aunque sean pocas. Estas tropas te servirán para dos cosas: defenderte de ataques rápidos de otros jugadores y, más importante, empezar a farmear oasis para generar recursos adicionales.
 
 El cuartel debe estar funcionando 24 horas al día desde el momento en que lo construyes. Esto significa que siempre debes tener una cola de entrenamiento activa. No te preocupes por el nivel del cuartel al principio; lo importante es que nunca se detenga. Conforme vayas generando recursos, ve subiendo el nivel del cuartel un par de niveles cada día. En una cuenta bien gestionada, el cuartel debería estar al nivel 10-15 antes del día 7.
 
@@ -75,15 +75,15 @@ Mi consejo es simple: construye el granero y el almacén lo suficientemente alto
 
 Llegamos a uno de los errores más comunes que veo en jugadores nuevos: construir un palacio demasiado pronto. El palacio es un edificio de nivel alto que marca tu capital y permite expandir las casillas de producción hasta nivel 20. Por eso solo tiene sentido construirlo en un cerealero de 15 campos con buena producción de recursos. Requiere muchos recursos y no te da nada útil en los primeros días.
 
-La alternativa correcta es la residencia. Debes mejorar la residencia al nivel 10 durante los primeros siete días. ¿Por qué? Porque al nivel 10 puedes entrenar tres colonos, que son las unidades que te permiten fundar tu segunda aldea. Tu segunda aldea es absolutamente crítica para el crecimiento de cualquier cuenta offensive.
+La alternativa correcta es la residencia. Debes mejorar la residencia al nivel 10 durante los primeros siete días. ¿Por qué? Porque al nivel 10 puedes entrenar tres colonos, que son las unidades que te permiten fundar tu segunda aldea. Tu segunda aldea es absolutamente crítica para el crecimiento de cualquier cuenta ofensiva.
 
-No gastes recursos en construir un palacio hasta que tengas al menos 2-3 aldeas funcionando y una economía sólida. El palais es un objetivo de medio-largo plazo, no una prioridad early game.
+No gastes recursos en construir un palacio hasta que tengas al menos 2-3 aldeas funcionando y una economía sólida. El palacio es un objetivo de medio-largo plazo, no una prioridad early game.
 
 ## Tu héroe y los oasis: la máquina de recursos
 
 Ahora llegamos a una de las mecánicas más importantes para ofensivos: el farmeo de oasis con tu héroe. Los oasis son casillas especiales en el mapa que dan bonificaciones de producción a tus aldeas, pero antes de conquistarlos necesitas limpiar los animales salvajes que los habitan.
 
-### Cómo farmeet oasis con tu héroe
+### Cómo farmear oasis con tu héroe
 
 Desde el primer día, usa tu héroe para limpiar oasis cercanos. La técnica es simple: envía a tu héroe con dos unidades a cada oasis y ataca. Los animales salvajes son débiles al principio y tu héroe debería poder manejarlos sin muchos problemas.
 
@@ -93,7 +93,7 @@ Otra cosa importante: siempre vas a perder tropas farmeando oasis. Esto es inevi
 
 ### Listas de granjas: organiza tu farmeo
 
-Si vas en serio con una cuenta offensive, necesitas usar listas de granjas (farmlists). Estas son listas organizadas de oasis que puedes atacar en secuencia sin tener que seleccionar cada objetivo manualmente.
+Si vas en serio con una cuenta ofensiva, necesitas usar listas de granjas (farmlists). Estas son listas organizadas de oasis que puedes atacar en secuencia sin tener que seleccionar cada objetivo manualmente.
 
 Mi recomendación es organizar tus listas por dificultad. Los oasis de hierro y barro son los más fáciles de farmear; los oasis de grano solo son más difíciles y requieren más tropas por ataque. Organiza tu lista para empezar por los fáciles e ir pasando gradualmente a los más difíciles conforme tengas más tropas disponibles.
 
@@ -101,7 +101,7 @@ Ten siempre una lista activa y funcionando. El farmeo constante de oasis es lo q
 
 ## Travian Plus y Gold Club: los must-have del early game
 
-Al comenzar en Travian, el juego te дает una cantidad de oro gratuita para usar. Este oro es valioso, y hay dos cosas que DEBES activar desde el primer día:
+Al comenzar en Travian, el juego te da una cantidad de oro gratuita para usar. Este oro es valioso, y hay dos cosas que DEBES activar desde el primer día:
 
 ### Travian Plus (+25% producción)
 
@@ -117,9 +117,21 @@ Las farmlists te permiten automatizar tus ataques en secuencia sin tener que sel
 
 El oro lo reservo para cosas que realmente no pueden esperar: emergencias, eventos especiales del servidor, o cuando necesitas un boost de última hora para cumplir un objetivo específico.
 
+![Ventajas de Gold Club: evasión de tropas bajo ataque, 3x viajes de comerciantes, rutas comerciales automáticas, buscador de granjas 9c y 15c, y archivo de mensajes e informes](assets/img/misc/gold-club.jpeg)
+
+**Gold Club merece la inversión**: es un pago único de 200 oro válido para todo el servidor. Incluye todas estas ventajas clave para ofensivos:
+
+- **Evasión de tropas bajo ataque**: protege tus tropas cuando te atacan
+- **3x viajes de comerciantes**: multiplica tu capacidad de comercio
+- **Rutas comerciales automáticas**: configura intercambios recurrentes
+- **Buscador de granjas 9c y 15c**: encuentra cerealeros ideales para expandir
+- **Archivo de mensajes e informes**: organiza tu comunicación
+
+Para un jugador ofensivo, estas herramientas son casi obligatorias. La inversión se recupera rápido en eficiencia de farmeo.
+
 ## La segunda aldea: tu primer 15C
 
-Cuando finalmente puedas fundar tu segunda aldea (normalmente alrededor del día 7-10 dependiendo del servidor), la ubicación es crítica. Para una cuenta offensive, tu segunda aldea idealmente debería ser lo que llamamos un "15C" o "cerealero de 15 campos".
+Cuando finalmente puedas fundar tu segunda aldea (normalmente alrededor del día 7-10 dependiendo del servidor), la ubicación es crítica. Para una cuenta ofensiva, tu segunda aldea idealmente debería ser lo que llamamos un "15C" o "cerealero de 15 campos".
 
 Un 15C es una aldea con 15 campos de grano, lo que significa que tiene una producción de grano muy alta. El grano es el recurso más crítico en Travian porque todas las tropas consumen grano. Una aldea con producción alta de grano puede mantener un ejercito mucho más grande.
 
@@ -139,9 +151,9 @@ Busca una aldea que cumpla estos requisitos:
 
 Para terminar, aquí está mi checklist de la primera semana para una cuenta ofensiva:
 
-1. **Día 1**: Un punto del héroes en cada recurso, completar misiones, construir edificio principal nivel 3 y cuartel básico.
+1. **Día 1**: Un punto del héroe en cada recurso, completar misiones, construir edificio principal nivel 3 y cuartel básico.
 
-2. **Días 2-3**: Empezar a farmeet oasis con el héroe, mantener el cuartel funcionando 24/7 con al menos algunas tropas, subir granero y almacén.
+2. **Días 2-3**: Empezar a farmear oasis con el héroe, mantener el cuartel funcionando 24/7 con al menos algunas tropas, subir granero y almacén.
 
 3. **Días 4-5**: Continuar farmeo intensivo de oasis, subir nivel del cuartel, empezar a pensar en la residencia.
 
@@ -151,24 +163,26 @@ Para terminar, aquí está mi checklist de la primera semana para una cuenta ofe
 
 La clave es la consistencia: cada día cuenta y no puedes permitirte días sin actividad si quieres competir en un servidor activo.
 
+<section>
+
 ## Preguntas frecuentes
 
 <details>
-<summary>¿Cuántas tropas necesito para farmeet oasis eficientemente?</summary>
+<summary>¿Cuántas tropas necesito para farmear oasis eficientemente?</summary>
 
-Depende del tipo de oasis. Los oasis de hierro y barro son los más fáciles: con 10-20 tropas de caballería es suficiente. Los oasis de madera requieren más, unos 50-100 tropas. Los oasis de solo grano son los más difíciles y pueden necesitar hasta 100+ tropas por ataque. Conforme tu héroesub de nivel, puede manejar oasis más difíciles con menos tropas.
+Depende del tipo de oasis. Los oasis de hierro y barro son los más fáciles: con 10-20 tropas de caballería es suficiente. Los oasis de madera requieren más, unos 50-100 tropas. Los oasis de solo grano son los más difíciles y pueden necesitar hasta 100+ tropas por ataque. Conforme tu héroe sube de nivel, puede manejar oasis más difíciles con menos tropas.
 
 </details>
 
 <details>
 <summary>¿Es mejor entrenar infantería o caballería al principio?</summary>
 
-Para farmeet, la caballería es superior porque es más rápida y puede escapar mejor si llega unacontraofensiva. Sin embargo, la infantería es más barata y más fácil de mantener. Al principio, depende de tu imperio: los teutones tienen infantería barata perfecta para empezar, mientras que los hunos y galos van mejor con caballería desde el inicio.
+Para farmear, la caballería es superior porque es más rápida y puede escapar mejor si llega una contraofensiva. Sin embargo, la infantería es más barata y más fácil de mantener. Al principio, depende de tu imperio: los teutones tienen infantería barato perfecta para empezar, mientras que los hunos y galos van mejor con caballería desde el inicio.
 
 </details>
 
 <details>
-<summary>¿Cuándo debo empezar a farmeet otras aldeas de jugadores?</summary>
+<summary>¿Cuándo debo empezar a farmear otras aldeas de jugadores?</summary>
 
 El farmeo de jugadores (no oasis) empiezan aproximadamente a partir del día 10-14, cuando tengas suficientes tropas y hayas identificado objetivos fáciles (jugadores inactivos o muy débiles). Antes de eso, los oasis son tu fuente principal de recursos adicionales. Usa herramientas como Getter Tools para encontrar jugadores inactivos en tu zona.
 
@@ -180,6 +194,8 @@ El farmeo de jugadores (no oasis) empiezan aproximadamente a partir del día 10-
 El objetivo realista es tener 2 aldeas antes del día 10. Tu primera aldea es tu base económica inicial y tu segunda aldea debería ser un cerealero que te permita mantener un ejercito más grande. Más aldeas vendrán después conforme consolides estas dos y tengas la economía para sostenerlas.
 
 </details>
+
+</section>
 
 ---
 

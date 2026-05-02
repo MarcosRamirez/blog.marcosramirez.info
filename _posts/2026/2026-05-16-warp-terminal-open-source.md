@@ -1,7 +1,7 @@
 ---
 title: "Warp abre su código fuente: lo que cambia para los devs"
 slug: warp-terminal-open-source
-date: 2026-05-02 08:30:00 +0200
+date: 2026-05-16 08:30:00 +0200
 excerpt: "Warp, el terminal que uso a diario, acaba de abrir su cliente bajo licencia AGPL. El repositorio acumuló 35.000 estrellas en menos de 24 horas. Pero Oz, el motor de agentes en la nube, sigue siendo propietario. Analizo qué significa este movimiento para quienes vivimos en la terminal, la polémica con Alacritty y si es suficiente o solo marketing."
 authors:
   - Marcos Ramírez
@@ -10,7 +10,7 @@ categories:
   - Tecnología
   - Software y Apps
   - Sistemas
-tags: [terminal, open-source, developer-tools, warp, sistemas]
+tags: [terminal, open-source, developer-tools, sistemas]
 image: /assets/img/headers/2026/warp-terminal-open-source-nanobanana.webp
 image_alt: "Terminal Warp con código fuente abierto en pantalla de desarrollador"
 toc: true
@@ -121,6 +121,8 @@ Si valoras la libertad total y el control completo, Ghostty o iTerm2 son más co
 
 Yo sigo con Warp. No porque sea perfecto, sino porque todavía no he encontrado nada que replique la fluidez de sus bloques de comandos y el historial inteligente.
 
+<section>
+
 ## Preguntas frecuentes
 
 <details>
@@ -150,6 +152,8 @@ El soporte oficial es macOS y Windows. El cliente open source abre la puerta a p
 Depende del flujo de trabajo. Ghostty es más rápido, minimalista y completamente libre. Warp ofrece más funcionalidades de productividad: bloques de comandos, historial inteligente y Warp Drive. Para un terminal limpio y rápido, Ghostty. Para las funcionalidades de productividad, Warp.
 
 </details>
+
+</section>
 
 ---
 
