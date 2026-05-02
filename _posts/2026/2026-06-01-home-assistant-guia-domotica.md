@@ -15,6 +15,7 @@ excerpt: "Home Assistant es el centro de domótica de mi Home Lab para automatiz
 twitter_description: "Home Assistant: cómo automatizo mi casa sin nubes ni suscripciones."
 permalink: /:slug/
 description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones, dashboards personalizados y automatizaciones sin nube. Guía completa para tu Home Lab."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -196,21 +197,33 @@ automation:
 
 ## Preguntas frecuentes
 
-### ¿Necesito conocimientos técnicos?
+<details>
+<summary>¿Necesito conocimientos técnicos?</summary>
 
 No necesariamente. La interfaz gráfica permite crear automatizaciones sin escribir código. Pero entender la lógica (triggers, conditions, actions) ayuda mucho.
 
-### ¿Funciona con dispositivos de cualquier marca?
+</details>
+
+<details>
+<summary>¿Funciona con dispositivos de cualquier marca?</summary>
 
 No todos. Comprueba la [lista de integraciones](https://www.home-assistant.io/integrations/){:target="_blank" rel="nofollow noopener"} antes de comprar. Si el dispositivo usa Zigbee, Z-Wave o Matter, probablemente sí.
 
-### ¿Puedo controlar todo desde fuera de casa?
+</details>
+
+<details>
+<summary>¿Puedo controlar todo desde fuera de casa?</summary>
 
 Sí, con configuración de acceso remoto seguro (VPN o Nabu Casa Cloud). No recomiendo abrir puertos directamente.
 
-### ¿Qué pasa si se va la luz?
+</details>
+
+<details>
+<summary>¿Qué pasa si se va la luz?</summary>
 
 Home Assistant arranca solo cuando vuelve la luz. Los dispositivos vuelven a su último estado conocido.
+
+</details>
 
 ***
 

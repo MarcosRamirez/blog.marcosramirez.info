@@ -19,6 +19,7 @@ pin: false
 twitter_description: "Cómo Agent Skills estandariza el conocimiento de agentes de Inteligencia Artificial. El formato abierto compatible con Claude Code, Cursor y GitHub Copilot."
 description: "Agent Skills estandariza cómo los agentes de Inteligencia Artificial aprenden. Descubre el formato que usan Claude Code, Cursor y Copilot hoy. Lee más."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

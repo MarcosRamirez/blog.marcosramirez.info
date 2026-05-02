@@ -17,6 +17,7 @@ toc: true
 twitter_description: "Frugalismo vs Minimalismo: aprende la diferencia y cómo el frugalismo puede llevarte a la independencia financiera. Guía práctica."
 permalink: /:slug/
 description: "Frugalismo vs minimalismo: aplica el coste por uso y la regla del 4% para la independencia financiera. Estrategias FIRE y hábitos de ahorro explicados."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -143,19 +144,35 @@ El frugalismo no es sobre privarse de todo, es sobre **ser intencional con tu di
 
 Como menciona [FIDE](https://www.fide.edu.pe/blog/detalle/213-frugalismo-que-es-un-estilo-de-vida-frugal/){:target="_blank" rel="nofollow noopener"}, el objetivo es "no tener que trabajar para sus propios ingresos hasta que tengan 67 años". Imagina tener la libertad de elegir si quieres trabajar o no.
 
-## Preguntas Frecuentes (FAQ)
+## Preguntas frecuentes
 
-### ¿En qué se diferencia el frugalismo del minimalismo?
+<details>
+<summary>¿En qué se diferencia el frugalismo del minimalismo?</summary>
+
 El minimalismo se centra en tener menos cosas y simplificar el espacio, mientras que el frugalismo se centra en maximizar el beneficio (profit) por cada euro invertido, calculando el coste por uso/año. Un minimalista puede comprar una camisa de diseño de 300€ porque es "necesaria", un frugalista se pregunta si existe una opción más necesaria y rentable.
 
-### ¿El frugalismo es solo gastar poco?
+</details>
+
+<details>
+<summary>¿El frugalismo es solo gastar poco?</summary>
+
 No. El frugalismo es sobre **maximizar el valor** por cada euro gastado. Una camisa de 300€ que dura 10 años sale a 30€/año (profit), mientras que una de 30€ que dura 1 año sale a 30€/año. Lo caro puede ser más rentable si es necesario y duradero.
 
-### ¿Cómo calculo el coste por uso?
+</details>
+
+<details>
+<summary>¿Cómo calculo el coste por uso?</summary>
+
 Divide el precio de compra entre los años que esperas que dure el producto. Por ejemplo: martillo de 50€ que usas 100 veces en 20 años = 0,50€ por uso. Si ese cálculo te da un valor inferior a otros métodos, es un profit.
 
-### ¿Es lo mismo ser frugal que ser tacaño?
+</details>
+
+<details>
+<summary>¿Es lo mismo ser frugal que ser tacaño?</summary>
+
 No. El tacaño no gasta ni cuando lo necesita, el frugalista invierte en lo necesario si el coste por uso es rentable. El frugalista no se deja llevar por la moda o compras "fancy", pero compra calidad cuando es necesario y duradero.
+
+</details>
 
 ## Reflexión Final
 

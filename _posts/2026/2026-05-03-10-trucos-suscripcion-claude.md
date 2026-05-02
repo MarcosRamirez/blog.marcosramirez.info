@@ -15,6 +15,7 @@ excerpt: "10 trucos prácticos para que tu suscripción de Claude dure más. Há
 twitter_description: "10 trucos que he probado para que mi suscripción de Claude dure toda la semana. Cómo llegar a 150-200 mensajes diarios en lugar de 45."
 permalink: /:slug/
 description: "10 trucos para que tu suscripción de Claude dure toda la semana. Gestiona tu uso y llega a 150-200 mensajes diarios con tu plan actual. Trucos probados."
+last_modified_at: 2026-05-02 12:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -110,6 +111,28 @@ Claude opera con una ventana móvil de 5 horas que se renueva de forma continua.
 Dividir el trabajo en 2-3 sesiones te permite alcanzar eficazmente entre 150 y 200 mensajes al día en un plan Pro, en lugar de los aproximadamente 45 que permite una sesión continua.
 
 > No esprintes. Marcha atlética.
+
+#### 8.1 ¿Cuáles son las horas punta de Claude?
+
+Anthropic no ha compartido datos oficiales sobre las horas de mayor carga de Claude. Sin embargo, basándome en reportes de terceros como [TokenCalculator.com](https://tokencalculator.com/blog/claude-peak-time-throttle-quota-drains-faster-weekdays-2026) y [TechPulse](https://techpulse.news/tools/claude-peak-hours/), la ventana de horas punta global abarca de lunes a viernes, de 13:00 a 19:00 UTC.
+
+Esta ventana se traduce en los siguientes horarios locales por región:
+
+**Américas**
+- San Francisco (PDT, UTC-7): 06:00 – 12:00
+- Nueva York (EDT, UTC-4): 09:00 – 15:00
+- São Paulo (BRT, UTC-3): 10:00 – 16:00
+
+**Europa**
+- Londres (BST, UTC+1): 14:00 – 20:00
+- París/Berlín (CEST, UTC+2): 15:00 – 21:00
+
+**Asia-Pacífico**
+- Nueva Delhi (IST, UTC+5:30): 18:30 – 00:30 (día siguiente)
+- Pekín (CST, UTC+8): 21:00 – 03:00 (día siguiente)
+- Tokio/Seúl (JST/KST, UTC+9): 22:00 – 04:00 (día siguiente)
+
+Los fines de semana (sábado y domingo) se consideran fuera de hora punta en cualquier zona horaria, por lo que el consumo de tu suscripción cuenta a tasa base normal.
 
 ### 9. Usa Artifact Publish para outputs complejos
 

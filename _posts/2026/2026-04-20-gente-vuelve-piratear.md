@@ -15,6 +15,7 @@ excerpt: "Analizo el fin de la paz del streaming y por qué la piratería vuelve
 twitter_description: "El fin del streaming barato: fragmentación, precios y piratería."
 description: "Descubre por qué la gente vuelve a piratear: fragmentación, subidas de precios y pérdida de propiedad digital. Monta tu servidor casero hoy. Lee más."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
@@ -70,16 +71,28 @@ La comodidad y el precio justo eran los dos principales escudos contra la pirate
 
 Mientras el modelo de negocio siga exprimiendo la cartera del suscriptor base a base de subidas injustificadas y pérdida de catálogo centralizado, el parche en el ojo volverá a estar de moda.
 
-## FAQ
+## Preguntas frecuentes
 
-> **1. ¿Es legal montar un servidor casero?**
-> Sí, usar Plex o Jellyfin para tu propia biblioteca es legal. Descargar contenido protegido por derechos de autor sin licencia no lo es.
+<details>
+<summary>¿Es legal montar un servidor casero?</summary>
 
-> **2. ¿Cuánto cuesta mantener un servidor casero?**
-> Electricidad de un Mini PC (~10€/año) más replacement de discos cada varios años. El software es gratuito.
+Sí, usar Plex o Jellyfin para tu propia biblioteca es legal. Descargar contenido protegido por derechos de autor sin licencia no lo es.
 
-> **3. ¿Merece la pena el esfuerzo?**
-> Si consumes mucho contenido y quieres tener todo unificado, sí. En 6-12 meses recuperas la inversión comparado con streamings.
+</details>
+
+<details>
+<summary>¿Cuánto cuesta mantener un servidor casero?</summary>
+
+Electricidad de un Mini PC (~10€/año) más replacement de discos cada varios años. El software es gratuito.
+
+</details>
+
+<details>
+<summary>¿Merece la pena el esfuerzo?</summary>
+
+Si consumes mucho contenido y quieres tener todo unificado, sí. En 6-12 meses recuperas la inversión comparado con streamings.
+
+</details>
 
 ***
 Si te ha liked, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.

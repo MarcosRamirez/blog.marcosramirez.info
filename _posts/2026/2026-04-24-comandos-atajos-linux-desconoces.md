@@ -16,6 +16,7 @@ twitter_description: "Descubre los alias más útiles para tu terminal: mkcd, mk
 permalink: /:slug/
 slug: comandos-atajos-linux-desconoces
 description: "Domina atajos de Linux como Ctrl+R, tail -F, ncdu, fzf y más. Crea alias útiles como mkcd o mkmv. Mejora tu productividad en terminal. Aprende más."
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -743,23 +744,35 @@ source ~/.bashrc  # Para Bash
 source ~/.zshrc  # Para Zsh
 ```
 
-## Preguntas Frecuentes
+## Preguntas frecuentes
 
-### ¿Cuál es la diferencia entre tail -f y tail -F?
+<details>
+<summary>¿Cuál es la diferencia entre tail -f y tail -F?</summary>
 
 La diferencia principal es que `tail -f` sigue el descriptor de archivo (si el log se rota, deja de seguir), mientras que `tail -F` sigue el nombre del archivo y lo reopen si se crea uno nuevo. Para monitorizar logs en producción, usa siempre `tail -F`.
 
-### ¿Cómo buscar en el historial de Bash?
+</details>
+
+<details>
+<summary>¿Cómo buscar en el historial de Bash?</summary>
 
 Usa `Ctrl+R` para hacer una búsqueda inversa en el historial. Pulsa `Ctrl+R` repetidamente para navegar entre resultados o `Ctrl+G` para cancelar.
 
-### ¿Qué es Readline?
+</details>
+
+<details>
+<summary>¿Qué es Readline?</summary>
 
 Readline es la librería que proporciona la edición de línea de comandos en Bash. Todos los atajos de edición (Ctrl+A, Ctrl+E, Alt+B, etc.) vienen de Readline y funcionan en cualquier programa que la use.
 
-### ¿Cómo usar el último argumento sin escribirlo?
+</details>
+
+<details>
+<summary>¿Cómo usar el último argumento sin escribirlo?</summary>
 
 Usa `Alt+.` (o Esc seguida de punto) para insertar automáticamente el último argumento del comando anterior. Es ideal para encadenar comandos en el mismo archivo o directorio.
+
+</details>
 
 ## Conclusión
 

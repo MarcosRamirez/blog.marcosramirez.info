@@ -15,6 +15,7 @@ excerpt: "Guía completa sobre racks y mini racks para tu Home Lab según espaci
 twitter_description: "Guía de racks y mini racks para Home Lab. Opciones para cada espacio y presupuesto."
 permalink: /:slug/
 description: "Elige el rack ideal para tu Home Lab según espacio y presupuesto. Mini racks, de pared o 42U. Comparativa de modelos, precios y dónde comprar."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -132,24 +133,36 @@ Un mini rack de 6U a 12U ofrece:
 
 ---
 
-## FAQ
+## Preguntas frecuentes
 
-### ¿Puedo usar un rack de 19" con equipos de 10"?
+<details>
+<summary>¿Puedo usar un rack de 19" con equipos de 10"?</summary>
 
 Sí, pero necesitas adaptadores o bandejas. Los racks de 10" son más compactos y están diseñados específicamente para equipos compactos. Si tienes equipos de 10", ahorras espacio.
 
-### ¿Cuánta profundidad necesito?
+</details>
+
+<details>
+<summary>¿Cuánta profundidad necesito?</summary>
 
 Depende de tus equipos. Los Mini PCs suelen necesitar unos 20-30cm. Un NAS más profundo puede necesitar 40cm o más. Verifica la profundidad de tus equipos antes de comprar.
 
-### ¿Necesito ventilación adicional?
+</details>
+
+<details>
+<summary>¿Necesito ventilación adicional?</summary>
 
 La mayoría de racks cerrados incluyen agujeros para cables y ventilación pasiva. Para equipos que generan mucho calor (servidores), considera racks con ventiladores o añade ventilación extra.
 
-### ¿Rack abierto o cerrado?
+</details>
+
+<details>
+<summary>¿Rack abierto o cerrado?</summary>
 
 - **Abierto**: Mejor flujo de aire, más fácil acceso, más económico
 - **Cerrado**: Más protección, posibilidad de cerrar con llave, mejor estética
+
+</details>
 
 ---
 

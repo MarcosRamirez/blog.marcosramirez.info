@@ -14,7 +14,8 @@ toc: true
 excerpt: "Immich es la alternativa de código abierto a Google Photos para gestionar tus fotos en tu propio servidor. Sin suscripción, con reconocimiento facial local, búsqueda por IA, mapas GPS y álbumes compartidos. Backup automático desde iOS y Android, tú controlas tus recuerdos más privados."
 twitter_description: "Immich: tus fotos en tu servidor, tú controlas los datos."
 permalink: /:slug/
-description: "Immich es la alternativa a Google Photos: tus fotos en tu servidor, sin suscripción. Reconocimiento facial local, backup automático desde móvil y búsqueda con Inteligencia Artificial."
+description: "Immich: alternativa a Google Photos. Tus fotos en tu servidor, sin suscripción. Reconocimiento facial local y backup automático. Descubre más."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*
@@ -141,21 +142,33 @@ Con 2GB de RAM funciona en una Raspberry Pi 4.
 
 ## Preguntas frecuentes
 
-### ¿Y si se va la luz eléctrica?
+<details>
+<summary>¿Y si se va la luz eléctrica?</summary>
 
 Tus fotos están en tu disco. Con un sistema de respaldos (backup), estás seguro.
 
-### ¿Necesito mucho conocimiento técnico?
+</details>
+
+<details>
+<summary>¿Necesito mucho conocimiento técnico?</summary>
 
 No. La app móvil funciona como Google Photos. Solo necesitas instalar el servidor una vez.
 
-### ¿Puedo compartir con mi pareja?
+</details>
+
+<details>
+<summary>¿Puedo compartir con mi pareja?</summary>
 
 Sí. Immich tiene "partner sharing" integrado.
 
-### ¿Funciona con vídeos grandes?
+</details>
+
+<details>
+<summary>¿Funciona con vídeos grandes?</summary>
 
 Sí, pero asegúrate de configurar bien el proxy si usas nginx.
+
+</details>
 
 ***
 

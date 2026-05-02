@@ -15,6 +15,7 @@ excerpt: "Explico mi transición a OpenClaw para gestionar a Lucía, mi agente d
 twitter_description: "Lucía ahora corre en mi home lab con OpenClaw: soberanía digital, modelos locales y automatización total."
 description: "Descubre cómo migré a OpenClaw para gestionar a Lucía con modelos locales y soberanía digital. Automatiza tus tareas con Inteligencia Artificial hoy."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -63,16 +64,28 @@ El futuro de la Inteligencia Artificial personal no está en aplicaciones cerrad
 
 Lucía ya no es solo una voz al otro lado del teléfono; es un miembro más de mi flujo de trabajo digital, y lo mejor de todo es que el "cerebro" está en mi propia casa.
 
-## FAQ
+## Preguntas frecuentes
 
-> **1. ¿Qué modelos de Inteligencia Artificial puedo usar en local?**
-> Muchos. GLM-5, Qwen 3, DeepSeek V3.2, Kimi K2.5 y Llama 4 son algunos de los más populares. Puedes ejecutarlos vía LM Studio u Ollama en tu propio hardware.
+<details>
+<summary>¿Qué modelos de Inteligencia Artificial puedo usar en local?</summary>
 
-> **2. ¿Necesito hardware special para tener un asistente local?**
-> Depende de los modelos. Los modelos pequeños (7B-14B parámetros) funcionan en CPUs potentes o GPUs gaming. Los grandes requieren GPUs dedicado (tipo RTX 4090 o similar).
+Muchos. GLM-5, Qwen 3, DeepSeek V3.2, Kimi K2.5 y Llama 4 son algunos de los más populares. Puedes ejecutarlos vía LM Studio u Ollama en tu propio hardware.
 
-> **3. ¿Es difícil configurar OpenClaw?**
-> No requiere conocimientos avanzados. OpenClaw ofrece Docker Compose y documentación clara. El principal escollo es tener el hardware adecuado.
+</details>
+
+<details>
+<summary>¿Necesito hardware special para tener un asistente local?</summary>
+
+Depende de los modelos. Los modelos pequeños (7B-14B parámetros) funcionan en CPUs potentes o GPUs gaming. Los grandes requieren GPUs dedicado (tipo RTX 4090 o similar).
+
+</details>
+
+<details>
+<summary>¿Es difícil configurar OpenClaw?</summary>
+
+No requiere conocimientos avanzados. OpenClaw ofrece Docker Compose y documentación clara. El principal escollo es tener el hardware adecuado.
+
+</details>
 
 ***
 ¿Y tú? ¿Estás listo para dejar de usar la Inteligencia Artificial de otros y empezar a construir la tuya? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} qué tareas delegarías hoy mismo a un asistente autónomo.

@@ -21,6 +21,7 @@ pin: false
 twitter_description: "Inteligencia Artificial sube precios: GitHub, Anthropic y OpenAI. ¿Por qué beneficia a devs? Equilibra costes de talento humano y automatización."
 permalink: /:slug/
 description: "La subida de precios en Inteligencia Artificial beneficia a devs que usan la tecnología eficientemente. Multiplicadores 27x y comparativa cloud vs local. Lee más."
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -157,19 +158,35 @@ La conclusión es clara: a medida que suben los precios en la nube, el hardware 
 
 No esperes a que se agoten tus créditos. Aquí tienes una guía rápida para adaptarte:
 
-## FAQ: Preguntas frecuentes sobre el cambio de GitHub Copilot
+## Preguntas frecuentes
 
-**¿Cuándo entra en vigor el cambio de modelo de GitHub Copilot?**
+<details>
+<summary>¿Cuándo entra en vigor el cambio de modelo de GitHub Copilot?</summary>
+
 El cambio al sistema de créditos con multiplicadores entra en vigor el 1 de junio de 2026. Los registros para nuevos planes Pro, Pro Plus y Student ya están deshabilitados.
 
-**¿Qué significa el multiplicador 27x en los modelos premium?**
+</details>
+
+<details>
+<summary>¿Qué significa el multiplicador 27x en los modelos premium?</summary>
+
 Significa que cada consulta a modelos de alto rendimiento (como Claude Opus 4.7 o futuros GPT-5.5) consumirá 27 veces más créditos que un modelo estándar. Un plan de 10$ puede agotarse rápidamente si usas modelos premium intensivamente.
 
-**¿Debería cambiar a Cursor o Windsurf ante esta subida de precios?**
+</details>
+
+<details>
+<summary>¿Debería cambiar a Cursor o Windsurf ante esta subida de precios?</summary>
+
 Por ahora, [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} y [Windsurf](https://windsurf.com/){:target="_blank" rel="nofollow noopener"} mantienen precios más estables, pero se espera que la industria siga la misma tendencia. Es recomendable diversificar y probar alternativas como [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} para tareas no críticas.
 
-**¿Son los LLMs locales una alternativa viable para desarrollo profesional?**
+</details>
+
+<details>
+<summary>¿Son los LLMs locales una alternativa viable para desarrollo profesional?</summary>
+
 Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de razonamiento de los modelos frontera para tareas extremadamente complejas. Son ideales para tareas rutinarias, mientras que los modelos en la nube siguen siendo mejores para arquitectura y debugging avanzado.
+
+</details>
 
 ¿Has probado ya alguna alternativa a [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? [Deja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu experiencia.
 

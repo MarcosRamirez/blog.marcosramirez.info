@@ -15,6 +15,7 @@ excerpt: "Aprende a usar los comandos pct y qm para gestionar contenedores LXC y
 twitter_description: "Domina los comandos pct y qm de Proxmox: gestión completa de LXC y VMs vía CLI para tu Home Lab."
 description: "Aprende a usar pct y qm en Proxmox. Comandos para gestionar LXC, VMs, red, discos y bind mounts vía CLI en tu infraestructura de virtualización."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -447,19 +448,35 @@ vzdump 200 --compress zstd --storage local --mode stop
   Encuentra un método que te funcione y mantenlo consistente.
 - **Backups regulares**: Automatiza `vzdump` con el cron del sistema
 
-## FAQ
+## Preguntas frecuentes
 
-> **1. ¿Puedo usar pct y qm desde otro equipo?**
-> Sí, puedes usar SSH para conectarte al nodo de Proxmox y ejecutar los comandos remotamente.
+<details>
+<summary>¿Puedo usar pct y qm desde otro equipo?</summary>
 
-> **2. ¿Los snapshots consumen mucho espacio?**
-> Los snapshots LXC son ligeros (copy-on-write), pero las VMs pueden consumir más dependiendo del modo de snapshot.
+Sí, puedes usar SSH para conectarte al nodo de Proxmox y ejecutar los comandos remotamente.
 
-> **3. ¿Qué pasa si olvido el ID de un contenedor?**
-> Usa `pct list` para ver todos con su ID, nombre y estado.
+</details>
 
-> **4. ¿Cómo puedo montar un disco NFS en lugar de bind mount?**
-> Aunque es posible, no lo recomiendo para servicios que necesiten detectar archivos nuevos automáticamente (como Jellyfin) porque NFS no propaga eventos inotify. Usa bind mount directo del host.
+<details>
+<summary>¿Los snapshots consumen mucho espacio?</summary>
+
+Los snapshots LXC son ligeros (copy-on-write), pero las VMs pueden consumir más dependiendo del modo de snapshot.
+
+</details>
+
+<details>
+<summary>¿Qué pasa si olvido el ID de un contenedor?</summary>
+
+Usa `pct list` para ver todos con su ID, nombre y estado.
+
+</details>
+
+<details>
+<summary>¿Cómo puedo montar un disco NFS en lugar de bind mount?</summary>
+
+Aunque es posible, no lo recomiendo para servicios que necesiten detectar archivos nuevos automáticamente (como Jellyfin) porque NFS no propaga eventos inotify. Usa bind mount directo del host.
+
+</details>
 
 ***
 

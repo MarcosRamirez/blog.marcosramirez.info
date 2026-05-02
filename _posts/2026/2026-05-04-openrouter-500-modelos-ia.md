@@ -23,6 +23,7 @@ twitter_description: "Más de 500 modelos de Inteligencia Artificial en una API 
 permalink: /:slug/
 slug: openrouter-500-modelos-ia
 description: "Accede a más de 500 modelos de Inteligencia Artificial con OpenRouter: gateway unificado, casi 30 modelos gratuitos y fallback automático. Compatible con OpenAI. Descubre más."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -77,25 +78,41 @@ response = client.chat.completions.create(
 )
 ```
 
-### Preguntas frecuentes
+## Preguntas frecuentes
 
-**¿OpenRouter es gratuito?**
+<details>
+<summary>¿OpenRouter es gratuito?</summary>
+
 OpenRouter ofrece casi 30 modelos gratuitos sin necesidad de tarjeta de crédito. También tienes modelos de pago con precios competitivos.
 
-**¿Puedo usar OpenRouter con herramientas como OpenCode?**
+</details>
+
+<details>
+<summary>¿Puedo usar OpenRouter con herramientas como OpenCode?</summary>
+
 Sí, tanto OpenCode como OpenClaw pueden usar OpenRouter como backend configurando simplemente la API key y el endpoint.
 
-**¿Qué límites tienen los modelos gratuitos?**
+</details>
+
+<details>
+<summary>¿Qué límites tienen los modelos gratuitos?</summary>
+
 Los límites típicos son 20 peticiones por minuto y 200 al día, suficiente para desarrollo y pruebas.
 
-**¿Es seguro usar OpenRouter?**
+</details>
+
+<details>
+<summary>¿Es seguro usar OpenRouter?</summary>
+
 Al ser un gateway, tú controlas qué modelo usar. OpenRouter no entrena con tus datos y puedes cambiar de proveedor cuando quieras.
+
+</details>
 
 ---
 
 Compártelo si te ha resultado útil.
 
-¿Implementas soluciones de IA en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Implementas soluciones de Inteligencia Artificial en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
 
 ¿Usas algún otro agregador de modelos? Escríbeme o deja un comentario.
 

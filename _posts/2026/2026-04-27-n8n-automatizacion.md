@@ -13,8 +13,9 @@ pin: false
 toc: true
 excerpt: "N8N es una herramienta de automatización de flujo de trabajo de código abierto que puedes instalar en tu Home Lab. Automatiza tus tareas sin pagar mensualidades y sin depender de servicios externos. Te permite conectar diferentes servicios y aplicaciones para que trabajen juntas automáticamente. A diferencia de Zapier o Make que tienen límites de ejecuciones y cuestan dinero, N8N self-hosted te da potencia ilimitada sin facturas sorpresa. Tiene editor visual drag-and-drop, más de 400 integraciones, soporte para código personalizado en JavaScript o Python, nodos de Inteligencia Artificial con LangChain, OpenAI o Anthropic, y modo cola para escalar hasta 200 ejecuciones por segundo."
 twitter_description: "Instala N8N en tu Home Lab y automatiza todo lo que quieras sin pagar mensualidades."
-description: "Automatiza tus tareas con N8N self-hosted: sin límites ni mensualidades y bajo tu control total. Instalación en Home Lab. Descubre cómo hacerlo hoy. Lee más."
+description: "Automatiza tus tareas con N8N self-hosted: sin límites ni mensualidades y bajo tu control total. Instálalo en tu Home Lab y descubre cómo hacerlo. Lee más."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -59,7 +60,7 @@ Si las integraciones existentes no son suficientes, puedes escribir tu propio c�
 
 ### Inteligencia artificial
 
-N8N tiene nodos de IA integrados. Puedes usar [LangChain](https://www.langchain.com/){:target="_blank" rel="nofollow noopener"}, conectar con [OpenAI](https://openai.com/){:target="_blank" rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" rel="nofollow noopener"} o modelos locales.
+N8N tiene nodos de Inteligencia Artificial integrados. Puedes usar [LangChain](https://www.langchain.com/){:target="_blank" rel="nofollow noopener"}, conectar con [OpenAI](https://openai.com/){:target="_blank" rel="nofollow noopener"}, [Anthropic](https://www.anthropic.com/){:target="_blank" rel="nofollow noopener"} o modelos locales.
 
 ### Modo cola
 
@@ -194,16 +195,28 @@ Que cada día revise el estado de tus servicios y te avise si algo no funciona.
 
 - No te importa pagar y quieres el más popular
 
-## FAQ
+## Preguntas frecuentes
 
-> **1. ¿N8N es completamente gratuito?**
-> Sí, la versión self-hosted es gratuita. Solo la versión cloud tiene planes de pago.
+<details>
+<summary>¿N8N es completamente gratuito?</summary>
 
-> **2. ¿Qué puedo automatizar con N8N?**
-> Casi cualquier cosa: emails, calendarios, redes sociales, bases de datos, webhooks, etc.
+Sí, la versión self-hosted es gratuita. Solo la versión cloud tiene planes de pago.
 
-> **3. ¿Es difícil de configurar?**
-> Tiene curva de aprendizaje, pero hay muchos templates gratuitos para empezar.
+</details>
+
+<details>
+<summary>¿Qué puedo automatizar con N8N?</summary>
+
+Casi cualquier cosa: emails, calendarios, redes sociales, bases de datos, webhooks, etc.
+
+</details>
+
+<details>
+<summary>¿Es difícil de configurar?</summary>
+
+Tiene curva de aprendizaje, pero hay muchos templates gratuitos para empezar.
+
+</details>
 
 ***
 Compártelo si te ha liked.

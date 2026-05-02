@@ -14,9 +14,10 @@ image_alt: "Pantalla de televisión con reproductor de video congelado, cuarto o
 pin: false
 toc: true
 twitter_description: "Jellyfin se cortaba aleatoriamente en 4K. El problema: disco lleno. Cinco errores encadenados que descubrí analizando los logs."
-description: "Jellyfin se cortaba en 4K por disco lleno. Solucioné cinco problemas encadenados: MKV corrupto, VAAPI, disco lleno, NFS y permisos NTFS. Descubre cómo lo hice."
+description: "Jellyfin se cortaba en 4K por disco lleno. Solucioné cinco problemas encadenados: MKV corrupto, VAAPI, NFS y permisos NTFS. Descubre cómo lo hice."
 permalink: /:slug/
 slug: jellyfin-cortes-4k-disco
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }}){:alt="Pantalla de televisión con reproductor de video congelado, cuarto oscuro, atmósfera de cine en casa"}
@@ -198,23 +199,35 @@ Con bind mount directo, inotify funciona y Jellyfin detecta el contenido nuevo s
 
 ---
 
-## FAQ
+## Preguntas frecuentes
 
-### ¿Cómo puedo saber si el disco de mi Jellyfin está lleno?
+<details>
+<summary>¿Cómo puedo saber si el disco de mi Jellyfin está lleno?</summary>
 
 Usa `pct exec <ID> -- df -h /` para ver el espacio disponible. También `du -sh /var/*` para ver qué carpetas ocupan más espacio.
 
-### ¿Por qué Jellyfin se corta aleatoriamente sin dar errores?
+</details>
+
+<details>
+<summary>¿Por qué Jellyfin se corta aleatoriamente sin dar errores?</summary>
 
 Porque el error no está en Jellyfin sino en el sistema de archivos. Cuando el disco está lleno, ffmpeg falla silenciosamente al escribir segmentos temporales, y la reproducción se corta sin mensajes de error claros.
 
-### ¿Puedo usar NFS para compartir medios con Jellyfin?
+</details>
+
+<details>
+<summary>¿Puedo usar NFS para compartir medios con Jellyfin?</summary>
 
 No recomendable si quieres que Jellyfin detecte archivos nuevos con inotify. NFS no propaga eventos del sistema de archivos, así que Jellyfin no detectará contenido nuevo hasta que hagas un escaneo manual. Usa bind mount en su lugar.
 
-### ¿Necesito aceleración por hardware para reproducir 4K?
+</details>
+
+<details>
+<summary>¿Necesito aceleración por hardware para reproducir 4K?</summary>
 
 Aunque es recomendable para servidores con recursos limitados, no es obligatorio. Si tienes un processor moderno, la transcodificación por software puede funcionar. Pero para ahorrar recursos, configura Quick Sync (Intel) o VA-API (Linux).
+
+</details>
 
 ---
 

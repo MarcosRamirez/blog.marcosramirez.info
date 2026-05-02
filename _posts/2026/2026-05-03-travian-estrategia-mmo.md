@@ -15,6 +15,7 @@ excerpt: "Llevo 12 años jugando a Travian de forma intermitente pero constante.
 twitter_description: "Llevo 12 años jugando Travian: oasis, estrategias de animales y mis mejores consejos para el mejor MMO de estrategia."
 description: "Guía personal sobre Travian con consejos sobre oasis, matar animales, y análisis de los 7 imperios disponibles en el juego de estrategia MMO."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

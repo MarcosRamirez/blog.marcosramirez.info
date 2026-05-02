@@ -15,6 +15,7 @@ excerpt: "Aprende a monetizar tráfico de alta intención que llega a tu web bus
 twitter_description: "La intención de búsqueda vale más que la conversión inmediata. Cómo monetizar tráfico con propósito."
 permalink: /:slug/
 description: "Monetiza tráfico de búsqueda de alta intención con tu web. Valida búsquedas específicas, ofrece opciones según intención y captura leads para el futuro. Aprende más."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }}){:alt="Libros apilados con monedas"}
@@ -88,21 +89,33 @@ Una landing page para tráfico de búsqueda específica no es sobre el resultado
 
 ## Preguntas frecuentes
 
-### ¿Cómo identificar tráfico con alta intención de búsqueda?
+<details>
+<summary>¿Cómo identificar tráfico con alta intención de búsqueda?</summary>
 
 El tráfico con alta intención viene de búsquedas que incluyen palabras transaccionales como "comprar", "precio", "descuento" o el nombre exacto del producto. En mi caso, quienes buscan "Marcos Ramírez Carlos Luis Fallas comprar" ya pasaron la etapa de descubrimiento.
 
-### ¿Por qué fallan las landing pages convencionales con este tráfico?
+</details>
+
+<details>
+<summary>¿Por qué fallan las landing pages convencionales con este tráfico?</summary>
 
 Las landing pages genéricas no validan inmediatamente la búsqueda del usuario. Si alguien busca un libro específico y llega a una página que no confirma rápidamente que encontró lo que buscaba, el rebote es inmediato. La validación debe ser instantánea.
 
-### ¿Qué métricas importan más en tráfico de intención?
+</details>
+
+<details>
+<summary>¿Qué métricas importan más en tráfico de intención?</summary>
 
 No mires solo las conversiones inmediatas. El tiempo en página, la tasa de rebote y la captura de emails son métricas más valiosas para medir si lograste capturar la intención del usuario para el futuro.
 
-### ¿Cómo monetizar sin parecer spam de afiliados?
+</details>
+
+<details>
+<summary>¿Cómo monetizar sin parecer spam de afiliados?</summary>
 
 Ofrece opciones según la intención: compra (afiliados), lectura gratuita (enlaces a bibliotecas digitales) o información adicional. Al dar opciones útiles antes de vender, generas confianza y autoridad.
+
+</details>
 
 ## Tu turno
 

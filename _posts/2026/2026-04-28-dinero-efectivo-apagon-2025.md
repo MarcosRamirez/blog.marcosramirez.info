@@ -16,6 +16,7 @@ toc: true
 twitter_description: "Apagón 2025: por qué el efectivo sigue siendo vital por privacidad, libertad y resiliencia ante fallos tecnológicos."
 description: "Descubre por qué el efectivo sigue siendo vital tras el apagón 2025. Privacidad, libertad y resiliencia ante fallos tecnológicos importantes. Lee más."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -121,19 +122,35 @@ El efectivo sigue teniendo un propósito vital en nuestra sociedad digital. El a
 
 No dejes que tu vida dependa 100% de una batería o una señal. Ten siempre dinero en efectivo. Te dará paz mental y resiliencia financiera ante lo inesperado.
 
-## FAQ
+## Preguntas frecuentes
 
-> **1. Cuánto efectivo debo tener en casa?**
-> Un mínimo de 100-200€ para emergencias inmediatas. Idealmente, el equivalente a 3 días de gastos básicos.
+<details>
+<summary>¿Cuánto efectivo debo tener en casa?</summary>
 
-> **2. Dónde debo guardar el efectivo?**
-> En una caja fuerte oculta o lugar seguro, pero de fácil acceso en caso de emergencia.
+Un mínimo de 100-200€ para emergencias inmediatas. Idealmente, el equivalente a 3 días de gastos básicos.
 
-> **3. El efectivo es seguro?**
-> Sí, si lo guardas adecuadamente. No lo lleves todo encima, pero sí una cantidad razonable para imprevistos.
+</details>
 
-> **4. Por qué fallaron los datos fonos en el apagón?**
-> Las antenas de telefonía dependen de la red eléctrica. Sin luz en las estaciones base, no hay cobertura.
+<details>
+<summary>¿Dónde debo guardar el efectivo?</summary>
+
+En una caja fuerte oculta o lugar seguro, pero de fácil acceso en caso de emergencia.
+
+</details>
+
+<details>
+<summary>¿El efectivo es seguro?</summary>
+
+Sí, si lo guardas adecuadamente. No lo lleves todo encima, pero sí una cantidad razonable para imprevistos.
+
+</details>
+
+<details>
+<summary>¿Por qué fallaron los datos fonos en el apagón?</summary>
+
+Las antenas de telefonía dependen de la red eléctrica. Sin luz en las estaciones base, no hay cobertura.
+
+</details>
 
 ***
 

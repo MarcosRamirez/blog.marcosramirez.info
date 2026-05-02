@@ -15,6 +15,7 @@ image_alt: "Diagrama de RouteLLM mostrando cómo enruta consultas al mejor model
 toc: true
 pin: false
 permalink: /:slug/
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -148,21 +149,33 @@ Para empresas, esto puede ser un requisito. No todas las plataformas de Intelige
 
 ## Preguntas frecuentes
 
-### ¿RouteLLM funciona con cualquier modelo de Inteligencia Artificial?
+<details>
+<summary>¿RouteLLM funciona con cualquier modelo de Inteligencia Artificial?</summary>
 
 RouteLLM da acceso a cualquier modelo a través de su API unificada. Puedes dejar que el router elija automáticamente o especificar uno concreto como parámetro. La lista incluye [GPT](https://openai.com/){:target="_blank" rel="nofollow noopener"}, [Claude](https://anthropic.com/){:target="_blank" rel="nofollow noopener"}, [Gemini](https://deepmind.google/gemini){:target="_blank" rel="nofollow noopener"}, [DeepSeek](https://www.deepseek.com/){:target="_blank" rel="nofollow noopener"}, [Grok](https://x.ai/){:target="_blank" rel="nofollow noopener"} y muchos más.
 
-### ¿Cuánto cuesta RouteLLM?
+</details>
+
+<details>
+<summary>¿Cuánto cuesta RouteLLM?</summary>
 
 RouteLLM viene incluido en la suscripción de ChatLLM a 10 dólares al mes. Los modelos se facturan al precio exacto del proveedor, sin margen adicional. El primer mes cuesta 7 dólares.
 
-### ¿Qué pasa si un modelo falla?
+</details>
+
+<details>
+<summary>¿Qué pasa si un modelo falla?</summary>
 
 RouteLLM tiene failover automático: si un modelo no está disponible, redirige tu consulta a otro modelo equivalente automáticamente. No tienes que gestionar errores manualmente.
 
-### ¿Mis datos se usan para entrenar los modelos?
+</details>
+
+<details>
+<summary>¿Mis datos se usan para entrenar los modelos?</summary>
 
 No. Abacus.AI no usa tus datos para entrenamiento. Tienen SOC-2 Type-2 y son HIPAA compliant, lo que significa que cumplen con estándares de seguridad enterprise.
+
+</details>
 
 ## Conclusión
 

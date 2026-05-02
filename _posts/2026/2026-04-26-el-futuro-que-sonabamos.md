@@ -16,6 +16,7 @@ pin: false
 twitter_description: "De programar en COBOL a tener un asistente de Inteligencia Artificial en el trastero. Los frikis de los 80s vivimos el futuro soñado."
 description: "Descubre cómo pasamos de programar en BASIC y COBOL a tener asistentes de Inteligencia Artificial. Los frikis de los 80s vivimos el futuro soñado. Modelos locales. Lee más."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -48,7 +49,7 @@ Los que nos señalaban por pasarnos horas frente a un teclado ahora no levantan 
 
 Lo más gracioso es que fueron ellos los que vinieron a preguntarme. "Oye, que no sé configurar el WhatsApp." "Mira, esto del GPS no me funciona." "Necesito que me instales una app." De repente, los que te llamaban friki necesitaban al friki.
 
-Y los frikis de los 80s y 90s, los que aprendimos a programar sin [Google](https://www.google.com){:target="_blank" rel="nofollow noopener"}, sin [Stack Overflow](https://stackoverflow.com/){:target="_blank" rel="nofollow noopener"}, sin IA que nos corrija el código... seguimos aquí. Siguiendo programando. Pero con una mezcla de nostalgia y satisfacción que no es fácil de explicar.
+Y los frikis de los 80s y 90s, los que aprendimos a programar sin [Google](https://www.google.com){:target="_blank" rel="nofollow noopener"}, sin [Stack Overflow](https://stackoverflow.com/){:target="_blank" rel="nofollow noopener"}, sin Inteligencia Artificial que nos corrija el código... seguimos aquí. Siguiendo programando. Pero con una mezcla de nostalgia y satisfacción que no es fácil de explicar.
 
 ## Mi historia
 
@@ -76,9 +77,9 @@ El futuro que imaginábamos era cinematográfico. El que tenemos es ingeniería.
 
 ## El cerebro en casa
 
-Y hay una parte de ese sueño que incluso va más allá de lo que imaginábamos: ahora tengo mi propio servidor de IA en el trastero de casa.
+Y hay una parte de ese sueño que incluso va más allá de lo que imaginábamos: ahora tengo mi propio servidor de Inteligencia Artificial en el trastero de casa.
 
-[Lucía]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %}), mi asistente de IA, corre en mi propio hardware. No depende de [OpenAI](https://openai.com/){:target="_blank" rel="nofollow noopener"} ni de [Anthropic](https://www.anthropic.com/){:target="_blank" rel="nofollow noopener"}. Usa modelos locales como GLM-5 (de [Zhipu AI](https://www.zhipuai.cn/en){:target="_blank" rel="nofollow noopener"}), [Qwen](https://www.qwenlm.ai/){:target="_blank" rel="nofollow noopener"}, [DeepSeek](https://www.deepseek.com/){:target="_blank" rel="nofollow noopener"} y [Llama](https://ai.meta.com/llama/){:target="_blank" rel="nofollow noopener"} a través de [LM Studio](https://lmstudio.ai/){:target="_blank" rel="nofollow noopener"} y [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"}.
+[Lucía]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %}), mi asistente de Inteligencia Artificial, corre en mi propio hardware. No depende de [OpenAI](https://openai.com/){:target="_blank" rel="nofollow noopener"} ni de [Anthropic](https://www.anthropic.com/){:target="_blank" rel="nofollow noopener"}. Usa modelos locales como GLM-5 (de [Zhipu AI](https://www.zhipuai.cn/en){:target="_blank" rel="nofollow noopener"}), [Qwen](https://www.qwenlm.ai/){:target="_blank" rel="nofollow noopener"}, [DeepSeek](https://www.deepseek.com/){:target="_blank" rel="nofollow noopener"} y [Llama](https://ai.meta.com/llama/){:target="_blank" rel="nofollow noopener"} a través de [LM Studio](https://lmstudio.ai/){:target="_blank" rel="nofollow noopener"} y [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"}.
 
 Es el sueño del minuto 1:10 hecho realidad en mi trastero. Un ordenador que hace cosas solas, que entiende el lenguaje natural, que ejecuta tareas en segundo plano sin que yo se lo pida.
 
@@ -104,17 +105,26 @@ Los frikis de los 80s — lo construimos nosotros.
 
 ### FAQ
 
-> **1. ¿Realmente tienes un servidor de IA en tu casa?**
->
-> Sí. Lucía corre en mi propio hardware, en un contenedor dedicado dentro de mi Home Lab. Usa modelos locales (GLM-5 de Zhipu AI, Qwen, DeepSeek, Llama) a través de LM Studio y Ollama.
+<details>
+<summary>¿Realmente tienes un servidor de IA en tu casa?</summary>
 
-> **2. ¿Qué puede hacer realmente un asistente de IA hoy?**
->
-> Mucho más de lo que imaginábamos. Desde mantener conversaciones telefónicas reales (Lucía reserva mesas en restaurantes, gestiona llamadas con empresas) hasta automatizar tareas del Home Lab. No es ciencia ficción. Es mi trastero.
+Sí. Lucía corre en mi propio hardware, en un contenedor dedicado dentro de mi Home Lab. Usa modelos locales (GLM-5 de Zhipu AI, Qwen, DeepSeek, Llama) a través de LM Studio y Ollama.
 
-> **3. ¿Merece la pena aprender a programar hoy cuando hay IA que lo hace por ti?**
->
-> Absolutamente. Entender cómo funciona el código te permite aprovechar la IA de forma estratégica, detectar errores, y construir cosas que la IA sola no puede. Los que saben programar van a seguir teniendo ventaja.
+</details>
+
+<details>
+<summary>¿Qué puede hacer realmente un asistente de IA hoy?</summary>
+
+Mucho más de lo que imaginábamos. Desde mantener conversaciones telefónicas reales (Lucía reserva mesas en restaurantes, gestiona llamadas con empresas) hasta automatizar tareas del Home Lab. No es ciencia ficción. Es mi trastero.
+
+</details>
+
+<details>
+<summary>¿Merece la pena aprender a programar hoy cuando hay IA que lo hace por ti?</summary>
+
+Absolutamente. Entender cómo funciona el código te permite aprovechar la IA de forma estratégica, detectar errores, y construir cosas que la IA sola no puede. Los que saben programar van a seguir teniendo ventaja.
+
+</details>
 
 ¿Tienes alguna anécdota de aquella época? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.
 

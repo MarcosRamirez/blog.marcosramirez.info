@@ -15,6 +15,7 @@ excerpt: "Guía completa con 13 reglas para reducir el consumo de tokens en Clau
 twitter_description: "13 reglas para reducir el consumo de tokens en Claude Code y ahorrar un 40-60% en tu factura."
 permalink: /:slug/
 description: "Optimiza el consumo de tokens en Claude Code un 40-60%. 13 reglas prácticas para ahorrar sin perder productividad. Aplicables a cualquier asistente de Inteligencia Artificial."
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

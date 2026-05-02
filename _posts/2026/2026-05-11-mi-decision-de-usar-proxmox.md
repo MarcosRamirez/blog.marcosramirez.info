@@ -15,6 +15,7 @@ excerpt: "Explico por qué elegí Proxmox como plataforma de virtualización par
 twitter_description: "Por qué elijo Proxmox para mi Home Lab: virtualización seria."
 permalink: /:slug/
 description: "Mi decisión de usar Proxmox para virtualización en Home Lab sobre ESXi, Hyper-V o Docker. Ventajas de LXC vs VMs y por qué centralizo bases de datos. Descubre más."
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -115,16 +116,28 @@ En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-pr
 
 Además, estoy preparando una mini guía/tutorial de Proxmox donde compartiré mi flujo de trabajo completo: desde la gestión vía CLI con `pct` y `qm`, hasta la estructura de servicios, bases de datos centralizadas y buenas prácticas para Home Lab.
 
-## FAQ
+## Preguntas frecuentes
 
-> **1. ¿Qué es LXC?**
-> LXC (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados en el mismo kernel del host.
+<details>
+<summary>¿Qué es LXC?</summary>
 
-> **2. ¿Puedo usar Proxmox sin experiencia previa?**
-> Sí, aunque tiene curva de aprendizaje. La documentación es buena y hay muchos tutoriales para empezar.
+LXC (Linux Containers) es una tecnología de virtualización a nivel de sistema operativo que permite ejecutar múltiples sistemas Linux aislados en el mismo kernel del host.
 
-> **3. ¿Proxmox es seguro?**
-> Sí, es código abierto con una comunidad activa. Los contenedores LXC ofrecen aislamiento entre servicios.
+</details>
+
+<details>
+<summary>¿Puedo usar Proxmox sin experiencia previa?</summary>
+
+Sí, aunque tiene curva de aprendizaje. La documentación es buena y hay muchos tutoriales para empezar.
+
+</details>
+
+<details>
+<summary>¿Proxmox es seguro?</summary>
+
+Sí, es código abierto con una comunidad activa. Los contenedores LXC ofrecen aislamiento entre servicios.
+
+</details>
 
 ***
 ¿Usas Proxmox? ¿Tienes alguna duda sobre virtualización? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.

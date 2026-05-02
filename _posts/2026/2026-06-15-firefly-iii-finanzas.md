@@ -15,6 +15,7 @@ excerpt: "Firefly III es un gestor de finanzas personales de código abierto con
 twitter_description: "Gestiona tus finanzas desde tu propio servidor con Firefly III."
 permalink: /:slug/
 description: "Firefly III es un gestor de finanzas personales de código abierto. Contabilidad de doble entrada, presupuestos, reglas automáticas y más. Instálalo en tu Home Lab sin suscripciones. Descubre más."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*
@@ -179,21 +180,33 @@ La información financiera es sensible. No necesitas que nadie más la tenga.
 
 ## Preguntas frecuentes
 
-### ¿Es difícil instalar Firefly III?
+<details>
+<summary>¿Es difícil instalar Firefly III?</summary>
 
 No, el script de instalación automático lo hace muy fácil. Necesitas un contenedor LXC con Docker y unos minutos.
 
-### ¿Puedo usar mi base de datos existente?
+</details>
+
+<details>
+<summary>¿Puedo usar mi base de datos existente?</summary>
 
 Sí, Firefly III puede conectarse a MySQL o PostgreSQL externos en lugar de usar SQLite.
 
-### ¿Es seguro tener mis datos financieros en casa?
+</details>
+
+<details>
+<summary>¿Es seguro tener mis datos financieros en casa?</summary>
 
 Sí, siempre que tu red doméstica esté correctamente configurada. Solo tú tienes acceso. Eso sí, si los tienes en tu servidor, asegúrate de hacer backups regulares. En [mi post sobre backups]({% post_url 2026/2026-06-11-backup-3-2-1 %}) te explico cómo hacerlo.
 
-### ¿Puedo migrar desde otro gestor?
+</details>
+
+<details>
+<summary>¿Puedo migrar desde otro gestor?</summary>
 
 Sí, Firefly III incluye importadores para archivos CSV desde la mayoría de bancos.
+
+</details>
 
 ***
 

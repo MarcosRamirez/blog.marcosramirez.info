@@ -17,6 +17,7 @@ toc: true
 twitter_description: "Solución al problema de VAAPI en un LXC sin privilegios. Guía paso a paso para hacer funcionar Jellyfin con hardware transcoding en Proxmox."
 description: "Soluciona el error VAAPI en Jellyfin LXC sin privilegios. Hook script y permisos para Intel Quick Sync. Aprende a configurarlo paso a paso. Descubre más."
 permalink: /:slug/
+last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -96,21 +97,33 @@ Jellyfin ahora accede a todos los dispositivos DRI y la funcionalidad de hardwar
 
 ### FAQ
 
-> **1. ¿Qué diferencia hay entre *card1* y *renderD128* en /dev/dri?**
->
-> *card1* es el dispositivo principal de renderizado de la GPU; *renderD128* permite la entrada VRAM sin asociarse directamente a la pantalla, usado para streaming e IA.
->
-> **2. ¿Necesito reiniciar el contenedor cada vez que cambie los permisos?**
->
-> Solo es necesario hacerlo una vez después de instalar el hook. Posteriormente el script corre en `post-start` automáticamente.
->
-> **3. ¿Puedo usar este script en Proxmox 8?**
->
-> Sí, la lógica permanece igual. Solo ajusta la path y el ID del contenedor.
->
-> **4. ¿Alguien más ha tenido un error similar?**
->
-> Este patrón es frecuente en LXC sin privilegios: los dispositivos se mapean con `root:root` por defecto.
+<details>
+<summary>¿Qué diferencia hay entre <em>card1</em> y <em>renderD128</em> en /dev/dri?</summary>
+
+<em>card1</em> es el dispositivo principal de renderizado de la GPU; <em>renderD128</em> permite la entrada VRAM sin asociarse directamente a la pantalla, usado para streaming e Inteligencia Artificial.
+
+</details>
+
+<details>
+<summary>¿Necesito reiniciar el contenedor cada vez que cambie los permisos?</summary>
+
+Solo es necesario hacerlo una vez después de instalar el hook. Posteriormente el script corre en `post-start` automáticamente.
+
+</details>
+
+<details>
+<summary>¿Puedo usar este script en Proxmox 8?</summary>
+
+Sí, la lógica permanece igual. Solo ajusta la path y el ID del contenedor.
+
+</details>
+
+<details>
+<summary>¿Alguien más ha tenido un error similar?</summary>
+
+Este patrón es frecuente en LXC sin privilegios: los dispositivos se mapean con `root:root` por defecto.
+
+</details>
 
 ## Conclusión
 

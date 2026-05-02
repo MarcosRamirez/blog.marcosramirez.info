@@ -15,6 +15,7 @@ toc: true
 twitter_description: "Agentes caros, tests sin avisar y errores de facturación. Cronología de una crisis de confianza en Anthropic."
 permalink: /:slug/
 description: "Anthropic vive crisis en abril 2026: agentes caros, tokenizador que sube precios y fallos de facturación. Cronología completa aquí. Lee más."
+last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -59,14 +60,26 @@ Este abril de 2026 ha marcado un antes y un después. La presión por la falta d
 
 ## Preguntas frecuentes
 
-**¿Qué es Anthropic?**  
+<details>
+<summary>¿Qué es Anthropic?</summary>
+
 Anthropic es una empresa de Inteligencia Artificial creada por ex-empleados de OpenAI, conocida por desarrollar el modelo Claude.
 
-**¿Qué fue el incidente Hermes?**  
+</details>
+
+<details>
+<summary>¿Qué fue el incidente Hermes?</summary>
+
 Un error técnico donde el sistema de facturación detectó la palabra "Hermes" y aplicó cargos indebidos de API.
 
-**¿Cómo afecta el nuevo tokenizador a los costes?**  
+</details>
+
+<details>
+<summary>¿Cómo afecta el nuevo tokenizador a los costes?</summary>
+
 Genera entre un 30% y 45% más de tokens para el mismo texto, encareciendo el uso sin avisar.
+
+</details>
 
 ***
 
