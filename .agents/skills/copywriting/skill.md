@@ -320,6 +320,7 @@ When editing or updating a post that already exists in `_posts/`:
 - Format: same as `date` — `YYYY-MM-DD HH:MM:SS +0200`
 - Example: `last_modified_at: 2026-05-01 10:00:00 +0200`
 - Do NOT set `last_modified_at` when creating a new post for the first time
+- **Do NOT set `last_modified_at` if the post's `date` is in the future** — a modification date earlier than the publication date is semantically invalid and confusing for search engines
 
 ### Style Instructions (Mimicry)
 
