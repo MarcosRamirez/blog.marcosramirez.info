@@ -54,6 +54,7 @@ He probado prácticamente todos los agentes de coding relevantes del mercado. Aq
 | **OpenCode** | Open-source | **Gratis** | 75+ | ✅ Excelente | ✅ | ❌ | ✅ |
 | **Claude Code** | Propietario | 20 USD/mes | Solo Anthropic | ✅ | ✅ | ✅ | ❌ |
 | **Aider** | Open-source | Gratis + API | 100+ | ❌ | ❌ | ✅ | ✅ |
+| **OpenClaude** | Open-source | Gratis + API | 6+ | ❌ | ✅ VS Code | ❌ | ✅ |
 | **Gemini CLI** | Open-source | **Gratis** (1000/día) | Solo Google | ✅ | ❌ | ❌ | ✅ |
 | **Codex CLI** | Open-source | 20 USD/mes (ChatGPT+) | Solo OpenAI | ✅ | ❌ | ✅ | ✅ |
 | **Hermes** | Open-source | Gratis + API | 50+ | ✅ | ❌ | ❌ | ✅ |
@@ -99,6 +100,30 @@ Aider lleva años en el espacio de agentes de coding open-source. Su enfoque es 
 - curva de aprendizaje más pronunciada
 
 **Veredicto**: Ideal para puristas del terminal que valoran la integración con git sobre la interfaz. OpenCode gana en experiencia de usuario y opciones de entrada.
+
+#### OpenClaude: El fork de Claude Code con multi-proveedor
+
+[OpenClaude](https://github.com/Gitlawb/openclaude){:target="_blank" rel="nofollow noopener"} es un proyecto open-source que tomó como punto de partida la arquitectura de Claude Code y la rediseñó para soportar múltiples proveedores de modelos. Con 25.600 estrellas en GitHub y la versión 0.8.0 recién publicada en mayo de 2026, es una opción a tener en cuenta.
+
+**Pros:**
+
+- Multi-proveedor real: OpenAI, Gemini, GitHub Models, Ollama (modelos locales), Codex y más
+- Soporte MCP nativo
+- Extensión oficial para VS Code
+- Servidor gRPC para automatización en pipelines CI/CD
+- Agent routing: puedes enviar tareas diferentes a modelos distintos para optimizar coste
+- Vision support (imágenes en contexto)
+- Búsqueda web integrada vía DuckDuckGo
+
+**Contras:**
+
+- **Sin TUI** — interfaz puramente textual, similar a Aider
+- Solo 6 proveedores nativos configurados (aunque acepta cualquier API compatible con OpenAI)
+- El comportamiento varía entre proveedores — requiere ajuste por modelo
+- Comunidad más pequeña que OpenCode o Aider
+- No es un proyecto oficial de Anthropic; usa el nombre "Claude" de forma informal
+
+**Veredicto**: Interesante para quien quiere la experiencia mental de Claude Code sin el lock-in a Anthropic. El agent routing para optimización de costes es una idea genuinamente buena. Pero la falta de TUI y la menor madurez de la comunidad hacen que OpenCode siga siendo la opción más equilibrada.
 
 #### Gemini CLI: El gratis generoso
 
@@ -214,6 +239,8 @@ Goose de Block es otro agente open-source centrado en extensibilidad y plugins.
 **Sobre Cursor y Windsurf**: Son excelentes IDEs, pero combinan demasiado. Prefiero mantener mi editor de código separado del agente de Inteligencia Artificial. Además, ambos requieren suscripción.
 
 **Sobre Devin**: Es interesante para automatización avanzada, pero 500 dólares al mes es excesivo. OpenCode puede hacer muchas de las mismas tareas gratis o por una fracción del precio.
+
+**Sobre OpenClaude**: La idea de hacer fork de Claude Code para añadir multi-proveedor es inteligente, y el agent routing para optimizar costes es genuinamente útil. Pero no tiene TUI, la comunidad es más pequeña que la de OpenCode, y el comportamiento varía demasiado entre proveedores. OpenCode lleva más tiempo en producción y tiene un equipo dedicado detrás.
 
 **Sobre Hermes y Goose**: Son alternativas interesante para casos de uso específicos, pero OpenCode tiene mejor equilibrio entre features, documentación, y comunidad.
 
