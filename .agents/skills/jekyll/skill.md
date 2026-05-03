@@ -104,6 +104,7 @@ permalink: /:slug/
 
 - **Optional field** — omit on new post creation
 - Set when updating or modifying an existing post already in `_posts/`
+- **Do NOT set if the post's `date` is in the future** — `last_modified_at` must never be earlier than `date`
 - Format: same as `date` — `YYYY-MM-DD HH:MM:SS +0200`
 - Example: `last_modified_at: 2026-05-01 10:00:00 +0200`
 
