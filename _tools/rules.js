@@ -219,7 +219,7 @@ function verifyCopywriting(frontmatter, body, results) {
   });
 
   const categories = frontmatter.categories || [];
-  const mainCategories = ['Tecnología', 'Finanzas Personales', 'Personal', 'Productividad y Hacks'];
+  const mainCategories = ['Tecnología', 'Finanzas Personales', 'Personal', 'Productividad y Hacks', 'Juegos'];
   const hasMainCategory = categories.some(c => mainCategories.includes(c));
 
   results.push({

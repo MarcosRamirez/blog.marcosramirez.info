@@ -110,6 +110,7 @@ Main categories:
 - Finanzas Personales
 - Personal
 - Productividad y Hacks
+- Juegos
 
 Subcategories:
 - Inteligencia Artificial

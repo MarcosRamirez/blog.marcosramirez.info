@@ -61,7 +61,7 @@ El cuartel debe estar funcionando 24 horas al día desde el momento en que lo co
 
 **La ventaja de los romanos con Travian Plus**: Si juegas con el Imperio Romano y tienes Travian Plus activo, puedes construir dos edificios de cada tipo de producción (dos aserraderos, dos ladrilleras, etc.), lo que acelera enormemente tu crecimiento.
 
-![Los romanos con Travian Plus pueden construir dos edificios de cada tipo de producción](img/posts/2026/travian-estrategia-ofensiva-primeros-dias/construccion-romana-plus.jpeg)
+![Los romanos con Travian Plus pueden construir dos edificios de cada tipo de producción](/assets/img/posts/2026/travian-estrategia-ofensiva-primeros-dias/construccion-romana-plus.jpeg)
 
 **Optimización clave**: Lo más efectivo es tener siempre 2 casillas de producción mejorando al mismo tiempo que construyes 1 edificio. Así maximizas el crecimiento paralelo de tu economía mientras desarrollas tu infraestructura.
 
@@ -107,7 +107,7 @@ Al comenzar en Travian, el juego te da una cantidad de oro gratuita para usar. E
 
 Activa inmediatamente tu bonificación del +25% de producción de recursos. Esta bonificación se acumula con otras bonificaciones (como las de oasis) y hace una diferencia enorme en tus primeras semanas.
 
-![Bonificaciones de Travian Plus: +25% producción de recursos, funciones adicionales del juego, tienda de objetos y protección premium](img/posts/2026/travian-estrategia-ofensiva-primeros-dias/travian-gold-ventajas.jpeg)
+![Bonificaciones de Travian Plus: +25% producción de recursos, funciones adicionales del juego, tienda de objetos y protección premium](/assets/img/posts/2026/travian-estrategia-ofensiva-primeros-dias/travian-gold-ventajas.jpeg)
 
 ### Gold Club (farmlists obligatorias)
 
@@ -117,7 +117,7 @@ Las farmlists te permiten automatizar tus ataques en secuencia sin tener que sel
 
 El oro lo reservo para cosas que realmente no pueden esperar: emergencias, eventos especiales del servidor, o cuando necesitas un boost de última hora para cumplir un objetivo específico.
 
-![Ventajas de Gold Club: evasión de tropas bajo ataque, 3x viajes de comerciantes, rutas comerciales automáticas, buscador de granjas 9c y 15c, y archivo de mensajes e informes](assets/img/misc/gold-club.jpeg)
+![Ventajas de Gold Club: evasión de tropas bajo ataque, 3x viajes de comerciantes, rutas comerciales automáticas, buscador de granjas 9c y 15c, y archivo de mensajes e informes](/assets/img/posts/2026/travian-estrategia-ofensiva-primeros-dias/gold-club.jpeg)
 
 **Gold Club merece la inversión**: es un pago único de 200 oro válido para todo el servidor. Incluye todas estas ventajas clave para ofensivos:
 
