@@ -71,7 +71,7 @@ function verifyRules(content, filePath) {
 
   verifySEO(frontmatter, textWithoutCode, results, filePath);
   verifyCopywriting(frontmatter, textWithoutCode, results);
-  verifyLinks(body, results);
+  verifyLinks(body, results, filePath);
   verifySpelling(textWithoutCode, results);
 
   return results;
@@ -274,7 +274,7 @@ function verifyCopywriting(frontmatter, body, results) {
   }
 }
 
-function verifyLinks(body, results) {
+function verifyLinks(body, results, filePath) {
   const codeBlockRanges = [];
   let match;
   const codeRegex = /```[\s\S]*?```/g;
@@ -335,6 +335,37 @@ function verifyLinks(body, results) {
     const isExternal = !l.url.startsWith('/') && !l.url.includes('marcosramirez.info') && !l.url.includes('saasquatch.es');
     return isExternal;
   })) {
+  }
+
+  // Check {% post_url %} references point to existing posts
+  const postUrlRegex = /\{%[-\s]*post_url\s+([^\s%]+)\s*[-\s]*%\}/g;
+  const postUrlMatches = [...body.matchAll(postUrlRegex)];
+
+  if (postUrlMatches.length > 0) {
+    const normalizedFile = filePath.replace(/\\/g, '/');
+    const postsIdx = normalizedFile.indexOf('/_posts/');
+    const draftsIdx = normalizedFile.indexOf('/_drafts/');
+    const rootEnd = postsIdx !== -1 ? postsIdx : draftsIdx;
+    const projectRoot = normalizedFile.slice(0, rootEnd);
+    const postsDir = path.join(projectRoot, '_posts');
+
+    const broken = [];
+    for (const m of postUrlMatches) {
+      const ref = m[1];
+      const refPath = path.join(postsDir, ref + '.md');
+      if (!fs.existsSync(refPath)) {
+        broken.push(ref);
+      }
+    }
+
+    results.push({
+      category: 'Links',
+      rule: 'post_url references exist',
+      status: broken.length === 0 ? 'pass' : 'fail',
+      details: broken.length === 0
+        ? `${postUrlMatches.length} post_url(s) verified`
+        : `Broken post_url (post not found): ${broken.join(', ')}`
+    });
   }
 }
 
