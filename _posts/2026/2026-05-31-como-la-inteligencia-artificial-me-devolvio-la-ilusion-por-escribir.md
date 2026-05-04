@@ -68,6 +68,8 @@ La investigación solía ser mi mayor fricción. Antes de escribir sobre cualqui
 
 Ahora ese tiempo se ha reducido significativamente. La Inteligencia Artificial me ofrece un punto de partida sólido, y yo me centro en verificar y enriquecer. Es una distribución de trabajo mucho más eficiente.
 
+Un ejemplo concreto: hace unos días me topé con un problema al usar YouTube. Había desaparecido el botón de añadir vídeos a la cola en las miniaturas. Antes habría abierto Google, leído varios hilos, comparado soluciones. Media mañana fácilmente. En cambio, usé la Inteligencia Artificial como herramienta de research —¿quién usa Google hoy en día?— y en segundos tenía todo el contexto: qué había cambiado, cuándo, cómo había reaccionado la comunidad, qué extensión lo solucionaba. Y mientras leía eso, me di cuenta de que era un post. [Lo publiqué ese mismo día]({% post_url 2026/2026-05-04-youtube-boton-cola-streamline %}){:target="_blank"}. De problema a borrador, en minutos. Antes me habría tomado horas.
+
 ### Estructura: organizar sin bloquear
 
 Una de las cosas que más me costaba era decidir cómo organizar el contenido. ¿Qué va primero? ¿Cómo conecto las secciones? ¿Dónde pongo el ejemplo?
