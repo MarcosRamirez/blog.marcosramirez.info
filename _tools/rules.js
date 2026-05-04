@@ -337,7 +337,10 @@ function verifyLinks(body, results, filePath) {
   })) {
   }
 
-  // Check {% post_url %} references point to existing posts
+  // Check {% post_url %} references don't point to posts with a later publish date.
+  // Future posts exist in _posts/ but Jekyll excludes them from the build, so a
+  // published post that references a future one breaks the site. The fix is to
+  // delay the referencing post until after the referenced one is live.
   const postUrlRegex = /\{%[-\s]*post_url\s+([^\s%]+)\s*[-\s]*%\}/g;
   const postUrlMatches = [...body.matchAll(postUrlRegex)];
 
@@ -349,22 +352,36 @@ function verifyLinks(body, results, filePath) {
     const projectRoot = normalizedFile.slice(0, rootEnd);
     const postsDir = path.join(projectRoot, '_posts');
 
+    const currentFilename = path.basename(filePath);
+    const currentDateMatch = currentFilename.match(/^(\d{4}-\d{2}-\d{2})-/);
+    const currentDate = currentDateMatch ? currentDateMatch[1] : null;
+
     const broken = [];
     for (const m of postUrlMatches) {
-      const ref = m[1];
+      const ref = m[1]; // e.g. "2026/2026-07-20-opencode-asistente-codigo"
       const refPath = path.join(postsDir, ref + '.md');
+
       if (!fs.existsSync(refPath)) {
-        broken.push(ref);
+        broken.push(`${ref} (post not found in _posts/)`);
+        continue;
+      }
+
+      if (currentDate) {
+        const refFilename = path.basename(ref);
+        const refDateMatch = refFilename.match(/^(\d{4}-\d{2}-\d{2})-/);
+        if (refDateMatch && refDateMatch[1] > currentDate) {
+          broken.push(`${ref} (publishes on ${refDateMatch[1]}, after this post's ${currentDate} — delay this post until after ${refDateMatch[1]})`);
+        }
       }
     }
 
     results.push({
       category: 'Links',
-      rule: 'post_url references exist',
+      rule: 'post_url references exist and are not future',
       status: broken.length === 0 ? 'pass' : 'fail',
       details: broken.length === 0
         ? `${postUrlMatches.length} post_url(s) verified`
-        : `Broken post_url (post not found): ${broken.join(', ')}`
+        : broken.join('; ')
     });
   }
 }
