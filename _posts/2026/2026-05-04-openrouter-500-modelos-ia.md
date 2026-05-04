@@ -55,7 +55,7 @@ Límites típicos: 20 peticiones/minuto, 200/día. Sin tarjeta de crédito neces
 
 ### OpenCode y OpenClaw
 
-Esto es lo que mola: [OpenCode]({% post_url 2026/2026-07-20-opencode-asistente-codigo %}){:target="_blank"} y [OpenClaw](https://openclaw.dev/){:target="_blank" rel="nofollow noopener"} pueden usar OpenRouter como backend. Así tienes todos los modelos (gratuitos y de pago) centralizados, sin configurar docenas de API keys.
+Esto es lo que mola: [OpenCode](https://opencode.ai){:target="_blank" rel="nofollow noopener"} y [OpenClaw](https://openclaw.dev/){:target="_blank" rel="nofollow noopener"} pueden usar OpenRouter como backend. Así tienes todos los modelos (gratuitos y de pago) centralizados, sin configurar docenas de API keys.
 
 Solo necesitas configurar tu API key de OpenRouter en ambos entornos, y ya tienes acceso a más de 500 modelos.
 
