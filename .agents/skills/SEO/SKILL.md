@@ -48,12 +48,10 @@ The script returns JSON with `title.characters`, `description.characters`, and a
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
-- **FAQ Section:** 3-4 questions to capture featured snippets. **Use HTML not markdown** — wrap everything in a `<section>` tag with `<details>`/`<summary>` for each Q&A. This creates collapsible entries and is compatible with Jekyll/Kramdown:
+- **FAQ Section:** 3-4 questions to capture featured snippets. Use `<details>`/`<summary>` for collapsible Q&A and `<h2>` for the heading:
 
-```html
-<section>
-
-## Preguntas frecuentes
+```markdown
+<h2>Preguntas frecuentes</h2>
 
 <details>
 <summary>¿Pregunta aquí?</summary>
@@ -68,15 +66,13 @@ Respuesta aquí. Puede incluir markdown, links, etc.
 Segunda respuesta.
 
 </details>
-
-</section>
 ```
 
 **Rules:**
-- Wrap the entire FAQ block (heading + all `<details>`) inside `<section>` tags for semantic HTML and better SEO.
-- Leave a blank line after the opening `<summary>` tag and before `</details>` so Kramdown renders markdown inside correctly.
-- Do NOT nest block-level markdown (headers, lists) directly inside `<summary>`.
-- The `## Preguntas frecuentes` H2 heading stays as normal markdown, now inside the `<section>`.
+- Use `<h2>Preguntas frecuentes</h2>` (HTML tag, not markdown).
+- Each question is wrapped in `<details>` with `<summary>` tag.
+- Answers are plain markdown paragraphs inside the `<details>` block.
+- This format renders correctly in Chirpy/Jekyll and improves UX with collapsible sections.
 
 ### Meta Description Generation Rules
 
