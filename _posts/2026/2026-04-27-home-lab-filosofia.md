@@ -31,29 +31,30 @@ Básicamente, es tener en tu casa lo que las grandes tecnológicas te cobran, pe
 
 Posts publicados de la serie:
 
-- 18 de abril de 2026: [Lucía: asistente de IA con OpenClaw para automatización en Home Lab]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %})
+- 18 de abril de 2026: [Lucía con OpenClaw: Inteligencia Artificial autónoma en Home Lab]({% post_url 2026/2026-04-18-lucia-asistente-open-claw %})
 - 23 de abril de 2026: [Cómo resolví los cortes de Jellyfin en 4K: disco lleno y más]({% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %})
 - 25 de abril de 2026: [Solucionar VAAPI en Jellyfin LXC sin privilegios de Proxmox]({% post_url 2026/2026-04-25-jellyfin-vaapi-fix-proxmox-lxc %})
 - 27 de abril de 2026: [N8N: Tu automatización bajo tu control, sin pagos mensuales]({% post_url 2026/2026-04-27-n8n-automatizacion %})
+- 5 de mayo de 2026: [⚠️ CVE-2026-31431: escalada de privilegios en el kernel Linux]({% post_url 2026/2026-05-05-cve-2026-31431-linux-kernel %})
 
 Próximos posts de la serie (fecha de publicación):
 
-- 11 de mayo de 2026: Arr Stack vs FlexGet: automatiza tus descargas fácil
+- 11 de mayo de 2026: Arr Stack vs FlexGet: automatiza tus descargas fácilmente
 - 11 de mayo de 2026: Mi decisión de usar Proxmox: virtualización seria para Home Lab
 - 13 de mayo de 2026: Comandos básicos de Proxmox: gestión de LXC y VMs vía CLI
 - 18 de mayo de 2026: AdGuard Home: tu propio bloqueador de publicidad y DNS
-- 18 de mayo de 2026: Racks y mini racks para tu Home Lab: guía completa
-- 22 de mayo de 2026: Jellyfin vs Plex vs Stremio: Cuál elegir en 2026
+- 18 de mayo de 2026: Racks y mini racks para Home Lab: guía de compra completa
+- 22 de mayo de 2026: Jellyfin, Plex o Stremio: cuál elegir para tu servidor multimedia
 - 25 de mayo de 2026: Las razones por las que no uso los helper scripts de Proxmox
 - 1 de junio de 2026: Home Assistant: Tu cerebro de domótica en un solo lugar
-- 8 de junio de 2026: Immich: fotos privadas en tu servidor, sin suscripción
+- 8 de junio de 2026: Immich: tus fotos privadas en el servidor, sin suscripción
 - 11 de junio de 2026: La regla 3-2-1 de backups: No perder tus datos nunca más
-- 15 de junio de 2026: Firefly III: finanzas personales en tu servidor, sin suscripciones
+- 15 de junio de 2026: Firefly III: finanzas personales en tu servidor sin suscripciones
 - 25 de junio de 2026: AdGuard Home en alta disponibilidad: Dos nodos con sincronización
-- 29 de junio de 2026: Paperless NGX: documentos digitales organizados sin perder control
+- 29 de junio de 2026: Paperless NGX: documentos digitales organizados y bajo control
 - 6 de julio de 2026: SearXNG: buscador privado y sin rastreos en tu servidor
 - 13 de julio de 2026: Vaultwarden: contraseñas seguras en tu servidor, sin pagos
-- 27 de julio de 2026: Ansible: Automatiza tu Home Lab de principio a fin
+- 27 de julio de 2026: Ansible: cómo automatizar tu Home Lab de principio a fin
 
 # El Pilar de la Libertad y la Soberanía Digital
 
