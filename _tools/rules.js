@@ -303,6 +303,7 @@ function verifyLinks(body, results, filePath) {
     const isExternal = !link.url.startsWith('/') &&
                        !link.url.startsWith('{{') &&
                        !link.url.includes('marcosramirez.info') &&
+                       !link.url.includes('marcosramirez.dev') &&
                        !link.url.includes('saasquatch.es');
 
     const hasValidRel = link.rel.includes('nofollow') && link.rel.includes('noopener');
@@ -319,7 +320,7 @@ function verifyLinks(body, results, filePath) {
   }
 
   if (links.filter(l => {
-    const isExternal = !l.url.startsWith('/') && !l.url.startsWith('{{') && !l.url.includes('marcosramirez.info') && !l.url.includes('saasquatch.es');
+    const isExternal = !l.url.startsWith('/') && !l.url.startsWith('{{') && !l.url.includes('marcosramirez.info') && !l.url.includes('marcosramirez.dev') && !l.url.includes('saasquatch.es');
     return isExternal;
   }).every(l => {
     const hasValidRel = l.rel.includes('nofollow') && l.rel.includes('noopener');
@@ -329,10 +330,10 @@ function verifyLinks(body, results, filePath) {
       category: 'Links',
       rule: 'All external links have proper rel attributes',
       status: 'pass',
-      details: `${links.filter(l => !l.url.startsWith('/') && !l.url.includes('marcosramirez.info')).length} external links checked`
+      details: `${links.filter(l => !l.url.startsWith('/') && !l.url.includes('marcosramirez.info') && !l.url.includes('marcosramirez.dev')).length} external links checked`
     });
   } else if (links.some(l => {
-    const isExternal = !l.url.startsWith('/') && !l.url.includes('marcosramirez.info') && !l.url.includes('saasquatch.es');
+    const isExternal = !l.url.startsWith('/') && !l.url.includes('marcosramirez.info') && !l.url.includes('marcosramirez.dev') && !l.url.includes('saasquatch.es');
     return isExternal;
   })) {
   }
