@@ -36,6 +36,13 @@ metadata:
 **Target:** Small local businesses (restaurants, shops, clinics) with zero tech background who don't know who to ask.
 **Value proposition:** "Te ayudo a tomar decisiones tecnológicas correctas sin perder tiempo ni dinero — cobro por hora y sin permanencias."
 
+### 5. Seguridad Informática
+**Price:** Quoted per project
+**What:** Security assessments, vulnerability analysis, infrastructure hardening, incident response advisory, and security review for development teams.
+**Target:** Companies running self-hosted infrastructure (GitHub Enterprise, Linux servers, containers, CI/CD pipelines) that need to evaluate and improve their security posture.
+**Value proposition:** "Evaluamos y reforzamos la seguridad de tu infraestructura, con foco en riesgos reales y soluciones prácticas."
+**CTA destination:** `https://marcosramirez.dev` (security services live here)
+
 ---
 
 ## Ideal Client Profile (ICP)
@@ -103,7 +110,8 @@ Every post uses exactly ONE tier. Never mix tiers in the same post.
 | Inteligencia Artificial (tech-enthusiast framing, tools/models) | SOFT | IA para negocios |
 | Automatización (developer/homelab framing, CLI-heavy) | SOFT | Software a medida |
 | Desarrollo Web, APIs, coding tutorials | SOFT | Software a medida |
-| Sistemas, Home Lab, Self-hosting, Proxmox, Docker | COMMUNITY | — |
+| Seguridad Informática (CVE, vulnerabilidades, hardening, auditoría) | SOFT | Seguridad Informática (marcosramirez.dev) |
+| Sistemas, Home Lab, Self-hosting, Proxmox, Docker (sin Seguridad Informática) | COMMUNITY | — |
 | Software y Apps (tool reviews, no business framing) | COMMUNITY | — |
 | Finanzas Personales | COMMUNITY | — |
 | Reflexiones y Opinión | SILENT | — |
@@ -159,6 +167,20 @@ Si tienes dudas sobre qué tecnología usar en tu empresa, [cuéntame tu situaci
 ¿Necesitas una solución de software específica para tu negocio? [Cuéntame qué necesitas](https://marcosramirez.info/contacto/){:target="_blank"} y lo valoramos juntos.
 ```
 
+### Seguridad Informática CTAs (use marcosramirez.dev)
+
+```
+¿Tu empresa necesita reforzar su seguridad informática? [Hablamos](https://marcosramirez.dev/){:target="_blank"}.
+```
+
+```
+Si gestionas infraestructura y quieres revisar tu postura de seguridad, [cuéntame tu situación](https://marcosramirez.dev/){:target="_blank"}.
+```
+
+```
+¿Necesitas ayuda para evaluar o endurecer la seguridad de tu infraestructura? [Escríbeme](https://marcosramirez.dev/){:target="_blank"}.
+```
+
 ### SOFT CTAs (Tier 2 — single line, low pressure)
 
 ```
@@ -186,9 +208,9 @@ Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.info/c
 
 ---
 
-## Future CTA Destination
+## CTA Destinations
 
-**Current:** `https://marcosramirez.info/contacto/`
-**Future:** `https://marcosramirez.dev` (when the services site launches)
+- **Security services:** `https://marcosramirez.dev` — use for all Seguridad Informática posts. No `rel="nofollow"` needed (own domain).
+- **All other services:** `https://marcosramirez.info/contacto/` — Verifactu, IA, Software a medida, Consultoría tech.
 
-When `marcosramirez.dev` goes live: use it as the primary CTA destination for all new posts. Migrate published posts progressively. Note: `marcosramirez.dev` is already in the own-domain whitelist in the SEO and copywriting-links skills — no `rel="nofollow"` needed.
+When `marcosramirez.dev` expands beyond security: migrate other services progressively.
