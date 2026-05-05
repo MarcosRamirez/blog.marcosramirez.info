@@ -150,7 +150,7 @@ Sí, y eso es parte de lo que hace interesante al formato. En este blog, por eje
 <details>
 <summary>¿Cómo instalo un skill desde skills.sh?</summary>
 
-Con un comando en la terminal: `npx skillsadd <owner/repo>`. El directorio en [skills.sh](https://skills.sh/){:target="_blank" rel="nofollow noopener"} muestra el identificador exacto de cada skill para que puedas copiarlo directamente.
+Con un comando en la terminal: `npx skillsadd {owner/repo}`. El directorio en [skills.sh](https://skills.sh/){:target="_blank" rel="nofollow noopener"} muestra el identificador exacto de cada skill para que puedas copiarlo directamente.
 
 </details>
 
