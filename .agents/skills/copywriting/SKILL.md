@@ -117,6 +117,7 @@ Subcategories:
 - Software y Apps
 - Sistemas
 - Redes e Infraestructura
+- Seguridad Informática
 - Desarrollo Web
 - Bancos y Fintech
 - Ahorro e Inversión

@@ -135,7 +135,7 @@ permalink: /:slug/
 
 Main categories (exactly **one** per post): `Tecnología`, `Finanzas Personales`, `Personal`, `Productividad y Hacks`
 
-Subcategories (add all that apply): `Inteligencia Artificial`, `Software y Apps`, `Sistemas`, `Redes e Infraestructura`, `Desarrollo Web`, `Bancos y Fintech`, `Ahorro e Inversión`, `Automatización`, `Life Hacks`, `Metas y Resúmenes`, `Reflexiones y Opinión`, `Carrera Profesional`, `Recomendaciones`, `Desarrollo Profesional`, `Negocios y Digitalización`, `Verifactu`, `Home Lab`
+Subcategories (add all that apply): `Inteligencia Artificial`, `Software y Apps`, `Sistemas`, `Redes e Infraestructura`, `Seguridad Informática`, `Desarrollo Web`, `Bancos y Fintech`, `Ahorro e Inversión`, `Automatización`, `Life Hacks`, `Metas y Resúmenes`, `Reflexiones y Opinión`, `Carrera Profesional`, `Recomendaciones`, `Desarrollo Profesional`, `Negocios y Digitalización`, `Verifactu`, `Home Lab`
 
 **Never write "IA"** — always use "Inteligencia Artificial" (applies to body, headings, frontmatter).
 
