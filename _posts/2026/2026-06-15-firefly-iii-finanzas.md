@@ -178,7 +178,8 @@ La información financiera es sensible. No necesitas que nadie más la tenga.
 - Tus necesidades son simples
 - Solo quieres algo puntual
 
-## Preguntas frecuentes
+<section id="faq">
+<h2>Preguntas frecuentes</h2>
 
 <details>
 <summary>¿Es difícil instalar Firefly III?</summary>
@@ -197,7 +198,7 @@ Sí, Firefly III puede conectarse a MySQL o PostgreSQL externos en lugar de usar
 <details>
 <summary>¿Es seguro tener mis datos financieros en casa?</summary>
 
-Sí, siempre que tu red doméstica esté correctamente configurada. Solo tú tienes acceso. Eso sí, si los tienes en tu servidor, asegúrate de hacer backups regulares. En [mi post sobre backups]({% post_url 2026/2026-06-11-backup-3-2-1 %}) te explico cómo hacerlo.
+Sí, siempre que tu red doméstica esté correctamente configurada. Solo tú tienes acceso. Eso sí, si los tienes en tu servidor, asegúrate de hacer backups regulares. En <a href="{{ site.baseurl }}/2026/06/11/backup-3-2-1/">mi post sobre backups</a> te explico cómo hacerlo.
 
 </details>
 
@@ -207,6 +208,7 @@ Sí, siempre que tu red doméstica esté correctamente configurada. Solo tú tie
 Sí, Firefly III incluye importadores para archivos CSV desde la mayoría de bancos.
 
 </details>
+</section>
 
 ***
 

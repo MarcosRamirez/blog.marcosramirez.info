@@ -150,7 +150,7 @@ En macOS el sistema de archivos HFS+ es case-insensitive por defecto (igual que 
 
 En Linux el sistema de archivos es case-sensitive, por lo que `git mv skill.md SKILL.md` funciona directamente sin trucos adicionales. Si desarrollas principalmente en Linux y alguien del equipo trabaja en Windows, el cambio puede pasar inadvertido en su máquina aunque esté correctamente registrado en el repositorio. Esta inconsistencia es una fuente habitual de confusión en equipos con desarrolladores en ambas plataformas.
 
-<section>
+<section id="faq">
 
 ## Preguntas frecuentes
 
@@ -178,7 +178,7 @@ No. Si usas `mv` del sistema operativo en lugar de `git mv`, tendrás que hacer 
 <details>
 <summary>¿El problema ocurre también en GitHub o solo en local?</summary>
 
-El repositorio en [GitHub](https://github.com/){:target="_blank" rel="nofollow noopener"} corre sobre Linux, que es case-sensitive. El problema es estrictamente local: ocurre cuando trabajas en Windows o macOS. Una vez que el rename está correctamente registrado en tu máquina y haces push, GitHub lo almacena con el nombre correcto.
+El repositorio en <a href="https://github.com/" target="_blank" rel="nofollow noopener">GitHub</a> corre sobre Linux, que es case-sensitive. El problema es estrictamente local: ocurre cuando trabajas en Windows o macOS. Una vez que el rename está correctamente registrado en tu máquina y haces push, GitHub lo almacena con el nombre correcto.
 
 </details>
 

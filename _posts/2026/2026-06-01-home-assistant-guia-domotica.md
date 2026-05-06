@@ -195,7 +195,8 @@ automation:
           message: "Marcos ha llegado a casa"
 ```
 
-## Preguntas frecuentes
+<section id="faq">
+<h2>Preguntas frecuentes</h2>
 
 <details>
 <summary>¿Necesito conocimientos técnicos?</summary>
@@ -207,7 +208,7 @@ No necesariamente. La interfaz gráfica permite crear automatizaciones sin escri
 <details>
 <summary>¿Funciona con dispositivos de cualquier marca?</summary>
 
-No todos. Comprueba la [lista de integraciones](https://www.home-assistant.io/integrations/){:target="_blank" rel="nofollow noopener"} antes de comprar. Si el dispositivo usa Zigbee, Z-Wave o Matter, probablemente sí.
+No todos. Comprueba la <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="nofollow noopener">lista de integraciones</a> antes de comprar. Si el dispositivo usa Zigbee, Z-Wave o Matter, probablemente sí.
 
 </details>
 
@@ -224,6 +225,7 @@ Sí, con configuración de acceso remoto seguro (VPN o Nabu Casa Cloud). No reco
 Home Assistant arranca solo cuando vuelve la luz. Los dispositivos vuelven a su último estado conocido.
 
 </details>
+</section>
 
 ***
 

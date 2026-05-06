@@ -313,3 +313,32 @@ Jekyll does not have a `category_url` Liquid tag like `post_url`. To link to a c
 <a href="/categories/{{ category | slugify }}/">{{ category }}</a>
 {% endfor %}
 ```
+
+## Markdown inside HTML Tags
+
+**IMPORTANT:** Kramdown (Jekyll's markdown parser) does NOT process markdown syntax inside HTML tags unless the HTML tag has `markdown="1"` attribute. Even then, support is unreliable for HTML5 tags like `<details>`, `<summary>`, `<section>`, etc.
+
+**Rule:** When writing content inside HTML tags (like `<details>`, `<section>`, etc.), ALWAYS convert markdown to pure HTML:
+
+| Markdown | Convert to HTML |
+|----------|-----------------|
+| `[text](url){:target="_blank" rel="nofollow noopener"}` | `<a href="url" target="_blank" rel="nofollow noopener">text</a>` |
+| `[text]({% post_url YYYY/YYYY-MM-DD-slug %})` | `<a href="{{ site.baseurl }}/YYYY/MM/DD/slug/">text</a>` |
+| `**bold**` | `<strong>bold</strong>` |
+| `` `code` `` | `<code>code</code>` |
+
+**Do NOT use `markdown="1"`** as a workaround — it does not work reliably with `<details>` or other HTML5 tags.
+
+**Example correct FAQ section:**
+```html
+<section id="faq">
+<h2>Preguntas frecuentes</h2>
+
+<details>
+<summary>¿Pregunta?</summary>
+
+Answer with <a href="https://example.com" target="_blank" rel="nofollow noopener">pure HTML link</a>.
+
+</details>
+</section>
+```

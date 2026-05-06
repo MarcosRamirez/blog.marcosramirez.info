@@ -147,12 +147,13 @@ Para empresas, esto puede ser un requisito. No todas las plataformas de Intelige
 - **Los modelos de código abierto** pueden requerir evaluación de calidad para tu caso de uso específico. No todos los modelos tienen el mismo rendimiento.
 - **El routing automático no siempre acierta**. Para tareas muy específicas, puede que el modelo elegido no sea el óptimo. Siempre puedes forzar uno concreto.
 
-## Preguntas frecuentes
+<section id="faq">
+<h2>Preguntas frecuentes</h2>
 
 <details>
 <summary>¿RouteLLM funciona con cualquier modelo de Inteligencia Artificial?</summary>
 
-RouteLLM da acceso a cualquier modelo a través de su API unificada. Puedes dejar que el router elija automáticamente o especificar uno concreto como parámetro. La lista incluye [GPT](https://openai.com/){:target="_blank" rel="nofollow noopener"}, [Claude](https://anthropic.com/){:target="_blank" rel="nofollow noopener"}, [Gemini](https://deepmind.google/gemini){:target="_blank" rel="nofollow noopener"}, [DeepSeek](https://www.deepseek.com/){:target="_blank" rel="nofollow noopener"}, [Grok](https://x.ai/){:target="_blank" rel="nofollow noopener"} y muchos más.
+RouteLLM da acceso a cualquier modelo a través de su API unificada. Puedes dejar que el router elija automáticamente o especificar uno concreto como parámetro. La lista incluye <a href="https://openai.com/" target="_blank" rel="nofollow noopener">GPT</a>, <a href="https://anthropic.com/" target="_blank" rel="nofollow noopener">Claude</a>, <a href="https://deepmind.google/gemini" target="_blank" rel="nofollow noopener">Gemini</a>, <a href="https://www.deepseek.com/" target="_blank" rel="nofollow noopener">DeepSeek</a>, <a href="https://x.ai/" target="_blank" rel="nofollow noopener">Grok</a> y muchos más.
 
 </details>
 
@@ -176,6 +177,7 @@ RouteLLM tiene failover automático: si un modelo no está disponible, redirige 
 No. Abacus.AI no usa tus datos para entrenamiento. Tienen SOC-2 Type-2 y son HIPAA compliant, lo que significa que cumplen con estándares de seguridad enterprise.
 
 </details>
+</section>
 
 ## Conclusión
 

@@ -48,15 +48,16 @@ The script returns JSON with `title.characters`, `description.characters`, and a
 - **H1:** Unique title defined in Front Matter. Don't repeat in the body (Chirpy auto-generates H1 from frontmatter title, adding `#` in the body creates a duplicate H1).
 - **H2/H3 with Long-tail:** Subtitles that answer real searches (e.g.: "How to configure X in Y?").
 - **Comparative Tables:** Mandatory when mentioning tools to compare Price, Functions, and Dev-Experience.
-- **FAQ Section:** 3-4 questions to capture featured snippets. Use `<details>`/`<summary>` for collapsible Q&A and `<h2>` for the heading:
+- **FAQ Section:** 3-4 questions to capture featured snippets. Use `<details>`/`<summary>` for collapsible Q&A wrapped in a `<section id="faq">`:
 
-```markdown
+```html
+<section id="faq">
 <h2>Preguntas frecuentes</h2>
 
 <details>
 <summary>¿Pregunta aquí?</summary>
 
-Respuesta aquí. Puede incluir markdown, links, etc.
+Respuesta aquí. Si hay enlaces, usar HTML puro: <a href="https://url.com" target="_blank" rel="nofollow noopener">texto del enlace</a>.
 
 </details>
 
@@ -66,13 +67,16 @@ Respuesta aquí. Puede incluir markdown, links, etc.
 Segunda respuesta.
 
 </details>
+</section>
 ```
 
 **Rules:**
-- Use `<h2>Preguntas frecuentes</h2>` (HTML tag, not markdown).
+- Use `<section id="faq">` to wrap the entire FAQ section (for easy searching by id).
+- Use `<h2>Preguntas frecuentes</h2>` inside the section.
 - Each question is wrapped in `<details>` with `<summary>` tag.
-- Answers are plain markdown paragraphs inside the `<details>` block.
+- **CRITICAL: If the answer contains ANY markdown syntax (links, emphasis, code), convert to HTML pure.** Do NOT use `markdown="1"` as an excuse — Kramdown does not reliably process markdown inside HTML tags like `<details>`. Always use `<a href="...">...</a>` for links.
 - This format renders correctly in Chirpy/Jekyll and improves UX with collapsible sections.
+- Recognized section heading variations: `## FAQ`, `### FAQ`, `## Preguntas frecuentes`, `### Preguntas frecuentes`, `<h2>Preguntas frecuentes</h2>`
 
 ### Meta Description Generation Rules
 
