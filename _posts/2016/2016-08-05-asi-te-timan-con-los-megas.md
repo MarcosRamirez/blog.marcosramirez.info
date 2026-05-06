@@ -1,4 +1,4 @@
----
+﻿---
 title: "Así te timan con los megas: la trampa de Mbps versus MB/s"
 slug: asi-te-timan-con-los-megas
 date: 2016-08-05 14:26:23 +02:00
@@ -70,7 +70,7 @@ permalink: /asi-te-timan-con-los-megas/
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ## FAQ
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Paperless NGX: documentos digitales organizados y bajo control"
 slug: paperless-ngx-documentos
 authors:
@@ -162,7 +162,7 @@ docker run -d \
 
 Paperless NGX usa SQLite por defecto, pero puedes conectarlo a PostgreSQL para mejor rendimiento y copias de seguridad centralizadas.
 
-Si te interesa esta configuración, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo con los detalles específicos.
+Si te interesa esta configuración, [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo con los detalles específicos.
 
 ## Cuándo elegir qué
 
@@ -189,6 +189,6 @@ Si te interesa esta configuración, [escríbeme](https://marcosramirez.info/cont
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre Paperless NGX o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre Paperless NGX o la instalación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!

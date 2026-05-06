@@ -1,4 +1,4 @@
----
+﻿---
 title: "Automatizar vídeos de suscripciones de YouTube en Ver Más Tarde"
 slug: anadir-automaticamente-nuevos-videos-de-subscripciones-de-youtube-a-la-lista-ver-mas-tarde-watch-it-later
 authors:
@@ -51,7 +51,7 @@ Basado en/Fuente: [DiRaven on Reddit](https://www.reddit.com/r/youtube/comments/
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ## FAQ
 

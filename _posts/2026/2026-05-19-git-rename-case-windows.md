@@ -1,4 +1,4 @@
----
+﻿---
 title: "Git en Windows: renombrar un archivo cambiando solo el case"
 slug: git-rename-case-windows
 date: 2026-05-19 08:30:00 +0200
@@ -188,7 +188,7 @@ El repositorio en [GitHub](https://github.com/){:target="_blank" rel="nofollow n
 
 Compártelo si te ha resultado útil.
 
-Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ¿Te ha pasado algo parecido con Git en Windows? Deja un comentario y cuéntame.
 

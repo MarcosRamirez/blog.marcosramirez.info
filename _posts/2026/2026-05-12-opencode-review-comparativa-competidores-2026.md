@@ -1,4 +1,4 @@
----
+﻿---
 title: "OpenCode: Review Completa y Comparativa con sus Competidores"
 slug: opencode-review-comparativa-competidores-2026
 date: 2026-05-12 08:30:00 +0200
@@ -282,7 +282,7 @@ La barrera de entrada es mínima: Descargas, ejecutas y puedes empezar a usar mo
 
 Compártelo si te ha resultado útil.
 
-Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!
 

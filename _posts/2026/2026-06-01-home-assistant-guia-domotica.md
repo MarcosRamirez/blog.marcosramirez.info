@@ -1,4 +1,4 @@
----
+﻿---
 title: "Home Assistant: Tu cerebro de domótica en un solo lugar"
 slug: home-assistant-guia-domotica
 authors:
@@ -229,6 +229,6 @@ Home Assistant arranca solo cuando vuelve la luz. Los dispositivos vuelven a su 
 
 Compártelo si te ha gustado.
 
-¿Automatizas algo en casa? ¿Quieres consejo para empezar? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo.
+¿Automatizas algo en casa? ¿Quieres consejo para empezar? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo.
 
 Y... hasta aquí por hoy!

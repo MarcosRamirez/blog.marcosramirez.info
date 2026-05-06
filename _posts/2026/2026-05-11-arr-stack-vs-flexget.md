@@ -1,4 +1,4 @@
----
+﻿---
 title: "Arr Stack vs FlexGet: automatiza tus descargas fácilmente"
 slug: arr-stack-vs-flexget
 authors:
@@ -134,6 +134,6 @@ Lo importante es entender que no son excluyentes. Son complementarios.
 
 Compártelo si te ha resultado útil.
 
-¿Quieres implementar una automatización similar en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank" rel="nofollow noopener"}.
+¿Quieres implementar una automatización similar en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.dev/contacto/){:target="_blank" rel="nofollow noopener"}.
 
 Y... hasta aquí por hoy!

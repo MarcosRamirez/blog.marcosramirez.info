@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cómo reducir el consumo de tokens en Claude Code y ahorrar dinero"
 slug: reducir-consumo-tokens-claude-code
 authors:
@@ -444,6 +444,6 @@ Prevenir relecturas de archivos es la que más impacto individual tiene, seguida
 
 Compártelo si te ha resultado útil.
 
-Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

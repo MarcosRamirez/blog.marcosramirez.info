@@ -1,4 +1,4 @@
----
+﻿---
 title: "WhatsApp te permite fijar contactos en la parte superior (Beta)"
 slug: whatsapp-te-permite-fijar-contactos-en-la-parte-superior-beta
 authors:
@@ -38,6 +38,6 @@ Supongo que esta funcionalidad no tardará en estar disponible para todo el mund
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

@@ -1,4 +1,4 @@
----
+﻿---
 title: "SearXNG: buscador privado y sin rastreos en tu servidor"
 slug: searxng-buscador-privado
 authors:
@@ -149,7 +149,7 @@ Después de instalar, accede a la interfaz web. Desde el panel de administració
 - Activar o desactivar plugins
 - Personalizar la interfaz
 
-Si te interesa esta configuración, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo con los detalles específicos.
+Si te interesa esta configuración, [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo con los detalles específicos.
 
 ## Cuándo elegir qué
 
@@ -175,6 +175,6 @@ Si te interesa esta configuración, [escríbeme](https://marcosramirez.info/cont
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre SearXNG o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre SearXNG o la instalación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!

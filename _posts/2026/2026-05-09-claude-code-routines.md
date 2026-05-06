@@ -1,4 +1,4 @@
----
+﻿---
 title: "Rutinas en Claude Code: automatización de tareas en la nube"
 slug: claude-code-routines
 authors:
@@ -268,6 +268,6 @@ Sí, puedes configurar qué modelo usar en cada Rutina. Para tareas que requiere
 
 Compártelo si te ha resultado útil.
 
-Si lo necesitas a nivel profesional en tu empresa, [hablamos](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si lo necesitas a nivel profesional en tu empresa, [hablamos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

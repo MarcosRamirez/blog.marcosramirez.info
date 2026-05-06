@@ -1,4 +1,4 @@
----
+﻿---
 title: "AdGuard Home: tu propio bloqueador de publicidad y DNS"
 slug: adguard-home-bloqueador-publicidad
 authors:
@@ -81,7 +81,7 @@ La forma más fácil es usando los [Proxmox Helper Scripts](https://community-sc
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/ct/adguard.sh)"
 ```
 
-¿Dudas con el setup? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo.
+¿Dudas con el setup? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo.
 
 ***
 

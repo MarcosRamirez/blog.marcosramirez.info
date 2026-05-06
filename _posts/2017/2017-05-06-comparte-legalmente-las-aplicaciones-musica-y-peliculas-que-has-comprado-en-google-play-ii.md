@@ -1,4 +1,4 @@
----
+﻿---
 title: "Plan Familiar Google Play (II): gestiona el contenido compartido"
 slug: comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-ii
 authors:
@@ -56,6 +56,6 @@ Repites este paso con todas las apps que quieras compartir, y listo.
 
 Compártelo si te ha gusta.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

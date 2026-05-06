@@ -116,6 +116,6 @@ Como escribí hace unas semanas: la Inteligencia Artificial no me robó mi traba
 
 Compártelo si te ha resultado útil.
 
-Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

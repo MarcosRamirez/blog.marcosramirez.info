@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cómo bloquear tu Android a una sola app con Screen Pinning"
 slug: como-permitir-usar-solo-una-aplicacion-en-android-pinning-video-tutorial
 authors:
@@ -48,6 +48,6 @@ Para los que prefiráis video tutoriales, he hecho un pequeño video tutorial, q
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

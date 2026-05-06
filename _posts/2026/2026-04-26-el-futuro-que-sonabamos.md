@@ -1,4 +1,4 @@
----
+﻿---
 title: "El futuro que soñábamos: cuando las máquinas empezaron a entendernos"
 slug: el-futuro-que-sonabamos
 date: 2026-04-26 09:30:00 +0200
@@ -126,7 +126,7 @@ Absolutamente. Entender cómo funciona el código te permite aprovechar la IA de
 
 </details>
 
-¿Tienes alguna anécdota de aquella época? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.
+¿Tienes alguna anécdota de aquella época? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} o deja un comentario.
 
 Compártelo si te ha gustado.
 

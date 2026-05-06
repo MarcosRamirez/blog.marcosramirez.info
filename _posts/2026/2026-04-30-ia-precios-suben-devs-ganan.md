@@ -1,4 +1,4 @@
----
+﻿---
 title: "La Inteligencia Artificial sube precios: los devs siguen ganando"
 slug: ia-precios-suben-devs-ganan
 date: 2026-04-30 08:30:00 +0200
@@ -48,7 +48,7 @@ A partir del 1 de junio de 2026, los usuarios de [GitHub Copilot](https://github
 
 Esta no es una decisión aislada de GitHub. Es la punta del iceberg de una tendencia global en 2026.
 
-Si necesitas ayuda para evaluar cómo este cambio afecta a tu flujo de trabajo, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si necesitas ayuda para evaluar cómo este cambio afecta a tu flujo de trabajo, [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ### El contexto industrial: el fin de los precios "loss leader"
 
@@ -71,7 +71,7 @@ Los desarrolladores tendrán que tomar decisiones conscientes:
 - Reservar modelos premium (27x) solo para problemas complejos de arquitectura o debugging avanzado.
 - Monitorizar activamente el consumo de créditos para evitar quedarse sin acceso a mitad de sprint.
 
-¿Dudas con cómo calcular el consumo real de tus créditos? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo a optimizar tu configuración.
+¿Dudas con cómo calcular el consumo real de tus créditos? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo a optimizar tu configuración.
 
 ### Cambios en la productividad y gestión de equipos
 
@@ -152,7 +152,7 @@ Con una **RTX 4090 ($1,600 + ~$45/mes)**:
 
 La conclusión es clara: a medida que suben los precios en la nube, el hardware local deja de ser un lujo para convertirse en una estrategia de ahorro para equipos con uso intensivo de Inteligencia Artificial.
 
-¿Te interesa montar tu propio entorno local con [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} o [LM Studio](https://lmstudio.ai/){:target="_blank" rel="nofollow noopener"}? [Cuéntame](https://marcosramirez.info/contacto/){:target="_blank"} qué hardware tienes y te recomiendo la mejor configuración.
+¿Te interesa montar tu propio entorno local con [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} o [LM Studio](https://lmstudio.ai/){:target="_blank" rel="nofollow noopener"}? [Cuéntame](https://marcosramirez.dev/contacto/){:target="_blank"} qué hardware tienes y te recomiendo la mejor configuración.
 
 ### Cómo prepararte para la inevitable subida de precios
 
@@ -188,7 +188,7 @@ Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de raz
 
 </details>
 
-¿Has probado ya alguna alternativa a [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? [Deja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu experiencia.
+¿Has probado ya alguna alternativa a [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? [Deja un comentario o escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} tu experiencia.
 
 - **Diversifica tus herramientas**: No pongas todos los huevos en la cesta de [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}. Aprende a usar [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} o configura [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} para tareas que no requieran modelos de máxima potencia.
 - **Experimenta con modelos locales**: Instala [Ollama](https://ollama.com/){:target="_blank" rel="nofollow noopener"} y prueba modelos como Llama 3 o Mistral. Evalúa si el rendimiento es suficiente para tu flujo de trabajo diario.
@@ -197,7 +197,7 @@ Los modelos locales han mejorado mucho, pero aún no igualan la capacidad de raz
 
 Compártelo si te ha gustado.
 
-¿Qué opinas de este cambio de modelo en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? ¿Crees que otras herramientas como [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} seguirán el mismo camino? [Deja un comentario o escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} tu opinión.
+¿Qué opinas de este cambio de modelo en [GitHub Copilot](https://github.com/features/copilot){:target="_blank" rel="nofollow noopener"}? ¿Crees que otras herramientas como [Cursor](https://cursor.sh/){:target="_blank" rel="nofollow noopener"} seguirán el mismo camino? [Deja un comentario o escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} tu opinión.
 
 Este cambio es una buena noticia: al encarecerse la Inteligencia Artificial en todo el sector, el mercado seguirá necesitando desarrolladores capaces de usarla eficientemente. Las empresas se darán cuenta de que es mejor invertir en talento cualificado que en suscripciones mal gestionadas.
 

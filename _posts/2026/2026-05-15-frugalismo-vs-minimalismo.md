@@ -1,4 +1,4 @@
----
+﻿---
 title: "Frugalismo vs minimalismo: cómo vivir mejor gastando menos"
 slug: frugalismo-vs-minimalismo
 date: 2026-05-15 08:30:00 +0200
@@ -83,7 +83,7 @@ A partir de ahí cambié mi mentalidad: ahora calculo el **coste por uso/año**.
 
 ---
 
-¿Has empezado a aplicar la frugalidad en tu vida? Déjá un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+¿Has empezado a aplicar la frugalidad en tu vida? Déjá un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y me cuentas.
 
 Y... ¡hasta aquí por hoy!
 
@@ -178,6 +178,6 @@ No. El tacaño no gasta ni cuando lo necesita, el frugalista invierte en lo nece
 
 El frugalismo te da algo que el consumismo nunca podrá darte: **libertad**. Al desvincularte de la necesidad de gastar para ser feliz, recuperas el control de tu vida y tu tiempo. Y el tiempo, a diferencia del dinero, no se puede recuperar.
 
-¿Has comenzado tu proceso hacia la frugalidad? Compártelo en los comentarios o escríbeme con tus dudas: [https://marcosramirez.info/contacto](https://marcosramirez.info/contacto).
+¿Has comenzado tu proceso hacia la frugalidad? Compártelo en los comentarios o escríbeme con tus dudas: [https://marcosramirez.dev/contacto/](https://marcosramirez.dev/contacto/).
 
 Y... ¡hasta aquí por hoy!

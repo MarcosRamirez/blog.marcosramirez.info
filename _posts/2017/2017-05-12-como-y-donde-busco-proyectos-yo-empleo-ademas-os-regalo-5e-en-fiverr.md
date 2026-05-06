@@ -1,4 +1,4 @@
----
+﻿---
 title: "Dónde busco proyectos y empleo como programador + 5€ en Fiverr"
 slug: como-y-donde-busco-proyectos-yo-empleo-ademas-os-regalo-5e-en-fiverr
 authors:
@@ -67,6 +67,6 @@ Y, eso es todo, espero que os sirva de ayuda.
 
 Compártelo si te ha gusta.
 
-¿Tienes alguna pregunta sobre buscar proyectos? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes alguna pregunta sobre buscar proyectos? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

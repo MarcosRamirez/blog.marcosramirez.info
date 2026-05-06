@@ -1,4 +1,4 @@
----
+﻿---
 title: "N8N: Tu automatización bajo tu control, sin pagos mensuales"
 slug: n8n-automatizacion
 authors:
@@ -221,7 +221,7 @@ Tiene curva de aprendizaje, pero hay muchos templates gratuitos para empezar.
 ***
 Compártelo si te ha liked.
 
-¿Tienes dudas sobre N8N o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre N8N o la instalación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Compártelo si te ha liked.
 

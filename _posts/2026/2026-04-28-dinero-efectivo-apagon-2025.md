@@ -1,4 +1,4 @@
----
+﻿---
 title: "Por qué el dinero en efectivo importa más que nunca en 2026"
 slug: dinero-efectivo-apagon-2025
 date: 2026-04-28 08:30:00 +0200
@@ -77,7 +77,7 @@ La privacidad financiera no es para "esconder algo", es un derecho fundamental e
 
 En un sistema 100% digital, tu acceso al dinero depende de terceros: bancos, procesadoras, proveedores de internet. Pueden cerrar tu cuenta sin explicación, bloquear transacciones "sospechosas" por error algorítmico, o simplemente negarte servicio. El efectivo es **inconfiscable de forma remota** y **no requiere permiso** para usarse. Es la máxima expresión de autonomía financiera.
 
-¿Te preocupa la privacidad de tus finanzas? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} si quieres comentar este tema.
+¿Te preocupa la privacidad de tus finanzas? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} si quieres comentar este tema.
 
 ### 3. Control de gasto
 Numerosos estudios demuestran que **gastamos un 15-20% más cuando usamos tarjeta**. El efectivo nos hace más conscientes del gasto real.
@@ -154,7 +154,7 @@ Las antenas de telefonía dependen de la red eléctrica. Sin luz en las estacion
 
 ***
 
-¿Tienes efectivo en casa para emergencias? Cuéntamelo en los comentarios o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Tienes efectivo en casa para emergencias? Cuéntamelo en los comentarios o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Compártelo si te ha gustado.
 

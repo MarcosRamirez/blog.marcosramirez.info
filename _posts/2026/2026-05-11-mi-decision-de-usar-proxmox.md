@@ -1,4 +1,4 @@
----
+﻿---
 title: "Mi decisión de usar Proxmox: virtualización seria para Home Lab"
 slug: mi-decision-de-usar-proxmox
 authors:
@@ -140,7 +140,7 @@ Sí, es código abierto con una comunidad activa. Los contenedores LXC ofrecen a
 </details>
 
 ***
-¿Usas Proxmox? ¿Tienes alguna duda sobre virtualización? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Usas Proxmox? ¿Tienes alguna duda sobre virtualización? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo discutimos.
 
 Compártelo si te ha gustado.
 

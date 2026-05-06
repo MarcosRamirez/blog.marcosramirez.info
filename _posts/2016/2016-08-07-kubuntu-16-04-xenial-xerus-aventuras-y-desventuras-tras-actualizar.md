@@ -1,4 +1,4 @@
----
+﻿---
 title: "Kubuntu 16.04 Xenial Xerus: problemas y soluciones al actualizar"
 slug: kubuntu-16-04-xenial-xerus-aventuras-y-desventuras-tras-actualizar
 date: 2016-08-07 20:34:47 +0200
@@ -42,7 +42,7 @@ Lo primero que noté que "se había roto" fué:
 10. Desaparición de Turpial
 11. Magnets links no abren deluge (desde Google Chrome)
 
-Si en los próximos días noto que falla/falta algo más, lo iré añadiendo, estar atentos a posibles updates. O, si os falla algo, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y vemos cómo arreglarlo.
+Si en los próximos días noto que falla/falta algo más, lo iré añadiendo, estar atentos a posibles updates. O, si os falla algo, [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y vemos cómo arreglarlo.
 
 Así pues... ¡allá vamos!
 
@@ -182,7 +182,7 @@ CIERRAS SESIÓN (no hace falta reiniciar), y listo... funcionando ;)
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ## FAQ
 

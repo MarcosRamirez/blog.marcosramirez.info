@@ -1,4 +1,4 @@
----
+﻿---
 title: "Por qué la gente vuelve a piratear en la era del streaming"
 slug: gente-vuelve-piratear
 authors:
@@ -95,7 +95,7 @@ Si consumes mucho contenido y quieres tener todo unificado, sí. En 6-12 meses r
 </details>
 
 ***
-Si te ha liked, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+Si te ha liked, compártelo. ¿Cuántas plataformas de streaming has dado de baja últimamente? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y me cuentas.
 
 Compártelo si te ha liked.
 

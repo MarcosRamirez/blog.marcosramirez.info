@@ -1,4 +1,4 @@
----
+﻿---
 title: "Crisis de confianza en Anthropic: qué pasó y cómo afecta a devs"
 slug: "anthropic-crisis-confianza-2026"
 date: 2026-04-29 08:30:00 +0200
@@ -85,6 +85,6 @@ Genera entre un 30% y 45% más de tokens para el mismo texto, encareciendo el us
 
 Compártelo si te ha resultado útil.
 
-¿Quieres implementar soluciones de Inteligencia Artificial en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Quieres implementar soluciones de Inteligencia Artificial en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

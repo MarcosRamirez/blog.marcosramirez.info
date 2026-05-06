@@ -1,4 +1,4 @@
----
+﻿---
 title: "Comandos básicos de Proxmox: gestión de LXC y VMs vía CLI"
 slug: comandos-basicos-proxmox
 authors:
@@ -482,6 +482,6 @@ Aunque es posible, no lo recomiendo para servicios que necesiten detectar archiv
 
 Compártelo si te ha resultado útil.
 
-¿Gestionas tu infraestructura de virtualización con Proxmox? ¿Qué otros comandos usas habitualmente? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo charlamos.
+¿Gestionas tu infraestructura de virtualización con Proxmox? ¿Qué otros comandos usas habitualmente? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo charlamos.
 
 Y... hasta aquí por hoy!

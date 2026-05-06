@@ -1,4 +1,4 @@
----
+﻿---
 title: "OpenCode: el asistente de código abierto para developers"
 slug: opencode-asistente-codigo
 authors:
@@ -118,6 +118,6 @@ Con herramientas propietarias:
 
 ***
 
-¿Usas alguna herramienta de código abierto para tu día a día? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y me cuentas.
+¿Usas alguna herramienta de código abierto para tu día a día? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y me cuentas.
 
 Y... hasta aquí por hoy!

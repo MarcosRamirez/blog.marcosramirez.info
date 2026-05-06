@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cómo comunicarse (conmigo) correctamente y no morir en el intento"
 slug: como-comunicarse-correctamente-y-no-morir-en-el-intento
 authors:
@@ -160,7 +160,7 @@ Y, eso es todo... actuando tal como he descrito, que no es más que con un míni
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre comunicación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Tienes dudas sobre comunicación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ## FAQ
 

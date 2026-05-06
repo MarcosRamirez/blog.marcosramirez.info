@@ -1,4 +1,4 @@
----
+﻿---
 title: "Trabaja conmigo: proyectos de desarrollo y soluciones de valor"
 slug: quieres-que-te-ayude-quieres-contratarme
 authors:
@@ -57,6 +57,6 @@ De manera más o menos regular, me llegan peticiones de ayuda, ofertas de empleo
 
 Compártelo si te ha gusta.
 
-¿Tienes algún proyecto interesante? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes algún proyecto interesante? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

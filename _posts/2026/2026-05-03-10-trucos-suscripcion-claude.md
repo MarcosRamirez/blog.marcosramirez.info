@@ -1,4 +1,4 @@
----
+﻿---
 title: "10 trucos para que tu suscripción de Claude dure toda la semana"
 slug: 10-trucos-suscripcion-claude
 authors:
@@ -208,6 +208,6 @@ Algunos sí, otros no. Los trucos de gestión de chat (no acumular mensajes, cha
 
 Compártelo si te ha resultado útil.
 
-Si necesitas ayuda para implementar estos hábitos en tu flujo de trabajo, [puedo orientarte](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si necesitas ayuda para implementar estos hábitos en tu flujo de trabajo, [puedo orientarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Trucos multiidioma en Facebook: elimina avisos de traducción"
 slug: facebook-trucos-multi-idioma
 authors:
@@ -53,6 +53,6 @@ Ahora, solo me falta... en mi obsesión por automatizar, ¿cómo hacer para que,
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

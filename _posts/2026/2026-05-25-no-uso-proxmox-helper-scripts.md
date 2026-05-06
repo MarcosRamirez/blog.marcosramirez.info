@@ -1,4 +1,4 @@
----
+﻿---
 title: "Las razones por las que no uso los helper scripts de Proxmox"
 slug: no-uso-proxmox-helper-scripts
 authors:
@@ -64,6 +64,6 @@ Es cierto que se pierde el factor "magia" y la inmediatez de los scripts, pero s
 
 ***
 
-¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo discutimos.
+¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo discutimos.
 
 Y... hasta aquí por hoy!

@@ -1,4 +1,4 @@
----
+﻿---
 title: "RouteLLM: routing automático de LLMs para profesionales"
 slug: routellm-router-ia-automatico
 date: 2026-05-06 08:30:00 +0200
@@ -187,6 +187,6 @@ Si usas múltiples modelos de Inteligencia Artificial regularmente y estás cans
 
 Compártelo si te ha resultado útil.
 
-¿Gestionas múltiples modelos de Inteligencia Artificial en tu empresa? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} si quieres simplificar tu flujo de trabajo con routing automático.
+¿Gestionas múltiples modelos de Inteligencia Artificial en tu empresa? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} si quieres simplificar tu flujo de trabajo con routing automático.
 
 Y... hasta aquí por hoy!

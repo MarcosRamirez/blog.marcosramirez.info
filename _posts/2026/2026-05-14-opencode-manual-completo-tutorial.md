@@ -1,4 +1,4 @@
----
+﻿---
 title: "OpenCode: Manual Completo - Guía Definitiva del Agente de Coding"
 slug: opencode-manual-completo-tutorial
 date: 2026-05-14 08:30:00 +0200
@@ -678,6 +678,6 @@ Sí, son herramientas complementarias. Usa OpenCode para flexibilidad y precio, 
 
 Compártelo si te ha resultado útil.
 
-Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

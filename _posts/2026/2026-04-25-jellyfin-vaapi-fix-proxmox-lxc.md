@@ -1,4 +1,4 @@
----
+﻿---
 title: "Solucionar VAAPI en Jellyfin LXC sin privilegios de Proxmox"
 slug: "jellyfin-vaapi-fix-proxmox-lxc"
 date: 2026-04-25 08:30:00 +0200
@@ -129,6 +129,6 @@ Este patrón es frecuente en LXC sin privilegios: los dispositivos se mapean con
 
 Con el hook script y la corrección de permisos, Jellyfin transcodifica sin errores. Mantén este esquema en tu entorno Proxmox para evitar caídas inesperadas de la biblioteca de VAAPI.
 
-¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.
+¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} o deja un comentario.
 
 Compártelo si te ha gustado. ¡Y hasta aquí por hoy!

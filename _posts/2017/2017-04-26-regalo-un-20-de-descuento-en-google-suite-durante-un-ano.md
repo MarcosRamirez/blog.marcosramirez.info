@@ -1,4 +1,4 @@
----
+﻿---
 title: "Google Suite: 20% de descuento el primer año para tu dominio"
 slug: regalo-un-20-de-descuento-en-google-suite-durante-un-ano
 authors:
@@ -40,6 +40,6 @@ Para obtener dicho descuento, debes seguir estos pasos:
 2. Indica el siguiente código: **PDHDKXU3AKMCDL9** (si falla, es que alguien se te anticipó; escríbeme y te daré otro, por desgracia no puedo automatizar esto). Del mismo modo, agradeceré que me avises cuando lo uses, para poner otro.
 3. La oferta es efectiva durante doce meses tras el registro, por lo que si no empiezas a pagar desde el minuto cero, no aprovecharás la oferta al 100%.
 
-Compártelo si te ha gustado. ¿Te ha parecido útil este descuento? [Escríbeme](https://marcosramirez.info/contacto/) si tienes alguna duda.
+Compártelo si te ha gustado. ¿Te ha parecido útil este descuento? [Escríbeme](https://marcosramirez.dev/contacto/) si tienes alguna duda.
 
 Y... hasta aquí por hoy!

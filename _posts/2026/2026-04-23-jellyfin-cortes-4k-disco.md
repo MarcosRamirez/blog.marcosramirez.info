@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cómo resolví los cortes de Jellyfin en 4K: disco lleno y más"
 date: 2026-04-23 21:45:00 +0200
 excerpt: "Películas en 4K que se cortan a los 5 minutos, salvapantallas que salta solo... No era la red. El disco del LXC estaba al 100%. Descubrí y solucioné cinco problemas encadenados: disco lleno que impedía escribir logs y segmentos de transcoding, archivo MKV corrupto con error EBML, falta de aceleración por hardware Quick Sync en Intel HD Graphics 530, montaje NTFS incorrecto que no permitía borrar archivos, y NFS que no detectaba archivos nuevos por falta de inotify. Aprende a diagnosticar con journalctl, ffprobe y ffmpeg."
@@ -130,7 +130,7 @@ pct start <LXC_DONANTE_ID>
 
 Yo intenté hacerlo por comandos (lvreduce/lvextend) y no fui capaz. Desde la interfaz web fue meter el valor y listo.
 
-¿ sabes cómo hacerlo por comandos? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario porque ni con [Claude Code](https://claude.com/claude-code) lo conseguí.
+¿ sabes cómo hacerlo por comandos? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} o deja un comentario porque ni con [Claude Code](https://claude.com/claude-code) lo conseguí.
 
 ⚠️ Si el tamaño en la config del LXC no coincide con el LV real, actualízalo:
 
@@ -242,7 +242,7 @@ En total, pasé una horita entretenida solucionando el problema. Pero al menos a
 La lección: **monitoriza el espacio en disco de tus servicios de media**. Los transcodes, cachés de trickplay y logs de Jellyfin pueden crecer sin control y llenarte el disco sin avisar. Configura alertas de espacio en [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}, Grafana/Prometheus o lo que uses, antes de que te pase lo mismo.
 
 ***
-¿Tienes problemas similares con Jellyfin o algún servicio de media? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} o deja un comentario.
+¿Tienes problemas similares con Jellyfin o algún servicio de media? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} o deja un comentario.
 
 Compártelo si te ha liked.
 

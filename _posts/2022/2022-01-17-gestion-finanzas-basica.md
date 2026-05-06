@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cómo gestiono mis finanzas (1ª parte): conceptos básicos"
 slug: gestion-finanzas-basica
 authors:
@@ -140,6 +140,6 @@ La cantidad de "excusas" que he escuchado, es enorme, y eso, solo en cuanto al d
 
 Te sorprenderás más en próximos posts, hablaremos más en detalle sobre esto.
 
-Compártelo si te ha gusta. ¿Tienes alguna pregunta sobre finanzas? [Escríbeme](https://marcosramirez.info/contacto/).
+Compártelo si te ha gusta. ¿Tienes alguna pregunta sobre finanzas? [Escríbeme](https://marcosramirez.dev/contacto/).
 
 Y... hasta aquí por hoy!

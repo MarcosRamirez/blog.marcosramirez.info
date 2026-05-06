@@ -1,4 +1,4 @@
----
+﻿---
 title: "Immich: tus fotos privadas en el servidor, sin suscripción"
 slug: immich-privacidad-tus-fotos
 authors:
@@ -174,6 +174,6 @@ Sí, pero asegúrate de configurar bien el proxy si usas nginx.
 
 Compártelo si te ha gustado.
 
-¿Estás listo para recuperar el control de tus fotos? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo buscamos.
+¿Estás listo para recuperar el control de tus fotos? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo buscamos.
 
 Y... hasta aquí por hoy!

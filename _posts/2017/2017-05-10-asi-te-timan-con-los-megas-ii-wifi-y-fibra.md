@@ -1,4 +1,4 @@
----
+﻿---
 title: "Así te timan con los megas II: por qué el Wifi no rinde"
 slug: asi-te-timan-con-los-megas-ii-wifi-y-fibra
 authors:
@@ -46,6 +46,6 @@ Y, eso es todo, como dije, iba a ser un post rápido :)
 
 Compártelo si te ha gusta.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

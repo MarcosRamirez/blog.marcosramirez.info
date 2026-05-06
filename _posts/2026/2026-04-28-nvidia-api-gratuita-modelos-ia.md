@@ -1,4 +1,4 @@
----
+﻿---
 title: "NVIDIA: acceso gratuito a modelos de Inteligencia Artificial"
 slug: nvidia-api-gratuita-modelos-ia
 date: 2026-04-28 14:00:00 +0200
@@ -28,7 +28,7 @@ last_modified_at: 2026-05-01 22:13:49 +0200
 
 [NVIDIA](https://www.nvidia.com/){:target="_blank" rel="nofollow noopener"} ha lanzado un programa de acceso gratuito que permite a los desarrolladores probar modelos de inteligencia artificial de última generación a través de su portal [build.nvidia.com/models](https://build.nvidia.com/models){:target="_blank" rel="nofollow noopener"}. Esta iniciativa elimina las barreras de entrada tradicionales: no se requiere tarjeta de crédito, únicamente verificación mediante teléfono móvil.
 
-¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ## Modelos disponibles
 
@@ -80,7 +80,7 @@ const response = await client.chat.completions.create({
 });
 ```
 
-¿Necesitas esta integración para tu negocio? [Consulta con expertos](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Necesitas esta integración para tu negocio? [Consulta con expertos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ## Compatibilidad con herramientas
 
@@ -144,7 +144,7 @@ DeepSeek V4 Flash con 1 millón de tokens, ideal para procesar documentación ex
 
 ***
 
-¿Implementas soluciones de Inteligencia Artificial en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Implementas soluciones de Inteligencia Artificial en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Compártelo si te ha resultado útil.
 

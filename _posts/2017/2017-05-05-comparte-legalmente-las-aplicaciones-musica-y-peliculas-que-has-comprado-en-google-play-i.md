@@ -1,4 +1,4 @@
----
+﻿---
 title: "Comparte apps y contenido de Google Play con hasta 5 personas"
 slug: comparte-legalmente-las-aplicaciones-musica-y-peliculas-que-has-comprado-en-google-play-i
 authors:
@@ -95,6 +95,6 @@ Al darle al último paso, verás esta pantalla con una selección de aplicacione
 
 Compártelo si te ha gusta.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

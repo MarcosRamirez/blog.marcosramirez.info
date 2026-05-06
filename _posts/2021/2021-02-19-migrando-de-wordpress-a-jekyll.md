@@ -1,4 +1,4 @@
----
+﻿---
 title: "Migrar de WordPress a Jekyll: guía completa paso a paso"
 slug: migrando-de-wordpress-a-jekyll
 authors:
@@ -130,6 +130,6 @@ Es lo último que he solucionado, simplemente añadiendo lo sigiente al archivo 
 Y luego poniendo las variables correspondientes en el config y en cada post.
 
 
-Compártelo si te ha gusta. ¿Tienes dudas con la migración? [Escríbeme](https://marcosramirez.info/contacto/).
+Compártelo si te ha gusta. ¿Tienes dudas con la migración? [Escríbeme](https://marcosramirez.dev/contacto/).
 
 Y... hasta aquí por hoy!

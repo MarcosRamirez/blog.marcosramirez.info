@@ -1,4 +1,4 @@
----
+﻿---
 title: "Agent Skills: el estándar que enseña a tus agentes cómo trabajar"
 slug: agent-skills-estandar-agentes
 date: 2026-05-05 08:30:00 +0200
@@ -158,6 +158,6 @@ Con un comando en la terminal: `npx skillsadd {owner/repo}`. El directorio en [s
 
 Compártelo si te ha resultado útil.
 
-¿Estás construyendo agentes o flujos de trabajo con Inteligencia Artificial en tu empresa? [Cuéntame en qué estás trabajando](https://marcosramirez.info/contacto/){:target="_blank"} — es un área en la que llevo tiempo profundizando.
+¿Estás construyendo agentes o flujos de trabajo con Inteligencia Artificial en tu empresa? [Cuéntame en qué estás trabajando](https://marcosramirez.dev/contacto/){:target="_blank"} — es un área en la que llevo tiempo profundizando.
 
 Y... hasta aquí por hoy!

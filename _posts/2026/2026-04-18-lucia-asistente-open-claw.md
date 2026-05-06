@@ -1,4 +1,4 @@
----
+﻿---
 title: "Lucía con OpenClaw: Inteligencia Artificial autónoma en Home Lab"
 slug: lucia-asistente-open-claw
 authors:
@@ -88,7 +88,7 @@ No requiere conocimientos avanzados. OpenClaw ofrece Docker Compose y documentac
 </details>
 
 ***
-¿Y tú? ¿Estás listo para dejar de usar la Inteligencia Artificial de otros y empezar a construir la tuya? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} qué tareas delegarías hoy mismo a un asistente autónomo.
+¿Y tú? ¿Estás listo para dejar de usar la Inteligencia Artificial de otros y empezar a construir la tuya? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} qué tareas delegarías hoy mismo a un asistente autónomo.
 
 Compártelo si te ha gustado.
 

@@ -1,4 +1,4 @@
----
+﻿---
 title: "Configurar alias de email en Gmail: guía actualizada paso a paso"
 slug: enviar-mails-desde-otras-direcciones-o-alias-en-gmail
 authors:
@@ -137,7 +137,7 @@ Sí. Ve a Configuración → Cuentas e importación → "Enviar correo como" y h
 
 Compártelo si te ha resultado útil.
 
-Si necesitas configurar esto a escala en tu empresa, [hablamos](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si necesitas configurar esto a escala en tu empresa, [hablamos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ¿Has tenido algún problema diferente con los alias de Gmail? Deja un comentario y cuéntame.
 

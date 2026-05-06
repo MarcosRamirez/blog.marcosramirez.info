@@ -1,4 +1,4 @@
----
+﻿---
 title: "Vaultwarden: contraseñas seguras en tu servidor, sin pagos"
 slug: vaultwarden-contraseñas-seguras
 authors:
@@ -152,7 +152,7 @@ Esto es crítico. Tus contraseñas están en tu servidor. Si el disco se rompe, 
 
 **[En mi post sobre backups]({% post_url 2026/2026-06-11-backup-3-2-1 %})** te explico cómo hacer backups correctamente. Aplica lo mismo para Vaultwarden: guarda una copia exportada regularmente.
 
-Si necesitas ayuda configurando los backups de tu bóveda, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo vemos.
+Si necesitas ayuda configurando los backups de tu bóveda, [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo vemos.
 
 ## Cuándo elegir qué
 
@@ -180,6 +180,6 @@ Si necesitas ayuda configurando los backups de tu bóveda, [escríbeme](https://
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre Vaultwarden o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre Vaultwarden o la instalación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!

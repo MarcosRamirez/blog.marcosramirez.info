@@ -1,4 +1,4 @@
----
+﻿---
 title: "Video tutorial de Gboard y review de nuevas funcionalidades"
 slug: video-tutorial-de-gboard-y-review-de-nuevas-funcionalidades
 authors:
@@ -26,6 +26,6 @@ Espero que te sea útil.
 
 Compártelo si te ha gustan.
 
-¿Tienes dudas con la configuración? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes dudas con la configuración? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

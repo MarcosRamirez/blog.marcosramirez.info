@@ -1,4 +1,4 @@
----
+﻿---
 title: "Cloudflare Pages está desapareciendo (y Workers sale ganando)"
 slug: cloudflare-pages-dificil-encontrar
 date: 2026-05-04 08:30:00 +0200
@@ -148,7 +148,7 @@ Si tu sitio genera HTML en build time —con Jekyll, Hugo, Astro en modo estáti
 
 Compártelo si te ha resultado útil.
 
-Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ¿Usas Cloudflare Pages para tus sitios estáticos? ¿Has notado el cambio en el panel? Deja un comentario y cuéntame.
 

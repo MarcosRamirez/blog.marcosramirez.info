@@ -1,4 +1,4 @@
----
+﻿---
 title: "OpenRouter: 500 modelos de Inteligencia Artificial en una API"
 slug: openrouter-500-modelos-ia
 date: 2026-05-04 08:30:00 +0200
@@ -168,7 +168,7 @@ Si OpenRouter cae, tu aplicación no llega al modelo. Es la principal desventaja
 
 Compártelo si te ha resultado útil.
 
-¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Quieres implementar esto en tu empresa? [Hablemos de tu proyecto](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 ¿Usas algún otro agregador de modelos? Escríbeme o deja un comentario.
 

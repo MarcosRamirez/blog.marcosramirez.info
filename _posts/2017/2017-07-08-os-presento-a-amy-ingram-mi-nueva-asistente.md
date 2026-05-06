@@ -1,4 +1,4 @@
----
+﻿---
 title: "Amy Ingram: mi asistente virtual de Inteligencia Artificial"
 slug: os-presento-a-amy-ingram-mi-nueva-asistente
 authors:
@@ -118,6 +118,6 @@ Si alguien tiene curiosidad, simplemente puede pedirme que le ponemos al habla c
 
 Compártelo si te ha gusta.
 
-¿Tienes alguna pregunta sobre asistentes de Inteligencia Artificial? <a href="https://marcosramirez.info/contacto/" target="_blank">Escríbeme</a>.
+¿Tienes alguna pregunta sobre asistentes de Inteligencia Artificial? <a href="https://marcosramirez.dev/contacto/" target="_blank">Escríbeme</a>.
 
 Y... hasta aquí por hoy!

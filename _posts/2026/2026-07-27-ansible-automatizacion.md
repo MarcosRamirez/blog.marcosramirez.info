@@ -1,4 +1,4 @@
----
+﻿---
 title: "Ansible: cómo automatizar tu Home Lab de principio a fin"
 slug: ansible-automatizacion
 authors:
@@ -268,6 +268,6 @@ ansible-init
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre Ansible o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre Ansible o la instalación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!

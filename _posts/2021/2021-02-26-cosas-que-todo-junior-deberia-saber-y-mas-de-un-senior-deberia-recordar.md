@@ -1,4 +1,4 @@
----
+﻿---
 title: "Lo que todo junior debería saber y un senior debería recordar"
 slug: cosas-que-todo-junior-deberia-saber-y-mas-de-un-senior-deberia-recordar
 authors:
@@ -238,7 +238,7 @@ Esto va a gustos, a unos les gusta una cultura como la de Google... a otros, com
 
 Te dejo un link a mis lecturas recomendadas ({% post_url 2021/2021-02-25-recomendaciones-libros-blogs-peliculas-canales %}), donde pretendo crear un pequeño repositorio, espero que colaborativo, de cosas interesantes.
 
-Compártelo si te ha gustado. ¿Qué consejos añadirías para Juniors? [Escríbeme](https://marcosramirez.info/contacto/).
+Compártelo si te ha gustado. ¿Qué consejos añadirías para Juniors? [Escríbeme](https://marcosramirez.dev/contacto/).
 
 Y... hasta aquí por hoy!
 

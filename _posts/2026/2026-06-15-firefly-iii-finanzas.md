@@ -1,4 +1,4 @@
----
+﻿---
 title: "Firefly III: finanzas personales en tu servidor sin suscripciones"
 slug: firefly-iii-finanzas
 authors:
@@ -112,7 +112,7 @@ Si tienes una base de datos MySQL o PostgreSQL centralizada en tu Home Lab, pued
 - Copias de seguridad centralizadas
 - Gestión unificada
 
-Si te interesa esta configuración con base de datos centralizada, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo con los detalles específicos.
+Si te interesa esta configuración con base de datos centralizada, [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo con los detalles específicos.
 
 ## Comparativa con alternativas
 
@@ -212,6 +212,6 @@ Sí, Firefly III incluye importadores para archivos CSV desde la mayoría de ban
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre Firefly III o la instalación? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre Firefly III o la instalación? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!

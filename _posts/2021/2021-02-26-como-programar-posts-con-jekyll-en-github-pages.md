@@ -1,4 +1,4 @@
----
+﻿---
 title: "Programar posts con Jekyll en GitHub Pages: el proceso completo"
 slug: como-programar-posts-con-jekyll-en-github-pages
 authors:
@@ -64,6 +64,6 @@ git push origin <branch-name>
 
 
 
-Compártelo si te ha gustado. ¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.info/contacto/).
+Compártelo si te ha gustado. ¿Tienes dudas con la configuración? [Escríbeme](https://marcosramirez.dev/contacto/).
 
 Y... hasta aquí por hoy!

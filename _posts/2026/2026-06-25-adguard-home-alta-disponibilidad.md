@@ -1,4 +1,4 @@
----
+﻿---
 title: "AdGuard Home en alta disponibilidad: Dos nodos con sincronización"
 slug: adguard-home-alta-disponibilidad
 authors:
@@ -103,6 +103,6 @@ Si no quieres mantener nada y te sirve la nube.
 
 Compártelo si te ha gustado.
 
-¿Tienes dudas sobre poner dos nodos? Deja un comentario o [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y lo debatimos.
+¿Tienes dudas sobre poner dos nodos? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo debatimos.
 
 Y... hasta aquí por hoy!
