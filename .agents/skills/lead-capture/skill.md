@@ -4,18 +4,19 @@ description: Defines CTA strategy, service catalog, tier rules, and ready-to-use
 compatibility: Designed for Claude Code
 metadata:
   author: marcos-ramirez
-  version: "1.0"
+  version: "1.1"
 ---
 
 # Lead Capture Skill
 
 ## Service Catalog
 
-### 1. Consultoría Verifactu
+### 1. Verifactu / Ley Antifraude
 **Price:** **GRATUITA** (loss-leader — the goal is to open the door to AI and software services)
 **What:** Analysis of the business's current billing setup + recommendation of the best certified Verifactu-compliant software for their specific needs.
 **Target:** Any Spanish business or autónomo that needs to comply with the Verifactu electronic invoicing regulation.
 **Value proposition:** "Te digo exactamente qué software necesitas para cumplir con Verifactu, sin coste y sin compromiso."
+**CTA destination:** `https://marcosramirez.dev/consultoria-gratuita/` (free consultation landing page)
 **Upsell path:** Once trust is established → propose AI implementation or custom software services.
 
 ### 2. Inteligencia Artificial para negocios
@@ -24,24 +25,41 @@ metadata:
 **Target:** Small businesses and local businesses (restaurants, shops, clinics, services) that want to use AI but don't know how or where to start.
 **Value proposition:** "Implementamos Inteligencia Artificial en tu negocio de forma práctica, sin tecnicismos y con resultados reales."
 
-### 3. Software a medida
+### 3. Digitalización y Sistemas
 **Price:** Quoted per project
-**What:** Custom web applications, internal management tools, business automation systems.
-**Target:** SMEs that need specific software not covered by off-the-shelf solutions.
+**What:** Digital transformation of business operations: ERP, CRM, and POS system selection and implementation, process automation, workflow digitalization.
+**Target:** SMEs that still rely on paper, spreadsheets, or fragmented tools and want to streamline operations.
+**Value proposition:** "Digitalizamos tu negocio con las herramientas correctas para tu tamaño y presupuesto — sin tecnicismos y sin pagar por lo que no necesitas."
+
+### 4. Presencia Online
+**Price:** Quoted per project
+**What:** Complete online visibility strategy: Google My Business setup and optimization, WhatsApp Business integration, web presence, local SEO.
+**Target:** Local businesses (restaurants, shops, clinics) that aren't visible online or aren't converting their online presence into customers.
+**Value proposition:** "Te ayudo a que tus clientes te encuentren fácilmente en Google y a convertir tu presencia digital en más negocio real."
+
+### 5. Desarrollo Web y Programación
+**Price:** Quoted per project (95% of clients only pay hosting/domain after delivery)
+**What:** Custom websites, web applications, desktop and mobile apps. Built exactly for the business's needs — no bloated CMS, no unnecessary features.
+**Target:** SMEs that need a custom digital solution not covered by off-the-shelf platforms.
 **Value proposition:** "Desarrollo el software exacto que tu negocio necesita, sin pagar por funcionalidades que no vas a usar."
 
-### 4. Consultoría tech general
-**Price:** **Por hora** (no subscriptions, no lock-in)
-**What:** General IT guidance, tech stack evaluation, digitalization roadmap, vendor selection. For businesses that have no technical knowledge and need trustworthy advice on everyday tech decisions.
-**Target:** Small local businesses (restaurants, shops, clinics) with zero tech background who don't know who to ask.
-**Value proposition:** "Te ayudo a tomar decisiones tecnológicas correctas sin perder tiempo ni dinero — cobro por hora y sin permanencias."
-
-### 5. Seguridad Informática
+### 6. Diseño Gráfico
 **Price:** Quoted per project
-**What:** Security assessments, vulnerability analysis, infrastructure hardening, incident response advisory, and security review for development teams.
+**What:** Visual identity, menus, posters, flyers, social media graphics, web design.
+**Target:** Local businesses that want to stand out visually and need professional materials without an agency budget.
+**Value proposition:** "Diseño materiales gráficos profesionales para tu negocio — desde el menú hasta la identidad visual completa."
+
+### 7. Seguridad Informática
+**Price:** Quoted per project
+**What:** Security assessments, vulnerability analysis, infrastructure hardening, password and backup management, incident response advisory, security training, and security review for development teams.
 **Target:** Companies running self-hosted infrastructure (GitHub Enterprise, Linux servers, containers, CI/CD pipelines) that need to evaluate and improve their security posture.
 **Value proposition:** "Evaluamos y reforzamos la seguridad de tu infraestructura, con foco en riesgos reales y soluciones prácticas."
-**CTA destination:** `https://marcosramirez.dev` (security services live here)
+
+### 8. Consultoría y Asesoría
+**Price:** €120.99/hora (consultoría puntual) · Custom (asesoría continuada)
+**What:** General IT guidance, tech stack evaluation, digitalization roadmap, vendor selection, ongoing advisory. For businesses that have no technical knowledge and need trustworthy advice on everyday tech decisions.
+**Target:** Small local businesses (restaurants, shops, clinics) with zero tech background who don't know who to ask.
+**Value proposition:** "Te ayudo a tomar decisiones tecnológicas correctas sin perder tiempo ni dinero — cobro por hora y sin permanencias."
 
 ---
 
@@ -102,15 +120,17 @@ Every post uses exactly ONE tier. Never mix tiers in the same post.
 
 | Post topic / category | Tier | Service to reference |
 |----------------------|------|----------------------|
-| Verifactu, facturación electrónica, compliance fiscal | BUSINESS | Consultoría Verifactu |
-| Inteligencia Artificial para negocios (business-framed) | BUSINESS | IA para negocios |
-| Automatización de procesos (business-framed, non-technical) | BUSINESS | IA para negocios / Software |
-| Digitalización pymes, tecnología para empresas | BUSINESS | Consultoría tech general |
-| Negocios y Digitalización category posts | BUSINESS | Consultoría tech general + IA |
-| Inteligencia Artificial (tech-enthusiast framing, tools/models) | SOFT | IA para negocios |
-| Automatización (developer/homelab framing, CLI-heavy) | SOFT | Software a medida |
-| Desarrollo Web, APIs, coding tutorials | SOFT | Software a medida |
-| Seguridad Informática (CVE, vulnerabilidades, hardening, auditoría) | SOFT | Seguridad Informática (marcosramirez.dev) |
+| Verifactu, facturación electrónica, compliance fiscal | BUSINESS | Verifactu / Ley Antifraude |
+| Inteligencia Artificial para negocios (business-framed) | BUSINESS | Inteligencia Artificial |
+| Automatización de procesos (business-framed, non-technical) | BUSINESS | Digitalización y Sistemas |
+| Digitalización pymes, ERP, CRM, TPV, gestión empresarial | BUSINESS | Digitalización y Sistemas |
+| Presencia Online, Google My Business, WhatsApp Business | BUSINESS | Presencia Online |
+| Negocios y Digitalización category posts | BUSINESS | Digitalización y Sistemas + IA |
+| Inteligencia Artificial (tech-enthusiast framing, tools/models) | SOFT | Inteligencia Artificial |
+| Automatización (developer/homelab framing, CLI-heavy) | SOFT | Desarrollo Web y Programación |
+| Desarrollo Web, APIs, coding tutorials | SOFT | Desarrollo Web y Programación |
+| Diseño gráfico, identidad visual | SOFT | Diseño Gráfico |
+| Seguridad Informática (CVE, vulnerabilidades, hardening, auditoría) | SOFT | Seguridad Informática |
 | Sistemas, Home Lab, Self-hosting, Proxmox, Docker (sin Seguridad Informática) | COMMUNITY | — |
 | Software y Apps (tool reviews, no business framing) | COMMUNITY | — |
 | Finanzas Personales | COMMUNITY | — |
@@ -126,73 +146,91 @@ Rotate copies — do NOT use the same CTA text in two consecutive posts.
 ### Verifactu CTAs — always mention FREE explicitly
 
 ```
-¿Tu negocio todavía no está adaptado a Verifactu? Hago un análisis **gratuito** de tu situación y te recomiendo la solución que mejor encaja contigo, sin compromiso. [Escríbeme y lo vemos juntos](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Tu negocio todavía no está adaptado a Verifactu? Hago un análisis **gratuito** de tu situación y te recomiendo la solución que mejor encaja contigo, sin compromiso. [Escríbeme y lo vemos juntos](https://marcosramirez.dev/consultoria-gratuita/){:target="_blank"}.
 ```
 
 ```
-Si no sabes qué software necesitas para cumplir con Verifactu, puedo orientarte sin coste. [Cuéntame tu caso](https://marcosramirez.info/contacto/){:target="_blank"} y te digo exactamente qué opciones tienes.
+Si no sabes qué software necesitas para cumplir con Verifactu, puedo orientarte sin coste. [Cuéntame tu caso](https://marcosramirez.dev/consultoria-gratuita/){:target="_blank"} y te digo exactamente qué opciones tienes.
 ```
 
 ```
-La adaptación a Verifactu tiene fecha límite. Si tu negocio todavía no lo tiene resuelto, [escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} — hago el análisis de forma **gratuita** y te recomiendo qué solución se adapta mejor a ti.
+La adaptación a Verifactu tiene fecha límite. Si tu negocio todavía no lo tiene resuelto, [escríbeme](https://marcosramirez.dev/consultoria-gratuita/){:target="_blank"} — hago el análisis de forma **gratuita** y te recomiendo qué solución se adapta mejor a ti.
 ```
 
 ### Inteligencia Artificial para negocios CTAs
 
 ```
-¿Quieres aplicar Inteligencia Artificial en tu negocio pero no sabes por dónde empezar? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} y vemos qué solución tiene sentido para tu caso concreto.
+¿Quieres aplicar Inteligencia Artificial en tu negocio pero no sabes por dónde empezar? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y vemos qué solución tiene sentido para tu caso concreto.
 ```
 
 ```
-Si tu empresa quiere implementar Inteligencia Artificial de forma práctica y sin tecnicismos, [hablemos](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si tu empresa quiere implementar Inteligencia Artificial de forma práctica y sin tecnicismos, [hablemos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 ```
 
 ```
-¿Quieres automatizar procesos en tu negocio con Inteligencia Artificial? [Cuéntame qué haces](https://marcosramirez.info/contacto/){:target="_blank"} y te digo qué se puede hacer.
+¿Quieres automatizar procesos en tu negocio con Inteligencia Artificial? [Cuéntame qué haces](https://marcosramirez.dev/contacto/){:target="_blank"} y te digo qué se puede hacer.
 ```
 
-### Consultoría tech general CTAs
+### Digitalización y Sistemas CTAs
 
 ```
-¿Tu negocio necesita orientación tecnológica pero no sabes a quién preguntar? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"} — cobro por hora y sin permanencias.
+Si tu negocio sigue gestionando pedidos, facturas o inventario con Excel o papel, hay soluciones mejores. [Cuéntame cómo trabajas](https://marcosramirez.dev/contacto/){:target="_blank"} y te propongo qué herramientas encajan con tu tamaño y presupuesto.
+```
+
+### Presencia Online CTAs
+
+```
+¿Tu negocio no aparece en Google cuando alguien busca lo que ofreces? [Hablamos](https://marcosramirez.dev/contacto/){:target="_blank"} y revisamos cómo mejorar tu visibilidad online.
+```
+
+### Desarrollo Web y Programación CTAs
+
+```
+¿Necesitas una solución de software específica para tu negocio? [Cuéntame qué necesitas](https://marcosramirez.dev/contacto/){:target="_blank"} y lo valoramos juntos.
+```
+
+### Diseño Gráfico CTAs
+
+```
+¿Tu negocio necesita materiales gráficos profesionales sin pagar precios de agencia? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo vemos.
+```
+
+### Seguridad Informática CTAs
+
+```
+¿Tu empresa necesita reforzar su seguridad informática? [Hablamos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 ```
 
 ```
-Si tienes dudas sobre qué tecnología usar en tu empresa, [cuéntame tu situación](https://marcosramirez.info/contacto/){:target="_blank"} y te ayudo a tomar la mejor decisión.
-```
-
-### Software a medida CTAs
-
-```
-¿Necesitas una solución de software específica para tu negocio? [Cuéntame qué necesitas](https://marcosramirez.info/contacto/){:target="_blank"} y lo valoramos juntos.
-```
-
-### Seguridad Informática CTAs (use marcosramirez.dev)
-
-```
-¿Tu empresa necesita reforzar su seguridad informática? [Hablamos](https://marcosramirez.dev/){:target="_blank"}.
+Si gestionas infraestructura y quieres revisar tu postura de seguridad, [cuéntame tu situación](https://marcosramirez.dev/contacto/){:target="_blank"}.
 ```
 
 ```
-Si gestionas infraestructura y quieres revisar tu postura de seguridad, [cuéntame tu situación](https://marcosramirez.dev/){:target="_blank"}.
+¿Necesitas ayuda para evaluar o endurecer la seguridad de tu infraestructura? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
+```
+
+### Consultoría y Asesoría CTAs
+
+```
+¿Tu negocio necesita orientación tecnológica pero no sabes a quién preguntar? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} — cobro por hora (€120.99/h) y sin permanencias.
 ```
 
 ```
-¿Necesitas ayuda para evaluar o endurecer la seguridad de tu infraestructura? [Escríbeme](https://marcosramirez.dev/){:target="_blank"}.
+Si tienes dudas sobre qué tecnología usar en tu empresa, [cuéntame tu situación](https://marcosramirez.dev/contacto/){:target="_blank"} y te ayudo a tomar la mejor decisión.
 ```
 
 ### SOFT CTAs (Tier 2 — single line, low pressure)
 
 ```
-Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 ```
 
 ```
-¿Lo necesitas para tu empresa? [Escríbeme](https://marcosramirez.info/contacto/){:target="_blank"}.
+¿Lo necesitas para tu empresa? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"}.
 ```
 
 ```
-Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.info/contacto/){:target="_blank"}.
+Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.dev/contacto/){:target="_blank"}.
 ```
 
 ---
@@ -210,7 +248,7 @@ Si tu empresa necesita implementar esto, [hablamos](https://marcosramirez.info/c
 
 ## CTA Destinations
 
-- **Security services:** `https://marcosramirez.dev` — use for all Seguridad Informática posts. No `rel="nofollow"` needed (own domain).
-- **All other services:** `https://marcosramirez.info/contacto/` — Verifactu, IA, Software a medida, Consultoría tech.
+All services are on `marcosramirez.dev`. No `rel="nofollow"` needed on any of these (own domain).
 
-When `marcosramirez.dev` expands beyond security: migrate other services progressively.
+- **All services (contact):** `https://marcosramirez.dev/contacto/` — Inteligencia Artificial, Digitalización y Sistemas, Presencia Online, Desarrollo Web y Programación, Diseño Gráfico, Seguridad Informática, Consultoría y Asesoría
+- **Verifactu / free consultation:** `https://marcosramirez.dev/consultoria-gratuita/` — always use this for Verifactu posts, never `/contacto/`
