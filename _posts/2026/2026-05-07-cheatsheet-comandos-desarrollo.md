@@ -9,7 +9,7 @@ authors:
 categories: [Tecnología, Software y Apps]
 tags: [cheatsheet, productividad, desarrollo, comandos, tips, workflow]
 excerpt: "Llevo años manteniendo un archivo de texto plano donde anoto comandos, recordatorios y notas sobre mis proyectos. Empecé con un .txt porque los .md no existían (o yo no sabía que existían), y hoy te explico por qué esta costumbre simple es uno de los mejores trucos de desarrollo que he mantenido décadas. La idea es tener un archivo cheatsheet en la raíz de cada proyecto donde anotes todo lo que no quieres olvidar. Al vivir dentro del proyecto y estar versionado en Git, siempre está ahí cuando lo necesitas. No dependés de aplicaciones externas que puedan desaparecer, no necesitás internet para acceder a tus notas, y cada cambio queda registrado en el historial. En este post te cuento mi experiencia durante más de dos décadas y por qué creo que todo desarrollador debería adoptar esta costumbre."
-image: /assets/img/headers/2026/cheatsheet-comandos-desarrollo-pollinationsai.webp
+image: /assets/img/headers/2026/cheatsheet-comandos-desarrollo-nanobanana.webp
 image_alt: "Captura de pantalla de un archivo de texto con comandos y notas de desarrollo, representando un cheatsheet personal"
 permalink: /:slug/
 description: "Descubre por qué un cheatsheet.txt o .md mejora tu productividad como desarrollador. Una costumbre de más de 20 años con resultados probados."
