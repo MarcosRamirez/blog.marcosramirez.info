@@ -56,7 +56,7 @@ metadata:
 **Value proposition:** "Evaluamos y reforzamos la seguridad de tu infraestructura, con foco en riesgos reales y soluciones prácticas."
 
 ### 8. Consultoría y Asesoría
-**Price:** €120.99/hora (consultoría puntual) · Custom (asesoría continuada)
+**Price:** 125€/hora (consultoría puntual) · desde 200€/mes básico / 450€/mes estándar (asesoría continuada). Ver tarifas completas en https://marcosramirez.dev/tarifas
 **What:** General IT guidance, tech stack evaluation, digitalization roadmap, vendor selection, ongoing advisory. For businesses that have no technical knowledge and need trustworthy advice on everyday tech decisions.
 **Target:** Small local businesses (restaurants, shops, clinics) with zero tech background who don't know who to ask.
 **Value proposition:** "Te ayudo a tomar decisiones tecnológicas correctas sin perder tiempo ni dinero — cobro por hora y sin permanencias."
@@ -212,7 +212,7 @@ Si gestionas infraestructura y quieres revisar tu postura de seguridad, [cuénta
 ### Consultoría y Asesoría CTAs
 
 ```
-¿Tu negocio necesita orientación tecnológica pero no sabes a quién preguntar? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} — cobro por hora (€120.99/h) y sin permanencias.
+¿Tu negocio necesita orientación tecnológica pero no sabes a quién preguntar? [Escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} — cobro por hora (125€/h) y sin permanencias.
 ```
 
 ```
