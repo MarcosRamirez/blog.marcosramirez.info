@@ -15,7 +15,6 @@ excerpt: "Immich es la alternativa de código abierto a Google Photos para gesti
 twitter_description: "Immich: tus fotos en tu servidor, tú controlas los datos."
 permalink: /:slug/
 description: "Immich: alternativa a Google Photos. Tus fotos en tu servidor, sin suscripción. Reconocimiento facial local y backup automático. Descubre más."
-last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %})]*

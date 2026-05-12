@@ -18,7 +18,7 @@ description: "Evita helper scripts en Proxmox: centraliza bases de datos y ahorr
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-En el [post anterior sobre Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
+En el [post anterior sobre Proxmox]({% post_url 2026/2026-05-26-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
 
 ## El encanto de lo fácil
 
@@ -30,7 +30,7 @@ Durante un tiempo, yo estuve implementándolos para probar cosas rápido, e incl
 
 [En mi post sobre Jellyfin]({% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %}) os cuento cómo los helper scripts me asignaron solo 16GB de disco por defecto, y como todo "funciobaba", no me di cuenta hasta que el disco se llenó y los transcodes de 4K empezó a fallar silenciosamente. 
 
-# El problema: El aislamiento de las Bases de Datos
+## El problema: El aislamiento de las Bases de Datos
 
 El mayor inconveniente de estos scripts autoejecutables es, paradójicamente, su mayor virtud: son paquetes cerrados y aislados.
 
@@ -52,7 +52,7 @@ Hacer backups de las bases de datos (un `pg_dump` o `mysqldump` puro) es mucho m
 ### 4. Dificultad para Alta Disponibilidad (HA)
 Cuando cada servicio tiene su propia base de datos incrustada en su contenedor, configurar un entorno de Alta Disponibilidad real se vuelve una pesadilla. Si quieres garantizar que tus datos siempre estén accesibles o evitar caídas, con un servidor central de bases de datos es mucho más sencillo montar un clúster (por ejemplo, con Galera Cluster para MariaDB o Patroni para PostgreSQL) que replique tu información entre varios nodos. De la otra manera, te verías obligado a configurar y mantener un sistema de replicación de datos independiente por cada uno de tus servicios aislados.
 
-# La solución: Centralizar las Bases de Datos
+## La solución: Centralizar las Bases de Datos
 
 La decisión de no usar los helper scripts obedece simplemente a mi estrategia de **centralización de datos**. 
 
@@ -64,6 +64,8 @@ Es cierto que se pierde el factor "magia" y la inmediatez de los scripts, pero s
 
 ***
 
-¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y lo discutimos.
+Compártelo si te ha resultado útil.
+
+¿Te ha pasado algo similar con los helper scripts? ¿Cómo estructuras tus servicios? Deja un comentario con tu experiencia.
 
 Y... hasta aquí por hoy!

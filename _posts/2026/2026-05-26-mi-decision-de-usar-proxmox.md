@@ -15,7 +15,6 @@ excerpt: "Explico por qué elegí Proxmox como plataforma de virtualización par
 twitter_description: "Por qué elijo Proxmox para mi Home Lab: virtualización seria."
 permalink: /:slug/
 description: "Mi decisión de usar Proxmox para virtualización en Home Lab sobre ESXi, Hyper-V o Docker. Ventajas de LXC vs VMs y por qué centralizo bases de datos. Descubre más."
-last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

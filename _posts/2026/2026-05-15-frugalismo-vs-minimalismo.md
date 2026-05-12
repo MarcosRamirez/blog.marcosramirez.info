@@ -7,7 +7,7 @@ authors:
   - "Marcos Ramírez"
   - "Lucía"
 categories:
-  - Personal
+  - Finanzas Personales
   - Ahorro e Inversión
 tags: [coste-por-uso, fire, finanzas-personales, retiro-temprano, estilo-de-vida]
 image: /assets/img/headers/2026/frugalismo-vs-minimalismo-nanobanana.webp
@@ -17,7 +17,6 @@ toc: true
 twitter_description: "Frugalismo vs Minimalismo: aprende la diferencia y cómo el frugalismo puede llevarte a la independencia financiera. Guía práctica."
 permalink: /:slug/
 description: "Frugalismo vs minimalismo: aplica el coste por uso y la regla del 4% para la independencia financiera. Estrategias FIRE y hábitos de ahorro explicados."
-last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
@@ -82,10 +81,6 @@ Pero un día hice mal de números:
 A partir de ahí cambié mi mentalidad: ahora calculo el **coste por uso/año**. Si ese martillo de 50€ me va a durar 20 años y lo usaré 100 veces, me sale a 0,50€ por uso. ¡Es un profit! El mismo criterio aplico a todo: desde zapatillas hasta software.
 
 ---
-
-¿Has empezado a aplicar la frugalidad en tu vida? Déjá un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y me cuentas.
-
-Y... ¡hasta aquí por hoy!
 
 ## Principios Básicos del Frugalismo
 
@@ -178,6 +173,8 @@ No. El tacaño no gasta ni cuando lo necesita, el frugalista invierte en lo nece
 
 El frugalismo te da algo que el consumismo nunca podrá darte: **libertad**. Al desvincularte de la necesidad de gastar para ser feliz, recuperas el control de tu vida y tu tiempo. Y el tiempo, a diferencia del dinero, no se puede recuperar.
 
-¿Has comenzado tu proceso hacia la frugalidad? Compártelo en los comentarios o escríbeme con tus dudas: [https://marcosramirez.dev/contacto/](https://marcosramirez.dev/contacto/).
+Compártelo si te ha resultado útil.
+
+¿Has comenzado tu proceso hacia la frugalidad? Deja un comentario con tu experiencia.
 
 Y... ¡hasta aquí por hoy!

@@ -7,8 +7,8 @@ authors:
   - Marcos Ramírez
 categories:
   - Personal
-tags:
   - Reflexiones y Opinión
+tags:
   - escritura
   - herramientas-ia
 image: /assets/img/headers/2026/como-la-inteligencia-artificial-me-devolvio-la-ilusion-por-escribir-nanobanana.webp

@@ -182,7 +182,7 @@ Si te interesa esta configuración, [escríbeme](https://marcosramirez.dev/conta
 
 ### Elige Evernote si:
 
-- Mainly necesitas tomar notas
+- Solo necesitas tomar notas
 - No te importa pagar por funcionalidades básicas
 
 ***

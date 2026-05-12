@@ -7,8 +7,8 @@ authors:
   - Marcos Ramírez
 categories:
   - Personal
-tags:
   - Reflexiones y Opinión
+tags:
   - programación
   - herramientas-ia
 image: /assets/img/headers/2026/como-la-inteligencia-artificial-me-devolvio-la-ilusion-por-programar-nanobanana.webp
@@ -97,7 +97,5 @@ Y eso, después de todo este tiempo, no tiene precio.
 La Inteligencia Artificial no me ha robado mi trabajo. Me lo ha devuelto.
 
 Compártelo si te ha resultado útil.
-
-Si lo necesitas a nivel profesional en tu empresa, [puedo ayudarte](https://marcosramirez.dev/contacto/){:target="_blank"}.
 
 Y... hasta aquí por hoy!

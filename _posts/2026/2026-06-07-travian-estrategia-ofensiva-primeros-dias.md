@@ -163,7 +163,7 @@ Para terminar, aquí está mi checklist de la primera semana para una cuenta ofe
 
 La clave es la consistencia: cada día cuenta y no puedes permitirte días sin actividad si quieres competir en un servidor activo.
 
-<section>
+<section id="faq">
 
 ## Preguntas frecuentes
 

@@ -21,7 +21,6 @@ toc: true
 pin: false
 twitter_description: "Travian III: cómo expandir tu zona de granjeo más allá del 7x7 usando solo caballería. Consejos para encontrar inactivos y evitar riesgos."
 description: "Aprende a expandir tu zona de granjeo más allá del 7x7 en Travian. Descubre por qué usar solo caballería a largas distancias y los riesgos de ataques."
-last_modified_at: 2026-05-02 10:00:00 +0200
 permalink: /:slug/
 ---
 

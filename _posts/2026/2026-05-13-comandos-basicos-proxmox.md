@@ -15,12 +15,11 @@ excerpt: "Aprende a usar los comandos pct y qm para gestionar contenedores LXC y
 twitter_description: "Domina los comandos pct y qm de Proxmox: gestión completa de LXC y VMs vía CLI para tu Home Lab."
 description: "Aprende a usar pct y qm en Proxmox. Comandos para gestionar LXC, VMs, red, discos y bind mounts vía CLI en tu infraestructura de virtualización."
 permalink: /:slug/
-last_modified_at: 2026-05-01 22:13:49 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})
 
-Como comenté en mi [post sobre por qué elegí Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}), prefiero gestionar mi infraestructura vía CLI en lugar de depender de la interfaz web. En este post te comparto los comandos esenciales que uso día a día en mi [Proxmox VE](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}.
+Como comenté en mi [post sobre por qué elegí Proxmox]({% post_url 2026/2026-05-26-mi-decision-de-usar-proxmox %}), prefiero gestionar mi infraestructura vía CLI en lugar de depender de la interfaz web. En este post te comparto los comandos esenciales que uso día a día en mi [Proxmox VE](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}.
 
 ## Gestión de contenedores LXC con `pct`
 

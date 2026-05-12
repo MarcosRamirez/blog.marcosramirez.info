@@ -7,7 +7,7 @@ authors:
 date: 2026-07-20 08:30:00 +0200
 image: /assets/img/headers/2026/opencode-asistente-codigo-nanobanana.webp
 image_alt: "Logo de OpenCode en terminal con código de programación"
-categories: [Tecnología]
+categories: [Tecnología, Software y Apps]
 tags: [código-abierto, cli, herramientas, productividad, desarrollo, terminal]
 pin: false
 toc: true
@@ -118,6 +118,8 @@ Con herramientas propietarias:
 
 ***
 
-¿Usas alguna herramienta de código abierto para tu día a día? Deja un comentario o [escríbeme](https://marcosramirez.dev/contacto/){:target="_blank"} y me cuentas.
+Compártelo si te ha resultado útil.
+
+¿Usas alguna herramienta de código abierto para tu día a día? Deja un comentario con tu experiencia.
 
 Y... hasta aquí por hoy!

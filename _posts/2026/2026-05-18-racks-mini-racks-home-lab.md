@@ -15,7 +15,6 @@ excerpt: "Guía completa sobre racks y mini racks para tu Home Lab según espaci
 twitter_description: "Guía de racks y mini racks para Home Lab. Opciones para cada espacio y presupuesto."
 permalink: /:slug/
 description: "Elige el rack ideal para tu Home Lab según espacio y presupuesto. Mini racks, de pared o 42U. Comparativa de modelos, precios y dónde comprar."
-last_modified_at: 2026-05-02 08:00:00 +0200
 ---
 
 ![{{ page.image_alt }}]({{ page.image }})

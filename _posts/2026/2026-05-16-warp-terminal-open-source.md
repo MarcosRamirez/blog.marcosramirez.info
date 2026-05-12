@@ -20,7 +20,7 @@ permalink: /:slug/
 description: "Warp abre su código fuente bajo AGPL: cliente libre, Oz propietario. Análisis honesto de lo que cambia para los devs que usamos Warp a diario. Descúbrelo."
 ---
 
-![{{ page.image_alt }}]({{ page.image }}){:alt="Terminal Warp con código fuente abierto en pantalla de desarrollador"}
+![{{ page.image_alt }}]({{ page.image }})
 
 Llevo más de un año usando [Warp](https://app.warp.dev/referral/PNMP8M){:target="_blank" rel="sponsored nofollow noopener"} como terminal principal. No fue una decisión meditada: lo probé, me acostumbré a sus bloques de comandos, a cómo puedes seleccionar la salida de un proceso como si fuera texto normal en un editor y... ya no volví atrás. Es uno de esos programas que cambia cómo trabajas sin que te des cuenta.
 
@@ -47,7 +47,7 @@ Este punto es importante y vuelvo a él en el análisis.
 
 ## Por qué uso Warp a diario
 
-Antes del análisis, contexto: uso Warp como terminal principal en macOS para todo el trabajo de desarrollo. [Claude Code](https://claude.ai/code){:target="_blank" rel="nofollow noopener"}, git, Docker, SSH a mis contenedores LXC en [Proxmox]({% post_url 2026/2026-05-11-mi-decision-de-usar-proxmox %}){:target="_blank"}... todo pasa por Warp.
+Antes del análisis, contexto: uso Warp como terminal principal en macOS para todo el trabajo de desarrollo. [Claude Code](https://claude.ai/code){:target="_blank" rel="nofollow noopener"}, git, Docker, SSH a mis contenedores LXC en [Proxmox]({% post_url 2026/2026-05-26-mi-decision-de-usar-proxmox %}){:target="_blank"}... todo pasa por Warp.
 
 Lo que me tiene enganchado:
 
@@ -121,7 +121,7 @@ Si valoras la libertad total y el control completo, Ghostty o iTerm2 son más co
 
 Yo sigo con Warp. No porque sea perfecto, sino porque todavía no he encontrado nada que replique la fluidez de sus bloques de comandos y el historial inteligente.
 
-<section>
+<section id="faq">
 
 ## Preguntas frecuentes
 
@@ -159,6 +159,8 @@ Depende del flujo de trabajo. Ghostty es más rápido, minimalista y completamen
 
 *Este artículo contiene enlaces de afiliado.*
 
-¿Cambiarás a Warp ahora que es open source, o ya lo usabas? Déjame un comentario abajo.
+Compártelo si te ha resultado útil.
+
+¿Cambiarás a Warp ahora que es open source, o ya lo usabas? Deja un comentario con tu experiencia.
 
 Y... hasta aquí por hoy!
