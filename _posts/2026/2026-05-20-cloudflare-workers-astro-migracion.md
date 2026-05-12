@@ -28,7 +28,7 @@ permalink: /:slug/
 
 Duró una semana.
 
-Antes de entrar en materia, un dato de contexto relevante: Cloudflare adquirió Astro a principios de 2026. En teoría, eso debería significar una integración perfecta entre el framework y la plataforma de despliegue. En la práctica, cuando hice esta migración, la documentación de Astro + Cloudflare Workers en modo SSR era penosa: desactualizada, con ejemplos para versiones antiguas, y con lagunas importantes sobre comportamientos específicos del adaptador. Lo que sí funcionó fue el asistente de Inteligencia Artificial de Cloudflare, que conoce su propio runtime mejor que la documentación escrita y fue el que me sacó del atasco definitivo. Apunte mental: cuando la documentación falla, el asistente integrado de la plataforma vale más que veinte posts de Stack Overflow.
+Antes de entrar en materia, un dato de contexto relevante: Cloudflare adquirió Astro a principios de 2026. En teoría, eso debería significar una integración perfecta entre el framework y la plataforma de despliegue. En la práctica, cuando hice esta migración, la documentación de Astro + Cloudflare Workers en modo SSR era penosa: desactualizada, con ejemplos para versiones antiguas, y con lagunas importantes sobre comportamientos específicos del adaptador. Lo que sí funcionó fue el asistente de Inteligencia Artificial de [Cloudflare](https://developers.cloudflare.com/){:target="_blank" rel="nofollow noopener"}. No el de documentación general —que también existe—, sino el que está integrado en el propio panel de desarrolladores y conoce el estado actual del runtime, las versiones del adaptador y los comportamientos específicos de Workers. Le describí el error exacto, el wrangler.jsonc que tenía, y la versión del adaptador. Me devolvió la config correcta en un mensaje. Lo que dos horas de documentación y GitHub issues no resolvieron, el asistente lo resolvió en dos minutos. Apunte mental: cuando la documentación falla, el asistente integrado de la plataforma vale más que veinte posts de Stack Overflow. En este caso, literalmente.
 
 En cuanto añadí un agente de voz a la web —del que hablo en detalle en el post [De VAPI a Retell: la migración que se llevó media arquitectura]({% post_url 2026/2026-05-21-de-vapi-a-retell-migracion-agente-de-voz %}){:target="_blank"}— necesité una ruta de API en el servidor para generar tokens de acceso de forma segura. Y ahí empezó la guerra.
 
@@ -90,7 +90,12 @@ Error en el deploy: **"`ASSETS` is a reserved binding name"**. Cloudflare Pages 
 
 ## Intento 3: wrangler.toml + .assetsignore
 
-Cambio de formato: de `wrangler.json` a `wrangler.toml`. Añado un fichero `.assetsignore` para evitar que los worker files se suban como assets estáticos:
+Cambio de formato: de `wrangler.json` a `wrangler.toml`. Añado un fichero `public/.assetsignore` para evitar que los worker files se suban como assets estáticos de Pages:
+
+```text
+_worker.js
+_routes.json
+```
 
 ```toml
 name = "marcosramirez-dev"
@@ -111,6 +116,21 @@ npm install @astrojs/cloudflare@11.2.0
 Diferente error. El build rompía por incompatibilidad de versiones entre el adaptador y Astro 6.3.
 
 Deshaciendo el downgrade.
+
+## Intento 5: output hybrid
+
+Mientras seguía buscando, encontré referencias a `output: 'hybrid'` en la documentación de Astro —un modo que pre-renderiza todo por defecto y solo ejecuta SSR en las páginas que lo pidan explícitamente con `prerender = false`. Parecía la solución perfecta: la mayoría del sitio estático, solo la ruta de la API en SSR.
+
+```javascript
+export default defineConfig({
+  output: 'hybrid', // ← spoiler: no existe en Astro 6
+  adapter: cloudflare({ ... })
+})
+```
+
+Error inmediato en el build: `output: 'hybrid'` fue eliminado en Astro 6. Lo que antes era `hybrid` se consigue ahora con `output: 'server'` + `export const prerender = true` en las páginas que quieres estáticas. La documentación que encontré era de Astro 4 o 5.
+
+Deshaciendo.
 
 ## La decisión: olvidar Pages, ir a Workers
 
@@ -210,6 +230,7 @@ Resumen de configuraciones que rotaron y no funcionaron:
 - ❌ `@astrojs/cloudflare@11.2.0` con Astro 6.3 — incompatible
 - ❌ Campo `main` en `wrangler.jsonc` — causa error de build con el adaptador de Astro
 - ❌ Campo `routes` en `wrangler.jsonc` — conflicto con el dominio custom configurado en el dashboard de Cloudflare
+- ❌ `output: 'hybrid'` en `astro.config.mjs` — eliminado en Astro 6, la documentación que lo menciona es de versiones anteriores
 
 ## Lo que sí funciona
 
