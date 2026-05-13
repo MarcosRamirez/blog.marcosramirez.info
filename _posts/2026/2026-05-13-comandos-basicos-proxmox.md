@@ -19,7 +19,7 @@ permalink: /:slug/
 
 ![{{ page.image_alt }}]({{ page.image }})
 
-Como comenté en mi [post sobre por qué elegí Proxmox]({% post_url 2026/2026-05-26-mi-decision-de-usar-proxmox %}), prefiero gestionar mi infraestructura vía CLI en lugar de depender de la interfaz web. En este post te comparto los comandos esenciales que uso día a día en mi [Proxmox VE](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}.
+Como comenté en mi [post sobre por qué elegí Proxmox]({% post_url 2026/2026-05-13-mi-decision-de-usar-proxmox %}), prefiero gestionar mi infraestructura vía CLI en lugar de depender de la interfaz web. En este post te comparto los comandos esenciales que uso día a día en mi [Proxmox VE](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"}.
 
 ## Gestión de contenedores LXC con `pct`
 

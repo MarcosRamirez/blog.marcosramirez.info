@@ -18,7 +18,7 @@ description: "Evita helper scripts en Proxmox: centraliza bases de datos y ahorr
 ---
 ![{{ page.image_alt }}]({{ page.image }})
 
-En el [post anterior sobre Proxmox]({% post_url 2026/2026-05-26-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
+En el [post anterior sobre Proxmox]({% post_url 2026/2026-05-13-mi-decision-de-usar-proxmox %}) os conté por qué elegí [Proxmox](https://www.proxmox.com/){:target="_blank" rel="nofollow noopener"} como plataforma de virtualización. Ahora voy a explicar por qué huyo de los "helper scripts" que prometen instalar todo en un clic.
 
 ## El encanto de lo fácil
 
