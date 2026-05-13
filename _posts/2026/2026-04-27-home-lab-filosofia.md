@@ -35,7 +35,7 @@ Posts publicados de la serie:
 - 23 de abril de 2026: [Cómo resolví los cortes de Jellyfin en 4K: disco lleno y más]({% post_url 2026/2026-04-23-jellyfin-cortes-4k-disco %})
 - 25 de abril de 2026: [Solucionar VAAPI en Jellyfin LXC sin privilegios de Proxmox]({% post_url 2026/2026-04-25-jellyfin-vaapi-fix-proxmox-lxc %})
 - 27 de abril de 2026: [N8N: Tu automatización bajo tu control, sin pagos mensuales]({% post_url 2026/2026-04-27-n8n-automatizacion %})
-- 5 de mayo de 2026: [⚠️ CVE-2026-31431: escalada de privilegios en el kernel Linux]({% post_url 2026/2026-05-05-cve-2026-31431-linux-kernel %})
+- 5 de mayo de 2026: [⚠️ CVE-2026-31431: escalada de privilegios en el kernel Linux](/cve-2026-31431-linux-kernel/)
 
 Próximos posts de la serie (fecha de publicación):
 

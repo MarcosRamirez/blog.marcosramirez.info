@@ -4,7 +4,7 @@ slug: mi-decision-de-usar-proxmox
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-05-13 07:30:00 +0200
+date: 2026-05-25 07:30:00 +0200
 image: /assets/img/headers/2026/mi-decision-de-usar-proxmox-nanobanana.webp
 image_alt: "Interfaz de Proxmox VE mostrando máquinas virtuales y contenedores, representando la virtualización híbrida"
 categories: [Tecnología, Home Lab, Redes e Infraestructura]
@@ -111,7 +111,7 @@ Todo esto con control total sobre dónde está cada cosa. Sin dependencias ocult
 
 **Proxmox** gana en relación calidad-precio: código abierto, sin licencias, UI web completa, soporta tanto VMs como contenedores ligeros (LXC). Docker standalone es más simple pero carece de gestión centralizada, snapshots y alta disponibilidad.
 
-En el [post dedicado a los helper scripts]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo. Eso sí, en ocasiones utilizo los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" rel="nofollow noopener"} para agilizar instalaciones específicas, siempre revisando previamente lo que ejecutan.
+En el [post dedicado a los helper scripts](/no-uso-proxmox-helper-scripts/) os cuento por qué huyo de los scripts que prometen instalar todo en un clic y por qué creo que esta aproximación manual es mejor a largo plazo. Eso sí, en ocasiones utilizo los [Proxmox Helper Scripts](https://community-scripts.org/){:target="_blank" rel="nofollow noopener"} para agilizar instalaciones específicas, siempre revisando previamente lo que ejecutan.
 
 Además, estoy preparando una mini guía/tutorial de Proxmox donde compartiré mi flujo de trabajo completo: desde la gestión vía CLI con `pct` y `qm`, hasta la estructura de servicios, bases de datos centralizadas y buenas prácticas para Home Lab.
 
