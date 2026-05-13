@@ -47,7 +47,7 @@ Este punto es importante y vuelvo a él en el análisis.
 
 ## Por qué uso Warp a diario
 
-Antes del análisis, contexto: uso Warp como terminal principal en macOS para todo el trabajo de desarrollo. [Claude Code](https://claude.ai/code){:target="_blank" rel="nofollow noopener"}, git, Docker, SSH a mis contenedores LXC en [Proxmox]({% post_url 2026/2026-05-25-mi-decision-de-usar-proxmox %}){:target="_blank"}... todo pasa por Warp.
+Antes del análisis, contexto: uso Warp como terminal principal en macOS para todo el trabajo de desarrollo. [Claude Code](https://claude.ai/code){:target="_blank" rel="nofollow noopener"}, git, Docker, SSH a mis contenedores LXC en [Proxmox]({% post_url 2026/2026-05-13-mi-decision-de-usar-proxmox %}){:target="_blank"}... todo pasa por Warp.
 
 Lo que me tiene enganchado:
 

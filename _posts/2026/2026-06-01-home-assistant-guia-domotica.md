@@ -21,7 +21,7 @@ description: "Automatiza tu casa con Home Assistant: 2.000+ integraciones, dashb
 
 *[Este post forma parte de la serie [Home Lab]({% post_url 2026/2026-04-27-home-lab-filosofia %}){:target="_blank" rel="nofollow noopener"}. Si aún no sabes qué es un Home Lab, échale un vistazo al post sobre mi filosofía]*
 
-Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}){:target="_blank" rel="nofollow noopener"} bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-25-mi-decision-de-usar-proxmox %}){:target="_blank" rel="nofollow noopener"} virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}){:target="_blank" rel="nofollow noopener"}. Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" rel="nofollow noopener"}.
+Si has leído los posts anteriores de la serie, ya sabes que tengo [AdGuard Home]({% post_url 2026/2026-05-18-adguard-home-bloqueador-publicidad %}){:target="_blank" rel="nofollow noopener"} bloqueando publicidad y rastreadores a nivel de red, [Proxmox]({% post_url 2026/2026-05-13-mi-decision-de-usar-proxmox %}){:target="_blank" rel="nofollow noopener"} virtualizando mis servicios, y las bases de datos [centralizadas]({% post_url 2026/2026-05-25-no-uso-proxmox-helper-scripts %}){:target="_blank" rel="nofollow noopener"}. Hoy te traigo otro servicio estrella: [Home Assistant](https://www.home-assistant.io/){:target="_blank" rel="nofollow noopener"}.
 
 ## Qué es Home Assistant
 
@@ -102,7 +102,7 @@ Home Assistant funciona **localmente**. Mi servidor está en casa, mi red está 
 
 ## Mi setup
 
-En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026/2026-05-25-mi-decision-de-usar-proxmox %}){:target="_blank" rel="nofollow noopener"}, con:
+En mi caso, Home Assistant corre en una **máquina virtual** con Home Assistant OS dentro de [Proxmox]({% post_url 2026/2026-05-13-mi-decision-de-usar-proxmox %}){:target="_blank" rel="nofollow noopener"}, con:
 
 - **2 vCPU**
 - **4GB de RAM**
