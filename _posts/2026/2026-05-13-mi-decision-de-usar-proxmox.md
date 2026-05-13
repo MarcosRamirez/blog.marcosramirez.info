@@ -4,7 +4,7 @@ slug: mi-decision-de-usar-proxmox
 authors:
   - "Marcos Ramírez"
   - "Lucía"
-date: 2026-05-26 08:30:00 +0200
+date: 2026-05-13 07:30:00 +0200
 image: /assets/img/headers/2026/mi-decision-de-usar-proxmox-nanobanana.webp
 image_alt: "Interfaz de Proxmox VE mostrando máquinas virtuales y contenedores, representando la virtualización híbrida"
 categories: [Tecnología, Home Lab, Redes e Infraestructura]
